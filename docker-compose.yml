@@ -19,7 +19,7 @@ services:
       MYSQL_USER: tcdk
       MYSQL_PASSWORD: 167@Trungkinh
     volumes:
-      - db_data:/var/lib/mysql
+      - tcdk_db_data:/var/lib/mysql
 
 volumes:
   tcdk_db_data:
