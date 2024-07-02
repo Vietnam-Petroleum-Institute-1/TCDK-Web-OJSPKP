@@ -1,16 +1,16 @@
 version: '3.8'
 
 services:
-  tcdk_php:
+  php:
     build: .
     ports:
       - "6789:8000"
     volumes:
       - .:/var/www/html
     depends_on:
-      - tcdk_web_db
+      - db
 
-  tcdk_web_db:
+  db:
     image: mysql:latest
     restart: always
     environment:
