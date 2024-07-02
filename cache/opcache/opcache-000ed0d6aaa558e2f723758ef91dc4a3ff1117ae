@@ -1,0 +1,90 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'emails.submissionAck.subject' => 'Bekräftelse på mottaget bidrag',
+      'emails.submissionAck.body' => '{$recipientName}:<br />
+<br />
+Tack för att du har skickat in manuskriptet &quot;{$submissionTitle}&quot; till {$contextName}. I det publiceringssystem vi använder har du möjlighet att följa dess väg i den redaktionella processen genom att logga in på tidskriftens webbplats:<br />
+<br />
+Bidragets URL: {$submissionUrl}<br />
+Användarnamn: {$recipientUsername}<br />
+<br />
+Om du har några frågor, vänligen kontakta mig. Tack för att du har valt att skicka ditt bidrag till den här tidskriften.<br />
+<br />
+{$contextSignature}',
+      'emails.reviewAck.subject' => 'Bekräftelse på granskning av artikel',
+      'emails.reviewAck.body' => '{$recipientName}:<br />
+<br />
+Tack för att du genomfört granskningen av bidraget &quot;{$submissionTitle}&quot; för {$contextName}. Vi uppskattar ditt arbete din roll i att bibehålla tidskriftens kvalitet.',
+      'emails.editorDecisionSendToExternal.subject' => 'Redaktörsbeslut',
+      'emails.editorDecisionSendToExternal.body' => '{$authors}:<br />
+<br />
+Vi har fattat ett beslut angående ditt bidrag till {$contextName}, &quot;{$submissionTitle}&quot;.<br />
+<br />
+Vårt beslut är att: Skicka till granskning<br />
+<br />
+Bidragets URL: {$submissionUrl}',
+      'emails.editorDecisionSendToProduction.subject' => 'Redaktörsbeslut',
+      'emails.editorDecisionSendToProduction.body' => '{$authors}:<br />
+<br />
+Redigeringen av ditt bidrag &quot;{$submissionTitle}&quot; är färdig. Vi skickar det nu vidare till produktion.<br />
+<br />
+Bidragets URL: {$submissionUrl}',
+      'emails.editorDecisionRevisions.subject' => 'Redaktörsbeslut',
+      'emails.editorDecisionRevisions.body' => '{$authors}:<br />
+<br />
+Vi har fattat ett beslut angående ditt bidrag till {$contextName}, &quot;{$submissionTitle}&quot;.<br />
+<br />
+Vårt beslut är att: Bearbetning krävs',
+      'emails.editorDecisionResubmit.subject' => 'Redaktörsbeslut',
+      'emails.editorDecisionResubmit.body' => '{$authors}:<br />
+<br />
+Vi har fattat ett beslut angående ditt bidrag till {$contextName}, &quot;{$submissionTitle}&quot;.<br />
+<br />
+Vårt beslut är att: Skicka in igen för ny granskning',
+      'emails.editorDecisionDecline.subject' => 'Redaktörsbeslut',
+      'emails.editorDecisionDecline.body' => '{$authors}:<br />
+<br />
+Vi har fattat ett beslut angående ditt bidrag till {$contextName}, &quot;{$submissionTitle}&quot;.<br />
+<br />
+Vårt beslut är att: Refusera bidrag',
+      'emails.editorRecommendation.subject' => 'Redaktörsrekommendation',
+      'emails.editorRecommendation.body' => '{$editors}:<br />
+<br />
+Rekommendationen angående bidraget &quot;{$submissionTitle}&quot; till {$contextName} är: {$recommendation}',
+      'emails.copyeditRequest.subject' => 'Förfrågan om manusredigering',
+      'emails.copyeditRequest.body' => '{$recipientName}:<br />
+<br />
+Jag skulle vilja be dig om att genomföra manusredigering av &quot;{$submissionTitle}&quot; för {$contextName} genom att gå igenom följande steg:<br />
+1. Klicka på Bidragets URL nedan.<br />
+2. Öppna samtliga filer tillgängliga under Utkastfiler och manusredigera dem. Skriv i Manusredigeringsdiskussioner vid behov.<br />
+3. Spara manusredigerade filer och ladda upp under Manusredigerade-panelen.<br />
+4. Meddela Redaktören att samtliga filer har förberetts och att Produktionsprocessen kan påbörjas.<br />
+<br />
+{$contextName} URL: {$contextUrl}<br />
+Bidragets URL: {$submissionUrl}<br />
+Användarnamn: {$recipientUsername}',
+      'emails.editorDecisionInitialDecline.subject' => 'Redaktörsbeslut',
+      'emails.editorDecisionInitialDecline.body' => '
+			{$authors}:<br />
+<br />
+Vi har fattat ett beslut angående ditt bidrag till {$contextName}, &quot;{$submissionTitle}&quot;.<br />
+<br />
+Vårt beslut är att: Refusera bidrag',
+      'emails.discussion.subject' => 'Ett meddelande angående {$contextName}',
+      'emails.discussion.body' => 'Skriv in ditt meddelande.',
+      'emails.reviewConfirm.subject' => 'Accepterar granskningsuppdrag',
+      'emails.reviewConfirm.body' => 'Redaktörer:<br />
+<br />
+Jag har möjlighet och åtar mig gärna uppdraget att granska bidraget &quot;{$submissionTitle}&quot; för {$contextName}. Tack för att ni tänkte på mig. Jag kommer att ha granskningen färdig till deadline {$reviewDueDate}, om inte förr.<br />
+<br />
+{$senderName}',
+      'emails.submissionAckNotAuthor.subject' => 'Bekräftelse på mottaget bidrag',
+      'emails.submissionAckNotAuthor.body' => '<p>{$recipientName},</p><p>Du har angivits som medförfattare till {$contextName}. {$submitterName} skickade med följande detaljer:</p><p>{$submissionTitle}<br>{$authorsWithAffiliation}</p><p>Kontakta gärna oss om detta behöver korrigeras, eller om du inte vill vara angiven som medförfattare till detta bidrag.</p><p>Vänliga hälsningar,</p>{$contextSignature}',
+    ),
+  ),
+);

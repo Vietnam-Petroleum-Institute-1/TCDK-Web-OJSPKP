@@ -1,0 +1,34 @@
+<?php $exp = 1751345595; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'section.default.abbrev' => 'ART',
+      'default.groups.plural.manager' => 'Aldizkariaren zuzendariak',
+      'default.groups.plural.editor' => 'Aldizkariaren editoreak',
+      'default.groups.name.guestEditor' => 'Editore gonbidatua',
+      'default.groups.plural.guestEditor' => 'Editore gonbidatuak',
+      'default.groups.abbrev.editor' => 'EDIT',
+      'default.groups.abbrev.guestEditor' => 'EDITG',
+      'default.groups.name.sectionEditor' => 'Ataleko editorea',
+      'default.groups.abbrev.sectionEditor' => 'ATEDIT',
+      'default.groups.name.subscriptionManager' => 'Harpidetzen arduraduna',
+      'default.genres.transcripts' => 'Transkripzioak',
+      'default.genres.dataAnalysis' => 'Datu-analisiak',
+      'default.genres.dataSet' => 'Datu-sorta',
+      'default.genres.sourceTexts' => 'Iturri-testuak',
+      'default.groups.name.externalReviewer' => 'Ebaluatzailea',
+      'default.groups.plural.externalReviewer' => 'Ebaluatzaileak',
+      'default.groups.abbrev.externalReviewer' => 'EBAL',
+      'section.default.title' => 'Artikuluak',
+      'default.genres.article' => 'Artikuluaren testua',
+      'default.groups.name.manager' => 'Aldizkariaren zuzendaria',
+      'default.groups.abbrev.manager' => 'ZUZ',
+      'default.groups.name.editor' => 'Aldizkariaren editorea',
+      'default.groups.plural.sectionEditor' => 'Ataleko editorea',
+      'default.groups.plural.subscriptionManager' => 'Harpidetzen arduradunak',
+    ),
+  ),
+);

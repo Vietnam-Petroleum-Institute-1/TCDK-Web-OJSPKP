@@ -1,0 +1,30 @@
+<?php $exp = 1751345599; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=1; plural=0;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.staticPages.displayName' => '静态页面插件',
+      'plugins.generic.staticPages.description' => '该插件允许管理静态内容。',
+      'plugins.generic.staticPages.staticPages' => '静态页面',
+      'plugins.generic.staticPages.pageTitle' => '标题',
+      'plugins.generic.staticPages.content' => '内容',
+      'plugins.generic.staticPages.path' => '路径',
+      'plugins.generic.staticPages.requirement.tinymce' => '<strong>为了能够添加/编辑内容必须安装 TinyMCE 插件。</strong>',
+      'plugins.generic.staticPages.editAddContent' => '编辑/添加内容',
+      'plugins.generic.staticPages.addStaticPage' => '添加静态页面',
+      'plugins.generic.staticPages.addNewPage' => '添加新页面',
+      'plugins.generic.staticPages.editStaticPage' => '编辑静态页面',
+      'plugins.generic.staticPages.noneCreated' => '未创建静态页面。',
+      'plugins.generic.staticPages.settingInstructions' => '下面的表显示所有您创建的静态页面。您可以使用右侧的链接来编辑或删除页面。',
+      'plugins.generic.staticPages.editInstructions' => '使用下面的表单来添加/编辑页面内容。',
+      'plugins.generic.staticPages.pathRegEx' => '路径字段只包含字母和 \'.\'，\'/\'，\'-\'以及\'_\'。',
+      'plugins.generic.staticPages.viewInstructions' => '<p>此页面可在：<blockquote>{$pagesPath}</blockquote>…… %PATH% 是上面输入的路径。<strong>注意：</strong>页面路径不能相同。使用系统内置路径可能会导致您不能使用一些重要功能。</p>',
+      'plugins.generic.staticPages.duplicatePath' => '该路径已经被其它静态页面使用。',
+      'plugins.generic.staticPages.pageSaved' => '页面已保存。',
+      'plugins.generic.staticPages.pageDeleted' => '页面已删除。',
+      'plugins.generic.staticPages.noneExist' => '没有页面生成。',
+    ),
+  ),
+);

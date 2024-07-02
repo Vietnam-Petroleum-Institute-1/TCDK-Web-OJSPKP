@@ -1,0 +1,21 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n > 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.tinymce.variables.supportContactPhone' => 'Աջակցության կոնտակտային հեռախոսը ("{$value}")',
+      'plugins.generic.tinymce.variables.supportContactEmail' => 'Աջակցության կոնտակտային էլ․ փոստը ("{$value}")',
+      'plugins.generic.tinymce.variables.supportContactName' => 'Աջակցության կոնտակտային անունը ("{$value}")',
+      'plugins.generic.tinymce.variables.principalContactEmail' => 'Հիմնական կոնտակտային էլ․ փոստը ("{$value}")',
+      'plugins.generic.tinymce.variables.principalContactName' => 'Հիմնական կոնտակտային անունը ("{$value}")',
+      'plugins.generic.tinymce.pkpTags.description' => 'Դուք կարող եք տեղադրել հետևյալ պիտակներից որևէ մեկը:',
+      'plugins.generic.tinymce.pkpTags.noneAvailable' => 'Այս դաշտի համար պիտակներ չկան:',
+      'plugins.generic.tinymce.pkpTags.listTags' => 'Ընտրեք տէգը',
+      'plugins.generic.tinymce.settings' => 'Կարգավորումներ',
+      'plugins.generic.tinymce.description' => 'Այս փլագինը հնարավորություն է տալիս WYSIWYG-ին խմբագրել տեքստային տարածքները՝ օգտագործելով <a href="https://www.tiny.cloud/" target="_blank">TinyMCE</a> բովանդակության խմբագրիչը:',
+      'plugins.generic.tinymce.name' => 'TinyMCE փլագին',
+    ),
+  ),
+);

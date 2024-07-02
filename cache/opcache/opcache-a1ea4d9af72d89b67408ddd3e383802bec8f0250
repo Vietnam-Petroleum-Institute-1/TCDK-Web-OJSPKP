@@ -1,0 +1,29 @@
+<?php $exp = 1751345594; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.importexport.datacite.displayName' => 'Plugin pro export/registraci DataCite',
+      'plugins.importexport.datacite.description' => 'Exportovat, nebo registrovat číslo, článek, sazebnici, nebo doplňkový soubor ve formátu DataCite.',
+      'plugins.importexport.datacite.settings.description' => 'Nakonfigurujte, prosím, plugin pro DataCite export před jeho prvním použitím.',
+      'plugins.importexport.datacite.intro' => '
+		Pokud chcete registrovat čísla DOI v rámci DataCite, kontaktujte, prosím Managing Agenta pomocí odkazu <a href="https://datacite.org/contact.html" target="_blank">Domovská stránka DataCite
+		</a>, který vás odkáže na vašeho lokálního správce členů DataCite. Jakmile navážete vztah s členskou organizací, održíte přístupové údaje pro DataCite služby pro čísla (DOIs) a nahrávání příslušných metadat. Pokud nemáte vlastní login a heslo, budete mít stále možnost vyexportovat DOI informace pro DataCite v XML formátu. Uvědomte si, prosím, že heslo je ukládáno jako prostý text, tedy nezakódované kvůli požadavkům služeb DataCite.
+	',
+      'plugins.importexport.datacite.settings.form.username' => 'Uživatel (symbol)',
+      'plugins.importexport.datacite.settings.form.usernameRequired' => 'Vložte, prosím, uživatelské jméno (symbol), který jste dostali od DataCite. Uživatelské jméno nesmí obsahovat dvojtečku.',
+      'plugins.importexport.datacite.settings.form.automaticRegistration.description' => 'OJS automaticky uloží DOI do DataCite. Vezměte prosím na vědomí, že to může trvat krátkou dobu po zpracování publikace. Můžete zkontrolovat všechny neregistrované DOI.',
+      'plugins.importexport.datacite.settings.form.testMode.description' => 'Použijte testovací prefix DataCite pro registraci DOI. Nezapomeňte tuto možnost odstranit pro produkční fázi.',
+      'plugins.importexport.datacite.settings.form.testUsername' => 'Testovací uživatelské jméno',
+      'plugins.importexport.datacite.settings.form.testPassword' => 'Testovací heslo',
+      'plugins.importexport.datacite.settings.form.testDOIPrefix' => 'Testovací předpona DOI (DOI Prefix)',
+      'plugins.importexport.datacite.senderTask.name' => 'Automatická úloha registrace DataCite',
+      'plugins.importexport.datacite.cliUsage' => 'Použití:
+{$scriptName} {$pluginName} export [outputFileName] [journal_path] {issues|articles|galleys} objectId1 [objectId2] ...
+{$scriptName} {$pluginName} register [journal_path] {issues|articles|galleys} objectId1 [objectId2] ...
+',
+    ),
+  ),
+);

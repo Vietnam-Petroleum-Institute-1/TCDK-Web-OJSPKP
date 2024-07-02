@@ -1,0 +1,26 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.webfeed.displayName' => 'Модуль «Веб-канал»',
+      'plugins.generic.webfeed.description' => 'Создает каналы в форматах RSS/Atom.<br>Модуль также содержит блок боковой панели, который позволяет отображать ссылки на каналы в боковой панели вашего приложения',
+      'plugins.generic.webfeed.settings' => 'Настройки',
+      'plugins.generic.webfeed.settings.issue' => 'Показать ссылки на каналы только на страницах выпуска.',
+      'plugins.generic.webfeed.settings.homepage' => 'Показать ссылки на каналы только на главной странице.',
+      'plugins.generic.webfeed.settings.all' => 'Показать ссылки на каналы на всех страницах приложения.',
+      'plugins.generic.webfeed.settings.currentIssue' => 'Показать материалы в текущем опубликованном выпуске.',
+      'plugins.generic.webfeed.settings.recent' => 'Показать фиксированное количество последних опубликованных материалов.',
+      'plugins.generic.webfeed.settings.recentArticles' => 'Количество последних опубликованных материалов для показа',
+      'plugins.generic.webfeed.settings.recentItemsRequired' => 'Пожалуйста введите положительное целое число для количества последних опубликованных материалов.',
+      'plugins.generic.webfeed.atom.altText' => 'Логотип Atom',
+      'plugins.generic.webfeed.rss1.altText' => 'Логотип RSS1',
+      'plugins.generic.webfeed.rss2.altText' => 'Логотип RSS2',
+      'plugins.generic.webfeed.settings.homepageAndIssues' => 'Показать ссылки на каналы только на главной странице и на страницах выпуска.',
+      'plugins.generic.webfeed.blockTitle' => 'Последние публикации',
+      'plugins.generic.webfeed.settings.includeIdentifiers' => 'Включать идентификаторы (ISBN, ключевые слова, категории и т.д.) в текст канала?',
+    ),
+  ),
+);

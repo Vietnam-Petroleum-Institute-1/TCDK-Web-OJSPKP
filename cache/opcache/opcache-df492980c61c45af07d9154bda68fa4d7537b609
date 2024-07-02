@@ -1,0 +1,72 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.orcidProfile.displayName' => 'ORCID Profil Eklentisi',
+      'plugins.generic.orcidProfile.description' => 'ORCID\'den kullanıcı profili bilgilerinin içe aktarılmasına izin verir.',
+      'plugins.generic.orcidProfile.instructions' => 'ORCID profilinizdeki bilgileri bu forma otomatik aktarabilirsiniz. ORCID profili ile ilişkili e-posta adresini veya ORC ID\'yi girin, ardından "Gönder" seçeneğini tıklayın.',
+      'plugins.generic.orcidProfile.noData' => 'ORCID\'de herhangi bir veri bulunamadı.',
+      'plugins.generic.orcidProfile.emailOrOrcid' => 'E-posta adresi veya ORCID:',
+      'plugins.generic.orcidProfile.manager.orcidProfileSettings' => 'ORCID Profil Ayarları',
+      'plugins.generic.orcidProfile.manager.settings.description' => 'ORCID profili bilgilerinin kullanıcı profiline çekilmesi için ORCID API\'sini yapılandırın.',
+      'plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath' => 'ORCID API',
+      'plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath.public' => 'Genel',
+      'plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath.publicSandbox' => 'Genel Sandbox',
+      'plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath.member' => 'Üye',
+      'plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath.memberSandbox' => 'Üye Sandbox',
+      'plugins.generic.orcidProfile.manager.settings.orcidClientId' => 'Müşteri ID',
+      'plugins.generic.orcidProfile.manager.settings.orcidClientSecret' => 'Müşteri Gizliliği',
+      'plugins.generic.orcidProfile.author.submission' => 'ORC ID\'den Bilgi İsteği',
+      'plugins.generic.orcidProfile.author.submission.success' => 'İsteğiniz, ORC ID\'nizle başarıyla ilişkilendirildi.',
+      'plugins.generic.orcidProfile.author.submission.failure' => 'İsteğiniz, ORC ID\'nizle başarılı bir şekilde ilişkilendirilemedi. Lütfen dergi sorumlusu ile adınız, ORC ID ve isteğinizin ayrıntıları için iletişime geçin.',
+      'plugins.generic.orcidProfile.authFailure' => 'OJS, ORCID hizmeti ile iletişim kuramadı. Lütfen dergi sorumlusu ile adınızı, ORCID  ve isteğinizin ayrıntıları için iletişime geçiniz.',
+      'plugins.generic.orcidProfile.fieldset' => 'ORCID',
+      'plugins.generic.orcidProfile.connect' => 'ORC ID\'nizi oluşturun veya bağlayın',
+      'plugins.generic.orcidProfile.verify.title' => 'ORCID Yetkilendirmesi',
+      'plugins.generic.orcidProfile.author.deleteORCID' => 'ORCID iD ve erişim anahtarını Sil!',
+      'plugins.generic.orcidProfile.manager.settings.logLevel.error' => 'Hatalar',
+      'plugins.generic.orcidProfile.manager.settings.logLevel.all' => 'Tümü',
+      'plugins.generic.orcidProfile.manager.settings.mailSectionTitle' => 'E-posta Ayarları',
+      'plugins.generic.orcidProfile.manager.settings.description.globallyconfigured' => 'ORCID API genel olarak yapılandırıldı. Aşağıdaki bilgiler kaydedildi.',
+      'plugins.generic.orcidProfile.manager.settings.hidden' => 'gizli',
+      'plugins.generic.orcidProfile.manager.settings.title' => 'ORCID API Ayarları',
+      'plugins.generic.orcidProfile.about.howAndWhyPublicAPI' => 'Bu dergi ORCID iD\'nizi toplar. Böylece [Üye API\'sı ve Herkese Açık API arasında amaç ekleyebilir ve ayırt edebiliriz].
+ORCID açılır penceresindeki "Yetkilendir" düğmesini tıkladığınızda, kimliği doğrulanmış bir işlem kullanarak iD\'nizi paylaşmanızı isteyeceğiz: <a href="https://support.orcid.org/hc/en-us/articles/360006897454">ORCID iD\'ye kaydolma</a> veya zaten varsa <a href="https://support.orcid.org/hc/en-us/categories/360000661673">ORCID hesabınızda oturum açmanız</a>, ardından ORCID iD\'nizi almamız için bize izin verin. Bunu, doğru bir şekilde tanımlandığınızdan ve ORCID iD\'nizi güvenli bir şekilde bağladığınızdan emin olmak için yapıyoruz.
+"Oturum açma hakkında <a href="https://info.orcid.org/whats-so-special-about-signing-in/">bu kadar özel olan konu"</a> bölümünde daha fazla bilgi edinebilirsiniz.',
+      'plugins.generic.orcidProfile.about.display' => 'ID\'nizi kullandığınızı ve doğrulandığını kabul etmek için, gönderinizin makale sayfasında ve genel kullanıcı profilinizde adınızın yanında ORCID iD simgesini <img src="https://info.orcid.org/wp-content/uploads/2020/12/ORCIDiD_icon16x16.png" alt="iD icon" width="16" height="16" border="0"> gösteririz. <br />
+       <a href="https://info.orcid.org/how-should-an-orcid-id-be-displayed/">Bir ORCID iD nasıl görüntülenmelidir</a> bölümünde daha fazla bilgi edinebilirsiniz',
+      'plugins.generic.orcidProfile.about.display.title' => 'ORCID iD\'leri nerede görüntülenir?',
+      'plugins.generic.orcidProfile.about.howAndWhy.title' => 'ORCID iD\'lerini nasıl ve neden topluyoruz?',
+      'plugins.generic.orcidProfile.about.orcidExplanation' => 'ORCID, sizi diğer araştırmacılardan ayıran kalıcı bir tanımlayıcı ve araştırma çıktılarınızı ve faaliyetlerinizi iD\'nize bağlamak için bir mekanizma sağlayan, kar amacı gütmeyen bağımsız bir kuruluştur. ORCID, yayıncılar, fon sağlayıcılar, kurumlar ve araştırmayla ilgili diğer hizmetler tarafından kullanılan birçok sisteme entegre edilmiştir.  Daha fazla bilgi için <a href="https://orcid.org">orcid.org</a> adresini ziyaret edin.',
+      'plugins.generic.orcidProfile.about.title' => 'ORCID nedir?',
+      'plugins.generic.orcidProfile.authorise' => 'ORCID iD\'nizi yetkilendirin ve bağlayın',
+      'plugins.generic.orcidProfile.failure.contact' => 'Lütfen adınız, ORCID iD\'niz ve gönderi bilgilerinizle birlikte dergi yöneticisine başvurun.',
+      'plugins.generic.orcidProfile.verify.denied' => 'ORCID kaydınıza erişimi engellediniz.',
+      'plugins.generic.orcidProfile.verify.duplicateOrcid' => 'Bu gönderi için bir ORCID iD zaten mevcut.',
+      'plugins.generic.orcidProfile.verify.failure' => 'ORCID iD\'niz doğrulanamadı. Bağlantı geçerli değil.',
+      'plugins.generic.orcidProfile.verify.success' => 'ORCID iD\'niz doğrulandı ve gönderi ile başarıyla ilişkilendirildi.',
+      'plugins.generic.orcidProfile.verify.sendSubmissionToOrcid.notpublished' => 'Gönderi, yayınlama sırasında ORCID kaydınıza eklenecektir.',
+      'plugins.generic.orcidProfile.verify.sendSubmissionToOrcid.failure' => 'Gönderi, ORCID kaydınıza eklenemedi.',
+      'plugins.generic.orcidProfile.verify.sendSubmissionToOrcid.success' => 'Gönderi, ORCID kaydınıza eklendi.',
+      'plugins.generic.orcidProfile.author.unauthenticated' => 'ORCID iD kimliği doğrulanmadı! Lütfen katkıda bulunandan kimlik doğrulaması isteyin.',
+      'plugins.generic.orcidProfile.author.orcidEmptyNotice' => 'Kimliği doğrulanmış ORCID iD istemek için aşağıya bakın',
+      'plugins.generic.orcidProfile.author.requestAuthorization' => 'Katkıda bulunandan ORCID yetkilendirmesi istemek için e-posta gönderin',
+      'plugins.generic.orcidProfile.author.accessTokenStored' => '{$orcidAccessScope} kapsamıyla verilen ORCID kayıt erişimi, şu tarihe kadar geçerlidir',
+      'plugins.generic.orcidProfile.author.accessDenied' => 'ORCID erişimi reddedildi',
+      'plugins.generic.orcidProfile.manager.settings.logLevel.help' => 'Eklenti tarafından yazılan günlük çıktısının miktarını seçin',
+      'plugins.generic.orcidProfile.manager.settings.logSectionTitle' => 'ORCID istek günlüğü',
+      'plugins.generic.orcidProfile.manager.settings.sendMailToAuthorsOnPublication' => 'Bir makale kabul edildiğinde yazarlardan ORCID yetkisi istemek için e-posta gönderin. Ör: kopya düzenlemeye gönderildi',
+      'plugins.generic.orcidProfile.manager.settings.orcidScope' => 'Profil Erişim Kapsamı',
+      'plugins.generic.orcidProfile.about.howAndWhyMemberAPI' => 'Bu dergi ORCID iD kimliğinizi topluyor, bu sayede doğru tanımlama ve diğer yayınlarınızın bağlantılı olmasını sağlıyor. Bu, tüm bilimsel çalışmalarınızın bağlantılı kalmasını sağlayacaktır.
+ORCID açılır penceresindeki "Yetkilendir" düğmesini tıkladığınızda, kimliği doğrulanarak dergi sistemine profil bilgilerini aktarmanızı isteyeceğiz - bir ORCID için kayıt yaptırarak veya zaten varsa, ORCID hesabınızda oturum açarak yetkilendiriniz. Bunu, doğru şekilde tanımlanmanızı ve ORCID kimliğinize güvenli bir şekilde bağlanmanızı sağlamak için yapıyoruz.
+ORCID ile oturum açmanın önemi hakkında detaylı bilgi için <a href="https://info.orcid.org/whats-so-special-about-signing-in/">tıklayınız.</a>
+Bu dergi ORCID bilgilerini profil ve makale sayfalarında isteyecek ve görüntüleyecektir. Ayrıca, yayımlanmış makale üst verileri otomatik olarak yazar ORCID kayıtlarına aktarılacak ve bu da kaydınızı güvenilir bilgilerle güncel tutmanıza yardımcı olabilmemizi sağlayacaktır. <a href="https://info.orcid.org/six-ways-to-make-your-orcid-id-work-for-you/">ORCID iD\'nizi sizin için çalıştırmanın altı yolu!</a>
+',
+      'plugins.generic.orcidProfile.manager.settings.orcidClientSecret.error' => 'Geçersiz istemci sırrı',
+      'plugins.generic.orcidProfile.manager.settings.orcidClientId.error' => 'Geçersiz istemci kimliği',
+    ),
+  ),
+);

@@ -1,0 +1,25 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.googleAnalytics.displayName' => 'Plugin Google Analytics',
+      'plugins.generic.googleAnalytics.description' => 'Mengintegrasikan OJS dengan Google Analytics, aplikasi analisis lalu lintas web site dari Google. Mewajibkan Anda telah men-setup akun Google Analytics. Silahkan lihat <a href="http://www.google.com/analytics/" title="Google Analytics site">Situs Google Analytics</a> untuk informasi lebih lanjut.',
+      'plugins.generic.googleAnalytics.manager.settings' => 'Pengaturan',
+      'plugins.generic.googleAnalytics.manager.googleAnalyticsSettings' => 'Pengaturan Google Analytics',
+      'plugins.generic.googleAnalytics.manager.settings.description' => '<p>Dengan plugin ini memungkinkan Google Analytics untuk dapat digunakan untuk mengumpulkan dan menganalisa penggunaan situs web dan lalu lintas untuk jurnal ini. Harap perhatikan bahwa plugin ini mewajibkan Anda telah men-setup sebuah akun Google Analytics. Silahkan lihat <a href="http://www.google.com/analytics/" title="Google Analytics site">Situs Google Analytics</a> untuk informasi lebih lanjut.</p><p>Perlu diketahui bahwa Google Analytics mungkin memerlukan hingga 24 jam sebelum statistik dikumpulkan dan dilaporkan. Selama periode ini, fungsi \'Periksa Status\' mungkin tidak secara akurat melaporkan apakah telah mendeteksi kode pelacakan yang diperlukan untuk jurnal.</p>',
+      'plugins.generic.googleAnalytics.manager.settings.googleAnalyticsSiteId' => 'Nomor Akun',
+      'plugins.generic.googleAnalytics.manager.settings.googleAnalyticsSiteIdInstructions' => 'Dalam Google Analytics, klik \'Periksa Status\' untuk melihat kode pelacakan untuk situs Anda. Untuk kode warisan pelacakan, nomor account ditampilkan dalam kode pelacakan sebagai: _uacct = "###". Untuk kode pelacakan baru, jumlah account ditampilkan dalam kode pelacakan sebagai: var pageTracker = _gat._getTracker ("###"). Masukkan teks yang sesuai dengan ###.',
+      'plugins.generic.googleAnalytics.manager.settings.googleAnalyticsSiteIdRequired' => 'Silahkan masukkan nomor akun.',
+      'plugins.generic.googleAnalytics.manager.settings.trackingCode' => 'Pelacakan Kode',
+      'plugins.generic.googleAnalytics.manager.settings.trackingCodeRequired' => 'Silahkan pilih pelacakan kode yang akan digunakan.',
+      'plugins.generic.googleAnalytics.manager.settings.urchin' => 'Pelacakan kode warisan (urchin.js)',
+      'plugins.generic.googleAnalytics.manager.settings.ga' => 'Pelacakan kode baru (ga.js)',
+      'plugins.generic.googleAnalytics.authorAccount' => 'Nomor Akun Google Analytics',
+      'plugins.generic.googleAnalytics.authorAccount.description' => 'Untuk melacak pembaca artikel yang diterbitkan menggunakan Google Analytics, masukkan nomor akun di sini (e.g. UA-xxxxxx-x).',
+      'plugins.generic.googleAnalytics.authorAccountInvalid' => 'Satu atau lebih nomor akun Google Analytics dimasukkan untuk penyampaian penulis tidak valid.',
+    ),
+  ),
+);

@@ -1,0 +1,24 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.customBlockManager.displayName' => 'Gestore di blocchi personalizzati',
+      'plugins.generic.customBlockManager.manage' => 'Gestisci i blocchi personalizati',
+      'plugins.generic.customBlockManager.description' => 'Questo plugin permette di gestire blocchi personalizzati sulle barre laterali. È possibile modificare i blocchi nelle impostazioni di ciascun plugin creato.',
+      'plugins.generic.customBlockManager.customBlocks' => 'Blocchi personalizzati',
+      'plugins.generic.customBlockManager.blockName' => 'Nome del blocco',
+      'plugins.generic.customBlockManager.addBlock' => 'Aggiungi un blocco',
+      'plugins.generic.customBlockManager.noneCreated' => 'Non è stato creato nessun blocco personalizzato.',
+      'plugins.generic.customBlock.content' => 'Contenuto',
+      'plugins.generic.customBlock.nameSuffix' => '(blocco personalizzato)',
+      'plugins.generic.customBlock.description' => 'Questo è un blocco generato dall\'utente.',
+      'plugins.generic.customBlock.nameRequired' => 'Inserire il nome del blocco personalizzato.',
+      'plugins.generic.customBlock.nameRegEx' => 'Il nome del blocco personalizzato può contenere solo lettere, numeri e trattini alti o bassi.',
+      'plugins.generic.customBlock.showName.description' => 'Mostra il nome di questo blocco sopra al contenuto.',
+      'plugins.generic.customBlock.showName' => 'Mostra nome',
+    ),
+  ),
+);

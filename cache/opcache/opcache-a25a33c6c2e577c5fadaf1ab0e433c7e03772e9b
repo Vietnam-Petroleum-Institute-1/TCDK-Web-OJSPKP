@@ -1,0 +1,26 @@
+<?php $exp = 1751345599; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=1; plural=0;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.webfeed.displayName' => 'Plugin nguồn cấp web',
+      'plugins.generic.webfeed.description' => 'Plugin này tạo nguồn cấp dữ liệu cung cấp web RSS/Atom.<br>Plugin này cũng bao gồm một khối thanh bên cho phép bạn hiển thị các liên kết nguồn cấp dữ liệu trên thanh bên của ứng dụng của bạn.',
+      'plugins.generic.webfeed.settings' => 'Cài đặt',
+      'plugins.generic.webfeed.settings.issue' => 'Chỉ hiển thị các liên kết nguồn cấp web trên các số.',
+      'plugins.generic.webfeed.settings.homepage' => 'Chỉ hiển thị các liên kết nguồn cấp web trên trang chủ và các số phát hành.',
+      'plugins.generic.webfeed.settings.all' => 'Hiển thị liên kết nguồn cấp web trên tất cả các trang tạp chí.',
+      'plugins.generic.webfeed.settings.currentIssue' => 'Hiển thị các mục trong số được công bố hiện tại.',
+      'plugins.generic.webfeed.settings.recent' => 'Hiển thị một số lượng cố định của các mục gần đây nhất.',
+      'plugins.generic.webfeed.settings.recentArticles' => 'Số mục cần hiển thị',
+      'plugins.generic.webfeed.settings.recentItemsRequired' => 'Vui lòng nhập một số nguyên dương cho các mục được xuất bản gần đây.',
+      'plugins.generic.webfeed.atom.altText' => 'Atom logo',
+      'plugins.generic.webfeed.rss1.altText' => 'Logo RSS1',
+      'plugins.generic.webfeed.rss2.altText' => 'Logo RSS2',
+      'plugins.generic.webfeed.blockTitle' => 'Ấn phẩm mới nhất',
+      'plugins.generic.webfeed.settings.homepageAndIssues' => 'Chỉ hiển thị các liên kết nguồn cấp dữ liệu web trên trang chủ và các trang phát hành.',
+      'plugins.generic.webfeed.settings.includeIdentifiers' => 'Bao gồm số nhận dạng (ISBN, từ khóa, danh mục, v.v.) trong tóm tắt nguồn cấp dữ liệu?',
+    ),
+  ),
+);

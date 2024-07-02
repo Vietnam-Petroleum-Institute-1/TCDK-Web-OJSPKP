@@ -1,0 +1,22 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=3; plural=(n % 10 == 0 || n % 100 >= 11 && n % 100 <= 19) ? 0 : ((n % 10 == 1 && n % 100 != 11) ? 1 : 2);',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.announcementfeed.settings' => 'Iestatījumi',
+      'plugins.generic.announcementfeed.displayName' => 'Paziņojumu plūsmas spraudnis',
+      'plugins.generic.announcementfeed.settings.all' => 'Rādīt barotnes saites visās žurnāla lapās.',
+      'plugins.generic.announcementfeed.settings.announcement' => 'Rādīt barotnes saites tikai paziņojumu lapā.',
+      'plugins.generic.announcementfeed.settings.homepage' => 'Rādīt barotnes saites sākumlapā un paziņojumu lapā.',
+      'plugins.generic.announcementfeed.settings.recentAnnouncements1' => 'Ierobežot barotni līdz',
+      'plugins.generic.announcementfeed.settings.recentAnnouncements2' => 'jaunākie paziņojumi.',
+      'plugins.generic.announcementfeed.atom.altText' => 'Atom logotips',
+      'plugins.generic.announcementfeed.rss1.altText' => 'RSS1 logotips',
+      'plugins.generic.announcementfeed.rss2.altText' => 'RSS2 logotips',
+      'plugins.generic.announcementfeed.description' => 'Šis spraudnis veido RSS/Atom tīmekļa sindikācijas plūsmas žurnālu paziņojumiem.',
+      'plugins.generic.announcementfeed.settings.recentItemsRequired' => 'Lūdzu, ievadiet pozitīvu veselu skaitli jaunākajiem paziņojumiem.',
+    ),
+  ),
+);

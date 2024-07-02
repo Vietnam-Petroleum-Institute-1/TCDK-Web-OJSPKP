@@ -1,0 +1,43 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'emails.orcidRequestAuthorAuthorization.description' => 'Mail jest wykorzystywany w przypadku prośby o dostęp czasopisma do profilu ORCID autora.',
+      'emails.orcidRequestAuthorAuthorization.body' => 'Drogi/a {$recipientName},<br>
+<br>
+Zostałeś/aś oznaczona/y jako autor/współautor tekstu naukowego "{$submissionTitle}" w {$contextName}.
+<br>
+<br>
+Jako redakcja czasopsima zwracamy się w związku z tym prośbą o dopisanie Twojego ORCID ID do tego artykułu i jednocześnie chcemy dodać go do Twojej listy opublikowanych prac w ORCID.<br>
+Zaloguj się proszę w czasopiśmie używając swoich danych ORCID co sprawi, że autoryzacja pracy bedzie możliwa. Odwiedź strone projektu ORCID aby zapoznać się ze szczegółową instrukcją na ten temat.<br>
+<a href="{$authorOrcidUrl}"><img id="orcid-id-logo" src="https://orcid.org/sites/default/files/images/orcid_16x16.png" width=\'16\' height=\'16\' alt="ORCID iD icon" style="display: block; margin: 0 .5em 0 0; padding: 0; float: left;"/>Zarejestruj sie w ORCID lub autoryzuj swój tekst</a><br/>
+<br>
+<br>
+<a href="{$orcidAboutUrl}">Więcej o ORCID w {$contextName}</a><br/>
+<br>
+W razie dalszych pytań prosimy o kontakt.<br>
+<br>
+{$principalContactSignature}
+',
+      'emails.orcidRequestAuthorAuthorization.subject' => 'Prośba do autora o dostęp do profilu ORCID',
+      'emails.orcidCollectAuthorId.description' => 'Mail jest używany do poinformowania autorów o konieczności autoryzacji ORCID.',
+      'emails.orcidCollectAuthorId.subject' => 'Autoryzacja ORCID w tekście naukowym',
+      'emails.orcidCollectAuthorId.body' => 'Drogi/a {$recipientName},<br/>
+<br/>
+W czasopiśmie {$contextName} zostałeś/aś oznaczona jako autor/współautor. Aby potwierdzić ten fakt i połączyć tekst z Twoim kontem ORCID, proszę odwiedzić link zamieszczony poniżej.
+<br/>
+<a href="{$authorOrcidUrl}"><img id="orcid-id-logo" src="https://orcid.org/sites/default/files/images/orcid_16x16.png" width=\'16\' height=\'16\' alt="ORCID iD icon" style="display: block; margin: 0 .5em 0 0; padding: 0; float: left;"/>Zarejestruj się lub połącz tekst ze swoim kontem ORCID</a><br/>
+<br/>
+<br>
+<a href="{$orcidAboutUrl}">Więcej o ORCID w {$contextName}</a><br/>
+<br/>
+W razie dodatkowych pytań proszę o kontakt:<br/>
+<br/>
+{$principalContactSignature}
+',
+    ),
+  ),
+);

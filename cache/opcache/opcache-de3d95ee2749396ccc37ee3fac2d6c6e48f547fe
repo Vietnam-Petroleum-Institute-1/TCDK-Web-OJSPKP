@@ -1,0 +1,37 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.importexport.datacite.displayName' => 'Export/registrerings-plugin för DataCite',
+      'plugins.importexport.datacite.description' => 'Exportera eller registera nummers, artiklars, publiceringsversioners och tilläggsfilers metadata i DataCite-format.',
+      'plugins.importexport.datacite.settings.description' => 'Konfigurera export-pluginet för DataCite innan det används för första gången.',
+      'plugins.importexport.datacite.intro' => '
+		Om du vill registrera DOI:er via DataCite, kontakta Managing
+		Agent via <a href="http://datacite.org/contact.html" target="_blank">DataCites
+		webbplats</a>, som kommer att hänvisa dig till din lokala DataCite-medlem. 
+		När du har etablerat en kontakt med medlemsorganisationen
+		kommer du att få tillgång till DataCites tjänst för nya beständiga identifikatorer (DOI:er)
+		och registrering av tillhörande metadata. Om du inte har ett eget användarnamn och lösenord
+		kommer du ändå kunna exportera i DataCites XML-format, men du kan inte 
+		registera dina DOI:er hos DataCite från OJS.
+		Observera att lösenordet sparas som ren text, alltså okrypterat, på grund av 
+		DataCites krav för registrering.
+	',
+      'plugins.importexport.datacite.settings.form.username' => 'Användarnamn (symbol)',
+      'plugins.importexport.datacite.settings.form.usernameRequired' => 'Skriv in användarnamnet (symbol) som du har fått från DataCite. Användarnamnet får inte innehålla kolon.',
+      'plugins.importexport.datacite.settings.form.automaticRegistration.description' => 'OJS deponerar automatiskt tilldelade DOI:er till DataCite. Det kan ta ett kort tag efter publiceringen innan deponeringen behandlas. Du kan kontrollera alla oregistrerade DOI:er.',
+      'plugins.importexport.datacite.settings.form.testMode.description' => 'Använd DataCites testprefix för DOI-registrering. Glöm inte att ta bort den här inställningen inför produktion.',
+      'plugins.importexport.datacite.settings.form.testUsername' => 'Test användarnamn',
+      'plugins.importexport.datacite.settings.form.testPassword' => 'Test lösenord',
+      'plugins.importexport.datacite.settings.form.testDOIPrefix' => 'Test DOI-prefix',
+      'plugins.importexport.datacite.senderTask.name' => 'DataCite automatisk registrering',
+      'plugins.importexport.datacite.cliUsage' => 'Användning: 
+{$scriptName} {$pluginName} export [outputFileName] [journal_path] {issues|articles|galleys} objectId1 [objectId2] ...
+{$scriptName} {$pluginName} register [journal_path] {issues|articles|galleys} objectId1 [objectId2] ...
+',
+    ),
+  ),
+);

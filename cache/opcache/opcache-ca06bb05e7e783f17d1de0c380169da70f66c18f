@@ -1,0 +1,29 @@
+<?php $exp = 1751345599; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=1; plural=0;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'api.announcements.400.contextsNotMatched' => '您要求的公告並非此期刊的一部分。',
+      'api.emails.403.disabled' => '此期刊的電郵通知功能尚未生效。',
+      'api.submissions.400.wrongContext' => '您要求的投稿並不在此期刊。',
+      'api.submissions.403.cantChangeContext' => '您不能改變投稿的期刊。',
+      'api.submissions.403.unpublishedIssues' => '您沒有閱覽未出版期號的權限。',
+      'api.contexts.403.requestedDisabledContexts' => '您只可查閱所允許的期刊。',
+      'api.contexts.403.notAllowed' => '您沒有查看此期刊的權限。',
+      'api.contexts.403.contextsDidNotMatch' => '您不能查看或修改此期刊，除非您提出期刊API或網站API的請求。',
+      'api.contexts.403.requiresContext' => '您不能透過網站的API修改此期刊。',
+      'api.contexts.403.notAllowedEdit' => '您沒有修改此期刊的權限。',
+      'api.contexts.403.notAllowedDelete' => '您沒有權限刪除此期刊。',
+      'api.contexts.404.contextNotFound' => '未能找到您所查詢的期刊。',
+      'api.dois.403.contextsNotMatched' => '你查詢的DOI並不在此期刊。',
+      'api.dois.400.noRegistrationAgencyConfigured' => '此期刊並無設置DOI註冊代理機構。',
+      'api.dois.400.depositFailed' => '部分項目未能成功寄存。請檢查每一項目以瞭解其錯誤信息。',
+      'api.emailTemplates.403.notAllowedChangeContext' => '您沒有移動此電郵樣式至另一期刊的權限。',
+      'api._payments.400.invalidPaymentMethod' => '未能支援您所選取的付款方式。',
+      'api.publications.403.contextsDidNotMatch' => '您所查詢的出版物並不是此期刊的一部分。',
+      'api.publications.403.submissionsDidNotMatch' => '您所查詢的出版物並不是此投稿的一部分。',
+    ),
+  ),
+);

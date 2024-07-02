@@ -1,0 +1,64 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.importexport.crossref.displayName' => 'Vtičnik za Crossref XML izvoz',
+      'plugins.importexport.crossref.description' => 'Izvozi metapodatke prispevka v Crossref XML obliki.',
+      'plugins.importexport.crossref.requirements' => 'Zahteve',
+      'plugins.importexport.crossref.requirements.satisfied' => 'Vse zahteve vtičnika so izpolnjene.',
+      'plugins.importexport.crossref.error.publisherNotConfigured' => 'Založnik ni nastavljen! Dodati morate založnika na strani<a href="{$journalSettingsUrl}" target="_blank">Nastavitve revije</a>.',
+      'plugins.importexport.crossref.error.issnNotConfigured' => 'ISSN revije ni nastavljen! Dodati morate ISSN na strani <a href="{$journalSettingsUrl}" target="_blank">Nastavitve revije</a>.',
+      'plugins.importexport.crossref.error.noDOIContentObjects' => 'Prispevki niso izbrani za dodeljevanje DOI-jev v vtičniku za DOI javni identifikator in zato ni možnosti depozita ali izvoza podatkov v tem vtičniku.',
+      'plugins.importexport.crossref.settings.depositorIntro' => 'Spodnje postavke so obvezne za uspešen Crossref depozit.',
+      'plugins.importexport.crossref.settings.form.depositorName' => 'Ime depozitorja',
+      'plugins.importexport.crossref.settings.form.depositorEmail' => 'Email depozitorja',
+      'plugins.importexport.crossref.settings.form.depositorNameRequired' => 'Prosimo vnesite ime depozitorja.',
+      'plugins.importexport.crossref.settings.form.depositorEmailRequired' => 'Prosimo vnestie email depozitorja.',
+      'plugins.importexport.crossref.registrationIntro' => 'Če želite uporabiti ta vtičnik za registracijo DOI-jev direktno pri Crossref, boste potrebovali uporabniško ime in geslo (na voljo na <a href="https://www.crossref.org" target="_blank">Crossref</a>). Če nimate svojega uporabniškega imena in gesla, lahko še vedno izvozite podatke v Crossref XML obliki, ampak ne morete registrirati DOI-jev pri Crossref direktno iz OJS.',
+      'plugins.importexport.crossref.settings.form.username' => 'Uporabniško ime',
+      'plugins.importexport.crossref.settings.form.usernameRequired' => 'Prosimo vnesite uporabniško ime, ki ste ga dobili pri Crossref.',
+      'plugins.importexport.crossref.settings.form.automaticRegistration.description' => 'OJS bo avtomatsko opravil depozit dodeljenih DOI-jev na Crossref. Prosimo upoštevajte, da je za to lahko potrebno nekaj časa po tistem, ko objavite novo številko. Lahko preverite za vse neregistrirane DOI-je.',
+      'plugins.importexport.crossref.settings.form.testMode.description' => 'Uporabi Crossref test API (testno okolje) za depozit DOI-jev. Ne pozabite odstraniti te možnosti za produkcijo!',
+      'plugins.importexport.crossref.issues.description' => 'Opozorilo: Samo številke (in ne vsebovani prispevki) bodo upoštevane za izvoz/depozit.',
+      'plugins.importexport.crossref.status.failed' => 'Neuspelo',
+      'plugins.importexport.crossref.status.registered' => 'Aktivno',
+      'plugins.importexport.crossref.status.markedRegistered' => 'Označeno aktivno',
+      'plugins.importexport.crossref.statusLegend' => '
+		<p>Statusi procesa depozita:</p>
+		<p>
+		- Ni depozita: za ta DOI ni bil izveden poskus depozita.<br />
+		- Aktiven: Depozit DOI-ja je bil uspešen in se pravilno razrešuje.<br />
+		- Neuspelo: Depozit DOI-ja je bil neuspešen.<br />
+		- Označeno aktivno: DOI je bil ročno označen kot aktiven.
+		</p>
+		<p>Prikazan je samo status zadnjega poskusa depozita.</p>
+		<p>Če je bil depozit neuspešen, razrešite problem in ponovno poskusite registrirati DOI.</p>',
+      'plugins.importexport.crossref.action.export' => 'Prenesi XML',
+      'plugins.importexport.crossref.action.markRegistered' => 'Označi aktivno',
+      'plugins.importexport.crossref.action.register' => 'Oddaj',
+      'plugins.importexport.crossref.senderTask.name' => 'Opravilo avtomatske registracije pri Crossref',
+      'plugins.importexport.crossref.cliUsage' => 'Uporaba:
+{$scriptName} {$pluginName} export [xmlFileName] [journal_path] articles objectId1 [objectId2] ...
+{$scriptName} {$pluginName} register [journal_path] articles objectId1 [objectId2] ...
+',
+      'plugins.importexport.crossref.register.error.mdsError' => 'Oddaja ni bila uspešna! DOI registracijski strežnik je vrnil napako: \'{$param}\'.',
+      'plugins.importexport.crossref.export.error.issueNotFound' => 'Nobena številka ne odgovarja ID-ju številke "{$issueId}".',
+      'plugins.importexport.crossref.export.error.articleNotFound' => 'Noben prispevek ne odgovarja ID-ju prispevka "{$articleId}".',
+      'plugins.importexport.crossref.settings.form.validation' => 'Validacija XML. To opcijo uporabite za prenos XML datoteke za ročno DOI registracijo.',
+      'plugins.importexport.crossref.register.success.warning' => 'Registracija je bila uspešna z naslednjim opozorilom: \'{$param}\'.',
+      'plugins.importexport.crossref.settings.form.onlyValidateExport' => 'Samo preveri izvoz. Ne prenesi datoteke.',
+      'plugins.generic.crossref.registrationAgency.name' => 'Crossref',
+      'plugins.importexport.crossref.status.notDeposited' => 'Ni deponirano',
+      'plugins.importexport.crossref.settings' => 'Crossref nastavitve',
+      'plugins.generic.crossref.description' => 'Upravlja z deponiranjem in izvozom Crossref metapodatkov',
+      'plugins.generic.crossref.displayName' => 'Upravljalski vtičnik za Crossref',
+      'plugins.importexport.crossref.settings.form.depositorName.description' => 'Ime organizacije, ki registrira DOI-je. To je vključeno v metapodatke, ki se deponirajo in kot zapis, kdo je opravil deponiranje.',
+      'plugins.importexport.crossref.settings.form.depositorEmail.description' => 'Email naslov osebe, ki je odgovorna za registracijo vsebin pri Crossref. Naslov bo vključen v metapodatke in uporabljen za potrditveno email sporočilo o deponiranju.',
+      'plugins.importexport.crossref.settings.form.username.description' => 'Crossref uporabniško ime, ki bo uporabljeno za avtentikacijo depzitov. Če uporabljate osebni račun, prosimo preverite nasvet zgoraj.',
+      'plugins.generic.crossref.successMessage' => 'Metapodatki za ta objekt so bili deponirani pri Crossref-u. Za več podrobnosti poglejte oddajo na <a href="https://doi.crossref.org/servlet/submissionAdmin?sf=detail&submissionID={$submissionId}">Crossref skrbniški plošči</a>.',
+    ),
+  ),
+);

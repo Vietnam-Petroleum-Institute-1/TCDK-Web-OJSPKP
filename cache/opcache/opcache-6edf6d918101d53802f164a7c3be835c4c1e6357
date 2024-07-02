@@ -1,0 +1,32 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=1; plural=0;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'comments.anonymous' => '匿名ユーザー',
+      'comments.anonymousNamed' => '"{$userName}"',
+      'comments.body' => '本文',
+      'comments.titleRequired' => 'コメントタイトルが必要です。',
+      'comments.confirmDeleteChildren' => 'このコメントを削除するとコメントへの返答も削除されます。このコメントを削除してもよいですか。',
+      'comments.delete' => 'このコメントを削除',
+      'comments.email' => '投稿者メールアドレス',
+      'comments.emailReply' => '返答をメール',
+      'comments.enterComment' => 'コメントを入力',
+      'comments.inResponseTo' => '<a href="{$url}">{$title}</a> への反応',
+      'comments.name' => '投稿者名',
+      'comments.noComments' => '読者からのコメントはありません。',
+      'comments.nReplies' => '（返答 {$num} 件）',
+      'comments.oneReply' => '（返答 1件）',
+      'comments.postAnonymously' => 'このコメントを匿名で投稿',
+      'comments.postReply' => '返答を投稿',
+      'comments.readerComments' => '読者コメント',
+      'comments.readMore' => 'もっと読む',
+      'comments.replies' => '返答',
+      'comments.title' => 'タイトル',
+      'comments.viewAllComments' => '全コメントを閲覧',
+      'reader.fullText' => 'フルテキスト:',
+    ),
+  ),
+);

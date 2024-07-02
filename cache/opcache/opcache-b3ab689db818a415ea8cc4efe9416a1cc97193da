@@ -1,0 +1,24 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n > 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.customBlockManager.displayName' => 'Administração de blocos personalizados',
+      'plugins.generic.customBlockManager.blockName' => 'Nome do bloco',
+      'plugins.generic.customBlockManager.addBlock' => 'Incluir bloco',
+      'plugins.generic.customBlock.content' => 'Conteúdo',
+      'plugins.generic.customBlock.nameSuffix' => '(Plugin de bloco personalizado)',
+      'plugins.generic.customBlock.description' => 'Bloco produzido pelo usuário.',
+      'plugins.generic.customBlockManager.manage' => 'Gerenciar Blocos Personalizados',
+      'plugins.generic.customBlockManager.description' => 'Este plugin permite gerenciar (adicionar, editar e excluir) blocos laterais personalizados.',
+      'plugins.generic.customBlockManager.customBlocks' => 'Blocos Personalizados',
+      'plugins.generic.customBlockManager.noneCreated' => 'Não há blocos personalizados criados.',
+      'plugins.generic.customBlock.nameRequired' => 'O nome do bloco personalizado é necessário.',
+      'plugins.generic.customBlock.nameRegEx' => 'O nome do bloco personalizado deve conter apenas letras, números e hífens / sublinhados.',
+      'plugins.generic.customBlock.showName.description' => 'Mostrar o nome deste bloco acima do conteúdo do bloco.',
+      'plugins.generic.customBlock.showName' => 'Mostrar nome',
+    ),
+  ),
+);

@@ -1,0 +1,27 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.themes.default.name' => 'მოდული „ნაგულისხმევი თემა“',
+      'plugins.themes.default.description' => 'უზრუნველყოფს ნაგულისხმევ გაფორმებას.',
+      'plugins.themes.default.option.typography.label' => 'ტიპოგრაფიკა',
+      'plugins.themes.default.option.typography.description' => 'აირჩიეთ შრიფტების კომბინაცია, რომელიც მოუხდება ამ ჟურნალს.',
+      'plugins.themes.default.option.typography.notoSans' => 'Noto Sans: ეკრანული შრიფტი, შექმნილია Google-ის მიერ, ენების ფართო სპექტრის მხარდასაჭერად.',
+      'plugins.themes.default.option.typography.notoSerif' => 'Noto Serif: ანიტკვა, Google-ის ეკრანული შრიფტი სერიფით.',
+      'plugins.themes.default.option.typography.notoSerif_notoSans' => 'Noto Serif/Noto Sans: შრიფტების ურთიერთშემავსებელი წყვილი ანიტკვა სათაურებით და გროტესკით აკრეფილი ტექსტით.',
+      'plugins.themes.default.option.typography.notoSans_notoSerif' => 'Noto Sans/Noto Serif: შრიფტების ურთიერთშემავსებელი წყვილი გროტესკი სათაურებით და ანიკვათი აკრეფილი ტექსტით.',
+      'plugins.themes.default.option.typography.lato' => 'Lato: პოპულარული, თანამედროვე გროტესკი.',
+      'plugins.themes.default.option.typography.lora' => 'Lora: ფართო ანტიკვა, მოსახერხებელია ეკრანიდან საკითხავად.',
+      'plugins.themes.default.option.typography.lora_openSans' => 'Lora/Open Sans: შრიფტების ურთიერთშემავსებელი წყვილი ანიტკვა სათაურებით და გროტესკით აკრეფილი ტექსტით.',
+      'plugins.themes.default.option.colour.label' => 'ფერი',
+      'plugins.themes.default.option.colour.description' => 'აირჩიეთ ფერი ზედა კოლონტიტულისათვის.',
+      'plugins.themes.default.option.showDescriptionInJournalIndex.option' => 'ჟურნალის შესახებ მოკლე ინფორმაციის ჩვენება მთავარ გვერდზე.',
+      'plugins.themes.default.option.useHomepageImageAsHeader.label' => 'ზედა კოლონტიტულის ფონური სურათი',
+      'plugins.themes.default.option.useHomepageImageAsHeader.description' => 'მთავარი გვერდის სურათის ატვირთვის შემდგომ, ეს სურათი გამოჩნდეს, როგორც ზედა კოლონტიტულის ფონი და არა უბრალოდ სურათი მთავარ გვერდზე.',
+      'plugins.themes.default.option.useHomepageImageAsHeader.option' => 'მთავარი გვერდის სურათის ზედა კოლონტიტულის ფონად ჩვენება.',
+    ),
+  ),
+);

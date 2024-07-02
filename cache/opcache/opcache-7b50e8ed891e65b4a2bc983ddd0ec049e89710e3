@@ -1,0 +1,12 @@
+<?php $exp = 1751345594; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.googleScholar.description' => 'Тази добавка позволява индексиране на публикувано съдържание в Google Scholar.',
+      'plugins.generic.googleScholar.name' => 'Добавка за индексиране в Google Scholar',
+    ),
+  ),
+);

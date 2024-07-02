@@ -1,0 +1,22 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.announcementfeed.displayName' => 'Vtičnik za vir z obvestili',
+      'plugins.generic.announcementfeed.description' => 'Vtičnik pripravi RSS/Atom vir za objavljanje obvestil revije.',
+      'plugins.generic.announcementfeed.settings' => 'Nastavitve',
+      'plugins.generic.announcementfeed.settings.all' => 'Prikaži povezavo za vir na vseh straneh revije.',
+      'plugins.generic.announcementfeed.settings.homepage' => 'Prikaži povezavo za vir le na domači strani in strani z obvestili.',
+      'plugins.generic.announcementfeed.settings.announcement' => 'Prikaži povezavo za vir le na strani z obvestili.',
+      'plugins.generic.announcementfeed.settings.recentAnnouncements1' => 'Omeji vir na',
+      'plugins.generic.announcementfeed.settings.recentAnnouncements2' => 'zadnjih objav.',
+      'plugins.generic.announcementfeed.settings.recentItemsRequired' => 'Prosimo vnesite pozitivno celo število za zadnje objave.',
+      'plugins.generic.announcementfeed.atom.altText' => 'Atom logo',
+      'plugins.generic.announcementfeed.rss1.altText' => 'RSS1 logo',
+      'plugins.generic.announcementfeed.rss2.altText' => 'RSS2 logo',
+    ),
+  ),
+);

@@ -1,0 +1,22 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.announcementfeed.displayName' => 'Plugin för meddelandeflöde',
+      'plugins.generic.announcementfeed.description' => 'Pluginet skapar RSS/Atom-syndikeringsflöden för tidskriftens meddelanden.',
+      'plugins.generic.announcementfeed.settings' => 'Inställningar',
+      'plugins.generic.announcementfeed.settings.all' => 'Visa länkar till flöden på alla tidskriftens sidor.',
+      'plugins.generic.announcementfeed.settings.homepage' => 'Visa länkar till flöden bara på förstasidan och sidan för meddelanden.',
+      'plugins.generic.announcementfeed.settings.announcement' => 'Visa länkar till flöden bara på sidan för meddelanden.',
+      'plugins.generic.announcementfeed.settings.recentAnnouncements1' => 'Begränsa flödet till',
+      'plugins.generic.announcementfeed.settings.recentAnnouncements2' => 'senaste meddelanden.',
+      'plugins.generic.announcementfeed.settings.recentItemsRequired' => 'Lägg in ett positivt värde för senaste meddelanden.',
+      'plugins.generic.announcementfeed.atom.altText' => 'Atom-logotyp',
+      'plugins.generic.announcementfeed.rss1.altText' => 'RSS1-logotyp',
+      'plugins.generic.announcementfeed.rss2.altText' => 'RSS2-logotyp',
+    ),
+  ),
+);

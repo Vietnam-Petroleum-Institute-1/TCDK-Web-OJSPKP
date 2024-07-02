@@ -1,0 +1,12 @@
+<?php $exp = 1751345595; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.usageEvent.displayName' => 'Nutzungsereignis',
+      'plugins.generic.usageEvent.description' => 'Legt einen Hook an, der ein Nutzungsereignis in einem definierten Format liefert.',
+    ),
+  ),
+);

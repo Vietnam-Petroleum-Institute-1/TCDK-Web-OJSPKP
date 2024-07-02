@@ -1,0 +1,24 @@
+<?php $exp = 1751345594; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.customBlockManager.displayName' => 'Administrador de blocs personalitzats',
+      'plugins.generic.customBlockManager.manage' => 'Administra blocs personalitzats',
+      'plugins.generic.customBlockManager.customBlocks' => 'Blocs personalitzats',
+      'plugins.generic.customBlockManager.blockName' => 'Nom del bloc',
+      'plugins.generic.customBlockManager.addBlock' => 'Afegeix un bloc',
+      'plugins.generic.customBlock.content' => 'Contingut',
+      'plugins.generic.customBlock.nameSuffix' => '(Bloc personalitzat)',
+      'plugins.generic.customBlock.description' => 'Aquest bloc l\'ha creat un usuari.',
+      'plugins.generic.customBlock.nameRegEx' => 'El nom del bloc personalitzat només pot contenir lletres, números i guions o guions baixos.',
+      'plugins.generic.customBlock.nameRequired' => 'El nom del bloc personalitzat és necessari.',
+      'plugins.generic.customBlockManager.noneCreated' => 'No s\'ha creat cap bloc personalitzat.',
+      'plugins.generic.customBlockManager.description' => 'Aquest mòdul permet gestionar (afegir, editar i eliminar) blocs de la barra lateral personalitzats.',
+      'plugins.generic.customBlock.showName.description' => 'Mostrar el nom d\'aquest bloc a sobre del seu contingut.',
+      'plugins.generic.customBlock.showName' => 'Mostrar nom',
+    ),
+  ),
+);

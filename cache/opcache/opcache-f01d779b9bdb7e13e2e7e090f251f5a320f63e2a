@@ -1,0 +1,12 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.driver.displayName' => 'DRIVER',
+      'plugins.generic.driver.description' => 'O complemento DRIVER estende a interface OAI-PMH de acordo coas directrices DRIVER 2.0, o que permite que as revistas OJS sexan compatibles con DRIVER.',
+    ),
+  ),
+);

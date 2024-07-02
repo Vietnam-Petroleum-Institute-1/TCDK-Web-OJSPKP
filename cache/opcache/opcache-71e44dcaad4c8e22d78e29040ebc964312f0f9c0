@@ -1,0 +1,32 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=1; plural=0;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.citationStyleLanguage.style.turabian-fullnote-bibliography' => '투라비안',
+      'plugins.generic.citationStyleLanguage.description' => '독자에게 인용 스타일 언어에서 제공되는 여러가지 양식 중 하나가 적용된 출판된 논문의 참고문헌 인용을 허용하세요.',
+      'plugins.generic.citationStyleLanguage.settings.publisherLocation.description' => '어느 인용 포맷은 "London, U.K."와 같이 출판사의 지리적 위치가 필요합니다.',
+      'plugins.generic.citationStyleLanguage.settings.publisherLocation' => '출판사 위치',
+      'plugins.generic.citationStyleLanguage.settings.citationFormatsPrimaryDescription' => '당신의 논문 출력 페이지에 기본 설정을 원하는 인용 포맷을 선택하세요.',
+      'plugins.generic.citationStyleLanguage.settings.citationFormatsPrimary' => '주 인용 포맷',
+      'plugins.generic.citationStyleLanguage.settings.citationFormatsDescription' => '당신의 독자에게 제공하고자 하는 추가적인 포맷을 선택하세요.',
+      'plugins.generic.citationStyleLanguage.settings.citationFormats' => '추가적인 인용 포맷',
+      'plugins.generic.citationStyleLanguage.settings.citationDownloadsDescription' => '당신의 독자에게 제공하고자 하는 다운로드가 가능한 포맷을 선택하십시오. 다운로드가 가능한 포맷은 엔트노트나 Zotero와 같은 서드파티 서지관리 소프트웨어에서 가져오기를 위해 사용됩니다.',
+      'plugins.generic.citationStyleLanguage.settings.citationDownloads' => '다운로드가 가능한 포맷',
+      'plugins.generic.citationStyleLanguage.download.ris' => '엔드노트/Zotero/멘들리 (RIS)',
+      'plugins.generic.citationStyleLanguage.download.bibtex' => 'BibTex',
+      'plugins.generic.citationStyleLanguage.style.vancouver' => '벤쿠버',
+      'plugins.generic.citationStyleLanguage.style.modern-language-association' => 'MLA',
+      'plugins.generic.citationStyleLanguage.style.ieee' => 'IEEE',
+      'plugins.generic.citationStyleLanguage.style.harvard-cite-them-right' => '하버드',
+      'plugins.generic.citationStyleLanguage.style.chicago-author-date' => '시카고',
+      'plugins.generic.citationStyleLanguage.style.associacao-brasileira-de-normas-tecnicas' => 'ABNT',
+      'plugins.generic.citationStyleLanguage.style.apa' => 'APA',
+      'plugins.generic.citationStyleLanguage.style.acs-nano' => 'ACS',
+      'plugins.generic.citationStyleLanguage.style.acm-sig-proceedings' => 'ACM',
+      'plugins.generic.citationStyleLanguage.displayName' => '인용 스타일 언어',
+    ),
+  ),
+);

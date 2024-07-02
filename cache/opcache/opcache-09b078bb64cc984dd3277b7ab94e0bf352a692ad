@@ -1,0 +1,37 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=1; plural=0;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.importexport.datacite.displayName' => 'Plugin Expor/Pendaftaran DataCite',
+      'plugins.importexport.datacite.description' => 'Ekspor atau daftarkan metadata issue, artikel, galley, dan data tambahan dalam format DataCite.',
+      'plugins.importexport.datacite.settings.description' => 'Aturlah plugin ekspor DataCite sebelum digunakan untuk pertama kali.',
+      'plugins.importexport.datacite.intro' => '
+		Jika Anda ingin mendaftar DOI pada DataCite, hubungilah Agen
+		Pengelola melalui <a href="https://datacite.org/contact.html" target="_blank">Halaman Beranda
+		DataCite</a>, yang akan mengarahkan Anda ke halaman Anggota DataCite. Sekali Anda
+		menjalin hubungan dengan organisasi Anggota, kamu akan diberi
+		akses layanan DataCite untuk membuat pengidentifikasi selamanya (DOIs)
+		dan mendaftarkan metadata terkait. Jika belum punya username dan
+		password, Anda tetap bisa mengekspor ke dalam format XML DataCite tapi kamu
+		tidak bisa mendaftarkan DOI pada DataCite melalui aplikasi OJS.
+		Perlu diketahui bahwa password akan disimpan dalam format teks biasa, misalnya tidak dienkripsi, karena
+		alasan persyaratan layanan pendaftaran DataCite.
+	',
+      'plugins.importexport.datacite.settings.form.username' => 'Username (lambang)',
+      'plugins.importexport.datacite.settings.form.usernameRequired' => 'Masukkan username (lambang) yang Anda peroleh dari DataCite. Username tidak boleh mengandung titik dua (:).',
+      'plugins.importexport.datacite.settings.form.automaticRegistration.description' => 'OJS akan mendepositkan DOI secara otomatis ke DataCite. Perlu diketahui bahwa hal ini memakan beberapa waktu sebelum publikasi diproses (misalnya, tergantung pada pengaturan cronjob Anda). Anda bisa memeriksa semua DOI yang belum terdaftar.',
+      'plugins.importexport.datacite.settings.form.testMode.description' => 'Gunakan prefiks tes DataCite untuk pendaftaran DOI. Jangan luoa menghapus opsi ini untuk kategori produksi.',
+      'plugins.importexport.datacite.settings.form.testUsername' => 'Tes Nama Pengguna',
+      'plugins.importexport.datacite.settings.form.testPassword' => 'Tes Password',
+      'plugins.importexport.datacite.settings.form.testDOIPrefix' => 'Tes Prefiks DOI',
+      'plugins.importexport.datacite.senderTask.name' => 'Tugas pendaftaran otomatis DataCite',
+      'plugins.importexport.datacite.cliUsage' => 'Penggunaan: 
+{$scriptName} {$pluginName} ekspor [outputFileName] [journal_path] {issues|articles|galleys} objectId1 [objectId2] ...
+{$scriptName} {$pluginName} register [journal_path] {issues|articles|galleys} objectId1 [objectId2] ...
+',
+    ),
+  ),
+);

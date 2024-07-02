@@ -1,0 +1,48 @@
+<?php $exp = 1751345594; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'emails.orcidCollectAuthorId.subject' => 'Предоставяне на ORCID',
+      'emails.orcidCollectAuthorId.body' => 'Здравейте, {$recipientName},<br/>
+<br/>
+Вие сте посочени като автор в ръкопис, предложен за публикуване в {$contextName}.<br/>
+За да потвърдите своето авторство, моля добавете своя ORCID идентификатор чрез отваряне на хипервързката по-долу.<br/>
+<br/>
+<a href="{$authorOrcidUrl}"><img id="orcid-id-logo" src="https://info.orcid.org/wp-content/uploads/2020/12/ORCIDiD_icon16x16.png" width=\'16\' height=\'16\' alt="ORCID iD icon" style="display: block; margin: 0 .5em 0 0; padding: 0; float: left;"/>Регистриране или свързване на ORCID идентификатор</a><br/>
+<br/>
+<br>
+<a href="{$orcidAboutUrl}">Още информация за ORCID - в {$contextName}</a><br/>
+<br/>
+Ако имате някакви въпроси, моля, слържете се с мен.<br/>
+<br/>
+{$principalContactSignature}<br/>
+',
+      'emails.orcidCollectAuthorId.description' => 'Този шаблон за имейл се използва за събиране на ORCID идентификатори от авторите.',
+      'emails.orcidRequestAuthorAuthorization.subject' => 'Изискване достъп до ORCID запис',
+      'emails.orcidRequestAuthorAuthorization.body' => 'Здравейте, {$recipientName},<br>
+<br>
+Вие сте посочени като автор в ръкопис, предложен за публикуване "{$submissionTitle}" в {$contextName}.
+<br>
+<br>
+Моля, разрешете да добавим вашият ORCID идентификатор към това предложение и да добавим публикацията към Вашия ORCID профил.<br>
+Отворете хипервръзката към официалният сайт за ORCID, влезте в своя профил и удостоверете достъпа, следвайки инструкциите.<br>
+<a href="{$authorOrcidUrl}"><img id="orcid-id-logo" src="https://info.orcid.org/wp-content/uploads/2020/12/ORCIDiD_icon16x16.png" width=\'16\' height=\'16\' alt="ORCID iD icon" style="display: block; margin: 0 .5em 0 0; padding: 0; float: left;"/>Регистриране или свързване на ORCID идентификатор</a><br/>
+<br>
+<br>
+<a href="{$orcidAboutUrl}">Още информация за ORCID - в {$contextName}</a><br/>
+<br>
+Ако имате някакви въпроси, моля, слържете се с мен.<br>
+<br>
+{$principalContactSignature}<br>
+',
+      'emails.orcidRequestAuthorAuthorization.description' => 'Този шалон за имейл се използва за искане от авторите на достъп до ORCID записи.',
+      'emailTemplate.variable.authorOrcidUrl' => 'ORCID OAuth връзка за оторизация',
+      'emailTemplate.variable.orcidAboutUrl' => 'URL към страницата за ORCID',
+      'plugins.generic.orcidProfile.orcidRequestAuthorAuthorization.name' => 'ORCiD искане на разрешение за автор',
+      'plugins.generic.orcidProfile.orcidCollectAuthorId.name' => 'ORCiD Събиране на авторски идентификатор',
+    ),
+  ),
+);

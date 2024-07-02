@@ -1,0 +1,12 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.pdfJsViewer.name' => 'PDF.JS PDF მნახველი',
+      'plugins.generic.pdfJsViewer.description' => 'ეს პლაგინი იყენებს <a href="http://mozilla.github.io/pdf.js">pdf.js PDF მნახველს</a> ჩასასმელად და სვეტების გვერდების გასაცემად.',
+    ),
+  ),
+);

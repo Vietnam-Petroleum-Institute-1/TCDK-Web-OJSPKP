@@ -1,0 +1,34 @@
+<?php $exp = 1751345595; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.themes.default.name' => 'Oletusteema',
+      'plugins.themes.default.description' => 'Tällä teemalla otetaan käyttöön oletusteema.',
+      'plugins.themes.default.option.typography.label' => 'Typografia',
+      'plugins.themes.default.option.typography.description' => 'Valitse fonttiyhdistelmä, joka sopii tälle julkaisulle.',
+      'plugins.themes.default.option.typography.notoSans' => 'Noto Sans: Googlen sähköiseen käyttöön suunnittelema fontti laajaan kielitukeen.',
+      'plugins.themes.default.option.typography.notoSerif' => 'Noto Serif: Serif-variantti Googlen sähköiseen käyttöön suunnittelemasta fontista.',
+      'plugins.themes.default.option.typography.notoSerif_notoSans' => 'Noto Serif / Noto Sans: Toisiaan täydentävä yhdistelmä, jossa serif-tyyli otsikoille ja sans-serif -tyyli leipätekstille.',
+      'plugins.themes.default.option.typography.notoSans_notoSerif' => 'Noto Sans / Noto Serif: Toisiaan täydentävä yhdistelmä, jossa sans-serif -tyyli otsikoille ja serif-tyyli leipätekstille.',
+      'plugins.themes.default.option.typography.lato' => 'Lato: Suosittu, moderni sans-serif -fontti.',
+      'plugins.themes.default.option.typography.lora' => 'Lora: Laajasti aseteltu serif-fontti, sopii mainiosti verkkokäyttöön.',
+      'plugins.themes.default.option.typography.lora_openSans' => 'Lora / Open Sans: Toisiaan täydentävä yhdistelmä, jossa serif-tyyli otsikoille ja sans-serif tyyli leipätekstille.',
+      'plugins.themes.default.option.colour.label' => 'Väri',
+      'plugins.themes.default.option.colour.description' => 'Valitse ylätunnisteen väri.',
+      'plugins.themes.default.option.showDescriptionInJournalIndex.option' => 'Näytä julkaisun lyhyt kuvaus etusivulla.',
+      'plugins.themes.default.option.useHomepageImageAsHeader.label' => 'Yläpalkin taustakuva',
+      'plugins.themes.default.option.useHomepageImageAsHeader.description' => 'Mikäli kotisivun kuva on annettu, näytä se yläpalkin taustakuvana.',
+      'plugins.themes.default.option.useHomepageImageAsHeader.option' => 'Käytä kotisivun kuvaa yläpalkin taustakuvana.',
+      'plugins.themes.default.option.displayStats.label' => 'Käyttötilastojen näyttöasetukset',
+      'plugins.themes.default.option.displayStats.none' => 'Älä näytä lukijalle käsikirjoitusten käyttötilastoja.',
+      'plugins.themes.default.option.displayStats.bar' => 'Käytä pylvästyyppistä kaaviota käyttötilastojen näyttämiseen.',
+      'plugins.themes.default.option.displayStats.line' => 'Käytä viivatyyppistä kaaviota käyttötilastojen näyttämiseen.',
+      'plugins.themes.default.displayStats.monthInitials' => 'tammi helmi maalis huhti touko kesäkuu heinä elo syys loka marras joulukuu',
+      'plugins.themes.default.displayStats.downloads' => 'Lataukset',
+      'plugins.themes.default.displayStats.noStats' => 'Lataustiedot eivät ole vielä saatavilla.',
+    ),
+  ),
+);

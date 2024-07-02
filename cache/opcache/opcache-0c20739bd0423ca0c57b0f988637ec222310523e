@@ -1,0 +1,12 @@
+<?php $exp = 1751345595; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.googleScholar.name' => 'Google Scholar indeksointilisäosa',
+      'plugins.generic.googleScholar.description' => 'Tämä lisäosa mahdollistaa julkaistun sisällön indeksoinnin Google Scholar -palveluun.',
+    ),
+  ),
+);

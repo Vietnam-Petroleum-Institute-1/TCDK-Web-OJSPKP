@@ -1,0 +1,46 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'emails.orcidCollectAuthorId.body' => 'ძვირფასო {$recipientName},<br/>
+<br/>
+თქვენ ხართ ჩამოთვლილი, როგორც ავტორი {$contextName}-ის ხელნაწერში.<br/>
+თქვენი ავტორობის დასადასტურებლად, გთხოვთ, დაამატოთ თქვენი ORCID ID ამ წარდგენაში, ეწვიეთ ქვემოთ მოცემულ ბმულს.<br/>
+<br/>
+<a href="{$authorOrcidUrl}"><img id="orcid-id-logo" src="https://info.orcid.org/wp-content/uploads/2020/12/ORCIDiD_icon16x16.png" width=\'16\' height=\'16\' alt="ORCID iD icon" style="display: block; margin: 0 .5em 0 0; padding: 0; float: left;"/>დარეგისტრირდით ან დააკავშირეთ თქვენი ORCID ID</a><br/>
+<br/>
+<br>
+<a href="{$orcidAboutUrl}">დამატებითი ინფორმაცია ORCID-ის შესახებ მისამართზე: {$contextName}</a><br/>
+<br/>
+თუ თქვენ გაქვთ რაიმე შეკითხვები, გთხოვთ დამიკავშირდეთ.<br/>
+<br/>
+{$principalContactSignature}<br/>
+',
+      'emails.orcidRequestAuthorAuthorization.body' => 'ძვირფასო {$recipientName},<br>
+<br> 
+თქვენ ჩამოთვლილი ხართ, როგორც ავტორი ხელნაწერში "{$submissionTitle}" {$contextName}-ში.
+<br>
+<br>
+გთხოვთ, მოგვცეთ უფლება, დავამატოთ თქვენი ORCID ID ამ წარდგენაში და ასევე დავამატოთ წარდგენა თქვენს ORCID პროფილში გამოქვეყნებისას.<br> 
+ეწვიეთ ბმულს ORCID-ის ოფიციალურ ვებსაიტზე, შედით თქვენი პროფილით და დაუშვით წვდომა ინსტრუქციის შემდეგ.<br>
+<a href="{$authorOrcidUrl}"><img id="orcid-id-logo" src="https://info.orcid.org/wp-content/uploads/2020/12/ORCIDiD_icon16x16.png" width=\'16\' height=\'16\' alt="ORCID iD icon" style="display: block; margin: 0 .5em 0 0; padding: 0; float: left;"/>დარეგისტრირდით ან შეაერთეთ თქვენი ORCID ID</a><br/>
+<br>
+<br>
+<a href="{$orcidAboutUrl}">მეტი ORCID-ის შესახებ მისამართზე: {$contextName}</a><br/>
+<br>
+თუ თქვენ გაქვთ რაიმე შეკითხვები, გთხოვთ დამიკავშირდეთ.<br>
+<br>
+{$principalContactSignature}<br>
+',
+      'emails.orcidCollectAuthorId.subject' => 'შენატანის ORCID',
+      'emails.orcidCollectAuthorId.description' => 'ელფოსტის ეს შაბლონი გამოიყენება ავტორების ORCID ID– ების შესაგროვებლად.',
+      'emails.orcidRequestAuthorAuthorization.subject' => 'ითხოვს ORCID ჩანაწერს წვდომას',
+      'emails.orcidRequestAuthorAuthorization.description' => 'ელფოსტის ეს შაბლონი გამოიყენება ავტორებისგან ORCID ჩანაწერების დაშვების მოთხოვნით.',
+      'emailTemplate.variable.authorOrcidUrl' => 'ORCID-ის OAuth-ავტორიზაციის ბმული',
+      'emailTemplate.variable.orcidAboutUrl' => 'ORCID-ის შესახებ ინფორმაციის გვერდის URL-მისამართი',
+    ),
+  ),
+);

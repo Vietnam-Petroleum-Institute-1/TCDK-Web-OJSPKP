@@ -1,0 +1,24 @@
+<?php $exp = 1751345595; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.customBlockManager.displayName' => 'Διαχείριση Προσαρμοσμένων Δομικών Στοιχείων (Custom blocks)',
+      'plugins.generic.customBlockManager.manage' => 'Διαχείριση Προσαρμοσμένων Δομικών Στοιχείων',
+      'plugins.generic.customBlockManager.description' => 'Αυτό το πρόσθετο σας επιτρέπει να διαχειρίζεστε (προσθήκη, επεξεργασία και διαγραφή) τα προσαρμοσμένα δομικά στοιχεία.',
+      'plugins.generic.customBlockManager.customBlocks' => 'Προσαρμοσμένα Δομικά Στοιχεία',
+      'plugins.generic.customBlockManager.blockName' => 'Ονομασία δομικού στοιχείου',
+      'plugins.generic.customBlockManager.addBlock' => 'Προσθήκη δομικού στοιχείου',
+      'plugins.generic.customBlockManager.noneCreated' => 'Δεν έχουν δημιουργηθεί Προσαρμοσμένα Δομικά Στοιχεία.',
+      'plugins.generic.customBlock.content' => 'Περιεχόμενο',
+      'plugins.generic.customBlock.nameSuffix' => '(Πρόσθετο Προσαρμοσμένων Δομικών Στοιχείων)',
+      'plugins.generic.customBlock.description' => 'Αυτό είναι δομικό στοιχείο δημιουργημένο από Χρήστη.',
+      'plugins.generic.customBlock.nameRequired' => 'Το όνομα του δομικού στοιχείου είναι απαραίτητο.',
+      'plugins.generic.customBlock.nameRegEx' => 'Το όνομα του δομικού στοιχείου πρέπει να περιλαμβάνει μόνο γράμματα, αριθμούς και παύλες/κάτω παύλες.',
+      'plugins.generic.customBlock.showName' => 'Εμφάνιση ονόματος',
+      'plugins.generic.customBlock.showName.description' => 'Εμφάνιση του ονόματος αυτού του μπλοκ πάνω από το περιεχόμενο του μπλοκ.',
+    ),
+  ),
+);

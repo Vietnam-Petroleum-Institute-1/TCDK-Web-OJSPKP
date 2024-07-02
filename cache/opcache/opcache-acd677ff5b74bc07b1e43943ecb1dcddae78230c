@@ -1,0 +1,12 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.pdfJsViewer.name' => 'PDF.JS PDF Görüntüleyici Eklentisi',
+      'plugins.generic.pdfJsViewer.description' => 'Bu eklenti sayı dizgi tablalarında gömülü PDF\'leri görüntülemek için <a href="https://mozilla.github.io/pdf.js/">pdf.js PDF görüntüleyici</a> kullanır.',
+    ),
+  ),
+);

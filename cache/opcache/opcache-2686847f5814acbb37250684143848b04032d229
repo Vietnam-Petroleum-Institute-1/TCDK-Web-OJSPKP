@@ -1,0 +1,31 @@
+<?php $exp = 1751345594; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'api.announcements.400.contextsNotMatched' => 'Търсеният текст не е част от това списание.',
+      'api.emails.403.disabled' => 'Функцията за известяване по имейл не е активирана за това списание.',
+      'api.submissions.400.wrongContext' => 'Материалите, които търсите, не са в това списание.',
+      'api.submissions.403.cantChangeContext' => 'Не можете да променяте дневника на подаване на материали.',
+      'api.submissions.403.unpublishedIssues' => 'Нямате права да преглеждате непубликувани броеве.',
+      'api.contexts.403.requestedDisabledContexts' => 'Можете да разглеждате само списания, които са активирани.',
+      'api.contexts.403.notAllowed' => 'Нямате права да разглеждате това списание.',
+      'api.contexts.403.contextsDidNotMatch' => 'Не можете да преглеждате или редактирате това списание, освен ако не направите коректна заявка към програмния интерфейс (API) на списанието или коректна заявка към програмния интерфейс (API) на сайта.',
+      'api.contexts.403.requiresContext' => 'Не можете да редактирате това списание чрез програмния интерфейс (API) за целия сайт.',
+      'api.contexts.403.notAllowedEdit' => 'Нямате права да редактирате това списание.',
+      'api.contexts.403.notAllowedDelete' => 'Нямате права да изтриете това списание.',
+      'api.contexts.404.contextNotFound' => 'Списанието, което търсите не е намерено.',
+      'api.dois.403.contextsNotMatched' => 'DOI, който поискахте, не е част от това списание.',
+      'api.dois.400.noRegistrationAgencyConfigured' => 'За това списание няма конфигурирана агенция по регистрация на DOI.',
+      'api.dois.400.depositFailed' => 'Някои елементи не бяха депозирани успешно. Моля, проверете отделните елементи за конкретни съобщения за грешки.',
+      'api.emailTemplates.403.notAllowedChangeContext' => 'Нямате права да премествате този шаблон за имейли към друго списание.',
+      'api._payments.400.invalidPaymentMethod' => 'Избраният метод за плащане не се поддържа.',
+      'api.publications.403.contextsDidNotMatch' => 'Публикацията, която търсите, не е част от това списание.',
+      'api.publications.403.submissionsDidNotMatch' => 'Публикацията, която търсите, не е част от тези изпратени материали.',
+      'api.submissionFiles.400.badRepresentationAssocType' => 'Не можете да свържете файл на този етап с типография.',
+      'api.submission.400.inactiveSection' => 'В този раздел вече не се подават/получават материали за публикуване.',
+    ),
+  ),
+);

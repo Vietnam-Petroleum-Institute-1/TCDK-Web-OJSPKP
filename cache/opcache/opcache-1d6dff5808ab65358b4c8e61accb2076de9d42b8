@@ -1,0 +1,34 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.themes.default.name' => 'Privzete teme',
+      'plugins.themes.default.description' => 'Vtičnik implementira privzete teme.',
+      'plugins.themes.default.option.typography.label' => 'Tipografija',
+      'plugins.themes.default.option.typography.description' => 'Izberite kombinacijo pisave, ki ustreza vaši reviji.',
+      'plugins.themes.default.option.typography.notoSans' => 'Noto Sans: Digitalna pisava, ki jo je razvil Google z obsežno podporo jezikom.',
+      'plugins.themes.default.option.typography.notoSerif' => 'Noto Serif: Serifna oblika Googlove digitalne pisave.',
+      'plugins.themes.default.option.typography.notoSerif_notoSans' => 'Noto Serif/Noto Sans: Kombinacija serifnih naslovov in ne-serifnega besedila.',
+      'plugins.themes.default.option.typography.notoSans_notoSerif' => 'Noto Sans/Noto Serif: Kombinacija ne-serifnih naslovov in serifnega besedila.',
+      'plugins.themes.default.option.typography.lato' => 'Lato: Priljubljena moderna pisava sans-serif.',
+      'plugins.themes.default.option.typography.lora' => 'Lora: Široka serifna pisava za branje na spletu.',
+      'plugins.themes.default.option.typography.lora_openSans' => 'Lora/Open Sans: Kombinacija serifnih naslvovo in sans-serifnega besedila.',
+      'plugins.themes.default.option.colour.label' => 'Barva',
+      'plugins.themes.default.option.colour.description' => 'Izberite barvo naslovov.',
+      'plugins.themes.default.option.showDescriptionInJournalIndex.option' => 'Prikaži povzetek revije na domači strani.',
+      'plugins.themes.default.option.useHomepageImageAsHeader.label' => 'Ozadje slike glave',
+      'plugins.themes.default.option.useHomepageImageAsHeader.description' => 'Ko bo slika naslovne strani naložena, naj se prikaže kot ozadje glave namesto na običajni lokaciji na domači strani.',
+      'plugins.themes.default.option.useHomepageImageAsHeader.option' => 'Prikaži sliko domače strani kot ozadje glave.',
+      'plugins.themes.default.option.displayStats.label' => 'Možnosti prikazovanja statistik uporabe',
+      'plugins.themes.default.option.displayStats.none' => 'Bralcem ne prikazuj grafa statistik uporabe.',
+      'plugins.themes.default.option.displayStats.bar' => 'Statistike uporabe naj se prikazujejo kot stolpični diagram.',
+      'plugins.themes.default.option.displayStats.line' => 'Statistike uporabe naj se prikazujejo kot črtni grafikon.',
+      'plugins.themes.default.displayStats.monthInitials' => 'Jan Feb Mar Apr Maj Jun Jul Avg Sep Okt Nov Dec',
+      'plugins.themes.default.displayStats.downloads' => 'Prenosi',
+      'plugins.themes.default.displayStats.noStats' => 'Podatki o prenosih še niso na voljo.',
+    ),
+  ),
+);

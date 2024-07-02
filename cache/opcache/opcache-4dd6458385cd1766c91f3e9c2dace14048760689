@@ -1,0 +1,98 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'emails.submissionAck.subject' => 'Bevestiging van inzending',
+      'emails.submissionAck.body' => '{$recipientName}:<br />
+<br />
+Dank u voor het inzenden van het manuscript &quot;{$submissionTitle}&quot; voor {$contextName}. Het online tijdschriftbeheersysteem dat wij gebruiken geeft u de mogelijkheid om de voortgang van het redactieproces te volgen door in te loggen op de website van het tijdschrift:<br />
+<br />
+Manuscript URL: {$submissionUrl}<br />
+Gebruikersnaam: {$recipientUsername}<br />
+<br />
+Neemt u alstublieft contact op als u vragen heeft. Dank u voor het overwegen van dit tijdschrift als podium voor u werk.<br />
+<br />
+{$contextSignature}',
+      'emails.reviewAck.subject' => 'Artikel review bevestiging',
+      'emails.reviewAck.body' => '{$recipientName}:<br />
+<br />
+Dank u voor uw review van de inzending &quot;{$submissionTitle}&quot; voor {$contextName}. We waarderen uw bijdrage aan de kwaliteit van het werk dat wij publiceren.',
+      'emails.editorDecisionSendToExternal.subject' => 'Redacteursbeslissing',
+      'emails.editorDecisionSendToExternal.body' => '{$authors}:<br />
+<br />
+We hebben een beslissing genomen over uw inzending voor {$contextName}, &quot;{$submissionTitle}&quot;.<br />
+<br />
+Onze belissing is: Doorsturen aan reviewer<br />
+<br />
+URL inzending: {$submissionUrl}',
+      'emails.editorDecisionSendToProduction.subject' => 'Redacteursbeslissing',
+      'emails.editorDecisionSendToProduction.body' => '{$authors}:<br />
+<br />
+De redactie van uw inzending, &quot;{$submissionTitle},&quot; is afgerond. We geven uw inzending nu in productie.<br />
+<br />
+URL inzending: {$submissionUrl}',
+      'emails.editorDecisionRevisions.subject' => 'Redacteursbeslissing',
+      'emails.editorDecisionRevisions.body' => '{$authors}:<br />
+<br />
+We hebben een beslissing genomen over uw inzending voor {$contextName}, &quot;{$submissionTitle}&quot;.<br />
+<br />
+Onze beslissing is: Revisies benodigd',
+      'emails.editorDecisionResubmit.subject' => 'Redacteursbeslissing',
+      'emails.editorDecisionResubmit.body' => '{$authors}:<br />
+<br />
+We hebben een beslissing genomen over uw inzending voorv{$contextName}, &quot;{$submissionTitle}&quot;.<br />
+<br />
+Onze beslissing is: Opnieuw indienen voor review',
+      'emails.editorDecisionDecline.subject' => 'Redacteursbeslissing',
+      'emails.editorDecisionDecline.body' => '{$authors}:<br />
+<br />
+We hebben een beslissing genomen over uw inzending voor {$contextName}, &quot;{$submissionTitle}&quot;.<br />
+<br />
+Onze beslissing is: Weiger inzending',
+      'emails.editorRecommendation.subject' => 'Redacteursaanbeveling',
+      'emails.editorRecommendation.body' => '{$editors}:<br />
+<br />
+De aanbeveling voor de inzending voor {$contextName}, &quot;{$submissionTitle}&quot; is: {$recommendation}',
+      'emails.copyeditRequest.subject' => 'Tekstredactie verzoek',
+      'emails.copyeditRequest.body' => '{$recipientName}:<br />
+<br />
+Ik wil u vragen om de teksredactie uit te voeren voor artikel &quot;{$submissionTitle}&quot; voor {$contextName} door deze stappen te volgen.<br />
+1. Klik op de inzendings-URL hieronder.<br />
+2. Log in bij het tijdschrift en klik op het bestand dat verschijnt bij Stap 1.<br />
+3. Raadpleeg de tekstredactie-instructies die op de webpagina staan.<br />
+4. Open het gedownloade bestand en doe de tekstredactie. Voeg auteursvragen toe waar nodig.<br />
+5. Bewaar het bewerkte bestand en laad het bij stap 1 van Tekstredactie.<br />
+6. Stuur de GEREED e-mail naar de redacteur.<br />
+<br />
+{$contextName} URL: {$contextUrl}<br />
+URL inzending: {$submissionUrl}<br />
+Gerbruikersnaam: {$recipientUsername}',
+      'emails.editorDecisionInitialDecline.subject' => 'Redacteursbeslissing',
+      'emails.editorDecisionInitialDecline.body' => '
+			{$authors}:<br />
+<br />
+We hebben een beslissing genomen over uw inzending voor {$contextName}, &quot;{$submissionTitle}&quot;.<br />
+<br />
+Onze beslissing is: Weiger inzending',
+      'emails.discussion.subject' => 'Een bericht over {$contextName}',
+      'emails.discussion.body' => 'Voeg hier uw boodschap in.',
+      'emails.reviewConfirm.subject' => 'Review mogelijk',
+      'emails.reviewConfirm.body' => '{$recipientName}:<br />
+<br />
+Ik ben bereid en in staat om een review te doen van de inzending &quot;{$submissionTitle}&quot; voor {$contextName}. Dank u dat u aan mij gedacht heeft. Ik verwacht de review gereed te hebben op of voor de afloopdatum, {$reviewDueDate}.<br />
+<br />
+{$senderName}',
+      'emails.submissionAckNotAuthor.subject' => 'Bevestiging van inzending',
+      'emails.submissionAckNotAuthor.body' => 'Beste,<br />
+<br />
+{$submitterName} heeft het manuscript &quot;{$submissionTitle}&quot; ingezonden voor {$contextName}. <br />
+<br />
+Neemt u alstublieft contact op als u vragen heeft. Dank u voor het overwegen van dit tijdschrift als podium voor u werk.<br />
+<br />
+{$contextSignature}',
+    ),
+  ),
+);

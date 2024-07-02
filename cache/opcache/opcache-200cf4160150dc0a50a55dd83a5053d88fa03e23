@@ -1,0 +1,22 @@
+<?php $exp = 1751345595; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.announcementfeed.displayName' => 'Plugiciel de flux d\'annonces',
+      'plugins.generic.announcementfeed.description' => 'Ce plugiciel produit des flux de syndication Web RSS/Atom pour les annonces des revues.',
+      'plugins.generic.announcementfeed.settings' => 'Paramètres',
+      'plugins.generic.announcementfeed.settings.all' => 'Afficher les liens de flux dans toutes les pages des revues.',
+      'plugins.generic.announcementfeed.settings.homepage' => 'Afficher les liens de flux dans la page d\'accueil et dans la page d\'annonces.',
+      'plugins.generic.announcementfeed.settings.announcement' => 'Afficher les liens de flux dans la page d\'annonces uniquement.',
+      'plugins.generic.announcementfeed.settings.recentAnnouncements1' => 'Limiter le flux aux',
+      'plugins.generic.announcementfeed.settings.recentAnnouncements2' => 'plus récentes annonces.',
+      'plugins.generic.announcementfeed.settings.recentItemsRequired' => 'Prière d\'entrer un entier positif pour les annonces récentes.',
+      'plugins.generic.announcementfeed.atom.altText' => 'Logo Atom',
+      'plugins.generic.announcementfeed.rss1.altText' => 'Logo RSS1',
+      'plugins.generic.announcementfeed.rss2.altText' => 'Logo RSS2',
+    ),
+  ),
+);

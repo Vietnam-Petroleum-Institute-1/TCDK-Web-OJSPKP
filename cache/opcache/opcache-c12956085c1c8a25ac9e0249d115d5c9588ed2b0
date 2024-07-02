@@ -1,0 +1,65 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.importexport.crossref.displayName' => 'Plugin di esportazione Crossref XML',
+      'plugins.importexport.crossref.description' => 'Esporta i metadati degli articoli in formato Crossref XML.',
+      'plugins.importexport.crossref.cliUsage' => 'Uso:
+{$scriptName} {$pluginName} export [xmlFileName] [journal_path] articles objectId1 [objectId2] ...
+{$scriptName} {$pluginName} register [journal_path] articles objectId1 [objectId2] ...
+',
+      'plugins.importexport.crossref.settings.depositorIntro' => 'I dati seguenti sono necessari per un deposito corretto in Crossref.',
+      'plugins.importexport.crossref.settings.form.depositorName' => 'Nome del depositor',
+      'plugins.importexport.crossref.settings.form.depositorEmail' => 'Email del depositor',
+      'plugins.importexport.crossref.registrationIntro' => 'Se vuoi usare questo plugin per registrare i Digital Object Identifiers (DOI) direttamente su Crossref avrai bisogno di un nome utente e una password (ottenibili su <a href="http://www.crossref.org" target="_blank">Crossref</a>). Se non hai un nome utente e una password, puoi comunque esportare nel formato XML di Crossref ma non potrai registrare i DOI con Crossref tramite OJS.',
+      'plugins.importexport.crossref.settings.form.username' => 'Nome utente',
+      'plugins.importexport.crossref.requirements' => 'Requisiti',
+      'plugins.importexport.crossref.requirements.satisfied' => 'Tutti i requisiti del plugin sono soddisfatti.',
+      'plugins.importexport.crossref.error.publisherNotConfigured' => 'Non è stato configurato un editore per la rivista. Devi indicare un editore per la rivista nella <a href="{$journalSettingsUrl}" target="_blank">Pagina di configurazione della rivista</a>.',
+      'plugins.importexport.crossref.error.issnNotConfigured' => 'Non è stato configurato un ISSN per la rivista. Devi indicare un ISSN per la rivista nella <a href="{$journalSettingsUrl}" target="_blank">Pagina di configurazione della rivista</a>.',
+      'plugins.importexport.crossref.error.noDOIContentObjects' => 'Gli articoli non sono stati configurati per ricevere DOI nel plugin dei DOI. Per tanto non è possibile depositare o esportare con questo plugin.',
+      'plugins.importexport.crossref.settings.form.depositorNameRequired' => 'Per favore inserisci il nome del depositante.',
+      'plugins.importexport.crossref.settings.form.depositorEmailRequired' => 'Per favore inserisci la mail del depositante.',
+      'plugins.importexport.crossref.settings.form.usernameRequired' => 'Inserisci lo username che hai ricevuto da Crossref.',
+      'plugins.importexport.crossref.settings.form.automaticRegistration.description' => 'OJS depositerà automaticamente i DOI in Crossref per registrarli. Tieni presente che può passare un certo tempo dalla pubblicazione prima della fine del processo. Puoi controllare tutti i DOI non registrati.',
+      'plugins.importexport.crossref.settings.form.testMode.description' => 'Usa l\'API di test di Crossref per il deposito. Non ti dimenticare di togliere questa opzione quando passi in produzione.',
+      'plugins.importexport.crossref.issues.description' => 'Nota: solo i fascicoli (e non i loro articoli) saranno considerati per l\'export e/o la registrazione.',
+      'plugins.importexport.crossref.status.submitted' => 'Inviato.',
+      'plugins.importexport.crossref.status.completed' => 'Depositato.',
+      'plugins.importexport.crossref.status.failed' => 'Fallito',
+      'plugins.importexport.crossref.status.registered' => 'Attivo',
+      'plugins.importexport.crossref.status.markedRegistered' => 'Segnato come attivo',
+      'plugins.importexport.crossref.statusLegend' => '
+		<p>Stato del deposito in Crossref:</p>
+		<p>
+		- Non depositato: questo DOI non è stato depositato.<br />
+		- Attivo: Il DOI è stato depositato e viene interpretato correttamente.<br />
+		- Fallito: Il deposito del DOI è fallito.<br />
+		- Marcato come attivo: Il DOI è stato marcato come attivo manualmente.
+		</p>
+		<p>Viene visualizzato solo lo stato dell\'ultimo tentativo di deposito.</p>
+		<p>Se il deposito fallisce, risolvere il problema e riprovare a depositare il DOI.</p>',
+      'plugins.importexport.crossref.action.export' => 'Esporta',
+      'plugins.importexport.crossref.action.markRegistered' => 'Marca come attivo',
+      'plugins.importexport.crossref.action.register' => 'Invia',
+      'plugins.importexport.crossref.action.checkStatus' => 'Controlla lo status',
+      'plugins.importexport.crossref.senderTask.name' => 'Task di registrazione automatica in Crossref',
+      'plugins.importexport.crossref.register.error.mdsError' => 'L\'invio non ha avuto successo. Il server di registrazione ha dato come errore: \'{$param}\'.',
+      'plugins.importexport.crossref.register.success' => 'L\'invio ha avuto successo!',
+      'plugins.importexport.crossref.export.error.issueNotFound' => 'Nessun fascicolo corrisponde all\'ID: "{$issueId}".',
+      'plugins.importexport.crossref.export.error.articleNotFound' => 'Nessun articolo corrisponde all\'ID: "{$articleId}".',
+      'plugins.importexport.crossref.notification.failed' => 'Un DOI ha fallito la registrazione. Per favore vai in Strumenti > import/esport > Crossref Plufin per vedere i depositi falliti',
+      'plugins.importexport.crossref.register.success.warning' => 'La registrazione è andata a buon fine con il seguente avviso: \'{$param}\'.',
+      'plugins.importexport.crossref.settings.form.validation' => 'Controlla il file XML. Utilizzare questa opzione per il download manuale del file XML necessario per il deposito del DOI.',
+      'plugins.importexport.crossref.settings.form.onlyValidateExport' => 'Convalidare l\'esportazione senza scaricare il file.',
+      'plugins.generic.crossref.registrationAgency.name' => 'Crossref',
+      'plugins.importexport.crossref.status.notDeposited' => 'Non depositato',
+      'plugins.generic.crossref.displayName' => 'Plugin di gestione di Crossref',
+      'plugins.generic.crossref.description' => 'Gestione del deposito e dell\'esportazione dei metadati di Crossref',
+      'plugins.importexport.crossref.settings' => 'Impostazioni di Crossref',
+    ),
+  ),
+);

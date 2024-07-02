@@ -1,0 +1,90 @@
+<?php $exp = 1751345595; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'emails.submissionAck.subject' => 'قدردانی برای ارسال مقاله',
+      'emails.submissionAck.body' => '{$recipientName}:<br />
+<br />
+از ارسال مقاله &quot;{$submissionTitle}&quot; به {$contextName} متشکرم. با استفاده از سامانه الکترونیکی مدیریت مجله، که هم اکنون استفاده می شود، قادر خواهید بود ازطریق وارد شدن به وب سایت مجله، روند پیشرفت بررسی مقاله خود را پیگیری نمائید.<br />
+<br />
+آدرس مقاله : {$submissionUrl}<br />
+نام کاربری: {$recipientUsername}<br />
+<br />
+لطفا چنانچه سوالی دارید، با من تماس بگیرید.<br />
+<br />
+{$contextSignature}',
+      'emails.submissionAck.description' => 'در صورت فعال سازی. این ایمیل به صورت خودکار به نوسنده مقاله پس از تکمیل عملیات ارسال مقاله، فرستاده خواهد شد.',
+      'emails.reviewAck.subject' => 'قدردانی بخاطر بررسی مقاله',
+      'emails.reviewAck.body' => '{$recipientName}:<br />
+<br />
+برای بررسی مقاله ارسالی &quot;{$submissionTitle}&quot;مربوط به {$contextName}، از شما سپاسگزاریم. مساعدت شما را که باعث ارتقاء سطح کیفی مقاله ای که چاپ شد، ارج می نهیم.',
+      'emails.editorDecisionSendToExternal.subject' => 'تصمیم دبیر',
+      'emails.editorDecisionSendToExternal.body' => '{$authors}:<br />
+<br />
+در مورد مقاله ارسالی شما (&quot;{$submissionTitle}&quot;) در {$contextName} تصمصم نهایی اتخاذ شده است.<br />
+<br />
+تصمیم : ارسال به داور خارجی<br />
+<br />
+مشاهده وضعیت مقاله ارسالی: {$submissionUrl}',
+      'emails.editorDecisionSendToProduction.subject' => 'تصمیم دبیر',
+      'emails.editorDecisionSendToProduction.body' => '{$authors}:<br />
+<br />
+ روند داوری مقاله ارسالی شما (&quot;{$submissionTitle}&quot;)  تکمیل شده و به واحد انتشار ارسال شده است.<br />
+<br />
+مشاهده وضعیت مقاله ارسالی: {$submissionUrl}',
+      'emails.editorDecisionRevisions.subject' => 'تصمیم دبیر',
+      'emails.editorDecisionRevisions.body' => '{$authors}:<br />
+<br />
+در مورد مقاله ارسالی شما (&quot;{$submissionTitle}&quot;) در {$contextName} تصمصم نهایی اتخاذ شده است.<br />
+<br />
+تصمیم : مقاله ارسالی نیاز به انجام اصلاحات دارد',
+      'emails.editorDecisionResubmit.subject' => 'تصمیم دبیر',
+      'emails.editorDecisionResubmit.body' => '{$authors}:<br />
+<br />
+در مورد مقاله ارسالی شما (&quot;{$submissionTitle}&quot;) در {$contextName} تصمصم نهایی اتخاذ شده است.<br />
+<br />
+تصمیم نهایی: ارسال دوباره برای داوری',
+      'emails.editorDecisionDecline.subject' => 'تصمیم دبیر',
+      'emails.editorDecisionDecline.body' => '{$authors}:<br />
+<br />
+در مورد مقاله ارسالی شما (&quot;{$submissionTitle}&quot;) در {$contextName} تصمصم نهایی اتخاذ شده است.<br />
+<br />
+تصمیم نهایی: عدم پذیرش مقاله ارسالی',
+      'emails.editorRecommendation.subject' => 'توصیه دبیر',
+      'emails.editorRecommendation.body' => '{$editors}:<br />
+<br />
+توصیه اینجانب در مورد مقاله ارسالی (&quot;{$submissionTitle}&quot;) در {$contextName} ، {$recommendation} می باشد.',
+      'emails.copyeditRequest.subject' => 'درخواست انجام امور ویراستاری',
+      'emails.copyeditRequest.body' => '{$recipientName}:<br />
+<br />
+از شما درخواست می شود که امور ویراستاری مقاله &quot;{$submissionTitle}&quot; مربوط به {$contextName} را برعهده بگیرید. شما می توانید فایل مربوطه به همراه مجموعه ای از دستورالعمل های نحوه ویراستاری مقاله را در وب سایت مجله دریافت کنید.<br />
+<br />
+چنانچه در حال حاضر قادر به انجام امور مذکور نیستید و یا سوالی در این زمینه دارید، لطفا با من تماس بگیرید. پیشاپیش از قبول انجام امور ویراستاری برای این مجله سپاسگزارم.',
+      'emails.editorDecisionInitialDecline.subject' => 'تصمیم دبیر',
+      'emails.editorDecisionInitialDecline.body' => '{$authors}:<br />
+<br />
+در مورد مقاله ارسالی شما (&quot;{$submissionTitle}&quot;) در {$contextName} تصمصم نهایی اتخاذ شده است.<br />
+<br />
+تصمیم نهایی: عدم پذیرش',
+      'emails.discussion.subject' => 'پیامی برای {$contextName}',
+      'emails.discussion.body' => 'لطفاً پیام خود را وارد کنید',
+      'emails.reviewConfirm.subject' => 'داوری را قبول می کنم',
+      'emails.reviewConfirm.body' => 'دبیر محترم:<br />
+<br />
+اینجانب داوری مقاله ارسالی &quot;{$submissionTitle}&quot;مربوط به {$contextName} را قبول می نمایم. از توجه شما متشکرم و بررسی آنرا در موعد مقرر ( {$reviewDueDate}) انجام خواهد داد.<br />
+<br />
+{$senderName}',
+      'emails.submissionAckNotAuthor.subject' => 'قدردانی برای ارسال مقاله',
+      'emails.submissionAckNotAuthor.body' => 'با سلام,<br />
+<br />
+مقاله {$submitterName} مقاله &quot;{$submissionTitle}&quot; را به مجله {$contextName} ارسال نمودند <br />
+<br />
+در صورت داشتن هر گونه سوالی با من تماس حاصل فرمایید. از اینکه نتیجه پژوهش خود را برای این مجله ارسال نمودید، سپاسگذاریم<br />
+<br />
+{$contextSignature}',
+    ),
+  ),
+);

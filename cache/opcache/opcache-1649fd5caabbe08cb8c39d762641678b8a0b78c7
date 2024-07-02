@@ -1,0 +1,42 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'emails.orcidRequestAuthorAuthorization.description' => 'Denne e-postmalen brukes til å spørre om ORCID-tilgang fra forfattere.',
+      'emails.orcidRequestAuthorAuthorization.body' => 'Kjære {$recipientName}, <br />
+<br />
+Du er oppført som forfatter på manusinnleveringen "{$submissionTitle}" til {$contextName}. <br />
+For å bekrefte forfatterskapet ditt, vennligst legg til ORCID-ID-en din i denne innleveringen ved å gå til lenken nedenfor. <br />
+<br />
+<a href="{$authorOrcidUrl}"> <img id = "orcid-id-logo" src = "https://orcid.org/sites/default/files/images/orcid_16x16.png" width = \'16 \' height = \'16 \'alt = "ORCID iD icon" style = "display: block; margin: 0 .5em 0 0; padding: 0; float: left;" /> Registrer eller koble ORCID iD </a> <br />
+<br />
+<br />
+<a href="{$orcidAboutUrl}"> Mer informasjon om ORCID på {$contextName} </a> <br />
+<br />
+Ta gjerne kontakt hvis du har spørsmål. <br />
+<br />
+{$principalContactSignature} <br />
+',
+      'emails.orcidRequestAuthorAuthorization.subject' => 'Forespørsel om tilgang til ORCID',
+      'emails.orcidCollectAuthorId.description' => 'Denne e-posten brukes til å samle inn ORCID fra forfattere.',
+      'emails.orcidCollectAuthorId.body' => 'Kjære {$recipientName}, <br />
+<br />
+Du er oppført som forfatter på en manusinnlevering til {$contextName}. <br />
+For å bekrefte forfatterskapet ditt, vennligst legg til ORCID-ID-en din i denne innleveringen ved å gå til lenken nedenfor. <br />
+<br />
+<a href="{$authorOrcidUrl}"> <img id = "orcid-id-logo" src = "https://orcid.org/sites/default/files/images/orcid_16x16.png" width = \'16 \' height = \'16 \'alt = "ORCID iD icon" style = "display: block; margin: 0 .5em 0 0; padding: 0; float: left;" /> Registrer eller koble ORCID iD </a> <br />
+<br />
+<br />
+<a href="{$orcidAboutUrl}"> Mer informasjon om ORCID på {$contextName} </a> <br />
+<br />
+Ta gjerne kontakt hvis du har spørsmål. <br />
+<br />
+{$principalContactSignature} <br />
+',
+      'emails.orcidCollectAuthorId.subject' => 'ORCID for innlevering',
+    ),
+  ),
+);

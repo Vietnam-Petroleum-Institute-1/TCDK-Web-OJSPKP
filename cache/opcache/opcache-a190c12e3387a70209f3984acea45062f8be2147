@@ -1,0 +1,12 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.lensGalley.displayName' => 'eLife Lens artikel viewer',
+      'plugins.generic.lensGalley.description' => 'Met deze plugin kunnen JATS XML proefbestanden worden getoond met eLife Lens.',
+    ),
+  ),
+);

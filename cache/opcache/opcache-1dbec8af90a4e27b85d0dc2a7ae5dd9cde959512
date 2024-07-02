@@ -1,0 +1,32 @@
+<?php $exp = 1751345595; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'comments.anonymous' => 'کاربر ناشناس',
+      'comments.anonymousNamed' => '«{$userName}»',
+      'comments.body' => 'بدنه',
+      'comments.titleRequired' => 'وارد کردن عنوان برای نظر الزامی است.',
+      'comments.confirmDeleteChildren' => 'با حذف این نظر تمام پاسخ‌های داده شده به آن نیز حذف می‌شوند. آیا مطمئن به انجام این کار هستید؟',
+      'comments.delete' => 'حذف این نظر',
+      'comments.email' => 'ایمیل',
+      'comments.emailReply' => 'پاسخ ایمیل',
+      'comments.enterComment' => 'توضیح را وارد کنید',
+      'comments.inResponseTo' => 'در پاسخ به <a href="{$url}">{$title}</a>',
+      'comments.name' => 'نام',
+      'comments.noComments' => 'خالی',
+      'comments.nReplies' => '({$num} پاسخ)',
+      'comments.oneReply' => '(یک پاسخ)',
+      'comments.postAnonymously' => 'ارسال به‌صورت ناشناس',
+      'comments.postReply' => 'ارسال پاسخ',
+      'comments.readerComments' => 'نظرات خوانندگان',
+      'comments.readMore' => 'بیشتر',
+      'comments.replies' => 'پاسخ‌ها',
+      'comments.title' => 'عنوان',
+      'comments.viewAllComments' => 'دیدن تمام نظرات',
+      'reader.fullText' => 'تمام متن:',
+    ),
+  ),
+);

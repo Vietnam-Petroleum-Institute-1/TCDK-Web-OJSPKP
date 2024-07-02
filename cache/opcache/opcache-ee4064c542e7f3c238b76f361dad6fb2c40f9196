@@ -1,0 +1,31 @@
+<?php $exp = 1751345595; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'api.announcements.400.contextsNotMatched' => 'El aviso que ha solicitado no forma parte de esta revista.',
+      'api.emails.403.disabled' => 'La funcionalidad de notificación por correo electrónico no se ha activado en esta revista.',
+      'api.submissions.400.wrongContext' => 'El envío que solicitó no está en esta revista.',
+      'api.submissions.403.cantChangeContext' => 'No puede cambiar la revista de un artículo.',
+      'api.submissions.403.unpublishedIssues' => 'No tiene permiso para ver los números no publicados.',
+      'api.contexts.403.requestedDisabledContexts' => 'Solo puede ver revistas que hayan sido habilitadas.',
+      'api.contexts.403.notAllowed' => 'No tiene permiso para ver esta revista.',
+      'api.contexts.403.contextsDidNotMatch' => 'No puede ver o editar esta revista a menos que haga una solicitud al API de la revista o al API de todo el sitio.',
+      'api.contexts.403.requiresContext' => 'No puede editar esta revista desde la API de todo el sitio.',
+      'api.contexts.403.notAllowedEdit' => 'No tiene permiso para editar esta revista.',
+      'api.contexts.403.notAllowedDelete' => 'No tiene permiso para eliminar esta revista.',
+      'api.contexts.404.contextNotFound' => 'No se encontró la revista solicitada.',
+      'api.dois.403.contextsNotMatched' => 'El DOI que solicitó no forma parte de esta revista.',
+      'api.dois.400.noRegistrationAgencyConfigured' => 'No se ha configurado ninguna agencia de registro DOI para esta revista.',
+      'api.dois.400.depositFailed' => 'Algunos artículos no se depositaron correctamente. Verifique los elementos individuales para ver sus mensajes de error específicos.',
+      'api.emailTemplates.403.notAllowedChangeContext' => 'No tiene permiso para mover esta plantilla de correo electrónico a otra revista.',
+      'api._payments.400.invalidPaymentMethod' => 'El método de pago que ha seleccionado no está soportado.',
+      'api.publications.403.contextsDidNotMatch' => 'La publicación que ha solicitado no forma parte de esta revista.',
+      'api.publications.403.submissionsDidNotMatch' => 'La publicación que ha solicitado no forma parte de este envío.',
+      'api.submissionFiles.400.badRepresentationAssocType' => 'Desde esta fase no puede asociar un archivo con una galerada.',
+      'api.submission.400.inactiveSection' => 'Esta sección ya no recibe envíos.',
+    ),
+  ),
+);

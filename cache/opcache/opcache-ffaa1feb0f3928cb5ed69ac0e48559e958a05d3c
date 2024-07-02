@@ -1,0 +1,372 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'emails.passwordResetConfirm.subject' => 'Conferma di modifica password',
+      'emails.passwordResetConfirm.body' => 'Abbiamo ricevuto la richiesta di modificare la tua password per {$siteTitle}.<br />
+<br />
+Se non hai fatto questa richiesta, ignora questo messaggio e la password non sarà modificata.<br />
+Se invece hai fatto tu la richiesta e desideri generare una nuova password, clicca sul link qui sotto.<br />
+<br />
+Reset password: {$passwordResetUrl}<br />
+<br />
+{$siteContactName}',
+      'emails.userRegister.subject' => 'Registrazione nuovo utente',
+      'emails.userRegister.body' => 'Gentilissimo {$recipientName}, <br />
+<br />
+Grazie per esserti registrato a {$contextName}.<br />
+Qui sotto trovi lo username e la password per accedere alla rivista ed utilizzare il portale di sottomissione e revisione. <br />
+<br />
+Username: {$recipientUsername}<br />
+Password: {$password}<br />
+<br />
+Puoi richiedere in ogni momento la rimozione del tuo account inviandoci una mail.<br />
+<br />
+Con i più cordiali saluti,<br />
+<br />
+{$signature}',
+      'emails.userValidateContext.subject' => 'Convalida il tuo account',
+      'emails.userValidateContext.body' => 'Gentilissimo {$recipientName}<br />
+<br />
+Hai creato un nuovo account in {$contextName}, ma prima di usarlo, devi convalidare il tuo indirizzo email. Per farlo, clicca sul link qui sotto:<br />
+<br />
+{$activateUrl}<br />
+<br />
+Se non si apre automaticamente una finestra del browser per la verifica, puoi copiare questo link e incollarlo direttamente nella barra degli indirizzi del tuo browser<br />
+Grazie,<br />
+{$contextSignature}',
+      'emails.userValidateSite.subject' => 'Conferma il tuo account',
+      'emails.userValidateSite.body' => '{$recipientName}<br />
+<br />
+Hai creato un nuovo account per la rivista {$siteTitle}, ma prima di poter accedere, è necessario che tu confermi il tuo indirizzo email cliccando sul link sottostante:<br />
+<br />
+{$activateUrl}<br />
+<br />
+Grazie,<br />
+{$siteSignature}',
+      'emails.reviewerRegister.subject' => 'Registrazione come revisore per {$contextName}',
+      'emails.reviewerRegister.body' => 'Alla luce delle tue competenze, ci siamo presi la libertà di registrare il tuo nome nella banca dati dei valutatori per {$contextName}.<br />
+<br />
+Questo non implica nessun tipo di impegno da parte tua, ma semplicemente ci permette di contattarti per proporti la valutazione di manoscritti sottoposti per la pubblicazione a questa rivista.<br />
+<br />
+Quando ti inviteremo ad una valutazione, riceverai il titolo e il riassunto del manoscritto ed avrai l\'opportunità di accettare o rifiutare l\'invito. Puoi anche chiedere in qualsiasi momento di far rimuovere il tuo nome dall\'elenco dei valutatori.<br />
+<br />
+Di seguito il tuo nome utente e la password, che vengono usati per tutte le interazioni con la rivista attraverso il suo sito web.<br />
+Se hai modo, ti suggeriamo di verificare le informazioni inserite e di completare il tuo profilo, inclusi i tuoi interessi di valutazione.<br />
+<br />
+Nome utente: {$recipientUsername}<br />
+Password: {$password}<br />
+<br />
+Con i più cordiali saluti,<br />
+{$signature}',
+      'emails.issuePublishNotify.subject' => 'Nuova uscita disponibile: {$issueIdentification}',
+      'emails.issuePublishNotify.body' => '<p>Gentile lettore,</p>
+<br />
+<p>All\'indirizzo {$contextUrl} è appena stato pubblicato un nuovo numero di {$contextName}.</p>
+<br />
+<p>Grazie per l\'interesse dimostratoci,</p>
+<p>{$signature}</p>',
+      'emails.editorAssign.subject' => 'Sei stato assegnato come Editor per una proposta inviata a {$contextName}',
+      'emails.editorAssign.body' => '<p>Gentilissimo {$recipientName},</p>
+<p>Le è stato assegnato il seguente manoscritto come section editor: </p>
+<p>Titolo: {$submissionTitle}</p>
+<p>Autori: {$authors}</p>
+<br />
+Link all\'articolo: <a href="{$submissionUrl}"></p>
+<br />
+<p>Se lo ritiene appropriato per {$contextName}, la preghiamo di assegnarlo ai revisori utilizzando il pulsante «Invia alla revisione», selezionando di seguito I revisori da lei prescelti utilizzando il pulsante "Aggiungi revisore". </p>
+<p>Se ritiene invece la proposta non in linea con questa rivista, la invitiamo a declinarla utilizzando il pulsante "Declina proposta".</p>
+<p>Grazie per la sua collaborazione.</p>
+<p>Cordiali saluti,</p>
+<p>{$contextSignature}</p>',
+      'emails.reviewRequest.subject' => 'Invito alla revisione',
+      'emails.reviewRequest.body' => '<p>Gentile {$recipientName},</p><p>desidero invitarti alla revisione del manoscritto &quot;{$submissionTitle},&quot; che è stato sottomesso per la pubblicazione {$contextName}. Titolo e abstract del manoscritto sono in calce. Spero che vorrai prendere in carico questo compito.</p><p>Ti chiedo quindi di effettuare il log in al sito web della rivista entro il {$responseDueDate} per indicare se prenderai in carico la revisione o meno. Se accetti, la data di scadenza è fissata al {$reviewDueDate}. Puoi vedere la proposta, caricare file di revisione e inviare la tua revisione effettuando il login alla rivista e seguendo i passaggi indicati a questo link:</p><p><a href="{$reviewAssignmentUrl}">{$submissionTitle}</a></p><p>Abstract</p>{$submissionAbstract}<p>Puoi contattarmi per qualisasi dubbio sulla proposta o sul processo di revisione. Grazie per la tua collaborazione.</p><p>Cordiali saluti,</p>{$signature}',
+      'emails.reviewResponseOverdueAuto.subject' => 'Puoi effettuare questa revisione per la rivista?',
+      'emails.reviewResponseOverdueAuto.body' => 'Gentilissima/o {$recipientName}:</p><p>Questa mail è un sollecito automatico della nostra richiesta di revisione della proposta &quot;{$submissionTitle},&quot; per la rivista {$contextName}.</p><p>Speravamo in una sua risposta per il {$responseDueDate}, e questa mail è stata inviata automaticamente visto che la data è passata. Riteniamo che lei possa fare un\'ottima revisione della proposta. L\'abstract della proposta è inserito qui sotto, e speriamo che lei consideri di fare questo importante lavoro per noi.</p><p>Le chiederemmo di entrare nel sito web della rivista e indicare se porterà avanti o no la revisione, così come può accedere alla proposta, registrare la sua revisione e scrivere la sua valutazione. Il sito web è: {$contextUrl}</p><p>
+La revisione serve entro il {$reviewDueDate}.</p><p>Se non ha le sue username e password per il sito, può ridefinire la password con questo link (che manderà una mail al suo indirizzo con il suo username): {$passwordLostUrl}</p><p>URL della proposta: {$reviewAssignmentUrl}</p><p>La ringrazio per aver preso in considerazione questa richiesta.</p><p>{$contextSignature}</p><p>Dati della proposta:</p><p>&quot;{$submissionTitle}&quot;</p><p>{$submissionAbstract}',
+      'emails.reviewRequestSubsequent.subject' => 'Invito alla seconda revisione',
+      'emails.reviewRequestSubsequent.body' => 'Gentile {$recipientName}:<br />
+<br />
+ti scrivo riguardo alla proposta &quot;{$submissionTitle},&quot; che è in revisione per essere pubblicata in {$contextName}.<br />
+<br />
+Seguendo i suggerimenti emersi in precedenza, l\'autore ha modificato il manoscritto e inviato una nuova versione. Ti sarei grato se volessi aiutarci a valutarla.<br />
+<br />
+Ti prego quindi di accedere al sito entro il {$responseDueDate} per comunicare se ti incaricherai o meno della revisione e poi per accedere alla proposta e registrare il tuo parere. Il sito è {$contextUrl}<br />
+<br />
+La data di scadenza per l\'incarico di revisione è il {$reviewDueDate}.<br />
+<br />
+Se non ricordi la tua username e password, puoi utilizzare la funzione di reset password: {$passwordLostUrl}<br />
+<br />
+Submission URL: {$reviewAssignmentUrl}<br />
+<br />
+Ti ringrazio della considerazione<br />
+<br />
+{$signature}<br />
+<br />
+&quot;{$submissionTitle}&quot;<br />
+<br />
+{$submissionAbstract}',
+      'emails.reviewCancel.subject' => 'Cancellazione richiesta di revisione',
+      'emails.reviewCancel.body' => 'Gentile {$recipientName}:<br />
+<br />
+Abbiamo deciso di cancellare la nostra richiesta di revisione della proposta, &quot;{$submissionTitle},&quot; per {$contextName}.<br />
+<br />
+Ci scusiamo per qualsiasi disturbo possiamo aver causato speriamo di poter contare su di te in una prossima occasione.<br />
+<br />
+Se hai qualsiasi richiesta, ti prego di contattarmi.',
+      'emails.reviewReinstate.subject' => 'Sei ancora disponibile alla revisione per {$contextName}?',
+      'emails.reviewReinstate.body' => '<p>Gentilissimo {$recipientName}:</p>
+<br />
+<p>E\' stato ripristinato l\'invito alla revisione per il manoscritto &quot;{$submissionTitle},&quot; per la rivista {$contextName}. Ci auguriamo che le sia possibile contribuire a questo ciclo di revisione e rimaniamo a sua disposizione per qualsiasi chiarimento.</p>
+<p>Cordiali saluti,</p>
+<p>{$signature}</p>',
+      'emails.reviewDecline.subject' => 'Rifiuto incarico di revisione',
+      'emails.reviewDecline.body' => 'Egregia redazione:<br />
+<br />
+Sono spiacente di non poter revisionare la proposta, &quot;{$submissionTitle},&quot; per {$contextName}. Spero che ci siano future occasioni di collaborazione.<br />
+<br />
+{$senderName}',
+      'emails.reviewRemind.subject' => 'Reminder: una revisione è in attesa di essere completata',
+      'emails.reviewRemind.body' => '<p>Gentile {$recipientName}:</p>
+<br />
+<p>Ti ricordo la richiesta di revisione della submission, &quot;{$submissionTitle},&quot; per {$contextName}. La data di scadenza prevista è {$reviewDueDate}.</p>
+<br />
+<p>Se non hai una username and password per il sito web della rivista, puoi usare questo link per resettare la password (che ti sarà quindi mandata per email insieme con la username). {$passwordLostUrl}</p>
+<br />
+<p>Submission URL: {$reviewAssignmentUrl}</p>
+<br />
+<p>Ti chiedo la cortesia di di confermare la volontà di portare a termine l\'incarico.</p>
+<br />
+{$signature}',
+      'emails.reviewRemindAuto.subject' => 'Reminder automatico: una revisione è in attesa di essere completata',
+      'emails.reviewRemindAuto.body' => 'Gentile {$recipientName},<br />
+<br />
+Questo è un promemoria automatico della richiesta di revisione del manoscritto &quot;{$submissionTitle},&quot; per {$contextName}.<br />
+<br />
+Scadenza prevista: {$reviewDueDate}.<br />
+<br />
+Puoi usare questo link per resettare la password (che ti sarà quindi mandata per email insieme con la username). {$passwordLostUrl}<br />
+<br />
+Submission URL: {$reviewAssignmentUrl}<br />
+<br />
+Ti chiedo la cortesia di confermare al più presto la tua disponibilità di prendere in carico questo incarico.<br />
+<br />
+{$contextSignature}',
+      'emails.editorDecisionAccept.subject' => 'Il suo manoscritto è stato accettato da {$contextName}',
+      'emails.editorDecisionAccept.body' => '&lt;![CDATA[{$authors}:<br />
+<br />
+Abbiamo raggiunto una decisione riguardo alla Sua submission a {$contextName}, &quot;{$submissionTitle}&quot;.<br />
+<br />
+La decisione è di accettare la proposta',
+      'emails.editorDecisionSkipReview.subject' => 'Il suo contributo è stato assegnato al copyediting',
+      'emails.editorDecisionSkipReview.body' => '<p>Gentilissimo {$recipientName},</p>
+<p>Ho il piacere di informarla che il suo manoscritto è stato accettato senza peer review. Il suo contributo, {$submissionTitle}, è in linea con la politica editoriale della rivista, che non prevede peer review per questa tipologia di contenuti. Siamo lieti di poter pubblicare il suo contributo in {$contextName} e la ringraziamo per avere scelto la nostra rivista per il suo lavoro. </p>
+Il suo manoscritto è di prossima pubblicazione in una nuova uscita di {$contextName} e la invitiamo ad aggiungerlo alla sua lista di pubblicazioni . Desideriamo congratularci per il suo impegno professionale, che ha meritatamente ricevuto un esisto positivo.</p>
+<p>Il suo manoscritto verrà a breve assegnato ad un copyeditor che lo preparerà per la pubblicazione e riceverà nuovi aggiornamenti in tempi tecnici.</p>
+<p>A disposizione per qualsiasi informazione, la invitiamo a contattarci attraverso <a href="{$authorSubmissionUrl}">dashboard</a>.</p>
+<p>Cordialmente,</p>
+<p>{$signature}</p>
+',
+      'emails.layoutRequest.subject' => 'Ms {$submissionId} accettato da {$contextAcronym} è pronto per la preparazione delle bozze',
+      'emails.layoutRequest.body' => '<p>{$recipientName}:</p>
+<br />
+<p>Il seguente articolo è pronto per l\'impaginazione:</p>
+<p>Titolo: {$submissionTitle</p>
+<p>Rivista: {$contextName}</p>
+<br />
+<p>URL manoscritto: {$submissionUrl}</p>
+<p>Username: {$recipientUsername}</p>
+<br />
+<p><ol><li>1. Scarica i file di produzione dal link all\'articolo.</li><li>2. Impagina l\'articolo nello stile della rivista.</li><li>3. Carica le bozze .</li><li>4. utilizza la production discussion per avvisare che le bozze sono disponibili.</li></ol></p>
+Se non puoi prendere in carico il lavoro in questo periodo o hai qualche domanda, ti prego di contattarmi. </p>
+<br />
+<p>Grazie per la collaborazione.</p>
+<p>{$signature}</p>',
+      'emails.layoutComplete.subject' => 'Bozze pronte',
+      'emails.layoutComplete.body' => '{$recipientName}:<br />
+<br />
+Sono pronte le bozze dell\'articolo, &quot;{$submissionTitle}&quot; per {$contextName}, a disposizione per i correttori di bozze.<br />
+<br />
+Per qualsiasi domanda, si prega di contattarmi.<br />
+<br />
+{$senderName}',
+      'emails.emailLink.subject' => 'Ti suggerisco la lettura di un articolo',
+      'emails.emailLink.body' => 'Penso che potrebbe interessarti la lettura di:<br />
+ &quot;{$submissionTitle}&quot; di {$authors}<br />
+pubblicato in {$contextName}, Vol. {$volume}, N. {$number} ({$year}) e disponibile all\'indirizzo &quot;{$submissionUrl}&quot;.',
+      'emails.emailLink.description' => 'Questo modello di email fornisce ad un utente registrato l\'opportunità di inviare informazioni su un articolo a qualcuno che potrebbe essere interessato. E\' disponibile via utility di lettura e e deve essere abilitata dall\'amministratore della rivista nella pagina di amministrazione delle utility di lettura.',
+      'emails.subscriptionNotify.subject' => 'Notifica di abbonamento',
+      'emails.subscriptionNotify.body' => 'Gentile{$recipientName}:<br />
+<br />
+il tuo abbonamento a {$contextName} è stato attivato con le seguenti caratteristiche:<br />
+<br />
+{$subscriptionType}<br />
+<br />
+Per accedere al contenuto riservato agli abbonati, effettua semplicemente il log in al sistema con il tuo username, &quot;{$recipientUsername}&quot;.<br />
+<br />
+Una volta effettuato il log in potrai modificare in ogni momento i dettagli del profilo e la password.<br />
+<br />
+Gli utenti istituzionali vengono riconosciuti automaticamente dal sistema.<br />
+<br />
+Per qualsiasi domanda non esitare a contattarmi.<br />
+<br />
+{$subscriptionSignature}',
+      'emails.openAccessNotify.subject' => 'Nuovo fascicolo disponibile ad accesso aperto',
+      'emails.openAccessNotify.body' => 'Gentile lettore,<br />
+<br />
+{$contextName} ha appena reso disponibile in modalità open access una nuova uscita. Ti invitiamo dunque a visitare il sito web ({$contextUrl}) per trovare articoli e altre risorse di tuo interesse.<br />
+<br />
+Grazie per il tuo interesse per la nostra rivista<br />
+{$contextSignature}',
+      'emails.subscriptionBeforeExpiry.subject' => 'Avviso di abbonamento in scadenza',
+      'emails.subscriptionBeforeExpiry.body' => 'Gentile {$recipientName}:<br />
+<br />
+Il suo abbonamento a {$contextName} sta per scadere.<br />
+<br />
+{$subscriptionType}<br />
+Data di scadenza: {$expiryDate}<br />
+<br />
+Per continuare ad accedere a questa rivista, si rechi sul sito e rinnovi l\'abbonamento. Per l\'accesso utilizzi la sua username, &quot;{$recipientUsername}&quot;.<br />
+<br />
+Per qualsiasi domanda e ulteriore informazione, non esiti a contattarmi.<br />
+<br />
+{$subscriptionSignature}',
+      'emails.subscriptionAfterExpiry.subject' => 'Abbonamento scaduto',
+      'emails.subscriptionAfterExpiry.body' => 'Gentile {$recipientName}:<br />
+<br />
+Il suo abbonamento a {$contextName} è scaduto.<br />
+<br />
+{$subscriptionType}<br />
+Data di scadenza: {$expiryDate}<br />
+<br />
+Per rinnovare l\'abbonamento, si rechi sul nostro sito. Per l\'accesso utilizzi la sua username, &quot;{$recipientUsername}&quot;.<br />
+<br />
+Per qualsiasi domanda e ulteriore informazione, non esiti a contattarmi.<br />
+<br />
+{$subscriptionSignature}',
+      'emails.subscriptionAfterExpiryLast.subject' => 'Abbonamento scaduto - Ultimo avviso',
+      'emails.subscriptionAfterExpiryLast.body' => 'Gentilissimo {$recipientName}:<br />
+<br />
+Il suo abbonamento a {$contextName} è scaduto.<br />
+Questo è l\'ultimo avviso che le inviamo.<br />
+<br />
+{$subscriptionType}<br />
+Data di scadenza: {$expiryDate}<br />
+<br />
+Per rinnovare l\'abbonamento visiti il sito della rivista. Per l\'accesso utilizzi il suo username &quot;{$recipientUsername}&quot;.<br />
+<br />
+<br />
+Per qualsiasi domanda e ulteriore informazione, non esiti a contattarci.<br />
+<br />
+{$subscriptionSignature}',
+      'emails.subscriptionPurchaseIndl.subject' => 'Acquisto di un abbonamento individuale',
+      'emails.subscriptionPurchaseIndl.body' => 'E\' stato acquistato online un abbonamento individuale a {$contextName} con i seguenti dettagli:<br />
+<br />
+Tipo di abbonamento:<br />
+{$subscriptionType}<br />
+<br />
+Utente:<br />
+{$subscriberDetails}<br />
+<br />
+Membership (se indicato):<br />
+{$membership}<br />
+<br />
+Per vedere o modificare i dettagli dell\'abbonamento, vai alla pagina: {$subscriptionUrl}<br />
+',
+      'emails.subscriptionPurchaseInstl.subject' => 'Acquisto di un abbonamento istituzionale',
+      'emails.subscriptionPurchaseInstl.body' => 'E\' stato acquistato un abbonamento istituzionale a {$contextName} con i dettagli indicati sotto. Per attivare l\'abbonamento, utilizzare il link fornito sotto e selezionare lo status \'Attivo\'per tale abbonamento.<br />
+<br />
+Tipo di abbonamento:<br />
+{$subscriptionType}<br />
+<br />
+Ente:<br />
+{$institutionName}<br />
+{$institutionMailingAddress}<br />
+<br />
+Dominio (se indicato):<br />
+{$domain}<br />
+<br />
+IP Ranges (se indicato):<br />
+{$ipRanges}<br />
+<br />
+Contattare:<br />
+{$subscriberDetails}<br />
+<br />
+Membership (se indicato):<br />
+{$membership}<br />
+<br />
+Per vedere o modificare i dettagli, andare alla pagina: {$subscriptionUrl}<br />
+',
+      'emails.subscriptionRenewIndl.subject' => 'Rinnovo dell\'abbonamento individuale',
+      'emails.subscriptionRenewIndl.body' => 'E\' stato rinnovato online un abbonamento individuale a {$contextName} con i seguenti dettagli.<br />
+<br />
+Tipo di abbonamento:<br />
+{$subscriptionType}<br />
+<br />
+Utente:<br />
+{$subscriberDetails}<br />
+<br />
+Membership (se indicato):<br />
+{$membership}<br />
+<br />
+Per vedere o modificare i dettagli dell\'abbonamento, vai alla pagina: {$subscriptionUrl}<br />
+',
+      'emails.subscriptionRenewInstl.subject' => 'Rinnovo dell\'abbonamento istituzionale',
+      'emails.subscriptionRenewInstl.body' => 'E\' stato rinnovato online un abbonamento istituzionale a {$contextName} con i seguenti dettagli.<br />
+<br />
+Tipo di abbonamento:<br />
+{$subscriptionType}<br />
+<br />
+Ente:<br />
+{$institutionName}<br />
+{$institutionMailingAddress}<br />
+<br />
+Dominio (se fornito):<br />
+{$domain}<br />
+<br />
+IP Ranges (se indicato):<br />
+{$ipRanges}<br />
+<br />
+Contattare:<br />
+{$subscriberDetails}<br />
+<br />
+Membership (se indicato):<br />
+{$membership}<br />
+<br />
+Per vedere o modificare i dettagli, andare alla pagina: {$subscriptionUrl}<br />
+',
+      'emails.revisedVersionNotify.subject' => 'Caricamento di versione revisionata',
+      'emails.revisedVersionNotify.body' => 'Caro editor:<br />
+<br />
+L\'autore {$submitterName} ha caricato una versione revisionata di &quot;{$submissionTitle}&quot;.<br />
+<br />
+Submission URL: {$submissionUrl}<br />
+<br />
+{$signature}',
+      'emails.statisticsReportNotification.subject' => 'Attività editorial e per {$month}, {$year}',
+      'emails.statisticsReportNotification.body' => '
+{$recipientName}, <br />
+<br />
+E\' disponibile il report per il mese di {$month}, {$year} e di seguito sono indicate le statistiche principali<br />
+<ul>
+	<li>nuovi contributi ricevuti: {$newSubmissions}</li>
+	<li>manoscritti rigettati: {$declinedSubmissions}</li>
+	<li>manoscritti accettati: {$acceptedSubmissions}</li>
+	<li>manoscritti totali nel sistema: {$totalSubmissions}</li>
+</ul>
+Accedi al sito per consultare gli <a href="{$editorialStatsLink}">editorial trends</a> e il  <a href="{$publicationStatsLink}">report degli articoli pubblicati</a>. Il report completo dell\'attività editoriale del mese è allegata.<br />
+<br />
+Distinti saluti,<br />
+{$contextSignature}',
+      'emails.announcement.subject' => '{$announcementTitle}',
+      'emails.announcement.body' => '<b>{$announcementTitle}</b><br />
+<br />
+{$announcementSummary}<br />
+<br />
+Visita il nostro sito per leggere <a href="{$announcementUrl}">l\'informazione completa</a>.',
+    ),
+  ),
+);

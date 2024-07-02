@@ -1,0 +1,32 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n==1 || n%10==1 ? 0 : 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'comments.anonymous' => 'Анонимен корисник',
+      'comments.anonymousNamed' => '"{$userName}"',
+      'comments.body' => 'Тело',
+      'comments.titleRequired' => 'Потребен е наслов на коментарот.',
+      'comments.confirmDeleteChildren' => 'Бришењето на овој коментар ќе ги избрише сите одговори на истиот. Дали сте сигурни дека сакате да го направите ова?',
+      'comments.delete' => 'Избришете го коментарот',
+      'comments.email' => 'Имејл на испраќачот',
+      'comments.emailReply' => 'Одговори со имејл',
+      'comments.enterComment' => 'Внеси коментар',
+      'comments.inResponseTo' => 'Во одговор на <a href="{$url}">{$title}</a>',
+      'comments.name' => 'Име на испраќачот',
+      'comments.noComments' => 'Нема постирано коментари од читатели.',
+      'comments.nReplies' => '({$num} Replies)',
+      'comments.oneReply' => '(1 одговор)',
+      'comments.postAnonymously' => 'Постирај го овој коментар анонимно',
+      'comments.postReply' => 'Постирја одговор',
+      'comments.readerComments' => 'Коментари од читатели',
+      'comments.readMore' => 'Прочитај повеќе',
+      'comments.replies' => 'Одговори',
+      'comments.title' => 'Наслов',
+      'comments.viewAllComments' => 'Види ги сите коментари',
+      'reader.fullText' => 'Целиот текст:',
+    ),
+  ),
+);

@@ -1,0 +1,15 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.recommendBySimilarity.displayName' => 'Artigos similares recomendados',
+      'plugins.generic.recommendBySimilarity.description' => 'Este complemento engade unha listaxe de artigos similares á páxina de resumo do artigo.',
+      'plugins.generic.recommendBySimilarity.heading' => 'Artigos similares',
+      'plugins.generic.recommendBySimilarity.advancedSearchIntro' => 'Tamén pode {advancedSearchLink} para este artigo.',
+      'plugins.generic.recommendBySimilarity.advancedSearch' => 'Iniciar unha busca avanzada por similitude',
+    ),
+  ),
+);

@@ -1,0 +1,24 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.customBlockManager.displayName' => 'Anpassade block',
+      'plugins.generic.customBlockManager.manage' => 'Hantera anpassade block',
+      'plugins.generic.customBlockManager.description' => 'Det här pluginet gör det möjligt att hantera (lägga till, redigera och ta bort) blocken i sidomenyn.',
+      'plugins.generic.customBlockManager.customBlocks' => 'Anpassade block',
+      'plugins.generic.customBlockManager.blockName' => 'Blocknamn',
+      'plugins.generic.customBlockManager.addBlock' => 'Lägg till block',
+      'plugins.generic.customBlockManager.noneCreated' => 'Inga anpassade block har skapats.',
+      'plugins.generic.customBlock.content' => 'Innehåll',
+      'plugins.generic.customBlock.nameSuffix' => '(Anpassat block)',
+      'plugins.generic.customBlock.description' => 'Det här är ett användargenererat block.',
+      'plugins.generic.customBlock.nameRequired' => 'Ett namn på det anpassade blocket krävs.',
+      'plugins.generic.customBlock.nameRegEx' => 'Det anpassade blockets namn får bara innehålla bokstäver, siffror och bindestreck/understreck.',
+      'plugins.generic.customBlock.showName.description' => 'Visa detta blocks namn ovanför blockinnehållet.',
+      'plugins.generic.customBlock.showName' => 'Visa namn',
+    ),
+  ),
+);

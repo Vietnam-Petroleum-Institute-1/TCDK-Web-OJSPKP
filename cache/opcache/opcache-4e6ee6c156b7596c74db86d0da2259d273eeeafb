@@ -1,0 +1,30 @@
+<?php $exp = 1751345594; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.staticPages.displayName' => 'Добавка за статични страници',
+      'plugins.generic.staticPages.description' => 'Тази добавка позволява управляване на статично съдържание.',
+      'plugins.generic.staticPages.staticPages' => 'Статични страници',
+      'plugins.generic.staticPages.pageTitle' => 'Заглавие',
+      'plugins.generic.staticPages.content' => 'Съдържание',
+      'plugins.generic.staticPages.path' => 'Път',
+      'plugins.generic.staticPages.requirement.tinymce' => '<p><strong>Добавката TinyMCE трябва да е инсталирана и активирана за да може да добавяте/редактирате съдържание.</strong></p>',
+      'plugins.generic.staticPages.editAddContent' => 'Редактиране/добавяне на съдържание',
+      'plugins.generic.staticPages.addStaticPage' => 'Добавяне на статична страница',
+      'plugins.generic.staticPages.addNewPage' => 'Добавяне на нова страница',
+      'plugins.generic.staticPages.editStaticPage' => 'Редактиране на статична страница',
+      'plugins.generic.staticPages.noneCreated' => 'Не са създадени статични страници.',
+      'plugins.generic.staticPages.settingInstructions' => 'Формулярът по-долу показва всички статични страници, които сте създали. Вие можете да ги редактирате или изтриете, използвайки хипервръзките отдясно.',
+      'plugins.generic.staticPages.editInstructions' => 'Използвайте формуляра по-долу за да добавите/редактирате съдържанието на страниците.',
+      'plugins.generic.staticPages.pathRegEx' => 'Полето Път трябва да съдържа само бекви и цифри и семволите \'.\', \'/\', \'-\', и \'_\'.',
+      'plugins.generic.staticPages.viewInstructions' => '<p>Тази страница ще бъде достъпна на адрес: <blockquote>{$pagesPath}</blockquote>...където %PATH% е въведеният по-горе път. <strong>Бележка:</strong> Не може две страници да имат еднакъв път. Използването на използван за системата път може да предизвика изгубване на достъп до важни функции.</p>',
+      'plugins.generic.staticPages.duplicatePath' => 'Този път вече съществува за друга статична страница.',
+      'plugins.generic.staticPages.pageSaved' => 'Страницата беше съхранена успешно.',
+      'plugins.generic.staticPages.pageDeleted' => 'Страницата беше изтрита успешно.',
+      'plugins.generic.staticPages.noneExist' => 'Не бяха създадени страници',
+    ),
+  ),
+);

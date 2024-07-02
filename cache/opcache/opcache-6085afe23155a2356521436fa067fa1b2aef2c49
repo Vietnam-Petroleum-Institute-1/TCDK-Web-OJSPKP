@@ -1,0 +1,14 @@
+<?php $exp = 1751345595; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.recommendByAuthor.displayName' => 'Suosittele kirjoittajan artikkeleita',
+      'plugins.generic.recommendByAuthor.description' => 'Tämä lisäosa lisää artikkelin abstraktisivulle listan saman kirjoittajan artikkeleista.',
+      'plugins.generic.recommendByAuthor.heading' => 'Saman kirjoittajan/kirjoittajien luetuimmat artikkelit',
+      'plugins.generic.recommendByAuthor.noMetric' => 'Huom. Tämä lisäosa vaatii, että vähintään yksi tilasto-/raporttilisäosa on käytössä. Jos tilastolisäosasi tarjoaa useamman kuin yhden mittarin, valitse myös päämittari ylläpidon Sivuston asetukset -sivulla ja/tai julkaisun hallinnoijan asetussivuilla.',
+    ),
+  ),
+);

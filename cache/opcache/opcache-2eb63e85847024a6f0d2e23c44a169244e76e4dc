@@ -1,0 +1,22 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.customBlockManager.displayName' => 'Manager pentru zone particularizate după necesități',
+      'plugins.generic.customBlockManager.blockName' => 'Numele blocului',
+      'plugins.generic.customBlockManager.addBlock' => 'Adaugă bloc',
+      'plugins.generic.customBlock.content' => 'Conținut',
+      'plugins.generic.customBlock.nameSuffix' => '(Modul particularizat pentru bloc)',
+      'plugins.generic.customBlock.description' => 'Acesta este un bloc făcut de utilizator.',
+      'plugins.generic.customBlock.nameRegEx' => 'Numele blocului personalizat trebuie să conțină doar litere, numere și cratime/sublinie.',
+      'plugins.generic.customBlock.nameRequired' => 'Este necesar numele blocului personalizat.',
+      'plugins.generic.customBlockManager.noneCreated' => 'Nu au fost create blocuri personalizate.',
+      'plugins.generic.customBlockManager.customBlocks' => 'Blocuri personalizate',
+      'plugins.generic.customBlockManager.description' => 'Acest plugin vă permite să gestionați (adăugați, editați și ștergeți) blocuri laterale personalizate.',
+      'plugins.generic.customBlockManager.manage' => 'Gestionați blocurile personalizate',
+    ),
+  ),
+);

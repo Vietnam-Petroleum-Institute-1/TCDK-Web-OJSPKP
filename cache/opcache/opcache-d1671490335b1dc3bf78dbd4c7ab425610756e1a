@@ -1,0 +1,32 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'comments.anonymous' => 'Név nélküli felhasználó',
+      'comments.anonymousNamed' => '"{$userName}"',
+      'comments.body' => 'Hozzászólás szövege',
+      'comments.titleRequired' => 'Hozzászólás cím kötelező.',
+      'comments.confirmDeleteChildren' => 'A hozzászólás törlése törli a válaszokat is. Biztosan ezt szeretné tenni?',
+      'comments.delete' => 'Ennek a megjegyzésnek a törlése',
+      'comments.email' => 'Küldő email címe',
+      'comments.emailReply' => 'Email válasz',
+      'comments.enterComment' => 'Megjegyzés megadása',
+      'comments.inResponseTo' => 'Válaszban erre <a href="{$url}">{$title}</a>',
+      'comments.name' => 'Küldő neve',
+      'comments.noComments' => 'Nincsenek olvasói hozzászólások.',
+      'comments.nReplies' => '({$num} Válasz)',
+      'comments.oneReply' => '(1 Válasz)',
+      'comments.postAnonymously' => 'A hozzászólás név nélküli elküldése',
+      'comments.postReply' => 'Válasz küldése',
+      'comments.readerComments' => 'Olvasói megjegyzések',
+      'comments.readMore' => 'Tovább',
+      'comments.replies' => 'Válaszok',
+      'comments.title' => 'Cím',
+      'comments.viewAllComments' => 'Összes megjegyzés megtekintése',
+      'reader.fullText' => 'Teljes szöveg:',
+    ),
+  ),
+);

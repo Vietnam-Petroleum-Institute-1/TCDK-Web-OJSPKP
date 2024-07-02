@@ -1,0 +1,24 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'api.announcements.400.contextsNotMatched' => 'Het door u opgevraagde nieuwsbericht maakt geen deel uit van dit tijdschrift.',
+      'api.submissions.403.cantChangeContext' => 'U kunt het tijdschrift van een inzending niet wijzigen.',
+      'api.submissions.403.unpublishedIssues' => 'U heeft geen rechten om ongepubliceerde nummers te bekijken.',
+      'api.contexts.403.requestedDisabledContexts' => 'U kan uitsluitend tijdschriften bekijken die ingeschakeld zijn.',
+      'api.contexts.403.notAllowed' => 'U heeft geen rechten om dit tijdschrift te bekijken.',
+      'api.contexts.403.contextsDidNotMatch' => 'U kan dit tijdschrift alleen bekijken of bewerken via de API van het tijdschrift of de hele site.',
+      'api.contexts.403.requiresContext' => 'U kan dit tijdschrift niet bewerken via de API voor de hele site.',
+      'api.contexts.403.notAllowedEdit' => 'U heeft geen rechten om dit tijdschrift te bewerken.',
+      'api.contexts.403.notAllowedDelete' => 'U heeft geen rechten om dit tijdschrift te verwijderen.',
+      'api.contexts.404.contextNotFound' => 'Het tijdschrift werd niet gevonden.',
+      'api.emailTemplates.403.notAllowedChangeContext' => 'U heeft geen toestemming om dit e-mailsjabloon naar een ander tijdschrift te verplaatsen.',
+      'api._payments.400.invalidPaymentMethod' => 'De betaalwijze die u selecteerde wordt niet ondersteund.',
+      'api.publications.403.contextsDidNotMatch' => 'De door u aangevraagde publicatie maakt geen deel uit van dit tijdschrift.',
+      'api.publications.403.submissionsDidNotMatch' => 'De publicatie die u heeft aangevraagd, maakt geen deel uit van deze inzending.',
+    ),
+  ),
+);

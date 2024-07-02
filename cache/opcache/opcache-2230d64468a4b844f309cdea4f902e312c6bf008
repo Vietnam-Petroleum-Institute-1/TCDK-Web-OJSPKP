@@ -1,0 +1,28 @@
+<?php $exp = 1751345595; $val = \PKP\i18n\translation\Translator::__set_state(array(
+   'domain' => '',
+   'dictionary' => 
+  array (
+    '' => 
+    array (
+      '' => 
+      array (
+        'api.announcements.400.contextsNotMatched' => 'Tiu ĉi anonco ne apartenas al tiu ĉi ĵurnalo.',
+        'api.emails.403.disabled' => 'La retpoŝtaj atentigoĵ ne estas ebligitaj por tiu ĉi ĵurnalo.',
+        'api.contexts.404.contextNotFound' => 'La petita ĵurnalo ne estas trovita.',
+        'api.dois.400.noRegistrationAgencyConfigured' => 'Neniu DOI-registrejo estas agordita por tiu ĉi ĵurnalo.',
+        'api.emailTemplates.403.notAllowedChangeContext' => 'Vi ne havas permeson movi tiun ĉi retpoŝtan ŝablonon al alia ĵurnalo.',
+        'api._payments.400.invalidPaymentMethod' => 'La pagmetodo, kiun vi elektis ne estas subtenata.',
+        'api.publications.403.contextsDidNotMatch' => 'La publikaĵo, kiun vi petis ne estas parto de tiu ĉi ĵurnalo.',
+        'api.dois.400.contextsNotMatched' => 'La DOI, kiun vi petis ne estas parto tiu ĉi ĵurnalo.',
+      ),
+    ),
+  ),
+   'plurals' => 
+  array (
+    '' => 
+    array (
+      'count' => 2,
+      'code' => 'return $n != 1;',
+    ),
+  ),
+));

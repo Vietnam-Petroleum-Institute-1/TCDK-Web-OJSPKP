@@ -1,0 +1,32 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.citationStyleLanguage.download.ris' => 'Endnote/Zotero/Mendeley (RIS)',
+      'plugins.generic.citationStyleLanguage.download.bibtex' => 'BibTeX',
+      'plugins.generic.citationStyleLanguage.settings.publisherLocation.description' => 'Unele formate de citare solicită locația geografică a editorului, cum ar fi „Londra, U.K.”.',
+      'plugins.generic.citationStyleLanguage.settings.publisherLocation' => 'Locația editorului',
+      'plugins.generic.citationStyleLanguage.settings.citationFormatsPrimaryDescription' => 'Selectați ce format de citare doriți să afișați în mod implicit pe pagina de destinație a articolului.',
+      'plugins.generic.citationStyleLanguage.settings.citationFormatsPrimary' => 'Formatul de citare implicit',
+      'plugins.generic.citationStyleLanguage.settings.citationFormatsDescription' => 'Selectați ce formate suplimentare doriți să le oferiți cititorilor dvs.',
+      'plugins.generic.citationStyleLanguage.settings.citationFormats' => 'Formate suplimentare de citare',
+      'plugins.generic.citationStyleLanguage.settings.citationDownloadsDescription' => 'Selectați care formate descărcabile doriți să le oferiți cititorilor dvs. Formate descărcabile sunt de obicei utilizate pentru importul în software-ul de gestionare a bibliografiei terță parte, cum ar fi EndNote sau Zotero.',
+      'plugins.generic.citationStyleLanguage.settings.citationDownloads' => 'Formate descărcabile',
+      'plugins.generic.citationStyleLanguage.style.vancouver' => 'Vancouver',
+      'plugins.generic.citationStyleLanguage.style.turabian-fullnote-bibliography' => 'Turabian',
+      'plugins.generic.citationStyleLanguage.style.modern-language-association' => 'MLA',
+      'plugins.generic.citationStyleLanguage.style.ieee' => 'IEEE',
+      'plugins.generic.citationStyleLanguage.style.harvard-cite-them-right' => 'Harvard',
+      'plugins.generic.citationStyleLanguage.style.chicago-author-date' => 'Chicago',
+      'plugins.generic.citationStyleLanguage.style.associacao-brasileira-de-normas-tecnicas' => 'ABNT',
+      'plugins.generic.citationStyleLanguage.style.apa' => 'APA',
+      'plugins.generic.citationStyleLanguage.style.acs-nano' => 'ACS',
+      'plugins.generic.citationStyleLanguage.style.acm-sig-proceedings' => 'ACM',
+      'plugins.generic.citationStyleLanguage.description' => 'Permiteți cititorilor să obțină o citare a unui articol publicat într-unul dintre mai multe formate acceptate de CSL (Citation Style Language).',
+      'plugins.generic.citationStyleLanguage.displayName' => 'CSL (Citation Style Language)',
+    ),
+  ),
+);

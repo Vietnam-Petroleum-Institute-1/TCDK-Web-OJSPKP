@@ -1,0 +1,97 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'emails.submissionAck.subject' => 'Mulțumiri pentru înregistrarea manuscrisului',
+      'emails.submissionAck.body' => '{$recipientName}:<br />
+<br />
+Vă mulțumim pentru înregistrarea manuscrisului, &quot;{$submissionTitle}&quot; la {$contextName}. Cu ajutorul sistemul de gestionare online a jurnalului pe care îl utilizăm, puteți urmări progresul manuscrisului prin procesul editorial, conectându-vă pe site-ul revistei:<br />
+<br />
+URL înregistrare manuscris: {$submissionUrl}<br />
+Nume utilizator: {$recipientUsername}<br />
+<br />
+Dacă aveți întrebări, vă rugăm să ne contactați. Vă mulțumim pentru că ați considerat acest jurnal un loc de desfășurare a activității dumneavoastră.<br />
+<br />
+{$contextSignature}',
+      'emails.submissionAck.description' => 'Acest e-mail, atunci când este activat, este trimis automat unui autor atunci când finalizează procesul de înregistrare a unui manuscris în jurnal. Oferă informații despre urmărirea procesului de înregistrare și mulțumește autorului pentru depunere.',
+      'emails.reviewAck.subject' => 'Recunoaștere revizuire articol',
+      'emails.reviewAck.body' => '{$recipientName}:<br />
+<br />
+Vă mulțumim pentru finalizarea reviziei manuscrisului, &quot;{$submissionTitle},&quot; pentru {$contextName}. Apreciem contribuția dvs. semnificativă la calitatea revistei pe care o publicăm.',
+      'emails.editorDecisionSendToExternal.subject' => 'Decizia Editorului',
+      'emails.editorDecisionSendToExternal.body' => '{$authors}:<br />
+<br />
+Am ajuns la o decizie cu privire la manuscrisul înregistrat de dumneavoastră {$contextName}, &quot;{$submissionTitle}&quot;.<br />
+<br />
+Decizia noastă este: De trimis spre revizuire<br />
+<br />
+URL manuscris: {$submissionUrl}',
+      'emails.editorDecisionSendToProduction.subject' => 'Decizia Editorului',
+      'emails.editorDecisionSendToProduction.body' => '{$authors}:<br />
+<br />
+Editarea manuscrisului dumneavoastră &quot;{$submissionTitle},&quot; este finalizată.  Acesta va fi trimis către producție.<br />
+<br />
+URL manuscris: {$submissionUrl}',
+      'emails.editorDecisionRevisions.subject' => 'Decizia Editorului',
+      'emails.editorDecisionRevisions.body' => '{$authors}:<br />
+<br />
+Am ajuns la o decizie cu privire la manuscrisul înregistrat de dumneavoastră {$contextName}, &quot;{$submissionTitle}&quot;.<br />
+<br />
+Decizia noastră este: Este necesară revizuirea manuscrisului',
+      'emails.editorDecisionResubmit.subject' => 'Decizia Editorului',
+      'emails.editorDecisionResubmit.body' => '{$authors}:<br />
+<br />
+Am ajuns la o decizie cu privire la manuscrisul înregistrat de dumneavoastră {$contextName}, &quot;{$submissionTitle}&quot;.<br />
+<br />
+Decizia noastră este: Reînregistrare pentru revizie',
+      'emails.editorDecisionDecline.subject' => 'Decizia Editorului',
+      'emails.editorDecisionDecline.body' => '{$authors}:<br />
+<br />
+Am ajuns la o decizie privind manuscrisul înregistrat de dumneavoastră {$contextName}, &quot;{$submissionTitle}&quot;.<br />
+<br />
+Decizia noastră este: Manuscrisul nu este acceptat',
+      'emails.editorRecommendation.subject' => 'Recomandarea editorului',
+      'emails.editorRecommendation.body' => '{$editors}:<br />
+<br />
+Recomandarea noastră cu privire la manuscrisul {$contextName}, &quot;{$submissionTitle}&quot; este: {$recommendation}',
+      'emails.copyeditRequest.subject' => 'Solicitare editare',
+      'emails.copyeditRequest.body' => '{$recipientName}:<br />
+<br />
+Vă rog să editați manuscrisul &quot;{$submissionTitle}&quot; pentru {$contextName} urmând pașii următori.<br />
+1. Click pe adresa manuscrisului de mai jos.<br />
+2. Deschideți orice fișiere disponibile în Schițe Fișiere și efectuați redactarea, adăugând în același timp orice discuții de redactare, după cum este necesar.<br />
+3. Salvați fișierele editate și încărcați-le în panoul Editare.<br />
+4. Notificați editorul că toate fișierele au fost pregătite și că procesul de producție poate începe.<br />
+<br />
+{$contextName} URL: {$contextUrl}<br />
+Adresă manuscris: {$submissionUrl}<br />
+Nume de utilizator: {$recipientUsername}',
+      'emails.editorDecisionInitialDecline.subject' => 'Decizia editorului',
+      'emails.editorDecisionInitialDecline.body' => '
+			{$authors}:<br />
+<br />
+Am ajuns la o decizie privind manuscrisul înregistrat de dumneavoastră {$contextName}, &quot;{$submissionTitle}&quot;.<br />
+<br />
+Decizia noastră este: Manuscrisul nu este acceptat',
+      'emails.discussion.subject' => 'Un mesaj cu privire la {$contextName}',
+      'emails.discussion.body' => 'Vă rugăm să introduceți mesajul dvs.',
+      'emails.reviewConfirm.subject' => 'Bun de revizuit',
+      'emails.reviewConfirm.body' => 'Editorilor:<br />
+<br />
+Sunt dispus să revizuiesc manuscrisul, &quot;{$submissionTitle},&quot; pentru {$contextName}. Vă mulțumesc că v-ați gândit la mine și intenționez să finalizez examinarea până la data scadenței, {$reviewDueDate}, dacă nu, chiar mai repede.<br />
+<br />
+{$senderName}',
+      'emails.submissionAckNotAuthor.subject' => 'Confirmarea înregistrării manuscrisului',
+      'emails.submissionAckNotAuthor.body' => 'Buna ziua,<br />
+<br />
+{$submitterName} a depus manuscrisul, &quot;{$submissionTitle}&quot; la {$contextName}. <br />
+<br />
+Dacă aveți întrebări, vă rugăm să ne contactați. Vă mulțumim pentru că ați considerat acest jurnal un loc de desfășurare a activității dumneavoastră.<br />
+<br />
+{$contextSignature}',
+    ),
+  ),
+);

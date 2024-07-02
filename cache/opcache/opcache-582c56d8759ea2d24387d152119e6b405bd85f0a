@@ -1,0 +1,78 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'installer.additionalLocales' => 'დამატებითი ენები',
+      'installer.administratorAccount' => 'ადმინისტრატორის ანგარიში',
+      'installer.administratorAccountInstructions' => 'ამ მომხმარებლის ანგარიში გახდება საიტის ადმინისტრატორი და ექნება სრული წვდომა სისტემაზე. დამატებითი მომხმარებლის ანგარიშების შექმნა შესაძლებელია ინსტალაციის შემდეგ.',
+      'installer.checkNo' => '<span class="pkp_form_error formError">არა</span>',
+      'installer.checkYes' => 'დიახ',
+      'installer.configFileError' => 'კონფიგურაციის ფაილი <tt>config.inc.php</tt> არ არსებობს ან არ იკითხება.',
+      'installer.connectionCharset' => 'კავშირის სიმბოლოების ნაკრები',
+      'installer.contentsOfConfigFile' => 'კონფიგურაციის ფაილის შიგთავსი',
+      'installer.databaseDriver' => 'მონაცემთა ბაზის დრაივერი',
+      'installer.databaseDriverInstructions' => '<strong>სისტემა ამჟამად მხარს უჭერს MySQL-ს და PostgreSQL-ს, იმ შემთხვევაში, თუ თქვენ ვერ შეძლებთ ქვემოთ ჩამოთვლილთაგან რომელიმეს არჩევას, დაუკავშირდით თქვენი სისტემის ადმინისტრატორს, რათა დარწმუნდეთ, რომ თქვენს სერვერს აქვს საჭირო PHP გაფართოებები.</strong>',
+      'installer.databaseHost' => 'საკვანძო კომპიუტერი',
+      'installer.databaseHostInstructions' => 'დატოვეთ ჰოსტის სახელი ცარიელი, რომ დაუკავშირდეთ დომენის სოკეტებს TCP/IP-ის ნაცვლად. ეს არ არის აუცილებელი MySQL-სთვის, რომელიც ავტომატურად გამოიყენებს სოკეტებს, თუ შეიყვანეთ "localhost", მაგრამ ამას მოითხოვს მონაცემთა ბაზის სხვა სერვერები, როგორიცაა PostgreSQL.',
+      'installer.databaseName' => 'მონაცემთა ბაზის სახელი',
+      'installer.databasePassword' => 'პაროლი',
+      'installer.databaseSettings' => 'მონაცემთა ბაზის პარამეტრები',
+      'installer.databaseUsername' => 'მომხმარებლის სახელი',
+      'installer.filesDir' => 'ატვირთვის დირექტორია',
+      'installer.fileSettings' => 'ფაილის პარამეტრები',
+      'installer.form.clientCharsetRequired' => 'უნდა შეირჩეს კლიენტის სიმბოლოების ნაკრები.',
+      'installer.form.databaseDriverRequired' => 'მონაცემთა ბაზის დრაივერი უნდა იყოს შერჩეული.',
+      'installer.form.databaseNameRequired' => 'მონაცემთა ბაზის სახელი აუცილებელია.',
+      'installer.form.emailRequired' => 'ადმინისტრატორის ანგარიშისთვის საჭიროა ელფოსტის სწორი მისამართი.',
+      'installer.form.filesDirRequired' => 'ატვირთული ფაილების შესანახად გამოყენებული დირექტორია.',
+      'installer.form.localeRequired' => 'ენა უნდა შეირჩეს.',
+      'installer.form.passwordRequired' => 'ადმინისტრატორის ანგარიშის პაროლი აუცილებელია.',
+      'installer.form.passwordsDoNotMatch' => 'ადმინისტრატორის პაროლები არ ემთხვევა.',
+      'installer.form.separateMultiple' => 'მნიშვნელობების გამოყოფა მძიმით',
+      'installer.form.usernameAlphaNumeric' => 'ადმინისტრატორის მომხმარებლის სახელი შეიძლება შეიცავდეს მხოლოდ ალფანუმერულ სიმბოლოებს, ქვედა ხაზებს და დეფისებს და უნდა დაიწყოს და დასრულდეს ალფანუმერული სიმბოლოთი.',
+      'installer.form.usernameRequired' => 'საჭიროა მომხმარებლის სახელი ადმინისტრატორის ანგარიშისთვის.',
+      'installer.form.timeZoneRequired' => 'დროის სარტყელი უნდა იყოს არჩეული.',
+      'installer.installationWrongPhp' => '<br/><strong>გაფრთხილება: თქვენი ამჟამინდელი PHP ვერსია არ აკმაყოფილებს მინიმალურ მოთხოვნებს ინსტალაციისთვის. რეკომენდირებულია გადახვიდეთ PHP-ის უფრო ახალ ვერსიაზე.</strong>',
+      'installer.installErrorsOccurred' => 'ინსტალაციის დროს მოხდა შეცდომები',
+      'installer.installerSQLStatements' => 'SQL განცხადებები ინსტალაციისთვის',
+      'installer.installFileError' => 'ინსტალაციის ფაილი <tt>dbscripts/xml/install.xml</tt> არ არსებობს ან არ იკითხება.',
+      'installer.installFilesDirError' => 'ატვირთული ფაილებისთვის მითითებული დირექტორია არ არსებობს ან არ იწერება.',
+      'installer.installParseDBFileError' => 'მოხდა მონაცემთა ბაზის ინსტალაციის ფაილის <tt>{$file}</tt> ანალიზის შეცდომა.',
+      'installer.installMigrationError' => 'შეცდომა მიგრაციის კლასის შესრულებისას <tt>{$class}</tt>. შეცდომა: {$message}.',
+      'installer.installParseEmailTemplatesFileError' => 'ელფოსტის შაბლონის ფაილის <tt>{$file}</tt> ანალიზის შეცდომა.',
+      'installer.installParseFilterConfigFileError' => 'ფილტრის კონფიგურაციის ფაილის <tt>{$file}</tt> ანალიზის შეცდომა.',
+      'installer.unsupportedUpgradeError' => 'განახლება მხარდაუჭერელია. დეტალებისთვის იხილეთ docs/UPGRADE-UNSUPPORTED.',
+      'installer.timezoneInstructions' => 'დროის სარტყელი, რომელიც გამოიყენება ამ სისტემისთვის.',
+      'installer.additionalLocalesInstructions' => 'აირჩიეთ ნებისმიერი დამატებითი ენა ამ სისტემაში მხარდაჭერისთვის. დამატებითი ენების დაყენება შესაძლებელია ნებისმიერ დროს საიტის ადმინისტრაციის ინტერფეისიდან.<br> * = ასახელებს ენებს, რომლებიც სრულად არ არის თარგმნილი (> 90% of ტერმინი თარგმნილია)',
+      'installer.locale' => 'ენის კოდი',
+      'installer.locale.maybeIncomplete' => 'მონიშნული ენების მხარდაჭერა შესაძლოა სრული არ იყოს.',
+      'installer.localeSettings' => 'ენის პარამეტრები',
+      'installer.oaiSettings' => 'OAI პარამეტრები',
+      'installer.oaiRepositoryIdInstructions' => 'უნიკალური იდენტიფიკატორი, რომელიც გამოიყენება ამ საიტიდან ინდექსირებული მეტამონაცემების ჩანაწერების იდენტიფიცირებისთვის, მეტადატის <a href="https://www.openarchives.org/" target="_blank">Open Archives Initiative</a> პროტოკოლის გამოყენებით.',
+      'installer.oaiRepositoryId' => 'საცავის იდენტიფიკატორი',
+      'installer.publicFilesDirError' => 'საჯარო ფაილების დირექტორია არ არსებობს, ან არ იწერება.',
+      'installer.releaseNotes' => 'გამოშვების შენიშვნები',
+      'installer.preInstallationInstructionsTitle' => 'ინსტალაციამდე ნაბიჯები',
+      'installer.preInstallationInstructions' => '
+		<p>1. შემდეგი ფაილები და დირექტორიები (და მათი შინაარსი) უნდა იყოს დაწერილი:</p>
+		<ul>
+			<li><tt>config.inc.php</tt>იწერება (არასავალდებულო): {$writable_config}</li>
+			<li><tt>public/</tt>იწერება: {$writable_public} </li>
+			<li><tt>cache/</tt>იწერება: {$writable_cache} </li>
+			<li><tt>cache/t_cache/</tt>იწერება: {$writable_templates_cache}</li>
+			<li><tt>cache/t_compile/</tt>იწერება: {$writable_templates_compile}</li>
+			<li><tt>cache/_db </tt>იწერება: {$writable_db_cache}</li>
+		</ul>
+
+		<p> 2. ატვირთული ფაილების შესანახად დირექტორია უნდა შეიქმნას და დაწერილი უნდა იყოს (იხ. “ფაილის პარამეტრები”).</p>
+	',
+      'installer.configureXSLMessage' => '<p>თქვენს PHP ინსტალაციას არ აქვს ჩართული XSL მოდული. ჩართეთ იგი, ან დააყენეთ xslt_command პარამეტრი თქვენს config.inc.php ფაილში.</p>',
+      'installer.beacon' => 'შუქურა',
+      'installer.beacon.enable' => 'მიაწოდეთ PKP-ს საიტის უნიკალური ID და OAI ბაზისური URL მხოლოდ სტატისტიკისა და უსაფრთხოების გაფრთხილების მიზნით.',
+      'installer.unsupportedPhpError' => 'თქვენი სერვერის PHP ვერსია არ არის მხარდაჭერილი ამ პროგრამული უზრუნველყოფით. გადაამოწმეთ ინსტალაციის მოთხოვნები Docs/README-ში.',
+    ),
+  ),
+);

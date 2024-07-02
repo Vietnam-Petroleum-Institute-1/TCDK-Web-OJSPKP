@@ -1,0 +1,27 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.themes.default.name' => 'Tema implicită',
+      'plugins.themes.default.description' => 'Această temă este implementată implicit.',
+      'plugins.themes.default.option.typography.label' => 'Fonturi/ Caractere',
+      'plugins.themes.default.option.typography.description' => 'Alegeți o combinație de fonturi care se potrivește acestui jurnal.',
+      'plugins.themes.default.option.typography.notoSans' => 'Noto Sans: un font nativ digital conceput de Google cu suport extins pentru limbi străine.',
+      'plugins.themes.default.option.typography.notoSerif' => 'Noto Serif: O variantă Google a fontului nativ.',
+      'plugins.themes.default.option.typography.notoSerif_notoSans' => 'Noto Serif/Noto Sans: O combinație complementară între fontul serif pentru titluri și fontul sans-serif pentru conținut.',
+      'plugins.themes.default.option.typography.notoSans_notoSerif' => 'Noto Sans/Noto Serif: O combinație complementară între fontul sans-serif pentru titluri și fontul serif pentru conținut.',
+      'plugins.themes.default.option.typography.lato' => 'Lato: un font sans-serif modern și popular.',
+      'plugins.themes.default.option.typography.lora' => 'Lora: Un set larg de fonturi serif bun pentru a citi on-line.',
+      'plugins.themes.default.option.typography.lora_openSans' => 'Lora/Open Sans: O combinație complementară între fontul serif pentru titluri și fontul sans-serif pentru conținut.',
+      'plugins.themes.default.option.colour.label' => 'Culoare',
+      'plugins.themes.default.option.colour.description' => 'Alegeți o culoare pentru antet.',
+      'plugins.themes.default.option.showDescriptionInJournalIndex.option' => 'Arată o scurtă descriere a jurnalului pe prima pagină.',
+      'plugins.themes.default.option.useHomepageImageAsHeader.label' => 'Imagine de fundal pentru antet',
+      'plugins.themes.default.option.useHomepageImageAsHeader.description' => 'Când a fost încărcată o imagine pe pagina de pornire, afișați-o în fundalul antetului în loc de poziția obișnuită pe pagina de pornire.',
+      'plugins.themes.default.option.useHomepageImageAsHeader.option' => 'Afișează imaginea paginii de pornire ca fundal al antetului.',
+    ),
+  ),
+);

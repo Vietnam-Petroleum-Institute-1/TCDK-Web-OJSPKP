@@ -1,0 +1,61 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.importexport.crossref.displayName' => 'Crossref XML Export Plugin',
+      'plugins.importexport.crossref.description' => 'Cikk metaadat export Crossref XML formátumban.',
+      'plugins.importexport.crossref.requirements' => 'Követelmények',
+      'plugins.importexport.crossref.requirements.satisfied' => 'Minden plugin követelmény teljesült.',
+      'plugins.importexport.crossref.error.publisherNotConfigured' => 'Egy folyóiratkiadó nem volt beállítva! Muszáj hozzáadnia egy kiadó intézményt ezen az oldalon <a href="{$journalSettingsUrl}" target="_blank">Folyóirat beállítási oldal</a>.',
+      'plugins.importexport.crossref.error.issnNotConfigured' => 'Egy folyóirat ISSN nem lett beállítva! Muszáj hozzáadnia egy ISSN-t ezen az oldalon <a href="{$journalSettingsUrl}" target="_blank">Folyóirat beállítási oldal</a>.',
+      'plugins.importexport.crossref.error.noDOIContentObjects' => 'Folyóiratcikkek Articles are not selected for DOI assignment in the DOI public identifier plugin, so there is no deposit or export possibility in this plugin.',
+      'plugins.importexport.crossref.settings.depositorIntro' => 'A sikeres Crossref regisztrációhoz a következőkre van szükség.',
+      'plugins.importexport.crossref.settings.form.depositorName' => 'Beküldő (Depositor) neve',
+      'plugins.importexport.crossref.settings.form.depositorEmail' => 'Beküldő (Depositor) e-mail',
+      'plugins.importexport.crossref.settings.form.depositorNameRequired' => 'Kérjük, írja be a beküldő nevét.',
+      'plugins.importexport.crossref.settings.form.depositorEmailRequired' => 'Kérjük, írja be a beküldő e-mail címét.',
+      'plugins.importexport.crossref.registrationIntro' => 'Ha használni szeretné ezt a bővítményt a Digital Object Identifiers (DOI-k) regisztrálásához közvetlenül a Crossref-nél, akkor felhasználónévre és jelszóra lesz szüksége (elérhető a <a href="http://www.crossref.org" target="_blank"> Crossref </a>). Ha nem rendelkezik saját felhasználónevével és jelszóval, akkor továbbra is exportálhatja a Crossref XML formátumba, de nem tudja regisztrálni a DOI-t a Crossref-rel a OJS-n belül.',
+      'plugins.importexport.crossref.settings.form.username' => 'Felhasználónév',
+      'plugins.importexport.crossref.settings.form.usernameRequired' => 'Kérjük, írja be a Crossref-től kapott felhasználónevét.',
+      'plugins.importexport.crossref.settings.form.automaticRegistration.description' => 'A OJS automatikusan beküldi a hozzárendelt DOI-kat a Crossref-nek. Felhívjuk figyelmét, hogy a közzététel után a feldolgozáshoz egy kis idő szükséges. Ellenőrizheti az összes regisztrálatlan DOI-t.',
+      'plugins.importexport.crossref.settings.form.testMode.description' => 'Használja a Crossref teszt API-t (tesztkörnyezet) a DOI beküldéshez. Kérjük, ne felejtse el kikapcsolni ezt a beállítást a megjelentetéskor.',
+      'plugins.importexport.crossref.issues.description' => 'Megjegyzés: Csak folyóiratszámok (és nem azok cikkei) lesznek figyelembevéve az export/regisztráció során.',
+      'plugins.importexport.crossref.status.submitted' => 'Beküldött',
+      'plugins.importexport.crossref.status.completed' => 'Eltárolt',
+      'plugins.importexport.crossref.status.failed' => 'Sikertelen',
+      'plugins.importexport.crossref.status.registered' => 'Aktív',
+      'plugins.importexport.crossref.status.markedRegistered' => 'Aktívnak jelölt',
+      'plugins.importexport.crossref.statusLegend' => '
+		<p> Betöltés állapota: </p>
+<p>
+- Nem depozitált: erre a DOI-ra nem történt letétbe helyezés. <br />
+- Beküldött: ezt a DOI-t benyújtották a depozitálásra. <br />
+- Depozitált: a DOI-t betöltötték a Crossref-be, de lehet, hogy még nem aktív. <br />
+- Aktív: a DOI letétbe helyezve, és működik a feloldása is.<br />
+- Sikertelen: a DOI betöltés sikertelen. <br />
+- Aktívnak jelölt: a DOI-t manuálisan aktívnak jelölték.
+</ P>
+<p> Csak az utolsó betöltési kísérlet állapota jelenik meg. </p>
+<p> Ha egy betöltés sikertelen, kérjük, oldja meg a problémát, és próbálja meg ismét regisztrálni a DOI-t.</p>',
+      'plugins.importexport.crossref.action.export' => 'XML letöltés',
+      'plugins.importexport.crossref.action.markRegistered' => 'Aktívnak jelöl',
+      'plugins.importexport.crossref.action.register' => 'Beküld',
+      'plugins.importexport.crossref.action.checkStatus' => 'Státusz ellenőrzése',
+      'plugins.importexport.crossref.senderTask.name' => 'Crossref automatikus regisztrációs feladat',
+      'plugins.importexport.crossref.notification.failed' => 'Egy DOI-t nem sikerült regisztrálni. Menjen az Eszöközök > Import/Export > Crossref XML Export Plugin-hoz a sikertelen betöltések megtekintéséhez.',
+      'plugins.importexport.crossref.cliUsage' => 'Használat:
+{$scriptName} {$pluginName} export [xmlFileName] [journal_path] articles objectId1 [objectId2] ...
+{$scriptName} {$pluginName} register [journal_path] articles objectId1 [objectId2] ...
+',
+      'plugins.importexport.crossref.register.error.mdsError' => 'A beküldés sikertelen lett! A DOI regisztrációs szerver egy hibát adott vissza: \'{$param}\'.',
+      'plugins.importexport.crossref.register.success' => 'Beküldés sikeres!',
+      'plugins.importexport.crossref.export.error.issueNotFound' => 'Nincs a megadott számazonosítóval "{$issueId}" egyező folyóiratszám.',
+      'plugins.importexport.crossref.export.error.articleNotFound' => 'Egyik cikk sem egyezik a megadott cikkazonosítóval "{$articleId}".',
+      'plugins.importexport.crossref.settings.form.validation' => 'Érvényesítse az XML-t. Használja ezt az opciót az XML letöltéshez és kézzel történő DOI regisztráláshoz.',
+      'plugins.importexport.crossref.register.success.warning' => 'Sikeres regisztráció, de az alábbi figyelmeztető üzenettel: \'{$param}\'.',
+    ),
+  ),
+);

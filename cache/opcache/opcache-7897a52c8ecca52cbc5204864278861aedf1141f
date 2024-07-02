@@ -1,0 +1,32 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'comments.anonymous' => 'Anonimowy użytkownik',
+      'comments.anonymousNamed' => 'Użytkownik "{$userName}"',
+      'comments.body' => 'Treść',
+      'comments.titleRequired' => 'Wymagane jest podanie tytułu komentarza.',
+      'comments.confirmDeleteChildren' => 'Usunięcie komentarza spowoduje usunięcie powiązanych wątków (komentarzy). Czy na pewno chcesz usunąć swój komentarz?',
+      'comments.delete' => 'Usuń komentarz',
+      'comments.email' => 'Wyślij e-mail',
+      'comments.emailReply' => 'Odpowiedz na e-mail',
+      'comments.enterComment' => 'Wpisz komentarz',
+      'comments.inResponseTo' => 'W odpowiedzi na <a href="{$url}">{$title}</a>',
+      'comments.name' => 'Imię i nazwisko',
+      'comments.noComments' => 'Nie opublikowano żadnych komentarzy.',
+      'comments.nReplies' => '({$num} odpowiedzi)',
+      'comments.oneReply' => '(1 Odpowiedź)',
+      'comments.postAnonymously' => 'Opublikuj komentarz jako anonim',
+      'comments.postReply' => 'Opublikuj odpowiedź',
+      'comments.readerComments' => 'Komentarze czytelników',
+      'comments.readMore' => 'Czytaj więcej',
+      'comments.replies' => 'Odpowiedzi',
+      'comments.title' => 'Tytuł',
+      'comments.viewAllComments' => 'Zobacz wszystkie komentarze',
+      'reader.fullText' => 'Pełny tekst:',
+    ),
+  ),
+);

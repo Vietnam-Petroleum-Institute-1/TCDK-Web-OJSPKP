@@ -1,0 +1,36 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.orcidProfile.displayName' => 'Plugin för ORCID-profil',
+      'plugins.generic.orcidProfile.description' => 'Gör det möjligt att importera användarprofilsinformation från ORCID.',
+      'plugins.generic.orcidProfile.instructions' => 'Du kan fylla i det här formuläret genom att hämta information från en ORCID-profil. Ange e-postadress eller ORCID iD som är kopplat till ORCID-profilen och klicka sedan på "Skicka".',
+      'plugins.generic.orcidProfile.noData' => 'Hittade inga data i ORCID.',
+      'plugins.generic.orcidProfile.emailOrOrcid' => 'E-postadress eller ORCID-iD:',
+      'plugins.generic.orcidProfile.manager.orcidProfileSettings' => 'Inställningar för ORCID-profil',
+      'plugins.generic.orcidProfile.manager.settings.description' => 'Konfigurera ORCID-API:t för att hämta profilinformation från ORCID till användarprofilen.',
+      'plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath' => 'ORCID API',
+      'plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath.public' => 'Public',
+      'plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath.publicSandbox' => 'Publik sandbox',
+      'plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath.member' => 'Medlem',
+      'plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath.memberSandbox' => 'Sandbox för medlemmar',
+      'plugins.generic.orcidProfile.manager.settings.orcidClientId' => 'Client ID',
+      'plugins.generic.orcidProfile.manager.settings.orcidClientSecret' => 'Client Secret',
+      'plugins.generic.orcidProfile.author.submission' => 'ORCID för bidrag',
+      'plugins.generic.orcidProfile.author.submission.success' => 'Ditt bidrag har kopplats till ditt ORCID-iD.',
+      'plugins.generic.orcidProfile.author.submission.failure' => 'Ditt bidrag kunde inte kopplas till ditt ORCID-iD. Kontakta tidskriftansvarig med ditt namn, ORCID-iD och andra detaljer om ditt bidrag.',
+      'plugins.generic.orcidProfile.authFailure' => 'OJS kunde inte kommunicera med ORCID-tjänsten. Kontakta tidskriftansvarig med ditt namn, ORCID-iD, och andra detaljer om ditt bidrag.',
+      'plugins.generic.orcidProfile.fieldset' => 'ORCID',
+      'plugins.generic.orcidProfile.connect' => 'Skapa eller koppla ditt ORCID-iD',
+      'plugins.generic.orcidProfile.manager.settings.logLevel.all' => 'Alla',
+      'plugins.generic.orcidProfile.manager.settings.mailSectionTitle' => 'E-postinställningar',
+      'plugins.generic.orcidProfile.manager.settings.logLevel.error' => 'Fel',
+      'plugins.generic.orcidProfile.manager.settings.description.globallyconfigured' => 'ORCID-API:t blev konfigruerat globalt av värden. Följande inloggningsuppgifter har sparats.',
+      'plugins.generic.orcidProfile.manager.settings.hidden' => 'gömd',
+      'plugins.generic.orcidProfile.manager.settings.title' => 'ORCID API-Inställningar',
+    ),
+  ),
+);

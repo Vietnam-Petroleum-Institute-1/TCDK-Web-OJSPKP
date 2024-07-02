@@ -1,0 +1,14 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=1; plural=0;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.recommendByAuthor.displayName' => 'Syor Artikel oleh Pengarang',
+      'plugins.generic.recommendByAuthor.description' => 'Plugin ini memasukkan senarai artikel oleh pengarang yang sama di halaman abstrak artikel.',
+      'plugins.generic.recommendByAuthor.heading' => 'Artikel yang paling banyak dibaca oleh pengarang yang sama',
+      'plugins.generic.recommendByAuthor.noMetric' => 'Obs.: Plugin ini memerlukan sekurang-kurangnya satu plugin statistik/laporan didayakan. Sekiranya plugin statistik anda memberikan lebih daripada satu metrik, maka pilih juga metrik utama di halaman tetapan laman pentadbir dan/atau di halaman tetapan pengurus jurnal.',
+    ),
+  ),
+);

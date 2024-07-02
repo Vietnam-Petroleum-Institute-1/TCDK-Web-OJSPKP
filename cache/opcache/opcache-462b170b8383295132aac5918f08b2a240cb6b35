@@ -1,0 +1,32 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.citationStyleLanguage.displayName' => 'Citation Style Language',
+      'plugins.generic.citationStyleLanguage.description' => 'Met deze plugin kunnen lezers een bibliografische referentie voor een gepubliceerd artikel laten maken in verschillende formaten die worden ondersteund door de Citation Style Language.',
+      'plugins.generic.citationStyleLanguage.style.acm-sig-proceedings' => 'ACM',
+      'plugins.generic.citationStyleLanguage.style.acs-nano' => 'ACS',
+      'plugins.generic.citationStyleLanguage.style.apa' => 'APA',
+      'plugins.generic.citationStyleLanguage.style.associacao-brasileira-de-normas-tecnicas' => 'ABNT',
+      'plugins.generic.citationStyleLanguage.style.chicago-author-date' => 'Chicago',
+      'plugins.generic.citationStyleLanguage.style.harvard-cite-them-right' => 'Harvard',
+      'plugins.generic.citationStyleLanguage.style.ieee' => 'IEEE',
+      'plugins.generic.citationStyleLanguage.style.modern-language-association' => 'MLA',
+      'plugins.generic.citationStyleLanguage.style.turabian-fullnote-bibliography' => 'Turabian',
+      'plugins.generic.citationStyleLanguage.style.vancouver' => 'Vancouver',
+      'plugins.generic.citationStyleLanguage.download.bibtex' => 'BibTeX',
+      'plugins.generic.citationStyleLanguage.download.ris' => 'Endnote/Zotero/Mendeley (RIS)',
+      'plugins.generic.citationStyleLanguage.settings.citationDownloads' => 'Downloadformaten',
+      'plugins.generic.citationStyleLanguage.settings.citationDownloadsDescription' => 'Selecteer welke downloadformaten u wil aanbieden aan de lezers. Downloadformaten worden doorgaans gebruikt om te importeren in externe bibliografische software, zoals EndNote of Zotero.',
+      'plugins.generic.citationStyleLanguage.settings.citationFormats' => 'Bijkomende citatieformaten',
+      'plugins.generic.citationStyleLanguage.settings.citationFormatsDescription' => 'Selecteer welke bijkomende citatieformaten u wilt aanbieden aan de lezers.',
+      'plugins.generic.citationStyleLanguage.settings.citationFormatsPrimary' => 'Hoofdformaat voor bibliografische referenties',
+      'plugins.generic.citationStyleLanguage.settings.citationFormatsPrimaryDescription' => 'Selecteer welk formaat voor bibliografische referenties standaard moet worden getoond voor artikels.',
+      'plugins.generic.citationStyleLanguage.settings.publisherLocation.description' => 'Sommige citatie-indelingen vragen om de geografische locatie van de uitgever, zoals "Amsterdam, Nederland".',
+      'plugins.generic.citationStyleLanguage.settings.publisherLocation' => 'Locatie van uitgever',
+    ),
+  ),
+);

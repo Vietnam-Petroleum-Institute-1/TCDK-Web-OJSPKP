@@ -1,0 +1,24 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=1; plural=0;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.customBlockManager.displayName' => 'Pengelolaan Manager Umum',
+      'plugins.generic.customBlockManager.blockName' => 'Nama Blok',
+      'plugins.generic.customBlockManager.addBlock' => 'Tambah Blok',
+      'plugins.generic.customBlock.content' => 'Konten',
+      'plugins.generic.customBlock.nameSuffix' => '(Plugin Blok Kustom)',
+      'plugins.generic.customBlock.description' => 'Ini adalah user-generated block.',
+      'plugins.generic.customBlock.nameRegEx' => 'Nama blok baru hanya boleh mengandung huruf, angka, garis sambung/garis bawah.',
+      'plugins.generic.customBlock.nameRequired' => 'Nama blok baru wajib diisi.',
+      'plugins.generic.customBlockManager.noneCreated' => 'Belum ada blok baru yang dibuat.',
+      'plugins.generic.customBlockManager.customBlocks' => 'Blok Khusus',
+      'plugins.generic.customBlockManager.description' => 'Plugin ini memungkinkan Anda mengelola (menambah, mengubah, dan menghapus) blok khusus di sidebar.',
+      'plugins.generic.customBlockManager.manage' => 'Kelola Blok Baru',
+      'plugins.generic.customBlock.showName.description' => 'Tampilkan nama blok ini di atas isi blok.',
+      'plugins.generic.customBlock.showName' => 'Tampilkan Nama',
+    ),
+  ),
+);

@@ -1,0 +1,12 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n==1 || n%10==1 ? 0 : 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.usageEvent.displayName' => 'Искористеност',
+      'plugins.generic.usageEvent.description' => 'Создава јадица што обезбедува настан за употреба во дефиниран формат.',
+    ),
+  ),
+);

@@ -1,0 +1,12 @@
+<?php $exp = 1751345594; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.usageEvent.displayName' => 'Esdeveniment d\'ús',
+      'plugins.generic.usageEvent.description' => 'Crea un connector que proporciona esdeveniments d\'ús en un format definit.',
+    ),
+  ),
+);

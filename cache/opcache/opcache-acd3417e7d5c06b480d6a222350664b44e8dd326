@@ -1,0 +1,30 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'api.announcements.400.contextsNotMatched' => 'Сұраныс жіберілген хабарландыру бұл журналға тиесілі емес.',
+      'api.emails.403.disabled' => 'Электрондық поштамен хабарламар жіберу мүмкіндігі бұл журнал үшін орнатылмаған.',
+      'api.submissions.400.wrongContext' => 'Сіз сұраған материал бұл журналда жоқ.',
+      'api.submissions.403.cantChangeContext' => 'Сіз жіберілген материалға бекітілген журналды өзгерте алмайсыз.',
+      'api.submissions.403.unpublishedIssues' => 'Жарияланбаған журнал шығарылымдарын қарау рұқсат етілмеген.',
+      'api.contexts.403.requestedDisabledContexts' => 'Сіз тек қарауға рұқсат берілген журналдарды ғана көре аласыз.',
+      'api.contexts.403.notAllowed' => 'Сізге бұл журналды қарауға рұқсат берілмеген.',
+      'api.contexts.403.contextsDidNotMatch' => 'Журналдың API-не сұраныс жібермей бұл журналды қарай немесе өңдей алмайсыз.',
+      'api.contexts.403.requiresContext' => 'Сіз бұл журналды веб-сайттың API-ы арқылы өңдей алмайсыз.',
+      'api.contexts.403.notAllowedEdit' => 'Сізге бұл журналды өңдеуге рұқсат берілмеген.',
+      'api.contexts.403.notAllowedDelete' => 'Сізге бұл журналды өшіруге рұқсат берілмеген.',
+      'api.contexts.404.contextNotFound' => 'Сіз сұраған журнал жүйеден табылмады.',
+      'api.dois.403.contextsNotMatched' => 'Сіз сұраған DOI бұл журналдың бөлігі емес.',
+      'api.dois.400.noRegistrationAgencyConfigured' => 'Бұл журнал үшін ешбір DOI тіркеу агенттігі конфигурацияланбаған.',
+      'api.dois.400.depositFailed' => 'Кейбір элементтер сәтті сақталмады. Жеке элементтерді олардың нақты қате туралы хабарлары үшін тексеріңіз.',
+      'api.emailTemplates.403.notAllowedChangeContext' => 'Сізге бұл электронды хабарлама үлгісін басқа журналға көшіруге рұқсат берілмеген.',
+      'api._payments.400.invalidPaymentMethod' => 'Сіз таңдаған төлем әдісімен жалғастыру мүмкін емес.',
+      'api.publications.403.contextsDidNotMatch' => 'Сіз сұраған мақала бұл журналға тиесілі емес.',
+      'api.publications.403.submissionsDidNotMatch' => 'Сіз сұраған мақала бұл журналға тиесілі емес.',
+      'api.submissionFiles.400.badRepresentationAssocType' => 'Файлды бұл қадамда электронды қолжазбамен байланыстыру мүмкін емес.',
+    ),
+  ),
+);

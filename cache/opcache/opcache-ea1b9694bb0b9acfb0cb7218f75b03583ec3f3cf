@@ -1,0 +1,25 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.googleAnalytics.displayName' => 'Modul pentru Google Analytics',
+      'plugins.generic.googleAnalytics.description' => 'Integrează OJS cu Google Analytics, siteul Google pentru aplicaţia pentru analizarea traficului pe site. Acesta necesită existenţa deja a unui cont la Google Analytics. Vezi şi <a href="http://www.google.com/analytics/" title="Google Analytics site">siteul Google Analytics</a> pentru mai multe informaţii.',
+      'plugins.generic.googleAnalytics.manager.settings' => 'Setări',
+      'plugins.generic.googleAnalytics.manager.googleAnalyticsSettings' => 'Setări Google Analytics',
+      'plugins.generic.googleAnalytics.manager.settings.description' => '<p>Având acest modul activat, se poate utiliza Google Analytics pentru a colecta şi analiza modul de utilizare şi traficul pe site pentru această revistă. Trebuie spus că acest modul necesită existenţa deja a unui cont la Google Analytics. Vezi şi <a href="http://www.google.com/analytics/" title="Google Analytics site">siteul Google Analytics</a> pentru mai multe informaţii.</p><p>trebuie notat faptul că Google Analytics are nevoie de aproape 24 de ore până când datele statistice sunt colectate şi raportate. În timpul acestei perioade, funcţia \'Verifică starea\' e posibil să nu raporteze corect dacă a detectat codul de urmărire necesar pentru revistă.</p>',
+      'plugins.generic.googleAnalytics.manager.settings.googleAnalyticsSiteId' => 'Numărul contului',
+      'plugins.generic.googleAnalytics.manager.settings.googleAnalyticsSiteIdInstructions' => 'În cadrul Google Analytics, apasă pe \'Verifică starea\' pentru a vedea codul de urmărire pentru site. În cazul fragmentelor de cod mai vechi, numărul contului în cadrul codului de urmărire este afişat astfel: _uacct = "###". Pentru noile coduri de urmărire, numărul contului este afişat în cadrul codului de urmărire precum: var pageTracker = _gat._getTracker("###"). Introdu textul care corespunde lui ###.',
+      'plugins.generic.googleAnalytics.manager.settings.googleAnalyticsSiteIdRequired' => 'Introdu un număr de cont.',
+      'plugins.generic.googleAnalytics.manager.settings.trackingCode' => 'Cod de urmărire',
+      'plugins.generic.googleAnalytics.manager.settings.trackingCodeRequired' => 'Selectează un cod de urmărire pentru a fi folosit.',
+      'plugins.generic.googleAnalytics.manager.settings.urchin' => 'Cod de urmărire vechi (urchin.js)',
+      'plugins.generic.googleAnalytics.manager.settings.ga' => 'Cod de urmărire nou (ga.js)',
+      'plugins.generic.googleAnalytics.authorAccount' => 'Numărul contului Google Analytics',
+      'plugins.generic.googleAnalytics.authorAccount.description' => 'Pentur a urmări articolele folosind Google Analytics introdu aici numărul contului (ex, UA-xxxxxx-x).',
+      'plugins.generic.googleAnalytics.authorAccountInvalid' => 'Unul sau mai multe numere de cont pentru Google Analytics sunt nevalide.',
+    ),
+  ),
+);

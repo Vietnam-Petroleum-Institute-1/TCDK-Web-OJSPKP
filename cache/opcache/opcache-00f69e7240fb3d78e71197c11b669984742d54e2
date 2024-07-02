@@ -1,0 +1,337 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'emails.passwordResetConfirm.subject' => 'Jelszó visszaállítás megerősítése',
+      'emails.passwordResetConfirm.body' => 'Megkaptuk jelszavának visszaállítási kérését a(z) {$siteTitle} oldalhoz.<br />
+<br />
+Amennyiben nem Ön kezdeményezte, úgy hagyja figyelmen kívül értesítő levelünket és jelszava nem módosul. Ha szeretné visszaállítani jelszavát, kattintson az alábbi linkre.<br />
+<br />
+Jelszavam visszaállítása: {$passwordResetUrl}<br />
+<br />
+{$siteContactName}',
+      'emails.userRegister.subject' => 'Folyóirat regisztráció',
+      'emails.userRegister.body' => 'Tisztelt {$recipientName}!<br />
+<br />
+Köszönjük regisztrációját a(z) {$contextName} folyóirathoz. Levelünk tartalmazza felhasználónevét és jelszavát, mellyel nem csak olvasóként léphet be a folyóirat weboldalára, de szerzőként küldhet be cikket vagy vállalhat lektorálási feladatokat. Regisztrációjának törlését bármikor kezdeményezheti. Ehhez kérjük, vegye fel a kapcsolatot szerkesztőségünkkel.<br />
+<br />
+Felhasználónév: {$recipientUsername}<br />
+Jelszó: {$password}<br />
+<br />
+Üdvözlettel,<br />
+{$signature}',
+      'emails.userValidateContext.subject' => 'Hitelesítse fiókját',
+      'emails.userValidateContext.body' => 'Tisztelt {$recipientName}!<br />
+<br />
+Sikeresen létrehozta felhasználói fiókját a(z) {$contextName} folyóirathoz, melynek használatba vételéhez kérjük, előbb hitelesítse email címét. Ehhez kattintson az alábbi linkre:<br />
+<br />
+{$activateUrl}<br />
+<br />
+Köszönettel,<br />
+{$contextSignature}',
+      'emails.userValidateSite.subject' => 'Hitelesítse fiókját',
+      'emails.userValidateSite.body' => 'Tisztelt {$recipientName} !<br />
+<br />
+Sikeresen létrehozta felhasználói fiókját a(z) {$siteTitle} oldalnál, melynek használatba vételéhez kérjük, előbb hitelesítse email címét. Ehhez kattintson az alábbi linkre:<br />
+<br />
+{$activateUrl}<br />
+<br />
+Köszönettel,<br />
+{$siteSignature}',
+      'emails.reviewerRegister.subject' => 'Regisztráció szakmai lektorként a(z) {$contextName} folyóirathoz',
+      'emails.reviewerRegister.body' => '<p>Tisztelt Szakértő!</p><p>Ezúton értesítjük, hogy tekintettel a szakértelmére regisztráltuk Önt a(z) {$contextName} folyóirathoz szakmai lektorként, mert a jövőben szeretnénk lektorálási kéréssel fordulni Önhöz. Ez nem jár semmiféle kötelezettséggel az Ön részéről, hanem egyszerűen csak lehetővé teszi számunkra, hogy felkérjük Önt egy beküldött anyag szakmai lektorálására.
+Ha lektori felkérést kap lehetősége lesz megnézni a kérdéses cikk címét és absztraktját, és mindig lehetősége lesz arra, hogy elfogadja vagy elutasítsa a felkérést. Bármikor kérheti, hogy távolítsuk el a szakmai lektorok listájáról.</p><p>Létrehoztuk felhasználónevét és jelszavát, mellyel beléphet a folyóirat weboldalára. Belépést követően frissítheti profilját, beleértve a megadott szakterületeit is.</p><p>Felhasználónév: {$recipientUsername}<br />Jelszó: {$password}</p><p>Köszönettel,</p>{$signature}',
+      'emails.issuePublishNotify.subject' => 'Új folyóiratszám ({$issueIdentification}) jelent meg a(z){$contextName} folyóiratnál',
+      'emails.issuePublishNotify.body' => '<p>Kedves {$recipientName}!</p><p>Örömmel jelentjük be a(z) {$contextName} folyóirat legújabb számának megjelenését: <a href="{$issueUrl}">{$issueIdentification}</a>. Kérjük, hogy olvassa el és ossza meg ezt a munkát tudományos közösségével. </p><p>Köszönjük szerzőinknek, szakmai lektorainknak és szerkesztőinknek értékes hozzájárulásukat, olvasóinknak pedig folyamatos érdeklődésüket.</p><p>Köszönettel,</p>
+{$signature}',
+      'emails.editorAssign.subject' => 'Szerkesztői megbízás',
+      'emails.editorAssign.body' => '<p>Tisztelt {$recipientName}!</p><p>A alábbi kézirat Önhöz lett rendelve, hogy kísérje végig annak szerkesztési folyamatát.</p><p><a href="{$submissionUrl}">{$submissionTitle}</a><br />{$authors}</p><p><b>Absztrakt</b></p>{$submissionAbstract}<p>Ha a beküldést relevánsnak találja a(z) {$contextName} számára, kérjük, továbbítsa a beküldést a szakmai lektorálási szakaszba a "Szakmai lektorálásra küldés" gomb megnyomásával, majd jelölje ki a szakmai lektorokat a "Szakmai lektor hozzáadása" gombra kattintva.</p><p>Ha a beküldött kézirat nem megfelelő a folyóirat számára, kérjük, utasítsa el a beküldést.</p><p>Előre is köszönjük.</p><p>Üdvözlettel,</p>{$contextSignature}',
+      'emails.editorAssignReview.body' => '<p>Tisztelt {$recipientName}!</p><p>A alábbi kézirat Önhöz lett rendelve, hogy kísérje végig a szakmai lektoráláson.</p><p><a href="{$submissionUrl}">{$submissionTitle}</a><br />{$authors}</p><p><b>Absztrakt</b></p>{$submissionAbstract}<p>Kérjük jelentkezzen be a <a href="{$submissionUrl}">beküldés megtekintéséhez</a>és rendeljen hozzá megfelelő szakmai lektorokat. A "Szakmai lektor hozzáadása" gombra kattintva jelölhet ki szakmai lektorokat.</p><p>Előre is köszönjük.</p><p>Üdvözlettel,</p>{$signature}',
+      'emails.editorAssignProduction.body' => '<p>Tisztelt {$recipientName}!</p><p>A alábbi kézirat Önhöz lett rendelve, hogy kísérje végig az előállítási szakaszon.</p><p><a href="{$submissionUrl}">{$submissionTitle}</a><br />{$authors}</p><p><b>Absztrakt</b></p>{$submissionAbstract}<p>Kérjük jelentkezzen be a <a href="{$submissionUrl}">beküldés megtekintéséhez</a>Amint a megjelentetésre kész fájlok rendelkezésre állnak, töltse fel őket a <strong> Cikk > Formátumok</strong> részbe. Ezután ütemezze a munkát közzétételre a <strong>Publikálásra ütemezés</strong> gombra kattintva.</p><p>Előre is köszönjük.</p><p>Üdvözlettel,</p>{$signature}',
+      'emails.reviewRequest.subject' => 'Cikk lektorálás kérése',
+      'emails.reviewRequest.body' => '<p>Tisztelt {$recipientName}!</p><p>Úgy gondoljuk Ön kiváló szakmai lektora lenne a(z) {$contextName} egyik kéziratának. A beküldés címe és absztraktja lejjebb olvasható, reméljük, hogy megfontolja a feladat elvállalását.</p><p>Amennyiben elvállalja a beküldés szakmai lektorálását, a lektorálás határideje: {$reviewDueDate}. A folyóirat oldalára bejelentkezve és az alábbi linken található lépéseket követve megtekintheti a beadványt, feltöltheti a szakmai lektorálási fájlokat, és beküldheti lektori véleményét.</p><p><a href="{$reviewAssignmentUrl}">{$submissionTitle}</a></p><p><b>Absztrakt</b></p>{$submissionAbstract}<p>Kérjük, hogy<a href="{$reviewAssignmentUrl}">fogadja vagy utasítsa el</a> a lektori felkérést az alábbi határidőig: <b>{$responseDueDate}</b>.</p><p>A benyújtással vagy a lektorálással kapcsolatos kérdésekkel nyugodtan keresse fel a szerkesztőséget.</p><p>Köszönjük, hogy megfontolja felkérésünket. Nagyra értékeljük a segítségét.</p><p>Üdvözlettel,</p>{$signature}',
+      'emails.reviewResponseOverdueAuto.subject' => 'Vállalja a szakmai lektorálást?',
+      'emails.reviewResponseOverdueAuto.body' => '<p>Tisztelt {$recipientName}!</p><p>Ez az e-mail egy automatikus emlékeztető a(z) {$contextName} folyóirattól az alábbi beküldött kézirat szakmai lektorálásával kapcsolatban: "{$submissionTitle}".</p><p>Azért kapja ezt az e-mailt, mert még nem kaptunk megerősítést Öntől azzal kapcsolatban, hogy el tudja-e vállalni a beküldés szakmai lektorálását vagy sem.</p><p>Kérjük, tájékoztasson bennünket, hogy el tudja-e vállalni a szakmai lektorálást azáltal, hogy a beküldések kezelésére használt szoftverünk segítségével elfogadja vagy elutasítja a felkérést.</p><p>Ha el tudja vállalni, akkor a szakmai lektorálás határideje az alábbi: {$reviewDueDate}. A szakmai lektorálás lépéseit követve megtekintheti a beküldést, feltöltheti a szakmai lektorálási fájlokat, és elküldheti a lektori véleményét.</p><p>{$submissionTitle}</p><p><b>Absztrakt</b></p>{$submissionAbstract}<p>A benyújtással vagy a lektorálással kapcsolatos kérdésekkel nyugodtan keresse fel a szerkesztőséget.</p><p>Köszönjük, hogy megfontolja felkérésünket. Nagyra értékeljük a segítségét.</p><p>Üdvözlettel,</p>{$contextSignature}',
+      'emails.reviewRequestSubsequent.subject' => 'Cikk lektorálás kérése',
+      'emails.reviewRequestSubsequent.body' => 'Tisztelt {$recipientName}!<br />
+<br />
+A(z) {$contextName} szerkesztőbizottsága nevében szeretném felkérni a(z) &quot;{$submissionTitle},&quot; című kézirat szakmai lektorálására, melyet a szerző(k) átdolgozást követően ismét benyújtottak publikálásra.<br />
+A cikk absztraktját levelünk végén olvashatja.<br />
+<br />
+Kérjük, jelentkezzen be a folyóirat weboldalára {$responseDueDate}-ig és jelezze, hogy vállalja-e a lektorálást! Amennyiben vállalja a bírálatot, ugyanitt töltheti le a cikk szövegét és rögzítheti véleményét és javaslatait.<br />
+A weboldal elérhetősége: {$contextUrl}<br />
+<br />
+A lektorálás határideje: {$reviewDueDate}.<br />
+<br />
+Ha nincs felhasználóneve és jelszava a folyóirat oldalához vagy elfelejtette azt, akkor az alábbi linken emlékeztetőt kérhet. Jelszavát és felhasználónevét emailben fogjuk elküldeni. {$passwordLostUrl}<br />
+<br />
+Kézirat URL: {$reviewAssignmentUrl}<br />
+<br />
+Köszönettel,<br />
+{$signature}<br />
+<br />
+&quot;{$submissionTitle}&quot;<br />
+<br />
+{$submissionAbstract}',
+      'emails.reviewCancel.subject' => 'Lektori felkérés visszavonása',
+      'emails.reviewCancel.body' => 'Tisztelt {$recipientName}!<br />
+<br />
+Ezúton visszavonjuk felkérésünket a(z) {$contextName} folyóirathoz beküldött &quot;{$submissionTitle},&quot; című kézirat cikk lektorálására. Elnézést kérünk az esetleges kellemetlenségért és bízunk benne, hogy a folyóirat lektorálási feladatai kapcsán még dolgozhatunk együtt.<br />
+<br />
+Üdvözlettel,<br />
+{$signature}',
+      'emails.reviewReinstate.subject' => 'Ismételt felkérés lektorálásra',
+      'emails.reviewReinstate.body' => 'Tisztelt {$recipientName}!<br />
+<br />
+Ezúton szeretnénk ismételten felkérni a(z) {$contextName} &quot;{$submissionTitle},&quot; című cikkének szakmai lektorálására. <br />
+<br />
+Felmerülő kérdés esetén, kérem, keressen.',
+      'emails.reviewDecline.subject' => 'Lektorálási felkérés elutasítása',
+      'emails.reviewDecline.body' => 'Tisztelt Szerkesztők!<br />
+<br />
+Sajnálom, de nem tudom elvállalni a(z) {$contextName} folyóirathoz beküldött &quot;{$submissionTitle},&quot; című kézirat lektorálását.  Köszönöm a megtisztelő felkérést, kérem keressenek más alkalommal.<br />
+<br />
+Üdvözlettel,<br />
+{$senderName}',
+      'emails.reviewRemind.subject' => 'Emlékeztető cikk szakmai lektorálásáról',
+      'emails.reviewRemind.body' => 'Tisztelt {$recipientName}!<br />
+<br />
+Értesítjük, hogy a(z) {$contextName} folyóirat &quot;{$submissionTitle},&quot; című cikkének lektorálási határideje ({$reviewDueDate}) lejárt.<br />
+Kérjük mielőbb készítse el szakmai bírálatát.<br />
+<br />
+Kézirat URL: {$reviewAssignmentUrl}<br />
+<br />
+Ha elfelejtette felhasználónevét vagy jelszavát, az alábbi linken emlékeztetőt kérhet. (Jelszavát és felhasználónevét emailben küldjük el.)<br />
+{$passwordLostUrl}<br />
+<br />
+Kérjük, határidő módosításának ügyében vegye fel a kapcsolatot a szerkesztőséggel!<br />
+<br />
+Üdvözlettel,<br />
+{$signature}',
+      'emails.reviewRemindAuto.subject' => 'Automatikus emlékeztető cikk szakmai lektorálásáról',
+      'emails.reviewRemindAuto.body' => 'Tisztelt {$recipientName}!<br />
+<br />
+Értesítjük, hogy a(z) {$contextName} folyóirat &quot;{$submissionTitle},&quot; című cikkének lektorálási határideje ({$reviewDueDate}) lejárt.<br />
+Kérjük mielőbb készítse el szakmai bírálatát.<br />
+<br />
+Ha elfelejtette felhasználónevét vagy jelszavát, az alábbi linken emlékeztetőt kérhet. (Jelszavát és felhasználónevét emailben küldjük el.)<br />
+{$passwordLostUrl}<br />
+<br />
+Kézirat URL: {$reviewAssignmentUrl}<br />
+<br />
+Kérjük, határidő módosításának ügyében vegye fel a kapcsolatot a szerkesztőséggel!<br />
+<br />
+Üdvözlettel,<br />
+{$contextSignature}',
+      'emails.editorDecisionAccept.subject' => 'Szerkesztői döntés',
+      'emails.editorDecisionAccept.body' => 'Tisztelt {$authors}!<br />
+<br />
+Értesítjük, hogy a(z) {$contextName} folyóirathoz beküldött &quot;{$submissionTitle}&quot; című kézirata elfogadásra került.<br />
+<br />
+Üdvözlettel,<br />
+{$signature}<br />',
+      'emails.layoutRequest.subject' => 'Tördelés kérése',
+      'emails.layoutRequest.body' => 'Tisztelt {$recipientName}!<br />
+<br />
+A(z) {$contextName} folyóirat &quot;{$submissionTitle}&quot; című kézirata tördelési munkára vár, mely a következő lépésekkel végezhető el.<br />
+1. Kattintson a kézirat URL címére alább.<br />
+2. Lépjen be a folyóirathoz és használja a megjelentetésre kész fájlokat a folyóirat szabályai szerinti tördelés elkészítéséhez.<br />
+3. Töltse fel a megjelentetési formátumokat a Tördelési szakaszhoz.<br />
+4. Értesítse a Szerkesztőt, hogy kész a tördelés, ehhez használja a Megjelentetési párbeszéd funkciót.<br />
+<br />
+{$contextName} URL: {$contextUrl}<br />
+Kézirat URL címe: {$submissionLayoutUrl}<br />
+Felhasználói név: {$recipientUsername}<br />
+<br />
+Ha kérdése merülne fel, kérem keressen meg. Köszönöm a folyóiratnál végzett munkáját.<br />
+<br />
+Üdvözlettel,<br />
+{$signature}',
+      'emails.layoutComplete.subject' => 'A tördelt változat elkészült',
+      'emails.layoutComplete.body' => 'Tisztelt {$recipientName}!<br />
+<br />
+A(z) &quot;{$submissionTitle},&quot; című kézirat tördelt változata elkészült a(z) {$contextName} folyóiratnál, és készen áll a korrektúrázásra.<br />
+<br />
+Ha kérdése merül fel, kérem, keressen meg.<br />
+<br />
+Üdvözlettel,<br />
+{$senderName}',
+      'emails.emailLink.subject' => 'Cikkajánló',
+      'emails.emailLink.body' => 'Engedje meg, hogy figyelmébe ajánljuk {$authors} ({$year}): &quot;{$submissionTitle}&quot; cikkét, mely a(z) {$contextName} című folyóirat {$volume} kötetének {$number} számában jelent meg. Elérhető a &quot;{$submissionUrl}&quot; címen.',
+      'emails.emailLink.description' => 'Ez az email sablon a regisztrált olvasóknak kínál lehetőséget arra, hogy ajánlhassák másoknak az érdekesnek talált cikkeket. Ez az Olvasói eszközöknél érhető el és a Folyóirat menedzser engedélyezheti az Olvasói eszközök adminisztrációs oldalán.',
+      'emails.subscriptionNotify.subject' => 'Előfizetési értesítő',
+      'emails.subscriptionNotify.body' => 'Tisztelt {$recipientName}!<br />
+<br />
+Ezúton tájékoztatjuk, hogy előfizetése aktiválásra került a(z) {$contextName} című folyóiratnál, a következő adatokkal:<br />
+<br />
+{$subscriptionType}<br />
+<br />
+Az előfizetőink számára hozzáférhető tartalmak eléréséhez, kérjük, jelentkezzen be felhasználónevével: &quot;{$recipientUsername}&quot;<br />
+<br />
+Bejelentkezés után profil adatait és jelszavát bármikor megváltoztathatja.<br />
+<br />
+Ha intézményi előfizetése van, az intézmény felhasználóinak nem szükséges egyenként bejelentkezniük, mivel az előfizetéses tartalmakhoz közvetlenül hozzáférhetnek automatikus hitelesítés után.<br />
+<br />
+Ha kérdése merülne fel, kérjük forduljon szerkesztőségünkhöz.<br />
+<br />
+{$subscriptionSignature}',
+      'emails.openAccessNotify.subject' => 'Új folyóiratszám szabadon hozzáférhető',
+      'emails.openAccessNotify.body' => 'Tisztelt Olvasó!<br />
+<br />
+A(z) {$contextName} folyóirat nemrég új számot tett szabadon hozzáférhetővé, melyet a következő linken tekinthet meg: {$contextUrl}<br />
+<br />
+Üdvözlettel,<br />
+{$contextSignature}',
+      'emails.subscriptionBeforeExpiry.subject' => 'Értesítés előfizetés lejáratáról',
+      'emails.subscriptionBeforeExpiry.body' => 'Tisztelt {$recipientName}!<br />
+<br />
+Előfizetése a(z) {$contextName} folyóiratnál hamarosan lejár.<br />
+<br />
+{$subscriptionType}<br />
+A lejárat dátuma: {$expiryDate}<br />
+<br />
+Előfizetésének meghosszabításához, kérjük látogasson el folyóiratunk weboldalára. A rendszerbe felhasználónevével tud bejelentkezni: &quot;{$recipientUsername}&quot;<br />
+<br />
+Ha kérdése merülne fel, kérjük forduljon szerkesztőségünkhöz.<br />
+<br />
+{$subscriptionSignature}',
+      'emails.subscriptionAfterExpiry.subject' => 'Előfizetése lejárt',
+      'emails.subscriptionAfterExpiry.body' => 'Tisztelt {$recipientName}!<br />
+<br />
+Előfizetése a(z) {$contextName} folyóiratnál lejárt.<br />
+<br />
+{$subscriptionType}<br />
+Lejárat dátuma: {$expiryDate}<br />
+<br />
+Előfizetése megújításához, kérjük keresse fel folyóiratunk weboldalát. A rendszerbe felhasználónevével tud bejelentkezni: &quot;{$recipientUsername}&quot;<br />
+<br />
+Ha kérdése merülne fel, kérjük forduljon szerkesztőségünkhöz.<br />
+<br />
+{$subscriptionSignature}',
+      'emails.subscriptionAfterExpiryLast.subject' => 'Előfizetése lejárt',
+      'emails.subscriptionAfterExpiryLast.body' => 'Tisztelt {$recipientName}!<br />
+<br />
+Előfizetése a(z) {$contextName} folyóiratnál lejárt.<br />
+<br />
+{$subscriptionType}<br />
+Lejárat dátuma: {$expiryDate}<br />
+<br />
+Előfizetése megújításához, kérjük, keresse fel folyóiratunk weboldalát. A  rendszerbe felhasználónevével tud bejelentkezni: &quot;{$recipientUsername}&quot;<br />
+<br />
+Ha kérdése merülne fel, kérjük forduljon szerkesztőségünkhöz.<br />
+<br />
+{$subscriptionSignature}',
+      'emails.subscriptionPurchaseIndl.subject' => 'Előfizetés vásárlás: Egyéni',
+      'emails.subscriptionPurchaseIndl.body' => 'Egyéni előfizetést vásároltak online a(z) {$contextName} folyóirathoz, a következő adatokkal.<br />
+<br />
+Előfizetés típusa:<br />
+{$subscriptionType}<br />
+<br />
+Felhasználó:<br />
+{$subscriberDetails}<br />
+<br />
+Tagsági információ (ha élérhető):<br />
+{$membership}<br />
+<br />
+Az előfizetés megtekintéséhez vagy szerkesztéséhez, kérjük, keresse fel a következő címet.<br />
+<br />
+Előfizetési URL cím: {$subscriptionUrl}<br />
+',
+      'emails.subscriptionPurchaseInstl.subject' => 'Előfizetés vásárlás: Intézményi',
+      'emails.subscriptionPurchaseInstl.body' => 'Intézményi előfizetést vásároltak online a(z) {$contextName} folyóirathoz, a következő adatokkal. Az előfizetés aktiválásához, kérjük, keresse fel a megadott Előfizetési URL-t, és állítsa \'Aktív\' állapotba az előfizetés státuszát.<br />
+<br />
+Előfizetés típus:<br />
+{$subscriptionType}<br />
+<br />
+Intézmény:<br />
+{$institutionName}<br />
+{$institutionMailingAddress}<br />
+<br />
+Domain (ha elérhető):<br />
+{$domain}<br />
+<br />
+IP tartomány (ha elérhető):<br />
+{$ipRanges}<br />
+<br />
+Kapcsolattartó:<br />
+{$subscriberDetails}<br />
+<br />
+Tagsági információ (ha elérhető):<br />
+{$membership}<br />
+<br />
+Az előfizetés megtekintéséhez vagy szerkesztéséhez, kérjük, keresse fel a következő címet.<br />
+<br />
+Előfizetési URL cím: {$subscriptionUrl}<br />
+',
+      'emails.subscriptionRenewIndl.subject' => 'Előfizetés megújítása: Egyéni',
+      'emails.subscriptionRenewIndl.body' => 'Egyéni előfizetést újítottak meg a(z) {$contextName} folyóiratnál, a következő adatokkal.<br />
+<br />
+Előfizetés típus:<br />
+{$subscriptionType}<br />
+<br />
+Felhasználó:<br />
+{$subscriberDetails}<br />
+<br />
+Tagsági információ (ha elérhető):<br />
+{$membership}<br />
+<br />
+Az előfizetés megtekintéséhez vagy szerkesztéséhez, kérjük keresse fel a következő címet.<br />
+<br />
+Előfizetés URL címe: {$subscriptionUrl}<br />
+',
+      'emails.subscriptionRenewInstl.subject' => 'Előfizetés megújítása: Intézményi',
+      'emails.subscriptionRenewInstl.body' => 'Intézményi előfizetést újítottak meg a(z) {$contextName} folyóiratnál, a következő adatokkal.<br />
+<br />
+Előfizetés típus:<br />
+{$subscriptionType}<br />
+<br />
+Intézmény:<br />
+{$institutionName}<br />
+{$institutionMailingAddress}<br />
+<br />
+Domain (ha elérhető):<br />
+{$domain}<br />
+<br />
+IP tartomány (ha elérhető):<br />
+{$ipRanges}<br />
+<br />
+Kapcsolattartó:<br />
+{$subscriberDetails}<br />
+<br />
+Tagsági információ (ha elérhető):<br />
+{$membership}<br />
+<br />
+Az előfizetés megtekintéséhez vagy szerkesztéséhez, kérjük, keresse fel a következő címet.<br />
+<br />
+Előfizetés URL címe: {$subscriptionUrl}<br />
+',
+      'emails.revisedVersionNotify.subject' => 'Átdolgozott változat feltöltve',
+      'emails.revisedVersionNotify.body' => 'Tisztelt Szerkesztő!<br />
+<br />
+A szerző, {$submitterName} által feltöltésre került a(z) &quot;{$submissionTitle}&quot; átdolgozott változata.<br />
+<br />
+Kézirat URL: {$submissionUrl}<br />
+<br />
+Üdvözlettel,<br />
+{$signature}',
+      'emails.statisticsReportNotification.subject' => 'Cikk és lektorálási riport',
+      'emails.statisticsReportNotification.body' => '
+Tisztelt {$recipientName}! <br />
+<br />
+A folyóiratával kapcsolatos összesítő riport elérhető az <a href="{$editorialReportLink}">OJS rendszerben</a>. A főbb mutatók {$year} {$month} hónapra az alábbiak:<br />
+<ul>
+	<li>Új beküldések ebben a hónapban: {$newSubmissions}</li>
+	<li>Elutasított beküldések ebben a hónapban: {$declinedSubmissions}</li>
+	<li>Elfogadott beküldések ebben a hónapban: {$acceptedSubmissions}</li>
+	<li>Összes beküldés a rendszerben: {$totalSubmissions}</li>
+</ul>
+Jelentkezzen be a folyóiratba a részletesebb  <a href="{$editorialStatsLink}">szerkesztőségi folyamatok</a> és <a href="{$publicationStatsLink}">megjelentetett cikkek statisztikájának</a>  megtekintéshez. A havi szerkesztőségi folyamatok teljes másolata csatolva lett.<br />
+<br>
+Üdvözlettel,<br />
+{$contextSignature}',
+    ),
+  ),
+);

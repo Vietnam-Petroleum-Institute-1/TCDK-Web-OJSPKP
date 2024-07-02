@@ -1,0 +1,19 @@
+<?php $exp = 1751345594; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.googleAnalytics.displayName' => 'Google Analytics-plugin',
+      'plugins.generic.googleAnalytics.description' => 'Integrér OJS med Google Analytics, Google\'s web site trafik-analyse-applikation. Kræver at du allerede har oprettet en Google Analytics konto. Se <a href="https://www.google.com/analytics/" title="Google Analytics site">Google Analytics site</a> for mere information.',
+      'plugins.generic.googleAnalytics.manager.settings.description' => '<p>Med denne plugin aktiveret kan Google Analytics bruges til at samle og analysere oplysninger om brugen af sitet for dette tidsskrift. Bemærk, at denne plugin kræver, at du allerede har oprettet en Google Analytics konto. Se <a href="https://www.google.com/analytics/" title="Google Analytics site">Google Analytics site</a> for mere information.</p>
+<p>Bemærk, at der kan gå op til 24 timer før Google Analytics har samlet og rapporteret de statistiske data. I denne periode kan funktionen "Check Status" muligvis ikke nøjagtigt afrapportere om den har registreret den nødvendige sporingskode.</p>',
+      'plugins.generic.googleAnalytics.manager.settings.googleAnalyticsSiteId' => 'Kontonummer',
+      'plugins.generic.googleAnalytics.manager.settings.googleAnalyticsSiteIdRequired' => 'Indtast et kontonummer.',
+      'plugins.generic.googleAnalytics.authorAccount' => 'Google Analytics-kontonummer',
+      'plugins.generic.googleAnalytics.authorAccount.description' => 'Hvis du vil spore antallet af læsere i forbindelse med en publiceret artikel ved hjælp af Google Analytics, skal du indtaste et kontonummer her (fx UA-xxxxxx-x).',
+      'plugins.generic.googleAnalytics.authorAccountInvalid' => 'Et eller flere af de Google Analytics-kontonumre, der er indtastet i forbindelse med forfattere til indsendelser, er ikke gyldige.',
+    ),
+  ),
+);

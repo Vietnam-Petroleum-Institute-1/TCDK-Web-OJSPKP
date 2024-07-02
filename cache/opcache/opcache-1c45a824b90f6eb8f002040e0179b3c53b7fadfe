@@ -1,0 +1,33 @@
+<?php $exp = 1751345595; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.citationStyleLanguage.displayName' => 'Γλώσσα Προτύπου Αναφορών',
+      'plugins.generic.citationStyleLanguage.description' => 'Εξαγωγή βιβλιογραφικής αναφοράς σε ένα από τα υποστηριζόμενα πρότυπα.',
+      'plugins.generic.citationStyleLanguage.style.acm-sig-proceedings' => 'ACM',
+      'plugins.generic.citationStyleLanguage.style.acs-nano' => 'ACS',
+      'plugins.generic.citationStyleLanguage.style.apa' => 'APA',
+      'plugins.generic.citationStyleLanguage.style.associacao-brasileira-de-normas-tecnicas' => 'ABNT',
+      'plugins.generic.citationStyleLanguage.style.chicago-author-date' => 'Chicago',
+      'plugins.generic.citationStyleLanguage.style.harvard-cite-them-right' => 'Harvard',
+      'plugins.generic.citationStyleLanguage.style.ieee' => 'IEEE',
+      'plugins.generic.citationStyleLanguage.style.modern-language-association' => 'MLA',
+      'plugins.generic.citationStyleLanguage.style.turabian-fullnote-bibliography' => 'Turabian',
+      'plugins.generic.citationStyleLanguage.style.vancouver' => 'Vancouver',
+      'plugins.generic.citationStyleLanguage.download.bibtex' => 'BibTeX',
+      'plugins.generic.citationStyleLanguage.download.ris' => 'Endnote/Zotero/Mendeley (RIS)',
+      'plugins.generic.citationStyleLanguage.settings.citationDownloads' => 'Πρότυπα διαθέσιμα προς μεταφόρτωση',
+      'plugins.generic.citationStyleLanguage.settings.citationDownloadsDescription' => 'Επιλέξτε ποια βιβλιογραφικά πρότυπα θα είναι διαθέσιμα. Τα πρότυπα προς μεταφόρτωση χρησιμοποιούνται για την εισαγωγή των βιβλιογραφικών αναφορών σε εργαλεία διαχείρισης όπως τα EndNote και Zotero.',
+      'plugins.generic.citationStyleLanguage.settings.citationFormats' => 'Επιπλέον πρότυπα βιβλιογραφικών αναφορών',
+      'plugins.generic.citationStyleLanguage.settings.citationFormatsDescription' => 'Επιλέξτε τα επιπλέον πρότυπα εμφάνισης βιβλιογραφικών αναφορών.',
+      'plugins.generic.citationStyleLanguage.settings.citationFormatsPrimary' => 'Κύριο πρότυπο δημιουργίας βιβλιογραφικών αναφορών',
+      'plugins.generic.citationStyleLanguage.settings.citationFormatsPrimaryDescription' => 'Επιλέξτε το πρότυπο σύμφωνα με το οποίο θα εμφανίζεται η βιβλιογραφική αναφορά στην ιστοσελίδα του κάθε άρθρου.',
+      'plugins.generic.citationStyleLanguage.settings.publisherLocation.description' => 'Ορισμένες μορφές παραπομπών ζητούν τη γεωγραφική τοποθεσία του εκδότη, όπως "Ρέθυμνο, Ελλάδα".',
+      'plugins.generic.citationStyleLanguage.settings.publisherLocation' => 'Τοποθεσία Εκδότη',
+      'plugins.generic.citationStyleLanguage.style.ama' => 'AMA',
+    ),
+  ),
+);

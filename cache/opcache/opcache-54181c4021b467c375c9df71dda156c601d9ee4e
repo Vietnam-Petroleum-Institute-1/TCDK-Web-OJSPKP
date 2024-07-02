@@ -1,0 +1,32 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.citationStyleLanguage.displayName' => 'Hivatkozási Stílusnyelv',
+      'plugins.generic.citationStyleLanguage.description' => 'Lehetővé teszi az olvasók számára, hogy egy közzétett cikk hivatkozását a Hivatkozási Stílusnyelv által támogatott számos formátum egyikében kapják meg.',
+      'plugins.generic.citationStyleLanguage.style.acm-sig-proceedings' => 'ACM',
+      'plugins.generic.citationStyleLanguage.style.acs-nano' => 'ACS',
+      'plugins.generic.citationStyleLanguage.style.apa' => 'APA',
+      'plugins.generic.citationStyleLanguage.style.associacao-brasileira-de-normas-tecnicas' => 'ABNT',
+      'plugins.generic.citationStyleLanguage.style.chicago-author-date' => 'Chicago',
+      'plugins.generic.citationStyleLanguage.style.harvard-cite-them-right' => 'Harvard',
+      'plugins.generic.citationStyleLanguage.style.ieee' => 'IEEE',
+      'plugins.generic.citationStyleLanguage.style.modern-language-association' => 'MLA',
+      'plugins.generic.citationStyleLanguage.style.turabian-fullnote-bibliography' => 'Turabian',
+      'plugins.generic.citationStyleLanguage.style.vancouver' => 'Vancouver',
+      'plugins.generic.citationStyleLanguage.download.bibtex' => 'BibTeX',
+      'plugins.generic.citationStyleLanguage.download.ris' => 'Endnote/Zotero/Mendeley (RIS)',
+      'plugins.generic.citationStyleLanguage.settings.citationDownloads' => 'Letölthető formátumok',
+      'plugins.generic.citationStyleLanguage.settings.citationDownloadsDescription' => 'Válassza ki, mely letölthető formátumokat szeretne felajánlani az olvasóinak. A letölthető formátumokat általában harmadik féltől származó bibliográfia kezelő szoftverekbe való importálásra használják, mint például az EndNote vagy a Zotero.',
+      'plugins.generic.citationStyleLanguage.settings.citationFormats' => 'További hivatkozási formátumok',
+      'plugins.generic.citationStyleLanguage.settings.citationFormatsDescription' => 'Válassza ki, mely további formátumokat szeretne felajánlani az olvasóinak.',
+      'plugins.generic.citationStyleLanguage.settings.citationFormatsPrimary' => 'Elsődleges hivatkozási formátum',
+      'plugins.generic.citationStyleLanguage.settings.citationFormatsPrimaryDescription' => 'Válassza ki, melyik hivatkozási formátumot szeretné alapértelmezettként megjeleníteni a cikk céloldalán.',
+      'plugins.generic.citationStyleLanguage.settings.publisherLocation' => 'Kiadás helye',
+      'plugins.generic.citationStyleLanguage.settings.publisherLocation.description' => 'Néhány hivatkozási stílus megkívánja a kiadás helyét, mint például "Budapest, Magyarország". ',
+    ),
+  ),
+);

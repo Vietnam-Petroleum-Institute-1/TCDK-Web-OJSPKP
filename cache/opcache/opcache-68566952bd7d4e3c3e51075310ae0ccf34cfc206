@@ -1,0 +1,30 @@
+<?php $exp = 1751345595; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.staticPages.displayName' => 'Staattiset sivut -lisäosa',
+      'plugins.generic.staticPages.description' => 'Tämä lisäosa sallii staattisen sisällön hallinnoinnin.',
+      'plugins.generic.staticPages.staticPages' => 'Staattiset sivut',
+      'plugins.generic.staticPages.pageTitle' => 'Otsikko',
+      'plugins.generic.staticPages.content' => 'Sisältö',
+      'plugins.generic.staticPages.path' => 'Polku',
+      'plugins.generic.staticPages.requirement.tinymce' => '<p><strong>TinyMCE-lisäosa pitää olla asennettuna ja käytössä, jotta sisältöä voidaan lisätä tai muokata.</strong></p>',
+      'plugins.generic.staticPages.editAddContent' => 'Muokkaa/Lisää sisältöä',
+      'plugins.generic.staticPages.addStaticPage' => 'Lisää staattinen sivu',
+      'plugins.generic.staticPages.addNewPage' => 'Lisää uusi sivu',
+      'plugins.generic.staticPages.editStaticPage' => 'Muokkaa staattista sivua',
+      'plugins.generic.staticPages.noneCreated' => 'Staattisia sivuja ei ole luotu.',
+      'plugins.generic.staticPages.settingInstructions' => 'Alla oleva lomake näyttää kaikki luomasi staattiset sivut. Voit muokata tai poistaa sivuja oikealla olevia linkkejä käyttäen.',
+      'plugins.generic.staticPages.editInstructions' => 'Käytä alla olevaa lomaketta lisätäksesi tai muokataksesi sivun sisältöä.',
+      'plugins.generic.staticPages.pathRegEx' => 'Polkukenttä voi sisältää vain alfanumeerisia merkkejä sekä “.”, “/”, “-” ja “_”-merkkejä.',
+      'plugins.generic.staticPages.viewInstructions' => '<p>Tämä sivu tulee olemaan käytettävissä osoitteessa: <blockquote>{$pagesPath}</blockquote>...missä %PATH% on polku, joka annettiin yllä. <strong>Huom.</strong> Kahdella sivulla ei saa olla samaa polkua. Järjestelmän sisään rakennettujen polkujen käyttäminen saattaa aiheuttaa sen, että menetät pääsyn tärkeisiin toimintoihin.</p>',
+      'plugins.generic.staticPages.duplicatePath' => 'Tämä polku on jo toisen staattisen sivun käytössä.',
+      'plugins.generic.staticPages.pageSaved' => 'Sivu tallennettiin onnistuneesti.',
+      'plugins.generic.staticPages.pageDeleted' => 'Sivu poistettiin onnistuneesti.',
+      'plugins.generic.staticPages.noneExist' => 'Sivuja ei ole luotu',
+    ),
+  ),
+);

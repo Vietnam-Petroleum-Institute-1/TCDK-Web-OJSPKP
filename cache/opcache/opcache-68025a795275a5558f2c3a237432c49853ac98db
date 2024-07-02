@@ -1,0 +1,14 @@
+<?php $exp = 1751345594; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.recommendByAuthor.displayName' => 'أعمال أخرى للمؤلف',
+      'plugins.generic.recommendByAuthor.description' => 'هذه الإضافة تدرج قائمة بأعمال أخرى لنفس المؤلف في صفحة ملخص المقالة.',
+      'plugins.generic.recommendByAuthor.heading' => 'الأعمال الأكثر قراءة لنفس المؤلف/المؤلفين',
+      'plugins.generic.recommendByAuthor.noMetric' => 'عذراً: هذه الإضافة تتطلب تمكين إضافة إحصائيات/تقارير واحدة على الأقل حتى تتمكن من العمل. إن كانت إضافات الإحصائيات لديك تقدم أكثر من مقياس واحد، فعليك أيضاً اختيار مقياس رئيسي منها عند صفحة إعدادات الموقع و/أو عند صفحات الإدارة الخاصة برئيس تحرير المجلة.',
+    ),
+  ),
+);

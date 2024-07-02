@@ -1,0 +1,14 @@
+<?php $exp = 1751345595; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.acron.name' => 'Acron plugina',
+      'plugins.generic.acron.reload' => 'Birkargatu ataza programatuak',
+      'plugins.generic.acron.enabled' => 'Acron plugin-a gaitu da.',
+      'plugins.generic.acron.disabled' => 'Acron plugin-a ezgaitu da.',
+    ),
+  ),
+);

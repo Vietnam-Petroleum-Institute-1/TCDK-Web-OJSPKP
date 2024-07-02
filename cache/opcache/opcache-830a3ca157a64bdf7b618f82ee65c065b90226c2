@@ -1,0 +1,90 @@
+<?php $exp = 1751345594; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'emails.submissionAck.subject' => 'إشعار طلب التقديم',
+      'emails.submissionAck.body' => '{$recipientName}:<br />
+<br />
+شكراً على تقديمك المؤلَّف &quot;{$submissionTitle}&quot; إلى {$contextName}. عبر نظام إدارة المجلة هذا الذي نستعمله، سيكون بإمكانك متابعة مراحل معالجة طلبك عبر ولوجك إلى موقع المجلة باستعمال الرابط:<br />
+<br />
+رابط المؤلَّف: {$submissionUrl}<br />
+اسم الدخول: {$recipientUsername}<br />
+<br />
+إن كان لديك أي استفسارات، لطفاً تواصل معي. شكراً على اعتبارك هذه المجلة جديرة بعملك.<br />
+<br />
+{$contextSignature}',
+      'emails.reviewAck.subject' => 'إشعار تحكيم المؤلَّف',
+      'emails.reviewAck.body' => '{$recipientName}:<br />
+<br />
+نشكر إكمالك لتحكيم المؤلَّف الموسوم &quot;{$submissionTitle},&quot; والمرسل إلى {$contextName}. إننا نقدر لك مشاركتك في ترصين الأعمال التي تنشرها مجلتنا.',
+      'emails.editorDecisionSendToExternal.subject' => 'قرار هيئة التحرير',
+      'emails.editorDecisionSendToExternal.body' => '{$authors}:<br />
+<br />
+قد توصلنا إلى قرار بشأن طلبك للنشر في {$contextName}, &quot;{$submissionTitle}&quot;.<br />
+<br />
+قرارنا هو: إرسال طلبك إلى التحكيم<br />
+<br />
+رابط الطلب: {$submissionUrl}',
+      'emails.editorDecisionSendToProduction.subject' => 'قرار هيئة التحرير',
+      'emails.editorDecisionSendToProduction.body' => '{$authors}:<br />
+<br />
+إن متعلقات تحرير مؤلَّفك الموسوم &quot;{$submissionTitle},&quot; قد اكتملت. نحن الآن نرسله إلى مرحلة الإنتاج.<br />
+<br />
+رابط الطلب: {$submissionUrl}',
+      'emails.editorDecisionRevisions.subject' => 'قرار هيئة التحرير',
+      'emails.editorDecisionRevisions.body' => '{$authors}:<br />
+<br />
+قد توصلنا إلى قرار بشأن طلبك للنشر في {$contextName}, &quot;{$submissionTitle}&quot;.<br />
+<br />
+قرارنا هو: بعض التنقيحات مطلوبة',
+      'emails.editorDecisionResubmit.subject' => 'قرار هيئة التحرير',
+      'emails.editorDecisionResubmit.body' => '{$authors}:<br />
+<br />
+قد توصلنا إلى قرار بشأن طلبك للنشر في {$contextName}, &quot;{$submissionTitle}&quot;.<br />
+<br />
+قرارنا هو: إعادة التقديم مجدداً',
+      'emails.editorDecisionDecline.subject' => 'قرار هيئة التحرير',
+      'emails.editorDecisionDecline.body' => '{$authors}:<br />
+<br />
+قد توصلنا إلى قرار بشأن طلبك للنشر في {$contextName}, &quot;{$submissionTitle}&quot;.<br />
+<br />
+قرارنا هو: الرفض',
+      'emails.editorRecommendation.subject' => 'توصيات المحرر',
+      'emails.editorRecommendation.body' => '{$editors}:<br />
+<br />
+إن التوصيات المتعلقة بطلب النشر في {$contextName}، &quot;{$submissionTitle}&quot; هي: {$recommendation}',
+      'emails.copyeditRequest.subject' => 'إلتماس نسخة التدقيق',
+      'emails.copyeditRequest.body' => '{$recipientName}:<br />
+<br />
+أود مطالبتك بتوفير نسخة مدققة من المؤلَّف الموسوم &quot;{$submissionTitle}&quot; والمرسل إلى {$contextName} عبر اتباع الخطوات الآتية:<br />
+1. أنقر على رابط طلب النشر أدناه.<br />
+2. إفتح أي ملفات متوافرة ضمن الملفات المسودة وأجر متطلبات التدقيق مضيفاً أي قرارات أو ملاحظات تتعلق بالتدقيق حسب الحاجة.<br />
+3. إحفظ الملفات المدققة، ثم إرفعها إلى لوحة المدققات.<br />
+4. أعلم المحرر بأن جميع الملفات صارت جاهزة، وأن بالإمكان الشروع بعملية الإنتاج.<br />
+<br />
+رابط {$contextName}: {$contextUrl}<br />
+رابط الطلب: {$submissionUrl}<br />
+اسم الدخول: {$recipientUsername}',
+      'emails.editorDecisionInitialDecline.subject' => 'قرار المحرر',
+      'emails.editorDecisionInitialDecline.body' => '
+			{$authors}:<br />
+<br />
+لقد توصلنا إلى قرار بشأن طلبك للنشر في {$contextName}، &quot;{$submissionTitle}&quot;.<br />
+<br />
+إن قرارنا هو: رفض النشر',
+      'emails.discussion.subject' => 'رسالة تتعلق بالمجلة {$contextName}',
+      'emails.discussion.body' => 'لطفاً أكتب رسالتك هنا.',
+      'emails.reviewConfirm.subject' => 'قادر على التحكيم',
+      'emails.reviewConfirm.body' => 'أعزائي المحررون:<br />
+<br />
+أنا متمكن وراغب بتحكيم المؤلَّف الموسوم &quot;{$submissionTitle},&quot; والمرسل إلى {$contextName}. أشكر لكم إعتمادكم عليَّ، وأخطط لإنجاز التحكيم المطلوب حتى يوم استيجابه مني في {$reviewDueDate} إن لم يكن قبله.<br />
+<br />
+{$senderName}',
+      'emails.submissionAckNotAuthor.subject' => 'تأكيد طلب التقديم',
+      'emails.submissionAckNotAuthor.body' => '<p>عزيزنا {$recipientName}،</p><p>لقد تمت تسميتك بمثابة مؤلف مشارك في طلب تقديم إلى {$contextName}. مقدم الطلب، {$submitterName}، أعطانا التفاصيل الآتية:</p><p>{$submissionTitle}<br>{$authorsWithAffiliation}</p><p>إن كان أي من تلك التفاصل غير صحيح، أو ليست لديك الرغبة في تسميتك كمؤلف مشارك في هذا العمل، يرجى التواصل معي.</p><p>شكرًا لاعتبارك هذه المجلة مضمارًا لعملك.</p><p>أطيب التحايا،</p>{$contextSignature}',
+    ),
+  ),
+);

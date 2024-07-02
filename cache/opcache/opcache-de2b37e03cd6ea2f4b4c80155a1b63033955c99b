@@ -1,0 +1,12 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.htmlArticleGalley.displayName' => 'HTML proefbestanden',
+      'plugins.generic.htmlArticleGalley.description' => 'Met deze plugin kunnen HTML proefbestanden voor een artikel worden getoond.',
+    ),
+  ),
+);

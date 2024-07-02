@@ -1,0 +1,16 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.importexport.crossref.displayName' => 'Dodatak za Crossref XML iznošenje',
+      'plugins.importexport.crossref.description' => 'Koristi se za iznošenje metapodataka članaka u Crossref XML formatu.',
+      'plugins.importexport.crossref.cliUsage' => 'Primjena:
+{$scriptName} {$pluginName} export [xmlNazivDatoteke] [putanja_časopisa] articles članakId1 [članakId2] ...
+{$scriptName} {$pluginName} register [putanja_časopisa] articles članakId1 [članakId2] ...
+',
+    ),
+  ),
+);

@@ -1,0 +1,12 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n > 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.googleScholar.description' => 'Այս փլագինը հնարավորություն է տալիս հրապարակված բովանդակության ինդեքսավորումը Google Scholar-ում:',
+      'plugins.generic.googleScholar.name' => 'Google Scholar ինդեքսավորման փլագին',
+    ),
+  ),
+);

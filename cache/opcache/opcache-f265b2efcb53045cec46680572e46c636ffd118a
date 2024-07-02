@@ -1,0 +1,90 @@
+<?php $exp = 1751345595; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'emails.submissionAck.subject' => 'Eingangsbestätigung',
+      'emails.submissionAck.body' => '{$recipientName},<br />
+<br />
+vielen Dank für die Einreichung Ihres Manuskript &quot;{$submissionTitle}&quot; zur Veröffentlichung in {$contextName}. Das Verwaltungssystem unserer Webzeitschrift erlaubt Ihnen, jederzeit den Lauf Ihres Beitrags im Redaktionsprozess zu beobachten. Sie loggen sich dazu einfach auf unserer Webseite ein:<br />
+<br />
+URL des Manuskripts: {$submissionUrl}<br />
+Benutzer/innenname: {$recipientUsername}<br />
+<br />
+Für weitere Fragen stehen wir Ihnen gern zur Verfügung. Danke für Ihr Interesse an einer Veröffentlichung in unserer Zeitschrift.<br />
+<br />
+{$contextSignature}',
+      'emails.reviewAck.subject' => 'Eingangsbestätigung für ein Gutachten',
+      'emails.reviewAck.body' => '{$recipientName},<br />
+<br />
+vielen Dank für Ihr Gutachten zum Beitrag &quot;{$submissionTitle}&quot; für {$contextName}. Ihre Stellungnahme ist eine wichtige Unterstützung für unsere Bemühungen um die Qualität der von uns veröffentlichten Arbeiten.',
+      'emails.editorDecisionSendToExternal.subject' => 'Entscheidung der Redaktion',
+      'emails.editorDecisionSendToExternal.body' => '{$authors}:<br />
+<br />
+Wir sind zu einer Entscheidung hinsichtlich Ihrer Einreichung für {$contextName}, &quot;{$submissionTitle}&quot; gekommen.<br />
+<br />
+Wir haben entschieden, ein Gutachten anzufordern.<br />
+<br />
+URL des Beitrags: {$submissionUrl}',
+      'emails.editorDecisionSendToProduction.subject' => 'Entscheidung der Redaktion',
+      'emails.editorDecisionSendToProduction.body' => '{$authors}:<br />
+<br />
+Das Lektorat Ihrer Einreichung &quot;{$submissionTitle}&quot; ist beendet. Wir leiten den Beitrag jetzt zur Herstellung weiter.<br />
+<br />
+URL des Beitrags: {$submissionUrl}',
+      'emails.editorDecisionRevisions.subject' => 'Entscheidung der Redaktion',
+      'emails.editorDecisionRevisions.body' => '{$authors},<br />
+<br />
+wir sind zu einer Entscheidung in Bezug auf Ihren Beitrag für {$contextName}: &quot;{$submissionTitle}&quot; gekommen.<br />
+<br />
+Wir haben entschieden, dass Ihr Beitrag überarbeitet werden muss.',
+      'emails.editorDecisionResubmit.subject' => 'Entscheidung der Redaktion',
+      'emails.editorDecisionResubmit.body' => '{$authors},<br />
+<br />
+wir sind zu einer Entscheidung in Bezug auf Ihre Einreichung für {$contextName}: &quot;{$submissionTitle}&quot; gekommen.<br />
+<br />
+Wir haben entschieden, dass Ihr Beitrag überarbeitet werden muss und dann erneut zum Begutachtung versendet wird.',
+      'emails.editorDecisionDecline.subject' => 'Entscheidung der Redaktion',
+      'emails.editorDecisionDecline.body' => '{$authors},<br />
+<br />
+wir sind zu einer Entscheidung in Bezug auf Ihre Einreichung für {$contextName}: &quot;{$submissionTitle}&quot; gekommen.<br />
+<br />
+Unsere Entscheidung lautet: Beitrag ablehnen',
+      'emails.editorRecommendation.subject' => 'Entscheidung der Redaktion',
+      'emails.editorRecommendation.body' => '{$editors}:<br />
+<br />
+Die Empfehlung hinsichtlich der Einreichung für {$contextName}, &quot;{$submissionTitle}&quot; ist: {$recommendation}',
+      'emails.copyeditRequest.subject' => 'Bitte um ein Lektorat',
+      'emails.copyeditRequest.body' => '{$recipientName},<br />
+<br />
+ich bitte Sie, das Manuskript &quot;{$submissionTitle}&quot; für {$contextName} zu lektorieren. Bitte gehen Sie dabei folgendermaßen vor:<br />
+1. Klicken Sie auf die unten stehende URL des Beitrags.<br />
+2. Öffnen Sie alle Dateien, die unter Entwurf für Lektorat verfügbar sind, und beginnen Sie Ihr Lektorat. Fügen Sie neue Diskussionen zum Lektorat nach Bedarf hinzu.<br />
+3. Sichern Sie die lektorierte(n) Dateien und laden Sie sie unter Lektoriert hoch.<br />
+4. Benachrichtigen Sie die/den Redakteur/in, dass alle Dateien fertig sind und dass der Herstellungsprozess beginnen kann.<br />
+<br />
+URL {$contextName}: {$contextUrl}<br />
+URL des Beitrags: {$submissionUrl}<br />
+Benutzer/innenname: {$recipientUsername}',
+      'emails.editorDecisionInitialDecline.subject' => 'Entscheidung der Redaktion',
+      'emails.editorDecisionInitialDecline.body' => '
+			{$authors}:<br />
+<br />
+Wir sind zu einer Entscheidung hinsichtlich Ihrer Einreichung für {$contextName}, &quot;{$submissionTitle}&quot; gekommen.<br />
+<br />
+Wir haben entschieden, Ihre Einreichung abzulehnen.',
+      'emails.discussion.subject' => 'Eine Nachricht bezüglich {$contextName}',
+      'emails.discussion.body' => 'Bitte geben Sie Ihre Nachricht ein.',
+      'emails.submissionAckNotAuthor.subject' => 'Eingangsbestätigung',
+      'emails.submissionAckNotAuthor.body' => 'Liebe/r Autor/in,<br />
+<br />
+{$submitterName} hat das Manuskript &quot;{$submissionTitle}&quot; bei {$contextName} eingereicht. <br />
+<br />
+Für weitere Fragen stehen wir Ihnen gern zur Verfügung. Danke für Ihr Interesse an einer Veröffentlichung in unserer Zeitschrift.<br />
+<br />
+{$contextSignature}',
+    ),
+  ),
+);

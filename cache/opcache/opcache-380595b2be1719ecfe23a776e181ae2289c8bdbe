@@ -1,0 +1,19 @@
+<?php $exp = 1751345594; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.googleAnalytics.displayName' => 'إضافة تحليلات Google',
+      'plugins.generic.googleAnalytics.description' => 'يكامل نظام المجلات المفتوحة مع تحليلات Google، وتطبيق تحليل حركة المرور للمواقع من Google. يتطلب الأمر قيامك مسبقاً بإعداد حساب تحليل من Google. لطفاً، أنظر <a href="https://www.google.com/analytics/" title="موقع تحليلات Google">موقع تحليلات Google</a> للمزيد من المعلومات.',
+      'plugins.generic.googleAnalytics.manager.settings.description' => '<p>مع تمكين هذه الإضافة، تحليلات Google ستستعمل لتجميع وتحليل بيانات الاستعمال وحركة المرور لموقع المجلة. يتطلب الأمر قيامك مسبقاً بإعداد حساب تحليل من Google. لطفاً، أنظر <a href="https://www.google.com/analytics/" title="موقع تحليلات Google">موقع تحليلات Google</a> للمزيد من المعلومات.</p>
+<p>لطفاً، لاحظ أن تحليلات Google قد تتطلب حتى 24 ساعة قبل أن يتم تجميع الإحصائيات مع أجل التهيئة. خلال هذه الفترة، فإن وظيفة \'تدقيق الحالة\' قد لا تبرك على وجه الدقة فيما لو كانت قد اكتشفت رمز التعقب المطلوب للمجلة.</p>',
+      'plugins.generic.googleAnalytics.manager.settings.googleAnalyticsSiteId' => 'رقم الحساب',
+      'plugins.generic.googleAnalytics.manager.settings.googleAnalyticsSiteIdRequired' => 'لطفاً، أدخل رقم الحساب.',
+      'plugins.generic.googleAnalytics.authorAccount' => 'رقم حساب تحليلات Google',
+      'plugins.generic.googleAnalytics.authorAccount.description' => 'لتعقب قراءات المقالات المنشورة باستعمال تحليلات Google، أدخل رقم الحساب هنا (مثلاً: UA-xxxxxx-x).',
+      'plugins.generic.googleAnalytics.authorAccountInvalid' => 'واحد أو أكثر من أرقام حسابات تحليلات Google المدخلة هنا غير صحيحة.',
+    ),
+  ),
+);

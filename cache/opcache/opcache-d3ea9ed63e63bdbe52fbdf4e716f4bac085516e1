@@ -1,0 +1,30 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.staticPages.displayName' => 'Pagine statiche',
+      'plugins.generic.staticPages.description' => 'Questo plugin permette la creazione e la gestione di pagine statiche.',
+      'plugins.generic.staticPages.staticPages' => 'Pagine statiche',
+      'plugins.generic.staticPages.pageTitle' => 'Titolo',
+      'plugins.generic.staticPages.content' => 'Contenuto',
+      'plugins.generic.staticPages.path' => 'Percorso',
+      'plugins.generic.staticPages.requirement.tinymce' => '<p><strong>E\' necessario aver installato e abilitato il plugin TinyMCE per aggiungere e/o modificare contenuti.</strong></p>',
+      'plugins.generic.staticPages.editAddContent' => 'Modifica/Aggiungi Contenuto',
+      'plugins.generic.staticPages.addStaticPage' => 'Aggiungi una pagina Statica',
+      'plugins.generic.staticPages.addNewPage' => 'Aggiungi una nuova pagina',
+      'plugins.generic.staticPages.editStaticPage' => 'Modifica la Pagina Statica',
+      'plugins.generic.staticPages.noneCreated' => 'Nessuna pagina statica è stata creata.',
+      'plugins.generic.staticPages.settingInstructions' => 'Qui di seguito l\'elenco delle pagine statiche create. Puoi modificare o cancellare le pagine utilizzando i links sulla destra.',
+      'plugins.generic.staticPages.editInstructions' => 'Utilizza il form seguente per aggiungere/editare contenuti.',
+      'plugins.generic.staticPages.pathRegEx' => 'Il campo indirizzo può contenere solo caratteri alfanumerici e \'.\', \'/\', \'-\', e \'_\'.',
+      'plugins.generic.staticPages.viewInstructions' => '<p>Questa pagina è accessibile all\'indirizzo: <blockquote>{$pagesPath} </blockquote>, dove %PATH% è il valore scelto. <strong>Nota:</strong> Due pagine non possono avere lo stesso path. Utilizzare percorsi già usati dal sistema potrebbe causare gravi errori di funzionamento.</p>',
+      'plugins.generic.staticPages.duplicatePath' => 'Questo path esiste già per una diversa pagina.',
+      'plugins.generic.staticPages.pageSaved' => 'Pagina salvata con successo.',
+      'plugins.generic.staticPages.pageDeleted' => 'Pagina cancellata con successo.',
+      'plugins.generic.staticPages.noneExist' => 'Nessuna pagina creata',
+    ),
+  ),
+);

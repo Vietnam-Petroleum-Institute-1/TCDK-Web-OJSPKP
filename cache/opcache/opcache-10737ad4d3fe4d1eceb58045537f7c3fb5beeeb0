@@ -1,0 +1,26 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n==1 || n%10==1 ? 0 : 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.webfeed.displayName' => 'Плагин за веб канал',
+      'plugins.generic.webfeed.description' => 'Овој плагин изработува RSS/Atom веб-синдикални канали.<br>Овој плагин вклучува и страничен блок кој овозможува прикажување на каналните врски во вашата странична апликација',
+      'plugins.generic.webfeed.settings' => 'Поставки',
+      'plugins.generic.webfeed.settings.issue' => 'Прикажи ги линковите до веб каналите само на страницата на изданието.',
+      'plugins.generic.webfeed.settings.homepage' => 'Прикажи ги линковите до веб каналите само на главната и на страницата на изданието.',
+      'plugins.generic.webfeed.settings.all' => 'Прикажи ги линковите до веб каналите на сите страници на списанието.',
+      'plugins.generic.webfeed.settings.currentIssue' => 'Прикажи ја содржината на тековното објавено издание.',
+      'plugins.generic.webfeed.settings.recent' => 'Прикажи постојан број на најнови елементи.',
+      'plugins.generic.webfeed.settings.recentArticles' => 'Број на елементи за приказ',
+      'plugins.generic.webfeed.settings.recentItemsRequired' => 'Ве молиме да внесете позитивен цел број за неодамнешните објавени елементи.',
+      'plugins.generic.webfeed.atom.altText' => 'Лого на Atom',
+      'plugins.generic.webfeed.rss1.altText' => 'Лого на RSS1',
+      'plugins.generic.webfeed.rss2.altText' => 'Лого на RSS2',
+      'plugins.generic.webfeed.blockTitle' => 'Најнови статии',
+      'plugins.generic.webfeed.settings.includeIdentifiers' => 'Вклучи идентификатори (ISBN, клучни зборови, категории итн.) во главната содржина?',
+      'plugins.generic.webfeed.settings.homepageAndIssues' => 'Прикажува веб линкови за каналите само на вебстраницата и страниците на бројот.',
+    ),
+  ),
+);

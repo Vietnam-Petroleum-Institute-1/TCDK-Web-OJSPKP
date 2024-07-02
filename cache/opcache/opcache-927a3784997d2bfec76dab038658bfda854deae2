@@ -1,0 +1,22 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.announcementfeed.displayName' => 'Wtyczka ogłoszeń',
+      'plugins.generic.announcementfeed.description' => 'Wtyczka tworzy powiadomienia RSS/Atom dla czasopism.',
+      'plugins.generic.announcementfeed.settings' => 'Ustawienia',
+      'plugins.generic.announcementfeed.settings.all' => 'Wyświetl łącze ogłoszeń RSS/Atom na wszystkich stronach czasopisma.',
+      'plugins.generic.announcementfeed.settings.homepage' => 'Wyświetl łącze ogłoszeń RSS/Atom tylko na stronie głównej oraz stronie ogłoszeń.',
+      'plugins.generic.announcementfeed.settings.announcement' => 'Wyświetl łącze ogłoszeń RSS/Atom tylko na stronie ogłoszeń.',
+      'plugins.generic.announcementfeed.settings.recentAnnouncements1' => 'Ogranicz liczbę ogłoszeń do',
+      'plugins.generic.announcementfeed.settings.recentAnnouncements2' => 'najnowszych ogłoszeń.',
+      'plugins.generic.announcementfeed.settings.recentItemsRequired' => 'Podaj dodatną wartość.',
+      'plugins.generic.announcementfeed.atom.altText' => 'Logo Atom',
+      'plugins.generic.announcementfeed.rss1.altText' => 'Logo RSS1',
+      'plugins.generic.announcementfeed.rss2.altText' => 'Logo RSS2',
+    ),
+  ),
+);

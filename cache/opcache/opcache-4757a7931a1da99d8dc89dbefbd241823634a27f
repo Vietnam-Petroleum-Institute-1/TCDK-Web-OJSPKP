@@ -1,0 +1,14 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.recommendByAuthor.displayName' => 'Ajánlott cikkek szerző szerint',
+      'plugins.generic.recommendByAuthor.description' => 'Ez a bővítmény beszúr egy cikklistát a szerzőtől, a cikk absztrakt oldalára.',
+      'plugins.generic.recommendByAuthor.heading' => 'Ugyanannak a szerző(k)nek a legtöbbet olvasott cikkei',
+      'plugins.generic.recommendByAuthor.noMetric' => 'Megj.: Ez a plugin legalább egy statisztikai/jelentési plugin bekapcsolt állapotát igényli. Ha statisztikai bővítményei több mint egy metrikát tartalmaznak, kérjük, válasszon egy fő metrikát is az admin webhelyének beállítási oldalán és / vagy a naplókezelő beállításai oldalain.',
+    ),
+  ),
+);

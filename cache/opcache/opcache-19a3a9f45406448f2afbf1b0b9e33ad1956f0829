@@ -1,0 +1,32 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=1; plural=0;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'comments.anonymous' => 'Pengguna Tanpa Nama',
+      'comments.anonymousNamed' => '"{$userName}"',
+      'comments.body' => 'Badan',
+      'comments.titleRequired' => 'Tajuk komen diperlukan.',
+      'comments.confirmDeleteChildren' => 'Memadam komen ini juga akan memadam sebarang balasan. Adakah anda pasti mahu melakukan ini?',
+      'comments.delete' => 'Padam komen ini',
+      'comments.email' => 'E-mel Poster',
+      'comments.emailReply' => 'Balasan E-mel',
+      'comments.enterComment' => 'Masukkan Komen',
+      'comments.inResponseTo' => 'Sebagai respons kepada <a href="{$url}">{$title}</a>',
+      'comments.name' => 'Nama Poster',
+      'comments.noComments' => 'Tiada komen pembaca telah disiarkan.',
+      'comments.nReplies' => '({$num} Balasan)',
+      'comments.oneReply' => '(1 Balasan)',
+      'comments.postAnonymously' => 'Siarkan komen ini tanpa nama',
+      'comments.postReply' => 'Balas Post',
+      'comments.readerComments' => 'Komen Pembaca',
+      'comments.readMore' => 'Baca lagi',
+      'comments.replies' => 'Balasan',
+      'comments.title' => 'Tajuk',
+      'comments.viewAllComments' => 'Lihat semua komen',
+      'reader.fullText' => 'Teks penuh:',
+    ),
+  ),
+);

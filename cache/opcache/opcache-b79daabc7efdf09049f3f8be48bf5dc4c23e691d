@@ -1,0 +1,30 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'api.announcements.400.contextsNotMatched' => 'Oppslaget du søkte etter finnes ikke i dette tidsskriftet.',
+      'api.emails.403.disabled' => 'E-postvarsler er ikke slått på for dette tidsskriftet.',
+      'api.submissions.400.wrongContext' => 'Innleveringen som du etterspurte finnes ikke i dette tidsskriftet.',
+      'api.submissions.403.cantChangeContext' => 'Du kan ikke bytte tidsskrift for en innlevering.',
+      'api.submissions.403.unpublishedIssues' => 'Du har ikke tillatelse til å se upubliserte utgaver.',
+      'api.contexts.403.requestedDisabledContexts' => 'Du kan bare se tidsskrift som har blitt aktivert.',
+      'api.contexts.403.notAllowed' => 'Du har ikke rettigheter til å se dette tidsskriftet.',
+      'api.contexts.403.contextsDidNotMatch' => 'Du kan ikke se eller redigere dette tidsskriftet hvis du ikke sender en forespørsel til tidsskriftets API eller nettstedets API.',
+      'api.contexts.403.requiresContext' => 'Du kan ikke redigere dette tidsskriftet via nettstedets API.',
+      'api.contexts.403.notAllowedEdit' => 'Du har ikke rettigheter til å redigere dette tidsskriftet.',
+      'api.contexts.403.notAllowedDelete' => 'Du har ikke rettigheter til å slette dette tidsskriftet.',
+      'api.contexts.404.contextNotFound' => 'Tidsskriftet du sendte forespørsel om etter ble ikke funnet.',
+      'api.dois.403.contextsNotMatched' => 'DOI-en du spurte etter tilhører ikke dette tidsskriftet.',
+      'api.dois.400.noRegistrationAgencyConfigured' => 'Ingen DOI-registrreringsorganisasjon har blitt konfigurert for dette tidsskriftet.',
+      'api.dois.400.depositFailed' => 'Deponering av noen elementer var ikke vellykket. Vennligst sjekk individuelle elementer for spesifikke feilmeldinger.',
+      'api.emailTemplates.403.notAllowedChangeContext' => 'Du har ikke tillatelse til å flytte denne epostmalen til et annet tidsskrift.',
+      'api._payments.400.invalidPaymentMethod' => 'Betalingsmetoden du valgte støttes ikke.',
+      'api.publications.403.contextsDidNotMatch' => 'Publikasjonen du forespurte finnes ikke i dette tidsskriftet.',
+      'api.publications.403.submissionsDidNotMatch' => 'Publikasjonen som du forespurte er ikke del av denne innleveringen.',
+      'api.submissionFiles.400.badRepresentationAssocType' => 'Du kan ikke knytte en fil fra dette steget til et oppsett.',
+    ),
+  ),
+);

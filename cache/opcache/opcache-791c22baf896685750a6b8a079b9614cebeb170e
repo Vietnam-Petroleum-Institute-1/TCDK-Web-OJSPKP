@@ -1,0 +1,18 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'reviewer.reviewSteps.request' => 'Ombi',
+      'reviewer.reviewSteps.guidelines' => 'Muongozo',
+      'reviewer.reviewSteps.download' => 'Pakua na hariri (pitia)',
+      'reviewer.reviewSteps.completion' => 'Kamilisha',
+      'reviewer.step1.request' => 'Omba kuhariri',
+      'reviewer.step1.requestBoilerplate' => 'Hongera! Umecheguliwa kuwa mhariri mhimu katika kazi hii iliyo wasilishwa. Sehemu ifuatayo itaonyesha muhtasari wa kazi iliyo wasilishwa pamoja na muongozo wa uhariri. Tunaamini kuwa utashiriki kikamilifu.',
+      'reviewer.step1.viewAllDetails' => 'Pitia taarifa ya kazi zote zilizokusanywa',
+      'reviewer.submission.reviewerFiles' => 'Faili za mhariri',
+    ),
+  ),
+);

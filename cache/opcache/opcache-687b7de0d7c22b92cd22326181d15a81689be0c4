@@ -1,0 +1,12 @@
+<?php $exp = 1751345599; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.driver.displayName' => '"Haydovchi" moduli',
+      'plugins.generic.driver.description' => 'DRIVER plagini OAI-PMH interfeysini DRIVER qo\'llanmasi 2.0 ga muvofiq kengaytiradi va OJS jurnallarining DRIVER talablariga muvofiq bo\'lishiga yordam beradi.',
+    ),
+  ),
+);

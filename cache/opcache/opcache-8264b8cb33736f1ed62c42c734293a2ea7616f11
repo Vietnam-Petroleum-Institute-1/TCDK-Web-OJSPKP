@@ -1,0 +1,31 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'admin.siteManagement' => 'Сайтты башкаруу',
+      'admin.siteSettings' => 'Сайттын жөндөөлөрү',
+      'admin.siteSetup' => 'Сайт орнотуу',
+      'admin.systemConfigFileReadError' => '<tt>config.inc.php</tt> конфигурация файлы жок, окулбайт же жараксыз.',
+      'admin.systemInformation' => 'Система маалыматы',
+      'admin.systemInformation.description' => 'Тиркеменин жана сервердин версиясы жана конфигурация орнотуулары жөнүндө маалыматты көрүңүз.',
+      'admin.systemInformation.view' => 'Тутум маалыматын көрсөтүү',
+      'admin.versionBuild' => 'Ассамблея',
+      'admin.version.checkForUpdates' => 'Жаңыртууларды текшериңиз',
+      'admin.version.downloadPackage' => 'Жүктөп алуу',
+      'admin.version.downloadPatch' => 'Түзөтүүнү жүктөп алыңыз',
+      'admin.versionHistory' => 'Версия тарыхы',
+      'admin.version.latest' => 'Акыркы версия',
+      'admin.versionMajor' => 'Улгайган',
+      'admin.versionMinor' => 'Кенже',
+      'admin.version.moreInfo' => 'Кошумча маалымат',
+      'admin.versionRevision' => 'Аудит',
+      'admin.version.updateAvailable' => 'Жаңыланган версия жеткиликтүү',
+      'admin.version.upToDate' => 'Системаңыз жаңырды',
+      'admin.version' => 'Версия',
+      'admin.fileLoader.wrongBasePathLocation' => 'Негизги каталог {$path} бардыгына жеткиликтүү болгон файлдар менен каталогдун ичинде болушу керек.',
+    ),
+  ),
+);

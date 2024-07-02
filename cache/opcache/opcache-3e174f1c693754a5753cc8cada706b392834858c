@@ -1,0 +1,22 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.announcementfeed.displayName' => 'Плагін каналу оголошень',
+      'plugins.generic.announcementfeed.description' => 'Цей плагін створює канали вебсиндикації RSS / Atom для оголошень журналів.',
+      'plugins.generic.announcementfeed.settings' => 'Налаштування',
+      'plugins.generic.announcementfeed.settings.all' => 'Показувати посилання на стрічки на всіх сторінках журналу.',
+      'plugins.generic.announcementfeed.settings.homepage' => 'Показувати покликання на стрічки лише на головній сторінці та сторінці оголошень.',
+      'plugins.generic.announcementfeed.settings.announcement' => 'Показувати посилання на стрічки лише на сторінці анонсів.',
+      'plugins.generic.announcementfeed.settings.recentAnnouncements1' => 'Скоротити стрічку до',
+      'plugins.generic.announcementfeed.settings.recentAnnouncements2' => 'найновіших анонсів.',
+      'plugins.generic.announcementfeed.settings.recentItemsRequired' => 'Будь ласка, введіть додатне ціле число для кількості найновіших анонсів.',
+      'plugins.generic.announcementfeed.atom.altText' => 'Логотип Atom',
+      'plugins.generic.announcementfeed.rss1.altText' => 'Логотип RSS1',
+      'plugins.generic.announcementfeed.rss2.altText' => 'Логотип RSS2',
+    ),
+  ),
+);

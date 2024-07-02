@@ -1,0 +1,12 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.dublinCoreMeta.name' => 'Dublin Core Index plugin',
+      'plugins.generic.dublinCoreMeta.description' => 'Deze plugin voegt Dublin Core metadata tags toe aan artikels, voor indexeringsdoeleinden.',
+    ),
+  ),
+);

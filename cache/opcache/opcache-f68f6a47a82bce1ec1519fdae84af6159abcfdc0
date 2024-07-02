@@ -1,0 +1,27 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=1; plural=0;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.themes.default.name' => '기본 테마',
+      'plugins.themes.default.description' => '이 테마를 기본 테마로 적용합니다.',
+      'plugins.themes.default.option.typography.label' => '서체',
+      'plugins.themes.default.option.typography.description' => '이 학술지에 어울리는 폰트 조합을 선택하세요.',
+      'plugins.themes.default.option.typography.notoSans' => 'Noto Sans : 광범위한 언어 지원을 위해 Google에서 디자인한 디지털 네이티브 글꼴입니다.',
+      'plugins.themes.default.option.typography.notoSerif' => 'Noto Serif : Google 디지털 네이티브 글꼴의 serif 변형입니다.',
+      'plugins.themes.default.option.typography.notoSerif_notoSans' => 'Noto Serif/Noto Sans : serif 제목과 sans-serif 본문 텍스트로 구성된 쌍입니다.',
+      'plugins.themes.default.option.typography.notoSans_notoSerif' => 'Noto Sans/Noto Serif : sans-serif 제목과 serif 본문 텍스트로 구성된 쌍입니다.',
+      'plugins.themes.default.option.typography.lato' => 'Lato : 인기있는 현대 산셰리프 글꼴입니다.',
+      'plugins.themes.default.option.typography.lora' => 'Lora : 온라인 읽기에 적합한 세리프 글꼴입니다.',
+      'plugins.themes.default.option.typography.lora_openSans' => 'Lora/Open Sans : serif 제목과 sans-serif 본문 텍스트로 구성된 쌍입니다.',
+      'plugins.themes.default.option.colour.label' => '색상',
+      'plugins.themes.default.option.colour.description' => '헤더의 색상을 선택하세요.',
+      'plugins.themes.default.option.showDescriptionInJournalIndex.option' => '학술지 요약을 홈페이지에 표시.',
+      'plugins.themes.default.option.useHomepageImageAsHeader.label' => '헤더 배경 이미지',
+      'plugins.themes.default.option.useHomepageImageAsHeader.description' => '홈페이지 이미지가 업로드되면 홈페이지의 일반적인 위치 대신 헤더의 배경에 표시합니다.',
+      'plugins.themes.default.option.useHomepageImageAsHeader.option' => '홈페이지 이미지를 헤더 배경으로 표시합니다.',
+    ),
+  ),
+);

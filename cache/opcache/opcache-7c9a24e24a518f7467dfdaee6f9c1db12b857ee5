@@ -1,0 +1,42 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && n % 10 == 0) ? 2 : 3));',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'emails.submissionAck.subject' => 'אישור ההגשה',
+      'emails.submissionAck.body' => '{$recipientName}:<br />
+<br />
+תודה על הגשת המאמר {$submissionTitle} אל {$contextName}. דרך המערכת תוכל לעקוב אחר התקדמותו בתהליך העריכה על ידי כניסה לאתר כתב העת.<br />
+<br />
+כתובת אתר להגשה: {$submissionUrl}<br />
+שם משתמש: {$recipientUsername}<br />
+<br />
+אם יש לך שאלות, אנא צור איתי קשר. תודה ששקלת את כתב העת הזה כמקום לעבודה שלך.<br />
+<br />
+{$contextSignature}',
+      'emails.submissionAck.description' => 'דוא"ל זה, כאשר הוא מופעל, נשלח אוטומטית למחבר כאשר הם משלימים את תהליך הגשת כתב היד לכתב העת. הוא מספק מידע על מעקב אחר ההגשה בתהליך ומודה למחבר על המסירה.',
+      'emails.reviewAck.subject' => 'אישור סקירת מאמר',
+      'emails.reviewAck.body' => '{$recipientName}:
+
+<br />
+
+תודה על חוות דעתך על ההגשה "{$submissionTitle} ל{$contextName}. אנו מעריכים את תרומתך לאיכות העבודה שאנו מפרסמים.',
+      'emails.reviewConfirm.subject' => 'יכול לבדוק',
+      'emails.reviewConfirm.body' => 'לעורכים:<br />
+<br />
+אני מסכים לבדוק ההגשה "{$submissionTitle}" ל{$contextName}. תודה שפניתם אלי ואני מתכנן להחזיר את חוות הדעת עד {$reviewDueDate}, אם לא לפני.<br />
+<br />
+{$senderName}',
+      'emails.submissionAckNotAuthor.subject' => 'אישור הגשה',
+      'emails.submissionAckNotAuthor.body' => 'שלום,<br />
+<br />
+{$submitterName} הגיש כתב יד {$sumbissionTitle} ל{$contextName}.<br />
+<br />
+בכל שאלה ניתן לפנות אלי. תודה על פנייתך לכתב עת זה.<br />
+<br />
+{$contextSignature}',
+    ),
+  ),
+);

@@ -1,0 +1,12 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n > 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.driver.displayName' => 'DRIVER',
+      'plugins.generic.driver.description' => 'RIVER հավելվածը ընդլայնում է OAI-PMH միջերեսը` համաձայն DRIVER Guidelines 2.0, օգնելով OJS ամսագրերին դառնալ DRIVER-ին համապատասխան:',
+    ),
+  ),
+);

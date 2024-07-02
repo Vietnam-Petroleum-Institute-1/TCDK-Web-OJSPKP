@@ -1,0 +1,79 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'installer.additionalLocales' => 'Додаткові локалізації',
+      'installer.administratorAccount' => 'Обліковий запис адміністратора',
+      'installer.administratorAccountInstructions' => 'Цей обліковий запис буде використовуватись адміністратором вебсайту, він надаватиме повний доступ до системи. Ви зможете створити додаткові облікові записи після завершення інсталяції.',
+      'installer.checkNo' => '<span class="formError">НІ</span>',
+      'installer.checkYes' => 'Так',
+      'installer.configFileError' => 'Файл конфігурації <tt>config.inc.php</tt> не існує або недоступний для читання.',
+      'installer.connectionCharset' => 'Таблиця кодування для зв\'язку з БД',
+      'installer.contentsOfConfigFile' => 'Зміст файлу конфігурації',
+      'installer.databaseDriver' => 'Драйвер бази даних',
+      'installer.databaseDriverInstructions' => '<strong>Система наразі підтримує MySQL і PostgreSQL; якщо ви не можете вибрати один з цих варіантів нижче, зверніться до системного адміністратора, щоб переконатися, що ваш сервер має необхідні розширення PHP.</strong>',
+      'installer.databaseHost' => 'Хост',
+      'installer.databaseHostInstructions' => 'Для з\'єднання через domain sockets замість TCP/IP залиште поле імені хоста пустим. Це не є необхідним, якщо використовується MySQL, оскільки в цьому випадку, якщо введений "localhost", сокети будуть використовуватись автоматично. Але для деяких інших драйверів баз даних, наприклад, PostgreSQL, це є потрібним.',
+      'installer.databaseName' => 'Ім\'я бази даних',
+      'installer.databasePassword' => 'Пароль',
+      'installer.databaseSettings' => 'Налаштування бази даних',
+      'installer.databaseUsername' => 'Ім\'я користувача',
+      'installer.filesDir' => 'Каталог для завантаження файлів',
+      'installer.fileSettings' => 'Параметри файлів',
+      'installer.form.clientCharsetRequired' => 'Необхідно вказати таблицю кодування браузера.',
+      'installer.form.databaseDriverRequired' => 'Необхідно вказати драйвер бази даних.',
+      'installer.form.databaseNameRequired' => 'Необхідно вказати ім\'я бази даних.',
+      'installer.form.emailRequired' => 'Необхідно вказати дійсну адресу електронної пошти для облікового запису адміністратора.',
+      'installer.form.filesDirRequired' => 'Необхідно вказати теку, в якій будуть зберігатися завантажені файли.',
+      'installer.form.localeRequired' => 'Необхідно визначити локалізацію.',
+      'installer.form.passwordRequired' => 'Необхідно вказати пароль для облікового запису адміністратора.',
+      'installer.form.passwordsDoNotMatch' => 'Введені паролі адміністратора не відповідають одне одному.',
+      'installer.form.separateMultiple' => 'Якщо значень декілька, відокремлюйте їх комами',
+      'installer.form.usernameAlphaNumeric' => 'Ім\'я користувача адміністратора може складатися лише з літер, цифр, символів підкреслення та дефісів, воно має починатися та закінчуватися літерою або цифрою.',
+      'installer.form.usernameRequired' => 'Необхідно вказати ім\'я користувача для облікового запису адміністратора.',
+      'installer.form.timeZoneRequired' => 'Необхідно вибрати часовий пояс.',
+      'installer.installationWrongPhp' => '<br/><strong>ПОПЕРЕДЖЕННЯ: Встановлена версія PHP не відповідає мінімальним вимогам для інсталяції цієї програми. Рекомендується оновити версію PHP.</strong>',
+      'installer.installErrorsOccurred' => 'В процесі інсталяції виникли помилки',
+      'installer.installerSQLStatements' => 'Оператори SQL для інсталяції',
+      'installer.installFileError' => 'Інсталяційний файл <tt>dbscripts/xml/install.xml</tt> не існує або недоступний для читання.',
+      'installer.installFilesDirError' => 'Каталог, визначений для збереження завантажених файлів, не існує або захищений від запису.',
+      'installer.installParseDBFileError' => 'Помилка синтаксичного розбору файлу інсталяції бази даних <tt>"{$file}"</tt>.',
+      'installer.installMigrationError' => 'Виник виняток під час виконання класу міграції <tt>{$class}</tt>. Виняток: {$message}.',
+      'installer.installParseEmailTemplatesFileError' => 'Помилка синтаксичного розбору файлу шаблонів електронної пошти <tt>"{$file}"</tt>.',
+      'installer.installParseFilterConfigFileError' => 'Помилка аналізу файлу фільтра конфігурації <tt>"{$file}"</tt>.',
+      'installer.unsupportedUpgradeError' => 'Оновлення не підтримується. Додаткову інформацію див. у Посібнику з оновлення (https://docs.pkp.sfu.ca/dev/upgrade-guide).',
+      'installer.timezoneInstructions' => 'Часовий пояс для використання в цій системи.',
+      'installer.additionalLocalesInstructions' => 'Виберіть будь-які додаткові мови для підтримки в цій системі. Додаткові мови також можуть бути встановлені в будь-який час з інтерфейсу адміністрування вебсайту. <br>* = Показує мови, які перекладені не повністю (> 90% перекладених термінів)',
+      'installer.locale' => 'Локалізація',
+      'installer.locale.maybeIncomplete' => 'Позначені локалізації можуть бути неповними.',
+      'installer.localeSettings' => 'Налаштування локалізації',
+      'installer.oaiSettings' => 'Налаштування OAI',
+      'installer.oaiRepositoryIdInstructions' => 'Унікальний ідентифікатор, який буде використовуватись для ідентифікації комплектів метаданих, індексованих із цього вебсайту, за Протоколом для збору метаданих <a href="https://www.openarchives.org/" target="_blank">Open Archives Initiative</a>.',
+      'installer.oaiRepositoryId' => 'Ідентифікатор сховища OAI',
+      'installer.publicFilesDirError' => 'Каталог, визначений для збереження файлів, не існує або захищений від запису.',
+      'installer.releaseNotes' => 'Примітки версії',
+      'installer.preInstallationInstructionsTitle' => 'Кроки підготовки до встановлення',
+      'installer.preInstallationInstructions' => '
+		<p>1. Наступні файли і каталоги (та їх вміст) потрібно зробити доступними для запису:</p>
+		<ul>
+			<li><tt>config.inc.php</tt> доступний для запису (не обов\'язково): {$writable_config}</li>
+			<li><tt>public/</tt> доступний для запису: {$writable_public}</li>
+			<li><tt>cache/</tt> доступний для запису: {$writable_cache}</li>
+			<li><tt>cache/t_cache/</tt> доступний для запису: {$writable_templates_cache}</li>
+			<li><tt>cache/t_compile/</tt> доступний для запису: {$writable_templates_compile}</li>
+			<li><tt>cache/_db</tt> доступний для запису: {$writable_db_cache}</li>
+		</ul>
+
+		<p>2. Каталог для збереження завантажених на сервер файлів має бути створений та до нього має бути доступ для запису (дивись "Налаштування файлу" ниже).</p>
+	',
+      'installer.configureXSLMessage' => '<p>У вашій інсталяції PHP не увімкнено плагін XSL. Увімкніть його або налаштуйте параметр xslt_command у вашому файлі config.inc.php.</p>',
+      'installer.beacon' => 'Маяк',
+      'installer.beacon.enable' => 'Задати унікальний ID вебсайту і базовий URL OAI для PKP, які будуть використовуватися лише для збирання статистики та попереджень про небезпеку.',
+      'installer.unsupportedPhpError' => 'Версія PHP вашого сервера не підтримується цим програмним забезпеченням. Уважно перевірте вимоги до встановлення у docs/README.',
+      'installer.miscSettings' => 'Різні налаштування',
+    ),
+  ),
+);

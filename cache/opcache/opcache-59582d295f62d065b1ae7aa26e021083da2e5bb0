@@ -1,0 +1,14 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.recommendByAuthor.displayName' => '“Автордун сунуш кылынган макалалары” модулу',
+      'plugins.generic.recommendByAuthor.description' => 'Макаланын аннотация барагына ошол эле автордун макалаларынын тизмесин киргизет.',
+      'plugins.generic.recommendByAuthor.heading' => 'Бул автор(лор)дун эң көп окулган макалалары',
+      'plugins.generic.recommendByAuthor.noMetric' => 'Өзгөчөлүк: Бул модулда жок дегенде бир статистика/отчет модулу иштетилишин талап кылат. Эгер статистикалык модулдарыңыз бирден ашык көрсөткүчтү кайтарса, анда сайттын администраторунун жөндөөлөр барагында жана/же журнал менеджеринин жөндөөлөрүндө негизги метриканы да тандаңыз.',
+    ),
+  ),
+);

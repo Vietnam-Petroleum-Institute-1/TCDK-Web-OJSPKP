@@ -1,0 +1,12 @@
+<?php $exp = 1751345595; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.dublinCoreMeta.name' => 'Dublin Core indeksointilisäosa',
+      'plugins.generic.dublinCoreMeta.description' => 'Tämä lisäosa liittää Dublin Core -metatietokenttiä artikkelin abstraktisivulle indeksoinnin helpottamiseksi.',
+    ),
+  ),
+);

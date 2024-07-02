@@ -1,0 +1,21 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.tinymce.settings' => 'პარამეტრები',
+      'plugins.generic.tinymce.name' => 'TinyMCE პლაგინი',
+      'plugins.generic.tinymce.description' => 'ეს პლაგინი საშუალებას გაძლევთ WYSIWYG-ით შეცვალოთ ტექსტების არეები <a href="https://www.tiny.cloud/" target="_blank">TinyMCE</a> რედაქტორის გამოყენებით.',
+      'plugins.generic.tinymce.pkpTags.listTags' => 'აირჩეთ ჭდე',
+      'plugins.generic.tinymce.pkpTags.noneAvailable' => 'ამ ველისთვის ჭდეები არ არის ხელმისაწვდომი.',
+      'plugins.generic.tinymce.pkpTags.description' => 'შეგიძლიათ ჩასვათ შემდეგი ჭდეები:',
+      'plugins.generic.tinymce.variables.principalContactName' => 'ძირითადი საკონტაქტო სახელი ("{$value}")',
+      'plugins.generic.tinymce.variables.principalContactEmail' => 'ძირითადი საკონტაქტო ელფოსტა ("{$value}")',
+      'plugins.generic.tinymce.variables.supportContactName' => 'საკონტაქტო სახელი ("{$value}")',
+      'plugins.generic.tinymce.variables.supportContactEmail' => 'საკონტაქტო ელფოსტა ("{$value}")',
+      'plugins.generic.tinymce.variables.supportContactPhone' => 'საკონტაქტო ტელეფონი ("{$value}")',
+    ),
+  ),
+);

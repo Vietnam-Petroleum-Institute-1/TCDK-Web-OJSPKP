@@ -1,0 +1,375 @@
+<?php $exp = 1751345595; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=4; plural=(n==1 || n==11) ? 0 : (n==2 || n==12) ? 1 : (n > 2 && n < 20) ? 2 : 3;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'emails.passwordResetConfirm.subject' => 'Dearbhadh ath-shuidheachadh an fhacail-fhaire',
+      'emails.passwordResetConfirm.body' => 'Fhuair sinn iarrtas am facal-faire agad airson na làraich-lìn {$siteTitle} ath-shuidheachadh.<br />
+<br />
+Mur an do dh’iarr thusa seo, leig seachad am post-d agus agus cha tèid am facal-faire agad atharrachadh. Ma tha thu airson am facal-faire agad ath-shuidheachadh, briog air an URL gu h-ìosal.<br />
+<br />
+Ath-shuidhich am facal-faire agam: {$passwordResetUrl}<br />
+<br />
+{$siteContactName}',
+      'emails.userRegister.subject' => 'Clàradh iris-leabhair',
+      'emails.userRegister.body' => '{$recipientName}<br />
+<br />
+Tha thu làn-chlàraichte mar neach-cleachdaidh aig {$contextName} a-nis. Tha an t-ainm-cleachdaiche agus facal-faire agad sa phost-d seo agus feumaidh tu seo airson eadar-ghabhail a dhèanamh leis an iris-leabhar seo air an làrach-lìn aige. ’S urrainn dhut iarraidh orm do thoirt air falbh o liosta luchd-cleachdaidh an iris-leabhair uair sam bith.<br />
+<br />
+Ainm-cleachdaiche: {$recipientUsername}<br />
+Facal-faire: {$password}<br />
+<br />
+Mòran taing,<br />
+{$signature}',
+      'emails.userValidateContext.subject' => 'Dearbhadh a’ chunntais agad',
+      'emails.userValidateContext.body' => '{$recipientName}<br />
+<br />
+Chruthaich thu cunntas aig {$contextName} ach feumaidh sinn an cunntas puist-d agad a dhearbhadh mus urrainn dhut a chleachdadh. Cha leig thu leas ach an ceangal gu h-ìosal a leantainn airson a dhearbhadh:<br />
+<br />
+{$activateUrl}<br />
+<br />
+Mòran taing,<br />
+{$contextSignature}',
+      'emails.reviewerRegister.subject' => 'Clàradh mar lèirmheasaiche aig {$contextName}',
+      'emails.reviewerRegister.body' => 'Leis na tha de dh’eòlas agad, bha sinn cho dàna ’s gun do chlàraich sinn d’ ainm ann an stòr-dàta nan lèirmheasaichean airson {$contextName}. Chan eil dleastanas sam bith ag èirigh riut ri linn sin, cha dèan e ach cothrom a thoirt dhuinne faighneachd dhìot am biodh ùidh agad ann an lèirmheas tagraidh. Ma gheibh thu cuireadh, chì thu tiotal is geàrr-chunntas a’ phàipeir agus is urrainn dhut gabhail ris no a dhiùltadh mar a thogras tu. ’S urrainn dhut iarraidh oirnn uair sam bith d’ ainm a thoirt air falbh o liosta nan lèirmheasaichean cuideachd.<br />
+<br />
+Tha sinn a’ toirt dhut ainm-cleachdaiche agus facal-faire a dh’fheumas tu airson eadar-ghabhail a dhèanamh leis an iris-leabhar air an làrach-lìn aca. Dh’fhaoidte gum b’ fheàirrde dhut a’ phròifil agad ùrachadh agus innse dè na cuspairean sa bheil ùidh agad a thaobh lèirmheasan mar eisimpleir.<br />
+<br />
+Ainm-cleachdaiche: {$recipientUsername}<br />
+Facal-faire: {$password}<br />
+<br />
+Mòran taing,<br />
+{$signature}',
+      'emails.issuePublishNotify.subject' => 'Iris ùr air fhoillseachadh',
+      'emails.issuePublishNotify.body' => 'Leughadairean:<br />
+<br />
+Tha {$contextName} dìreach air iris ùr fhoillseachadh aig {$contextUrl}. Tha sinn a’ cur fàilte ort sùil a thoirt air a’ chlàr-innse an-seo agus a thadhal air an làrach-lìn againn an uairsin airson sùil a thoirt air artaigealan is rudan eile a dh’fhaodadh a bhith inntinneach dhut.<br />
+<br />
+Mòran taing airson sìor ùidh a nochdadh nar n-obair,<br />
+{$signature}',
+      'emails.editorAssign.subject' => 'Iomruineadh deasachaidh',
+      'emails.editorAssign.body' => '{$recipientName}:<br />
+<br />
+Chaidh an tagradh “{$submissionTitle}” airson {$contextName} iomruineadh dhut airson a stiùireadh tron phròiseas deasachaidh ’s tu nad dheasaiche earrainn.<br />
+<br />
+URL an tagraidh: {$submissionUrl}<br />
+Ainm-cleachdaiche: {$recipientUsername}<br />
+<br />
+Mòran taing.',
+      'emails.reviewRequest.subject' => 'Iarrtas airson lèirmheas artaigil',
+      'emails.reviewRequest.body' => '{$recipientName}:<br />
+<br />
+Tha mi a’ creidsinn gum biodh tu fìor mhath mar lèirmheasaiche airson na sgrìobhainn “{$submissionTitle}” a chaidh a chur gu {$contextName}. Tha geàrr-chunntas an tagraidh gu h-ìosal agus bhiomaid fada nad chomain nam b’ urrainn dhut an obair chudromach seo a dhèanamh dhuinn.<br />
+<br />
+Clàraich a-steach gu làrach-lìn an iris-leabhair ron {$responseDueDate} a dh’innse an dèan thu an lèirmheas seo gus nach dèan agus a dh’fhaighinn cothrom air an tagradh agus a chlàradh do lèirmheis is do mholaidhean. ’S e {$contextUrl} an làrach-lìn<br />
+<br />
+Bidh an lèirmheas fhèin ri lìbhrigeadh {$reviewDueDate}.<br />
+<br />
+Mur eil am facal-faire is ainm-cleachdaiche agad airson làrach-lìn an iris-leabhair, ’s urrainn dhut am facal-faire agad ath-shuidheachadh leis a’ cheangal seo agus thèid a chur thugad air a’ phost-d an uairsin còmhla ris an ainm-chleachdaiche agad. {$passwordLostUrl}<br />
+<br />
+URL an tagraidh: {$reviewAssignmentUrl}<br />
+<br />
+Mòran taing airson an t-iarrtas seo a thoirt fa-near.<br />
+<br />
+{$signature}<br />
+<br />
+“{$submissionTitle}”<br />
+<br />
+{$submissionAbstract}',
+      'emails.reviewResponseOverdueAuto.subject' => 'Iarrtas airson lèirmheas artaigil',
+      'emails.reviewResponseOverdueAuto.body' => '{$recipientName}:<br />
+Dìreach cuimhneachan beag gun deach iarraidh ort lèirmheas a dhèanamh air an tagradh “{$submissionTitle},” airson {$contextName}. Bha sinn an dòchas cluinntinn uat ron {$responseDueDate} agus chaidh am post-d seo a chur gu fèin-obrachail leis gu bheil sinn seachad air a’ cheann-là ud a-nis.
+<br />
+Tha mi a’ creidsinn gum biodh tu fìor mhath mar lèirmheasaiche airson na sgrìobhainn. Tha geàrr-chunntas an tagraidh gu h-ìosal agus bhiomaid fada nad chomain nam b’ urrainn dhut an obair chudromach seo a dhèanamh dhuinn.<br />
+<br />
+Clàraich a-steach gu làrach-lìn an iris-leabhair a dh’innse an dèan thu an lèirmheas seo gus nach dèan agus a dh’fhaighinn cothrom air an tagradh agus a chlàradh do lèirmheis is do mholaidhean. ’S e {$contextUrl} an làrach-lìn<br />
+<br />
+Bidh an lèirmheas fhèin ri lìbhrigeadh {$reviewDueDate}.<br />
+<br />
+Mur eil am facal-faire is ainm-cleachdaiche agad airson làrach-lìn an iris-leabhair, ’s urrainn dhut am facal-faire agad ath-shuidheachadh leis a’ cheangal seo agus thèid a chur thugad air a’ phost-d an uairsin còmhla ris an ainm-chleachdaiche agad. {$passwordLostUrl}<br />
+<br />
+URL an tagraidh: {$reviewAssignmentUrl}<br />
+<br />
+Mòran taing airson an t-iarrtas seo a thoirt fa-near.<br />
+<br />
+{$contextSignature}<br />
+<br />
+“{$submissionTitle}”<br />
+<br />
+{$submissionAbstract}',
+      'emails.reviewRequestSubsequent.subject' => 'Iarrtas airson lèirmheas artaigil',
+      'emails.reviewRequestSubsequent.body' => '{$recipientName}:<br />
+<br />
+Tha seo mu dhèidhinn na sgrìobhainn “{$submissionTitle}” a tha {$contextName} a’ cnuasachadh.<br />
+<br />
+Ri linn lèirmheis air an tionndadh roimhe dhen sgrìobhainn, chuir na h-ùghdaran tionndadh lèirmheaste dhen phàipear aca thugainn. Bhiomaid fada nad chomain nam b’ urrainn dhut sgrùdadh a dhèanamh air còmhla rinn.<br />
+<br />
+Clàraich a-steach gu làrach-lìn an iris-leabhair ron {$responseDueDate} a dh’innse an dèan thu an lèirmheas seo gus nach dèan agus a dh’fhaighinn cothrom air an tagradh agus a chlàradh do lèirmheis is do mholaidhean. ’S e {$contextUrl} an làrach-lìn<br />
+<br />
+Bidh an lèirmheas fhèin ri lìbhrigeadh {$reviewDueDate}.<br />
+<br />
+Mur eil am facal-faire is ainm-cleachdaiche agad airson làrach-lìn an iris-leabhair, ’s urrainn dhut am facal-faire agad ath-shuidheachadh leis a’ cheangal seo agus thèid a chur thugad air a’ phost-d an uairsin còmhla ris an ainm-chleachdaiche agad. {$passwordLostUrl}<br />
+<br />
+URL an tagraidh: {$reviewAssignmentUrl}<br />
+<br />
+Mòran taing airson an t-iarrtas seo a thoirt fa-near.<br />
+<br />
+{$signature}<br />
+<br />
+“{$submissionTitle}”<br />
+<br />
+{$submissionAbstract}',
+      'emails.reviewCancel.subject' => 'Iarrtas airson lèirmheas air a chur gu neoini',
+      'emails.reviewCancel.body' => '{$recipientName}:<br />
+<br />
+Cho-dhùin sinn an lèirmheas air an tagradh “{$submissionTitle},” airson {$contextName}, a dh’iarr sinn ort a chur gu neoini. Tha sinn duilich ma chuireas seo fo mhì-ghoireas thu idir agus tha sinn an dòchas gum bi thu deònach fhathast taic a chumail ri obair lèirmheis airson an iris-leabhair seo san àm ri teachd.<br />
+<br />
+Ma tha ceist sam bith agad, cuir fios thugam.',
+      'emails.reviewReinstate.subject' => 'Iarrtas airson lèirmheas air a chur beò às ùr',
+      'emails.reviewReinstate.body' => '{$recipientName}:<br />
+<br />
+Bu toil leinn an lèirmheas air an tagradh “{$submissionTitle},” airson {$contextName}, a dh’iarr sinn ort a chur beò a-rithist. Tha sinn an dòchas gun urrainn dhut ar cuideachdadh leis an lèirmheas airson an iris-leabhair.<br />
+<br />
+Ma tha ceist sam bith agad, cuir fios thugam.',
+      'emails.reviewDecline.subject' => 'Cha bhi e comasach lèirmheas a dhèanamh air',
+      'emails.reviewDecline.body' => 'Deasaichean:<br />
+<br />
+Tha eagal orm nach urrainn dhomh lèirmheas a dhèanamh air an tagradh “{$submissionTitle},” airson {$contextName} aig an àm seo. Mòran taing airson an cothrom seo a thoirt dhomh agus tha fàilte romhaibh a leithid iarraidh orm uair sam bith.<br />
+<br />
+{$senderName}',
+      'emails.reviewRemind.subject' => 'Cuimhneachan mu lèirmheas tagraidh',
+      'emails.reviewRemind.body' => '{$recipientName}:<br />
+<br />
+Dìreach cuimhneachan beag gun deach iarraidh ort lèirmheas a dhèanamh air an tagradh “{$submissionTitle},” airson {$contextName}. Bha sinn an dòchas an lèirmheas seo a choileanadh ro {$reviewDueDate} agus bhiomaid fada nad chomain nam b’ urrainn dhut a chur thugainn cho luath ’s a ghabhas.<br />
+<br />
+Mur eil am facal-faire is ainm-cleachdaiche agad airson làrach-lìn an iris-leabhair, ’s urrainn dhut am facal-faire agad ath-shuidheachadh leis a’ cheangal seo agus thèid a chur thugad air a’ phost-d an uairsin còmhla ris an ainm-chleachdaiche agad. {$passwordLostUrl}<br />
+<br />
+URL an tagraidh: {$reviewAssignmentUrl}<br />
+<br />
+Saoil am b’ urrainn dhut fios a leigeil thugainn am b’ urrainn dhut an obair chudromach seo a dhèanamh airson an iris-leabhair fhathast? Tha mi an dòchas cluinntinn uat.<br />
+<br />
+{$signature}',
+      'emails.reviewRemindAuto.subject' => 'Cuimhneachan fèin-obrachail mu lèirmheas tagraidh',
+      'emails.reviewRemindAuto.body' => '{$recipientName}:<br />
+<br />
+Dìreach cuimhneachan beag gun deach iarraidh ort lèirmheas a dhèanamh air an tagradh “{$submissionTitle},” airson {$contextName}. Bha sinn an dòchas an lèirmheas seo a choileanadh ro {$reviewDueDate} agus chaidh am post-d seo a chur gu fèin-obrachail leis gu bheil sinn seachad air a’ cheann-là ud a-nis. Bhiomaid fada nad chomain nam b’ urrainn dhut a chur thugainn fhathast cho luath ’s a ghabhas.<br />
+<br />
+Mur eil am facal-faire is ainm-cleachdaiche agad airson làrach-lìn an iris-leabhair, ’s urrainn dhut am facal-faire agad ath-shuidheachadh leis a’ cheangal seo agus thèid a chur thugad air a’ phost-d an uairsin còmhla ris an ainm-chleachdaiche agad. {$passwordLostUrl}<br />
+<br />
+URL an tagraidh: {$reviewAssignmentUrl}<br />
+<br />
+Saoil am b’ urrainn dhut fios a leigeil thugainn am b’ urrainn dhut an obair chudromach seo a dhèanamh airson an iris-leabhair fhathast? Tha mi an dòchas cluinntinn uat.<br />
+<br />
+{$contextSignature}',
+      'emails.editorDecisionAccept.subject' => 'Co-dhùnadh deasaiche',
+      'emails.editorDecisionAccept.body' => '{$authors}:<br />
+<br />
+Thàinig sinn gu co-dhùnadh a thaobh an tagraidh agad gu {$contextName}, “{$submissionTitle}”.<br />
+<br />
+Cho-dhùin sinn Gabh ris an tagradh',
+      'emails.layoutRequest.subject' => 'Iarr na mòr-dhuilleagan',
+      'emails.layoutRequest.body' => '{$recipientName}:<br />
+<br />
+Tha an tagradh “{$submissionTitle}” airson {$contextName} feumach air obair co-dhealbhachd air na mòr-dhuilleagan a rèir nan ceuman a leanas.<br />
+1. Briog air URL an tagraidh gu h-ìosal.<br />
+2. Clàraich a-steach dhan iris-leabhar agus cleachd na faidhlichean a tha deiseil airson saothrachadh airson mòr-dhuilleagan a chruthachadh a rèir riaghailtean an iris-leabhair.<br />
+3. Luchdaich na mòr-dhuilleagan suas gu earrann faidhlichean nam mòr-dhuilleag.<br />
+4. Cuir fios chun an deasaiche gun deach na mhòr-dhuilleaganan a luchdadh suas is deiseil slighe nan deasbadan saothrachaidh.<br />
+<br />
+URL {$contextName}: {$contextUrl}<br />
+URL an tagraidh: {$submissionUrl}<br />
+Ainm-cleachdaiche: {$recipientUsername}<br />
+<br />
+Mur urrainn dhut an obair seo a dhèanamh an-dràsta fhèin no ma tha ceist sam bith agad, cuir fios thugam. Mòran taing airson taic a chumail ris an iris-leabhar seo.',
+      'emails.layoutComplete.subject' => 'Tha na mòr-dhuilleagan deiseil',
+      'emails.layoutComplete.body' => '{$recipientName}:<br />
+<br />
+Chaidh na mòr-dhuilleagan a dheasachadh airson na sgrìobhainn a-nis, “{$submissionTitle},” airson {$contextName} agus tha iad deiseil airson dearbh-leughadh.<br />
+<br />
+Ma tha ceist sam bith agad, cuir fios thugam.<br />
+<br />
+{$senderName}',
+      'emails.emailLink.subject' => 'Artaigeal sam bi ùidh ma dh’fhaoidte',
+      'emails.emailLink.body' => 'Shaoil leam gum biodh ùigh agad ann an “{$submissionTitle}” le {$authors} a chaidh fhoillseachadh ann an leabhar {$volume}, àireamh {$number} ({$year}) de {$contextName} aig “{$submissionUrl}”.',
+      'emails.emailLink.description' => 'Tha an teamplaid puist-d seo a’ toirt cothrom do leughadair clàraichte fiosrachadh mu dhèidhinn artaigil a chur do chuideigin aig am bi ùidh ann ma dh’fhaoidte. Tha e ri fhaighinn slighe nan innealan leughaidh agus feumaidh manaidsearan an iris-leabhair a chur an comas air duilleag rianachd nan innealan leughaidh.',
+      'emails.subscriptionNotify.subject' => 'Brath mu fho-sgrìobhadh',
+      'emails.subscriptionNotify.body' => '{$recipientName}:<br />
+<br />
+Chaidh do chlàradh mar fho-sgrìobhaiche aig siostam stiùireadh an iris-leabhair againn airson {$contextName} fon fho-sgrìobhadh a leanas:<br />
+<br />
+{$subscriptionType}<br />
+<br />
+Airson cothrom fhaighinn air susbaint nach fhaigh ach daoine le fo-sgrìobhadh, clàraich a-steach dhan t-siostam leis an ainm-chleachdaiche agad, “{$recipientUsername}”.<br />
+<br />
+Turas a chlàraich thu a-steach dhan t-siostam, is urrainn dhut mion-fhiosrachadh na pròifil agus am facal-faire agad atharrachadh uair sam bith.<br />
+<br />
+Thoir an aire nach fheum luchd-cleachdaidh san institiuid agad clàradh a-steach mas e fo-sgrìobhadh institiuide a tha agaibh oir thèid iarrtasan airson susbaint fo-sgrìobhaidh a dhearbhadh gu fèin-obrachail leis an t-siostam.<br />
+<br />
+Ma tha ceist sam bith agad, cuir fios thugam.<br />
+<br />
+{$subscriptionSignature}',
+      'emails.openAccessNotify.subject' => 'Tha inntrigeadh fosgailte dhan iris a-nis',
+      'emails.openAccessNotify.body' => 'Leughadairean:<br />
+<br />
+Tha {$contextName} dìreach air an iris a leanas a chur ri làimh gu saor. Tha sinn a’ cur fàilte ort sùil a thoirt air a’ chlàr-innse an-seo agus a thadhal air an làrach-lìn againn ({$contextUrl}) an uairsin airson sùil a thoirt air artaigealan is rudan eile a dh’fhaodadh a bhith inntinneach dhut.<br />
+<br />
+Mòran taing airson sìor ùidh a nochdadh nar n-obair,<br />
+{$contextSignature}',
+      'emails.subscriptionBeforeExpiry.subject' => 'Rabhadh gum falbh an ùine air fo-sgrìobhadh',
+      'emails.subscriptionBeforeExpiry.body' => '{$recipientName}:<br />
+<br />
+Tha an ùine gu bhith falbh air an fho-sgrìobhadh agad dhe {$contextName}.<br />
+<br />
+{$subscriptionType}<br />
+Falbhaidh an ùine air: {$expiryDate}<br />
+<br />
+A dhèanamh cinnteach gum bi sìor chothrom agad air an iris-leabhar seo, tadhail air làrach-lìn an iris-leabhair agus ath-nuadhaich am fo-sgrìobhadh agad. ’S urrainn dhut clàradh a-steach dhan t-siostam leis an ainm-chleachdaiche agad, “{$recipientUsername}”.<br />
+<br />
+Ma tha ceist sam bith agad, cuir fios thugam.<br />
+<br />
+{$subscriptionSignature}',
+      'emails.subscriptionAfterExpiry.subject' => 'Dh\'fhalbh an ùine air an fho-sgrìobhadh',
+      'emails.subscriptionAfterExpiry.body' => '{$recipientName}:<br />
+<br />
+Dh’fhalbh an ùine air an fho-sgrìobhadh agad dhe {$contextName}.<br />
+<br />
+{$subscriptionType}<br />
+Falbhaidh an ùine air: {$expiryDate}<br />
+<br />
+Tadhail air làrach-lìn an iris-leabhair a dh’ath-nuadhachadh an fho-sgrìobhaidh agad. ’S urrainn dhut clàradh a-steach dhan t-siostan leis an ainm-chleachdaiche agad, “{$recipientUsername}”.<br />
+<br />
+Ma tha ceist sam bith agad, cuir fios thugam.<br />
+<br />
+{$subscriptionSignature}',
+      'emails.subscriptionAfterExpiryLast.subject' => 'Fo-sgrìobhadh air an do dh’fhalbh an ùine – Cuimhneachan mu dheireadh',
+      'emails.subscriptionAfterExpiryLast.body' => '{$recipientName}:<br />
+<br />
+Dh’fhalbh an ùine air an fho-sgrìobhadh agad dhe {$contextName}.<br />
+Thoir an aire gur e seo an cuimhneachan mu dheireadh a gheibh thu air a’ phost-d.<br />
+<br />
+{$subscriptionType}<br />
+Falbhaidh an ùine air: {$expiryDate}<br />
+<br />
+Tadhail air làrach-lìn an iris-leabhair a dh’ath-nuadhachadh an fho-sgrìobhaidh agad. ’S urrainn dhut clàradh a-steach dhan t-siostam leis an ainm-chleachdaiche agad, “{$recipientUsername}”.<br />
+<br />
+Ma tha ceist sam bith agad, cuir fios thugam.<br />
+<br />
+{$subscriptionSignature}',
+      'emails.subscriptionPurchaseIndl.subject' => 'Ceannach an fho-sgrìobhaidh: Fo-sgrìobhadh neach fa leth',
+      'emails.subscriptionPurchaseIndl.body' => 'Chaidh fo-sgrìobhadh neach fa leth a cheannach air loidhne airson {$contextName} leis a’ mhion-fhiosrachadh a leanas.<br />
+<br />
+Seòrsa an fho-sgrìobhaidh:<br />
+{$subscriptionType}<br />
+<br />
+An cleachdaiche:<br />
+{$subscriberDetails}<br />
+<br />
+Fiosrachadh na ballrachd (ma chaidh sin a thoirt seachad):<br />
+{$membership}<br />
+<br />
+Cleachd an URL a leanas a choimhead air an fho-sgrìobhadh seo no airson a dheasachadh.<br />
+<br />
+URL an fho-sgrìobhaidh: {$subscriptionUrl}<br/>
+',
+      'emails.subscriptionPurchaseInstl.subject' => 'Ceannach an fho-sgrìobhaidh: Fo-sgrìobhadh institiuide',
+      'emails.subscriptionPurchaseInstl.body' => 'Chaidh fo-sgrìobhadh institiuide a cheannach air loidhne airson {$contextName} leis a’ mhion-fhiosrachadh a leanas. Airson am fo-sgrìobhadh seo a chur an gnìomh, cleachd an URL fo-sgrìobhaidh a thug sinn dhut agus tagh “Gnìomhach” mar staid an fho-sgrìobhaidh.<br />
+<br />
+Seòrsa an fho-sgrìobhaidh:<br />
+{$subscriptionType}<br />
+<br />
+An institiuid:<br />
+{$institutionName}<br />
+{$institutionMailingAddress}<br />
+<br />
+An àrainn (ma chaidh sin a thoirt seachad):<br />
+{$domain}<br />
+<br />
+Na rainsean IP (ma chaidh iad a thoirt seachad):<br />
+{$ipRanges}<br />
+<br />
+Neach-conaltraidh:<br />
+{$subscriberDetails}<br />
+<br />
+Fiosrachadh na ballrachd (ma chaidh sin a thoirt seachad):<br />
+{$membership}<br />
+<br />
+Cleachd an URL a leanas a choimhead air an fho-sgrìobhadh seo no airson a dheasachadh.<br />
+<br />
+URL an fho-sgrìobhaidh: {$subscriptionUrl}<br/>
+',
+      'emails.subscriptionRenewIndl.subject' => 'Ath-nuadhachadh an fho-sgrìobhaidh: Fo-sgrìobhadh neach fa leth',
+      'emails.subscriptionRenewIndl.body' => 'Chaidh fo-sgrìobhadh neach fa leth ath-nuadhachadh air loidhne airson {$contextName} leis a’ mhion-fhiosrachadh a leanas.<br />
+<br />
+Seòrsa an fho-sgrìobhaidh:<br />
+{$subscriptionType}<br />
+<br />
+An cleachdaiche:<br />
+{$subscriberDetails}<br />
+<br />
+Fiosrachadh na ballrachd (ma chaidh sin a thoirt seachad):<br />
+{$membership}<br />
+<br />
+Cleachd an URL a leanas a choimhead air an fho-sgrìobhadh seo no airson a dheasachadh.<br />
+<br />
+URL an fho-sgrìobhaidh: {$subscriptionUrl}<br/>
+',
+      'emails.subscriptionRenewInstl.subject' => 'Ath-nuadhachadh an fho-sgrìobhaidh: Fo-sgrìobhadh institiuide',
+      'emails.subscriptionRenewInstl.body' => 'Chaidh fo-sgrìobhadh institiuide ath-nuadhachadh air loidhne airson {$contextName} leis a’ mhion-fhiosrachadh a leanas.<br />
+<br />
+Seòrsa an fho-sgrìobhaidh:<br />
+{$subscriptionType}<br />
+<br />
+An institiuid:<br />
+{$institutionName}<br />
+{$institutionMailingAddress}<br />
+<br />
+An àrainn (ma chaidh sin a thoirt seachad):<br />
+{$domain}<br />
+<br />
+Na rainsean IP (ma chaidh iad a thoirt seachad):<br />
+{$ipRanges}<br />
+<br />
+Neach-conaltraidh:<br />
+{$subscriberDetails}<br />
+<br />
+Fiosrachadh na ballrachd (ma chaidh sin a thoirt seachad):<br />
+{$membership}<br />
+<br />
+Cleachd an URL a leanas a choimhead air an fho-sgrìobhadh seo no airson a dheasachadh.<br />
+<br />
+URL an fho-sgrìobhaidh: {$subscriptionUrl}<br/>
+',
+      'emails.revisedVersionNotify.subject' => 'Chaidh tionndadh lèirmheaste a luchdadh suas',
+      'emails.revisedVersionNotify.body' => 'Deasaichean:<br />
+<br />
+Chaidh tionndadh lèirmheaste de &quot;{$submissionTitle}&quot; a luchdadh suas leis an ùghdar {$submitterName}.<br />
+<br />
+URL an tagraidh: {$submissionUrl}<br />
+<br />
+{$signature}',
+      'emails.statisticsReportNotification.subject' => 'Gnìomhachd deasachaidh sa mhìos seo: {$month} {$year}',
+      'emails.statisticsReportNotification.body' => '
+{$recipientName}, <br />
+<br />
+Tha aithisg slàinte an iris-leabhair agad sa mhìos seo ri fhaighinn a-nis: {$month} {$year}. Tha prìomh-stats a’ mhìos seo gu h-ìosal dhut.<br />
+<ul>
+	<li>Tagraidhean ùra am mìos seo: {$newSubmissions}</li>
+	<li>Tagraidhean a chaidh a dhiùltadh am mìos seo: {$declinedSubmissions}</li>
+	<li>Tagraidhean a chaidh gabhail riutha am mìos seo: {$acceptedSubmissions}</li>
+	<li>Tagraidhean san t-siostam uile gu lèir: {$totalSubmissions}</li>
+</ul>
+Clàraich a-steach dhan iris-leabhar airson barrachd fiosrachaidh mu na <a href="{$editorialStatsLink}">treandaichean deasachaidh</a> agus <a href="{$publicationStatsLink}">stats nan artaigealan a chaidh fhoillseachadh</a>. Tha lethbhreac slàn de threandaichean deasachaidh a’ mhìos seo an cois seo.<br />
+<br />
+Le deagh dhùrachd,<br />
+{$contextSignature}',
+      'emails.announcement.subject' => '{$announcementTitle}',
+      'emails.announcement.body' => '<b>{$announcementTitle}</b><br />
+<br />
+{$announcementSummary}<br />
+<br />
+Tadhail air an làrach-lìn againn is leugh <a href="{$announcementUrl}">am fios-naidheachd slàn</a>.',
+    ),
+  ),
+);

@@ -1,0 +1,51 @@
+<?php $exp = 1719826185; $val = array (
+  'PKP\\observers\\events\\SubmissionSubmitted' => 
+  array (
+    0 => 'PKP\\observers\\listeners\\UpdateAuthorStageAssignments@handle',
+    1 => 'PKP\\observers\\listeners\\AssignEditors@handle',
+    2 => 'PKP\\observers\\listeners\\RestrictAuthorAssignment@handle',
+    3 => 'PKP\\observers\\listeners\\LogSubmissionSubmitted@handle',
+    4 => 'APP\\observers\\listeners\\SendSubmissionAcknowledgement@handle',
+  ),
+  'PKP\\observers\\events\\BatchMetadataChanged' => 
+  array (
+    0 => 'PKP\\observers\\listeners\\BatchMetadataChangedListener@handle',
+  ),
+  'PKP\\observers\\events\\SubmissionDeleted' => 
+  array (
+    0 => 'PKP\\observers\\listeners\\RemoveSubmissionFromSearchIndex@handle',
+  ),
+  'PKP\\observers\\events\\PublicationUnpublished' => 
+  array (
+    0 => 'PKP\\observers\\listeners\\UpdateSubmissionInSearchIndex@handleUnpublished',
+  ),
+  'PKP\\observers\\events\\PublicationPublished' => 
+  array (
+    0 => 'PKP\\observers\\listeners\\UpdateSubmissionInSearchIndex@handlePublicationPublished',
+    1 => 'PKP\\observers\\listeners\\VersionDois@handlePublishedEvent',
+  ),
+  'PKP\\observers\\events\\MetadataChanged' => 
+  array (
+    0 => 'PKP\\observers\\listeners\\MetadataChangedListener@handle',
+  ),
+  'PKP\\observers\\events\\DecisionAdded' => 
+  array (
+    0 => 'PKP\\observers\\listeners\\AssignDOIs@handle',
+  ),
+  'APP\\observers\\events\\UsageEvent' => 
+  array (
+    0 => 'PKP\\observers\\listeners\\LogUsageEvent@handle',
+  ),
+  'PKP\\observers\\events\\SubmissionFileDeleted' => 
+  array (
+    0 => 'PKP\\observers\\listeners\\RemoveSubmissionFileFromSearchIndex@handle',
+  ),
+  'PKP\\observers\\events\\UserRegisteredContext' => 
+  array (
+    0 => 'PKP\\observers\\listeners\\ValidateRegisteredEmail@handleContextRegistration',
+  ),
+  'PKP\\observers\\events\\UserRegisteredSite' => 
+  array (
+    0 => 'PKP\\observers\\listeners\\ValidateRegisteredEmail@handleSiteRegistration',
+  ),
+);

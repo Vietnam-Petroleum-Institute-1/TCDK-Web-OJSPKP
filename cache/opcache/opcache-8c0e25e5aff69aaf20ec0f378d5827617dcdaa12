@@ -1,0 +1,32 @@
+<?php $exp = 1751345594; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'api.announcements.400.contextsNotMatched' => 'Den meddelelse, du søgte efter, er ikke en del af dette tidsskrift.',
+      'api.emails.403.disabled' => 'E-mail-notifikationen er ikke blevet aktiveret i forbindelse med dette tidsskrift.',
+      'api.submissions.400.wrongContext' => 'Den indsendelse, du anmodede om, findes ikke i dette tidsskrift.',
+      'api.submissions.403.cantChangeContext' => 'Du kan ikke ændre en indsendelses tidsskrift.',
+      'api.submissions.403.unpublishedIssues' => 'Du har ikke tilladelse til at se ikke-publicerede numre.',
+      'api.contexts.403.requestedDisabledContexts' => 'Du kan kun se tidsskrifter, der er aktiveret.',
+      'api.contexts.403.notAllowed' => 'Du har ikke tilladelse til at se dette tidsskrift.',
+      'api.contexts.403.contextsDidNotMatch' => 'Du kan ikke se eller redigere dette tidsskrift, medmindre du fremsender en anmodning til tidsskriftets API eller til hele webstedets API.',
+      'api.contexts.403.requiresContext' => 'Du kan ikke redigere dette tidsskrift via webstedets API.',
+      'api.contexts.403.notAllowedEdit' => 'Du har ikke tilladelse til at redigere dette tidsskrift.',
+      'api.contexts.403.notAllowedDelete' => 'Du har ikke tilladelse til at slette dette tidsskrift.',
+      'api.contexts.404.contextNotFound' => 'Det tidsskrift, du efterspurgte, blev ikke fundet.',
+      'api.dois.403.contextsNotMatched' => 'Den DOI, du anmodede om, er ikke en del af dette tidsskrift.',
+      'api.dois.400.noRegistrationAgencyConfigured' => 'Der er ikke blevet konfigureret en DOI registreringsorganistation for dette tidsskrift.',
+      'api.dois.400.depositFailed' => 'Nogle elementer blev ikke deponeret korrekt. Tjek venligst de individuelle elementer for at se deres specifikke fejlmeddelelser.',
+      'api.emailTemplates.403.notAllowedChangeContext' => 'Du har ikke tilladelse til at flytte denne e-mail-skabelon til et anden tidsskrift.',
+      'api._payments.400.invalidPaymentMethod' => 'Den valgte betalingsmetode understøttes ikke.',
+      'api.publications.403.contextsDidNotMatch' => 'Den publikation, du søgte, er ikke en del af dette tidsskrift.',
+      'api.publications.403.submissionsDidNotMatch' => 'Den publikation, du søgte, er ikke en del af denne indsendelse.',
+      'api.submissionFiles.400.badRepresentationAssocType' => 'Du kan ikke knytte en fil fra dette trin til en publiceringsversion.',
+      'api.submission.400.inactiveSection' => 'Denne sektion modtager ikke længere indsendelser.',
+      'api.dois.400.contextsNotMatched' => 'Den DOI, du anmodede om, er ikke en del af dette tidsskrift.',
+    ),
+  ),
+);

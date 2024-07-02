@@ -1,0 +1,37 @@
+<?php $exp = 1751345599; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=1; plural=0;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'metadata.property.displayName.author' => '作者',
+      'metadata.property.displayName.date' => '出版日期',
+      'metadata.property.displayName.issue' => '期數',
+      'metadata.property.displayName.volume' => '卷號',
+      'metadata.property.displayName.fpage' => '第一頁',
+      'metadata.property.displayName.lpage' => '末頁',
+      'metadata.property.displayName.size' => '頁數',
+      'metadata.property.displayName.publisher-loc' => '出版地',
+      'metadata.property.displayName.isbn' => 'ISBN',
+      'submission.authors' => '作者',
+      'submission.authorBiography' => '作者簡介',
+      'submission.authorBiographies' => '作者簡介',
+      'submission.downloads' => '下載',
+      'submission.dueDate' => '到期日',
+      'submission.status.published' => '出版日期',
+      'submission.permissions' => '許可',
+      'submission.license' => '授權條款',
+      'submission.copyright' => '版權',
+      'submission.licenseURL' => '授權條款網址',
+      'submission.license.cc.by-nc-nd4' => 'CC Attribution-NonCommercial-NoDerivatives 4.0',
+      'submission.license.cc.by-nc4' => 'CC Attribution-NonCommercial 4.0',
+      'submission.license.cc.by-nc-sa4' => 'CC Attribution-NonCommercial-ShareAlike 4.0',
+      'submission.license.cc.by-nd4' => 'CC Attribution-NoDerivatives 4.0',
+      'submission.license.cc.by4' => 'CC Attribution 4.0',
+      'submission.license.cc.by-sa4' => 'CC Attribution-ShareAlike 4.0',
+      'publication.publicationLicense' => '許可及披露',
+      'submission.submissionFile' => '投稿檔案',
+    ),
+  ),
+);

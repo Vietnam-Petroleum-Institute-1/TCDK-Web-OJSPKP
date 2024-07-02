@@ -1,0 +1,34 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.themes.default.name' => 'Tema di default',
+      'plugins.themes.default.description' => 'Questo tema è il tema di default.',
+      'plugins.themes.default.option.typography.label' => 'I fonts',
+      'plugins.themes.default.option.typography.description' => 'Scegli una combinazione di font the vada bene per questa rivista.',
+      'plugins.themes.default.option.typography.notoSans' => 'Noto Sans: Un font digital-native font fatto da Google con un esteso supporto linguistico.',
+      'plugins.themes.default.option.typography.notoSerif' => 'Noto Serif: Una variante serif delle fonts native di Google.',
+      'plugins.themes.default.option.typography.notoSerif_notoSans' => 'Noto Serif/Noto Sans: Una coppia complementare con testate serif e corpo sans-serif.',
+      'plugins.themes.default.option.typography.notoSans_notoSerif' => 'Noto Sans/Noto Serif: Una coppia complementare con testate sans-serif e corpo serif.',
+      'plugins.themes.default.option.typography.lato' => 'Lato: un popolare font sans-serif.',
+      'plugins.themes.default.option.typography.lora' => 'Lora: Un vasto font serif  buono per leggere online.',
+      'plugins.themes.default.option.typography.lora_openSans' => 'Lora/Open Sans: Una coppia complementare con testate serif e corpo sans-serif.',
+      'plugins.themes.default.option.colour.label' => 'Colore',
+      'plugins.themes.default.option.colour.description' => 'Scegli un colore per l\'intestazione.',
+      'plugins.themes.default.option.showDescriptionInJournalIndex.option' => 'Mostra il sommario della rivista nella homepage.',
+      'plugins.themes.default.option.useHomepageImageAsHeader.label' => 'Immagine di sfondo dell\'intestazione',
+      'plugins.themes.default.option.useHomepageImageAsHeader.description' => 'Quando l\'immagine della pagina di inizio è stata caricata, visualizzarla nello sfondo dell\'intestazione anziché nella sua posizione abituale sulla pagina di inizio.',
+      'plugins.themes.default.option.useHomepageImageAsHeader.option' => 'Visualizza l\'immagine della pagina di inizio come sfondo dell\'intestazione.',
+      'plugins.themes.default.option.displayStats.label' => 'Opzioni di visualizzazione delle statistiche d\'uso',
+      'plugins.themes.default.option.displayStats.none' => 'Non mostrare il grafico delle statistiche d\'uso della proposta per il lettore.',
+      'plugins.themes.default.option.displayStats.bar' => 'Usa il grafico a barre per la visualizzazione delle statistiche d\'uso.',
+      'plugins.themes.default.option.displayStats.line' => 'Usa il grafico a linee per la visualizzazione delle statistiche d\'uso.',
+      'plugins.themes.default.displayStats.monthInitials' => 'Gen Feb Mar Apr Mag Giu Lug Ago Set Ott Nov Dic',
+      'plugins.themes.default.displayStats.downloads' => 'Downloads',
+      'plugins.themes.default.displayStats.noStats' => 'La data di download non è ancora disponibile.',
+    ),
+  ),
+);

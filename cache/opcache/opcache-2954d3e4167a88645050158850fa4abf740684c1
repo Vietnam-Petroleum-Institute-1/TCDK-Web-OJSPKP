@@ -1,0 +1,32 @@
+<?php $exp = 1751345599; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=1; plural=0;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.citationStyleLanguage.style.acs-nano' => 'ACS',
+      'plugins.generic.citationStyleLanguage.settings.publisherLocation.description' => 'Một số định dạng trích dẫn yêu cầu vị trí địa lý của nhà xuất bản, chẳng hạn như "London, U.K".',
+      'plugins.generic.citationStyleLanguage.settings.publisherLocation' => 'Vị trí nhà xuất bản',
+      'plugins.generic.citationStyleLanguage.settings.citationFormatsPrimaryDescription' => 'Chọn định dạng trích dẫn bạn muốn hiển thị theo mặc định trên trang đích bài viết của bạn.',
+      'plugins.generic.citationStyleLanguage.settings.citationFormatsPrimary' => 'Định dạng trích dẫn chính',
+      'plugins.generic.citationStyleLanguage.settings.citationFormatsDescription' => 'Chọn định dạng bổ sung mà bạn muốn cung cấp cho độc giả của bạn.',
+      'plugins.generic.citationStyleLanguage.settings.citationFormats' => 'Định dạng trích dẫn bổ sung',
+      'plugins.generic.citationStyleLanguage.settings.citationDownloadsDescription' => 'Chọn định dạng có thể tải xuống mà bạn muốn cung cấp cho độc giả của mình. Các định dạng có thể tải xuống thường được sử dụng để nhập vào phần mềm quản lý tài liệu tham khảo của bên thứ ba, như EndNote hoặc Zotero.',
+      'plugins.generic.citationStyleLanguage.settings.citationDownloads' => 'Các định dạng có thể tải xuống',
+      'plugins.generic.citationStyleLanguage.download.ris' => 'Kiểu Endnote/Zotero/Mendeley (RIS)',
+      'plugins.generic.citationStyleLanguage.download.bibtex' => 'BibTex',
+      'plugins.generic.citationStyleLanguage.style.vancouver' => 'Kiểu Vancouver',
+      'plugins.generic.citationStyleLanguage.style.turabian-fullnote-bibliography' => 'Kiểu Turabian',
+      'plugins.generic.citationStyleLanguage.style.modern-language-association' => 'MLA',
+      'plugins.generic.citationStyleLanguage.style.ieee' => 'IEEE',
+      'plugins.generic.citationStyleLanguage.style.harvard-cite-them-right' => 'Kiểu Harvard',
+      'plugins.generic.citationStyleLanguage.style.chicago-author-date' => 'Chicago',
+      'plugins.generic.citationStyleLanguage.style.associacao-brasileira-de-normas-tecnicas' => 'ABNT',
+      'plugins.generic.citationStyleLanguage.style.apa' => 'APA',
+      'plugins.generic.citationStyleLanguage.style.acm-sig-proceedings' => 'ACM',
+      'plugins.generic.citationStyleLanguage.description' => 'Cho phép người đọc nhận được trích dẫn của một bài báo được xuất bản ở một trong một số định dạng được hỗ trợ bởi kiểu Ngôn ngữ trích dẫn.',
+      'plugins.generic.citationStyleLanguage.displayName' => 'Ngôn ngữ kiểu trích dẫn',
+    ),
+  ),
+);

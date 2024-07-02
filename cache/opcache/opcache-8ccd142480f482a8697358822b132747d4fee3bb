@@ -1,0 +1,30 @@
+<?php $exp = 1751345595; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.staticPages.displayName' => 'Διαχείριση Στατικών Σελίδων',
+      'plugins.generic.staticPages.description' => 'Αυτό το Πρόσθετο επιτρέπει τη δημιουργία και διαχείριση στατικών σελίδων.',
+      'plugins.generic.staticPages.staticPages' => 'Στατικές Σελίδες',
+      'plugins.generic.staticPages.pageTitle' => 'Τίτλος',
+      'plugins.generic.staticPages.content' => 'Περιεχόμενο',
+      'plugins.generic.staticPages.path' => 'Διαδρομή',
+      'plugins.generic.staticPages.requirement.tinymce' => '<strong>Θα πρέπει να εγκατασταθεί και ενεργοποιηθεί το TinyMCE Plugin για να είναι δυνατή η προσθήκη/επεξεργασία του περιεχομένου.</strong>',
+      'plugins.generic.staticPages.editAddContent' => 'Προσθήκη/επεξεργασία περιεχομένου',
+      'plugins.generic.staticPages.addStaticPage' => 'Προσθήκη στατικής σελίδας',
+      'plugins.generic.staticPages.addNewPage' => 'Προσθήκη νέας σελίδας',
+      'plugins.generic.staticPages.editStaticPage' => 'Επεξεργασία στατικής σελίδας',
+      'plugins.generic.staticPages.noneCreated' => 'Δεν έχουν δημιουργηθεί στατικές σελίδες.',
+      'plugins.generic.staticPages.settingInstructions' => 'Η παρακάτω φόρμα παρουσίαζει όλες τις στατικές σελίδες που έχετε δημιουργήσει. Μπορείτε να επεξεργαστείτε ή διαγράψετε τις σελίδες χρησιμοποιώντας τους συνδέσμους στη δεξιά πλευρά.',
+      'plugins.generic.staticPages.editInstructions' => 'Χρησιμοποιήστε την παρακάτω φόρμα για την προσθήκη/επεξεργασία του περιεχομένου μιας στατικής σελίδας.',
+      'plugins.generic.staticPages.pathRegEx' => 'Το πεδίο της διαδρομής πρέπει να περιλαμβάνει μόνο αλφαριθμητικούς χαρακτήρες ή \'.\', \'/\', \'-\', και \'_\'.',
+      'plugins.generic.staticPages.viewInstructions' => '<p>Η σελίδα αυτή θα είναι διαθέσιμη στο: <blockquote>{$pagesPath}</blockquote>...όπου %PATH% είναι η διαδρομή που εισάγατε προηγουμένως. <strong>Σημείωση:</strong> Δεν δύναται 2 σείδες να έχουν την ίδια διαδρομή.</p>',
+      'plugins.generic.staticPages.duplicatePath' => 'Αυτή η διαδρομή (path) χρησιμοποιείται ήδη από άλλη στατική σελίδα.',
+      'plugins.generic.staticPages.pageSaved' => 'Η σελίδα αποθηκεύτηκε με επιτυχία.',
+      'plugins.generic.staticPages.pageDeleted' => 'Η σελίδα διαγράφηκε με επιτυχία.',
+      'plugins.generic.staticPages.noneExist' => 'Δεν έχουν δημιουργηθεί στατικές σελίδες.',
+    ),
+  ),
+);

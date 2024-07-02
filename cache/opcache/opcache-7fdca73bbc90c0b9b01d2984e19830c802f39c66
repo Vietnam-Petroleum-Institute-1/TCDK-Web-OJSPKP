@@ -1,0 +1,18 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.googleAnalytics.authorAccountInvalid' => 'Un ou máis números de conta de Google Analytics introducidos para o envío non son válidos.',
+      'plugins.generic.googleAnalytics.authorAccount.description' => 'Para facer un seguimento dos lectores dos artigos publicados mediante Google Analytics, introduza o número de conta aquí (por exemplo, UA-xxxxxx-x).',
+      'plugins.generic.googleAnalytics.authorAccount' => 'Número da conta de Google Analytics',
+      'plugins.generic.googleAnalytics.manager.settings.googleAnalyticsSiteIdRequired' => 'Insira un número de conta.',
+      'plugins.generic.googleAnalytics.manager.settings.googleAnalyticsSiteId' => 'Número da conta',
+      'plugins.generic.googleAnalytics.manager.settings.description' => '<p>Con este complemento activado pódese usar Google Analytics para recoller e analizar o uso e o tráfico do sitio web. Ten en conta que este complemento require que xa configurases unha conta de Google Analytics. Consulte o <a href="http://www.google.com/analytics/" title="Sitio de Google Analytics">Sitio de Google Analytics</a> para obter máis información.</p><p>Ten en conta que Google Analytics pode requirir ata 24 horas antes de que se recollan e informen as estatísticas. Durante este período, é posible que a función "Comprobar estado" non informe con precisión se detectou o código de seguimento requirido.</p>',
+      'plugins.generic.googleAnalytics.description' => 'Integra OJS con Google Analytics, a aplicación de análise de tráfico do sitio web de Google. Require que xa configurase unha conta de Google Analytics. Consulte o <a href="http://www.google.com/analytics/" title="sitio de Google Analytics"> sitio de Google Analytics</a> para obter máis información.',
+      'plugins.generic.googleAnalytics.displayName' => 'Complemento de Google Analytics',
+    ),
+  ),
+);

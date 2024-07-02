@@ -1,0 +1,12 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.lensGalley.description' => 'Vtičnik omogoča prikaz JATS XML prelomov s pomočjo eLife Lens.',
+      'plugins.generic.lensGalley.displayName' => 'eLife Lens prikazovalni vtičnik',
+    ),
+  ),
+);

@@ -1,0 +1,14 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.recommendByAuthor.displayName' => 'Preporuke autora',
+      'plugins.generic.recommendByAuthor.description' => 'Ovaj dodatak ubacuje listu članaka istog autora na stranicu apstrakta članka.',
+      'plugins.generic.recommendByAuthor.heading' => 'Najčitanije od istog autora',
+      'plugins.generic.recommendByAuthor.noMetric' => 'Napomena: Ovaj dodatak zahteva najmanje jedan omogućen dodatak za statistiku/izveštaje. Ukoliko imate više statističkih dodataka koji pružaju više metrika odaberite koji će biti osnovni na administratorskoj stranici i/ili na stranici podešavanja samog časopisa.',
+    ),
+  ),
+);

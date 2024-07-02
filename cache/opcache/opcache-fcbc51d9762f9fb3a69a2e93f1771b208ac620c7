@@ -1,0 +1,74 @@
+<?php $exp = 1751345599; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=1; plural=0;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'installer.additionalLocales' => 'Ngôn ngữ bổ sung',
+      'installer.administratorAccount' => 'Tài khoản Quản trị viên',
+      'installer.administratorAccountInstructions' => 'Tài khoản người dùng này sẽ trở thành quản trị viên trang web và có toàn quyền truy cập vào hệ thống. Tài khoản người dùng bổ sung có thể được tạo sau khi cài đặt.',
+      'installer.checkNo' => '<span class="pkp_form_error formError">KHÔNG</span>',
+      'installer.checkYes' => 'Đúng',
+      'installer.configFileError' => 'Tệp cấu hình <tt> config.inc.php </tt> không tồn tại hoặc không thể đọc được.',
+      'installer.connectionCharset' => 'Bộ ký tự kết nối',
+      'installer.contentsOfConfigFile' => 'Nội dung của tệp cấu hình',
+      'installer.databaseDriver' => 'Trình điều khiển cơ sở dữ liệu',
+      'installer.databaseDriverInstructions' => '<strong> Trình điều khiển cơ sở dữ liệu được liệt kê trong dấu ngoặc dường như không được tải tiện ích mở rộng PHP bắt buộc và cài đặt có thể sẽ không thành công nếu được chọn. </strong> <br /> Mọi trình điều khiển cơ sở dữ liệu không được hỗ trợ được liệt kê ở trên chỉ được liệt kê cho mục đích học thuật và không có khả năng công việc.',
+      'installer.databaseHost' => 'Máy chủ',
+      'installer.databaseHostInstructions' => 'Để trống tên máy chủ để kết nối bằng ổ cắm miền thay vì qua TCP / IP. Điều này là không cần thiết với MySQL, nó sẽ tự động sử dụng socket nếu "localhost" được nhập, nhưng bắt buộc với một số máy chủ cơ sở dữ liệu khác như PostgreSQL.',
+      'installer.databaseName' => 'Tên cơ sở dữ liệu',
+      'installer.databasePassword' => 'Mật khẩu',
+      'installer.databaseSettings' => 'Cài đặt Cơ sở dữ liệu',
+      'installer.databaseUsername' => 'Tên-người-dùng',
+      'installer.filesDir' => 'Thư mục để tải lên',
+      'installer.fileSettings' => 'Cài đặt Tập tin',
+      'installer.form.clientCharsetRequired' => 'Một bộ ký tự khách hàng phải được chọn.',
+      'installer.form.databaseDriverRequired' => 'Một trình điều khiển cơ sở dữ liệu phải được chọn.',
+      'installer.form.databaseNameRequired' => 'Tên cơ sở dữ liệu là bắt buộc.',
+      'installer.form.emailRequired' => 'Địa chỉ email hợp lệ cho tài khoản quản trị viên là bắt buộc.',
+      'installer.form.filesDirRequired' => 'Thư mục được sử dụng để lưu trữ các tệp đã tải lên là bắt buộc.',
+      'installer.form.localeRequired' => 'Một ngôn ngữ phải được chọn.',
+      'installer.form.passwordRequired' => 'Mật khẩu cho tài khoản quản trị viên là bắt buộc.',
+      'installer.form.passwordsDoNotMatch' => 'Mật khẩu quản trị viên không khớp.',
+      'installer.form.separateMultiple' => 'Phân tách nhiều giá trị bằng dấu phẩy',
+      'installer.form.usernameAlphaNumeric' => 'Tên người dùng quản trị viên chỉ có thể chứa các ký tự chữ và số, dấu gạch dưới và dấu gạch nối, đồng thời phải bắt đầu và kết thúc bằng ký tự chữ và số.',
+      'installer.form.usernameRequired' => 'Tên người dùng cho tài khoản quản trị viên là bắt buộc.',
+      'installer.installationWrongPhp' => '<br/> <strong> CẢNH BÁO: Phiên bản PHP hiện tại của bạn không đáp ứng các yêu cầu tối thiểu để cài đặt. Bạn nên nâng cấp lên phiên bản PHP mới hơn. </strong>',
+      'installer.installErrorsOccurred' => 'Đã xảy ra lỗi trong khi cài đặt',
+      'installer.installerSQLStatements' => 'Câu lệnh SQL để cài đặt',
+      'installer.installFileError' => 'Tệp cài đặt <tt> dbscripts/xml/install.xml </tt> không tồn tại hoặc không thể đọc được.',
+      'installer.installFilesDirError' => 'Thư mục được chỉ định cho các tệp đã tải lên không tồn tại hoặc không thể ghi được.',
+      'installer.installParseDBFileError' => 'Lỗi phân tích cú pháp tệp cài đặt cơ sở dữ liệu <tt> {$file} </tt>.',
+      'installer.installParseEmailTemplatesFileError' => 'Lỗi phân tích cú pháp tệp mẫu email <tt> {$file} </tt>.',
+      'installer.installParseFilterConfigFileError' => 'Lỗi phân tích cú pháp tệp cấu hình bộ lọc <tt> {$file} </tt>.',
+      'installer.unsupportedUpgradeError' => 'Nâng cấp không được hỗ trợ. Xem docs/UPGRADE-UNSUPPORTED để biết thêm chi tiết.',
+      'installer.locale' => 'Ngôn ngữ',
+      'installer.locale.maybeIncomplete' => 'Các ngôn ngữ được đánh dấu có thể không đầy đủ.',
+      'installer.localeSettings' => 'Cài đặt ngôn ngữ',
+      'installer.oaiSettings' => 'Cài đặt OAI',
+      'installer.oaiRepositoryIdInstructions' => 'Một số nhận dạng duy nhất được sử dụng để xác định các bản ghi siêu dữ liệu được lập chỉ mục từ trang web này bằng cách sử dụng Giao thức <a href="https://www.openarchives.org/" target="_blank"> Sáng kiến lưu trữ mở </a> để thu thập siêu dữ liệu.',
+      'installer.oaiRepositoryId' => 'Định danh kho lưu trữ',
+      'installer.publicFilesDirError' => 'Thư mục tệp công khai không tồn tại hoặc không thể ghi.',
+      'installer.releaseNotes' => 'Ghi chú phát hành',
+      'installer.preInstallationInstructionsTitle' => 'Các bước cài đặt trước',
+      'installer.preInstallationInstructions' => '
+		<p> 1. Các tệp và thư mục sau (và nội dung của chúng) phải có thể ghi được: </p>
+<ul>
+<li> <tt> config.inc.php </tt> có thể ghi (tùy chọn): {$ writeable_config} </li>
+<li> <tt> public / </tt> có thể ghi: {$ writeable_public} </li>
+<li> <tt> cache / </tt> có thể ghi: {$ writeable_cache} </li>
+<li> <tt> cache / t_cache / </tt> có thể ghi: {$ writeable_templates_cache} </li>
+<li> <tt> cache / t_compile / </tt> có thể ghi: {$ writeable_templates_compile} </li>
+<li> <tt> cache / _db </tt> có thể ghi được: {$ writeable_db_cache} </li>
+</ul>
+
+<p> 2. Thư mục để lưu trữ các tệp đã tải lên phải được tạo và có thể ghi được (xem "Cài đặt tệp" bên dưới). </p>
+	',
+      'installer.configureXSLMessage' => '<p> Cài đặt PHP của bạn chưa bật mô-đun XSL. Bật nó lên hoặc định cấu hình tham số xslt_command trong tệp config.inc.php của bạn. </p>',
+      'installer.beacon' => 'Beacon (dẫn đường)',
+      'installer.beacon.enable' => 'Cung cấp ID trang web duy nhất và URL cơ sở OAI cho PKP chỉ cho mục đích thống kê và cảnh báo bảo mật.',
+      'installer.unsupportedPhpError' => 'Phiên bản PHP của máy chủ của bạn không được phần mềm này hỗ trợ. Kiểm tra kỹ các yêu cầu cài đặt trong docs/README.',
+    ),
+  ),
+);

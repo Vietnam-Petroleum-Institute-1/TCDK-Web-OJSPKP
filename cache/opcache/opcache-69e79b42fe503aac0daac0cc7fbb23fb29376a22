@@ -1,0 +1,33 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.importexport.datacite.displayName' => 'Vtičnik za DataCite izvoz/registracijo',
+      'plugins.importexport.datacite.description' => 'Izvozi ali registrira metapodatke številke, prispeveke, prelome in dodatnih datotek v DataCite obliki.',
+      'plugins.importexport.datacite.settings.description' => 'Pred prvo uporabo prosimo nastavite DataCite vtičnik.',
+      'plugins.importexport.datacite.intro' => '
+		Če želite registrirati DOI-je pri DataCite, kontaktirajte upravljalskega agenta na <a href="https://datacite.org/contact.html" target="_blank">DataCite
+		domači strani</a>, ki vas bo napotil na vašega lokalnega člana DataCite. Ko boste uredili članstvo v
+		organizaciji, boste dobili podatke za pripravo javnih identifikatorjev (DOI) in registracijo pripadajočih metapodatkov. Če nimate svojega uporabniškega imena in gesla, lahko še vedno izvozite podatke v 
+		DataCite XML obliki, ne morete pa registrirati DOI-je pri DataCite direktno iz OJS.
+		Prosimo, da upoštevate, da bo geslo shranjeno kot prosto besedilo, torej nekriptirano, zaradi zahtev 
+		DataCite registracijskega servisa.
+	',
+      'plugins.importexport.datacite.settings.form.username' => 'Uporabniško ime (simbol)',
+      'plugins.importexport.datacite.settings.form.usernameRequired' => 'Prosimo vnesite uporabniško ime (simbol), ki ste ga dobili od DataCite. Uporabniško ime lahko vsebuje dvopičja.',
+      'plugins.importexport.datacite.settings.form.automaticRegistration.description' => 'OJS bo avtomatsko opravil depozit dodeljenih DOI-jev na DataCite. Prosimo upoštevajte, da je za to lahko potrebno nekaj časa po tistem, ko objavite novo številko. Lahko preverite vse neregistrirane DOI-je.',
+      'plugins.importexport.datacite.settings.form.testMode.description' => 'Uporabi DataCite test prefix za DOI registracijo. Ne pozabite odstraniti te možnosti za produkcijo!',
+      'plugins.importexport.datacite.settings.form.testUsername' => 'Testno uporabniško ime',
+      'plugins.importexport.datacite.settings.form.testPassword' => 'Testno geslo',
+      'plugins.importexport.datacite.settings.form.testDOIPrefix' => 'Tesntna DOI predpona',
+      'plugins.importexport.datacite.senderTask.name' => 'Opravilo avtomatske registracije pri DataCite',
+      'plugins.importexport.datacite.cliUsage' => 'Uporaba: 
+{$scriptName} {$pluginName} export [outputFileName] [journal_path] {issues|articles|galleys} objectId1 [objectId2] ...
+{$scriptName} {$pluginName} register [journal_path] {issues|articles|galleys} objectId1 [objectId2] ...
+',
+    ),
+  ),
+);

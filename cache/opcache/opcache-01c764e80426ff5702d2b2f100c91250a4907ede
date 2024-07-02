@@ -1,0 +1,31 @@
+<?php $exp = 1751345595; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n > 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'api.submissions.400.wrongContext' => 'مقاله ارسالی درخواستی شما در این مجله وجود ندارد.',
+      'api.submissions.403.cantChangeContext' => 'نمی‌توانید مجله مقاله ارسالی را تغییر دهید.',
+      'api.submissions.403.unpublishedIssues' => 'شما اجازه مشاهده شماره‌های منتشر نشده را ندارید.',
+      'api.contexts.403.notAllowed' => 'شما اجازه مشاهده این مجله را ندارید.',
+      'api.contexts.403.requiresContext' => 'شما نمی‌توانید این مجله را از این طریق ویرایش کنید.',
+      'api.contexts.403.notAllowedEdit' => 'شما اجازه ویرایش این مجله را ندارید.',
+      'api.contexts.403.notAllowedDelete' => 'شما اجازه حذف کردن این مجله را ندارید.',
+      'api.contexts.404.contextNotFound' => 'مجله درخواستی یافت نشد.',
+      'api.dois.403.contextsNotMatched' => 'شناسه DOI درخواستی به این مجله تعلق ندارد.',
+      'api.dois.400.noRegistrationAgencyConfigured' => 'هیچ نمایندگی DOI برای این مجله تعیین نشده است.',
+      'api.dois.400.depositFailed' => 'برخی آیتم‌ها با موفقیت ذخیره نشدند. لطفاً هر یک از موارد را با توجه به پیام‌های خطای مربوط به آن بررسی کنید.',
+      'api.emailTemplates.403.notAllowedChangeContext' => 'شما اجاره انتقال این قالب ایمیل به مجله دیگری را ندارید.',
+      'api._payments.400.invalidPaymentMethod' => 'نحوه پرداخت انتخاب شده پشتیبانی نمی‌شود.',
+      'api.publications.403.contextsDidNotMatch' => 'مقاله درخواستی به این مجله تعلق ندارد.',
+      'api.publications.403.submissionsDidNotMatch' => 'مورد درخواستی به این مقاله ارسالی تعلق ندارد.',
+      'api.submissionFiles.400.badRepresentationAssocType' => 'شما نمی‌توانید فایلی از این مرحله را با یک نمایه چاپی مرتبط کنید.',
+      'api.submission.400.inactiveSection' => 'این بخش دیگر مقاله دریافت نمی‌کند.',
+      'api.announcements.400.contextsNotMatched' => 'اطلاعیه درخواستی متعلق به این مجله نیست.',
+      'api.contexts.403.contextsDidNotMatch' => 'شما تنها از طریق درخواست به دارنده وبسایت یا مجله می‌توانید این مجله را مشاهده یا ویرایش نمایید.',
+      'api.emails.403.disabled' => 'امکان اطلاع رسانی از طریق ایمیل برای این مجله فعال نشده است.',
+      'api.contexts.403.requestedDisabledContexts' => 'شما تنها می‌توانید مجلات فعال را مشاهده کنید.',
+    ),
+  ),
+);

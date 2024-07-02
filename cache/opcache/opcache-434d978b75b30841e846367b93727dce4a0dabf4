@@ -1,0 +1,32 @@
+<?php $exp = 1751345594; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.citationStyleLanguage.settings.publisherLocation.description' => 'Neki formati citata zahtijevaju geografsko mjesto izdavača, kao što je "London, UK".',
+      'plugins.generic.citationStyleLanguage.settings.publisherLocation' => 'Lokacija izdavača',
+      'plugins.generic.citationStyleLanguage.settings.citationFormatsPrimaryDescription' => 'Odaberite koji biste format citata željeli prikazivati prema zadanim postavkama na odredišnoj stranici članka.',
+      'plugins.generic.citationStyleLanguage.settings.citationFormatsPrimary' => 'Primarni format citiranja',
+      'plugins.generic.citationStyleLanguage.settings.citationFormatsDescription' => 'Odaberite koje dodatne formate želite ponuditi čitateljima.',
+      'plugins.generic.citationStyleLanguage.settings.citationFormats' => 'Dodatni formati citiranja',
+      'plugins.generic.citationStyleLanguage.settings.citationDownloadsDescription' => 'Odaberite formate za preuzimanje koji želite ponuditi čitateljima. Formati za preuzimanje obično se koriste za uvoz u softver za upravljanje bibliografijom nezavisnih proizvođača, poput EndNote ili Zotero.',
+      'plugins.generic.citationStyleLanguage.settings.citationDownloads' => 'Formati za preuzimanje',
+      'plugins.generic.citationStyleLanguage.download.ris' => 'Endnote/Zotero/Mendeley (RIS)',
+      'plugins.generic.citationStyleLanguage.download.bibtex' => 'BibTeX',
+      'plugins.generic.citationStyleLanguage.style.vancouver' => 'Vancouver',
+      'plugins.generic.citationStyleLanguage.style.turabian-fullnote-bibliography' => 'Turabian',
+      'plugins.generic.citationStyleLanguage.style.modern-language-association' => 'MLA',
+      'plugins.generic.citationStyleLanguage.style.ieee' => 'IEEE',
+      'plugins.generic.citationStyleLanguage.style.harvard-cite-them-right' => 'Harvard',
+      'plugins.generic.citationStyleLanguage.style.chicago-author-date' => 'Chicago',
+      'plugins.generic.citationStyleLanguage.style.associacao-brasileira-de-normas-tecnicas' => 'ABNT',
+      'plugins.generic.citationStyleLanguage.style.apa' => 'APA',
+      'plugins.generic.citationStyleLanguage.style.acs-nano' => 'ACS',
+      'plugins.generic.citationStyleLanguage.style.acm-sig-proceedings' => 'ACM',
+      'plugins.generic.citationStyleLanguage.description' => 'Omogućite čitateljima da se citiraju iz objavljenog članka u jednom od nekoliko formata podržanih jezikom stila citiranja.',
+      'plugins.generic.citationStyleLanguage.displayName' => 'Jezik stila citiranja',
+    ),
+  ),
+);

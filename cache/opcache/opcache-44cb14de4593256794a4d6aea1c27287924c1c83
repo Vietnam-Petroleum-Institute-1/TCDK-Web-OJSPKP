@@ -1,0 +1,22 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.announcementfeed.displayName' => '"Хабарландыру тізімі"модулі',
+      'plugins.generic.announcementfeed.description' => 'Журнал хабарландырулары үшін RSS/Atom пішімінде тізім жасайды.',
+      'plugins.generic.announcementfeed.settings' => 'Параметрлер',
+      'plugins.generic.announcementfeed.settings.all' => 'Журналдың барлық беттерінде таспаға сілтемелерді көрсетіңіз.',
+      'plugins.generic.announcementfeed.settings.homepage' => 'Тізімге сілтемелерді тек басты бетте және хабарландыру бетінде көрсетіңіз.',
+      'plugins.generic.announcementfeed.settings.announcement' => 'Тізімге сілтемелерді тек  хабарландыру бетінде көрсетіңіз.',
+      'plugins.generic.announcementfeed.settings.recentAnnouncements1' => 'Тізімді шектеу',
+      'plugins.generic.announcementfeed.settings.recentAnnouncements2' => 'ең жаңа хабарламалар.',
+      'plugins.generic.announcementfeed.settings.recentItemsRequired' => 'Жаңа хабарламалар саны үшін оң бүтін санды енгізіңіз.',
+      'plugins.generic.announcementfeed.atom.altText' => 'Atom логотипі',
+      'plugins.generic.announcementfeed.rss1.altText' => 'RSS1 логотипі',
+      'plugins.generic.announcementfeed.rss2.altText' => 'RSS2 логотипі',
+    ),
+  ),
+);

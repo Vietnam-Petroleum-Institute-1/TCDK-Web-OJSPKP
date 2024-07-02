@@ -1,0 +1,12 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.dublinCoreMeta.name' => 'Dublin Core programtillegg for indeksering',
+      'plugins.generic.dublinCoreMeta.description' => 'Dette programtillegget integrerer Dublin Core metatagger i artikkelvisninger for indekseringsformål.',
+    ),
+  ),
+);

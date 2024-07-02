@@ -1,0 +1,38 @@
+<?php $exp = 1751345599; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=1; plural=0;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'emails.passwordResetConfirm.subject' => '密碼重置確認',
+      'emails.userRegister.subject' => '期刊註冊',
+      'emails.userValidateContext.subject' => '認證您的帳戶',
+      'emails.userValidateSite.subject' => '認證您的帳戶',
+      'emails.editorAssign.subject' => '您被分配為投稿{$contextName}的編輯',
+      'emails.reviewRequest.subject' => '邀請評審',
+      'emails.reviewResponseOverdueAuto.subject' => '您會否願意評審此投稿？',
+      'emails.reviewRequestSubsequent.subject' => '要求評審已修改的投稿',
+      'emails.reviewCancel.subject' => '已取消提出評審要求',
+      'emails.reviewReinstate.subject' => '您會否能夠再為{$contextName}評審項目？',
+      'emails.reviewDecline.subject' => '未能評審',
+      'emails.reviewRemind.subject' => '提示請求完成評審',
+      'emails.reviewRemindAuto.subject' => '提示請求完成評審',
+      'emails.editorDecisionAccept.subject' => '您的投稿已被{$contextName}接受',
+      'emails.editorDecisionSkipReview.subject' => '我們現正為您的投稿進行審稿',
+      'emails.layoutComplete.subject' => '校對樣本完成',
+      'emails.emailLink.subject' => '或有興趣的文章',
+      'emails.subscriptionNotify.subject' => '訂閱通知',
+      'emails.openAccessNotify.subject' => '發布即時開放取用',
+      'emails.subscriptionBeforeExpiry.subject' => '通知訂閱到期',
+      'emails.subscriptionAfterExpiry.subject' => '訂閱過期',
+      'emails.subscriptionAfterExpiryLast.subject' => '訂閱過期 - 最後提示',
+      'emails.subscriptionPurchaseIndl.subject' => '訂閱付費：個體',
+      'emails.subscriptionPurchaseInstl.subject' => '訂閱付費：院校',
+      'emails.subscriptionRenewIndl.subject' => '訂閱更新：個體',
+      'emails.subscriptionRenewInstl.subject' => '訂閱更新：院校',
+      'emails.revisedVersionNotify.subject' => '已上載修正版本',
+      'emails.statisticsReportNotification.subject' => '{$year}年{$month}月的編輯記錄',
+    ),
+  ),
+);

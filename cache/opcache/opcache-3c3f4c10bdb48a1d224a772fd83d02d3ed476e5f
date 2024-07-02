@@ -1,0 +1,32 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n > 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'comments.anonymous' => 'Utilizador anónimo',
+      'comments.anonymousNamed' => '"{$userName}"',
+      'comments.body' => 'Corpo',
+      'comments.titleRequired' => 'É obrigatório o título do comentário.',
+      'comments.confirmDeleteChildren' => 'Eliminar este comentário também eliminará todas as respostas. Deseja realmente eliminar o comentário?',
+      'comments.delete' => 'Eliminar este comentário',
+      'comments.email' => 'E-mail do comentador',
+      'comments.emailReply' => 'Responder a e-mail',
+      'comments.enterComment' => 'Inserir comentário',
+      'comments.inResponseTo' => 'Em resposta a <a href="{$url}">{$title}</a>',
+      'comments.name' => 'Nome do comentador',
+      'comments.noComments' => 'Nenhum comentário publicado.',
+      'comments.nReplies' => '({$num} Respostas)',
+      'comments.oneReply' => '(1 Resposta)',
+      'comments.postAnonymously' => 'Publicar este comentário anonimamente',
+      'comments.postReply' => 'Publicar resposta',
+      'comments.readerComments' => 'Comentários do leitor',
+      'comments.readMore' => 'Ler mais',
+      'comments.replies' => 'Respostas',
+      'comments.title' => 'Título',
+      'comments.viewAllComments' => 'Visualizar todos os comentários',
+      'reader.fullText' => 'Texto completo:',
+    ),
+  ),
+);

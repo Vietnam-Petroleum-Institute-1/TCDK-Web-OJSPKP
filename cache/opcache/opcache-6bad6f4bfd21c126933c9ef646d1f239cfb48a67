@@ -1,0 +1,32 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'comments.anonymous' => 'Анонімний користувач',
+      'comments.anonymousNamed' => '"{$userName}"',
+      'comments.body' => 'Текст',
+      'comments.titleRequired' => 'Необхідно ввести заголовок коментаря.',
+      'comments.confirmDeleteChildren' => 'Видалення цього коментаря призведе до видалення всіх відповідей на нього. Ви впевнені, що бажаєте це зробити?',
+      'comments.delete' => 'Видалити цей коментар',
+      'comments.email' => 'Електронна пошта відправника',
+      'comments.emailReply' => 'Відповісти електронним листом',
+      'comments.enterComment' => 'Ввести коментар',
+      'comments.inResponseTo' => 'У відповідь на <a href="{$url}">{$title}</a>',
+      'comments.name' => 'Ім\'я відправника',
+      'comments.noComments' => 'Немає коментарів читачів.',
+      'comments.nReplies' => '(Відповідей - {$num})',
+      'comments.oneReply' => '(1 відповідь)',
+      'comments.postAnonymously' => 'Надіслати цей коментар анонімно',
+      'comments.postReply' => 'Опублікувати відповідь',
+      'comments.readerComments' => 'Коментарі читачів',
+      'comments.readMore' => 'Читати далі',
+      'comments.replies' => 'Відповіді',
+      'comments.title' => 'Заголовок',
+      'comments.viewAllComments' => 'Дивитися всі коментарі',
+      'reader.fullText' => 'Повний текст:',
+    ),
+  ),
+);

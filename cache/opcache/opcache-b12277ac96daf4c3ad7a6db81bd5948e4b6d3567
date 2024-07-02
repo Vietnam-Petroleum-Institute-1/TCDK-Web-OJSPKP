@@ -1,0 +1,24 @@
+<?php $exp = 1751345595; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.customBlock.showName.description' => 'Amosa o nome deste bloque sobre o seu contido.',
+      'plugins.generic.customBlock.showName' => 'Amosar nome',
+      'plugins.generic.customBlock.nameRegEx' => 'O nome do bloque personalizado debe conter só letras, números e guións/guións baixos.',
+      'plugins.generic.customBlock.nameRequired' => 'É necesario o nome do bloque personalizado.',
+      'plugins.generic.customBlock.description' => 'Este é un bloque xerado polo usuario.',
+      'plugins.generic.customBlock.nameSuffix' => '(Bloque Personalizado)',
+      'plugins.generic.customBlock.content' => 'Contido',
+      'plugins.generic.customBlockManager.noneCreated' => 'Non se crearon bloques personalizados.',
+      'plugins.generic.customBlockManager.addBlock' => 'Engadir bloque',
+      'plugins.generic.customBlockManager.blockName' => 'Nome do bloque',
+      'plugins.generic.customBlockManager.customBlocks' => 'Bloques personalizados',
+      'plugins.generic.customBlockManager.description' => 'Este complemento permítelle xestionar (engadir, editar e eliminar) os bloques personalizados da barra lateral.',
+      'plugins.generic.customBlockManager.manage' => 'Xestionar bloques personalizados',
+      'plugins.generic.customBlockManager.displayName' => 'Xestor de bloques personalizados',
+    ),
+  ),
+);

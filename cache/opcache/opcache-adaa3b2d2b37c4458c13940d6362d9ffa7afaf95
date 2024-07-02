@@ -1,0 +1,22 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.customBlockManager.displayName' => 'Egyéni blokkkezelő',
+      'plugins.generic.customBlockManager.manage' => 'Egyéni blokkok kezelése',
+      'plugins.generic.customBlockManager.description' => 'Ez a bővítmény lehetővé teszi az egyéni oldalsáv blokkainak kezelését (hozzáadás, szerkesztés és törlés).',
+      'plugins.generic.customBlockManager.customBlocks' => 'Egyéni blokkok',
+      'plugins.generic.customBlockManager.blockName' => 'Blokknév',
+      'plugins.generic.customBlockManager.addBlock' => 'Blokk hozzáadás',
+      'plugins.generic.customBlockManager.noneCreated' => 'Nincsenek egyedi blokkok.',
+      'plugins.generic.customBlock.content' => 'Tartalom',
+      'plugins.generic.customBlock.nameSuffix' => '(Egyéni blokk)',
+      'plugins.generic.customBlock.description' => 'Ez egy felhasználó által generált blokk.',
+      'plugins.generic.customBlock.nameRequired' => 'Egyéni blokknév kötelező.',
+      'plugins.generic.customBlock.nameRegEx' => 'Az egyéni blokknév csak betűket, számokat és kötőjeleket/alulhúzásokat tartalmazhat.',
+    ),
+  ),
+);

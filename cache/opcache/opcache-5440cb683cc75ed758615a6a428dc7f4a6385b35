@@ -1,0 +1,36 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'editor.activityLog' => 'Иш-аракеттер журналы',
+      'editor.submissionLibrary' => 'китепкана',
+      'editor.submission.workflowDecision.submission.published' => 'Материал жарыяланды.',
+      'editor.submission.workflowDecision.submission.reviewRound' => 'Жаңы кароого тапшырылды.',
+      'editor.submission.workflowDecision.submission.production' => 'Басууга жиберилди.',
+      'editor.submission.workflowDecision.changeDecision' => 'Чечимди өзгөртүү',
+      'editor.submission.workflowDecision.disallowedDecision' => 'Бул чечимди бул материалга жаздырууга уруксатыңыз жок.',
+      'editor.submission.workflowDecision.invalidEditor' => 'Редактор аныкталган эмес болсо жана бул материал боюнча чечим жазууга уруксаты жок болушу мүмкүн.',
+      'editor.submission.workflowDecision.invalidRecipients' => 'Сиз төмөнкү алуучуларга электрондук кат жөнөтө албайсыз: {$names}.',
+      'editor.submission.fileAuditor.skipEmail' => 'Аудиторго электрондук кат жөнөтпөңүз',
+      'editor.submission.fileAuditor.form.userRequired' => 'Сиз дайындоо үчүн колдонуучуну тандап алышыңыз керек.',
+      'editor.submission.selectFiles' => 'Файлдарды тандаңыз',
+      'editor.submission.revisions' => 'Версиялар',
+      'editor.submission.addReviewer' => 'Рецензент кошуу',
+      'editor.submission.findAndSelectReviewer' => 'Рецензент кошуу',
+      'editor.submission.findAndSelectUser' => 'Колдонуучуну тандоо',
+      'editor.submission.fileList.includeAllStages' => 'Иш процессинин бардык жеткиликтүү этаптарынан файлдарды көрсөтүңүз.',
+      'editor.submission.review.currentFiles' => '{$round}. Тур үчүн жарактуу карап чыгуу файлдары',
+      'editor.submissionArchive.confirmDelete' => 'Бул материалды чын эле биротоло алып салгыңыз келеби?',
+      'editor.submission.workflowDecision.submission' => 'Чечим жазылган',
+      'editor.submission.workflowDecision.submission.declined' => 'Материал четке кагылды.',
+      'editor.submission.workflowDecision.submission.accepted' => 'Материал кабыл алынды.',
+      'editor.submission.workflowDecision.submission.underReview' => 'Материал карап чыгууга кабыл алынды.',
+      'editor.submission.uploadSelectFiles' => 'Файлдарды жүктөө/тандоо',
+      'editor.submission.review.reviewersDescription' => 'Окурмандарды мазмун файлдарын карап чыгууга чакыруу үчүн <em>+Каралоочу кошуу</em> колдонуңуз. Блокнот сүрөтчөсү карап чыгуу тапшырылганын көрсөтүп турат, ал каралып чыккандан кийин <em>Кабыл алынган</em> деп белгиленет. Карап чыгууну тапшыруу мөөнөтү аяктаганда, кызыл конверттин сөлөкөтү рецензенттерди эскертип турат.',
+      'editor.submission.backToSearch' => 'Издөө үчүн кайтуу',
+    ),
+  ),
+);

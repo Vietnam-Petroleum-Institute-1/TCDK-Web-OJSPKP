@@ -1,0 +1,23 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && n % 10 == 0) ? 2 : 3));',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'api.submissions.403.cantChangeContext' => 'אינך יכול לשנות את כתב עת ההגשה.',
+      'api.submissions.403.unpublishedIssues' => 'אין לך הרשאה לצפות בגליונות שלא פורסמו.',
+      'api.contexts.403.requestedDisabledContexts' => 'אתה יכול לצפות רק בכתבי עת שהופעלו.',
+      'api.contexts.403.notAllowed' => 'אין לך הרשאה לצפות בכתב עת הזה.',
+      'api.contexts.403.contextsDidNotMatch' => 'אינך יכול לצפות או לערוך את כתב העת הזה אלא אם הגשת בקשה לממשק ה-API של כתב העת או לממשק ה-API של האתר.',
+      'api.contexts.403.requiresContext' => 'אינך יכול לערוך כתב עת זה מממשק ה-API של האתר.',
+      'api.contexts.403.notAllowedEdit' => 'אין לך הרשאה לערוך כתב העת הזה.',
+      'api.contexts.403.notAllowedDelete' => 'אין לך הרשאה למחוק את כתב העת הזה.',
+      'api.contexts.404.contextNotFound' => 'כתב העת שביקשת לא נמצא.',
+      'api.emailTemplates.403.notAllowedChangeContext' => 'אין לך הרשאה להעביר תבנית דוא"ל זו לכתב עת אחר.',
+      'api._payments.400.invalidPaymentMethod' => 'אמצעי התשלום שבחרת אינו נתמך.',
+      'api.publications.403.contextsDidNotMatch' => 'הפרסום שביקשת אינו חלק מכתב עת זה.',
+      'api.publications.403.submissionsDidNotMatch' => 'הפרסום שביקשת אינו חלק מההגשה הזו.',
+    ),
+  ),
+);

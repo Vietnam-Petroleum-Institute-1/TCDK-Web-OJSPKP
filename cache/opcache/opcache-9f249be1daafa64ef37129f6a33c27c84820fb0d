@@ -1,0 +1,17 @@
+<?php $exp = 1751345595; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.acron.name' => 'Acron',
+      'plugins.generic.acron.description' => 'Αυτό το Πρόσθετο χρησιμοποιείται για την ελαχιστοποίηση της εξάρτησης από εργαλεία περιοδικού προγραμματισμού, όπως το \'cron.\'',
+      'plugins.generic.acron.enabled' => 'To Πρόσθετο Acron έχει ενεργοποιηθεί.',
+      'plugins.generic.acron.disabled' => 'To Πρόσθετο Acron έχει απενεργοποιηθεί.',
+      'plugins.generic.acron.reloadedCronTab' => 'Το Cron tab επαναφορτώθηκε επιτυχώς.',
+      'plugins.generic.acron.reload' => 'Επαναφόρτωση προγραμματισμένων εργασιών',
+      'plugins.generic.acron.tasksReloaded' => 'Οι προγραμματισμένες εργασίες επαναφορτώθηκαν επιτυχώς.',
+    ),
+  ),
+);

@@ -1,0 +1,24 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.customBlock.content' => 'შიგთავსი',
+      'plugins.generic.customBlock.showName' => 'სახელის ჩვენება',
+      'plugins.generic.customBlockManager.displayName' => 'მორგებული ბლოკების მმართველი',
+      'plugins.generic.customBlockManager.manage' => 'მართეთ მორგებული ბლოკები',
+      'plugins.generic.customBlockManager.description' => 'ეს პლაგინი საშუალებას გაძლევთ მართოთ (დაამატოთ, შეცვალოთ და წაშალოთ) მორგებული გვერდითი ზოლის ბლოკები.',
+      'plugins.generic.customBlockManager.customBlocks' => 'მორგებული ბლოკები',
+      'plugins.generic.customBlockManager.blockName' => 'ბლოკის სახელი',
+      'plugins.generic.customBlockManager.addBlock' => 'ბლოკის დამატება',
+      'plugins.generic.customBlockManager.noneCreated' => 'არ არის შექმნილი ინდივიდუალური ბლოკები.',
+      'plugins.generic.customBlock.nameSuffix' => '(მორგებული ბლოკი)',
+      'plugins.generic.customBlock.description' => 'ეს არის მომხმარებლის მიერ შექმნილი ბლოკი.',
+      'plugins.generic.customBlock.nameRequired' => 'საჭიროა მორგებული ბლოკის სახელი.',
+      'plugins.generic.customBlock.nameRegEx' => 'მორგებული ბლოკის სახელი უნდა შეიცავდეს მხოლოდ ასოებს, რიცხვებს და დეფისებს / ქვედა ხაზებს.',
+      'plugins.generic.customBlock.showName.description' => 'აჩვენეთ ამ ბლოკის სახელი ბლოკის შინაარსის ზემოთ.',
+    ),
+  ),
+);

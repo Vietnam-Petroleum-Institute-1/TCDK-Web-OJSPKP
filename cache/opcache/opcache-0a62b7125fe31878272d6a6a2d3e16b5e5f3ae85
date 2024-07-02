@@ -1,0 +1,24 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n > 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.customBlockManager.displayName' => 'Administração de Blocos Personalizados',
+      'plugins.generic.customBlockManager.blockName' => 'Nome do Bloco',
+      'plugins.generic.customBlockManager.addBlock' => 'Adicionar Bloco',
+      'plugins.generic.customBlock.content' => 'Conteúdo',
+      'plugins.generic.customBlock.nameSuffix' => '(Bloco personalizado)',
+      'plugins.generic.customBlock.description' => 'Este é um bloco gerado pelo utilizador.',
+      'plugins.generic.customBlockManager.manage' => 'Gerir Blocos Personalizados',
+      'plugins.generic.customBlockManager.description' => 'Este plugin permite gerir (adicionar, editar e apagar) blocos personalizados para a barra lateral.',
+      'plugins.generic.customBlockManager.customBlocks' => 'Blocos Personalizados',
+      'plugins.generic.customBlockManager.noneCreated' => 'Nenhum bloco personalizado criado.',
+      'plugins.generic.customBlock.nameRequired' => 'O nome do bloco personalizado é obrigatório.',
+      'plugins.generic.customBlock.nameRegEx' => 'O nome do bloco personalizado só pode conter letras, números e hífenes ou sublinhados.',
+      'plugins.generic.customBlock.showName.description' => 'Mostrar o nome deste bloco por cima do conteúdo do bloco.',
+      'plugins.generic.customBlock.showName' => 'Mostrar nome',
+    ),
+  ),
+);

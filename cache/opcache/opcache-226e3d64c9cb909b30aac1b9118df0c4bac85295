@@ -1,0 +1,31 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'api.announcements.400.contextsNotMatched' => 'Meddelandet som du efterfrågade finns inte i denna tidskrift.',
+      'api.emails.403.disabled' => 'Funktionen för massutskick via e-post har inte aktiverats för denna tidskrift.',
+      'api.submissions.400.wrongContext' => 'Det efterfrågade bidraget finns inte i denna tidskrift.',
+      'api.submissions.403.cantChangeContext' => 'Du kan inte byta tidskrift för ett bidrag.',
+      'api.submissions.403.unpublishedIssues' => 'Du har inte behörighet att se opublicerade nummer.',
+      'api.contexts.403.requestedDisabledContexts' => 'Du kan bara se tidskrifter som har aktiverats.',
+      'api.contexts.403.notAllowed' => 'Du har inte tillåtelse att visa denna tidskrift.',
+      'api.contexts.403.contextsDidNotMatch' => 'Du kan inte visa eller redigera denna tidskrift om du inte gör ett anrop till tidskriftens API eller webbplatsens API.',
+      'api.contexts.403.requiresContext' => 'Du kan inte redigera denna tidskrift via webbplatsens API.',
+      'api.contexts.403.notAllowedEdit' => 'Du har inte tillåtelse att redigera denna tidskrift.',
+      'api.contexts.403.notAllowedDelete' => 'Du har inte tillåtelse att ta bort denna tidskrift.',
+      'api.contexts.404.contextNotFound' => 'Tidskriften som du efterfrågade kunde inte hittas.',
+      'api.dois.403.contextsNotMatched' => 'Den efterfrågade DOI:n finns inte i denna tidskrift.',
+      'api.dois.400.noRegistrationAgencyConfigured' => 'Ingen DOI-organisation har valts av tidskriften.',
+      'api.dois.400.depositFailed' => 'Vissa objekt kunde inte deponeras. Se enskilda objekts respektive felmeddelande.',
+      'api.emailTemplates.403.notAllowedChangeContext' => 'Du har inte tillåtelse att flytta denna e-post-mall till en annan tidskrift.',
+      'api._payments.400.invalidPaymentMethod' => 'Betalningsmetoden du har valt stöds inte.',
+      'api.publications.403.contextsDidNotMatch' => 'Publikationen som du efterfrågade finns inte i denna tidskrift.',
+      'api.publications.403.submissionsDidNotMatch' => 'Publikationen som du efterfrågade är inte del av detta bidrag.',
+      'api.submissionFiles.400.badRepresentationAssocType' => 'Du kan inte associera en fil från detta steg till en publiceringsversion.',
+      'api.submission.400.inactiveSection' => 'Denna sektion tar inte längre emot bidrag.',
+    ),
+  ),
+);

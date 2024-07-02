@@ -1,0 +1,12 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.usageEvent.displayName' => 'Használati esemény',
+      'plugins.generic.usageEvent.description' => 'Olyan kampót (hook) hoz létre, amely meghatározott formátumban biztosít használati eseményt.',
+    ),
+  ),
+);

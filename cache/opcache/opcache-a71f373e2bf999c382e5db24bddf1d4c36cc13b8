@@ -1,0 +1,12 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.dublinCoreMeta.name' => 'Модуль «Индексирование Dublin Core»',
+      'plugins.generic.dublinCoreMeta.description' => 'Встраивает мета-теги Dublin Core в просмотр статей с целью индексирования.',
+    ),
+  ),
+);

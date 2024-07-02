@@ -1,0 +1,30 @@
+<?php $exp = 1751345599; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=1; plural=0;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.staticPages.displayName' => 'Plugin trang tĩnh',
+      'plugins.generic.staticPages.description' => 'Plugin này cho phép Quản lý nội dung tĩnh.',
+      'plugins.generic.staticPages.staticPages' => 'Trang tĩnh',
+      'plugins.generic.staticPages.pageTitle' => 'Tiêu đề',
+      'plugins.generic.staticPages.content' => 'Nội dung',
+      'plugins.generic.staticPages.path' => 'Đường dẫn',
+      'plugins.generic.staticPages.requirement.tinymce' => '<p><strong>Plugin TinyMCE phải được cài đặt và bật để thêm/chỉnh sửa nội dung</strong></p>',
+      'plugins.generic.staticPages.editAddContent' => 'Chỉnh sửa/Thêm nội dung',
+      'plugins.generic.staticPages.addStaticPage' => 'Thêm trang tĩnh',
+      'plugins.generic.staticPages.addNewPage' => 'Thêm trang mới',
+      'plugins.generic.staticPages.editStaticPage' => 'Chỉnh sửa trang tĩnh',
+      'plugins.generic.staticPages.noneCreated' => 'Không có trang tĩnh nào được tạo.',
+      'plugins.generic.staticPages.settingInstructions' => 'Biểu mẫu bên dưới hiển thị cho bạn tất cả các trang tĩnh bạn đã tạo. Bạn có thể chỉnh sửa hoặc xóa các trang bằng các liên kết ở phía bên tay phải.',
+      'plugins.generic.staticPages.editInstructions' => 'Sử dụng mẫu dưới đây để thêm/chỉnh sửa nội dung trang.',
+      'plugins.generic.staticPages.pathRegEx' => 'Trường đường dẫn phải chỉ chứa các ký tự chữ và số cộng với \'.\', \'/\', \'-\' và \'_\'.',
+      'plugins.generic.staticPages.viewInstructions' => '<p> Trang này sẽ có thể truy cập tại: <blockquote>{$pagesPath}</blockquote>...trong đó %PATH% là đường dẫn được nhập ở trên.<strong>Lưu ý:</strong> Không có hai trang có thể có cùng một đường dẫn. Sử dụng các đường dẫn được tích hợp vào hệ thống có thể khiến bạn mất quyền truy cập vào các chức năng quan trọng.</p>',
+      'plugins.generic.staticPages.duplicatePath' => 'Đường dẫn này đã tồn tại cho một trang tĩnh khác.',
+      'plugins.generic.staticPages.pageSaved' => 'Trang được lưu thành công.',
+      'plugins.generic.staticPages.pageDeleted' => 'Trang đã xóa thành công.',
+      'plugins.generic.staticPages.noneExist' => 'Không có trang nào được tạo',
+    ),
+  ),
+);

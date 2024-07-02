@@ -1,0 +1,15 @@
+<?php $exp = 1751345599; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.recommendBySimilarity.displayName' => 'Shunga o\'xshash maqolalarni tavsiya eting',
+      'plugins.generic.recommendBySimilarity.description' => 'Ushbu plagin maqolaning mavhum sahifasiga o\'xshash maqolalar ro\'yxatini qo\'shadi.',
+      'plugins.generic.recommendBySimilarity.heading' => 'O\'xshash maqolalar',
+      'plugins.generic.recommendBySimilarity.advancedSearchIntro' => 'Siz ham ushbu maqola uchun {$ advancedSearchLink} olishingiz mumkin.',
+      'plugins.generic.recommendBySimilarity.advancedSearch' => 'kengaytirilgan o\'xshashlik qidiruvini boshlang',
+    ),
+  ),
+);

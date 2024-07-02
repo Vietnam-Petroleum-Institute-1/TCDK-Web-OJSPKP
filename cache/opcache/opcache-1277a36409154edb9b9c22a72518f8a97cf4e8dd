@@ -1,0 +1,22 @@
+<?php $exp = 1751345594; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.announcementfeed.displayName' => 'إضافة مغذي الإعلانات',
+      'plugins.generic.announcementfeed.description' => 'هذه الإضافة تولد مغذيات الإنترنت الخاصة بـ RSS/Atom من أجل إعلانات المجلة.',
+      'plugins.generic.announcementfeed.settings' => 'الإعدادات',
+      'plugins.generic.announcementfeed.settings.all' => 'إعرض روابط المغذي في جميع صفحات المجلة.',
+      'plugins.generic.announcementfeed.settings.homepage' => 'إعرض روابط المغذي فقط على الصفحة الرئيسية وعلى صفحة الإعلانات.',
+      'plugins.generic.announcementfeed.settings.announcement' => 'إعرض روابط المغذي فقط على صفحة الإعلانات.',
+      'plugins.generic.announcementfeed.settings.recentAnnouncements1' => 'قيد عدد الإعلانات إلى حد',
+      'plugins.generic.announcementfeed.settings.recentAnnouncements2' => 'أكثر الإعلانات حداثة.',
+      'plugins.generic.announcementfeed.settings.recentItemsRequired' => 'لطفاً، أدخل رقماً صحيحاً موجباً يمثل عدد الإعلانات الأخيرة.',
+      'plugins.generic.announcementfeed.atom.altText' => 'شعار Atom',
+      'plugins.generic.announcementfeed.rss1.altText' => 'شعار RSS1',
+      'plugins.generic.announcementfeed.rss2.altText' => 'شعار RSS2',
+    ),
+  ),
+);

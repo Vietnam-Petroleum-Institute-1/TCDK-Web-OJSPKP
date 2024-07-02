@@ -1,0 +1,28 @@
+<?php $exp = 1751345594; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.importexport.datacite.displayName' => 'DataCite Eksport/Registrerings Plugin',
+      'plugins.importexport.datacite.description' => 'Ekportér eller registrér metadata fra numre, artikler, publiceringsversion og supplerende fil i DataCite- format.',
+      'plugins.importexport.datacite.settings.description' => 'Husk at konfigurere Datacite Eksport-programmet, før du bruger det første gang.',
+      'plugins.importexport.datacite.intro' => '
+		Hvis du vil registrere DOI\'er hos DataCite, skal du kontakte administrationsagenten via <a href="https://datacite.org/contact.html" target="_blank">DataCite-hjemmesiden</a>, som vil henvise til dit lokale DataCite-medlem. Når du har etableret kontakt til medlemsorganisationen, får du adgang til DataCite-tjenesten så du vedvarende kan generere DOI\'er og registrere tilknyttet metadata. Hvis du ikke har dit eget brugernavn og kodeord, kan du stadig eksportere i DataCite XML-formatet, men du kan ikke registrere dine DOI\'er hos DataCite inde fra OJS. Vær opmærksom på, at adgangskoden bliver gemt som klartekst, dvs. ikke krypteret på grund af kravet om registrering af DataCite-registrering.
+	',
+      'plugins.importexport.datacite.settings.form.username' => 'Brugernavn (symbol)',
+      'plugins.importexport.datacite.settings.form.usernameRequired' => 'Indtast brugernavnet (symbolet), du fik fra DataCite. Brugernavnet må muligvis ikke indeholde kolon.',
+      'plugins.importexport.datacite.settings.form.automaticRegistration.description' => 'OJS vil automatisk deponere DOI\'er til DataCite. Bemærk, at der kan gå lidt tid efter offentliggørelsen inden det registreres. Du kan tjekke for eventuelt uregistrerede DOI\'er.',
+      'plugins.importexport.datacite.settings.form.testMode.description' => 'Brug DataCite test-præfix til DOI registrering. Husk at fjerne denne mulighed i forbindelse med produktionen.',
+      'plugins.importexport.datacite.settings.form.testUsername' => 'Test-brugernavn',
+      'plugins.importexport.datacite.settings.form.testPassword' => 'Test-password',
+      'plugins.importexport.datacite.settings.form.testDOIPrefix' => 'Test-DOI præfix',
+      'plugins.importexport.datacite.senderTask.name' => 'DataCite automatisk registreringsopgave',
+      'plugins.importexport.datacite.cliUsage' => 'Brug:
+{$scriptName} {$pluginName} export [outputFileName] [journal_path] {issues|articles|galleys} objectId1 [objectId2] ...
+{$scriptName} {$pluginName} register [journal_path] {issues|articles|galleys} objectId1 [objectId2] ...
+',
+    ),
+  ),
+);

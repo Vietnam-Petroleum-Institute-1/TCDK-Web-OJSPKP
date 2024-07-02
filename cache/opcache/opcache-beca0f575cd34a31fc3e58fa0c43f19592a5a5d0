@@ -1,0 +1,23 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.webfeed.displayName' => 'Feed della rivista',
+      'plugins.generic.webfeed.description' => 'Questo plugin genera il feed RSS/Atom per il fascicolo corrente.',
+      'plugins.generic.webfeed.settings' => 'Impostazioni',
+      'plugins.generic.webfeed.settings.issue' => 'Mostra il link ai feed solo sulle pagine dell\'articolo.',
+      'plugins.generic.webfeed.settings.homepage' => 'Mostra il link ai feed sulla home page e sulle pagine dei fascicoli.',
+      'plugins.generic.webfeed.settings.all' => 'Mostra il link ai feed su tutte le pagine della rivista.',
+      'plugins.generic.webfeed.settings.currentIssue' => 'Mostra gli articoli pubblicati nell\'ultima uscita.',
+      'plugins.generic.webfeed.settings.recent' => 'Mostra un numero fisso degli articoli più recenti.',
+      'plugins.generic.webfeed.settings.recentArticles' => 'Numero di articoli da visualizzare',
+      'plugins.generic.webfeed.settings.recentItemsRequired' => 'Per favore inserisci un intero positivo per gli articoli recenti pubblicati.',
+      'plugins.generic.webfeed.atom.altText' => 'Lodo Atom',
+      'plugins.generic.webfeed.rss1.altText' => 'Logo RSS1',
+      'plugins.generic.webfeed.rss2.altText' => 'Logo RSS2',
+    ),
+  ),
+);

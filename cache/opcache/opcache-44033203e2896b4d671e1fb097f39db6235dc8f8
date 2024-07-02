@@ -1,0 +1,14 @@
+<?php $exp = 1751345595; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.recommendByAuthor.displayName' => 'دیگر مقالات نویسنده',
+      'plugins.generic.recommendByAuthor.description' => 'این افزونه لیست دیگر مقالات نویسنده را در صفحه چکیده مقاله نمایش می دهد',
+      'plugins.generic.recommendByAuthor.heading' => 'مقالات بیشتر خوانده شده از همین نویسنده',
+      'plugins.generic.recommendByAuthor.noMetric' => 'این افزونه برای اجرا نیاز به حداقل فعال بودن یک افزونه آماری/گزارشگیر دارد. چنانچه افزونه آمارگیر شما از چندین معیار اندازه گیری پشتیبانی می کند، در صفحه تنطیمات آن یکی از معیار ها را به عنوان معیار اصلی انتخاب کنید.',
+    ),
+  ),
+);

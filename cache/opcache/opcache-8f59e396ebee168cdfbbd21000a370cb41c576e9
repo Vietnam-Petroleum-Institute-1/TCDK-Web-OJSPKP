@@ -1,0 +1,12 @@
+<?php $exp = 1751345594; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.usageEvent.displayName' => 'Модул (плъгин) за събития при употреба',
+      'plugins.generic.usageEvent.description' => 'Създава кука (точка на обработка), която предоставя събитие за използване в определен формат.',
+    ),
+  ),
+);

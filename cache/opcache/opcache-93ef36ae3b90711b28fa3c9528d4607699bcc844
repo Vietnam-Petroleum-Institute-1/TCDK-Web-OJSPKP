@@ -1,0 +1,96 @@
+<?php $exp = 1751345594; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'emails.submissionAck.subject' => 'Justificant de recepció de la tramesa',
+      'emails.submissionAck.body' => 'Benvolgut/uda {$recipientName},<br />
+<br />
+Gràcies per haver tramès el manuscrit &quot;{$submissionTitle}&quot; a {$contextName}. Gràcies al sistema de gestió de revistes en línia que utilitzem, en podreu seguir el progrés durant el procés editorial iniciant la sessió al lloc web de la revista:<br />
+<br />
+URL del manuscrit: {$submissionUrl}<br />
+Nom d\'usuari: {$recipientUsername}<br />
+<br />
+Si teniu qualsevol dubte o consulta, no dubteu a fer-me-la arribar. Us agraeixo que hàgiu tingut en compte aquesta revista com a mitjà per a difondre la vostra obra.<br />
+<br />
+{$contextSignature}',
+      'emails.reviewAck.subject' => 'Justificant de recepció de la revisió de l\'article',
+      'emails.reviewAck.body' => 'Benvolgut/uda {$recipientName},<br />
+<br />
+Us agraïm que hàgiu revisat la tramesa &quot;{$submissionTitle}&quot; per a {$contextName}. Valorem la vostra contribució a la qualitat de les obres que publiquem.',
+      'emails.editorDecisionSendToExternal.subject' => 'Decisió de l\'editor/a',
+      'emails.editorDecisionSendToExternal.body' => '{$authors}:<br />
+<br />
+Hem arribat a una decisió respecte a la seva tramesa per a {$contextName}, &quot;{$submissionTitle}&quot;.<br />
+<br />
+La nostra decisió és: Enviar a revisió<br />
+<br />
+URL de la tramesa: {$submissionUrl}',
+      'emails.editorDecisionSendToProduction.subject' => 'Decisió de l\'editor/a',
+      'emails.editorDecisionSendToProduction.body' => '{$authors}:<br />
+<br />
+L\'edició de la vostra tramesa, &quot;{$submissionTitle},&quot; s\'ha completat. Ja està llesta per passar a producció.<br />
+<br />
+URL de la tramesa: {$submissionUrl}',
+      'emails.editorDecisionRevisions.subject' => 'Decisió de l\'editor/a',
+      'emails.editorDecisionRevisions.body' => '{$authors}:<br />
+<br />
+Hem arribat a una decisió respecte a la vostra tramesa per a {$contextName}, &quot;{$submissionTitle}&quot;.<br />
+<br />
+La nostra decisió és: Necessita revisions',
+      'emails.editorDecisionResubmit.subject' => 'Decisió de l\'editor/a',
+      'emails.editorDecisionResubmit.body' => '{$authors}:<br />
+<br />
+Hem arribat a una decisió respecte a la vostra tramesa pera a {$contextName}, &quot;{$submissionTitle}&quot;.<br />
+<br />
+La nostra decisió és: Tornar a enviar a revisió',
+      'emails.editorDecisionDecline.subject' => 'Decisió de l\'editor/a',
+      'emails.editorDecisionDecline.body' => '{$authors}:<br />
+<br />
+Hem arribat a una decisió respecte a la vostra tramesa per a {$contextName}, &quot;{$submissionTitle}&quot;.<br />
+<br />
+La nostra decisió és: Rebutjar la tramesa',
+      'emails.editorRecommendation.subject' => 'Recomanació de l\'editor/a',
+      'emails.editorRecommendation.body' => '{$editors}:<br />
+<br />
+La recomanació respecte a la tramesa {$contextName}, &quot;{$submissionTitle}&quot; és: {$recommendation}',
+      'emails.copyeditRequest.subject' => 'Sol·licitud de correcció',
+      'emails.copyeditRequest.body' => '{$recipientName}:<br />
+<br />
+M\'agradaria demanar-vos que us encarreguéssiu de la revisió de &quot;{$submissionTitle}&quot; per a {$contextName}. Per fer-ho , hauríeu de seguir els passos següents:<br />
+1. Feu clic a l\'URL de la tramesa que trobareu al final d\'aquest missatge.<br />
+2. Obriu tots els arxius disponibles a "Arxius esborrany" i feu la correcció afegint els comentaris que necessiteu a "Discussions de correcció".<br />
+3. Guardeu els arxius corregits i carregueu-los en el panell "Corregit".<br />
+4. Notifiqueu a l\'editor/a que tots els arxius estan llestos i que el procés de producció pot començar.<br />
+<br />
+{$contextName} URL: {$contextUrl}<br />
+URL de la tramesa: {$submissionUrl}<br />
+Nom d\'usuari/ària: {$recipientUsername}',
+      'emails.editorDecisionInitialDecline.subject' => 'Decisió de l\'editor/a',
+      'emails.editorDecisionInitialDecline.body' => '
+			{$authors}:<br />
+<br />
+Hem arribat a una decisió respecte a la vostra tramesa per a {$contextName}, &quot;{$submissionTitle}&quot;.<br />
+<br />
+La nostra decisió és: Rebutjar la tramesa',
+      'emails.discussion.subject' => 'Missatge sobre {$contextName}',
+      'emails.discussion.body' => 'Introduïu el vostre missatge.',
+      'emails.reviewConfirm.subject' => 'Accepto la revisió',
+      'emails.reviewConfirm.body' => 'Benvolgut/uda {$recipientName},<br />
+<br />
+Accepto revisar la tramesa &quot;{$submissionTitle}&quot; per a {$contextName}, i us agraeixo que m\'hàgiu tingut en compte per a aquesta tasca. La meva intenció és tenir-la acabada per a la data de venciment prevista ({$reviewDueDate}), o abans si és possible.<br />
+<br />
+{$senderName}',
+      'emails.submissionAckNotAuthor.subject' => 'Confirmació de tramesa',
+      'emails.submissionAckNotAuthor.body' => 'Hola,<br />
+<br />
+{$submitterName} ha tramès el manuscrit «{$submissionTitle}» a {$contextName}. <br />
+<br />
+Si teniu cap pregunta, contacteu amb mi. Gràcies per tenir en compte aquesta publicació per desenvolupar la vostra feina.<br />
+<br />
+{$contextSignature}',
+    ),
+  ),
+);

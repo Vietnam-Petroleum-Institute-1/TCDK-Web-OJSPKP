@@ -1,0 +1,12 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=1; plural=0;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.htmlArticleGalley.displayName' => 'HTML Artikel Galley',
+      'plugins.generic.htmlArticleGalley.description' => 'Plugin ini menyediakan sokongan rendering untuk HTML Artikel Galleys.',
+    ),
+  ),
+);

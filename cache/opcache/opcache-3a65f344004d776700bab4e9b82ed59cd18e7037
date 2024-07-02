@@ -1,0 +1,12 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n % 10 != 1 || n % 100 == 11;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'emails.submissionAckNotAuthor.subject' => 'Staðfesting á innsendingu',
+      'emails.submissionAckNotAuthor.body' => '<p>Komdu sæl(l/t) {$recipientName},</p><p>Þú hefur verið tilgreind(ur/t) sem meðhöfundur á innsendingu greinar/efnis í {$contextName}.  Sendandinn, {$submitterName}, skráði eftirfarandi upplýsingar:</p><p>{$submissionTitle}<br>{$authorsWithAffiliation}</p><p>Vinsamlega hafðu samband ef eitthvað af þessu er rangt, eða ef þú vilt ekki vera tilgreind(ur/t) á þessari innsendingu.</p><p> Annars þökkum við fyrir áhuga ykkar á að birta verk ykkar í tímaritinu okkar.</p><p>Kærar kveðjur,</p>{$contextSignature}',
+    ),
+  ),
+);

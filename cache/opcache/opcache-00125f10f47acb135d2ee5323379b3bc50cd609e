@@ -1,0 +1,15 @@
+<?php $exp = 1751345595; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=4; plural=(n==1 || n==11) ? 0 : (n==2 || n==12) ? 1 : (n > 2 && n < 20) ? 2 : 3;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.recommendBySimilarity.displayName' => 'Artaigealan coltach ris a mholar',
+      'plugins.generic.recommendBySimilarity.description' => 'Tha am plugan seo a’ cur ris liosta de dh’artaigealan coltach ris air duilleag geàrr-chunntas an artaigil.',
+      'plugins.generic.recommendBySimilarity.heading' => 'Artaigealan coltach ris',
+      'plugins.generic.recommendBySimilarity.advancedSearchIntro' => '’S urrainn dhut {$advancedSearchLink} cuideachd.',
+      'plugins.generic.recommendBySimilarity.advancedSearch' => 'tòiseachadh air lorg ionnannachd adhartach',
+    ),
+  ),
+);

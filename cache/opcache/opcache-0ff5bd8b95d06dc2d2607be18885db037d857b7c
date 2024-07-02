@@ -1,0 +1,37 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n==1 || n%10==1 ? 0 : 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.importexport.datacite.displayName' => 'Плагин за Експорт/Регистрација во DataCite',
+      'plugins.importexport.datacite.description' => 'Експортирај или регистрирај број, труд, отпечаток или дополнителен фајл од метаподатоци во DataCite формат.',
+      'plugins.importexport.datacite.settings.description' => 'Молам конфигурирај го плагинот за експорт на DataCite пред употреба за прв пат.',
+      'plugins.importexport.datacite.intro' => '
+		Ако сакате да регистрирате DOI со DataCite, ве молиме контактирајте го Управниот
+Агент преку <a href="https://datacite.org/contact.html" target="_blank"> DataCite
+почетна страница </a>, кој ќе ве упати на вашиот локален член на DataCite. Откако ќе имате
+воспостави врска со организацијата-членка, ќе ви биде обезбедено
+со пристап до услугата DataCite за генерирање постојани идентификатори (ДОИ)
+и регистрирање на поврзани метаподатоци. Ако немате свое корисничко име и
+лозинката сепак ќе можете да извезувате во форматот DataCite XML, но вие
+не можете да ги регистрирате вашите DOI со DataCite од рамките на OJS.
+Имајте предвид дека лозинката ќе биде зачувана како обичен текст, т.е. не криптирана, поради
+според барањата за услугата за регистрација на DataCite.
+	',
+      'plugins.importexport.datacite.settings.form.username' => 'Корисничко име (симбол)',
+      'plugins.importexport.datacite.settings.form.usernameRequired' => 'Молам внеси корисничко име (сумбол) добиен од DataCite. Корисничкото име не смее да содржи запирки.',
+      'plugins.importexport.datacite.settings.form.automaticRegistration.description' => 'OJS ќе ги депонира DOI автоматски во DataCite. Забележете дека ова може да потрае кратко време по објавувањето за да се обработи (на пр. Во зависност од вашата конфигурација за cronjob). Може да проверите за сите нерегистрирани DOI.',
+      'plugins.importexport.datacite.settings.form.testMode.description' => 'Користете го префиксот за тестирање DataCite за регистрација на DOI. Ве молиме, не заборавајте да ја отстраните оваа опција за продукција.',
+      'plugins.importexport.datacite.settings.form.testUsername' => 'Тест корисничко име',
+      'plugins.importexport.datacite.settings.form.testPassword' => 'Тест лозинка',
+      'plugins.importexport.datacite.settings.form.testDOIPrefix' => 'Тест DOI префикс',
+      'plugins.importexport.datacite.senderTask.name' => 'Задача за автоматска регистрација на DataCite',
+      'plugins.importexport.datacite.cliUsage' => 'Употреба:
+{$scriptName} {$pluginName} експорт [[outputFileName] [journal_path] {issues | статии | галии} objectId1 [objectId2] ...
+{$scriptName} {$pluginName} регистрирај се [Journal_path] {прашања | статии | галии} objectId1 [objectId2] ...
+',
+    ),
+  ),
+);

@@ -1,0 +1,31 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'api.announcements.400.contextsNotMatched' => 'Zahtevano obvestilo ni na voljo pri tej reviji.',
+      'api.emails.403.disabled' => 'Opcija za obveščanje preko emaila ni omogočena za to revijo.',
+      'api.submissions.400.wrongContext' => 'Zahtevani prispevek ni v tej reviji.',
+      'api.submissions.403.cantChangeContext' => 'Članku ne morete spremeniti imena revije.',
+      'api.submissions.403.unpublishedIssues' => 'Nimate pravice do vpogleda v neobjavljene številke revije.',
+      'api.contexts.403.requestedDisabledContexts' => 'Dostopate lahko samo do revij, ki imajo omogočen dostop.',
+      'api.contexts.403.notAllowed' => 'Nimate pravic za dostopati do te revije.',
+      'api.contexts.403.contextsDidNotMatch' => 'Do revije lahko dostopate ali spreminjati njeno vsebino le, če dostopate preko API-ja revije ali API-ja spletišča.',
+      'api.contexts.403.requiresContext' => 'Revije ne morete spreminjati preko API-ja celotnega spletišča.',
+      'api.contexts.403.notAllowedEdit' => 'Nimate pravic za spreminjanje te revije.',
+      'api.contexts.403.notAllowedDelete' => 'Nimate pravic za izbris te revije.',
+      'api.contexts.404.contextNotFound' => 'Zahtevana revija ne obstaja.',
+      'api.dois.403.contextsNotMatched' => 'Zahtevani DOI ni del te revije.',
+      'api.dois.400.noRegistrationAgencyConfigured' => 'Nobena DOI registracijska agencija ni nastavljena za to revijo.',
+      'api.dois.400.depositFailed' => 'Nekateri elementi niso bili uspešno deponirani. Prosimo preverite vsak posamezen element za specificno sporočilo o napaki.',
+      'api.emailTemplates.403.notAllowedChangeContext' => 'Nimate dovoljenja, da premaknete to e-poštno predlogo v drugo revijo.',
+      'api._payments.400.invalidPaymentMethod' => 'Izbran način plačila ni podprt.',
+      'api.publications.403.contextsDidNotMatch' => 'Prispevek, za katerega ste zaprosili, ni del te revije.',
+      'api.publications.403.submissionsDidNotMatch' => 'Zahtevana revija ni del tega prispevka.',
+      'api.submissionFiles.400.badRepresentationAssocType' => 'Dateteko iz te faze ne morete povezati s prelomom.',
+      'api.submission.400.inactiveSection' => 'Ta rubrika ne sprejema več prispevkov.',
+    ),
+  ),
+);

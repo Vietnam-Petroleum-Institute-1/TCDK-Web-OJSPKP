@@ -1,0 +1,59 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.importexport.crossref.displayName' => 'Crossref XML Export Plugin',
+      'plugins.importexport.crossref.description' => 'Exporteer metadata in Crossref XML formaat.',
+      'plugins.importexport.crossref.requirements' => 'Vereist',
+      'plugins.importexport.crossref.requirements.satisfied' => 'Aan alle vereisten is voldaan.',
+      'plugins.importexport.crossref.error.publisherNotConfigured' => 'Er werd geen uitgever ingesteld voor dit tijdschrift! Voeg een uitgever toe op de  <a href="{$journalSettingsUrl}" target="_blank">Tijdschriftinstellingen</a> pagina.',
+      'plugins.importexport.crossref.error.issnNotConfigured' => 'Er werd geen ISSN ingesteld voor dit tijdschrift! Voeg een ISSN toe op de <a href="{$journalSettingsUrl}" target="_blank">Tijdschriftinstellingen</a> pagina.',
+      'plugins.importexport.crossref.error.noDOIContentObjects' => 'Er werden geen artikels geselecteerd voor toewijzing van een DOI in de DOI publieke identificatie plugin. Daardoor kan deze plugin ook geen data deponeren of exporteren.',
+      'plugins.importexport.crossref.settings.depositorIntro' => 'Geef de naam en het e-mailadres van degene die verantwoordlijk is voor de Crossref DOI deposit.',
+      'plugins.importexport.crossref.settings.form.depositorName' => 'Depositor naam',
+      'plugins.importexport.crossref.settings.form.depositorEmail' => 'E-mail depositor',
+      'plugins.importexport.crossref.settings.form.depositorNameRequired' => 'Geef de naam van de depositor.',
+      'plugins.importexport.crossref.settings.form.depositorEmailRequired' => 'Geef het e-mail adres van de depositor.',
+      'plugins.importexport.crossref.registrationIntro' => 'U kan via deze plugin ook rechtstreeks Digitale Object Identificatiecodes (DOI\'s) laten registreren bij Crossref. Daarvoor heeft u een gebruikersnaam en wachtwoord (beschikbaar van <a href="http://www.crossref.org" target="_blank">Crossref</a>) nodig. Als u geen gebruikersnaam en wachtwoord heeft, kan u nog steeds exporteren naar het Crossref XML formaat, maar kan u de DOI\'s niet via OJS registreren bij Crossref.',
+      'plugins.importexport.crossref.settings.form.username' => 'Gebruikersnaam',
+      'plugins.importexport.crossref.settings.form.usernameRequired' => 'Geeft de gebruikersnaam die u van Crossrefe kreeg.',
+      'plugins.importexport.crossref.settings.form.automaticRegistration.description' => 'OJS zal toegewezen DOI\'s na publicatie automatisch deponeren bij Crossref. Dit kan even duren (bv. afhankelijk van uw cronjob instellingen). U kan alle ongeregistreerde DOI\'s bekijken.',
+      'plugins.importexport.crossref.settings.form.testMode.description' => 'Gebruik de Crossref test API (testomgeving) voor de DOI deposit. Vergeet deze test-optie niet te verwijderen voor de uiteindelijke publicatie.',
+      'plugins.importexport.crossref.issues.description' => 'Opmerking: Alleen nummers (en niet hun artikels) zullen hier worden geëxporteerd/geregistreerd.',
+      'plugins.importexport.crossref.status.submitted' => 'Ingediend',
+      'plugins.importexport.crossref.status.completed' => 'Gedeponeerd',
+      'plugins.importexport.crossref.status.failed' => 'Mislukt',
+      'plugins.importexport.crossref.status.registered' => 'Actief',
+      'plugins.importexport.crossref.status.markedRegistered' => 'Als actief gemarkeerd',
+      'plugins.importexport.crossref.statusLegend' => '
+		<p>Deposit status:</p>
+		<p>
+		- Niet gedeponeerd: er werd nog geen deposit geprobeerd voor deze DOI.<br />
+		- Actief: de DOI werd gedeponeerd en kan correct worden opgelost.<br />
+		- Mislukt: de DOI deposit is mislukt.<br />
+		- Als actief gemarkeerd: de DOI werd manueel als actief gemarkeerd.
+		</p>
+		<p>Alleen de status van de laatste depostitpoging wordt getoond.</p>
+		<p>Als een deposit mislukt is, los het probleem dan op en probeer de DOI opnieuw te registreren.</p>',
+      'plugins.importexport.crossref.action.export' => 'Download XML',
+      'plugins.importexport.crossref.action.markRegistered' => 'Markeer als actief',
+      'plugins.importexport.crossref.action.register' => 'Dien in',
+      'plugins.importexport.crossref.action.checkStatus' => 'Controleer status',
+      'plugins.importexport.crossref.senderTask.name' => 'Automatische registratie bij Crossref',
+      'plugins.importexport.crossref.notification.failed' => 'Het registreren van een DOI is mislukt. Ga naar Hulpmiddelen > Import/export > Crossref XML Export Plugin om de mislukte deposits te bekijken.',
+      'plugins.importexport.crossref.cliUsage' => 'Gebruik:
+{$scriptName} {$pluginName} export [xmlFileName] [journal_path] articles objectId1 [objectId2] ...
+{$scriptName} {$pluginName} register [journal_path] articles objectId1 [objectId2] ...
+',
+      'plugins.importexport.crossref.register.error.mdsError' => 'Inzending is niet geslaagd! De DOI registratieserver meldde een fout: \'{$param}\'.',
+      'plugins.importexport.crossref.register.success' => 'Inzending geslaagd!',
+      'plugins.importexport.crossref.export.error.issueNotFound' => 'Er komt geen nummer overeen met de opgegeven ID "{$issueId}".',
+      'plugins.importexport.crossref.export.error.articleNotFound' => 'Er komt geen artikel overeen met de opgegeven ID "{$articleId}".',
+      'plugins.importexport.crossref.register.success.warning' => 'De registratie is gelukt, maar de volgende waarschuwing is opgetreden: \'{$param}\'.',
+      'plugins.importexport.crossref.settings.form.validation' => 'Valideer XML. Gebruik deze optie voor de XML-download voor de handmatige DOI-registratie.',
+    ),
+  ),
+);

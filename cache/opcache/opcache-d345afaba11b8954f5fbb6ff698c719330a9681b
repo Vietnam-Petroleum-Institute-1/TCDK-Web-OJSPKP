@@ -1,0 +1,32 @@
+<?php $exp = 1751345595; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'comments.anonymous' => 'Anonyymi käyttäjä',
+      'comments.anonymousNamed' => '"{$userName}"',
+      'comments.body' => 'Teksti',
+      'comments.titleRequired' => 'Kommentin otsikko vaaditaan.',
+      'comments.confirmDeleteChildren' => 'Tämän kommentin poistaminen poistaa myös kaikki siihen liittyvät vastaukset. Haluatko varmasti poistaa kommentin?',
+      'comments.delete' => 'Poista tämä kommentti',
+      'comments.email' => 'Kommentoijan sähköposti',
+      'comments.emailReply' => 'Lähetä sähköpostivastaus',
+      'comments.enterComment' => 'Kirjoita kommentti',
+      'comments.inResponseTo' => 'Vastauksena viestiin <a href="{$url}">{$title}</a>',
+      'comments.name' => 'Kommentoijan nimi',
+      'comments.noComments' => 'Yhtään lukijakommenttia ei ole lähetetty.',
+      'comments.nReplies' => '({$num} vastausta)',
+      'comments.oneReply' => '(1 vastaus)',
+      'comments.postAnonymously' => 'Lähetä tämä kommentti anonyymina',
+      'comments.postReply' => 'Lähetä vastaus',
+      'comments.readerComments' => 'Lukijakommentit',
+      'comments.readMore' => 'Lue lisää',
+      'comments.replies' => 'Vastaukset',
+      'comments.title' => 'Otsikko',
+      'comments.viewAllComments' => 'Näytä kaikki kommentit',
+      'reader.fullText' => 'Kokoteksti:',
+    ),
+  ),
+);

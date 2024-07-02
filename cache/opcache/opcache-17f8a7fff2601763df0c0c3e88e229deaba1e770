@@ -1,0 +1,22 @@
+<?php $exp = 1751345595; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n > 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.announcementfeed.displayName' => 'افزونه اطلاعیه',
+      'plugins.generic.announcementfeed.settings' => 'تنظیمات',
+      'plugins.generic.announcementfeed.settings.all' => 'پیوندهای فید را در تمامی صفحات مجله نمایش بده.',
+      'plugins.generic.announcementfeed.settings.homepage' => 'پیوندهای فید را فقط در صفحه اصلی و اطلاعیه نمایش بده.',
+      'plugins.generic.announcementfeed.settings.announcement' => 'پیوندهای فید را فقط در صفحه اطلاعیه نشان بده.',
+      'plugins.generic.announcementfeed.settings.recentAnnouncements1' => 'فیدها را محدود کن به',
+      'plugins.generic.announcementfeed.settings.recentAnnouncements2' => 'آخرین اطلاعیه‌ها.',
+      'plugins.generic.announcementfeed.settings.recentItemsRequired' => 'لطفاً یک عدد مثبت برای اطلاعیه‌های اخیر وارد کنید.',
+      'plugins.generic.announcementfeed.atom.altText' => 'لوگوی Atom',
+      'plugins.generic.announcementfeed.rss1.altText' => 'لوگوی RSS1',
+      'plugins.generic.announcementfeed.rss2.altText' => 'لوگوی RSS2',
+      'plugins.generic.announcementfeed.description' => 'این افزونه فیدهای وب RSS/Atom را برای اطلاعیه های مجله تولید می‌کند.',
+    ),
+  ),
+);

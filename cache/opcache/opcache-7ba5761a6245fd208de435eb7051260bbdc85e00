@@ -1,0 +1,16 @@
+<?php $exp = 1751345595; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.importexport.crossref.displayName' => 'Crossref XML esportatzeko plugina',
+      'plugins.importexport.crossref.description' => 'Artikuluen metadatuak esportatu Crossref XML formatuan.',
+      'plugins.importexport.crossref.cliUsage' => 'Usage:
+{$scriptName} {$pluginName} export [xmlFileName] [journal_path] articles objectId1 [objectId2] ...
+{$scriptName} {$pluginName} register [journal_path] articles objectId1 [objectId2] ...
+',
+    ),
+  ),
+);

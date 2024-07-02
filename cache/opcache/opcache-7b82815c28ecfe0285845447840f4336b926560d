@@ -1,0 +1,72 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'installer.additionalLocales' => 'Bijkomende talen',
+      'installer.administratorAccount' => 'Beheerdersaccount',
+      'installer.administratorAccountInstructions' => 'Deze gebruiker wordt de sitebeheerder en heeft volledige toegang tot het systeem. Bijkomende gebruikersaccounts kunnen na installatie aangemaakt worden.',
+      'installer.checkNo' => '<span class="pkp_form_error formError">NEE</span>',
+      'installer.checkYes' => 'Ja',
+      'installer.configFileError' => 'Het configuratiebestand <tt>config.inc.php</tt> bestaat niet of kan niet gelezen worden.',
+      'installer.connectionCharset' => 'Connectie karakterset',
+      'installer.contentsOfConfigFile' => 'Inhoud van het configuratiebestand',
+      'installer.databaseDriver' => 'Database stuurprogramma',
+      'installer.databaseDriverInstructions' => '<strong>Database stuurprogramma\'s die tussen haakjes staan lijken de verplichte PHP extensie niet geladen te hebben en doen de installatie waarschijnlijk mislukken als ze geselecteerd worden.</strong><br />De niet-ondersteunde database stuurprogramma\'s die hierboven getoond worden zijn alleen voor academische toepassingen en werken waarschijnlijk niet.',
+      'installer.databaseHost' => 'Machine',
+      'installer.databaseHostInstructions' => 'Laat de machinenaam leeg om met domain sockets  te werken in plaats van met TCP/IP. Dit is niet nodig bij MySQL, dat automatisch gebruik maakt van sockets als "localhost" opgegeven wordt,  maar het is verplicht bij sommige andere databasesystemen zoals PostgreSQL.',
+      'installer.databaseName' => 'Databasenaam',
+      'installer.databasePassword' => 'Wachtwoord',
+      'installer.databaseSettings' => 'Databaseinstellingen',
+      'installer.databaseUsername' => 'Gebruikersnaam',
+      'installer.filesDir' => 'Map voor het laden van bestanden',
+      'installer.fileSettings' => 'Bestandsinstellingen',
+      'installer.form.clientCharsetRequired' => 'Er moet een karakterset voor de browser gekozen worden.',
+      'installer.form.databaseDriverRequired' => 'Er moet een database-stuurprogramma gekozen worden.',
+      'installer.form.databaseNameRequired' => 'De databasenaam is verplicht.',
+      'installer.form.emailRequired' => 'Een geldig e-mailadres voor de beheerder is verplicht.',
+      'installer.form.filesDirRequired' => 'De map voor het bewaren van geladen bestanden is verplicht.',
+      'installer.form.localeRequired' => 'Er moet een taal gekozen worden.',
+      'installer.form.passwordRequired' => 'Het wachtwoord voor de beheerder is verplicht.',
+      'installer.form.passwordsDoNotMatch' => 'De beheerderswachtwoorden komen niet overeen.',
+      'installer.form.separateMultiple' => 'Scheid meerdere waarden met komma\'s',
+      'installer.form.usernameAlphaNumeric' => 'De gebruikersnaam van de de beheerder mag alleen alfanumerieke tekens, liggende streepjes en koppelstreepjes bevatten en moet beginnen en eindigen met een alfanumeriek teken.',
+      'installer.form.usernameRequired' => 'De gebruikersnaam voor de beheerder is verplicht.',
+      'installer.installationWrongPhp' => '<br/><strong>WAARSCHUWING: Uw huidige PHP versie voldoet niet aan de minimale eisen. Het is aan te bevelen om te upgraden naar een meer recente versie.</strong>',
+      'installer.installErrorsOccurred' => 'Fouten tijdens de installatie',
+      'installer.installerSQLStatements' => 'SQL opdrachten voor installatie',
+      'installer.installFileError' => 'Het installatiebestand <tt>dbscripts/xml/install.xml</tt> bestaat niet of kan niet gelezen worden.',
+      'installer.installFilesDirError' => 'De map voor het laden van bestanden bestaat niet of er mag niet in geschreven worden.',
+      'installer.installParseDBFileError' => 'Fout bij het parseren van het database installatiebestand <tt>{$file}</tt>.',
+      'installer.installParseEmailTemplatesFileError' => 'Fout bij het parsen van het e-mail sjabloon <tt>{$file}</tt>.',
+      'installer.installParseFilterConfigFileError' => 'Fout in het filter configuratiebestand <tt>{$file}</tt>',
+      'installer.unsupportedUpgradeError' => 'Upgrade wordt niet ondersteund. Zie docs/UPGRADE-UNSUPPORTED voor details.',
+      'installer.locale' => 'Taal',
+      'installer.locale.maybeIncomplete' => 'De gemarkeerde talen zijn mogelijk onvolledig',
+      'installer.localeSettings' => 'Taalinstelingen',
+      'installer.oaiSettings' => 'OAI instellingen',
+      'installer.oaiRepositoryIdInstructions' => 'Een unieke identificatie om metadatarecords van deze site te indexeren, gebruikmakend van het <a href="https://www.openarchives.org/" target="_blank">Open Archives Initiative</a> Protocol for Metadata Harvesting.',
+      'installer.oaiRepositoryId' => 'OAI repository identificatie',
+      'installer.publicFilesDirError' => 'De map met publieke bestanden bestaat niet of er mag niet in geschreven worden.',
+      'installer.releaseNotes' => 'Over deze versie',
+      'installer.preInstallationInstructionsTitle' => 'Voorbereidende stappen voor de installatie',
+      'installer.preInstallationInstructions' => '<p>1. Volgende bestanden en folders (en hun inhoud) moeten schrijfbaar zijn:</p>
+		<ul>
+			<li><tt>config.inc.php</tt> is schrijfbaar (optioneel): {$writable_config}</li>
+			<li><tt>public/</tt> is schrijfbaar: {$writable_public}</li>
+			<li><tt>cache/</tt> is schrijfbaar: {$writable_cache}</li>
+			<li><tt>cache/t_cache/</tt> is schrijfbaar: {$writable_templates_cache}</li>
+			<li><tt>cache/t_compile/</tt> is schrijfbaar: {$writable_templates_compile}</li>
+			<li><tt>cache/_db</tt> is schrijfbaar: {$writable_db_cache}</li>
+		</ul>
+
+<p>2. Er moet een folder bestaan voor het opladen van bestanden, en die folder moet schrijfbaar zijn (zie "Bestandsinstellingen" hieronder).</p>',
+      'installer.configureXSLMessage' => '<p>De XSL module is niet ingeschakeld in uw PHP installatie. Schakel die module in, of configureer de xslt_command parameter in het config.inc.php bestand.</p>',
+      'installer.beacon' => 'Beacon',
+      'installer.beacon.enable' => 'Geef een unieke ID op voor de website, en een basis-URL voor OAI. Deze gegevens worden uitsluitend gebruikt voor statistieken en beveiliging.',
+      'installer.unsupportedPhpError' => 'De PHP versie van uw server wordt niet ondersteund door deze software. Controleer de systeemvereisten in docs/README.',
+    ),
+  ),
+);

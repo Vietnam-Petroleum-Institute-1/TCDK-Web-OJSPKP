@@ -1,0 +1,15 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.recommendBySimilarity.displayName' => 'Predlagaj podobne članke',
+      'plugins.generic.recommendBySimilarity.description' => 'Vtičnik doda seznam podobnih člankov na stran z izvlečkom članka.',
+      'plugins.generic.recommendBySimilarity.heading' => 'Podobni članki',
+      'plugins.generic.recommendBySimilarity.advancedSearchIntro' => 'Lahko poskusite tudi {$advancedSearchLink} za ta članek.',
+      'plugins.generic.recommendBySimilarity.advancedSearch' => 'zaženi napredni iskalnik podobnosti',
+    ),
+  ),
+);

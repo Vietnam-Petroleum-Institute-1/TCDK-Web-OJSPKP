@@ -1,0 +1,60 @@
+<?php $exp = 1751345599; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.crossref.displayName' => 'Crossref menejeri plagini',
+      'plugins.importexport.crossref.requirements' => 'Talablar',
+      'plugins.importexport.crossref.error.publisherNotConfigured' => 'Jurnal nashriyotchisi sozlanmagan! <a href="{$journalSettingsUrl}" target="_blank">Jurnal sozlamalari sahifasiga</a> nashriyot muassasasini kiritishingiz kerak.',
+      'plugins.importexport.crossref.error.issnNotConfigured' => 'ISSN jurnali sozlanmagan! <a href="{$journalSettingsUrl}" target="_blank">Jurnal sozlamalari sahifasiga</a> ISSN qo‘shishingiz kerak.',
+      'plugins.importexport.crossref.settings.form.depositorName' => 'Omonatchi nomi',
+      'plugins.importexport.crossref.settings.form.depositorEmail' => 'Omonatchining elektron pochtasi',
+      'plugins.importexport.crossref.settings.form.depositorNameRequired' => 'Iltimos, omonatchi nomini kiriting.',
+      'plugins.importexport.crossref.settings.form.depositorEmailRequired' => 'Iltimos, omonatchining elektron pochta manzilini kiriting.',
+      'plugins.importexport.crossref.settings.form.automaticRegistration.description' => 'OJS tayinlangan DOI-larni avtomatik ravishda Crossref-ga omonat qiladi. Iltimos, e\'tibor bering, nashrdan keyin buni qayta ishlash uchun qisqa vaqt ketishi mumkin (masalan, cronjob konfiguratsiyasiga qarab). Siz ro\'yxatdan o\'tmagan barcha DOIlarni tekshirishingiz mumkin.',
+      'plugins.importexport.crossref.settings.form.validation' => 'XMLni tasdiqlash. DOI-ni qo\'lda ro\'yxatdan o\'tkazish uchun XML yuklab olish uchun ushbu parametrdan foydalaning.',
+      'plugins.importexport.crossref.status.failed' => 'Muvaffaqiyatsiz',
+      'plugins.importexport.crossref.statusLegend' => '
+		<p>Depozit holati:</p>
+<p>
+- Depozitga kiritilmagan: bu DOI uchun hech qanday depozitga urinilmagan.<br />
+- Faol: DOI saqlangan va to\'g\'ri hal qilinmoqda.<br />
+- Muvaffaqiyatsiz: DOI depoziti bajarilmadi.<br />
+- Faol deb belgilandi: DOI qo\'lda faol deb belgilandi.
+</p>
+<p>Faqat oxirgi depozitga urinish holati ko\'rsatiladi.</p>
+<p>Agar depozit amalga oshmasa, muammoni hal qiling va DOI-ni qayta roʻyxatdan oʻtkazishga urinib koʻring.</p>',
+      'plugins.importexport.crossref.action.markRegistered' => 'Faol deb belgilang',
+      'plugins.importexport.crossref.cliUsage' => 'Foydalanish:
+{$scriptName} {$pluginName} eksporti [xmlFileName] [journal_path] maqolalari objectId1 [objectId2] ...
+{$scriptName} {$pluginName} [journal_path] maqolalarini obyektId1 [objectId2] roʻyxatdan oʻtkazing ...
+',
+      'plugins.importexport.crossref.register.success.warning' => 'Roʻyxatdan oʻtish muvaffaqiyatli boʻldi, lekin quyidagi ogohlantirish paydo boʻldi: \'{$param}\'.',
+      'plugins.importexport.crossref.export.error.issueNotFound' => 'Belgilangan “{$issueId}” identifikatoriga hech qanday muammo mos kelmadi.',
+      'plugins.importexport.crossref.export.error.articleNotFound' => 'Belgilangan maqola identifikatori “{$articleId}”ga mos keladigan maqola topilmadi.',
+      'plugins.importexport.crossref.displayName' => 'Crossref XML eksport plagini',
+      'plugins.importexport.crossref.description' => 'Maqola metamaʼlumotlarini Crossref XML formatida eksport qiling.',
+      'plugins.importexport.crossref.requirements.satisfied' => 'Barcha plagin talablari qondirildi.',
+      'plugins.importexport.crossref.settings.form.testMode.description' => 'DOI depoziti uchun Crossref test API (sinov muhiti) dan foydalaning. Iltimos, ishlab chiqarish uchun ushbu parametrni olib tashlashni unutmang.',
+      'plugins.importexport.crossref.status.markedRegistered' => 'Faol deb belgilangan',
+      'plugins.importexport.crossref.action.export' => 'Eksport',
+      'plugins.importexport.crossref.issues.description' => 'Eslatma: Bu yerda eksport/ro‘yxatdan o‘tish uchun faqat masalalar (ularning maqolalari emas) ko‘rib chiqiladi.',
+      'plugins.importexport.crossref.action.register' => 'Depozit',
+      'plugins.importexport.crossref.senderTask.name' => 'Crossref avtomatik ro\'yxatga olish vazifasi',
+      'plugins.importexport.crossref.settings.depositorIntro' => 'Muvaffaqiyatli Crossref depoziti uchun quyidagi elementlar talab qilinadi.',
+      'plugins.importexport.crossref.register.error.mdsError' => 'Ro\'yxatdan o\'tish to\'liq muvaffaqiyatli bo\'lmadi! DOI roʻyxatga olish serveri xatolik yuz berdi.',
+      'plugins.importexport.crossref.error.noDOIContentObjects' => 'Maqolalar DOI umumiy identifikatori plaginida DOI tayinlash uchun tanlanmagan, shuning uchun bu plaginda depozit yoki eksport qilish imkoniyati yo\'q.',
+      'plugins.importexport.crossref.status.notDeposited' => 'Depozitga kiritilmagan',
+      'plugins.importexport.crossref.settings.form.onlyValidateExport' => 'Faqat eksportni tasdiqlang. Faylni yuklab olmang.',
+      'plugins.importexport.crossref.registrationIntro' => 'Agar siz ushbu plagindan Digital Object Identifiers (DOI)larni bevosita Crossref’da ro‘yxatdan o‘tkazish uchun foydalanmoqchi bo‘lsangiz, sizga foydalanuvchi nomi va parol kerak bo‘ladi (<a href="https://www.crossref.org" target="_blank"> Buning uchun Crossref</a>). Agar sizda o\'z foydalanuvchi nomingiz va parolingiz bo\'lmasa, siz hali ham Crossref XML formatiga eksport qilishingiz mumkin, lekin siz DOI\'laringizni OJS ichidan Crossref bilan ro\'yxatdan o\'tkaza olmaysiz.',
+      'plugins.generic.crossref.description' => 'Crossref metama\'lumotlarini saqlash va eksport qilish bilan shug\'ullanadi',
+      'plugins.importexport.crossref.settings.form.usernameRequired' => 'Iltimos, Crossref-dan olgan foydalanuvchi nomini kiriting.',
+      'plugins.importexport.crossref.settings.form.username' => 'Foydalanuvchi nomi',
+      'plugins.importexport.crossref.settings' => 'Krossref sozlamalari',
+      'plugins.generic.crossref.registrationAgency.name' => 'Crossref',
+      'plugins.importexport.crossref.status.registered' => 'Faol',
+    ),
+  ),
+);

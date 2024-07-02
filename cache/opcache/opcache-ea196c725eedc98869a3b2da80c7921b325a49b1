@@ -1,0 +1,90 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=1; plural=0;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'emails.submissionAck.subject' => 'Terima kasih atas naskah yang Anda kirimkan ke {$contextName}',
+      'emails.submissionAck.body' => '{$recipientName}:<br />
+<br />
+Terimakasih telah menyerahkan naskah, &quot;{$submissionTitle}&quot; ke {$contextName}. Dengan sistem manajemenn jurnal online yang kami gunakan, Anda dapat memantau kemajuan proses editorial naskah Anda melalui:<br />
+<br />
+URL Naskah: {$submissionUrl}<br />
+Nama pengguna: {$recipientUsername}<br />
+<br />
+Jika ada pertanyaan, silakan hubungi kami. Terimakasih telah mempercayakan publikasi karya Anda di jurnal kami.<br />
+<br />
+{$contextSignature}',
+      'emails.reviewAck.subject' => 'Ucapan Terimakasih atas Review Artikel',
+      'emails.reviewAck.body' => '{$recipientName}:<br />
+<br />
+Terimakasih telah menyelesaikan review terhadap naskah, &quot;{$submissionTitle},&quot; untuk {$contextName}. Kami sangat menghargai kontribusi Anda terhadap kualitas karya yang kami publikasikan.',
+      'emails.editorDecisionSendToExternal.subject' => 'Keputusan Editor',
+      'emails.editorDecisionSendToExternal.body' => '{$authors}:<br />
+<br />
+Kami telah membuat keputusan terkait naskah yang Anda kirimkan ke {$contextName}, &quot;{$submissionTitle}&quot;.<br />
+<br />
+Keputusan kami adalah: Dikirimkan ke Reviewer Eksternal<br />
+<br />
+URL Naskah: {$submissionUrl}',
+      'emails.editorDecisionSendToProduction.subject' => 'Tahap berikutnya menerbitkan naskah Anda',
+      'emails.editorDecisionSendToProduction.body' => '{$authors}:<br />
+<br />
+Proses editing naskah Anda, &quot;{$submissionTitle},&quot; telah selesai.  Kami sekarang mengirimkannya ke produksi.<br />
+<br />
+URL Naskah: {$submissionUrl}',
+      'emails.editorDecisionRevisions.subject' => 'Naskah Anda telah direview dan kami menyarankan untuk segera mengirimkan revisinya',
+      'emails.editorDecisionRevisions.body' => '{$authors}:<br />
+<br />
+Kami telah membuat keputusan terkait naskah yang Anda kirimkan ke {$contextName}, &quot;{$submissionTitle}&quot;.<br />
+<br />
+Keputusan kami adalah: Perlu Revisi',
+      'emails.editorDecisionResubmit.subject' => 'Naskah Anda telah direview - silakan revisi dan kirim ulang',
+      'emails.editorDecisionResubmit.body' => '{$authors}:<br />
+<br />
+Kami telah membuat keputusan terkait naskah yang Anda kirimkan ke {$contextName}, &quot;{$submissionTitle}&quot;.<br />
+<br />
+Keputusan kami adalah: Kirim Ulang untuk Review',
+      'emails.editorDecisionDecline.subject' => 'Naskah Anda ditolak',
+      'emails.editorDecisionDecline.body' => '{$authors}:<br />
+<br />
+Kami telah membuat keputusan terkait naskah yang Anda kirimkan ke {$contextName}, &quot;{$submissionTitle}&quot;.<br />
+<br />
+Keputusan kami adalah: Naskah Ditolak',
+      'emails.editorRecommendation.subject' => 'Rekomendasi Penyunting',
+      'emails.editorRecommendation.body' => '{$editors}:<br />
+<br />
+Rekomendasi berkaitan dengan  naskah {$contextName}, &quot;{$submissionTitle}&quot; adalah: {$recommendation}',
+      'emails.copyeditRequest.subject' => 'Naskah {$submissionId} siap masuk ke tahap copyedit untuk {$contextAcronym}',
+      'emails.copyeditRequest.body' => '{$recipientName}:<br />
+<br />
+Kami meminta Anda melakukan copyediting terhadap &quot;{$submissionTitle}&quot; untuk {$contextName} mengikuti langkah-langkah berikut.<br />
+1. Klik URL Naskah di bawah.<br />
+2. Buka semua file yang ada di file Draft dan lakukan copyediting, tambahkan Diskusi Copyediting sesuai kebutuhan.<br />
+3. Simpan file yang telah di-copyedit, dan unggah ke panel Sudah Copyedit.<br />
+4. Beritahu Editor bahwa semua file telah siap, dan bahwa proses Produksi dapat dimulai.<br />
+<br />
+{$contextName} URL: {$contextUrl}<br />
+URL Naskah: {$submissionUrl}<br />
+Nama pengguna: {$recipientUsername}',
+      'emails.editorDecisionInitialDecline.subject' => 'Naskah Anda ditolak',
+      'emails.editorDecisionInitialDecline.body' => '
+			{$authors}:<br />
+<br />
+Kami telah sampai pada keputusan mengenai naskah Anda {$contextName}, &quot;{$submissionTitle}&quot;.<br />
+<br />
+Keputusannya adalah: Menolak Naskah',
+      'emails.discussion.subject' => 'Pesan terkait {$contextName}',
+      'emails.discussion.body' => 'Silakan tuliskan pesan Anda.',
+      'emails.reviewConfirm.subject' => 'Dapat Melakukan Review',
+      'emails.reviewConfirm.body' => 'Editor:<br />
+<br />
+Saya dapat dan bersedia melakukan review terhadap naskah, &quot;{$submissionTitle},&quot; untuk {$contextName}. Terimakasih telah mempercayakan kepada saya, dan saya berencana untuk menyelesaikan review ini sesuai tenggat, {$reviewDueDate}, atau sebelumnya.<br />
+<br />
+{$senderName}',
+      'emails.submissionAckNotAuthor.subject' => 'Konfirmasi pengiriman naskah',
+      'emails.submissionAckNotAuthor.body' => '<p>Yth {$recipientName},</p><p>Nama Anda ditulis sebagai co-author pada nasakah {$contextName}. Pengirim, {$submitterName}, memberikan rincian berikut:</p><p>{$submissionTitle}<br>{$authorsWithAffiliation}</p><p>Jika ada kekeliruan, atau tidak ingin nama Anda tercantum dalam naskah, silakan hubungi saya.</p><p>Terima kasih atas pertimbangannya memilih jurnal ini untuk menerbitkan karya Anda.</p><p>Salam Hormat,</p>{$contextSignature}',
+    ),
+  ),
+);

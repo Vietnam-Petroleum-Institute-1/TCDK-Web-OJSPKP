@@ -1,0 +1,14 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=3; plural=(n % 10 == 0 || n % 100 >= 11 && n % 100 <= 19) ? 0 : ((n % 10 == 1 && n % 100 != 11) ? 1 : 2);',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.recommendByAuthor.displayName' => 'Ieteicamie raksti pēc autora',
+      'plugins.generic.recommendByAuthor.heading' => 'Visvairāk lasītie šī autora (autoru) raksti',
+      'plugins.generic.recommendByAuthor.description' => 'Šis spraudnis ievieto viena un tā paša autora rakstu sarakstu raksta kopsavilkuma lapā.',
+      'plugins.generic.recommendByAuthor.noMetric' => 'Novērojums: Šis spraudnis prasa, lai būtu ieslēgts vismaz viens statistikas/pārskatu spraudnis. Ja jūsu statistikas spraudņi nodrošina vairāk nekā vienu metriku, lūdzu, izvēlieties arī galveno metriku administratora vietnes iestatījumu lapā un/vai žurnāla pārvaldnieka iestatījumu lapās.',
+    ),
+  ),
+);

@@ -1,0 +1,12 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n > 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.htmlArticleGalley.displayName' => 'Ficheiro para publicação em HTML',
+      'plugins.generic.htmlArticleGalley.description' => 'Este plugin fornece suporte de renderização para ficheiros para publicação em HTML.',
+    ),
+  ),
+);

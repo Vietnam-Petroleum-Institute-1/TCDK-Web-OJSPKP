@@ -1,0 +1,78 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'installer.additionalLocales' => 'Ek diller',
+      'installer.administratorAccount' => 'Yönetici Hesabı',
+      'installer.administratorAccountInstructions' => 'Bu kullanıcı hesabı site yöneticisi olacaktır ve sisteme tam giriş yetkisi olacaktır. Ek kullanıcı hesapları kurulumdan sonra oluşturulabilir.',
+      'installer.checkNo' => '<span class="pkp_form_error formError">HAYIR</span>',
+      'installer.checkYes' => 'Evet',
+      'installer.configFileError' => '<tt>config.inc.php</tt> adlı konfigürasyon dosyası mevcut değil veya okunabilir değil.',
+      'installer.connectionCharset' => 'Bağlantı karakter seti',
+      'installer.contentsOfConfigFile' => 'Konfigürasyon dosyasının içeriği',
+      'installer.databaseDriver' => 'Veri tabanı sürücüsü',
+      'installer.databaseDriverInstructions' => '<strong>Sistem şu anda MySQL ve PostgreSQL\'i desteklemektedir, aşağıdaki seçeneklerden birini seçememeniz durumunda, sunucunuzun gerekli PHP uzantılarına sahip olduğundan emin olmak için sistem yöneticinizle iletişime geçin.</strong>',
+      'installer.databaseHost' => 'Ana Bilgisayar',
+      'installer.databaseHostInstructions' => 'Alan (domain) soketleri yerine TCP/IP üzerinden bağlanmak için"hostname"i boş bırakın. "localhost" bilgisi girildiyse soketler otomatik olarak kullanılacaktır. Bu MySQL için gerekli değildir, fakat PstgreSQL gibi bazı veri tabanı sunucuları için gereklidir.',
+      'installer.databaseName' => 'Veri tabanı adı',
+      'installer.databasePassword' => 'Şifre',
+      'installer.databaseSettings' => 'Veri Tabanı Ayarları',
+      'installer.databaseUsername' => 'Kullanıcı adı',
+      'installer.filesDir' => 'Yüklemeler için dizin',
+      'installer.fileSettings' => 'Dosya Ayarları',
+      'installer.form.clientCharsetRequired' => 'Bir kullanıcı karakter seti seçilmiş olmalıdır.',
+      'installer.form.databaseDriverRequired' => 'Bir veri tabanı sürücüsü seçilmiş olmalıdır.',
+      'installer.form.databaseNameRequired' => 'Veri tabanı ismi gereklidir.',
+      'installer.form.emailRequired' => 'Yönetici hesabı için geçerli bir e-posta adresi gereklidir.',
+      'installer.form.filesDirRequired' => 'Yüklenen dosyaları saklamak için kullanılacak dizin gereklidir.',
+      'installer.form.localeRequired' => 'Bir yer seçilmeli.',
+      'installer.form.passwordRequired' => 'Yönetici hesabı için bir şifre gereklidir.',
+      'installer.form.passwordsDoNotMatch' => 'Yönetici şifresi eşleşmedi.',
+      'installer.form.separateMultiple' => 'Çoklu değerleri virgül ile ayırın',
+      'installer.form.usernameAlphaNumeric' => 'Yöneticinin kullanıcı adı yalnızca alfanümerik karakterleri, alt çizgileri ve tire işaretlerini içerebilir ve mutlaka bir alfanümerik karakter ile başlayıp sonlanmalıdır.',
+      'installer.form.usernameRequired' => 'Yönetici hesabı için bir kullanıcı adı gereklidir.',
+      'installer.form.timeZoneRequired' => 'Bir saat dilimi seçilmelidir.',
+      'installer.installationWrongPhp' => '<br/><strong>UYARI: Kullanmakta olduğunuz PHP sürümü kurulum için minimum gereksinimleri karşılamıyor. Daha güncel bir PHP sürümü yüklemeniz önerilir.</strong>',
+      'installer.installErrorsOccurred' => 'Yükleme sırasında hata oluştu',
+      'installer.installerSQLStatements' => 'Kurulum için SQL açıklamaları',
+      'installer.installFileError' => '<tt>dbscripts/xml/install.xml</tt> adlı kurulum dosyası mevcut değil veya okunabilir değil.',
+      'installer.installFilesDirError' => 'Yüklenen dosyalara özgü dizin mevcut veya yazılabilir değil.',
+      'installer.installParseDBFileError' => '<tt>{$file}</tt> adlı veri tabanı kurulum dosyasında ayrıştırma hatası oluştu.',
+      'installer.installMigrationError' => '<tt>{$class}</tt> birleştirme yürütülürken bir istisna oluştu. İstisna {$message} idi.',
+      'installer.installParseEmailTemplatesFileError' => '<tt>{$file}</tt> adlı e-posta şablon dosyasında ayrıştırma hatası oluştu.',
+      'installer.installParseFilterConfigFileError' => 'Filitre konfigürasyon dosyası <tt>{$file}</tt> ayrıştırma hatası.',
+      'installer.unsupportedUpgradeError' => 'Yükseltme desteklenmiyor. Ayrıntılar için docs/UPGRADE-UNSUPPORTED dokümanına bakınız.',
+      'installer.timezoneInstructions' => 'Bu sistem için kullanılacak saat dilimi.',
+      'installer.additionalLocalesInstructions' => 'Bu sistemde desteklenecek diğer dilleri seçin. Yönetim arayüzünden herhangi bir zamanda ek diller de yüklenebilir.<br>* = Tam olarak çevrilmemiş dilleri belirtir (terimlerin > %90\'ı çevrilmiştir)',
+      'installer.locale' => 'Kurulum dili yeri',
+      'installer.locale.maybeIncomplete' => 'İşaretli diller tamamlanmamış olabilir.',
+      'installer.localeSettings' => 'Yerel Ayarlar',
+      'installer.oaiSettings' => 'OAI Ayarları',
+      'installer.oaiRepositoryIdInstructions' => 'Bu sitede <a href="https://www.openarchives.org/" target="_blank">Open Archives Initiative</a> üst veri harmanlama protokolüne uygun olarak meta verilerini tanımlamak için tekil bir tanımlama kullanılır.',
+      'installer.oaiRepositoryId' => 'Kurumsal Arşiv Belirleyici',
+      'installer.publicFilesDirError' => 'Genel dosya dizini mevcut değil veya yazılabilir değil.',
+      'installer.releaseNotes' => 'Sürüm Notları',
+      'installer.preInstallationInstructionsTitle' => 'Ön Yükleme Adımları',
+      'installer.preInstallationInstructions' => '
+		<p>1. Aşağıdaki dosyalar ve dizinler (ve içerikleri) yazılabilir olmalıdır:</p>
+		<ul>
+			<li><tt>config.inc.php</tt> yazılabilir (opsiyonel): {$writable_config}</li>
+			<li><tt>public/</tt> yazılabilir: {$writable_public}</li>
+			<li><tt>cache/</tt> yazılabilir: {$writable_cache}</li>
+			<li><tt>cache/t_cache/</tt> yazılabilir: {$writable_templates_cache}</li>
+			<li><tt>cache/t_compile/</tt> yazılabilir: {$writable_templates_compile}</li>
+			<li><tt>cache/_db</tt> yazılabilir: {$writable_db_cache}</li>
+		</ul>
+
+<p>2. Yüklenen dosyaları depolamak için bir dizin oluşturulmalı ve yazılabilir yapmalısınız (Aşağıdaki "Dosya Ayarları" kısmına bakınız).</p>
+	',
+      'installer.configureXSLMessage' => '<p>PHP kurulumunuzda XSL modülü etkin değil. Bunu etkinleştirin veya config.inc.php dosyanızda xslt_command parametresini yapılandırın. </p>',
+      'installer.beacon' => 'İşaretçi',
+      'installer.beacon.enable' => 'Yalnızca istatistik ve güvenlik uyarıları için PKP\'ye tekil bir site kimliği ve OAI temel URL\'si oluşturun.',
+      'installer.unsupportedPhpError' => 'Sunucunuzun PHP sürümü bu yazılımı desteklemiyor. docs/README dosyasından kurulum gereksinimlerini tekrar kontrol ediniz.',
+    ),
+  ),
+);

@@ -1,0 +1,64 @@
+<?php $exp = 1751345594; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.importexport.crossref.displayName' => 'Plugin exportu do XML pro Crossref',
+      'plugins.importexport.crossref.description' => 'Export metadat článku v XML formátu Crossref.',
+      'plugins.importexport.crossref.cliUsage' => 'Použití:
+{$scriptName} {$pluginName} export [xmlFileName] [journal_path] articles objectId1 [objectId2] ...
+{$scriptName} {$pluginName} register [journal_path] articles objectId1 [objectId2] ...
+',
+      'plugins.importexport.crossref.settings.form.username' => 'Uživatelské jméno',
+      'plugins.importexport.crossref.settings.form.usernameRequired' => 'Vložte, prosím, uživatelské jméno, které jste získali od Crossref.',
+      'plugins.importexport.crossref.requirements' => 'Požadavky',
+      'plugins.importexport.crossref.requirements.satisfied' => 'Všechny požadavky na plugin jsou splněny.',
+      'plugins.importexport.crossref.settings.depositorIntro' => 'Následující položky je třeba pro úspěšné uložení do Crossref.',
+      'plugins.importexport.crossref.settings.form.depositorName' => 'Jméno vkladatele',
+      'plugins.importexport.crossref.settings.form.depositorEmail' => 'Email vkladatele',
+      'plugins.importexport.crossref.settings.form.depositorNameRequired' => 'Vložte, prosím, jméno vkladatele.',
+      'plugins.importexport.crossref.settings.form.depositorEmailRequired' => 'Vložte, prosím, email vkladatele.',
+      'plugins.importexport.crossref.error.publisherNotConfigured' => 'Vydavatel časopisu nebyl nakonfigurován! Musíte přidat instituci vydavatele na <a href="{$journalSettingsUrl}" target="_blank"> Stránce nastavení časopisu </a>.',
+      'plugins.importexport.crossref.error.issnNotConfigured' => 'ISSN časopisu nebylo nakonfigurováno! Musíte přidat ISSN na <a href="{$journalSettingsUrl}" target="_blank"> Stránce nastavení časopisu </a>.',
+      'plugins.importexport.crossref.error.noDOIContentObjects' => 'Nejsou vybrány články pro přiřazení veřejných identifikátorů DOI, takže v tomto pluginu není žádná možnost uložení nebo exportu.',
+      'plugins.importexport.crossref.registrationIntro' => '<p>Pokud chcete tento plugin použít k registraci identifikátorů digitálních objektů (DOI) přímo u společnosti <a href="http://www.crossref.org/">Crossref</a>, budete muset přidat své <a href="https://www.crossref.org/documentation/member-setup/account-credentials/">přihlašovací údaje k účtu Crossref</a> do níže uvedených polí pro uživatelské jméno a heslo.</p><p>V závislosti na vašem členství v Crossref můžete zadat uživatelské jméno a heslo dvěma způsoby:</p><ul><li>Pokud používáte účet organizace, přidejte své <a href="https://www.crossref.org/documentation/member-setup/account-credentials/#00376">sdílené uživatelské jméno a heslo</a></li><li>Pokud používáte <a href="https://www.crossref.org/documentation/member-setup/account-credentials/#00368">osobní účet</a>, zadejte svou e-mailovou adresu a roli do pole uživatelské jméno. Uživatelské jméno bude vypadat takto: email@example.com/role</li><li>Pokud neznáte nebo nemáte přístup ke svým přihlašovacím údajům ke službě Crossref, můžete se obrátit na <a href="https://support.crossref.org/">podporu Crossref</a> o pomoc. Bez pověření můžete stále exportovat metadata do formátu Crossref XML, ale nemůžete registrovat své DOI do Crossref z OJS.</li></ul>',
+      'plugins.importexport.crossref.settings.form.automaticRegistration.description' => 'OJS automaticky uloží přidělené DOI do Crossref. Vezměte, prosím, na vědomí, že to může trvat krátkou dobu po zveřejnění (např. v závislosti na konfiguraci vašeho cronjobu). Můžete si zkontrolovat všechna neregistrovaná DOI.',
+      'plugins.importexport.crossref.settings.form.testMode.description' => 'Pro vklad DOI použijte testovací rozhraní API (testovací prostředí) Crossref. Nezapomeňte tuto možnost odstranit pro produkční prostředí.',
+      'plugins.importexport.crossref.issues.description' => 'Poznámka: Pro účely exportu/registrace zde budou zohledněny pouze čísla (a nikoliv jejich články).',
+      'plugins.importexport.crossref.status.failed' => 'Neúspěšný',
+      'plugins.importexport.crossref.status.registered' => 'Aktivní',
+      'plugins.importexport.crossref.status.markedRegistered' => 'Označeno jako aktivní',
+      'plugins.importexport.crossref.statusLegend' => '
+		<p>Status uložení:</p>
+		<p>
+		- Neuloženo: u tohoto DOI nebyl proveden žádný pokus o vklad.<br />
+		- Aktivní: DOI byl uložen a správně rozpoznán.<br />
+		- Neúspěšné: vložení DOI selhalo.<br />
+		- Označeno jako aktivní: DOI bylo manuálně označeno jako aktivní.
+		</p>
+		<p>Zobrazuje se pouze stav posledního pokusu o vklad.</p>
+		<p>Pokud se vklad nezdařil, vyřešte problém a zkuste DOI zaregistrovat znovu.</p>',
+      'plugins.importexport.crossref.action.export' => 'Stažení XML',
+      'plugins.importexport.crossref.action.markRegistered' => 'Označit jako aktivní',
+      'plugins.importexport.crossref.senderTask.name' => 'Úloha automatické registrace Crossref',
+      'plugins.importexport.crossref.export.error.issueNotFound' => 'Specifikované ID čísla "{$issueId}" neodpovídá žádnému číslu.',
+      'plugins.importexport.crossref.export.error.articleNotFound' => '¨Žádný článek neodpovídá tomuto ID článku "{$articleId}".',
+      'plugins.importexport.crossref.register.success.warning' => 'Registrace proběhla úspěšně, ale objevilo se následující varování: \'{$param}\'.',
+      'plugins.importexport.crossref.register.error.mdsError' => 'Registrace nebyla zcela úspěšná! Registrační server DOI vrátil chybu.',
+      'plugins.importexport.crossref.action.register' => 'Vklad',
+      'plugins.importexport.crossref.settings.form.validation' => 'Validace XML. Tuto možnost použijte pro stažení XML pro ruční registraci DOI.',
+      'plugins.importexport.crossref.settings.form.onlyValidateExport' => 'Pouze validace exportu. Nestahujte soubor.',
+      'plugins.generic.crossref.registrationAgency.name' => 'Crossref',
+      'plugins.importexport.crossref.status.notDeposited' => 'Nebylo uloženo',
+      'plugins.importexport.crossref.settings' => 'Nastavení Crossref',
+      'plugins.generic.crossref.description' => 'Správa ukládání a exportu metadat Crossref',
+      'plugins.generic.crossref.displayName' => 'Plugin pro správu Crossref',
+      'plugins.generic.crossref.successMessage' => 'Metadata k této položce byla uložena u společnosti Crossref. Chcete-li zobrazit další podrobnosti, podívejte se na příspěvek v sekci <a href="https://doi.crossref.org/servlet/submissionAdmin?sf=detail&submissionID={$submissionId}">Panel správce Crossref</a>.',
+      'plugins.importexport.crossref.settings.form.depositorName.description' => 'Název organizace, která registruje DOI. Je součástí uložených metadat a slouží k zaznamenání toho, kdo uložení provedl.',
+      'plugins.importexport.crossref.settings.form.depositorEmail.description' => 'E-mailová adresa osoby odpovědné za registraci obsahu u společnosti Crossref. Je součástí uložených metadat a používá se při zasílání e-mailu s potvrzením o uložení.',
+      'plugins.importexport.crossref.settings.form.username.description' => 'Uživatelské jméno Crossref, které bude použito k ověření vašich vkladů. Pokud používáte osobní účet, viz výše uvedené doporučení.',
+    ),
+  ),
+);

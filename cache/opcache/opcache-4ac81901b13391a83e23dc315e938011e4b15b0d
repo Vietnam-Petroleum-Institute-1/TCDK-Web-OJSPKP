@@ -1,0 +1,30 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.staticPages.displayName' => 'Модуль «Статические страницы»',
+      'plugins.generic.staticPages.description' => 'Позволяет управлять статическим контентом.',
+      'plugins.generic.staticPages.staticPages' => 'Статические страницы',
+      'plugins.generic.staticPages.pageTitle' => 'Название',
+      'plugins.generic.staticPages.content' => 'Контент',
+      'plugins.generic.staticPages.path' => 'Путь',
+      'plugins.generic.staticPages.requirement.tinymce' => '<p><strong>Модуль «TinyMCE» должен быть установлен и включен для добавления/редактирования контента.</strong></p>',
+      'plugins.generic.staticPages.editAddContent' => 'Редактировать/Добавить контент',
+      'plugins.generic.staticPages.addStaticPage' => 'Добавить статическую страницу',
+      'plugins.generic.staticPages.addNewPage' => 'Добавить новую страницу',
+      'plugins.generic.staticPages.editStaticPage' => 'Редактировать статическую страницу',
+      'plugins.generic.staticPages.noneCreated' => 'Статические страницы не были созданы.',
+      'plugins.generic.staticPages.settingInstructions' => 'Форма ниже показывает все созданные вами статические страницы. Вы можете редактировать или удалять страницы, используя ссылки справа.',
+      'plugins.generic.staticPages.editInstructions' => 'Используйте форму ниже для добавления/редактирования контента страницы.',
+      'plugins.generic.staticPages.pathRegEx' => 'Поле пути должно содержать только буквы латинского алфавита, цифры, «.», «/», «-» и «_».',
+      'plugins.generic.staticPages.viewInstructions' => '<p>Эта страница будет доступна по адресу: <blockquote>{$pagesPath}</blockquote>..., где %PATH% — это путь, введенный выше. <strong>Обратите внимание:</strong> Каждая страница должна иметь свой собственный, уникальный путь. Использование путей, которые встроены в систему, может привести к потере доступа к важным функциям.</p>',
+      'plugins.generic.staticPages.duplicatePath' => 'Этот путь уже используется для другой статической страницы.',
+      'plugins.generic.staticPages.pageSaved' => 'Страница успешно сохранена.',
+      'plugins.generic.staticPages.pageDeleted' => 'Страница успешно удалена.',
+      'plugins.generic.staticPages.noneExist' => 'Страницы не были созданы',
+    ),
+  ),
+);

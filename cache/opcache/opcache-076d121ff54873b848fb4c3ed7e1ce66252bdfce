@@ -1,0 +1,24 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=1; plural=0;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.customBlock.showName.description' => 'Paparkan nama blok ini di atas isi kandungan blok.',
+      'plugins.generic.customBlock.showName' => 'Paparkan Nama',
+      'plugins.generic.customBlock.nameRegEx' => 'Nama blok custom mesti mengandungi huruf, angka, dan tanda hubung / garis bawah.',
+      'plugins.generic.customBlock.nameRequired' => 'Nama blok custom diperlukan.',
+      'plugins.generic.customBlock.description' => 'Ini adalah blok yang dihasilkan oleh pengguna.',
+      'plugins.generic.customBlock.nameSuffix' => '(Blok Custom)',
+      'plugins.generic.customBlock.content' => 'Kandungan',
+      'plugins.generic.customBlockManager.noneCreated' => 'Tiada blok custom yang dibuat.',
+      'plugins.generic.customBlockManager.addBlock' => 'Tambah Blok',
+      'plugins.generic.customBlockManager.blockName' => 'Nama Blok',
+      'plugins.generic.customBlockManager.customBlocks' => 'Blok Custom',
+      'plugins.generic.customBlockManager.description' => 'Plugin ini membolehkan anda mengurus (menambah, mengedit dan menghapus) blok bar sisi custom.',
+      'plugins.generic.customBlockManager.manage' => 'Urus Blok Custom',
+      'plugins.generic.customBlockManager.displayName' => 'Pengurus Blok Custom',
+    ),
+  ),
+);

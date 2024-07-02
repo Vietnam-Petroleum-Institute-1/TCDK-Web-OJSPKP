@@ -1,0 +1,32 @@
+<?php $exp = 1751345594; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'comments.titleRequired' => 'Şərh başlığı tələb olunur.',
+      'comments.noComments' => 'Hələ heç bir oxucu şərhi yoxdur.',
+      'comments.anonymous' => 'Anonim istifadəçi',
+      'comments.anonymousNamed' => '" {$userName}',
+      'comments.body' => 'Şərh',
+      'comments.confirmDeleteChildren' => 'Bu şərh silindiyi zaman, varsa şərhə verilən cavab da silinəcək. Bunu etmək istədiyinizə əmisinizmi?',
+      'comments.delete' => 'Bu şərhi silin',
+      'comments.email' => 'Göndərən email',
+      'comments.emailReply' => 'Cavab email',
+      'comments.enterComment' => 'Şərh əlavə edin',
+      'comments.inResponseTo' => 'Buna cavab olaraq: <a href="{$url}">{$title}</a>',
+      'comments.name' => 'Göndərənin adı',
+      'comments.nReplies' => '( {$num} cavab',
+      'comments.oneReply' => '(1 cavab)',
+      'comments.postAnonymously' => 'Bu şərhi anonim olaraq göndər',
+      'comments.postReply' => 'Cavabı Göndər',
+      'comments.readerComments' => 'Oxucu şərhləri',
+      'comments.readMore' => 'Davamını oxuyun',
+      'comments.replies' => 'Cavablar',
+      'comments.title' => 'Başlıq',
+      'comments.viewAllComments' => 'Bütün şərhləri göstərin',
+      'reader.fullText' => 'Tam mətn:',
+    ),
+  ),
+);

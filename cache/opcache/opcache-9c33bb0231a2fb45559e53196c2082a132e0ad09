@@ -1,0 +1,30 @@
+<?php $exp = 1751345599; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'api.announcements.400.contextsNotMatched' => 'Siz so\'ragan e\'lon ushbu jurnalning bir qismi emas.',
+      'api.emails.403.disabled' => 'Ushbu jurnal uchun elektron pochta xabarlari xususiyati yoqilmagan.',
+      'api.submissions.400.wrongContext' => 'Siz soʻragan xabar bu jurnalda yoʻq.',
+      'api.submissions.403.cantChangeContext' => 'Siz topshirish jurnalini o\'zgartira olmaysiz.',
+      'api.submissions.403.unpublishedIssues' => 'Sizda nashr qilinmagan nashrlarni ko\'rish uchun ruxsat yo\'q.',
+      'api.contexts.403.requestedDisabledContexts' => 'Siz faqat yoqilgan jurnallarni ko\'rishingiz mumkin.',
+      'api.contexts.403.notAllowed' => 'Ushbu jurnalni ko\'rish uchun sizda ruxsat yo\'q.',
+      'api.contexts.403.contextsDidNotMatch' => 'Jurnalning API-si yoki butun dunyo bo\'ylab API-ga murojaat qilmaguningizcha, ushbu jurnalni ko\'rishingiz yoki tahrirlashingiz mumkin emas.',
+      'api.contexts.403.requiresContext' => 'Siz ushbu jurnalni sayt miqyosidagi API-dan tahrir qila olmaysiz.',
+      'api.contexts.403.notAllowedEdit' => 'Ushbu jurnalni tahrirlash uchun sizning ruxsatingiz yo\'q.',
+      'api.contexts.403.notAllowedDelete' => 'Sizda ushbu jurnalni o\'chirishga ruxsat yo\'q.',
+      'api.contexts.404.contextNotFound' => 'Siz so\'ragan jurnal topilmadi.',
+      'api.dois.403.contextsNotMatched' => 'Siz soʻragan DOI ushbu jurnalning bir qismi emas.',
+      'api.dois.400.noRegistrationAgencyConfigured' => 'Ushbu jurnal uchun DOI ro\'yxatga olish agentligi sozlanmagan.',
+      'api.dois.400.depositFailed' => 'Ba\'zi elementlar muvaffaqiyatli topshirilmadi. Iltimos, alohida elementlarning xato xabarlarini tekshiring.',
+      'api.emailTemplates.403.notAllowedChangeContext' => 'Ushbu elektron pochta shablonini boshqa jurnalga ko\'chirishga ruxsatingiz yo\'q.',
+      'api._payments.400.invalidPaymentMethod' => 'Siz tanlagan to\'lov usuli qo\'llab-quvvatlanmaydi.',
+      'api.publications.403.contextsDidNotMatch' => 'Siz so\'ragan nashr ushbu jurnalning bir qismi emas.',
+      'api.publications.403.submissionsDidNotMatch' => 'Siz so\'ragan nashr ushbu taqdimotning bir qismi emas.',
+      'api.submissionFiles.400.badRepresentationAssocType' => 'Siz ushbu bosqichidagi faylni to‘plam bilan bog\'lay olmaysiz.',
+    ),
+  ),
+);

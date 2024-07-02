@@ -1,0 +1,26 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.importexport.datacite.displayName' => 'Plugin pre export/registráciu DataCite',
+      'plugins.importexport.datacite.description' => 'Exportovať, alebo registrovať číslo, článok, sadzobnicu, alebo doplnkový súbor vo formáte DataCite.',
+      'plugins.importexport.datacite.settings.description' => 'Nakonfigurujte, prosím, plugin pre DataCite export pred jeho prvým použitím.',
+      'plugins.importexport.datacite.intro' => '
+		Pokiaľ chcete registrovať čísla DOI v rámci DataCite, kontaktujte prosím Managing Agenta pomocou odkazu <a href="http://datacite.org/contact" target="_blank">Domovská stránka DataCite
+		</a>, ktorý vás odkáže na vášho lokálneho správcu členov DataCite. Akonáhle nadviažete vzťah s členskou organizáciou, obdržíte prístupové údaje pre DataCite služby pre čísla (DOIs) a nahrávanie príslušných metadát. Ak nemáte vlastný login a heslo, budete mať stále možnosť vyexportovať DOI informácie pre DataCite v XML formáte. Uvedomte si, prosím, že heslo je ukladané ako obyčajný text, teda nekódované kvôli požiadavkám služieb DataCite.
+	',
+      'plugins.importexport.datacite.settings.form.username' => 'Užívateľ (symbol)',
+      'plugins.importexport.datacite.settings.form.usernameRequired' => 'Vložte, prosím, užívateľské meno (symbol), ktorý ste dostali od DataCite. Užívateľské meno nesmie obsahovať dvojbodku.',
+      'plugins.importexport.datacite.settings.form.automaticRegistration.description' => 'OJS automaticky uloží DOI do DataCite. Upozorňujeme, že to môže trvať krátku dobu po spracovaní publikácie. Môžete skontrolovať všetky neregistrované DOI.',
+      'plugins.importexport.datacite.settings.form.testMode.description' => 'Použite testovací prefix DataCite pre registráciu DOI. Nezabudnite túto možnosť odstrániť pre produkčnú fázu.',
+      'plugins.importexport.datacite.senderTask.name' => 'Automatická úloha registrácie DataCite',
+      'plugins.importexport.datacite.cliUsage' => 'Použitie:
+{$scriptName} {$pluginName} export [outputFileName] [journal_path] {issues|articles|galleys} objectId1 [objectId2] ...
+{$scriptName} {$pluginName} register [journal_path] {issues|articles|galleys} objectId1 [objectId2] ...
+',
+    ),
+  ),
+);

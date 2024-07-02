@@ -1,0 +1,31 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'api.announcements.400.contextsNotMatched' => 'Оголошення, яке Ви запросили, не є частиною цього журнала.',
+      'api.emails.403.disabled' => 'Функція сповіщення електронною поштою не ввімкнена для цього журналу.',
+      'api.submissions.400.wrongContext' => 'Запитана вами інформація відсутня в цьому журналі.',
+      'api.submissions.403.cantChangeContext' => 'Не можна змінити журнал подання.',
+      'api.submissions.403.unpublishedIssues' => 'У вас немає дозволу на перегляд неопублікованих випусків.',
+      'api.contexts.403.requestedDisabledContexts' => 'Ви можете переглядати тільки ті журнали, які були включені.',
+      'api.contexts.403.notAllowed' => 'У вас немає дозволу на перегляд цього журналу.',
+      'api.contexts.403.contextsDidNotMatch' => 'Ви не можете переглядати або редагувати цей журнал, якщо не зробите запит до API журналу або API всього вебсайту.',
+      'api.contexts.403.requiresContext' => 'Ви не можете редагувати цей журнал за допомогою API для всього вебсайту.',
+      'api.contexts.403.notAllowedEdit' => 'У вас немає дозволу на редагування цього журналу.',
+      'api.contexts.403.notAllowedDelete' => 'У вас немає дозволу на видалення цього журналу.',
+      'api.contexts.404.contextNotFound' => 'Запитаний вами журнал не був знайдений.',
+      'api.dois.403.contextsNotMatched' => 'Запитаний вами DOI не є частиною цього журналу.',
+      'api.dois.400.noRegistrationAgencyConfigured' => 'Для цього журналу не налаштовано агентство реєстрації DOI.',
+      'api.dois.400.depositFailed' => 'Деякі елементи не вдалося депонувати. Будь ласка, перевірте окремі елементи на наявність щодо них конкретних повідомлень про помилки.',
+      'api.emailTemplates.403.notAllowedChangeContext' => 'У вас немає дозволу на переміщення цього шаблону Електронної Пошти в інший журнал.',
+      'api._payments.400.invalidPaymentMethod' => 'Обраний вами спосіб оплати не підтримується.',
+      'api.publications.403.contextsDidNotMatch' => 'Запитана вами публікація не є частиною цього журналу.',
+      'api.publications.403.submissionsDidNotMatch' => 'Публікація, яку ви запросили, не є частиною цього подання.',
+      'api.submissionFiles.400.badRepresentationAssocType' => 'Ви не можете асоціювати файл з цієї стадії файлу з гранкою.',
+      'api.submission.400.inactiveSection' => 'Цей розділ більше не отримує подань.',
+    ),
+  ),
+);

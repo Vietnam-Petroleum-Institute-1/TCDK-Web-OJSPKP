@@ -1,0 +1,26 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.webfeed.displayName' => 'Web Besleme Eklentisi',
+      'plugins.generic.webfeed.description' => 'Bu eklenti son sayı için RSS/Atom web akış beslemeleri üretir.<br>Ayrıca, besleme bağlantılarını kenar çubuğunda görüntülemenizi sağlayan bir blok içerir.',
+      'plugins.generic.webfeed.settings' => 'Ayarlar',
+      'plugins.generic.webfeed.settings.issue' => 'Web besleme bağlantılarını yalnızca sayı sayfalarında göster.',
+      'plugins.generic.webfeed.settings.homepage' => 'Web besleme bağlantılarını sadece anasayfa ve sayı sayfalarında göster.',
+      'plugins.generic.webfeed.settings.all' => 'Web besleme bağlantılarını tüm dergi sayfalarında göster.',
+      'plugins.generic.webfeed.settings.currentIssue' => 'Son yayımlanan sayının bütün öğelerini göster.',
+      'plugins.generic.webfeed.settings.recent' => 'En son yayınların sabit bir sayısını görüntüleyin.',
+      'plugins.generic.webfeed.settings.recentArticles' => 'Gösterilecek öge sayısı',
+      'plugins.generic.webfeed.settings.recentItemsRequired' => 'Lütfen son yayımlanan öğeler için pozitif bir tamsayı giriniz.',
+      'plugins.generic.webfeed.atom.altText' => 'Atom logo',
+      'plugins.generic.webfeed.rss1.altText' => 'RSS1 logo',
+      'plugins.generic.webfeed.rss2.altText' => 'RSS2 logo',
+      'plugins.generic.webfeed.settings.homepageAndIssues' => 'Web besleme bağlantılarını yalnızca ana sayfada ve sayı sayfalarında görüntüleyin.',
+      'plugins.generic.webfeed.blockTitle' => 'Son yayınlar',
+      'plugins.generic.webfeed.settings.includeIdentifiers' => 'Besleme özetine tanımlayıcılar (ISBN, anahtar kelimeler, kategoriler vb.) dahil edilsin mi?',
+    ),
+  ),
+);

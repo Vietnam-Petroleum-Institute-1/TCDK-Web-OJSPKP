@@ -1,0 +1,26 @@
+<?php $exp = 1751345595; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.webfeed.displayName' => 'Módulo para fuentes RSS/Atom',
+      'plugins.generic.webfeed.description' => 'Este módulo produce canales de información web RSS/Atom.<br>El módulo también incluye un bloque lateral que permite mostrar los enlaces a los canales en la barra lateral de la aplicación',
+      'plugins.generic.webfeed.settings' => 'Opciones',
+      'plugins.generic.webfeed.settings.issue' => 'Mostrar enlaces al feed sólo en las páginas interiores.',
+      'plugins.generic.webfeed.settings.homepage' => 'Mostrar los enlaces a los canales web solo en la página de inicio.',
+      'plugins.generic.webfeed.settings.all' => 'Mostrar los enlaces a los canales web en todas las páginas de la aplicación.',
+      'plugins.generic.webfeed.settings.currentIssue' => 'Mostrar elementos del número actual.',
+      'plugins.generic.webfeed.settings.recent' => 'Mostrar un número fijo de las publicaciones más recientes.',
+      'plugins.generic.webfeed.settings.recentArticles' => 'Número de publicaciones que se debe mostrar',
+      'plugins.generic.webfeed.settings.recentItemsRequired' => 'Introduzca un número entero para los elementos publicados más recientes.',
+      'plugins.generic.webfeed.atom.altText' => 'Logo Atom',
+      'plugins.generic.webfeed.rss1.altText' => 'Logo RSS1',
+      'plugins.generic.webfeed.rss2.altText' => 'Logo RSS2',
+      'plugins.generic.webfeed.settings.homepageAndIssues' => 'Mostrar los enlaces a los canales web solo en las páginas de inicio y del número.',
+      'plugins.generic.webfeed.blockTitle' => 'Últimas publicaciones',
+      'plugins.generic.webfeed.settings.includeIdentifiers' => '¿Incluir identificadores (ISBN, palabras clave, categorías, etc.) en el resumen del canal?',
+    ),
+  ),
+);

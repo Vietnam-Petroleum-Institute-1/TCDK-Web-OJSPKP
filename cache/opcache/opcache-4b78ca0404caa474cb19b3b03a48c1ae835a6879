@@ -1,0 +1,103 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=1; plural=0;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'emails.submissionAck.subject' => '投稿のお礼',
+      'emails.submissionAck.body' => '{$recipientName}様<br />
+<br />
+雑誌『{$contextName}』に原稿「{$submissionTitle}」をご投稿いただき、ありがとうございました。本誌が使用しているオンライン雑誌管理システムでは、雑誌のWebサイトにログインすることにより、編集過程の進捗状況を確認することができます。<br />
+<br />
+原稿のURL: {$submissionUrl}<br />
+ユーザー名: {$recipientUsername}<br />
+<br />
+何かご不明な点がございましたら、ご連絡ください。研究成果の発表の場として、本誌をご検討いただき、誠にありがとうございました。<br />
+<br />
+{$contextSignature}',
+      'emails.submissionAck.description' => 'このメールは（設定で有効になっていれば）著者がこの雑誌への投稿プロセスを終了した時に、自動的に送信されるものです。メールでは、投稿物の処理状況を追跡できることを伝える同時に、著者に投稿に対するお礼をしています。',
+      'emails.reviewAck.subject' => '論文査読のお礼',
+      'emails.reviewAck.body' => '{$recipientName}様:<br />
+<br />
+雑誌『{$contextName}』への投稿原稿「{$submissionTitle}」の査読をしていただき、ありがとうございました。本誌が発行する論文の品質向上に対する貴殿の貢献に対し感謝いたします。',
+      'emails.editorDecisionSendToExternal.subject' => '編集者の判断',
+      'emails.editorDecisionSendToExternal.body' => '{$authors}様:<br />
+<br />
+下記の投稿について結論に達しましたので、連絡いたします。
+『{$contextName}』「{$submissionTitle}」<br />
+<br />
+結果は: 査読に回す<br />
+<br />
+投稿物のURL: {$submissionUrl}',
+      'emails.editorDecisionSendToProduction.subject' => '編集者の判断',
+      'emails.editorDecisionSendToProduction.body' => '{$authors}様:<br />
+<br />
+投稿「{$submissionTitle}」の編集が完了しました。 これから制作プロセスに入ります。<br />
+<br />
+投稿物のURL: {$submissionUrl}',
+      'emails.editorDecisionRevisions.subject' => '編集者の判断',
+      'emails.editorDecisionRevisions.body' => '{$authors}様:<br />
+<br />
+下記の投稿について結論に達しましたので、連絡いたします。
+『{$contextName}』「{$submissionTitle}」<br />
+<br />
+結果は: 改訂を要求',
+      'emails.editorDecisionResubmit.subject' => '編集者の判断',
+      'emails.editorDecisionResubmit.body' => '{$authors}様:<br />
+<br />
+下記の投稿について結論に達しましたので、連絡いたします。
+『{$contextName}』「{$submissionTitle}」<br />
+<br />
+結果は: 査読に再投稿',
+      'emails.editorDecisionDecline.subject' => '編集者の判断',
+      'emails.editorDecisionDecline.body' => '{$authors}様:<br />
+<br />
+下記の投稿について結論に達しましたので、連絡いたします。
+『{$contextName}』「{$submissionTitle}」<br />
+<br />
+結果は: 不採用',
+      'emails.editorRecommendation.subject' => '編集者の査読結果',
+      'emails.editorRecommendation.body' => '{$editors}:<br />
+<br />
+『$contextName}』への投稿「{$submissionTitle}」に関する査読結果は {$recommendation} です。',
+      'emails.copyeditRequest.subject' => '原稿整理のお願い',
+      'emails.copyeditRequest.body' => '{$recipientName}様:<br />
+<br />
+誌『{$contextName}』への投稿原稿「{$submissionTitle}」の原稿整理作業をお願いいたしたくメールを差し上げました。以下の手順に従って作業してください。<br />
+1. 下記の投稿URLをクリックしてください。<br />
+2. 「原稿ファイル」で利用可能なファイルを開き、必要に応じて「原稿整理 ディスカッション」を追加しながら、原稿整理作業を行います。<br />
+3. 整理したファイルを保存し、原稿整理 パネルにアップロードします。<br />
+4. 全てのファイルの準備が完了したことを編集者に通知し、制作プロセスの開始が可能になります。<br />
+<br />
+{$contextName} URL: {$contextUrl}<br />
+投稿URL: {$submissionUrl}<br />
+ユーザー名: {$recipientUsername}',
+      'emails.editorDecisionInitialDecline.subject' => '編集者の判断',
+      'emails.editorDecisionInitialDecline.body' => '
+			{$authors}様:<br />
+<br />
+下記の投稿について結論に達しましたので、連絡いたします。
+『{$contextName}』「{$submissionTitle}」<br />
+<br />
+結果は: 不採用',
+      'emails.discussion.subject' => '{$contextName}に関するメッセージ',
+      'emails.discussion.body' => 'メッセージを入力してください。',
+      'emails.reviewConfirm.subject' => '査読依頼の受諾',
+      'emails.reviewConfirm.body' => '編集部 御中:<br />
+<br />
+雑誌『{$contextName}』への投稿物「{$submissionTitle}」の査読の件ですが、喜んでやらせていただきます。査読者に選んでいただき、ありがとうございました。ご指定の査読期限、{$reviewDueDate}までには査読を終わらせるつもりです。<br />
+<br />
+よろしくお願いします。<br />
+{$senderName}',
+      'emails.submissionAckNotAuthor.subject' => '投稿のお礼',
+      'emails.submissionAckNotAuthor.body' => '拝啓<br />
+<br />
+{$submitterName}が雑誌『{$journalName}』に原稿「{$contextName}」をご投稿されました。 <br />
+<br />
+何かご不明な点がございましたら、ご連絡ください。研究成果の発表の場として、本誌をご検討いただき、誠にありがとうございました。<br />
+<br />
+{$contextSignature}',
+    ),
+  ),
+);

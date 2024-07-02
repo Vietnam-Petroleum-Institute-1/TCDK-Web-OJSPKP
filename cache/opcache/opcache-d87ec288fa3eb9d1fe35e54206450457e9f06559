@@ -1,0 +1,19 @@
+<?php $exp = 1751345594; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.googleAnalytics.displayName' => 'Plugin Google Analytics',
+      'plugins.generic.googleAnalytics.description' => 'Integruje OJS s Google Analytics, aplikací od Googlu pro sledování provozu webových stránek. Vyžaduje, abyste již měli založený účet Google Analytics. Podrobněji vizte na <a href="https://www.google.com/analytics/" title="stránka Google Analytics"> stránkách Google Analytics</a>.',
+      'plugins.generic.googleAnalytics.manager.settings.description' => '<p>Po zapnutí tohoto pluginu je možné používat Google Analytics pro sběr a analýzu informací o použití a provozu stránek tohoto časopisu. Vězte prosím, že tento plugin vyžaduje, abyste již měli účet Google Analytics. Viz prosím <a href="https://www.google.com/analytics/" title="Stránka Google Analytics">stránku Google Analytics</a> pro více informací.</p>
+<p>Vězte prosím, že Google Analytics může vyžadovat až 24 hodin než začnou být sbírány statistiky a vytvářeny zprávy. Během této doby nemusí funkce \'Check Status\' přesně informovat zda detekovala požadovaný sledovací kód pro časopis.</p>',
+      'plugins.generic.googleAnalytics.manager.settings.googleAnalyticsSiteId' => 'Číslo účtu',
+      'plugins.generic.googleAnalytics.manager.settings.googleAnalyticsSiteIdRequired' => 'Vložte prosím číslo účtu.',
+      'plugins.generic.googleAnalytics.authorAccount' => 'číslo účtu Google Analytics',
+      'plugins.generic.googleAnalytics.authorAccount.description' => 'Chcete-li sledovat návštěvnost publikovaných článků pomocí služby Google Analytics, zadejte zde číslo účtu (například UA-xxxxxx-x).',
+      'plugins.generic.googleAnalytics.authorAccountInvalid' => 'Jedno nebo více čísel účtů Google Analytics zadaných pro autory příspěvku nejsou platné.',
+    ),
+  ),
+);

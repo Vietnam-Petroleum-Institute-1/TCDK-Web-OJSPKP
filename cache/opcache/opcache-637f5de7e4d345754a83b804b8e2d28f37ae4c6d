@@ -1,0 +1,79 @@
+<?php $exp = 1751345595; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n > 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'installer.additionalLocales' => 'Langues supplémentaires',
+      'installer.administratorAccount' => 'Compte administrateur',
+      'installer.administratorAccountInstructions' => 'Ce compte utilisateur deviendra l\'administrateur du site et aura le plein accès à tout le système. D\'autres comptes utilisateurs peuvent être créés après l\'installation.',
+      'installer.checkNo' => '<span class="pkp_form_error formError">NON</span>',
+      'installer.checkYes' => 'Oui',
+      'installer.configFileError' => 'Le fichier de configuration <tt>config.inc.php</tt> n\'existe pas ou n\'est pas lisible.',
+      'installer.connectionCharset' => 'Jeu de caractères pour la connexion',
+      'installer.contentsOfConfigFile' => 'Contenu du fichier de configuration',
+      'installer.databaseDriver' => 'Pilote de la base de données',
+      'installer.databaseDriverInstructions' => '<strong>Le système prend actuellement en charge MySQL et PostgreSQL. Si vous ne pouvez pas sélectionner l\'une des options ci-dessous, contactez votre administrateur système pour vous assurer que votre serveur dispose des extensions PHP requises.</strong>',
+      'installer.databaseHost' => 'Hébergeur',
+      'installer.databaseHostInstructions' => 'Laisser le nom de l\'hébergeur vide pour se connecter à l\'aide de connecteurs logiciels de domaine au lieu de le faire par TCP/IP. Ce n\'est pas nécessaire avec MySQL, qui utilisera automatiquement des connecteurs logiciels si "localhost" a été saisi, mais c\'est obligatoire avec d\'autres serveurs de bases de données tel que PostgreSQL.',
+      'installer.databaseName' => 'Nom de la base de données',
+      'installer.databasePassword' => 'Mot de passe',
+      'installer.databaseSettings' => 'Paramètres de la base de données',
+      'installer.databaseUsername' => 'Nom d\'utilisateur',
+      'installer.filesDir' => 'Répertoire pour les téléchargements',
+      'installer.fileSettings' => 'Paramètres des fichiers',
+      'installer.form.clientCharsetRequired' => 'Un jeu de caractères client doit être sélectionné.',
+      'installer.form.databaseDriverRequired' => 'Un pilote de base de données doit être sélectionné.',
+      'installer.form.databaseNameRequired' => 'Le nom de la base de données est obligatoire.',
+      'installer.form.emailRequired' => 'Un courriel valide pour le compte administrateur est obligatoire.',
+      'installer.form.filesDirRequired' => 'Le répertoire à utiliser pour stocker les fichiers téléchargés est obligatoire.',
+      'installer.form.localeRequired' => 'Une langue doit être sélectionnée.',
+      'installer.form.passwordRequired' => 'Un mot de passe pour le compte administrateur est obligatoire.',
+      'installer.form.passwordsDoNotMatch' => 'Les mots de passe de l\'administrateur ne correspondent pas.',
+      'installer.form.separateMultiple' => 'Séparer les valeurs multiples par une virgule',
+      'installer.form.usernameAlphaNumeric' => 'Le nom d\'utilisateur de l\'administrateur ne peut contenir que des caractères alphanumériques, traits de soulignement, et traits d\'union, et doit commencer et se terminer par un caractère alphanumérique.',
+      'installer.form.usernameRequired' => 'Un nom d\'utilisateur pour le compte administrateur est obligatoire.',
+      'installer.form.timeZoneRequired' => 'Un fuseau horaire doit être sélectionné.',
+      'installer.installationWrongPhp' => '<br/><strong>AVERTISSEMENT : Votre version actuelle de PHP ne satisfait pas aux exigences minimales d\'installation. Nous vous recommandons de faire la mise à jour vers une version plus récente de PHP.</strong>',
+      'installer.installErrorsOccurred' => 'Des erreurs se sont produites pendant l\'installation',
+      'installer.installerSQLStatements' => 'énoncés SQL pour l\'installation',
+      'installer.installFileError' => 'Le fichier d\'installation <tt>dbscripts/xml/install.xml</tt> n\'existe pas ou n\'est pas lisible.',
+      'installer.installFilesDirError' => 'Le répertoire précisé pour les fichiers téléchargés n\'existe pas ou n\'est pas disponible en écriture.',
+      'installer.installParseDBFileError' => 'Erreur d\'analyse du fichier d\'installation de la base de données <tt>{$file}</tt>.',
+      'installer.installMigrationError' => 'Erreur lors de l\'exécution de la classe de migration <tt>{$class}</tt>. Message d\'erreur : {$message}.',
+      'installer.installParseEmailTemplatesFileError' => 'Une erreur s\'est produite lors de l\'analyse du fichier du modèle de courriel <tt>{$file}</tt>.',
+      'installer.installParseFilterConfigFileError' => 'Erreur de traitement du fichier de configuration du filtre <tt>{$file}</tt>.',
+      'installer.unsupportedUpgradeError' => 'Mise à niveau non supportée. Voir docs/UPGRADE-UNSUPPORTED pour les détails.',
+      'installer.timezoneInstructions' => 'Le fuseau horaire à utiliser pour ce système.',
+      'installer.additionalLocalesInstructions' => 'Sélectionnez les langues supplémentaires à prendre en charge dans ce système. D\'autres langues peuvent être ajoutée à n\'importe quel moment depuis l\'interface d\'administration.<br>*= indique les langues qui ne sont pas entièrement traduites (avec moins de 90% des termes traduits)',
+      'installer.locale' => 'Langue',
+      'installer.locale.maybeIncomplete' => 'Les langues sélectionnées peuvent être incomplètes.',
+      'installer.localeSettings' => 'Paramètres de langue',
+      'installer.oaiSettings' => 'Paramètres OAI',
+      'installer.oaiRepositoryIdInstructions' => 'Un identifiant unique utilisé pour identifier les enregistrements de métadonnées indexées à partir de ce site à l\'aide du protocole<a href="https://www.openarchives.org/" target="_blank">Open Archives Initiative</a> pour la collecte de métadonnées.',
+      'installer.oaiRepositoryId' => 'Identifiant du dépôt OAI',
+      'installer.publicFilesDirError' => 'Le répertoire des fichiers publics n\'existe pas ou n\'est pas disponible en écriture.',
+      'installer.releaseNotes' => 'Instructions d\'utilisation',
+      'installer.preInstallationInstructionsTitle' => 'Étapes de pré-installation',
+      'installer.preInstallationInstructions' => '
+		<p>1. Les fichiers et répertoires suivants (et leur contenu) doivent être accessibles en écriture :</p>
+		<ul>
+			<li><tt>config.inc.php</tt> est accessible en écriture (optionnel) : {$writable_config}</li>
+			<li><tt>public/</tt> est accessible en écriture : {$writable_public}</li>
+			<li><tt>cache/</tt> est accessible en écriture : {$writable_cache}</li>
+			<li><tt>cache/t_cache/</tt> est accessible en écriture : {$writable_templates_cache}</li>
+			<li><tt>cache/t_compile/</tt> est accessible en écriture : {$writable_templates_compile}</li>
+			<li><tt>cache/_db</tt> est accessible en écriture : {$writable_db_cache}</li>
+		</ul>
+
+		<p>2. Vous devez créer un répertoire pour conserver les fichiers téléchargés et il doit être accessible en écriture (voir « Paramètres du fichier » ci-dessous).</p>
+	',
+      'installer.configureXSLMessage' => '<p>Le module XSL de votre installation PHP n\'est pas activé. Veuillez l\'activer ou configurer le paramètre xslt_command de votre fichier config.inc.php.</p>',
+      'installer.beacon' => 'Balise',
+      'installer.beacon.enable' => 'Procure un identifiant unique de site et un URL pour le protocole OAI pour PKP. Ceux-ci utilisés seulement pour des fins de statistiques et de sécurité.',
+      'installer.unsupportedPhpError' => 'La version de PHP n\'est pas supportée. Lire docs/README.',
+      'installer.miscSettings' => 'Paramètres divers',
+    ),
+  ),
+);

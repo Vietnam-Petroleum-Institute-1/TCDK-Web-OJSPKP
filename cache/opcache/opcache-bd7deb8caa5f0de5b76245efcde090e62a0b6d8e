@@ -1,0 +1,23 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.webfeed.displayName' => 'Plugin för webbflöde',
+      'plugins.generic.webfeed.description' => 'Det här pluginet lägger till RSS/Atom-syndikeringsflöden för senaste nummer.',
+      'plugins.generic.webfeed.settings' => 'Inställningar',
+      'plugins.generic.webfeed.settings.issue' => 'Visa länkar till RSS/Atom-flöden enbart på nummersidor.',
+      'plugins.generic.webfeed.settings.homepage' => 'Visa länkar till RSS/Atom-flöden enbart på förstasidan och nummersidor.',
+      'plugins.generic.webfeed.settings.all' => 'Visa länkar till RSS/Atom-flöden på alla tidskriftens sidor.',
+      'plugins.generic.webfeed.settings.currentIssue' => 'Visa poster i det senast publicerade numret.',
+      'plugins.generic.webfeed.settings.recent' => 'Visa ett bestämt antal av de senaste posterna.',
+      'plugins.generic.webfeed.settings.recentArticles' => 'Antal poster att visa',
+      'plugins.generic.webfeed.settings.recentItemsRequired' => 'Vänligen ange ett positivt antal för senast publicerade poster.',
+      'plugins.generic.webfeed.atom.altText' => 'Atom-logotyp',
+      'plugins.generic.webfeed.rss1.altText' => 'RSS1-logotyp',
+      'plugins.generic.webfeed.rss2.altText' => 'RSS2-logotyp',
+    ),
+  ),
+);

@@ -1,0 +1,30 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n > 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.staticPages.displayName' => 'Páginas estáticas',
+      'plugins.generic.staticPages.description' => 'Este plugin permite gerenciar páginas estáticas.',
+      'plugins.generic.staticPages.staticPages' => 'Páginas Estáticas',
+      'plugins.generic.staticPages.pageTitle' => 'Título',
+      'plugins.generic.staticPages.content' => 'Conteúdo',
+      'plugins.generic.staticPages.path' => 'Caminho',
+      'plugins.generic.staticPages.requirement.tinymce' => '<p><strong>O Editor TinyMCE deve estar instalado e habilitado para incluir/editar conteúdo.</strong></p>',
+      'plugins.generic.staticPages.editAddContent' => 'Editar/incluir conteúdo',
+      'plugins.generic.staticPages.addStaticPage' => 'Incluir página estática',
+      'plugins.generic.staticPages.addNewPage' => 'Incluir nova página',
+      'plugins.generic.staticPages.editStaticPage' => 'Editar página estática',
+      'plugins.generic.staticPages.noneCreated' => 'Não há páginas estáticas criadas.',
+      'plugins.generic.staticPages.settingInstructions' => 'O formulário a seguir mostra todas as páginas estáticas já criadas. Você pode editar ou excluir as páginas por meio dos links disponíveis à direita.',
+      'plugins.generic.staticPages.editInstructions' => 'Use o formulário para incluir/editar o conteúdo.',
+      'plugins.generic.staticPages.pathRegEx' => 'O campo caminho deve conter apenas caracteres alfanuméricos mais, \'/\', \'.\' \'-\' e \'_\'.',
+      'plugins.generic.staticPages.viewInstructions' => '<p>Esta página será acessível em: <blockquote>{$pagesPath}</blockquote> ... onde %PATH% é o caminho digitado acima. <strong>Nota:</strong> Duas páginas não podem ter o mesmo caminho. Usar caminhos que já existem no sistema pode causar a perda de acesso a funções importantes.</p>',
+      'plugins.generic.staticPages.duplicatePath' => 'Este caminho já existe para outra página estática.',
+      'plugins.generic.staticPages.pageSaved' => 'Página salva com sucesso.',
+      'plugins.generic.staticPages.pageDeleted' => 'Página excluída com sucesso.',
+      'plugins.generic.staticPages.noneExist' => 'Nenhuma página criada',
+    ),
+  ),
+);

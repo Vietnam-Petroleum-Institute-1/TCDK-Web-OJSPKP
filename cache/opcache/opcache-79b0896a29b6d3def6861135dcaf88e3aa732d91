@@ -1,0 +1,34 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n > 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.themes.default.name' => 'Tema Padrão',
+      'plugins.themes.default.description' => 'Este tema implementa o tema padrão.',
+      'plugins.themes.default.option.typography.label' => 'Fonte',
+      'plugins.themes.default.option.typography.description' => 'Escolha uma combinação de fontes adequada a esta revista.',
+      'plugins.themes.default.option.typography.notoSans' => 'Noto Sans: Uma fonte digital-nativa projetada pelo Google para suporte extensivo de idiomas.',
+      'plugins.themes.default.option.typography.notoSerif' => 'Noto Serif: Uma variante serif da fonte digital-nativa do Google.',
+      'plugins.themes.default.option.typography.notoSerif_notoSans' => 'Noto Serif / Noto Sans: Um complemento com cabeçalhos serif e corpo do texto sem serif.',
+      'plugins.themes.default.option.typography.notoSans_notoSerif' => 'Noto Serif / Noto Sans: Um complemento com cabeçalhos e corpo do texto sem serif.',
+      'plugins.themes.default.option.typography.lato' => 'Lato: Uma fonte sem-serif popular e moderna.',
+      'plugins.themes.default.option.typography.lora' => 'Lora: Uma fonte ampla de serifa boa para ler on-line.',
+      'plugins.themes.default.option.typography.lora_openSans' => 'Lora / Open Sans: Um complemento com cabeçalhos serif e corpo do texto sem serif.',
+      'plugins.themes.default.option.colour.label' => 'Cor',
+      'plugins.themes.default.option.colour.description' => 'Escolha uma cor para o cabeçalho.',
+      'plugins.themes.default.option.showDescriptionInJournalIndex.option' => 'Exibir o resumo do periódico na página inicial.',
+      'plugins.themes.default.option.useHomepageImageAsHeader.label' => 'Imagem de fundo do cabeçalho',
+      'plugins.themes.default.option.useHomepageImageAsHeader.description' => 'Quando uma imagem da página inicial tiver sido carregada, exiba-a no plano de fundo do cabeçalho, em vez da posição usual na página inicial.',
+      'plugins.themes.default.option.useHomepageImageAsHeader.option' => 'Mostrar a imagem da página inicial como plano de fundo do cabeçalho.',
+      'plugins.themes.default.option.displayStats.label' => 'Opções de visualização de estatísticas de uso',
+      'plugins.themes.default.option.displayStats.none' => 'Não exibir gráfico de estatísticas de uso de submissão para o leitor.',
+      'plugins.themes.default.option.displayStats.bar' => 'Use o tipo de barra do gráfico para exibição de estatísticas de uso.',
+      'plugins.themes.default.option.displayStats.line' => 'Use o tipo de linha do gráfico para exibição de estatísticas de uso.',
+      'plugins.themes.default.displayStats.monthInitials' => 'Jan Fev Mar Abr Mai Jun Jul Ago Set Out Nov Dez',
+      'plugins.themes.default.displayStats.downloads' => 'Downloads',
+      'plugins.themes.default.displayStats.noStats' => 'Os dados de download ainda não estão disponíveis.',
+    ),
+  ),
+);

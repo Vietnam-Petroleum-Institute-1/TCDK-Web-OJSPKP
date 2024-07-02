@@ -1,0 +1,16 @@
+<?php $exp = 1751345594; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'emails.orcidCollectAuthorId.subject' => 'ORCID Məqaləsi',
+      'emails.orcidCollectAuthorId.description' => 'Bu e-poçt müəlliflərdən ORCID identifikatorunu almaq üçün göndərilir.',
+      'emails.orcidRequestAuthorAuthorization.subject' => 'Orcid qeydiyyat girişi',
+      'emails.orcidRequestAuthorAuthorization.description' => 'Bu e-poçt müəlliflərdən ORCID girişinə giriş tələb etmək üçün göndərilir.',
+      'emailTemplate.variable.authorOrcidUrl' => 'ORCİD OAuth avtorizasiya linki',
+      'emailTemplate.variable.orcidAboutUrl' => 'ORCID haqqında səhifə URL',
+    ),
+  ),
+);

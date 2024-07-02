@@ -1,0 +1,12 @@
+<?php $exp = 1751345595; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.googleScholar.description' => 'Αυτό το Πρόσθετο ενεργοποιεί την ευρετηρίαση δημοσιευμένου υλικού στο Google Scholar.',
+      'plugins.generic.googleScholar.name' => 'Πρόσθετο Ευρετηρίασης στο Google Scholar',
+    ),
+  ),
+);

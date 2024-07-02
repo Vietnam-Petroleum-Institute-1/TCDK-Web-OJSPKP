@@ -1,0 +1,100 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'emails.submissionAck.subject' => 'Potwierdzenie zgłoszenia tekstu',
+      'emails.submissionAck.body' => '{$recipientName}:<br />
+<br />
+dziękujemy za zgłoszenie tekstu &quot;{$submissionTitle}&quot; do opublikowania w czasopiśmie {$contextName}. Nasz system umożliwia sprawdzenie, na jakim etapie znajduje się nadesłany tekst:<br />
+<br />
+WWW tekstu: {$submissionUrl} <br />
+Nazwa użytkownika: {$recipientUsername}<br />
+<br />
+W razie dodatkowych pytań proszę o kontakt.<br />
+<br />
+Z wyrazami szacunku,
+{$contextSignature}',
+      'emails.reviewAck.subject' => 'Podziękowanie za wykonanie recenzji',
+      'emails.reviewAck.body' => 'Szanowna Pani/ Szanowny Panie,<br />
+<br />
+dziękujemy za wykonanie recenzji tekstu &quot;"{$submissionTitle}"&quot;, zgłoszonego do czasopisma "{$contextName}". Doceniamy Pani/ Pana wkład w budowanie jakości naszego czasopisma.
+Z wyrazami szacunku.',
+      'emails.editorDecisionSendToExternal.subject' => 'Decyzja redakcji',
+      'emails.editorDecisionSendToExternal.body' => 'Szanowna Pani/ Szanowny Panie,<br />
+<br />
+podjęllśmy decyzję w sprawie tekstu "{$submissionTitle}" zgłoszonego do czasopisma "{$contextName}".<br />
+<br />
+Decyzja redaktora: Przesłane do recenzji<br />
+<br />
+WWW tekstu: {$submissionUrl}',
+      'emails.editorDecisionSendToProduction.subject' => 'Decyzja redakcji',
+      'emails.editorDecisionSendToProduction.body' => 'Szanowna Pani/ Szanowny Panie {$authors}<br />
+<br />
+korekta tekstu "{$submissionTitle}". Tekst został przekazany do składu.<br />
+<br />
+WWW tekstu: {$submissionUrl}',
+      'emails.editorDecisionRevisions.subject' => 'Decyzja redakcji',
+      'emails.editorDecisionRevisions.body' => 'Szanowna Pani/ Szanowny Panie,<br />
+<br />
+podjęliśmy decyzję w sprawie tekstu "{$submissionTitle}", zgłoszonego do czasopisma "{$contextName}".<br />
+<br />
+Decyzja redakcji: Wymagane poprawki',
+      'emails.editorDecisionResubmit.subject' => 'Decyzja redakcji',
+      'emails.editorDecisionResubmit.body' => 'Szanowna Pani/ Szanowny Panie,<br />
+<br />
+podjęliśmy decyzję w sprawie tekstu „{$submissionTitle}”, zgłoszonego do czasopisma "{$contextName}".<br />
+<br />
+Decyzja redakcji: Wymagane poprawki i ponowna recenzja',
+      'emails.editorDecisionDecline.subject' => 'Decyzja redakcji',
+      'emails.editorDecisionDecline.body' => 'Szanowna Pani/ Szanowny Panie,<br />
+<br />
+podjęliśmy decyzję w sprawie tekstu "{$submissionTitle}", zgłoszonego do czasopisma "{$contextName}".<br />
+<br />
+Decyzja redakcji: Odrzucenie zgłoszonego tekstu',
+      'emails.editorRecommendation.subject' => 'Rekomendacja redaktora',
+      'emails.editorRecommendation.body' => '{$editors}:<br />
+<br />
+przesyłam rekomendację w sprawie tekstu "{$submissionTitle}", zgłoszonego do czasopisma "{$contextName}": {$recommendation}',
+      'emails.copyeditRequest.subject' => 'Prośba do korektora',
+      'emails.copyeditRequest.body' => 'Szanowna Pani/ Szanowny Panie,<br />
+<br />
+proszę o wykonanie korekty tekstu &quot;{$submissionTitle}&quot;, zgłoszonego do czasopisma {$contextName}.
+Proszę o postępowanie zgodnie z poniższymi krokami. <br />
+1. Kliknij na link do zgłoszonego tekstu znajdujący się poniżej.<br /> 
+2. Pobierz pliki robocze i wykonaj korektę. Ustal zmiany z autorem używając narzędzi do dyskusji.<br />
+3. Zapisz poprawiony plik(i) i prześlij go do systemu.<br />
+4. Powiadom redaktora o ukończeniu korekty i przekazaniu tekstu do realizacji.<br />
+<br />
+WWW {$contextName}: {$contextUrl}<br />
+WWW tekstu: {$submissionUrl}<br />
+Nazwa użytkownika: {$recipientUsername}',
+      'emails.editorDecisionInitialDecline.subject' => 'Decyzja redakcji',
+      'emails.editorDecisionInitialDecline.body' => '
+			Szanowna Pani/ Szanowny Panie,<br />
+<br />
+podjęliśmy decyzję w sprawie tekstu  &quot;{$submissionTitle}&quot;, zgłoszonego do czasopisma "{$contextName}".<br />
+<br />
+Decyzja redakcji: Odrzucenie zgłoszonego tekstu',
+      'emails.discussion.subject' => 'Wiadomość do czasopisma "{$contextName}"',
+      'emails.discussion.body' => 'Proszę o wpisanie wiadomości.',
+      'emails.reviewConfirm.subject' => 'Zgoda na wykonanie recenzji',
+      'emails.reviewConfirm.body' => 'Szanowni Państwo,<br />
+<br />
+zgadzam się na wykonanie recenzji tekstu "{$submissionTitle}", zgłoszonego do czasopisma "{$contextName}". Recenzja będzie gotowa do dnia {$reviewDueDate}.<br />
+<br />
+Z wyrazami szacunku,
+{$senderName}',
+      'emails.submissionAckNotAuthor.subject' => 'Potwierdzenie zgłoszenia tekstu',
+      'emails.submissionAckNotAuthor.body' => 'Szanowny Panie/Szanowna Pani,<br />
+<br />
+użytkownik o nazwie {$submitterName} zgłosił tekst "{$submissionTitle}" do czasopisma "{$contextName}". <br />
+<br />
+W razie dodatkowych pytań proszę o kontakt. Dziękujemy za zgłoszenie.<br />
+<br />
+{$contextSignature}',
+    ),
+  ),
+);

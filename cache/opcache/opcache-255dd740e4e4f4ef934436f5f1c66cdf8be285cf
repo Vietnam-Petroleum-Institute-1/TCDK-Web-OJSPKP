@@ -1,0 +1,37 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.importexport.datacite.displayName' => '"Datacite экспорттау/тіркелу" модулі',
+      'plugins.importexport.datacite.description' => 'DataCite пішімінде журнал басылымдарын, мақалаларды, мақала баспаларын және қосымша файл метадеректерін экспорттайды немесе тіркейді.',
+      'plugins.importexport.datacite.settings.description' => 'DataCite экспорттау плагинын қолданар алдында конфигурациялау аңызды сұраймыз.',
+      'plugins.importexport.datacite.intro' => '
+		Егер сіз DOI идентификаторларын DataCite көмегімен тіркегіңіз келсе, 
+	<a href="https://datacite.org/contact.html" target= "_blank">DataCite порталының басты бетіндегі</a>
+	байланыс ақпаратын пайдалана отырып басқармаға хабарласыңыз, ол сізді
+	DataCite операторына бағыттайды. Байланыс орнатылғаннан кейін, тұрақты
+	идентификаторларды (DOI) беру мақсатында сіз DataCite қызметіне рұқсат аласыз.
+	Қолданушы атыңыз және құпия сөзіңіз болмаған жағдайдың өзінде,
+	сіз DOI идентификаторларын DataCite XML форматына экспорттай  аласыз,
+	алайда DOI-ді OJS-тен DataCite-ке тіркей алмайсыз. Есіңізде болсын,
+	құпия сөз қарапайым мәтін ретінде сақталады, яғни ол шифрланбайды, бұл DataCite
+	тіркеу қызметінің талаптары.
+	',
+      'plugins.importexport.datacite.settings.form.username' => 'Қолданушы аты (символ)',
+      'plugins.importexport.datacite.settings.form.usernameRequired' => 'DataCite жүйесінен алған қолданушы атын (таңбасын) енгізіңіз. Қолданушы атында қос нүкте болмауы тиіс.',
+      'plugins.importexport.datacite.settings.form.automaticRegistration.description' => 'OJS DOI идентификаторын автоматты түрде DataСite жүйесінде сақтайды. Бұл қадам өңдеуден кейін белгілі бір уақытты қажет етуі мүмкін екенін ескеріңіз (мысалы, cronjob параметрлеріне байланысты). Сіз барлық тіркелмеген DOI идентификаторларын тексере аласыз.',
+      'plugins.importexport.datacite.settings.form.testMode.description' => 'DOI идентификаторын тіркеу үшін DataCite сынақ префиксін қолданыңыз. Нақты жұмыс үшін осы параметрді алып тастауды ұмытпаңыз.',
+      'plugins.importexport.datacite.settings.form.testUsername' => 'Тестілеуге арналған қолданушы аты',
+      'plugins.importexport.datacite.settings.form.testPassword' => 'Тестілеуге арналған құпия сөз',
+      'plugins.importexport.datacite.settings.form.testDOIPrefix' => 'Тестілеуге арналған DOI префиксі',
+      'plugins.importexport.datacite.senderTask.name' => 'DataCite автоматты тіркеу тапсырмасы',
+      'plugins.importexport.datacite.cliUsage' => 'Қолдану реті: 
+{$scriptName} {$pluginName} export [outputFileName] [journal_path] {issues|articles|galleys} objectId1 [objectId2] ...
+{$scriptName} {$pluginName} register [journal_path] {issues|articles|galleys} objectId1 [objectId2] ...
+',
+    ),
+  ),
+);

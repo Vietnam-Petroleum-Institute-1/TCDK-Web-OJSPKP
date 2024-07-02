@@ -1,0 +1,30 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.staticPages.displayName' => 'Complemento de páxinas estáticas',
+      'plugins.generic.staticPages.description' => 'Este complemento permite a xestión de contido estático.',
+      'plugins.generic.staticPages.staticPages' => 'Páxinas estáticas',
+      'plugins.generic.staticPages.pageTitle' => 'Título',
+      'plugins.generic.staticPages.content' => 'Contido',
+      'plugins.generic.staticPages.path' => 'Ruta',
+      'plugins.generic.staticPages.requirement.tinymce' => '<p><strong>O complemento TinyMCE debe estar instalado e habilitado para engadir/editar contido.</strong></p>',
+      'plugins.generic.staticPages.editAddContent' => 'Editar/Engadir contido',
+      'plugins.generic.staticPages.addStaticPage' => 'Engadir unha páxina estática',
+      'plugins.generic.staticPages.addNewPage' => 'Engadir unha nova páxina',
+      'plugins.generic.staticPages.editStaticPage' => 'Editar unha páxina estática',
+      'plugins.generic.staticPages.noneCreated' => 'Non se crearon páxinas estáticas.',
+      'plugins.generic.staticPages.settingInstructions' => 'O seguinte formulario amosa todas as páxinas estáticas que creou. Podes editar ou eliminar as páxinas usando as ligazóns á dereita.',
+      'plugins.generic.staticPages.editInstructions' => 'Utilice o seguinte formulario para engadir/editar contido da páxina.',
+      'plugins.generic.staticPages.pathRegEx' => 'O campo da ruta debe conter só caracteres alfanuméricos máis \'.\', \'/\', \'-\' e \'_\'.',
+      'plugins.generic.staticPages.viewInstructions' => '<p>Esta páxina será accesible en: <blockquote>{$pagesPath}</blockquote>... onde %PATH% é a ruta introducida anteriormente. <strong>Nota:</strong> Dúas páxinas non poden ter a mesma ruta. O uso de rutas integradas no sistema pode facer que perdas o acceso a funcións importantes.</p>',
+      'plugins.generic.staticPages.duplicatePath' => 'Esta ruta xa existe para outra páxina estática.',
+      'plugins.generic.staticPages.pageSaved' => 'A páxina gardouse correctamente.',
+      'plugins.generic.staticPages.pageDeleted' => 'A páxina eliminouse correctamente.',
+      'plugins.generic.staticPages.noneExist' => 'Non se creou ningunha páxina',
+    ),
+  ),
+);

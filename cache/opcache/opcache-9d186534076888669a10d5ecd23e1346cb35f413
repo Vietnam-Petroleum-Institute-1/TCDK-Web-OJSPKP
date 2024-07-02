@@ -1,0 +1,48 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'emails.orcidCollectAuthorId.subject' => 'ORCID prispevka',
+      'emails.orcidCollectAuthorId.body' => 'Spoštovani {$recipientName},<br/>
+<br/>
+Navedeni ste bili kot soavtor rokopisa prispevka za revijo{$contextName}.<br/>
+Da potrdite avtorstvo, vas prosimo, da dodate vaš ORCID iD v prispevek s klikom na spodnjo povezavo.<br/>
+<br/>
+<a href="{$authorOrcidUrl}"><img id="orcid-id-logo" src="https://info.orcid.org/wp-content/uploads/2020/12/ORCIDiD_icon16x16.png" width =\'16\' height=\'16\' alt="ORCID iD icon" style="display: block; margin: 0 .5em 0 0; padding: 0; float: left;"/>Registracija ali povezava z vašim ORCID iD</a><br/>
+<br/>
+<br/>
+<a href="{$orcidAboutUrl}">Več o ORCID pri reviji {$contextName}</a><br/>
+<br/>
+Če imate kakršnakoli vprašanje, me prosim kontaktirajte.<br/>
+<br/>
+{$principalContactSignature}<br/>
+',
+      'emails.orcidCollectAuthorId.description' => 'Email se uporablja za zbiranje ORCID iD-jev soavtorjev.',
+      'emails.orcidRequestAuthorAuthorization.subject' => 'Prošnja za dostop do ORCID zapisa',
+      'emails.orcidRequestAuthorAuthorization.body' => 'Spoštovani {$recipientName},<br>
+<br>
+Našteti ste bili kot (so)avtor rokopisa prispevka "{$submissionTitle}" pri reviji {$contextName}.
+<br>
+<br>
+Prosimo vas za dovoljenje, da dodamo vaš ORCID iD k temu prispevku in hkrati dodamo ta prispevek k vašem ORCID profilu pri reviji.<br>
+Kliknite na povezavo na uradno ORCID stran, prijavite se z vašim profilom in avtorizirajte dostop po navodilih.<br>
+<a href="{$authorOrcidUrl}"><img id="orcid-id-logo" src="https://info.orcid.org/wp-content/uploads/2020/12/ORCIDiD_icon16x16.png" width =\'16\' height=\'16\' alt="ORCID iD icon" style="display: block; margin: 0 .5em 0 0; padding: 0; float: left;"/>Registriraj ali poveži vaš ORCID iD</a><br/>
+<br>
+<br>
+<a href="{$orcidAboutUrl}">Več o ORCID pri reviji {$contextName}</a><br/>
+<br>
+Če imate kakršnakoli vprašanje, me prosim kontaktirajte.<br/>
+<br>
+{$principalContactSignature}<br>
+',
+      'emails.orcidRequestAuthorAuthorization.description' => 'Email vsebuje prošnjo za dostop do ORCID zapisov avtorjev.',
+      'emailTemplate.variable.authorOrcidUrl' => 'ORCID OAuth avtorizacijska povezava',
+      'emailTemplate.variable.orcidAboutUrl' => 'URL do strani o ORCID',
+      'plugins.generic.orcidProfile.orcidRequestAuthorAuthorization.name' => 'orcidRequestAuthorAuthorization',
+      'plugins.generic.orcidProfile.orcidCollectAuthorId.name' => 'orcidCollectAuthorId',
+    ),
+  ),
+);

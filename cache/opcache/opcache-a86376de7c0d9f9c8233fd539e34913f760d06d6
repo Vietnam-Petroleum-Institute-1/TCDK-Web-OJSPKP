@@ -1,0 +1,23 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=1; plural=0;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.webfeed.displayName' => 'Plugin Suapan Web',
+      'plugins.generic.webfeed.description' => 'Pemalam ini menghasilkan suapan sindikasi web RSS/Atom.<br>Pemalam ini juga termasuk blok bar sisi yang membolehkan anda memaparkan pautan suapan pada bar sisi aplikasi anda',
+      'plugins.generic.webfeed.settings' => 'Tetapan',
+      'plugins.generic.webfeed.settings.issue' => 'Paparkan pautan suapan web pada halaman isu sahaja.',
+      'plugins.generic.webfeed.settings.homepage' => 'Paparkan pautan suapan web di laman utama dan halaman isu sahaja.',
+      'plugins.generic.webfeed.settings.all' => 'Paparkan pautan suapan web di semua halaman jurnal.',
+      'plugins.generic.webfeed.settings.currentIssue' => 'Paparkan item dalam terbitan isu semasa.',
+      'plugins.generic.webfeed.settings.recent' => 'Paparkan bilangan tetap item terkini.',
+      'plugins.generic.webfeed.settings.recentArticles' => 'Bilangan item untuk dipaparkan',
+      'plugins.generic.webfeed.settings.recentItemsRequired' => 'Sila masukkan bilangan bulat positif untuk item yang baru diterbitkan.',
+      'plugins.generic.webfeed.atom.altText' => 'Logo Atom',
+      'plugins.generic.webfeed.rss1.altText' => 'Logo RSS1',
+      'plugins.generic.webfeed.rss2.altText' => 'Logo RSS2',
+    ),
+  ),
+);

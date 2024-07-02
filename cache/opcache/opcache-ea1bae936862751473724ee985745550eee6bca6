@@ -1,0 +1,17 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.acron.name' => 'Acron Plugin',
+      'plugins.generic.acron.reload' => 'Ütemezett feladatok újratöltése',
+      'plugins.generic.acron.tasksReloaded' => 'Ütemezett feladatok újratöltve.',
+      'plugins.generic.acron.disabled' => 'Az Acron plugin ki lett kapcsolva.',
+      'plugins.generic.acron.reloadedCronTab' => 'Cron fül sikeresen újratöltve.',
+      'plugins.generic.acron.description' => 'Ez a plugin megpróbálja csökkenteni a függést az olyan rendszeres ütmező alkalmazásoktól, mint pl. a "cron".',
+      'plugins.generic.acron.enabled' => 'Az Acron plugin bekapcsolva.',
+    ),
+  ),
+);

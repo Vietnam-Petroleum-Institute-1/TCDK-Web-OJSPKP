@@ -1,0 +1,96 @@
+<?php $exp = 1751345595; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'emails.submissionAck.subject' => 'Επιβεβαίωση υποβολής',
+      'emails.submissionAck.body' => '{$recipientName}:<br />
+<br />
+Σας ευχαριστούμε για την υποβολή της εργασίας &quot;{$submissionTitle}&quot; στο περιοδικό {$contextName}. Με το σύστημα διαχείρισης που χρησιμοποιούμε μπορείτε να παρακολουθείτε στην πλατφόρμα την πρόοδό της υποβολής σας:<br />
+<br />
+Σύνδεσμος υποβολής: {$submissionUrl}<br />
+Όνομα χρήστη: {$recipientUsername}<br />
+<br />
+Εάν έχετε ερωτήσεις, παρακαλούμε επικοινωνήστε μαζί μας. Σας ευχαριστούμε που θεωρήσατε το περιοδικό μας κατάλληλο για δημοσίευση της εργασίας σας.<br />
+<br />
+{$contextSignature}',
+      'emails.reviewAck.subject' => 'Επιβεβαίωση υποβολής αξιολόγησης',
+      'emails.reviewAck.body' => '{$recipientName}:<br />
+<br />
+Σας ευχαριστούμε που ολοκληρώσατε την αξιολόγηση της υποβολής &quot;{$submissionTitle},&quot; για το περιοδικό {$contextName} και για τη συμβολή σας στην ποιότητα του περιεχομένου που δημοσιεύουμε.',
+      'emails.editorDecisionSendToExternal.subject' => 'Απόφαση Επιμελητή',
+      'emails.editorDecisionSendToExternal.body' => '{$authors}:<br />
+<br />
+Έχουμε καταλήξει σε μία απόφαση αναφορικά με την υποβολή σας &quot;{$submissionTitle}&quot;, στο περιοδικό {$contextName}.<br />
+<br />
+Η απόφασή μας είναι: Αποστολή προς Αξιολόγηση<br />
+<br />
+Σύνδεσμος υποβολής: {$submissionUrl}',
+      'emails.editorDecisionSendToProduction.subject' => 'Απόφαση Επιμελητή',
+      'emails.editorDecisionSendToProduction.body' => '{$authors}:<br />
+<br />
+Η επιμέλεια της υποβολής σας &quot;{$submissionTitle},&quot; ολοκληρώθηκε. Τα αρχεία της υποβολής προωθούνται στο στάδιο παραγωγής.<br />
+<br />
+Σύνδεσμος υποβολής: {$submissionUrl}',
+      'emails.editorDecisionRevisions.subject' => 'Απόφαση Επιμελητή',
+      'emails.editorDecisionRevisions.body' => '{$authors}:<br />
+<br />
+Έχουμε καταλήξει σε μία απόφαση αναφορικά με την υποβολή σας &quot;{$submissionTitle}&quot;, στο περιοδικό {$contextName}.<br />
+<br />
+Η απόφασή μας είναι: Απαιτούνται αναθεωρήσεις',
+      'emails.editorDecisionResubmit.subject' => 'Απόφαση Επιμελητή',
+      'emails.editorDecisionResubmit.body' => '{$authors}:<br />
+<br />
+Έχουμε καταλήξει σε μία απόφαση αναφορικά με την υποβολή σας &quot;{$submissionTitle}&quot; στο περιοδικό {$contextName}.<br />
+<br />
+Η απόφασή μας είναι: Επανυποβολή για αξιολόγηση',
+      'emails.editorDecisionDecline.subject' => 'Απόφαση Επιμελητή',
+      'emails.editorDecisionDecline.body' => '{$authors}:<br />
+<br />
+Έχουμε καταλήξει σε μία απόφαση αναφορικά με την υποβολή σας &quot;{$submissionTitle}&quot; στο περιοδικό {$contextName}.<br />
+<br />
+Η απόφασή μας είναι: Απόρριψη της Υποβολής',
+      'emails.editorRecommendation.subject' => 'Σύσταση Επιμελητή',
+      'emails.editorRecommendation.body' => '{$editors}:<br />
+<br />
+Η σύσταση αναφορικά με την υποβολή &quot;{$submissionTitle}&quot;, στο περιοδικό {$contextName}, είναι: {$recommendation}',
+      'emails.copyeditRequest.subject' => 'Αίτημα επιμέλειας κειμένου',
+      'emails.copyeditRequest.body' => '{$recipientName}:<br />
+<br />
+Θα ήθελα να σας ζητήσω να αναλάβετε την επιμέλεια του κειμένου της υποβολής &quot;{$submissionTitle}&quot;, για το περιοδικό {$contextName}, ακολουθώντας τα παρακάτω βήματα.<br />
+1. Πατήστε στον σύνδεσμο της υποβολής, παρακάτω.<br />
+2. Ανοίξτε όλα τα διαθέσιμα αρχεία που υπάρχουν στο "Πρόχειρα Αρχεία" και κάντε την επιμέλεια κειμένου, προσθέτοντας σχόλια στη "Συζήτηση σχετικά με την Επιμέλεια", όπου χρειάζεται.<br />
+3. Αποθηκεύστε το επιμελημένο αρχείο(-α) και μεταφορτώστε το στον πίνακα των επιμελημένων αρχείων.<br />
+4. Ειδοποιήστε τον Επιμελητή ότι όλα τα αρχεία είναι έτοιμα και μπορεί να ξεκινήσει η διαδικασία παραγωγής.<br />
+<br />
+Σύνδεσμος περιοδικού {$contextName}: {$contextUrl}<br />
+Σύνδεσμος υποβολής: {$submissionUrl}<br />
+Όνομα Χρήστη: {$recipientUsername}',
+      'emails.editorDecisionInitialDecline.subject' => 'Απόφαση Επιμελητή',
+      'emails.editorDecisionInitialDecline.body' => '
+			{$authors}:<br />
+<br />
+Έχουμε λάβει μία απόφαση σχετικά με την υποβολή σας &quot;{$submissionTitle}&quot; στο περιοδικό {$contextName}.<br />
+<br />
+Η απόφασή μας είναι: Απόρριψη υποβολής',
+      'emails.discussion.subject' => 'Ένα μήνυμα σχετικά με το περιοδικό {$contextName}',
+      'emails.discussion.body' => 'Παρακαλούμε εισάγετε το μήνυμά σας.',
+      'emails.reviewConfirm.subject' => 'Αποδοχή αιτήματος αξιολόγησης',
+      'emails.reviewConfirm.body' => 'Editors:<br />
+<br />
+Θα ήθελα να σας ενημερώσω ότι μπορώ να αναλάβω την αξιολόγηση της εργασίας &quot;{$submissionTitle},&quot; για το περιοδικό {$contextName}. Σας ευχαριστώ για την εμπιστοσύνη σας και σκοπεύω να έχω την αξιολόγηση έτοιμη μέχρι τη λήξη της προθεσμίας, στις {$reviewDueDate}, αν όχι νωρίτερα.<br />
+<br />
+{$senderName}',
+      'emails.submissionAckNotAuthor.subject' => 'Επιβεβαίωση υποβολής',
+      'emails.submissionAckNotAuthor.body' => 'Αγαπητέ/η<br />
+<br />
+Ο/Η {$submitterName} έχει υποβάλει την εργασία &quot;{$submissionTitle}&quot; στο περιοδικό {$contextName}. <br />
+<br />
+Εάν έχετε ερωτήσεις, παρακαλούμε επικοινωνήστε μαζί μας. Σας ευχαριστούμε που θεωρήσατε το περιοδικό μας κατάλληλο για δημοσίευση της εργασίας σας.<br />
+<br />
+{$contextSignature}',
+    ),
+  ),
+);

@@ -1,0 +1,12 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n==1 || n%10==1 ? 0 : 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.dublinCoreMeta.name' => 'Додаток на Dublin Core за индексирање',
+      'plugins.generic.dublinCoreMeta.description' => 'Овој додаток вметнува Dublin Core метаподатоци заради индексирање во прегледите на статиите.',
+    ),
+  ),
+);

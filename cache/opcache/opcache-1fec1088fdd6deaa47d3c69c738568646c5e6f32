@@ -1,0 +1,30 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n==1 || n%10==1 ? 0 : 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.staticPages.displayName' => 'Плагин за статични страници',
+      'plugins.generic.staticPages.description' => 'Овој плагин овозможува управување со статичка содржина.',
+      'plugins.generic.staticPages.staticPages' => 'Статички страници',
+      'plugins.generic.staticPages.pageTitle' => 'Наслов',
+      'plugins.generic.staticPages.content' => 'Содржина',
+      'plugins.generic.staticPages.path' => 'Патека',
+      'plugins.generic.staticPages.requirement.tinymce' => '<p><strong>TinyMCE плагинот мора да биде инсталиран и овозможен како би додавале/уредувале содржина.</strong></p>',
+      'plugins.generic.staticPages.editAddContent' => 'Уреди/додади содржина',
+      'plugins.generic.staticPages.addStaticPage' => 'Додади статичка страница',
+      'plugins.generic.staticPages.addNewPage' => 'Додади нова страница',
+      'plugins.generic.staticPages.editStaticPage' => 'Уреди статичка страница',
+      'plugins.generic.staticPages.noneCreated' => 'Нема создадени статички страници.',
+      'plugins.generic.staticPages.settingInstructions' => 'Формуларот подолу ви ги прикажува сите статички страници кои ги имате создадено. Можете да ги уредите или избришете страниците користејќи ги линковите на десната страна.',
+      'plugins.generic.staticPages.editInstructions' => 'Користете го формуларот подолу за да додадете/уредите содржина на страницата.',
+      'plugins.generic.staticPages.pathRegEx' => 'Полето за патека мора да соджи само алфанумерички знаци плус \'.\', \'/\', \'-\', и \'_\'.',
+      'plugins.generic.staticPages.viewInstructions' => '<p>Оваа страница ќе биде достапна на: <blockquote>{$pagesPath}</blockquote>...каде %PATH% е патеката внесена погоре. <strong>Забелешка:</strong> Две или повеќе страници не можат да ја имаат истата патека. Користењето на патеки кои се вградени во системот може да доведе до губиток на вашиот пристап до важни функции.</p>',
+      'plugins.generic.staticPages.duplicatePath' => 'Оваа патека веќе постои за друга статична страна.',
+      'plugins.generic.staticPages.pageSaved' => 'Страницата е успешно зачувана.',
+      'plugins.generic.staticPages.pageDeleted' => 'Страницата е успешно избришана.',
+      'plugins.generic.staticPages.noneExist' => 'Нема создадено страници',
+    ),
+  ),
+);

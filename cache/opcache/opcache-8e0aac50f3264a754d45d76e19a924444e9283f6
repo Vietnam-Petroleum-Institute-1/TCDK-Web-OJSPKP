@@ -1,0 +1,12 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'submission.viewingPreview' => 'Toto je náhľad – doteraz nebol publikovaný.  <a href="{$url}">Zobraziť príspevok</a>',
+      'submission.submissionFile' => 'Súbor s príspevkom',
+    ),
+  ),
+);

@@ -1,0 +1,22 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'user.accountInformation' => 'اکاؤنٹ کی معلومات',
+      'user.affiliation' => 'ادارہ جاتی وابستگی',
+      'user.affiliation.description' => '(آپ کے ادارے یا جامعہ کا نام، مثلاً: "مرکز تعلیم و تحقیق")',
+      'user.affiliations' => 'وابستگیاں',
+      'user.authorization.accessDenied' => 'رسائی ناممکن ہے۔',
+      'user.authorization.loginRequired' => 'لاگ ان کرنا لازمی ہے۔',
+      'user.authorization.restrictedSiteAccess' => 'آپ کی رسائی مسترد کر دی گئی ہے، اس سائٹ میں آپ کا داخلہ محدود ہے۔',
+      'user.authorization.roleBasedAccessDenied' => 'آپ کو حالیہ اکاؤنٹ میں اس عمل تک رسائی نہیں ہے۔',
+      'user.authorization.assignedStageRoleBasedAccessDenied' => 'آپ کو اس درخواست پراس سے قبل اس عمل تک رسائی مہیا نہیں ہوئی۔',
+      'user.authorization.userGroupRequired' => 'آپ کو عمل کے لیے درست یوزر گروپ تیار کرنا پڑے گا۔',
+      'user.authorization.managerRequired' => 'آگے بھڑنے سے پہلے آپ کو ایک مدیر یوزر (مدیر تحریر) لازما تفویض کرنا ہوگا۔',
+      'user.authorization.accessibleWorkflowStage' => 'آپ کو اس مرحلے تک رسائی کا حق حاصل نہیں۔',
+    ),
+  ),
+);

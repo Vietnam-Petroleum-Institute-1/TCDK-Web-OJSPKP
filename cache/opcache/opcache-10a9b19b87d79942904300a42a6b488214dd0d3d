@@ -1,0 +1,279 @@
+<?php $exp = 1751345599; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'emails.passwordResetConfirm.subject' => 'Parolni tiklashni tasdiqlash',
+      'emails.passwordResetConfirm.body' => 'Bizga {$siteTitle} veb -saytining parolini tiklash talabi yuborildi. <br />
+<br/>
+Agar siz bu talabni qilmagan bo\'lsangiz, iltimos, bu elektron pochtani e\'tiborsiz qoldiring va parolingiz o\'zgarmaydi. Agar siz parolni qayta tiklamoqchi bo\'lsangiz, pastdagi URL manzilini bosing. <br />
+<br/>
+Parolni tiklash: {$passwordResetUrl} <br />
+<br/>
+{$siteContactName}',
+      'emails.userRegister.subject' => 'Jurnalni ro\'yxatdan o\'tkazish',
+      'emails.userRegister.body' => '{$recipientName} <br />
+<br/>
+Siz hozir {$contextName} bilan foydalanuvchi sifatida ro\'yxatdan o\'tdingiz. Biz ushbu elektron pochta jurnali bilan o\'z veb -sayti orqali ishlash uchun zarur bo\'lgan foydalanuvchi nomingiz va parolingizni kiritdik. Men bilan bog\'lanish orqali istalgan vaqtda siz jurnalning foydalanuvchilar ro\'yxatidan chiqarilishini so\'rashingiz mumkin. <br/>
+<br/>
+Foydalanuvchi nomi: {$recipientUsername} <br />
+Parol: {$password} <br />
+<br/>
+Rahmat, <br />
+{$signature}',
+      'emails.userValidateContext.subject' => 'Hisobingizni tasdiqlang',
+      'emails.userValidateContext.body' => '{$recipientName} <br />
+<br/>
+Siz {$contextName} bilan hisob yaratdingiz, lekin uni ishlatishni boshlashdan oldin elektron pochta qayd yozuvingizni tasdiqlashingiz kerak. Buning uchun quyidagi havolaga o\'ting: <br />
+<br/>
+{$activateUrl} <br />
+<br/>
+Rahmat, <br />
+{$contextSignature}',
+      'emails.userValidateSite.subject' => 'Hisobingizni tasdiqlang',
+      'emails.userValidateSite.body' => '{$recipientName}<br />
+<br />
+Siz {$siteTitle} bilan hisob yaratdingiz, lekin undan foydalanishni boshlashdan oldin elektron pochta qayd yozuvingizni tasdiqlashingiz kerak. Buning uchun quyidagi havolaga o\'ting:<br />
+<br />
+{$activateUrl}<br />
+<br />
+Thank you,<br />
+{$siteSignature}',
+      'emails.reviewerRegister.subject' => '{$contextName} bilan sharhlovchi sifatida ro\'yxatdan o\'tish',
+      'emails.reviewerRegister.body' => 'Tajribangizdan kelib chiqib, biz sizning ismingizni {$contextName} uchun sharhlovchilar bazasida roʻyxatdan oʻtkazish huquqini oldik. Bu sizning tarafingizdan hech qanday majburiyatni talab qilmaydi, balki shunchaki ko\'rib chiqish uchun sizga murojaat qilishimizga imkon beradi. Ko\'rib chiqishga taklif qilingandan so\'ng, siz ko\'rib chiqilayotgan maqolaning nomi va qisqacha mazmunini ko\'rish imkoniyatiga ega bo\'lasiz va siz har doim taklifni qabul qilish yoki rad etish imkoniyatiga ega bo\'lasiz. Shuningdek, istalgan vaqtda ismingizni ushbu sharhlovchilar roʻyxatidan olib tashlashni soʻrashingiz mumkin.<br />
+<br />
+Biz sizga foydalanuvchi nomi va parolni taqdim etamiz, bu jurnal o\'z veb-sayti orqali barcha o\'zaro aloqalarda qo\'llaniladi. Siz, masalan, o\'z profilingizni, jumladan, ko\'rib chiqish qiziqishlaringizni yangilashni xohlashingiz mumkin.<br />
+<br />
+Foydalanuvchi nomi: {$recipientUsername}<br />
+Parol: {$password}<br />
+<br />
+Rahmat,<br />
+{$signature}',
+      'emails.issuePublishNotify.subject' => 'Yangi son nashr qilindi: {$issueIdentification}',
+      'emails.issuePublishNotify.body' => '<p>Hurmatli o\'quvchi,</p><p>{$contextName} so‘nggi sonimiz nashr etilganini mamnuniyat bilan e’lon qiladi: {$issueIdentification}. Sizni mundarijaga tashrif buyurib, maqolalar va qiziqarli narsalarni ko\'rib chiqishni taklif qilamiz. Mualliflarimiz, sharhlovchilarimiz va muharrirlarimizga ushbu asarga qo\'shgan qimmatli hissalari uchun va doimiy qiziqish uchun o\'quvchilarimizga katta rahmat.</p><p>Hurmat bilan,</p>{$signature}',
+      'emails.editorAssign.subject' => 'Siz {$contextName} ga yuborilgan muharrir sifatida tayinlangansiz',
+      'emails.editorAssign.body' => '<p>Hurmatli {$recipientName},</p><p>Quyidagi xabar tahririyat jarayonini ko‘rish uchun sizga topshirildi.</p><p><a href="{$submissionUrl}">{ $submissionTitle}</a><br />{$authors}</p><p>Agar siz taqdim etgan xabarni {$contextName} uchun mos deb topsangiz, iltimos, "Koʻrib chiqishga yuborish" tugmasini bosib, uni koʻrib chiqish bosqichiga yoʻnaltiring. " va keyin "Tarzchi qo\'shish" tugmasini bosish orqali sharhlovchilarni tayinlang.</p><p>Agar taqdim etilgan maqola ushbu jurnalga mos kelmasa, taqdim etishni rad eting.</p><p>Oldindan rahmat.</p> <p>Hurmat bilan,</p>{$contextSignature}',
+      'emails.reviewRequest.subject' => 'Ko\'rib chiqish uchun taklif',
+      'emails.reviewRequest.body' => '<p>Hurmatli {$recipientName},</p><p>O‘ylaymanki, siz {$contextName} ga yuborilgan.. maqolani mukammal ko‘rib chiquvchi bo‘lasiz. Taqdimot sarlavhasi va xulosasi quyida keltirilgan. Umid qilamanki, siz biz uchun bu muhim vazifani bajarish haqida o‘ylab ko‘rasiz.</p><p>Agar siz ushbu taqdimnomani ko‘rib chiqish imkoniga ega bo‘lsangiz, ko‘rib chiqishingiz muddati {$reviewDueDate}. Jurnal saytiga kirish va quyidagi havoladagi amallarni bajarish orqali taqdimotni ko‘rishingiz, sharh fayllarini yuklashingiz va sharhingizni yuborishingiz mumkin.</p><p><a href="{$reviewAssignmentUrl}">{$submissionTitle}</a></p><p>Annotatsiya</p>{$submissionAbstract}<p>Iltimos, {$responseDueDate} sanasigacha boʻlgan koʻrib chiqishni qabul qiling yoki rad eting. topshirish yoki ko‘rib chiqish jarayoni.</p><p>Ushbu so‘rovni ko‘rib chiqqaningiz uchun tashakkur. Sizning yordamingiz juda qadrlanadi.</p><p>Hurmat bilan,</p>{$signature}',
+      'emails.reviewResponseOverdueAuto.subject' => 'Buni biz uchun ko\'rib chiqa olasizmi?',
+      'emails.reviewResponseOverdueAuto.body' => '<p>Hurmatli {$recipientName},</p><p>Ushbu xat {$contextName} tomonidan yuborilgan “{$submissionTitle}”ni koʻrib chiqish haqidagi soʻrovimizga oid avtomatik eslatmadir.</p> <p>Siz ushbu xatni qabul qildingiz, chunki biz sizdan ushbu arizani ko‘rib chiqishingiz mumkinmi yoki yo‘qligini tasdiqlovchi xatni hali olmaganmiz.</p><p>Iltimos, imkoningiz bor yoki yo‘qligini bizga xabar bering. ushbu soʻrovni qabul qilish yoki rad etish uchun taqdimotni boshqarish dasturimiz yordamida ushbu tekshiruvni oʻtkazish uchun.</p><p>Agar siz ushbu yuborishni koʻrib chiqish imkoniga ega boʻlsangiz, koʻrib chiqishingiz {$reviewDueDate} sanasigacha amalga oshiriladi. Taqdimotni ko‘rish, ko‘rib chiqish fayllarini yuklash va sharhlaringizni yuborish uchun ko‘rib chiqish bosqichlarini bajarishingiz mumkin.</p><p>{$submissionTitle}</p><p>Abstrakt</p>{$submissionAbstract}<p >Yuborish yoki ko‘rib chiqish jarayoniga oid har qanday savol bilan men bilan bog‘laning.</p><p>Ushbu so‘rovni ko‘rib chiqqaningiz uchun tashakkur. Sizning yordamingiz juda qadrlanadi.</p><p>Hurmat bilan,</p>{$contextSignature}',
+      'emails.reviewRequestSubsequent.subject' => 'Qayta ko\'rib chiqilgan arizani ko\'rib chiqishni so\'rash',
+      'emails.reviewRequestSubsequent.body' => '<p>Hurmatli {$recipientName},</p><p><a href="{$reviewAssignmentUrl}">{$submissionTitle}</a> haqidagi sharhingiz uchun tashakkur. Mualliflar sharhlovchilarning fikr-mulohazalarini ko\'rib chiqdilar va endi o\'z ishlarining qayta ko\'rib chiqilgan versiyasini taqdim etishdi. Men ushbu taqdimot uchun ikkinchi raund tekshiruvini o\'tkazishingizni so\'rash uchun yozyapman. {$contextName}.</p><p>Agar siz ushbu arizani koʻrib chiqish imkoniga ega boʻlsangiz, koʻrib chiqishingiz muddati {$reviewDueDate}. Yuborishni koʻrish, koʻrib chiqish fayllarini yuklash va sharhlaringizni yuborish uchun <a href="{$reviewAssignmentUrl}">koʻrib chiqish bosqichlarini bajarishingiz mumkin</a>.<p><p><a href="{$reviewAssignmentUrl }">{$submissionTitle}</a></p><p>Abstract</p>{$submissionAbstract}<p>Iltimos, {$responseDueDate} sanasigacha ko‘rib chiqishni qabul qiling yoki rad eting.</p><p>Iltimos Taqdim etish yoki ko‘rib chiqish jarayoniga oid har qanday savol bilan men bilan bog‘lanishingiz mumkin.</p><p>Ushbu so‘rovni ko‘rib chiqqaningiz uchun tashakkur. Sizning yordamingiz juda qadrlanadi.</p><p>Hurmat bilan,</p>{$signature}',
+      'emails.reviewCancel.subject' => 'Tekshirish so\'rovi bekor qilindi',
+      'emails.reviewCancel.body' => '{$recipientName}: <br />
+<br/>
+Biz ayni vaqtda &quot; {$submissionTitle} &quot; {$contextName} uchun. Biz sizni bezovta qiladigan noqulayliklar uchun uzr so\'raymiz va umid qilamizki, biz sizni ushbu jurnalni ko\'rib chiqish jarayonida yordam berishga chaqiramiz. <br />
+<br/>
+Agar sizda biron bir savol bo\'lsa, iltimos, men bilan bog\'laning.',
+      'emails.reviewReinstate.subject' => '{$contextName} uchun biror narsani koʻrib chiqa olasizmi?',
+      'emails.reviewReinstate.body' => '<p>Hurmatli {$recipientName},</p><p>Biz yaqinda sizdan {$contextName} uchun {$submissionTitle} nomli arizani ko‘rib chiqish so‘rovimizni bekor qildik. Biz bu qarorni bekor qildik va umid qilamizki, siz hali ham ko‘rib chiqishni o‘tkazishingiz mumkin.</p><p>Agar siz ushbu jurnalni ko‘rib chiqish jarayoniga yordam bera olsangiz, jurnalga kirishingiz va yuborilgan materialni ko‘rishingiz, yuklashingiz mumkin. fayllarni ko\'rib chiqing va ko\'rib chiqish so\'rovingizni yuboring.</p><p>Agar sizda biron bir savol bo\'lsa, men bilan bog\'laning.</p><p>Hurmat bilan,</p>{$signature}',
+      'emails.reviewDecline.subject' => 'Tekshirib bo\'lmadi',
+      'emails.reviewDecline.body' => 'Tahrirlovchilar: <br />
+<br/>
+Men qo\'rqamanki, hozircha &quot; {$submissionTitle}, &quot; {$contextName} uchun. Meni o\'ylaganingiz uchun tashakkur, boshqa vaqtda esa menga qo\'ng\'iroq qiling. <br />
+<br/>
+{$senderName}',
+      'emails.reviewRemind.subject' => 'Tekshiruvni yakunlash uchun eslatma',
+      'emails.reviewRemind.body' => '<p>Hurmatli {$recipientName},</p><p>Sizdan {$contextName} uchun "{$submissionTitle}" nomli arizani ko‘rib chiqish bo‘yicha so‘rovimizni eslatib o‘tamiz. Biz bu ko‘rib chiqishni {$reviewDueDate} tomonidan kutgan edik va uni tayyorlash imkoniga ega bo‘lishingiz bilanoq uni qabul qilishdan mamnun bo‘lamiz.</p><p>Ko‘rish uchun jurnalga kiring va ko‘rib chiqish bosqichlarini bajaring. topshirish, koʻrib chiqish fayllarini yuklang va sharhlaringizni yuboring.</p><p>Agar sizga muddatni uzaytirish kerak boʻlsa, iltimos, men bilan bogʻlaning. Sizdan xabar kutib qolaman.</p><p>Oldindan rahmat va hurmat bilan,</p>{$signature}',
+      'emails.reviewRemindAuto.subject' => 'Tekshiruvni yakunlash uchun eslatma',
+      'emails.reviewRemindAuto.body' => '<p>Hurmatli {$recipientName}:</p><p>Ushbu xat {$contextName} tomonidan yuborilgan “{$submissionTitle}”ni ko‘rib chiqish haqidagi so‘rovimizga oid avtomatik eslatmadir.</p> <p>Biz ushbu sharhni {$reviewDueDate} sanasida olishini kutgan edik va uni tayyorlashingiz bilanoq uni qabul qilishdan mamnun bo‘lamiz.</p><p>Jurnalga kiring va ko‘rib chiqish bosqichlarini bajaring. taqdimotni ko‘rish, ko‘rib chiqish fayllarini yuklash va sharhlaringizni yuborish uchun.</p><p>Agar sizga muddatni uzaytirish kerak bo‘lsa, iltimos, men bilan bog‘laning. Sizdan xabar kutib qolaman.</p><p>Oldindan rahmat va hurmat bilan,</p>{$contextSignature}',
+      'emails.editorDecisionAccept.subject' => 'Sizning arizangiz {$contextName} uchun qabul qilindi',
+      'emails.editorDecisionAccept.body' => '<p>Hurmatli {$recipientName},</p><p>Sizga ma’lum qilishdan mamnunmanki, biz sizning arizangizni qayta ko‘rib chiqmasdan qabul qilishga qaror qildik. Ehtiyotkorlik bilan ko‘rib chiqqach, sizning {$submissionTitle} taqdimotingiz kutganimizga mos yoki undan ham yuqori ekanligini aniqladik. Maqolani {$contextName} da chop etishdan xursandmiz va jurnalimizni ish joyingiz sifatida tanlaganingiz uchun tashakkur bildiramiz.</p><p>Sizning maqolangiz endi {$contextName} jurnalining kelgusi sonida chop etiladi. uni nashrlar ro\'yxatiga kiritishingiz mumkin. Biz har bir muvaffaqiyatli topshirish uchun mashaqqatli mehnat sarflanganini tan olamiz va sizni ushbu bosqichga erishganingiz bilan tabriklaymiz.</p><p>Sizning taqdimnomangiz endi nashrga tayyorlash uchun nusxa ko‘chirish va formatlashdan o‘tadi.</p><p >Tez orada qo‘shimcha ko‘rsatmalar olasiz.</p><p>Agar sizda biron bir savol bo‘lsa, iltimos, <a href="{$authorSubmissionUrl}">yuborish paneli</a> orqali men bilan bog‘laning.</p><p> >Hurmat bilan,</p>{$signature}',
+      'emails.editorDecisionSkipReview.subject' => 'Taqdimotingiz nusxa ko\'chirish uchun yuborildi',
+      'emails.editorDecisionSkipReview.body' => '<p>Hurmatli {$recipientName},</p>
+<p>Biz sizning taqdimnomangizni ko\'rib chiqmasdan qabul qilishga qaror qilganimizni ma\'lum qilishdan mamnunman. Biz sizning {$submissionTitle} taklifingizni kutganimizga mos deb topdik va bu turdagi ishni oʻzaro tekshirishni talab qilmaymiz. Asaringizni {$contextName} da chop etishdan xursandmiz va jurnalimizni ish joyingiz sifatida tanlaganingiz uchun tashakkur bildiramiz.</p>
+Sizning taqdimnomangiz endi {$contextName} jurnalining kelgusi sonida chop etiladi va uni nashrlar roʻyxatiga kiritishingiz mumkin. Biz har bir muvaffaqiyatli topshirish uchun mashaqqatli mehnatni tanlaymiz va sizni sa\'y-harakatlaringiz bilan tabriklaymiz.</p>
+<p>Endi sizning taqdimnomangiz nashrga tayyorlash uchun nusxa ko\'chirish va formatlashdan o\'tadi. </p>
+<p>Tez orada qo\'shimcha ko\'rsatmalar olasiz.</p>
+<p>Agar sizda biron bir savol bo\'lsa, iltimos, <a href="{$authorSubmissionUrl}">yuborish paneli</a> orqali men bilan bog\'laning.</p>
+<p>Hurmat bilan,</p>
+<p>{$imzo}</p>
+',
+      'emails.layoutRequest.subject' => '{$submissionId} taqdimoti {$contextAcronym} orqali ishlab chiqarishga tayyor',
+      'emails.layoutRequest.body' => '<p>Hurmatli {$recipientName},</p><p>Yangi taqdimnoma tartibni tahrirlashga tayyor:</p><p><a href="{$submissionUrl}">{$submissionId} {$submissionTitle }</a><br />{$contextName}</p><ol><li>1. Yuqoridagi Yuborish URL manzilini bosing.</li><li>2. Ishlab chiqarishga tayyor fayllarni yuklab oling va ulardan jurnal standartlariga muvofiq galleylarni yaratish uchun foydalaning.</li><li>3. Galereyalarni taqdimnomaning Nashr bo‘limiga yuklang.</li><li>4. Muharrirni galleylar tayyorligi haqida xabardor qilish uchun ishlab chiqarish muhokamalaridan foydalaning.</li></ol><p>Agar siz hozirda bu ishni uddalay olmasangiz yoki savollaringiz bo‘lsa, men bilan bog‘laning. Ushbu jurnalga qo\'shgan hissangiz uchun tashakkur.</p><p>Hurmat bilan,</p>{$signature}',
+      'emails.layoutComplete.subject' => 'Galleylar tugadi',
+      'emails.layoutComplete.body' => '<p>Hurmatli {$recipientName},<p><p>Galleylar keyingi yuborish uchun tayyorlandi va yakuniy ko‘rib chiqishga tayyor.</p><p><a href="{$submissionUrl}">{ $submissionTitle}</a><br />{$contextName}</p><p>Agar sizda biron bir savol bo\'lsa, men bilan bog\'laning.</p><p>Hurmat bilan,</p><p>{ $senderName}</p>',
+      'emails.emailLink.subject' => 'Mumkin bo\'lgan foizlar haqidagi maqola',
+      'emails.emailLink.body' => 'Sizni & quot; {$submissionTitle} & quot; Muallif: {$authors}, jildda nashr etilgan, $ {$volume}, {$contextName} ning {$number} ({$year}) raqami yo\'q, & quot; {$articleUrl} & quot;.',
+      'emails.emailLink.description' => 'Ushbu elektron pochta shabloni ro\'yxatdan o\'tgan o\'quvchiga maqola haqida ma\'lumotni qiziqqan kishiga yuborish imkoniyatini beradi. U o\'qish vositalari orqali mavjud va uni o\'qish asboblarini boshqarish sahifasida jurnal menejeri yoqishi kerak.',
+      'emails.subscriptionNotify.subject' => 'Obuna haqida bildirishnoma',
+      'emails.subscriptionNotify.body' => '{$recipientName}: <br />
+<br/>
+Siz hozirda bizning onlayn jurnallarni boshqarish tizimimizda {$contextName} obunachisi sifatida ro\'yxatdan o\'tdingiz va quyidagi obuna bilan: <br />
+<br/>
+{$subscriptionType} <br />
+<br/>
+Faqat obunachilar uchun mavjud bo\'lgan kontentga kirish uchun tizimga o\'z ismingiz bilan kiring, &quot; {$recipientUsername} &quot;. <br />
+<br/>
+Tizimga kirganingizdan so\'ng profil ma\'lumotlari va parolni xohlagan vaqtda o\'zgartirishingiz mumkin. <br />
+<br/>
+E\'tibor bering, agar sizda institutsional obuna bo\'lsa, tizimga kirishga hojat yo\'q, chunki obuna tarkibiga bo\'lgan so\'rovlar tizim tomonidan avtomatik ravishda tasdiqlanadi. <br />
+<br/>
+Savollaringiz bo\'lsa, iltimos, men bilan bog\'laning. <br />
+<br/>
+{$subscriptionSignature}',
+      'emails.openAccessNotify.subject' => 'Ochiq kirishni hozir chiqaring',
+      'emails.openAccessNotify.body' => 'O\'quvchilar: <br />
+<br/>
+{$contextName} quyidagi raqamni ochiq formatda taqdim etdi. Sizni Mundarija bilan tanishib chiqishga taklif qilamiz, keyin maqolalar va qiziq narsalarni ko\'rib chiqish uchun veb -saytimizga ({$contextUrl}) tashrif buyuring. <br />
+<br/>
+Bizning ishimizga doimiy qiziqishingiz uchun rahmat, <br />
+{$contextSignature}',
+      'emails.subscriptionBeforeExpiry.subject' => 'Obuna muddati tugagani haqida xabar',
+      'emails.subscriptionBeforeExpiry.body' => '{$recipientName}: <br />
+<br/>
+{$contextName} obunangiz muddati tugash arafasida. <br />
+<br/>
+{$subscriptionType} <br />
+Yaroqlilik muddati: {$expiryDate} <br />
+<br/>
+Bu jurnalga kirishingizning uzluksizligini ta\'minlash uchun jurnal veb -saytiga o\'ting va obunangizni yangilang. Siz tizimga &quot; {$recipientUsername} &quot; ismingiz bilan kirishingiz mumkin. <br />
+<br/>
+Savollaringiz bo\'lsa, iltimos, men bilan bog\'laning. <br />
+<br/>
+{$subscriptionSignature}',
+      'emails.subscriptionAfterExpiry.subject' => 'Obuna muddati tugadi',
+      'emails.subscriptionAfterExpiry.body' => '{$recipientName}: <br />
+<br/>
+{$contextName} obunangiz muddati tugadi. <br />
+<br/>
+{$subscriptionType} <br />
+Yaroqlilik muddati: {$expiryDate} <br />
+<br/>
+Obunani yangilash uchun jurnal veb -saytiga o\'ting. Siz tizimga &quot; {$recipientUsername} &quot; ismingiz bilan kirishingiz mumkin. <br />
+<br/>
+Savollaringiz bo\'lsa, iltimos, men bilan bog\'laning. <br />
+<br/>
+{$subscriptionSignature}',
+      'emails.subscriptionAfterExpiryLast.subject' => 'Obuna muddati tugadi - yakuniy eslatma',
+      'emails.subscriptionAfterExpiryLast.body' => '{$recipientName}: <br />
+<br/>
+{$contextName} obunangiz muddati tugadi. <br />
+E\'tibor bering, bu sizga elektron pochta orqali yuboriladigan oxirgi eslatma. <br />
+<br/>
+{$subscriptionType} <br />
+Yaroqlilik muddati: {$expiryDate} <br />
+<br/>
+Obunani yangilash uchun jurnal veb -saytiga o\'ting. Siz tizimga &quot; {$ username} &quot; ismingiz bilan kirishingiz mumkin. <br />
+<br/>
+Savollaringiz bo\'lsa, iltimos, men bilan bog\'laning. <br />
+<br/>
+{$subscriptionSignature}',
+      'emails.subscriptionPurchaseIndl.subject' => 'Obuna sotib olish: individual',
+      'emails.subscriptionPurchaseIndl.body' => 'Quyidagi tafsilotlar bilan {$contextName} uchun onlayn obuna sotib olindi. <br />
+<br/>
+Obuna turi: <br />
+{$subscriptionType} <br />
+<br/>
+Foydalanuvchi: <br />
+{$subscriberDetails} <br />
+<br/>
+A\'zolik haqida ma\'lumot (agar mavjud bo\'lsa): <br />
+{$membership} <br />
+<br/>
+Bu obunani ko\'rish yoki tahrir qilish uchun quyidagi URL manzilidan foydalaning. <br />
+<br/>
+Obuna URL: {$subscriptionUrl} <br />
+',
+      'emails.subscriptionPurchaseInstl.subject' => 'Obuna sotib olish: institutsional',
+      'emails.subscriptionPurchaseInstl.body' => 'Quyidagi tafsilotlar bilan {$contextName} uchun institutsional obuna onlayn tarzda sotib olindi. Bu obunani faollashtirish uchun obuna URL manzilidan foydalaning va obuna holatini "Faol" deb belgilang. <br />
+<br/>
+Obuna turi: <br />
+{$subscriptionType} <br />
+<br/>
+Tashkilot: <br />
+{$institutionName} <br />
+{$institutionMailingAddress} <br />
+<br/>
+Domen (agar mavjud bo\'lsa): <br />
+{$domain} <br />
+<br/>
+IP diapazoni (agar mavjud bo\'lsa): <br />
+{$ipRanges} <br />
+<br/>
+Aloqa uchun shaxs: <br />
+{$subscriberDetails} <br />
+<br/>
+A\'zolik haqida ma\'lumot (agar mavjud bo\'lsa): <br />
+{$membership} <br />
+<br/>
+Bu obunani ko\'rish yoki tahrir qilish uchun quyidagi URL manzilidan foydalaning. <br />
+<br/>
+Obuna URL: {$subscriptionUrl} <br />
+',
+      'emails.subscriptionRenewIndl.subject' => 'Obunani uzaytirish: individual',
+      'emails.subscriptionRenewIndl.body' => 'Quyidagi tafsilotlar bilan {$contextName} uchun onlayn obuna yangilandi. <br />
+<br/>
+Obuna turi: <br />
+{$subscriptionType} <br />
+<br/>
+Foydalanuvchi: <br />
+{$subscriberDetails} <br />
+<br/>
+A\'zolik haqida ma\'lumot (agar mavjud bo\'lsa): <br />
+{$membership} <br />
+<br/>
+Bu obunani ko\'rish yoki tahrir qilish uchun quyidagi URL manzilidan foydalaning. <br />
+<br/>
+Obuna URL: {$subscriptionUrl} <br />
+',
+      'emails.subscriptionRenewInstl.subject' => 'Obunani yangilash: institutsional',
+      'emails.subscriptionRenewInstl.body' => 'Quyidagi tafsilotlar bilan {$contextName} uchun institutsional obuna yangilandi. <br />
+<br/>
+Obuna turi: <br />
+{$subscriptionType} <br />
+<br/>
+Tashkilot: <br />
+{$institutionName} <br />
+{$institutionMailingAddress} <br />
+<br/>
+Domen (agar mavjud bo\'lsa): <br />
+{$domain} <br />
+<br/>
+IP diapazoni (agar mavjud bo\'lsa): <br />
+{$ipRanges} <br />
+<br/>
+Aloqa uchun shaxs: <br />
+{$subscriberDetails} <br />
+<br/>
+A\'zolik haqida ma\'lumot (agar mavjud bo\'lsa): <br />
+{$membership} <br />
+<br/>
+Bu obunani ko\'rish yoki tahrir qilish uchun quyidagi URL manzilidan foydalaning. <br />
+<br/>
+Obuna URL: {$subscriptionUrl} <br />
+',
+      'emails.revisedVersionNotify.subject' => 'Yangilangan versiya yuklandi',
+      'emails.revisedVersionNotify.body' => 'Tahrirlovchilar: <br />
+<br/>
+&quot; {$submissionTitle} &quot; ning qayta ko\'rib chiqilgan versiyasi muallif {$submitterName} tomonidan yuklangan. <br />
+<br/>
+Yuborish URL manzili: {$submissionUrl} <br />
+<br/>
+{$signature}',
+      'emails.statisticsReportNotification.subject' => '{$month}, {$year} uchun tahririyat faoliyati',
+      'emails.statisticsReportNotification.body' => '
+{$recipientName}, <br />
+<br/>
+{$month}, {$year} uchun jurnal sog\'lig\'ingiz haqidagi hisobot endi tayyor. Bu oy uchun asosiy statistik ma\'lumotlar. <br />
+<ul>
+<li> Bu oyda yangi materiallar: {$newSubmissions} </li>
+<li> Bu oy rad etilgan materiallar: {$declinedSubmissions} </li>
+<li> Bu oyda qabul qilingan arizalar: {$acceptedSubmissions} </li>
+<li> Tizimdagi jami yuborishlar: {$totalSubmissions} </li>
+</ul>
+<a href="{$editorialStatsLink}"> tahririyat yo\'nalishlari </a> va <a href="{$publicationStatsLink}"> chop etilgan maqolalar statistikasini </a> batafsil ko\'rish uchun jurnalga kiring. Bu oyning tahririyat tendentsiyalarining to\'liq nusxasi ilova qilingan. <br />
+<br/>
+Hurmat bilan, <br />
+{$contextSignature}',
+      'emails.announcement.subject' => '{$announcementTitle}',
+      'emails.announcement.body' => '<b> {$announcementTitle} </b> <br />
+<br/>
+{$announcementSummary} <br />
+<br/>
+<a href="{$announcementUrl}"> to\'liq e\'lonni </a> o\'qish uchun veb -saytimizga tashrif buyuring.',
+    ),
+  ),
+);

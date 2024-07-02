@@ -1,0 +1,17 @@
+<?php $exp = 1751345599; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.customBlockManager.displayName' => '自定义区块管理(Custom Block Manager)',
+      'plugins.generic.customBlockManager.description' => '本插件允许在边栏增加区块，和对边栏区块的重新排序。(This plugin lets you create addition sidebar blocks.  Once they are created, you can edit their content and rearrange them within the sidebars.)',
+      'plugins.generic.customBlockManager.blockName' => '区块名称(Block Name)',
+      'plugins.generic.customBlockManager.addBlock' => '添加(Add Block)',
+      'plugins.generic.customBlock.content' => '内容(Content)',
+      'plugins.generic.customBlock.nameSuffix' => '(自定义块插件)(Custom Block Plugin)',
+      'plugins.generic.customBlock.description' => '这是一个用户生成的区块。(This is a user-generated block.)',
+    ),
+  ),
+);

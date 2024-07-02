@@ -1,0 +1,32 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'comments.anonymous' => 'ანონიმური მომხმარებელი',
+      'comments.anonymousNamed' => '"{$userName}"',
+      'comments.body' => 'ძირითადი ნაწილი',
+      'comments.titleRequired' => 'კომენტარის სათაური აუცილებელია.',
+      'comments.confirmDeleteChildren' => 'ამ კომენტარის წაშლით ასევე წაიშლება მასზე ნებისმიერი პასუხი. დარწმუნებული ხართ, რომ ამის გაკეთება გსურთ?',
+      'comments.delete' => 'ამ კომენტარის წაშლა',
+      'comments.email' => 'კომენტატორის ელფოსტა',
+      'comments.emailReply' => 'ელფოსტით პასუხის გაცემა',
+      'comments.enterComment' => 'კომენტარის შეტანა',
+      'comments.inResponseTo' => 'პასუხად: <a href="{$url}">{$title}</a>',
+      'comments.name' => 'კომენტატორის სახელი',
+      'comments.noComments' => 'მკითხველის კომენტარი არ გამოქვეყნებულა.',
+      'comments.nReplies' => '({$num} პასუხი)',
+      'comments.oneReply' => '(1 პასუხი)',
+      'comments.postAnonymously' => 'განათავსეთ ეს კომენტარი ანონიმურად',
+      'comments.postReply' => 'ჩანაწერის პასუხი',
+      'comments.readerComments' => 'მკითხველის კომენტარები',
+      'comments.readMore' => 'დაწვრილებით',
+      'comments.replies' => 'პასუხები',
+      'comments.title' => 'სათაური',
+      'comments.viewAllComments' => 'ყველა კომენტარის ნახვა',
+      'reader.fullText' => 'სრული ტექსტი:',
+    ),
+  ),
+);

@@ -1,0 +1,32 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'comments.anonymous' => 'Anonym användare',
+      'comments.anonymousNamed' => '"{$userName}"',
+      'comments.body' => 'Text',
+      'comments.titleRequired' => 'Det krävs en titel på kommentaren.',
+      'comments.confirmDeleteChildren' => 'Om du tar bort kommentaren kommer även alla svar på den att raderas. Är du säker på att du vill göra det?',
+      'comments.delete' => 'Ta bort kommentar',
+      'comments.email' => 'Kommentators e-postadress',
+      'comments.emailReply' => 'Svara via e-post',
+      'comments.enterComment' => 'Kommentera',
+      'comments.inResponseTo' => 'Som svar på <a href="{$url}">{$title}</a>',
+      'comments.name' => 'Namn på kommentator',
+      'comments.noComments' => 'Inga läsarkommentarer har lämnats.',
+      'comments.nReplies' => '({$num} svar)',
+      'comments.oneReply' => '(1 svar)',
+      'comments.postAnonymously' => 'Kommentera anonymt',
+      'comments.postReply' => 'Skicka svar',
+      'comments.readerComments' => 'Läsarkommentarer',
+      'comments.readMore' => 'Läs mer',
+      'comments.replies' => 'Svar',
+      'comments.title' => 'Titel',
+      'comments.viewAllComments' => 'Visa alla kommentarer',
+      'reader.fullText' => 'Fulltext:',
+    ),
+  ),
+);

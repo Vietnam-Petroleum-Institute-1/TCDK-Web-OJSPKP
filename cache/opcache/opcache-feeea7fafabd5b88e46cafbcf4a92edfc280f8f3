@@ -1,0 +1,26 @@
+<?php $exp = 1751345594; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.webfeed.displayName' => 'إضافة مغذي الإنترنت',
+      'plugins.generic.webfeed.description' => 'هذه الإضافة تولد مغذيات الإنترنت RSS/Atom الخاصة بالعدد الحالي من المجلة.<br>تتضمن الإضافة أيضًا وحدة شريط جانبي تمكنك من عرض روابط التغذية في الشريط الجانبي لتطبيقك',
+      'plugins.generic.webfeed.settings' => 'الإعدادات',
+      'plugins.generic.webfeed.settings.issue' => 'إعرض روابط المغذي فقط على صفحات العدد.',
+      'plugins.generic.webfeed.settings.homepage' => 'إعرض روابط التغذية فقط في الصفحة الرئيسية.',
+      'plugins.generic.webfeed.settings.all' => 'إعرض روابط التغذية في كل صفحات التطبيق.',
+      'plugins.generic.webfeed.settings.currentIssue' => 'إعرض فقرات الإصدار الحالي من المجلة.',
+      'plugins.generic.webfeed.settings.recent' => 'إعرض عدداً محدداً من المنشورات الأكثر حداثة.',
+      'plugins.generic.webfeed.settings.recentArticles' => 'عدد المنشورات المراد عرضها',
+      'plugins.generic.webfeed.settings.recentItemsRequired' => 'لطفاً، أدخل رقماً صحيحاً موجباً يمثل عدد الفقرات المنشورة الأخيرة.',
+      'plugins.generic.webfeed.atom.altText' => 'شعار Atom',
+      'plugins.generic.webfeed.rss1.altText' => 'شعار RSS1',
+      'plugins.generic.webfeed.rss2.altText' => 'شعار RSS2',
+      'plugins.generic.webfeed.settings.homepageAndIssues' => 'إعرض روابط تغذية الويب في الصفحة الرئيسية وصفحات العدد فقط.',
+      'plugins.generic.webfeed.blockTitle' => 'المنشورات الأخيرة',
+      'plugins.generic.webfeed.settings.includeIdentifiers' => 'أتريد تضمين المعرفات (ISBN، الكلمات المفتاحية، التصنيفات، إلخ) في موجز التغذية؟',
+    ),
+  ),
+);

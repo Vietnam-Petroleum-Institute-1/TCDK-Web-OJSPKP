@@ -1,0 +1,60 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.importexport.crossref.displayName' => 'Plugin för export av Crossref XML',
+      'plugins.importexport.crossref.description' => 'Exporterar artikelmetadata i Crossref XML-format.',
+      'plugins.importexport.crossref.requirements' => 'Krav',
+      'plugins.importexport.crossref.requirements.satisfied' => 'Alla krav för pluginet är uppfyllda.',
+      'plugins.importexport.crossref.error.publisherNotConfigured' => 'En utgivare för tidskriften saknas! Lägg till en utgivare i <a href="{$journalSettingsUrl}" target="_blank">Inställningar för tidskriften</a>.',
+      'plugins.importexport.crossref.error.issnNotConfigured' => 'Ett ISSN saknas för tidskriften! Lägg till ett ISSN i <a href="{$journalSettingsUrl}" target="_blank">Inställningar för tidskriften</a>.',
+      'plugins.importexport.crossref.error.noDOIContentObjects' => 'Inga artiklar har valts för tilldelning av DOI i DOI-pluginet, därför är det inte möjligt att deponera eller exportera via pluginet.',
+      'plugins.importexport.crossref.settings.depositorIntro' => 'Följande objekt krävs för att deponeringen till Crossref ska fungera.',
+      'plugins.importexport.crossref.settings.form.depositorName' => 'Deponerarens namn',
+      'plugins.importexport.crossref.settings.form.depositorEmail' => 'Deponerarens e-post',
+      'plugins.importexport.crossref.settings.form.depositorNameRequired' => 'Ange deponerarens namn.',
+      'plugins.importexport.crossref.settings.form.depositorEmailRequired' => 'Ange deponerarens e-post.',
+      'plugins.importexport.crossref.registrationIntro' => 'Om du vill använda det här pluginet för att registrera Digital Object Identifiers (DOIs) direkt hos Crossref behöver du användarnamn och lösenord (finns att få på <a href="https://www.crossref.org" target="_blank">Crossref</a>). Om du inte har ett eget användarnamn och lösenord kan du ändå exportera i XML format, men du kan inte registrera dina DOI:er hos Crossref via OJS.',
+      'plugins.importexport.crossref.settings.form.username' => 'Användarnamn',
+      'plugins.importexport.crossref.settings.form.usernameRequired' => 'Logga in med ditt användarnamn som du fått från Crossref.',
+      'plugins.importexport.crossref.settings.form.automaticRegistration.description' => 'OJS deponerar automatiskt tilldelade DOI:er till Crossref. Det kan ta ett kort tag efter publiceringen innan deponeringen behandlas (t ex. beroende på cronjob configuration). Du kan kontrollera alla oregistrerade DOI:er.',
+      'plugins.importexport.crossref.settings.form.testMode.description' => 'Använd Crossrefs test-API (testmiljö) för DOI-deponering. Kom ihåg att ta bort alternativet när tidskriften går i produktion.',
+      'plugins.importexport.crossref.issues.description' => 'Observera: Bara nummer (inte deras artiklar) kommer att exporteras/registreras här.',
+      'plugins.importexport.crossref.status.failed' => 'Misslyckades',
+      'plugins.importexport.crossref.status.registered' => 'Aktiv',
+      'plugins.importexport.crossref.status.markedRegistered' => 'Markerad som aktiv',
+      'plugins.importexport.crossref.statusLegend' => '
+		<p>Deposit status:</p>
+		<p>
+		- Inte deponerad: inget deponeringsförsök har gjorts för detta DOI.<br />
+		- Aktiv: ett DOI har deponerats och är korrekt.<br />
+		- Misslyckats: deponeringen av DOI har misslyckats.<br />
+		- Markerad som aktiv: DOI har manuellt markerats som aktiv.
+		</p>
+		<p>Bara den senaste deponeringen visas.</p>
+		<p>Om deponeringen misslyckas, vänligen lös problemet och registrera DOI:t en gång till.</p>',
+      'plugins.importexport.crossref.action.export' => 'Export',
+      'plugins.importexport.crossref.action.markRegistered' => 'Markera som aktiv',
+      'plugins.importexport.crossref.senderTask.name' => 'Crossrefs automatiska registreringsfunktion',
+      'plugins.importexport.crossref.cliUsage' => 'Användning:
+{$scriptName} {$pluginName} export [xmlFileName] [journal_path] artiklar objectId1 [objectId2] ...
+{$scriptName} {$pluginName} register [journal_path] artiklar objectId1 [objectId2] ...
+',
+      'plugins.importexport.crossref.export.error.issueNotFound' => 'Inga nummer motsvarade det här numrets ID "{$issueId}".',
+      'plugins.importexport.crossref.export.error.articleNotFound' => 'Inga artiklar motsvarade den här artikelns ID "{$articleId}".',
+      'plugins.importexport.crossref.register.success.warning' => 'Registreringen lyckades men processen svarade med följande varning: \'{$param}\'.',
+      'plugins.importexport.crossref.register.error.mdsError' => 'Registreringen misslyckades! Servern för DOI-registrering svarade med ett felmeddelande.',
+      'plugins.importexport.crossref.action.register' => 'Deponera',
+      'plugins.importexport.crossref.settings.form.validation' => 'Validera XML. Använd det här alternativet vid XML-nedladdning för manuell DOI-registrering.',
+      'plugins.importexport.crossref.settings.form.onlyValidateExport' => 'Validera enbart exporten. Ladda inte ner filen.',
+      'plugins.generic.crossref.registrationAgency.name' => 'Crossref',
+      'plugins.importexport.crossref.status.notDeposited' => 'Inte deponerad',
+      'plugins.importexport.crossref.settings' => 'Inställningar för Crossref',
+      'plugins.generic.crossref.description' => 'Hantera deponering och export av Crossref metadata',
+      'plugins.generic.crossref.displayName' => 'Crossref Manager Plugin',
+    ),
+  ),
+);

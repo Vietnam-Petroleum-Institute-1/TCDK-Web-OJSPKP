@@ -1,0 +1,34 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.importexport.datacite.displayName' => 'DataCite export/registratie plugin',
+      'plugins.importexport.datacite.description' => 'Exporteer of registreer metadata van nummers, artikels, proeven en aanvullende bestanden in DataCite formaat.',
+      'plugins.importexport.datacite.settings.description' => 'Configureer de DataCite export plugin voor u ze voor het eerst gebruikt.',
+      'plugins.importexport.datacite.intro' => '
+		Als u DOI\'s wilt registreren bij DataCite,  neem dan contact op met de Managing
+		Agent via de <a href="http://datacite.org/contact" target="_blank">DataCite
+		homepage</a>. Die zal u in contact brengen met uw lokale DataCite vertegenwoordiger. Zodra u een
+		relatie met hen heeft , krijgt u 
+		toegang tot DataCite voor het maken van persistente identificaties (DOI\'s)
+		en het registreren van de bijbehorende metadata. Al u geen eigen gebruikersnaam en
+		wachtwoord hebt kunt u nog steeds exporteren naar het DataCite XML formaat maar u 
+		kunt uw DOI\'s niet registreren bij DataCite vanuit OJS.
+		Merk op dat het wachtwoord als leesbare tekst opgeslagen wordt, bus niet versleuteld, vanwege
+		de vereisten van de DataCite registratie dienst.
+	',
+      'plugins.importexport.datacite.settings.form.username' => 'Gebruikersnaam (symbol)',
+      'plugins.importexport.datacite.settings.form.usernameRequired' => 'Geef de gebruikersnaam (symbool) die u van DataCite hebt gekregen. De gebruikersnaam mag geen dubbele punt bevatten.',
+      'plugins.importexport.datacite.settings.form.automaticRegistration.description' => 'OJS zal toegewezen DOI\'s na publicatie automatisch deponeren bij DataCite. Dit kan even duren (bv. afhankelijk van uw cronjob instellingen). U kan alle ongeregistreerde DOI\'s bekijken.',
+      'plugins.importexport.datacite.settings.form.testMode.description' => 'Gebruik het DataCite test prefix voor de DOI deposit. Vergeet deze test-optie niet te verwijderen voor de uiteindelijke publicatie.',
+      'plugins.importexport.datacite.senderTask.name' => 'Automatische registratie bij DataCite',
+      'plugins.importexport.datacite.cliUsage' => 'Gebruik:
+{$scriptName} {$pluginName} export [outputFileName] [journal_path] {issues|articles|galleys} objectId1 [objectId2] ...
+{$scriptName} {$pluginName} register [journal_path] {issues|articles|galleys} objectId1 [objectId2] ...
+',
+    ),
+  ),
+);

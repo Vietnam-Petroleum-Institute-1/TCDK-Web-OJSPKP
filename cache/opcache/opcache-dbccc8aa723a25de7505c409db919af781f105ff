@@ -1,0 +1,31 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'api.announcements.400.contextsNotMatched' => 'To ogłoszenie nie należy do tego czasopisma.',
+      'api.emails.403.disabled' => 'W tym czasopiśmie nie włączono funkcji powiadamiania mailowego.',
+      'api.submissions.400.wrongContext' => 'Żądane zgłoszenie nie znajduje się w tym czasopiśmie.',
+      'api.submissions.403.cantChangeContext' => 'Nie można zmienić czasopisma do którego należy to zgłoszenie.',
+      'api.submissions.403.unpublishedIssues' => 'Nie jesteś uprawniony do podglądu nieopublikowanych wydań.',
+      'api.contexts.403.requestedDisabledContexts' => 'Możesz wyświetlać tylko czasopisma, które zostały aktywowane.',
+      'api.contexts.403.notAllowed' => 'Nie masz pozwolenia do przeglądania tego czasopisma.',
+      'api.contexts.403.contextsDidNotMatch' => 'Nie możesz wyświetlać ani edytować tego czasopisma, dopóki nie wyślesz żądania do API mu przeznaczonemu lub API ogólnego.',
+      'api.contexts.403.requiresContext' => 'Nie możesz edytować tego czasopisma przez API ogólne.',
+      'api.contexts.403.notAllowedEdit' => 'Nie masz pozwolenia do edycji tego czasopisma.',
+      'api.contexts.403.notAllowedDelete' => 'Nie masz pozwolenia do usunięcia tego czasopisma.',
+      'api.contexts.404.contextNotFound' => 'Nie znaleziono szukanego czasopisma.',
+      'api.dois.403.contextsNotMatched' => 'Żądane DOI nie należy do tego czasopisma.',
+      'api.dois.400.noRegistrationAgencyConfigured' => 'Dla tego czasopisma nie wybrano żadnej agencji rejestrującej DOI.',
+      'api.dois.400.depositFailed' => 'Niektóre DOI nie zostały zarejestrowane poprawnie. Proszę sprawdzić poszczególne elementy i ustalić przyczynę błędów.',
+      'api.emailTemplates.403.notAllowedChangeContext' => 'Nie masz pozwolenia do przenoszenia tego szablonu e-mail do innego czasopisma.',
+      'api._payments.400.invalidPaymentMethod' => 'Wybrana metoda płatności nie jest obsługiwana.',
+      'api.publications.403.contextsDidNotMatch' => 'Żądana publikacja nie jest częścią tego czasopisma.',
+      'api.publications.403.submissionsDidNotMatch' => 'Żądana publikacja nie jest częścią tego przedłożenia.',
+      'api.submissionFiles.400.badRepresentationAssocType' => 'Na tym etapie publikacji nie można powiązać pliku z gotową szpaltą.',
+      'api.submission.400.inactiveSection' => 'Ta sekcja już nie przyjmuje zgłoszeń.',
+    ),
+  ),
+);

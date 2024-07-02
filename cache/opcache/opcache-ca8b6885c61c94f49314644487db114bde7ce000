@@ -1,0 +1,64 @@
+<?php $exp = 1751345594; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.importexport.crossref.requirements' => 'Изисквания',
+      'plugins.importexport.crossref.displayName' => 'Добавка (плъгин) за Crossref XML експорт',
+      'plugins.importexport.crossref.description' => 'Експортиране на метаданни на статия в Crossref XML формат.',
+      'plugins.importexport.crossref.export.error.issueNotFound' => 'Нито едно издание не съответства на посочения идентификатор на издание "{$issueId}".',
+      'plugins.importexport.crossref.export.error.articleNotFound' => 'Нито една статия не съответства на посочения идентификатор на статия „{$articleId}“.',
+      'plugins.importexport.crossref.cliUsage' => 'Употреба:
+{$scriptName} {$pluginName} export [xmlFileName] [journal_path] articles objectId1 [objectId2] ...
+{$scriptName} {$pluginName} register [journal_path] articles objectId1 [objectId2] ...
+',
+      'plugins.importexport.crossref.action.export' => 'Експорт',
+      'plugins.importexport.crossref.issues.description' => 'Забележка: Тук за експортиране/регистрация ще се разглеждат само публикувани издания (а не предпечатни или работни такива).',
+      'plugins.importexport.crossref.settings.form.onlyValidateExport' => 'Потвърдете само експортирането. Не изтегляйте файла.',
+      'plugins.importexport.crossref.settings.form.automaticRegistration.description' => 'Системата ще депозира присвоените DOI автоматично в Crossref. Моля, имайте предвид, че това може да отнеме кратко време след публикуването за обработка (например в зависимост от конфигурацията на cronjob). Можете да проверите за всички нерегистрирани DOI.',
+      'plugins.importexport.crossref.registrationIntro' => '<p>Ако искате да използвате този плъгин, за да регистрирате идентификатори на цифрови обекти (DOI) директно с <a href="https://www.crossref.org/">Crossref</a>, ще трябва да добавите своя <a href="https://www.crossref.org/documentation/member-setup/account-credentials/">Crossref идентификационни данни за акаунт</a> в полетата за потребителско име и парола по-долу.</p><p>В зависимост във вашето членство в Crossref има два начина да въведете вашето потребителско име и парола:</p><ul><li>Ако използвате акаунт от организация, добавете своя <a href="https://www.crossref.org/documentation/member-setup/account-credentials/#00376">споделено потребителско име и парола</a></li><li>Ако използвате <a href="https://www.crossref.org/ documentation/member-setup/account-credentials/#00368">личен акаунт</a>, въведете вашия имейл адрес и ролята в полето за потребителско име. Потребителското име ще изглежда така: email@example.com/role</li><li>Ако не знаете или нямате достъп до своите идентификационни данни за Crossref, можете да се свържете с <a href="https://support.crossref.org /">Поддръжка за кръстосани препратки</a> за помощ. Без идентификационни данни все пак можете да експортирате метаданни във формат Crossref XML, но не можете да регистрирате своите DOI с Crossref от OJS.</li></ul>',
+      'plugins.importexport.crossref.register.success.warning' => 'Регистрацията беше успешна, но се появи следното предупреждение: \'{$param}\'.',
+      'plugins.importexport.crossref.register.error.mdsError' => 'Регистрацията не беше напълно успешна! Сървърът за регистрация на DOI върна грешка.',
+      'plugins.importexport.crossref.senderTask.name' => 'Crossref задача за автоматична регистрация',
+      'plugins.importexport.crossref.action.markRegistered' => 'Маркиране като активен',
+      'plugins.importexport.crossref.statusLegend' => '
+		<p>Депозитен статус:</p>
+		<p>
+		- Не е депозирано: не е направен опит за депозит за този DOI.<br />
+		- Активен: DOI е депозиран и се достъпва правилно.<br />
+		- Неуспешно: депозитът на DOI не е успешен.<br />
+		- Маркиран като активен: DOI е ръчно маркиран като активен.
+		</p>
+		<p>Показва се само състоянието на последния опит за депозит.</p>
+		<p>Ако депозитът е неуспешен, моля, решете проблема и опитайте отново да регистрирате DOI.</p>',
+      'plugins.importexport.crossref.action.register' => 'Депозиране',
+      'plugins.importexport.crossref.status.markedRegistered' => 'Маркиран като активен',
+      'plugins.importexport.crossref.status.registered' => 'Активен',
+      'plugins.importexport.crossref.status.failed' => 'Грешка',
+      'plugins.importexport.crossref.settings.form.validation' => 'Потвърдете XML. Използвайте тази опция за изтегляне на XML за ръчната регистрация на DOI.',
+      'plugins.importexport.crossref.settings.form.testMode.description' => 'Използвайте Crossref тестовия API (среда за тестване) за депозита на DOI. Моля, не забравяйте да премахнете тази опция при работа в реалната среда.',
+      'plugins.importexport.crossref.settings.form.usernameRequired' => 'Моля, въведете потребителското име, което сте получили от Crossref.',
+      'plugins.importexport.crossref.settings.form.username' => 'Потребител',
+      'plugins.importexport.crossref.settings.form.depositorEmailRequired' => 'Моля, въведете имейл на депозиращия.',
+      'plugins.importexport.crossref.settings.form.depositorNameRequired' => 'Моля, въведете име на депозиращия.',
+      'plugins.importexport.crossref.settings.form.depositorEmail' => 'Имейл на депозиращия',
+      'plugins.importexport.crossref.settings.form.depositorName' => 'Име на депозиращия',
+      'plugins.importexport.crossref.settings.depositorIntro' => 'Следните елементи са необходими за успешен Crossref депозит.',
+      'plugins.importexport.crossref.error.noDOIContentObjects' => 'Предпечатните материали не са избрани за присвояване на DOI в добавката (плъгин) за публичен идентификатор на DOI, така че няма възможност за депозиране или експортиране в този плъгин.',
+      'plugins.importexport.crossref.error.issnNotConfigured' => 'ISSN за списание не е конфигуриран! Трябва да добавите ISSN на <a href="{$journalSettingsUrl}" target="_blank">страницата с настройки на списанието</a>.',
+      'plugins.importexport.crossref.error.publisherNotConfigured' => 'Издател на списание не е конфигуриран! Трябва да добавите институция издател на <a href="{$journalSettingsUrl}" target="_blank">страницата с настройки на списанието</a>.',
+      'plugins.importexport.crossref.requirements.satisfied' => 'Всички изисквания за тази добавка (плъгин) са изпълнени.',
+      'plugins.generic.crossref.registrationAgency.name' => 'Crossref агенция',
+      'plugins.importexport.crossref.status.notDeposited' => 'Не са депозирани',
+      'plugins.importexport.crossref.settings' => 'Настройки за Crossref',
+      'plugins.generic.crossref.description' => 'Управлява депозирането и експортирането на метаданни за Crossref',
+      'plugins.generic.crossref.displayName' => 'Добавка (плъгин) за управление на Crossref',
+      'plugins.importexport.crossref.settings.form.depositorEmail.description' => 'Имейл адрес на лицето, отговорно за регистриране на съдържание в Crossref. Той е включен в депозираните метаданни и се използва при изпращане на имейл за потвърждение на депозита.',
+      'plugins.importexport.crossref.settings.form.depositorName.description' => 'Име на организацията, регистрираща DOI. Той е включен с депозирани метаданни и се използва за записване на това кой е изпратил депозита.',
+      'plugins.importexport.crossref.settings.form.username.description' => 'Потребителското име на Crossref, което ще се използва за удостоверяване на вашите депозити. Ако използвате личен акаунт, моля, вижте съвета по-горе.',
+      'plugins.generic.crossref.successMessage' => 'Метаданните за този елемент са депозирани в Crossref. За да видите повече подробности, вижте подаването в <a href="https://doi.crossref.org/servlet/submissionAdmin?sf=detail&submissionID={$submissionId}">административния панел на Crossref</a>.',
+    ),
+  ),
+);

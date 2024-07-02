@@ -1,0 +1,261 @@
+<?php $exp = 1751345594; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'emails.passwordResetConfirm.subject' => 'Potvrzení obnovení hesla',
+      'emails.passwordResetConfirm.body' => 'Obdrželi jsme žádost o resetování Vašeho hesla pro stránku {$siteTitle}.<br />
+<br />
+Pokud jste tuto žádost neodeslal, ignorujte prosím tento email a Vaše heslo nebude změněno. Pokud chcete své heslo resetovat, klikněte na URL adresu níže.<br />
+<br />
+Resetovat moje heslo: {$passwordResetUrl}<br />
+<br />
+{$siteContactName}',
+      'emails.userRegister.subject' => 'Registrace do časopisu',
+      'emails.userRegister.body' => '{$recipientName}<br />
+<br />
+Nyní jste zaregistrován jako uživatel časopisu {$contextName}. Přikládáme do emailu Vaše uživatelské jméno a heslo, které potřebujete pro veškerou práci s tímto časopisem na jeho stránkách. Kdykoliv můžete požádat o vyřazení ze seznamu uživatelů časopisu tím, že mě budete kontaktovat.<br />
+<br />
+Uživatelské jméno: {$recipientUsername}<br />
+Heslo: {$password}<br />
+<br />
+Děkujeme,<br />
+{$signature}',
+      'emails.userValidateContext.subject' => 'Ověřte svůj účet',
+      'emails.userValidateContext.body' => '{$recipientName}<br />
+<br />
+Vytvořil jste si účet pro {$contextName}, ale před tím, než ho budete moci začít používat, musí být ověřen Váš emailový účet. Pro jeho ověření jednoduše následujte odkaz uvedený níže:<br />
+<br />
+{$activateUrl}<br />
+<br />
+Děkujeme,<br />
+{$contextSignature}',
+      'emails.userValidateSite.subject' => 'Ověřte svůj účet',
+      'emails.userValidateSite.body' => '{$recipientName}<br />
+<br />
+Vytvořili jste si účet pro periodikum {$siteTitle} , ale než jej začnete používat, musíte ověřit svou emailovou adresu. To provedete jednoduše pomocí níže uvedeného odkazu:<br />
+<br />
+{$activateUrl}<br />
+<br />
+Děkujeme,<br />
+{$siteSignature}',
+      'emails.reviewerRegister.subject' => 'Zaregistrování na pozici recenzenta pro {$contextName}',
+      'emails.reviewerRegister.body' => '<p>Vážený/á{$recipientName},</p><p>Vzhledem k vašim odborným znalostem jsme vaše jméno zaregistrovali v databázi recenzentů {$contextName}. Neznamená to pro vás žádný závazek, ale pouze nám to umožňuje obrátit se na vás s žádostí o recenzi. Po pozvání k recenzi budete mít možnost vidět název a abstrakt daného příspěvku a vždy budete moci pozvání přijmout nebo odmítnout. Můžete také kdykoli požádat o vyřazení svého jména z tohoto seznamu recenzentů.</p><p>Poskytujeme vám uživatelské jméno a heslo, které se používá při všech interakcích s časopisem prostřednictvím jeho webových stránek. Můžete si například přát aktualizovat svůj profil včetně svých recenzních zájmů.</p><p>Uživatelské jméno: {$recipientUsername}<br />Heslo: {$password}</p><p>Děkujeme,</p>{$signature}',
+      'emails.issuePublishNotify.subject' => 'Právě bylo vydáno: {$issueIdentification} časopisu {$contextName}',
+      'emails.issuePublishNotify.body' => '<p>Vážený/á {$recipientName},</p><p>S potěšením oznamujeme vydání <a href="{$issueUrl}">{$issueIdentification}</a> periodika {$contextName}. Vyzýváme vás, abyste si tuto práci přečetli a podělili se o ni se svou vědeckou komunitou.</p><p>Děkujeme našim autorům, recenzentům a redaktorům za jejich cenné příspěvky a našim čtenářům za váš trvalý zájem.</p><p>Děkujeme,</p>{$signature}',
+      'emails.editorAssign.subject' => 'Byl /a jste přiřazen jako editor příspěvku pro {$contextName}',
+      'emails.editorAssign.body' => '<p>Dobrý den {$recipientName},</p><p>Následující příspěvek byl přidělen Vám, abyste ho provedl/a redakčním procesem.</p><p><a href="{$submissionUrl}">{$submissionTitle}</a><br />{$authors}</p><p><b>Abstrakt</b></p>{$submissionAbstract}<p>Pokud považujete příspěvek za relevantní pro {$contextName}, předejte prosím příspěvek do fáze recenzního řízení výběrem možnosti „Odeslat k recenznímu řízení“ a poté přidejte recenzenty kliknutím na „Přidat recenzenta“. </p><p>Pokud podle vás není příspěvek vhodný pro tento časopis, odmítněte jej, prosím.</p><p>Předem děkujeme.</p><p>S pozdravem,</p>{$contextSignature}',
+      'emails.editorAssignReview.body' => '<p>Vážený/á{$recipientName},</p><p>Následující příspěvek vám byl přidělen k recenznímu řízení.</p><p><a href="{$submissionUrl}">{$submissionTitle}</a><br />{$authors}</p><p><b>Abstrakt</b></p>{$submissionAbstract}<p>Přihlaste se, prosím, k <a href="{$submissionUrl}">zobrazení příspěvku</a> a přiřaďte mu kvalifikované recenzenty. Recenzenty můžete přiřadit kliknutím na "Přiřadit recenzenta".</p><p>Děkuji předem.</p><p>S pozdravem,</p>{$signature}',
+      'emails.editorAssignProduction.body' => '<p>Vážený/á {$recipientName},</p><p>Následující příspěvek vám byl přidělen, abyste jej provedl produkční fází.</p><p><a href="{$submissionUrl}">{$submissionTitle}</a><br />{$authors}</p><p><b>Abstrakt</b></p>{$submissionAbstract}<p>Přihlaste se, prosím, k <a href="{$submissionUrl}">zobrazení příspěvku</a>. Jakmile jsou k dispozici soubory připravené k produkci, nahrajte je do sekce <strong>Publikace > Sazebnice</strong>. Poté naplánujte práci ke zveřejnění kliknutím na tlačítko <strong>Naplánovat ke zveřejnění</strong>.</p><p>Děkuji předem.</p><p>S pozdravem,</p>{$signature}',
+      'emails.reviewRequest.subject' => 'Pozvánka k recenzi',
+      'emails.reviewRequest.body' => '<p>Vážený/á {$recipientName},</p><p>Domnívám se, že byste byl/a vynikajícím recenzentem pro periodikum {$contextName}. Název a anotace příspěvku jsou uvedeny níže a doufám, že zvážíte, zda se tohoto důležitého úkolu pro nás ujmete.</p><p>Pokud jste schopni receznovat tento příspěvek, vaše recenze vy měla být dokončena do {$reviewDueDate}. Příspěvek, nahrání recenzních souborů a odeslání recenze si můžete prohlédnout po přihlášení v redakčním systému našeho periodika a podle pokynů na níže uvedeném odkazu.</p><p><a href="{$reviewAssignmentUrl}">{$submissionTitle}</a></p><p><b>Abstrakt</b></p>{$submissionAbstract}<p>O tom, zda recenzi  <a href="{$reviewAssignmentUrl}">přijmete či odmítnete</a>, se rozhodněte, prosím, do<b> {$responseDueDate}</b></p><p>Můžete se na nás obrátit s jakýmikoliv dotazy ohledně příspěvku nebo recenzního řízení.</p><p>Děkujeme vám za zvážení této žádosti. Vaší pomoci si velmi vážíme.</p><p>S pozdravem,</p>{$signature}',
+      'emails.reviewResponseOverdueAuto.subject' => 'Bude schopen/a udělat pro nás recenzi tohoto příspěvku?',
+      'emails.reviewResponseOverdueAuto.body' => '<p>Vážený/á {$recipientName},</p><p>Tento mail dostáváte jako automatické připomenutí z redakce periodika {$contextName} ve věci naší prosby o recenzi příspěvku "{$submissionTitle}."</p><p>Tento e-mail dostáváte, protože jsme od vás dosud neobdrželi potvrzení, zda jste schopni provést recenzi tohoto příspěvku.</p><p>Dejte nám, prosím, vědět, zda jste schopni tuto recenzi provést, nebo ne, a to pomocí našeho redakčního systému, ve kterém můžete tuto žádost přijmout, nebo odmítnout.</p><p>Pokud jste schopni provést recenzi příspěvku, vaše recenze by měla být hotova do {$reviewDueDate}. Pro zobrazení předloženého dokumentu, nahrání souborů pro recenzi a odeslání připomínek k recenzi můžete postupovat podle pokynů pro recenzi.</p><p><a href="{$reviewAssignmentUrl}">{$submissionTitle}</a></p><p><b>Abstrakt</b></p>{$submissionAbstract}<p>V případě jakýchkoli dotazů ,týkajících se příspěvku nebo procesu hodnocení se na nás, prosím, obraťte.</p><p>Děkuji za zvážení této žádosti. Vaší pomoci si velmi vážíme.</p><p>S pozdravem,</p>{$contextSignature}',
+      'emails.reviewRequestSubsequent.subject' => 'Požadavek na recenzi upravené verze příspěvku',
+      'emails.reviewRequestSubsequent.body' => 'Vážený/vážená {$recipientName},,</p><p>Děkujeme vám za vaši recenzi článku <a href="{$reviewAssignmentUrl}">{$submissionTitle}</a>. Autoři zvážili připomínky recenzentů a nyní předložili revidovanou verzi své práce. Obracím se na vás s prosbou, zda byste provedl/a druhé kolo recenzního řízení této předložené práce.</p><p> Pokud jste schopni tento příspěvek recenzovat, vaši recenzi je třeba provést do {$reviewDueDate}. Můžete <a href="{$reviewAssignmentUrl}">postupovat podle kroků recenze</a> a zobrazit příspěvek, nahrát soubory recenze a odeslat své komentáře k recenzi.<p><p><a href="{$reviewAssignmentUrl}">{$submissionTitle}</a></p><p>Abstrakt</p>{$submissionAbstract}<p>. Prosím, přijměte nebo odmítněte recenzi do {$responseDueDate}.</p><p>Prosím, neváhejte se na mě obrátit s jakýmikoliv dotazy ohledně příspěvku nebo recenzního řízení.</p><p>Děkuji za zvážení naší žádosti. Vaší pomoci si velmi vážíme.</p><p>S pozdravem,</p>{$signature}',
+      'emails.reviewCancel.subject' => 'Žádost o zrušení recenze',
+      'emails.reviewCancel.body' => '<p>Vážený/á {$recipientName},</p><p>Nedávno jsme vás požádali o recenzi příspěvku do periodika {$contextName}. Rozhodli jsme se zrušit žádost, abyste příspěvek znovu recenzovali, {$submissionTitle}.</p><p>Omlouváme se za nepříjemnosti, které vám to může způsobit, a doufáme, že se na vás budeme moci v budoucnu obrátit s žádostí o pomoc při recenzním řízení tohoto časopisu.</p><p>V případě jakýchkoli dotazů mě prosím kontaktujte.</p>{$signature}',
+      'emails.reviewReinstate.subject' => 'Můžete, prosím, stále ještě udělat recenzi pro časopis {$contextName}?',
+      'emails.reviewReinstate.body' => '<p>Vážený/a {$recipientName},</p><p>Nedávno jsme zrušili naši žádost o recenzi příspěvku, {$submissionTitle}, pro {$contextName}. Toto rozhodnutí jsme změnili a doufáme, že jste stále schopni provést recenzi.</p><p>Pokud jste schopni pomoci s recenzí tohoto příspěvku, můžete. <a href="{$reviewAssignmentUrl}">se přihlásit do časopisu</a> abyste si zobrazili příspěvek, nahráli soubory recenze a odeslali výsledek recenze.</p><p>V případě jakýchkoli dotazů mě prosím kontaktujte.</p><p>S pozdravem,</p>{$signature}',
+      'emails.reviewDecline.subject' => 'Nemohu zpracovat recenzi',
+      'emails.reviewDecline.body' => 'Editoři:<br />
+<br />
+Obávám se, že tentokrát nejsem schopen zpracovat recenzi příspěvku &quot;{$submissionTitle}&quot; pro {$contextName}. Děkuji, že jste mě oslovili a neváhejte mě jindy opět kontaktovat.<br />
+<br />
+{$senderName}',
+      'emails.reviewRemind.subject' => 'Prosíme o dokončení recenze',
+      'emails.reviewRemind.body' => '<p>Vážený/á {$jméno příjemce},</p><p>Dovolujeme si jemně připomenout naši žádost o recenzi příspěvku "{$submissionTitle}" pro periodikum {$contextName}. Očekávali jsme, že recenzi obdržíme do {$reviewDueDate}, a budeme rádi, když jej obdržíme, jakmile budete schopni ji připravit.</p><p>Můžete se <a href="{$reviewAssignmentUrl}">přihlásit do časopisu</a> a postupovat podle pokynů pro prohlížení posudku, nahrávání souborů s posudkem a zaslání recenzních připomínek.</p><p>Pokud potřebujete prodloužit lhůtu, kontaktujte nás, prosím. Těším se na vaši odpověď.</p><p>Předem vám děkujeme a jsme s pozdravem,</p>{$signature}',
+      'emails.reviewRemindAuto.subject' => 'Připomínáme, abyste dokončili svou recenzi',
+      'emails.reviewRemindAuto.body' => '<p>Vážený/á {$recipientName}:</p><p>Tento email je automatickým připomenutím periodika {$contextName} ve věci naší prosby o recenzi příspěvku "{$submissionTitle}."</p><p>Očekávali jsme, že dostaneme recenzi do {$reviewDueDate} a byli bychom rádi, kdybychom ji od vás dostali co nejdříve.</p><p>Přihlaste se, prosím, do <a href="{$reviewAssignmentUrl}">redakčního systému </a>našeho periodika a postupujte podle pokynů pro prohlížení příspěvků, nahrávání recenzních souborů a zasílání recenzních komentářů.</p><p>Pokud potřebujete prodloužit lhůtu, kontaktujte nás, prosím. Těšíme se na vaši odpověď.</p><p>Předem vám děkujeme a jsme s pozdravem,</p>{$contextSignature}',
+      'emails.editorDecisionAccept.subject' => 'Váš příspěvek do periodika {$contextName} byl přijat',
+      'emails.editorDecisionAccept.body' => '<p>Vážený/á {$recipientName},</p><p>S potěšením vám oznamuji, že jsme se rozhodli přijmout váš příspěvek bez dalšího přepracování. Po pečlivém přezkoumání jsme shledali, že váš příspěvek {$submissionTitle} vyhověl naším očekáváním, nebo je dokonce překročil. Jsme potěšení, že můžeme publikovat váš příspěvek do periodika {$contextName} a děkujeme vám, že jste si vybrali naše periodikum k zveřejnění vašeho příspěvku.</p><p>Váš příspěvek bude zveřejněn v nejbližším čísle našeho periodika {$contextName} a uvítáme, když ho zahrnete do vašeho publikačního seznamu. Jsme si vědomi tvrdé práce, která stojí za každým úspěšným příspěvkem, a chceme vám poblahopřát k dosažení této fáze.</p><p>Váš příspěvek nyní projde redakčními úpravami a formátováním, abychom jej připravili k publikaci.</p><p>V nejbližší době obdržíte další pokyny.</p><p>Pokud budete mít jakékoli dotazy, kontaktujte nás prosím pomocí redakčního systému <a href="{$submissionUrl}">našeho periodika</a>.</p><p>S pozdravem,</p>{$signature}',
+      'emails.editorDecisionSkipReview.subject' => 'Váš příspěvek byl odeslán do copyeditovací fáze',
+      'emails.editorDecisionSkipReview.body' => '<p>Vážený/vážená {$recipientName},</p>
+<p>S potěšením Vám oznamujeme, že jsme se rozhodli přijmout váš příspěvek bez recenzního řízení. Shledali jsme, že vaše práce, {$submissionTitle}, splňuje naše očekávání, a nevyžadujeme, aby práce tohoto typu prošla recenzním řízením. Jsme rádi, že můžeme vaši práci publikovat v našem periodiku {$kontextNázev}, a děkujeme vám, že jste si jako místo pro svou práci vybrali náš časopis.</p>
+Váš příspěvek nyní vyjde v některém z příštích čísel našeho časopisu {$contextName} a můžete jej zařadit do seznamu svých publikací. Uvědomujeme si tvrdou práci, která stojí za každým úspěšným příspěvkem, a chceme vám k vašemu úsilí poblahopřát.</p>
+<p>Váš příspěvek nyní projde redakčními úpravami a formátováním, aby byl připraven ke zveřejnění. </p>
+<p>Brzy dostanete další pokyny.</p>
+<p>Pokud máte jakékoli dotazy, kontaktujte mě prosím z <a href="{$authorSubmissionUrl}">ovládacího panelu příspěvku</a>.</p>
+<p>S pozdravem,</p>
+<p>{$signature}</p>
+',
+      'emails.layoutRequest.subject' => 'Příspěvek {$submissionId} je připraven do produkční fáze v periodiku {$contextAcronym}',
+      'emails.layoutRequest.body' => '<p>Vážený/á{$recipientName},</p><p>Nový příspěvek  je připraven k editaci sazebnice:</p><p><a href="{$submissionUrl}">{$submissionId} {$submissionTitle}</a><br />{$contextName}</p><ol><li>1. Klikněte na adresu příspěvku výše.</li><li>2. Stáhněte si soubory pro produkční fázi a použijte je k vytvoření sazebnic dle standardů našeho periodika.</li><li>3. Nahrajte sazebnice do sekce Publikace pro tento příspěvek.</li><li>4. Použijte diskusi v rámci produkční fáze, abyste upozornili editora, že jsou sazebnice hotové.</li></ol><p>Pokud nejste schopný/á převzít tento úkol, nebo pokud máte jakékoliv dotazy, kontaktujte mne, prosím. Děkujeme za spolupráci v rámci našeho periodika.</p><p>S pozdravem,</p>{$signature}',
+      'emails.layoutComplete.subject' => 'Sazebnice dokončeny',
+      'emails.layoutComplete.body' => '<p>Vážený/á {$recipientName},</p><p>Nyní jsou připraveny sazebnice pro následující předložení a jsou připraveny k závěrečnému posouzení.</p><p><a href="{$submissionUrl}">{$submissionTitle}</a><br />{$contextName}</p><p>V případě jakýchkoli dotazů mě prosím kontaktujte.</p><p>S pozdravem,</p><p>{$signature}</p>',
+      'emails.emailLink.subject' => 'Zajímavý článek',
+      'emails.emailLink.body' => 'Myslím, že by Vás mohl zajímat článek &quot;{$submissionTitle}&quot; autora {$authors} vydaný ve Vol {$volume}, No {$number} ({$year}) časopisu {$contextName} na adrese &quot;{$submissionUrl}&quot;.',
+      'emails.emailLink.description' => 'Tato emailová šablona umožňuje registrovanému čtenáři poslat informaci o článku někomu, koho by mohl zajímat. Je dostupná přes Nástroje pro čtení a musí být povolena manažerem časopisu na stránce Správa nástrojů pro čtení.',
+      'emails.subscriptionNotify.subject' => 'Oznámení o předplatném',
+      'emails.subscriptionNotify.body' => '{$recipientName}:<br />
+<br />
+Nyní jste byl zaregistrován jako předplatitel v našem online systému pro správu časopisu {$contextName} s následujícím předplatným:<br />
+<br />
+{$subscriptionType}<br />
+<br />
+Pro přístup k obsahu, který je dostupný pouze předplatitelům, se jednoduše přihlašte Vaším uživatelským jménem &quot;{$recipientUsername}&quot;.<br />
+<br />
+Jakmile se přihlásíte do systému, můžete kdykoliv upravit detaily svého profilu a heslo.<br />
+<br />
+Vězte prosím, že pokud máte institucionální předplatné, nemusí se uživatelé z vaší instituce přihlašovat, neboť jejich přístup k předplacenému obsahu bude automaticky ověřen systémem.<br />
+<br />
+Pokud máte nějaké dotazy, neváhejte mě kontaktovat<br />
+<br />
+{$subscriptionSignature}',
+      'emails.openAccessNotify.subject' => 'Zdarma ke čtení: {$issueIdentification} časopisu {$contextName} je nyní v režimu open access',
+      'emails.openAccessNotify.body' => '<p>Vážený/á {$jméno příjemce},</p><p>S potěšením vám oznamujeme, že <a href="{$issueUrl}">{$issueIdentification}</a> periodika {$contextName} je nyní k dispozici v rámci otevřeného přístupu.  Pro čtení tohoto čísla již není nutné předplatné.</p><p>Děkujeme Vám za Váš trvalý zájem o naši práci.</p>{{$contextSignature}}',
+      'emails.subscriptionBeforeExpiry.subject' => 'Oznámení o vypršení předplatného',
+      'emails.subscriptionBeforeExpiry.body' => '{$recipientName}:<br />
+<br />
+Vaše předplatné pro {$contextName} brzy vyprší.<br />
+<br />
+{$subscriptionType}<br />
+Datum vypršení: {$expiryDate}<br />
+<br />
+Pro zajištění kontinuity přístupu k tomuto časopisu přejděte prosím na stránky časopisu a obnovte Vaše předplatné. Můžete se do systému přihlásit Vaším uživatelským jménem &quot;{$recipientUsername}&quot;.<br />
+<br />
+Pokud máte nějaké otázky, neváhejte mě prosím kontaktovat.<br />
+<br />
+{$subscriptionSignature}',
+      'emails.subscriptionAfterExpiry.subject' => 'Vypršelo předplatné',
+      'emails.subscriptionAfterExpiry.body' => '{$recipientName}:<br />
+<br />
+Vaše předplatné pro {$contextName} vypršelo.<br />
+<br />
+{$subscriptionType}<br />
+Datum vypršení: {$expiryDate}<br />
+<br />
+Pro obnovení předplatného přejděte prosím na stránky časopisu. Do systému se můžete přihlásit Vaším uživatelským jménem &quot;{$recipientUsername}&quot;.<br />
+<br />
+Pokud máte nějaké otázky, neváhejte mě prosím kontaktovat.<br />
+<br />
+{$subscriptionSignature}',
+      'emails.subscriptionAfterExpiryLast.subject' => 'Předplatné vypršelo – poslední připomínka',
+      'emails.subscriptionAfterExpiryLast.body' => '{$recipientName}:<br />
+<br />
+Vaše předplatné pro {$contextName} vypršelo.<br />
+Vězte prosím, že toto je poslední připomínka, která Vám bude poslána.<br />
+<br />
+{$subscriptionType}<br />
+Datum vypršení: {$expiryDate}<br />
+<br />
+Pro obnovení předplatného přejděte prosím na stránky časopisu. Do systému se můžete přihlásit Vaším uživatelským jménem &quot;{$recipientUsername}&quot;.<br />
+<br />
+Pokud máte nějaké otázky, neváhejte mě prosím kontaktovat.<br />
+<br />
+{$subscriptionSignature}',
+      'emails.subscriptionPurchaseIndl.subject' => 'Zakoupení předplatného: Individuální',
+      'emails.subscriptionPurchaseIndl.body' => 'Bylo online zakoupeno individuální předplatné pro {$contextName} s následujícími detaily.<br />
+<br />
+Typ předplatného:<br />
+{$subscriptionType}<br />
+<br />
+Uživatel:<br />
+{$subscriberDetails}<br />
+<br />
+Informace o členství (pokud byla uvedena):<br />
+{$membership}<br />
+<br />
+Pro zobrazení nebo editaci tohoto předplatného použijte prosím následující URL odkaz.<br />
+<br />
+URL předplatného: {$subscriptionUrl}<br/>
+',
+      'emails.subscriptionPurchaseInstl.subject' => 'Zakoupení předplatného: Institucionální',
+      'emails.subscriptionPurchaseInstl.body' => 'Bylo online zakoupeno institucionální předplatné pro {$contextName} s následujícími detaily. Pro aktivaci tohoto předplatného použijte prosím uvedený URL odkaz a nastavte stav předplatného na \'Aktivní\'..<br />
+<br />
+Typ předplatného:<br />
+{$subscriptionType}<br />
+<br />
+Instituce:<br />
+{$institutionName}<br />
+{$institutionMailingAddress}<br />
+<br />
+Doména (pokud byla uvedena):<br />
+{$domain}<br />
+<br />
+IP rozsah (pokud byl uveden):<br />
+{$ipRanges}<br />
+<br />
+Kontaktní osoba:<br />
+{$subscriberDetails}<br />
+<br />
+Informace o členství (pokud byly uvedeny):<br />
+{$membership}<br />
+<br />
+Pro zobrazení nebo editaci tohoto předplatného použijte prosím následující URL.<br />
+<br />
+URL předplatného: {$subscriptionUrl}<br />
+',
+      'emails.subscriptionRenewIndl.subject' => 'Obnovení předplatného: Individuální',
+      'emails.subscriptionRenewIndl.body' => 'Bylo online obnoveno individuální předplatné pro {$contextName} s následujícími detaily.<br />
+<br />
+Typ předplatného:<br />
+{$subscriptionType}<br />
+<br />
+Uživatel:<br />
+{$subscriberDetails}<br />
+<br />
+Informace o členství (pokud byly uvedeny):<br />
+{$membership}<br />
+<br />
+Pro zobrazení nebo editaci tohoto předplatného použijte prosím následující URL.<br />
+<br />
+URL předplatného: {$subscriptionUrl}<br />
+',
+      'emails.subscriptionRenewInstl.subject' => 'Obnovení předplatného: Institucionální',
+      'emails.subscriptionRenewInstl.body' => 'Bylo online obnoveno institucionální předplatné pro {$contextName} s následujícími detaily.<br />
+<br />
+Typ předplatného:<br />
+{$subscriptionType}<br />
+<br />
+Instituce:<br />
+{$institutionName}<br />
+{$institutionMailingAddress}<br />
+<br />
+Doména (pokud byla uvedena):<br />
+{$domain}<br />
+<br />
+Rozsah IP adres (pokud byl uveden):<br />
+{$ipRanges}<br />
+<br />
+Kontaktní osoba:<br />
+{$subscriberDetails}<br />
+<br />
+Informace o členství (pokud byla uvedena):<br />
+{$membership}<br />
+<br />
+Pro zobrazení nebo editaci tohoto předplatného použijte prosím následující URL.<br />
+<br />
+URL předplatného: {$subscriptionUrl}<br />
+',
+      'emails.revisedVersionNotify.subject' => 'Byla nahrána upravená verze',
+      'emails.revisedVersionNotify.body' => '<p>Vážený/vážená {$recipientName},</p><p>Autor nahrál novou verzi příspěvku, <b>{$authorsShort} — {$submissionTitle}</b>. <p>Jako přiděleného redaktora vás žádáme, abyste se přihlásili a <a href="{$submissionUrl}">zobrazil si novu verzi příspěvku</a> a rozhodnul o přijetí, odmítnutí nebo odeslání příspěvku k dalšímu posouzení.</p><br><br>—<br>Toto je automatická zpráva od <a href="{$contextUrl}">{$contextName}</a>.',
+      'emails.statisticsReportNotification.subject' => 'Aktivita redakce pro {$month}, {$year}',
+      'emails.statisticsReportNotification.body' => '
+{$recipientName}, <br />
+<br />
+Vaše zpráva o stavu časopisu za {$month}, {$year} je nyní k dispozici. Vaše klíčové statistiky pro tento měsíc jsou níže. <br />
+<ul>
+ <li>Nová podání tento měsíc: {$newSubmissions}</li>
+ <li>Odmítnuté příspěvky tento měsíc: {$declinedSubmissions}</li>
+ <li>Přijaté příspěvky tento měsíc: {$acceptedSubmissions}</li>
+ <li>Celkový počet příspěvků v systému: {$totalSubmissions}</li>
+</ul>
+Chcete-li zobrazit podrobnější <a href="{$editorialStatsLink}">statistiky redakce</a> a <a href="{$publicationStatsLink}">statistiky publikovaných článků</a>, přihlaste se do časopisu. Úplná kopie statistiky redakce tohoto měsíce je připojena. <br />
+<br />
+S pozdravem <br />
+{$contextSignature}',
+      'emails.announcement.subject' => '{$announcementTitle}',
+      'emails.announcement.body' => '<b>{$announcementTitle}</b><br />
+<br />
+{$announcementSummary}<br />
+<br />
+Navštivte naši webovou stránku, pokud si chcete přečíst <a href="{$announcementUrl}">plný text</a>.',
+      'emails.paymentRequestNotification.subject' => 'Oznámení o požadavku na platbu',
+      'emails.paymentRequestNotification.body' => '<p>Vážený/á {$recipientName},</p><p>Gratulujeme vám k přijetí vašeho příspěvku, {$submissionTitle}, do {$contextName}. Nyní, když byl váš příspěvek přijat, bychom vás rádi požádali o zaplacení publikačního poplatku.</p><p>Tento poplatek pokrývá produkční náklady na zveřejnění vašeho příspěvku. Platbu provedete na adrese <a href="{$queuedPaymentUrl}">{$queuedPaymentUrl}.</a></p><p>Pokud máte nějaké otázky, podívejte se prosím na naše <a href="{$submissionGuidelinesUrl}">Pokyny pro předkládání</a></p>',
+      'emails.paymentRequestNotification.footer' => '<br><br>—<br>Toto je automatická zpráva z <a href="{$contextUrl}">{$contextName}</a>.',
+    ),
+  ),
+);

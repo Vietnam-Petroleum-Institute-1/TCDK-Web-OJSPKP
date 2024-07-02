@@ -1,0 +1,32 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n > 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'comments.anonymous' => 'Անանուն օգտագործող',
+      'comments.anonymousNamed' => '"{$userName}"․',
+      'comments.body' => 'Մարմին',
+      'comments.titleRequired' => 'Մեկնաբանության վերնագիրը պարտադիր է։',
+      'comments.confirmDeleteChildren' => 'Եթե ջնջեք այս մեկնաբանությունը, ապա կջնջեք նաև դրա բոլոր արձագանքները: Դուք վստա՞հ եք, որ ցանկանում եք ջնջել?',
+      'comments.delete' => 'Ջնջել այս մեկնաբանությունը',
+      'comments.email' => 'Հրապարակողի էլ. հասցեն',
+      'comments.emailReply' => 'էլ. փոստով պատասխան',
+      'comments.enterComment' => 'Մուտքագրել մեկնաբանությունը',
+      'comments.inResponseTo' => '<a href="{$url}">{$title}</a>ին ի պատասխան',
+      'comments.name' => 'Հրապարակողի անուն',
+      'comments.noComments' => 'Որևէ կարդացողի մեկնաբանություն չի հրապարակվել։',
+      'comments.nReplies' => '({$num} պատասխաններ)',
+      'comments.oneReply' => '(1 պատասխան)',
+      'comments.postAnonymously' => 'Հրապարակել անանուն մեկնաբանություն',
+      'comments.postReply' => 'Հրապարակման պատասխան',
+      'comments.readerComments' => 'Կարդացողի մեկնաբանություն',
+      'comments.readMore' => 'Կարդալ ավելին',
+      'comments.replies' => 'Պատասխաններ',
+      'comments.title' => 'Վերնագիր',
+      'comments.viewAllComments' => 'Տեսնել բոլոր մեկնաբանությունները',
+      'reader.fullText' => 'Ամբողջական տեքստ:',
+    ),
+  ),
+);

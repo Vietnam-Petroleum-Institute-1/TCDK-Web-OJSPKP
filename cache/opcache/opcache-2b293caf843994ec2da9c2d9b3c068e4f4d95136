@@ -1,0 +1,48 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.importexport.crossref.displayName' => 'Crossref XML dodatak za izvoz',
+      'plugins.importexport.crossref.description' => 'Izvezi metapodatke članaka u Crossref XML format.',
+      'plugins.importexport.crossref.cliUsage' => 'Korišćenje: 
+{$scriptName} {$pluginName} [xmlFileName] [journal_path] članci [articleId1] [articleId2] ...
+{$scriptName} {$pluginName} [xmlFileName] [journal_path] broj [issueId]',
+      'plugins.importexport.crossref.requirements' => 'Zahtevi',
+      'plugins.importexport.crossref.requirements.satisfied' => 'Svi zahtevi za rad dodatka su ispunjeni',
+      'plugins.importexport.crossref.error.publisherNotConfigured' => 'Iuzdavač časopisa nije podešen! Morate dodati izdavačku instituciju na <a href="{$journalSettingsUrl}" target="_blank">stranici podešavanja časopisa</a>.',
+      'plugins.importexport.crossref.error.issnNotConfigured' => 'ISSN nije podešen, morate ga dodati na <a href="{$journalSettingsUrl}" target="_blank">stranici podešavanja časopisa</a>.',
+      'plugins.importexport.crossref.error.noDOIContentObjects' => 'Članci nisu obeleženi za dodavanje DOI javnog identifikatora pa stoga nema materijala za deponovanje ili izvoz.',
+      'plugins.importexport.crossref.settings.depositorIntro' => 'Sledeći elementi su neophodni za supešno deponovanje kod Crossref-a.',
+      'plugins.importexport.crossref.settings.form.depositorName' => 'Ime deponenta',
+      'plugins.importexport.crossref.settings.form.depositorEmail' => 'Imejl deponenta',
+      'plugins.importexport.crossref.settings.form.depositorNameRequired' => 'Unesite ime deponenta.',
+      'plugins.importexport.crossref.settings.form.depositorEmailRequired' => 'Unesite imejl adresu deponenta.',
+      'plugins.importexport.crossref.settings.form.username' => 'Korisničko ime',
+      'plugins.importexport.crossref.settings.form.usernameRequired' => 'Unesite korisničko ime koje je registrovano kod Crossref-a.',
+      'plugins.importexport.crossref.settings.form.automaticRegistration.description' => 'OJS će automatski deponovati DOI-je kod Crossref-a. Imajte na umu da će ovo potrajati neko vreme nakon procesa objavljivanja. U svakom momentu možete proveriti neregistrovane DOI-je.',
+      'plugins.importexport.crossref.settings.form.testMode.description' => 'Koristite Crossref test API (okruženje za testiranje) za deponovanje DOI-ja. Ne zaboravite da isključite ovu opciju u proizvodnom okruženju.',
+      'plugins.importexport.crossref.issues.description' => 'Napomena: samo brojevi (ne i članci) će ući u opciju za izvoz/deponovanje.',
+      'plugins.importexport.crossref.status.failed' => 'Neuspešno',
+      'plugins.importexport.crossref.status.registered' => 'Aktivno',
+      'plugins.importexport.crossref.status.markedRegistered' => 'Obeleži kao aktivno',
+      'plugins.importexport.crossref.action.export' => 'Preuzmi XML',
+      'plugins.importexport.crossref.action.markRegistered' => 'Obeleži aktivno',
+      'plugins.importexport.crossref.senderTask.name' => 'Crossref zadatak automatske registracije',
+      'plugins.importexport.crossref.cliError' => 'GREŠKA:',
+      'plugins.importexport.crossref.export.error.issueNotFound' => 'Ni jedna jedinica se ne poklapa sa specifikovanim ID-jem jedinice "{$issueId}".',
+      'plugins.importexport.crossref.export.error.articleNotFound' => 'Ni jedan članak se ne poklapa sa specifikovanim ID-jem članka "{$articleId}".',
+      'plugins.importexport.crossref.statusLegend' => '<p>Statusi deponovanja:</p>
+		<p>
+		- Nije deponovano: nema pokušaja deponovanja za ovaj .<br />
+		- Aktivan: DOI je deponovan i uspešno se iščitava.<br />
+		- Neuspešno: Deponovanje DOI-ja nije uspelo.<br />
+		- Označi kao aktivno: DOI je ručno označen kao aktivan.
+		</p>
+		<p>Samo je status poslednjeg deponovanja prikazan.</p>
+		<p>Ukoliko deponovanje ne uspe, rešite problem i pokušajte ponovno deponovanje DOI-ja.</p>',
+    ),
+  ),
+);

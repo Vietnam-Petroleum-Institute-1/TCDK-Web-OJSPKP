@@ -1,0 +1,17 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.acron.name' => 'Acron vtičnik',
+      'plugins.generic.acron.description' => 'Vtičnik poskuša zmanjšati odvisnost aplikacije od sistemskih razporejevalnikov opravil kot je npr. \'cron.\'',
+      'plugins.generic.acron.enabled' => 'Acron vtičnik je bil omogočen.',
+      'plugins.generic.acron.disabled' => 'Acron vtičnik je bil onemogočen.',
+      'plugins.generic.acron.reloadedCronTab' => 'Tabela "Cron" je bila uspešno ponovno naložena.',
+      'plugins.generic.acron.reload' => 'Ponovno naloži razporejena opravila',
+      'plugins.generic.acron.tasksReloaded' => 'Razporejena opravila so bila ponovno naložena.',
+    ),
+  ),
+);

@@ -1,0 +1,30 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.staticPages.displayName' => 'Plugin för statiska sidor',
+      'plugins.generic.staticPages.description' => 'Detta plugin gör det möjligt att administrera innehållet på statiska sidor.',
+      'plugins.generic.staticPages.staticPages' => 'Statiska sidor',
+      'plugins.generic.staticPages.pageTitle' => 'Titel',
+      'plugins.generic.staticPages.content' => 'Innehåll',
+      'plugins.generic.staticPages.path' => 'Sökväg',
+      'plugins.generic.staticPages.requirement.tinymce' => '<p><strong>TinyMCE pluginet måste vara installerat för att det ska vara möjligt att lägga till/redigera innehåll.</strong></p>',
+      'plugins.generic.staticPages.editAddContent' => 'Redigera/lägg till innehåll',
+      'plugins.generic.staticPages.addStaticPage' => 'Lägg till en statisk sida',
+      'plugins.generic.staticPages.addNewPage' => 'Lägg till en ny sida',
+      'plugins.generic.staticPages.editStaticPage' => 'Redigera en statisk sida',
+      'plugins.generic.staticPages.noneCreated' => 'Inga statiska sidor har skapats.',
+      'plugins.generic.staticPages.settingInstructions' => 'Formuläret nedan visar alla statiska sidor du har skapat. Du kan redigera eller ta bort sidor genom att använda länken på höger sida.',
+      'plugins.generic.staticPages.editInstructions' => 'Använd formuläret nedan för att lägga till/redigera innehåll.',
+      'plugins.generic.staticPages.pathRegEx' => 'Fältet för sökvägen får bara innehålla alfanumerisk tecken plus \'.\', \'/\', \'-\', och \'_\'.',
+      'plugins.generic.staticPages.viewInstructions' => '<p>Sidan är tillgänglig via: <blockquote>{$pagesPath}</blockquote>.där %PATH% är sökvägen som har angetts ovan. <strong>Observera:</strong> Två sidor kan inte ha samma sökväg. Om systemets inbyggda sökvägar används kan det orsaka att du förlorar till gång till viktiga funktioner.</p>',
+      'plugins.generic.staticPages.duplicatePath' => 'Sökvägen finns redan för en annan statisk sida.',
+      'plugins.generic.staticPages.pageSaved' => 'Sidan sparades.',
+      'plugins.generic.staticPages.pageDeleted' => 'Sidan har tagits bort.',
+      'plugins.generic.staticPages.noneExist' => 'Inga sidor har skapats',
+    ),
+  ),
+);

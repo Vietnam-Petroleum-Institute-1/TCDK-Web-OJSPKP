@@ -1,0 +1,48 @@
+<?php $exp = 1751345595; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'emails.orcidCollectAuthorId.subject' => 'ORCID de envío',
+      'emails.orcidCollectAuthorId.body' => 'Estimado/a {$recipientName},
+<br/>
+Se le ha añadido como coautor/a de un artículo para {$contextName}. <br/>
+Para confirmar su autoría, añada su identificador ORCID a este envío mediante el siguiente enlace.<br/>
+<br/>
+<a href="{$authorOrcidUrl}"><img id="orcid-id-logo" src="https://info.orcid.org/wp-content/uploads/2020/12/ORCIDiD_icon16x16.png" width=\'16\' height=\'16\' alt="ORCID iD icon" style="display: block; margin: 0 .5em 0 0; padding: 0; float: left;"/>Registrar o conectar su identificador ORCID</a><br/>
+<br/>
+<br>
+<a href="{$orcidAboutUrl}">Puede encontrar más información sobre ORCID en {$contextName}</a><br/>
+<br/>
+Si tiene cualquier pregunta no dude en contactarme.<br/>
+<br/>
+{$principalContactSignature}<br/>
+',
+      'emails.orcidCollectAuthorId.description' => 'Esta plantilla de correo electrónico se utiliza para recopilar los identificadores ORCID de los autores/as.',
+      'emails.orcidRequestAuthorAuthorization.description' => 'Esta plantilla de correo electrónico se utiliza para solicitar acceso de registro ORCID a los autores/as.',
+      'emails.orcidRequestAuthorAuthorization.subject' => 'Solicitando acceso de registro ORCID',
+      'emails.orcidRequestAuthorAuthorization.body' => 'Estimado/a {$recipientName},<br>
+<br>
+Usted ha sido incluido como autor en la presentación del manuscrito "{$submissionTitle}" a {$contextName}.
+<br>
+<br>
+Permítanos agregar su identificación ORCID a este envío y también agregar el mismo a su perfil ORCID en la publicación.<br>
+Visite el enlace al sitio web oficial de ORCID, inicie sesión con su perfil y autorice el acceso siguiendo las instrucciones.<br>
+<a href="{$authorOrcidUrl}"><img id="orcid-id-logo" src="https://info.orcid.org/wp-content/uploads/2020/12/ORCIDiD_icon16x16.png" width=\'16\' height=\'16\' alt="ORCID iD icon" style="display: block; margin: 0 .5em 0 0; padding: 0; float: left;"/>Registre o conecte su ORCID iD</a><br/>
+<br>
+<br>
+<a href="{$orcidAboutUrl}">Más acerca de ORCID en{$contextName}</a><br/>
+<br>
+Si tiene alguna pregunta, por favor póngase en contacto conmigo.<br>
+<br>
+{$principalContactSignature}<br>
+',
+      'emailTemplate.variable.orcidAboutUrl' => 'URL de la página sobre ORCID',
+      'plugins.generic.orcidProfile.orcidRequestAuthorAuthorization.name' => 'orcidRequestAuthorAuthorization',
+      'plugins.generic.orcidProfile.orcidCollectAuthorId.name' => 'orcidCollectAuthorId',
+      'emailTemplate.variable.authorOrcidUrl' => 'Enlace de autorización de ORCID OAuth',
+    ),
+  ),
+);

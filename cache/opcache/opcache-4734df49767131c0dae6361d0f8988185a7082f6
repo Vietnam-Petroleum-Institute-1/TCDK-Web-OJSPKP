@@ -1,0 +1,55 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.importexport.crossref.export.error.articleNotFound' => 'Žiadny článok nezodpovedá tomuto ID článku "{$articleId}".',
+      'plugins.importexport.crossref.export.error.issueNotFound' => 'Žiadne číslo nezodpovedá tomuto ID číslu: "{$issueId}".',
+      'plugins.importexport.crossref.register.success.warning' => 'Registrácia bola úspešná, ale došlo k nasledujúcemu upozorneniu: \'{$param}\'.',
+      'plugins.importexport.crossref.register.error.mdsError' => 'Registrácia nebola úplne úspešná! Registračný server DOI vrátil chybu.',
+      'plugins.importexport.crossref.cliUsage' => 'Použitie:
+{$scriptName} {$pluginName} export [xmlFileName] [journal_path] articles objectId1 [objectId2] ...
+{$scriptName} {$pluginName} register [journal_path] articles objectId1 [objectId2] ...
+',
+      'plugins.importexport.crossref.senderTask.name' => 'Úloha automatickej registrácie Crossref',
+      'plugins.importexport.crossref.action.markRegistered' => 'Označiť ako aktívne',
+      'plugins.importexport.crossref.action.export' => 'Stiahnuť XML',
+      'plugins.importexport.crossref.statusLegend' => '
+		<p>Stav ukladania:</p>
+  <p>
+  - Nie je uložené: pre tento DOI nebol vykonaný žiadny pokus o uloženie. <br/>
+  - Aktívne: DOI bol uložený a je aktívny. <br/>
+  - Zlyhalo: vklad DOI zlyhal.<br/>
+  - Označené ako aktívny: DOI bol ručne označený ako aktívny.
+  </p>
+  <p> Zobrazí sa iba stav posledného pokusu o uloženie.</p>
+  <p> Ak uloženie zlyhalo, vyriešte problém a pokúste sa znovu zaregistrovať DOI. </p>',
+      'plugins.importexport.crossref.action.register' => 'Vklad',
+      'plugins.importexport.crossref.status.markedRegistered' => 'Označené ako aktívne',
+      'plugins.importexport.crossref.status.registered' => 'Aktívne',
+      'plugins.importexport.crossref.status.failed' => 'Zlyhalo',
+      'plugins.importexport.crossref.issues.description' => 'Poznámka: Na účely exportu/registrácie sa tu zohľadnia len čísla (a nie ich články).',
+      'plugins.importexport.crossref.settings.form.validation' => 'Validácia XML. Túto možnosť použite pre stiahnuté XML pre ručnú registráciu DOI.',
+      'plugins.importexport.crossref.settings.form.testMode.description' => 'Použite testovacie rozhranie API Crossref (skúšobné prostredie) pre vklad DOI. Nezabudnite túto možnosť odstrániť pred reálnym používaním časopisu.',
+      'plugins.importexport.crossref.settings.form.automaticRegistration.description' => 'OJS uloží priradené DOI automaticky do Crossref. Upozorňujeme, že to môže trvať krátku dobu po spracovaní publikácie. Môžete skontrolovať všetky neregistrované DOI.',
+      'plugins.importexport.crossref.settings.form.usernameRequired' => 'Vložte, prosím, používateľské meno, ktoré ste dostali od Crossref.',
+      'plugins.importexport.crossref.settings.form.username' => 'Používateľské meno',
+      'plugins.importexport.crossref.registrationIntro' => 'Ak chcete tento plugin použiť na registráciu identifikátorov digitálnych objektov (DOI) priamo s Crossref, budete potrebovať používateľské meno a heslo (k dispozícii na adrese <a href="http://www.crossref.org" target="_blank"> Crossref </a>), aby ste tak urobili. Ak nemáte vlastné používateľské meno a heslo, môžete exportovať do formátu Crossref XML, ale nemôžete zaregistrovať svoje DOI v Crossref priamo z OJS.',
+      'plugins.importexport.crossref.settings.form.depositorEmailRequired' => 'Vložte, prosím, e-mail vkladajúceho.',
+      'plugins.importexport.crossref.settings.form.depositorNameRequired' => 'Vložte, prosím, meno vkladajúceho.',
+      'plugins.importexport.crossref.settings.form.depositorEmail' => 'Email vkladajúceho',
+      'plugins.importexport.crossref.settings.form.depositorName' => 'Meno vkladajúceho',
+      'plugins.importexport.crossref.settings.depositorIntro' => 'Nasledujúce položky sú potrebné pre úspešné uloženie do Crossref.',
+      'plugins.importexport.crossref.error.noDOIContentObjects' => 'Nie sú vybrané články pre priradenie verejných identifikátorov DOI, takže v tomto pluginu nie je žiadna možnosť uloženia alebo exportu.',
+      'plugins.importexport.crossref.error.issnNotConfigured' => 'ISSN časopisu nebolo nakonfigurované! Musíte pridať ISSN na <a href="{$journalSettingsUrl}" target="_blank"> Stránke nastavenie časopisu </a>.',
+      'plugins.importexport.crossref.error.publisherNotConfigured' => 'Vydavateľ časopisu nebol nakonfigurovaný! Musíte pridať inštitúcii vydavateľa na <a href="{$journalSettingsUrl}" target="_blank"> Stránke nastavenie časopisu </a>.',
+      'plugins.importexport.crossref.requirements.satisfied' => 'Všetky požiadavky pluginu boli uspokojené.',
+      'plugins.importexport.crossref.requirements' => 'Požadavky',
+      'plugins.importexport.crossref.description' => 'Export metadát článku v XML formáte Crossref.',
+      'plugins.importexport.crossref.displayName' => 'Plugin exportu do XML pre Crossref',
+      'plugins.importexport.crossref.settings.form.onlyValidateExport' => 'Overiť iba export. Nesťahujte súbor.',
+    ),
+  ),
+);

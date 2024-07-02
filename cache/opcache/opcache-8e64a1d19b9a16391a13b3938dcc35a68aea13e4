@@ -1,0 +1,69 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=1; plural=0;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.orcidProfile.author.accessDenied' => 'Akses ORCID ditolak pada',
+      'plugins.generic.orcidProfile.manager.settings.logLevel.all' => 'Semua',
+      'plugins.generic.orcidProfile.manager.settings.logLevel.error' => 'Galat',
+      'plugins.generic.orcidProfile.manager.settings.logLevel.help' => 'Tentukan jumlah hasil log yang dihasilkan oleh plugin',
+      'plugins.generic.orcidProfile.manager.settings.logSectionTitle' => 'Log permintaan ORCID',
+      'plugins.generic.orcidProfile.manager.settings.sendMailToAuthorsOnPublication' => 'Kirim surel untuk meminta otorisasi dari penulis jika satu artikel diterima, misalnya kirim ke copy editing',
+      'plugins.generic.orcidProfile.manager.settings.mailSectionTitle' => 'Pengaturan Surel',
+      'plugins.generic.orcidProfile.manager.settings.orcidScope' => 'Batasan Akses Profil',
+      'plugins.generic.orcidProfile.manager.settings.orcidClientSecret' => 'Rahasia Klien',
+      'plugins.generic.orcidProfile.manager.settings.orcidClientId' => 'ID Klien',
+      'plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath.memberSandbox' => 'Sandbox Anggota',
+      'plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath.member' => 'Anggota',
+      'plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath.publicSandbox' => 'Public Sandbox',
+      'plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath.public' => 'Publik',
+      'plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath' => 'API ORCID',
+      'plugins.generic.orcidProfile.manager.settings.description.globallyconfigured' => 'API ORCID diatur secara global oleh pemilik. Kredensial berikut sudah tersimpan.',
+      'plugins.generic.orcidProfile.manager.settings.description' => 'Aturlah akses API ORCID terlebih dahulu untuk menarik data informasi profil ORCID ke dalam pengguna dan profil penulis serta memperbaharui catatan ORCID terkait dengan publikasi baru (khusus untuk Anggota ORCID).',
+      'plugins.generic.orcidProfile.manager.settings.hidden' => 'tersembunyi',
+      'plugins.generic.orcidProfile.manager.settings.title' => 'Pengaturan API ORCID',
+      'plugins.generic.orcidProfile.emailOrOrcid' => 'Alamat surel ata id ORCID:',
+      'plugins.generic.orcidProfile.noData' => 'Tidak menemukan data dari ORCID.',
+      'plugins.generic.orcidProfile.instructions' => 'Anda dapat mengisi formulir ini dengan informasi dari profil ORCID. Masukkan alamat surel atau ORCID iD sesuai dengan profil ORCID, lalu klik "Kirim".',
+      'plugins.generic.orcidProfile.description' => 'Memungkinkan mengimpor informasi profil pengguna dari ORCID.',
+      'plugins.generic.orcidProfile.displayName' => 'Plugin Profil ORCID',
+      'plugins.generic.orcidProfile.author.accessTokenStored' => 'Akses catatan ORCID diberikan terbatas pada {$orcidAccessScope}, valid hingga',
+      'plugins.generic.orcidProfile.about.display' => 'Untuk disetujui bahwa Anda sudah memiliki iD ORCID dan telah diotentikasi, kami menampilkan icon iD ORCID <img src="https://info.orcid.org/wp-content/uploads/2020/12/ORCIDiD_icon16x16.png" alt="iD icon" width="16" height="16" border="0"> di samping nama Anda pada halaman artikel naskah dan pada profil umum pengguna Anda.<br>
+		Pelajari lebih kanjut di <a href="https://info.orcid.org/how-should-an-orcid-id-be-displayed/">Bagaimana tampilan iD ORCID yang seharusnya.</a>',
+      'plugins.generic.orcidProfile.about.display.title' => 'Di mana iD ORCID ditampilkan?',
+      'plugins.generic.orcidProfile.about.howAndWhyPublicAPI' => 'Jurnal ini mengumpulkan iD ORCID Anda sehingga kami bersama komunitas yakin bahwa Anda teridentifikasi dan terhubung dengan publikasi Anda. Hal ini akan memastikan Anda tetap terkoneksi ke karya lengkap Anda sepanjang karir. <br> 
+	Bila Anda klik tombol “Beri Otorisasi” pada halaman popup ORCID, kami akan meminta Anda untuk membagikan iD Anda dengan menggunakan proses otentikasi: baik dengan mendaftar iD ORCID atau, jika sudah punya, dengan login ke akun ORCID Anda, lalu mengizinkan kami untuk mengambil iD ORCID Anda. Kami melakukan ini untuk memastikan bahwa Anda teridentifikasi dengan akurat dan terkoneksi dengan iD ORCID Anda dengan aman.<br>
+	Pelajari lebih lanjut <a href="https://info.orcid.org/whats-so-special-about-signing-in/">Betapa istimewanya jika sign in.</a><br>
+Jurnal ini akan mengumpulkan dan menampilkan iD penulis dan rekan penulis yang terautentikasi di halaman profil dan artikel OJS.',
+      'plugins.generic.orcidProfile.about.howAndWhy.title' => 'Bagaimana dan mengapa kami mengoleksi iD ORCID?',
+      'plugins.generic.orcidProfile.about.orcidExplanation' => 'ORCID adalah organisasi nirlaba independen yang menyediakan pengidentifikasi tetap - iD ORCID - yang membedakan Anda dari peneliti lain dan mekanisme untuk menghubungkan hasil dan aktivitas penelitian Anda ke iD Anda. ORCID terintegrasi dengan banyak sistem yang digunakan oleh penerbit, penyandang dana, lembaga, dan layanan yang terkait dengan penelitian lainnya. Pelajari lebih lanjut di <a href="https://orcid.org"> orcid.org </a>.',
+      'plugins.generic.orcidProfile.about.title' => 'Apa itu ORCID?',
+      'plugins.generic.orcidProfile.authorise' => 'Izinkan dan Hubungkan iD ORCID Anda',
+      'plugins.generic.orcidProfile.connect' => 'Buat atau hubungkan iD ORCID Anda',
+      'plugins.generic.orcidProfile.fieldset' => 'ORCID',
+      'plugins.generic.orcidProfile.failure.contact' => 'Hubungi manajer jurnal menggunakan nama, iD ORCID, dan rincian naskah Anda.',
+      'plugins.generic.orcidProfile.authFailure' => 'Tautan otorisasi ORCID sudah digunakan atau tidak valid.',
+      'plugins.generic.orcidProfile.verify.denied' => 'Anda menolak akses ke rekaman ORCID Anda.',
+      'plugins.generic.orcidProfile.verify.duplicateOrcid' => 'iD ORCID sudah disimpan untuk naskah ini.',
+      'plugins.generic.orcidProfile.verify.failure' => 'iD ORCID ANda tidak bisa diverifikasi. Tautan tidak valid lagi.',
+      'plugins.generic.orcidProfile.verify.success' => 'iD ORCID Anda telah diverifikasi dan berhasil dihubungkan dengan naskah.',
+      'plugins.generic.orcidProfile.verify.sendSubmissionToOrcid.notpublished' => 'Naskah akan ditambahkan ke dalam rekaman ORCID Anda selama Publikasi.',
+      'plugins.generic.orcidProfile.verify.sendSubmissionToOrcid.failure' => 'Naskah tidak bisa ditambahkan ke dalam rekaman ORCID Anda.',
+      'plugins.generic.orcidProfile.verify.sendSubmissionToOrcid.success' => 'Naskah telah dimasukkan ke rekaman ORCID anda.',
+      'plugins.generic.orcidProfile.verify.title' => 'Otorisasi ORCID',
+      'plugins.generic.orcidProfile.author.unauthenticated' => 'iD ORCID tidak diotentikasi! Mintalah otentikasi dari kontributor.',
+      'plugins.generic.orcidProfile.author.orcidEmptyNotice' => 'Perhatikan di bawah ini untuk meminta id ORCID otentik',
+      'plugins.generic.orcidProfile.author.deleteORCID' => 'Hapus iD ORCID dan akses token!',
+      'plugins.generic.orcidProfile.author.requestAuthorization' => 'Kirim surel untuk meminta otorisasi ORCID dari kontributor',
+      'plugins.generic.orcidProfile.about.howAndWhyMemberAPI' => 'Jurnal ini mengumpulkan iD ORCID Anda sehingga kami bersama komunitas yakin bahwa Anda teridentifikasi dan tersambung dengan publikasi Anda. Hal ini akan memastikan koneksi Anda ke seluruh karya Anda tetap bersama Anda sepanjang karier Anda.
+	Bila Anda klik tombol “Beri Otorisasi” pada halaman popup ORCID, kami akan meminta Anda untuk membagikan iD Anda dengan menggunakan proses otentikasi: baik dengan mendaftar iD ORCID atau, jika sudah punya, dengan login ke akun ORCID Anda, lalu mengizinkan kami untuk mengambil iD ORCID Anda. Kami melakukan ini untuk memastikan bahwa Anda teridentifikasi dengan akurat dan terkoneksi dengan iD ORCID Anda dengan aman.<br>
+	Pelajari lebih lanjut <a href="https://info.orcid.org/whats-so-special-about-signing-in">Betapa istimewanya jika sign in.</a><br>
+Jurnal ini akan mengumpulkan dan menampilkan iD penulis dan rekan penulis yang diautentikasi di halaman profil dan artikel OJS. Selain itu, metadata artikel akan secara otomatis diimpor ke catatan ORCID Anda, memungkinkan kami untuk membantu Anda menjaga catatan Anda tetap mutakhir dengan informasi tepercaya.  Pelajari lebih lanjut <a href="https://info.orcid.org/six-ways-to-make-your-orcid-id-work-for-you">Enam cara membuat iD ORCID Anda bekerja!</a>
+',
+      'plugins.generic.orcidProfile.manager.settings.orcidClientSecret.error' => 'Client secret tidak valid',
+      'plugins.generic.orcidProfile.manager.settings.orcidClientId.error' => 'Client ID Tidak Valid',
+    ),
+  ),
+);

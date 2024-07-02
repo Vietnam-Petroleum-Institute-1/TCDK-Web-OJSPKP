@@ -1,0 +1,14 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.recommendByAuthor.displayName' => 'მოდული „ავტორის რეკომენდებული სტატიები“',
+      'plugins.generic.recommendByAuthor.description' => 'სვამს ამავე ავტორის სტატიების სიას მიმდინარე სტატიის ანოტაციის გვერდზე.',
+      'plugins.generic.recommendByAuthor.heading' => 'ამ ავტორ(ებ)ის ყველაზე წაკითხვადი სტატიები',
+      'plugins.generic.recommendByAuthor.noMetric' => 'თვისება: ეს მოდული მოითხოვს, რომ ჩართული იყოს სტატისტიკის/ანგარიშგების თუნდაც ერთი მოდული. თუ სტატისტიკის თქვენი მოდულები ერთზე მეტ მეტრიკას აბრუნებენ, გთხოვთ აირჩიოთ მთავარი მეტრიკა საიტის მორგების გვერდზე.',
+    ),
+  ),
+);

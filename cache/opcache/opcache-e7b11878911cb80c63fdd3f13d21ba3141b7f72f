@@ -1,0 +1,23 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.webfeed.displayName' => 'მოდული „გამოცემის სიახლეების ლენტი“',
+      'plugins.generic.webfeed.description' => 'ქმნის ლენტს RSS/Atom ფორმატში, ჟურნალის მიმდინარე ნომრისათვის.',
+      'plugins.generic.webfeed.settings' => 'პარამეტრები',
+      'plugins.generic.webfeed.settings.issue' => 'აჩვენებს ბმულებს ლენტზე ნომერის ყველა გვერდზე.',
+      'plugins.generic.webfeed.settings.homepage' => 'ბმულის ჩვენება ლენტზე მხოლოდ მთავარ და განცხადებების გვერდებზე.',
+      'plugins.generic.webfeed.settings.all' => 'ბმულის ჩვენება ლენტზე მხოლოდ განცხადებების გვერდზე.',
+      'plugins.generic.webfeed.settings.currentIssue' => 'მასალების ჩვენება მიმდინარე გამოცემულ ნომერში.',
+      'plugins.generic.webfeed.settings.recent' => 'ბოლო გამოქვეყნებული მასალების ფიქსირებული რაოდენობის ჩვენება.',
+      'plugins.generic.webfeed.settings.recentArticles' => 'ბოლოს გამოქვეყნებული საჩვენებელი მასალების რაოდენობა',
+      'plugins.generic.webfeed.settings.recentItemsRequired' => 'გთხოვთ შეიტანოთ დადებითი მთელი რიცხვი ბოლოს გამოქვეყნებული მასალების რაოდენობის მისათითებლად.',
+      'plugins.generic.webfeed.atom.altText' => 'Atom-ის ლოგო',
+      'plugins.generic.webfeed.rss1.altText' => 'RSS1-ის ლოგო',
+      'plugins.generic.webfeed.rss2.altText' => 'RSS2-ის ლოგო',
+    ),
+  ),
+);

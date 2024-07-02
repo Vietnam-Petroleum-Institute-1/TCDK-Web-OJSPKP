@@ -1,0 +1,22 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.customBlockManager.displayName' => 'Eigen blokken beheren',
+      'plugins.generic.customBlockManager.blockName' => 'Naam van het blok',
+      'plugins.generic.customBlockManager.addBlock' => 'Nieuw blok',
+      'plugins.generic.customBlock.content' => 'Inhoud',
+      'plugins.generic.customBlock.nameSuffix' => '(Eigen blokken plugin)',
+      'plugins.generic.customBlock.description' => 'Dit is een zelfgemaakt blok.',
+      'plugins.generic.customBlock.nameRegEx' => 'De naam van het eigen blok mag alleen letters, cijfers en koppeltekens/lage streepjes bevatten.',
+      'plugins.generic.customBlock.nameRequired' => 'Een naam van een eigen blok is vereist.',
+      'plugins.generic.customBlockManager.noneCreated' => 'Er zijn geen eigen blokken gemaakt.',
+      'plugins.generic.customBlockManager.customBlocks' => 'Eigen blokken',
+      'plugins.generic.customBlockManager.description' => 'Met deze plugin kunt u aangepaste zijbalkblokken beheren (toevoegen, bewerken en verwijderen).',
+      'plugins.generic.customBlockManager.manage' => 'Beheer eigen blokken',
+    ),
+  ),
+);

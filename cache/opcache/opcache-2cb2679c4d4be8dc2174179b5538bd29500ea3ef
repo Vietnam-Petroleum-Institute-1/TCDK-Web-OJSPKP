@@ -1,0 +1,78 @@
+<?php $exp = 1751345594; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'installer.additionalLocales' => 'Weitere Regionaleinstellungen',
+      'installer.administratorAccount' => 'Administrator/innen-Konto',
+      'installer.administratorAccountInstructions' => 'Dieses Benutzer/innen-Konto erhält die Administrationsrechte für die gesamte Website und wird kompletten Zugriff auf das System haben. Zusätzliche Benutzer/innen-Konten können nach der Installation erstellt werden.',
+      'installer.checkNo' => '<span class="pkp_form_error formError">NEIN</span>',
+      'installer.checkYes' => 'Ja',
+      'installer.configFileError' => 'Die Konfigurationsdatei <tt>config.inc.php</tt> existiert nicht oder ist nicht lesbar.',
+      'installer.connectionCharset' => 'Zeichensatz für Verbindungen',
+      'installer.contentsOfConfigFile' => 'Inhalt der Konfigurationsdatei',
+      'installer.databaseDriver' => 'Datenbank-Treiber',
+      'installer.databaseDriverInstructions' => '<strong>Das System unterstützt derzeit MySQL und PostgreSQL. Falls Sie keine der unten angegebenen Optionen auswählen können, kontaktieren Sie Ihre/n Systemadministrator/in um sicherzustellen, dass Ihr Server die benötigten PHP-Erweiterungen hat.</strong>',
+      'installer.databaseHost' => 'Server',
+      'installer.databaseHostInstructions' => 'Bitte lassen Sie das Feld Server frei, wenn Sie die Verbindung über domain sockets statt per TCP/IP vornehmen wollen. Dies ist bei MySQL nicht notwendig, das automatisch Sockets verwendet, wenn "localhost" eingegeben wird. Andere Datenbanken wie PostgreSQL erfordern aber eine solche Einstellung.',
+      'installer.databaseName' => 'Name der Datenbank',
+      'installer.databasePassword' => 'Passwort',
+      'installer.databaseSettings' => 'Datenbank-Einstellungen',
+      'installer.databaseUsername' => 'Benutzer/innen-Name',
+      'installer.filesDir' => 'Verzeichnis für hochgeladene Dateien',
+      'installer.fileSettings' => 'Dateieinstellungen',
+      'installer.form.clientCharsetRequired' => 'Bitte wählen Sie einen Zeichensatz aus.',
+      'installer.form.databaseDriverRequired' => 'Bitte wählen Sie einen Datenbanktreiber aus.',
+      'installer.form.databaseNameRequired' => 'Bitte geben Sie einen Namen für die Datenbank an.',
+      'installer.form.emailRequired' => 'Bitte geben Sie eine gültige E-Mail-Adresse für das Administrations-Konto an.',
+      'installer.form.filesDirRequired' => 'Bitte geben Sie ein Verzeichnis an, in dem hochgeladene Dateien gespeichert werden sollen.',
+      'installer.form.localeRequired' => 'Bitte wählen Sie eine Regionaleinstellung aus.',
+      'installer.form.passwordRequired' => 'Bitte geben Sie ein Passwort für das Administrations-Konto an.',
+      'installer.form.passwordsDoNotMatch' => 'Die Passwörter für das Administrations-Konto stimmen nicht überein.',
+      'installer.form.separateMultiple' => 'Mehrere Werte durch Kommata trennen',
+      'installer.form.usernameAlphaNumeric' => 'Der Benutzer/innen-Name für das Administrations-Konto darf nur Buchstaben, Zahlen, Unterstriche und Bindestriche enthalten und muss mit einem Buchstaben oder einer Zahl beginnen und enden.',
+      'installer.form.usernameRequired' => 'Bitte geben Sie einen Benutzer/innen-Namen für das Administrations-Konto an.',
+      'installer.form.timeZoneRequired' => 'Es muss eine Zeitzone ausgewählt werden.',
+      'installer.installationWrongPhp' => '<br/><strong>WARNUNG: Ihre aktuelle PHP-Version erfüllt nicht die Minimalanforderungen für die Installation. Wir empfehlen ein Upgrade zu einer neueren Version von PHP.</strong>',
+      'installer.installErrorsOccurred' => 'Während der Installation sind Fehler aufgetreten',
+      'installer.installerSQLStatements' => 'SQL-Anweisungen für die Installation',
+      'installer.installFileError' => 'Die Installationsdatei <tt>dbscripts/xml/install.xml</tt> existiert nicht oder ist nicht lesbar.',
+      'installer.installFilesDirError' => 'Das Verzeichnis, das als Ort für hochgeladene Dateien angegeben worden ist, existiert nicht oder erlaubt keine Schreibzugriffe.',
+      'installer.installParseDBFileError' => 'Paring-Fehler bei der Verarbeitung der Datenbank-Installationsdatei <tt>{$file}</tt>.',
+      'installer.installMigrationError' => 'Fehler beim Ausführen der migration-Klasse <tt>{$class}</tt>. Der Fehler war {$message}.',
+      'installer.installParseEmailTemplatesFileError' => 'Parsing-Fehler bei der Verarbeitung der E-Mail-Vorlagen-Datei <tt>{$file}</tt>.',
+      'installer.installParseFilterConfigFileError' => 'Parsing-Fehler bei der Verarbeitung der Filterkonfigurationsdatei <tt>{$file}</tt>.',
+      'installer.unsupportedUpgradeError' => 'Upgrade nicht unterstützt. Siehe docs/UPGRADE-UNSUPPORTED für Details.',
+      'installer.timezoneInstructions' => 'Die Zeitzone, die für dieses System verwendet werden soll.',
+      'installer.additionalLocalesInstructions' => 'Wählen Sie zusätzliche Sprachen für Ihr System aus. Weitere Sprachen können auch jederzeit über die Administrationsoberfläche hinzugefügt werden.<br>* = Bezeichnet Sprachen, die nicht komplett übersetzt wurden (> 90% aller Begriffe übersetzt)',
+      'installer.locale' => 'Regionaleinstellungen',
+      'installer.locale.maybeIncomplete' => 'Die markierten Regionaleinstellungen sind möglicherweise unvollständig.',
+      'installer.localeSettings' => 'Regionaleinstellungen',
+      'installer.oaiSettings' => 'OAI-Einstellungen',
+      'installer.oaiRepositoryIdInstructions' => 'Eine eindeutige Kennung zur Identifikation von Metadaten-Einträgen, die von dieser Website mittels des <a href="https://www.openarchives.org/" target="_blank">Open Archives Initiative</a>-Protokolls für Metadaten-Harvesting abgerufen werden.',
+      'installer.oaiRepositoryId' => 'Kennung für das Repository',
+      'installer.publicFilesDirError' => 'Das öffentliche Verzeichnis existiert nicht oder erlaubt keine Schreibzugriffe.',
+      'installer.releaseNotes' => 'Versionsinformationen',
+      'installer.preInstallationInstructionsTitle' => 'Vor der Installation',
+      'installer.preInstallationInstructions' => '
+		<p>1. Die folgenden Dateien und Verzeichnisse (mit ihren Inhalten) müssen beschreibbar sein:</p>
+		<ul>
+			<li><tt>config.inc.php</tt> ist beschreibbar (optional): {$writable_config}</li>
+			<li><tt>public/</tt> ist beschreibbar: {$writable_public}</li>
+			<li><tt>cache/</tt> ist beschreibbar: {$writable_cache}</li>
+			<li><tt>cache/t_cache/</tt> ist beschreibbar: {$writable_templates_cache}</li>
+			<li><tt>cache/t_compile/</tt> ist beschreibbar: {$writable_templates_compile}</li>
+			<li><tt>cache/_db</tt> ist beschreibbar: {$writable_db_cache}</li>
+		</ul>
+
+		<p>2. Ein Verzeichnis für die Ablage hochgeladener Dateien muss angelegt und beschreibbar gemacht werden (siehe "Datei-Einstellungen" unten).</p>
+	',
+      'installer.configureXSLMessage' => '<p>In Ihrer PHP-Installation ist das XSL-Modul nicht freigeschaltet. Entweder schalten Sie es frei, oder konfigurieren Sie das Parameter xsl_command in Ihrer Datei config.inc.php.</p>',
+      'installer.beacon' => 'Identifikationssignal',
+      'installer.beacon.enable' => 'Eine eindeutige Identifikation und die OAI base URL an PKP übermitteln (nur für Statistiken und Sicherheitsbenachrichtigungen).',
+      'installer.unsupportedPhpError' => 'Die PHP-Version Ihres Servers wird nicht von dieser Software unterstützt. Bitte überprüfen Sie die Installationsanforderungen in docs/README.',
+    ),
+  ),
+);

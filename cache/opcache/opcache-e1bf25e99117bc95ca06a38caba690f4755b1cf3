@@ -1,0 +1,12 @@
+<?php $exp = 1751345595; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n > 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.lensGalley.displayName' => 'Visionneuse d\'articles eLife Lens',
+      'plugins.generic.lensGalley.description' => 'Ce plugiciel fournit un support de rendu pour les épreuves JATS XML utilisant eLife Lens.',
+    ),
+  ),
+);

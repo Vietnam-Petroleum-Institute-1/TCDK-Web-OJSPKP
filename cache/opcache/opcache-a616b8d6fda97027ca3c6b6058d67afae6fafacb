@@ -1,0 +1,30 @@
+<?php $exp = 1751345594; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.staticPages.displayName' => 'Plugin statických stránek',
+      'plugins.generic.staticPages.description' => 'Tento plugin umožňuje správu statického obsahu.',
+      'plugins.generic.staticPages.staticPages' => 'Statické stránky',
+      'plugins.generic.staticPages.pageTitle' => 'Název',
+      'plugins.generic.staticPages.content' => 'Obsah',
+      'plugins.generic.staticPages.path' => 'Cesta',
+      'plugins.generic.staticPages.requirement.tinymce' => '<p><strong>Pro přidání/editaci obsahu musí být nainstalován plugin TinyMCE.</strong></p>',
+      'plugins.generic.staticPages.editAddContent' => 'Editovat/přidat obsah',
+      'plugins.generic.staticPages.addStaticPage' => 'Přidat statickou stránku',
+      'plugins.generic.staticPages.addNewPage' => 'Přidat novou stránku',
+      'plugins.generic.staticPages.editStaticPage' => 'Editovat statickou stránku',
+      'plugins.generic.staticPages.noneCreated' => 'Nebyly vytvořeny žádné statické stránky.',
+      'plugins.generic.staticPages.settingInstructions' => 'Formulář níže ukazuje všechny statické stránky, které jste vytvořil. Tyto stránky můžete editovat nebo smazat použitím odkazů na pravé straně.',
+      'plugins.generic.staticPages.editInstructions' => 'Pro přidání/editaci obsahu použijte níže dostupný formulář.',
+      'plugins.generic.staticPages.pathRegEx' => 'Cesta musí obsahovat pouze alfanumerické znaky a znaky „.“, „/“, „-“ a „_“.',
+      'plugins.generic.staticPages.viewInstructions' => '<p>Tato stránka bude dostupná na adrese:<blockquote>{$pagesPath}</blockquote>... kde %PATH% je cesta zadaná výše. <strong>Poznámka:</strong>Žádná dvě stránky nemohou mít stejnou cestu. Použití cest vestavěných do systému může způsobit ztrátu přístupu k důležitým funkcím.</p>',
+      'plugins.generic.staticPages.duplicatePath' => 'Tato cesta již existuje pro jinou statickou stránku.',
+      'plugins.generic.staticPages.pageSaved' => 'Stránka úspěšně uložena.',
+      'plugins.generic.staticPages.pageDeleted' => 'Stránka úspěšně smazána.',
+      'plugins.generic.staticPages.noneExist' => 'Nebyly vytvořeny žádné stránky',
+    ),
+  ),
+);

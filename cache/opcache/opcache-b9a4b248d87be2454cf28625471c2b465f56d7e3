@@ -1,0 +1,14 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.recommendByAuthor.displayName' => 'Priporoči prispevke glede na avtorja',
+      'plugins.generic.recommendByAuthor.description' => 'Vtičnik doda seznam prispevkov istega avtorja na strani s izvlečkom prispevka.',
+      'plugins.generic.recommendByAuthor.heading' => 'Najbolj brani prispevki istega avtorja(jev)',
+      'plugins.generic.recommendByAuthor.noMetric' => 'Opozorilo: Ta vtičnik zahteva omogočen vsaj en vtičnik za statistike/poročila. Če je vaš vtičnik za statistike nastavljen, da zbira več kot eno metriko, potem določite privzeto metriko na administratorskih straneh upravnika revije.',
+    ),
+  ),
+);

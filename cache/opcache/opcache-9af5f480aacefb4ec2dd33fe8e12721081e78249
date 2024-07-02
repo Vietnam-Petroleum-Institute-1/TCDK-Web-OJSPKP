@@ -1,0 +1,12 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.usageEvent.displayName' => 'პლაგინი „გამოყენების მოვლენა“',
+      'plugins.generic.usageEvent.description' => 'ქმნის დამმუშავებელს, რომელიც უზრუნველყოფს გამოყენების მოვლენას განსაზღვრულ ფორმატში.',
+    ),
+  ),
+);

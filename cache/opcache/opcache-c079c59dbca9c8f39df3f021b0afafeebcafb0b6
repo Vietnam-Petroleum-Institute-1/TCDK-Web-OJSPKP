@@ -1,0 +1,12 @@
+<?php $exp = 1751345595; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=4; plural=(n==1 || n==11) ? 0 : (n==2 || n==12) ? 1 : (n > 2 && n < 20) ? 2 : 3;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.dublinCoreMeta.name' => 'Plugan inneacsadh Dublin Core',
+      'plugins.generic.dublinCoreMeta.description' => 'Tha am plugan seo a’ leabachadh meata-tagaichean Dublin Core ann an seallaidhean artaigealan airson inneacsadh.',
+    ),
+  ),
+);

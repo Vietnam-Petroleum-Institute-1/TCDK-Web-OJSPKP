@@ -1,0 +1,30 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'api.announcements.400.contextsNotMatched' => 'Anunțul pe care l-ați solicitat nu face parte din această revistă.',
+      'api.emails.403.disabled' => 'Anunțul pe care l-ați solicitat nu face parte din această revistă.',
+      'api.submissions.400.wrongContext' => 'Înregistrarea pe care ați solicitat-o nu se găsește în acest jurnal.',
+      'api.submissions.403.cantChangeContext' => 'Nu puteți schimba jurnalul pentru un manuscris înregistrat.',
+      'api.submissions.403.unpublishedIssues' => 'Nu aveți permisiunea de a vedea numere de revistă nepublicate.',
+      'api.contexts.403.requestedDisabledContexts' => 'Puteți vedea doar jurnale care au fost activate.',
+      'api.contexts.403.notAllowed' => 'Nu aveți permisiunea de a vizualiza acest jurnal.',
+      'api.contexts.403.contextsDidNotMatch' => 'Nu puteți vizualiza sau edita acest jurnal decât dacă faceți o solicitare către API-ul jurnalului sau API-ul la nivel de site.',
+      'api.contexts.403.requiresContext' => 'Nu puteți edita acest jurnal din API-ul de pe site.',
+      'api.contexts.403.notAllowedEdit' => 'Nu aveți permisiunea de a edita acest jurnal.',
+      'api.contexts.403.notAllowedDelete' => 'Nu aveți permisiunea de a șterge acest jurnal.',
+      'api.contexts.404.contextNotFound' => 'Jurnalul pe care l-ați solicitat nu a fost găsit.',
+      'api.dois.403.contextsNotMatched' => 'DOI-ul pe care l-ați solicitat nu face parte din această revistă.',
+      'api.dois.400.noRegistrationAgencyConfigured' => 'Pentru această revistă nu a fost configurată nicio agenție de înregistrare DOI.',
+      'api.dois.400.depositFailed' => 'Unele elemente nu au fost depozitate cu succes. Vă rugăm să verificați fiecare articol în parte pentru a vedea mesajele de eroare specifice.',
+      'api.emailTemplates.403.notAllowedChangeContext' => 'Nu aveți permisiunea de a muta acest șablon de e-mail într-un alt jurnal.',
+      'api._payments.400.invalidPaymentMethod' => 'Metoda de plată selectată nu este acceptată.',
+      'api.publications.403.contextsDidNotMatch' => 'Publicația solicitată nu face parte din acest jurnal.',
+      'api.publications.403.submissionsDidNotMatch' => 'Publicația solicitată nu face parte din acest abonament.',
+      'api.submissionFiles.400.badRepresentationAssocType' => 'Nu puteți asocia un fișier din acest  fișier cu un PDF sau HTML.',
+    ),
+  ),
+);

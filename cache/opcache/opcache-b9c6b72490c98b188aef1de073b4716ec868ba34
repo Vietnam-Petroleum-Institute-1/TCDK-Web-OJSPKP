@@ -1,0 +1,71 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.importexport.crossref.displayName' => 'Crossref XML Aktarım Eklentisi',
+      'plugins.importexport.crossref.description' => 'Makale üst verilerini Crossref XML formatında dışa aktar.',
+      'plugins.importexport.crossref.requirements' => 'Gereksinimler',
+      'plugins.importexport.crossref.requirements.satisfied' => 'Tüm eklenti gereksinimleri karşılanıyor.',
+      'plugins.importexport.crossref.settings.depositorIntro' => 'Crossref\'e başarılı bir şekilde gönderilmesi için aşağıdakiler gereklidir.',
+      'plugins.importexport.crossref.settings.form.depositorName' => 'Arşivleyenin adı',
+      'plugins.importexport.crossref.settings.form.depositorEmail' => 'Arşivleyenin e-postası',
+      'plugins.importexport.crossref.settings.form.depositorNameRequired' => 'Lütfen arşivleyenin adını giriniz.',
+      'plugins.importexport.crossref.settings.form.depositorEmailRequired' => 'Lütfen arşivleyenin e-posta adresini giriniz.',
+      'plugins.importexport.crossref.settings.form.username' => 'Kullanıcı adı',
+      'plugins.importexport.crossref.settings.form.usernameRequired' => 'Crossref\'ten almış olduğunuz kullanıcı adını giriniz.',
+      'plugins.importexport.crossref.error.publisherNotConfigured' => 'Bir dergi yayıncısı belirtilmemiş! <a href="{$journalSettingsUrl}" target="_blank">Dergi Ayarları Sayfası</a>ndan bir yayıncı eklemelisiniz.',
+      'plugins.importexport.crossref.error.issnNotConfigured' => 'Dergi ISSN bilgisi belirtilmemiş! <a href="{$journalSettingsUrl}" target="_blank">Dergi Ayarları Sayfası"</a>ndan bir ISSN eklemelisiniz.',
+      'plugins.importexport.crossref.error.noDOIContentObjects' => 'Makaleler, DOI genel tanımlayıcı eklentisinde DOI ataması için seçilmediği için bu eklenti, arşivleme veya dışa aktarma yapamıyor.',
+      'plugins.importexport.crossref.registrationIntro' => 'Bu eklentiyi, Dijital Nesne Tanımlayıcılarını (DOI\'ler) doğrudan Crossref\'e kaydetmek için kullanmak istemeniz halinde kullanıcı adı ve şifreye (<a href="http://www.crossref.org" target="_blank">Crossref</a> \'den ulaşılabilir) ihtiyacınız olacaktır. Eğer kullanıcı adı ve şifreniz yoksa, yine de Crossref XML biçimi ile dışa aktarma yapabilirsiniz, ancak DOI\'lerinizi Crossref\'e OJS içinden kaydedemezsiniz.',
+      'plugins.importexport.crossref.settings.form.automaticRegistration.description' => 'OJS atanmış DOI\'leri otomatik olarak Crossref\'e kaydedecek. Lütfen bu işlemin yayınlanma işleminden sonra kısa bir zaman alabileceğini unutmayın (Ör. zamanlanmış işler yapılandırmanıza bağlı olarak). Kaydedilmemiş tüm DOI\'leri kontrol edebilirsiniz.',
+      'plugins.importexport.crossref.settings.form.testMode.description' => 'DOI arşivlemesi için Crossref test API\'sini (test ortamı) kullanın. Lütfen yayın için bu seçeneği kaldırmayı unutmayın.',
+      'plugins.importexport.crossref.issues.description' => 'Not: Burada dışa aktarma/kayıt için yalnızca sayılar (içinde yer alan makaleler hariç) dikkate alınacaktır.',
+      'plugins.importexport.crossref.status.submitted' => 'Gönderildi',
+      'plugins.importexport.crossref.status.completed' => 'Depolandı',
+      'plugins.importexport.crossref.status.failed' => 'Başarısız',
+      'plugins.importexport.crossref.status.registered' => 'Aktif',
+      'plugins.importexport.crossref.status.markedRegistered' => 'Aktif olarak işaretlendi',
+      'plugins.importexport.crossref.statusLegend' => '
+		<p>Depolama Durumu:</p>
+		<p>
+		- Depolanmadı: Bu DOI için hiçbir depolama girişimi yapılmadı.<br />
+		- Gönderildi: Bu DOI depolama için gönderildi.<br />
+		- Depolandı: DOI, Crossref\'e depolandı, ancak henüz aktif olmayabilir.<br />
+		- Etkin: DOI yatırıldı ve doğru şekilde çözümleniyor.<br />
+		- Başarısız: DOI depolama başarısız oldu.<br />
+		- Etkin işaretli: DOI, aktif olarak elle işaretlendi.
+		</p>
+		<p>Sadece son depolama girişiminin durumu görüntülenir.</p>
+		<p>Bir depolama başarısız olursa, lütfen sorunu çözün ve DOI\'yi tekrar kaydettirmeyi deneyin.</p>',
+      'plugins.importexport.crossref.action.export' => 'Dışarı Aktar',
+      'plugins.importexport.crossref.action.markRegistered' => 'Aktif olarak işaretle',
+      'plugins.importexport.crossref.action.register' => 'Arşivle',
+      'plugins.importexport.crossref.action.checkStatus' => 'Durumu kontrol et',
+      'plugins.importexport.crossref.senderTask.name' => 'Crossref otomatik kayıt görevi',
+      'plugins.importexport.crossref.notification.failed' => 'DOI kaydı başarısız oldu. Başarısız olanları görmek için lütfen "Araçlar > İçe Aktar / Dışa Aktar > Crossref XML İhraç Eklentisi" bölümüne gidin.',
+      'plugins.importexport.crossref.cliUsage' => 'Kullanım:
+{$scriptName} {$pluginName} export [xmlFileName] [journal_path] articles objectId1 [objectId2] ...
+{$scriptName} {$pluginName} register [journal_path] articles objectId1 [objectId2] ...
+',
+      'plugins.importexport.crossref.register.error.mdsError' => 'Kayıt başarısız! DOI kayıt sunucusu bir hata verdi.',
+      'plugins.importexport.crossref.register.success' => 'Gönderi başarılı!',
+      'plugins.importexport.crossref.export.error.issueNotFound' => 'Belirtilen sayı ID numarası "{$issueId}" hiçbir sayı ile eşleşmedi.',
+      'plugins.importexport.crossref.export.error.articleNotFound' => 'Belirtilen makale ID numarası "{$articleId}" hiçbir makale ile eşleşmedi.',
+      'plugins.importexport.crossref.register.success.warning' => 'Kayıt başarılı ancak bir uyarı var: \'{$param}\'.',
+      'plugins.importexport.crossref.settings.form.validation' => 'XML dosyasını doğrula. Manuel DOI kaydı için XML indirmek için bu seçeneği kullanın.',
+      'plugins.importexport.crossref.settings.form.onlyValidateExport' => 'Yalnızca dışarı aktarımı doğrula. Dosyayı indirme.',
+      'plugins.generic.crossref.registrationAgency.name' => 'Crossref',
+      'plugins.importexport.crossref.status.notDeposited' => 'Gönderilmedi',
+      'plugins.importexport.crossref.settings' => 'Crossref Ayarları',
+      'plugins.generic.crossref.description' => 'Crossref için üst verilerin gönderilmesini ve dışa aktarılmasını yönetir',
+      'plugins.generic.crossref.displayName' => 'Crossref Yönetici Eklentisi',
+      'plugins.importexport.crossref.settings.form.depositorName.description' => 'DOI\'leri kaydeden kuruluşun adı. Depolanan meta verilere dahil edilir ve depozitoyu kimin gönderdiğini kaydetmek için kullanılır.',
+      'plugins.importexport.crossref.settings.form.depositorEmail.description' => 'İçeriği Crossref\'e kaydetmekten sorumlu kişinin e-posta adresi. Depolanan meta verilere ve gönderim onayı e-postası için kullanılır.',
+      'plugins.importexport.crossref.settings.form.username.description' => 'DOI aktarma işlemlerinizin kimliğini doğrulamak için kullanılacak Crossref kullanıcı adı. Kişisel bir hesap kullanıyorsanız, lütfen yukarıdaki tavsiyeye bakın.',
+      'plugins.generic.crossref.successMessage' => 'Bu ögenin üstverileri Crossref ile depolanmıştır. Daha fazla ayrıntı görmek için <a href="https://doi.crossref.org/servlet/submissionAdmin?sf=detail&submissionID={$submissionId}">Crossref yönetici panelindeki</a> gönderiye bakın.',
+    ),
+  ),
+);

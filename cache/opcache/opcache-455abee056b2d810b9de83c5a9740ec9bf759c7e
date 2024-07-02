@@ -1,0 +1,17 @@
+<?php $exp = 1751345594; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.acron.name' => 'إضافة Acron',
+      'plugins.generic.acron.description' => 'هذه الإضافة تحاول تقليل إعتمادية البرنامج على أدوات الجدولة الدورية مثل \'cron.\'',
+      'plugins.generic.acron.enabled' => 'تم تمكين إضافة Acron.',
+      'plugins.generic.acron.disabled' => 'تم تعطيل إضافة Acron.',
+      'plugins.generic.acron.reloadedCronTab' => 'جانب Cron أعيد تحميله بنجاح.',
+      'plugins.generic.acron.reload' => 'إعادة تحميل المهام المجدولة',
+      'plugins.generic.acron.tasksReloaded' => 'المهام المجدولة أُعيد تحميلها.',
+    ),
+  ),
+);

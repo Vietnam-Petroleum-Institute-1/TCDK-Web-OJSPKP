@@ -1,0 +1,23 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.webfeed.displayName' => 'Plugin Web Feed',
+      'plugins.generic.webfeed.description' => 'Tento plugin vytvára RSS/Atom web syndication feedy pre aktuálne číslo.',
+      'plugins.generic.webfeed.settings' => 'Nastavenie',
+      'plugins.generic.webfeed.settings.issue' => 'Zobraziť odkazy na feed iba na stránkach čísla.',
+      'plugins.generic.webfeed.settings.homepage' => 'Zobraziť odkazy na feed iba na domácej stránke a na stránkach čísla.',
+      'plugins.generic.webfeed.settings.all' => 'Zobraziť odkazy na feed na všetkých stránkach časopisu.',
+      'plugins.generic.webfeed.settings.currentIssue' => 'Položky v aktuálnom publikovanom čísle.',
+      'plugins.generic.webfeed.settings.recent' => 'Zobrazovať pevný počet najnovších položiek.',
+      'plugins.generic.webfeed.settings.recentArticles' => 'Počet položiek na zobrazenie',
+      'plugins.generic.webfeed.settings.recentItemsRequired' => 'Vložte prosím celé kladné číslo pre počet posledných vydaných položiek.',
+      'plugins.generic.webfeed.atom.altText' => 'Atom logo',
+      'plugins.generic.webfeed.rss1.altText' => 'RSS1 logo',
+      'plugins.generic.webfeed.rss2.altText' => 'RSS2 logo',
+    ),
+  ),
+);

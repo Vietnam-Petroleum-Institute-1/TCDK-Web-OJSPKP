@@ -1,0 +1,64 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.importexport.crossref.displayName' => 'Модуль «Экспорт Crossref XML»',
+      'plugins.importexport.crossref.description' => 'Экспортирует метаданные статьи в формате Crossref XML.',
+      'plugins.importexport.crossref.requirements' => 'Требования',
+      'plugins.importexport.crossref.requirements.satisfied' => 'Все требования модуля выполнены.',
+      'plugins.importexport.crossref.error.publisherNotConfigured' => 'Издатель журнала не был настроен! Вы должны добавить организацию издателя на странице <a href="{$journalSettingsUrl}" target="_blank">настройки журнала</a>.',
+      'plugins.importexport.crossref.error.issnNotConfigured' => 'ISSN журнала не был настроен! Вы должны добавить ISSN на странице <a href="{$journalSettingsUrl}" target="_blank">настройки журнала</a>.',
+      'plugins.importexport.crossref.error.noDOIContentObjects' => 'Не выбраны статьи для присвоения DOI в модуле открытых идентификаторов DOI, поэтому нет возможности депонировать или экспортировать в этом модуле.',
+      'plugins.importexport.crossref.settings.depositorIntro' => 'Следующая информация необходима для успешной передачи в депозитарий Crossref.',
+      'plugins.importexport.crossref.settings.form.depositorName' => 'Имя ответственного',
+      'plugins.importexport.crossref.settings.form.depositorEmail' => 'E-mail ответственного',
+      'plugins.importexport.crossref.settings.form.depositorNameRequired' => 'Пожалуйста, введите имя ответственного.',
+      'plugins.importexport.crossref.settings.form.depositorEmailRequired' => 'Пожалуйста, введите адрес электронной почты ответственного.',
+      'plugins.importexport.crossref.registrationIntro' => '<p>Если вы хотите использовать этот модуль для регистрации идентификаторов цифровых объектов (DOI) напрямую в <a href="http://www.crossref.org/">Crossref</a>, вам необходимо добавить ваши <a href="https://www.crossref.org/documentation/member-setup/account-credentials/">данные учётной записи Crossref</a> в поля «имя пользователя» и «пароль» ниже.</p><p>В зависимости от вида вашего членства в Crossref есть два способа ввести ваше имя пользователя и пароль:</p><ul><li>Если вы используете учётную запись организации, добавьте ваши <a href="https://www.crossref.org/documentation/member-setup/account-credentials/#00376">общие имя пользователя и пароль</a></li><li>Если вы используете <a href="https://www.crossref.org/documentation/member-setup/account-credentials/#00368">личную учётную запись</a>, введите свой адрес электронной почты и роль в поле «Имя пользователя». Имя пользователя должно будет выглядеть так: email@example.com/роль</li><li>Если вы не знаете или у вас нет доступа к вашим учётным данным в Crossref, вы можете связаться с <a href="https://support.crossref.org/">поддержкой Crossref</a> для получения помощи. Без учетных данных вы по-прежнему сможете экспортировать метаданные в формат Crossref XML, но не сможете зарегистрировать ваши DOI в Crossref напрямую из OJS.</li></ul>',
+      'plugins.importexport.crossref.settings.form.username' => 'Имя пользователя',
+      'plugins.importexport.crossref.settings.form.usernameRequired' => 'Пожалуйста, введите имя пользователя, которое вы получили от Crossref.',
+      'plugins.importexport.crossref.settings.form.automaticRegistration.description' => 'OJS будет депонировать присвоенные DOI автоматически в Crossref. Обратите внимание, что это может потребовать небольшого количества времени после публикации для обработки (например, в зависимости от настроек вашего cron). Вы можете проверить все незарегистрированные DOI.',
+      'plugins.importexport.crossref.settings.form.testMode.description' => 'Использовать тестовый API Crossref (среда тестирования) для депонирования DOI. Пожалуйста, не забудьте убрать этот параметр для реальной работы.',
+      'plugins.importexport.crossref.settings.form.validation' => 'Проверка XML. Используйте этот параметр, чтобы скачать XML для ручной регистрации DOI.',
+      'plugins.importexport.crossref.settings.form.onlyValidateExport' => 'Только проверить экспорт, не скачивая файл.',
+      'plugins.importexport.crossref.issues.description' => 'Примечание: Здесь для экспорта/регистрации будут рассматриваться только выпуски (а не статьи в этих выпусках).',
+      'plugins.importexport.crossref.status.failed' => 'Ошибка',
+      'plugins.importexport.crossref.status.registered' => 'Активный',
+      'plugins.importexport.crossref.status.markedRegistered' => 'Отмечен как активный',
+      'plugins.importexport.crossref.action.register' => 'Депонировать',
+      'plugins.importexport.crossref.statusLegend' => '
+		<p>Статус депонирования:</p>
+		<p>
+		- Не депонирован: этот DOI не пытались депонировать.<br />
+		- Активный: этот DOI был депонирован и корректно интерпретируется.<br />
+		- Ошибка: депонирование DOI потерпело неудачу.<br />
+		- Отмечен как активный: DOI был вручную отмечен как активный.
+		</p>
+		<p>Отображается только статус последней попытки депонирования.</p>
+		<p>Если депонирование потерпело неудачу, пожалуйста, решите проблему и попробуйте зарегистрировать DOI снова.</p>',
+      'plugins.importexport.crossref.action.export' => 'Экспорт',
+      'plugins.importexport.crossref.action.markRegistered' => 'Отметить как активный',
+      'plugins.importexport.crossref.senderTask.name' => 'Задача автоматической регистрации Crossref',
+      'plugins.importexport.crossref.cliUsage' => 'Вызов:
+{$scriptName} {$pluginName} export [ИмяФайлаXML] [путь_журнала] articles IdОбъекта1 [IdОбъекта2] ...
+{$scriptName} {$pluginName} register [путь_журнала] articles IdОбъекта1 [IdОбъекта2] ...
+',
+      'plugins.importexport.crossref.register.error.mdsError' => 'Регистрация не была полностью успешной! Сервер регистрации DOI вернул ошибку.',
+      'plugins.importexport.crossref.register.success.warning' => 'Регистрация прошла успешно, но было получено следующее предупреждение: «{$param}».',
+      'plugins.importexport.crossref.export.error.issueNotFound' => 'Нет выпуска, соответствующего указанному ID выпуска «{$issueId}».',
+      'plugins.importexport.crossref.export.error.articleNotFound' => 'Нет статьи, соответствующей указанному ID статьи «{$articleId}».',
+      'plugins.generic.crossref.displayName' => 'Модуль «Менеджер Сrossref»',
+      'plugins.generic.crossref.description' => 'Выполняет депонирование и экспорт метаданных в Crossref',
+      'plugins.importexport.crossref.status.notDeposited' => 'Не депонирован',
+      'plugins.importexport.crossref.settings' => 'Настройки Сrossref',
+      'plugins.generic.crossref.registrationAgency.name' => 'Crossref',
+      'plugins.importexport.crossref.settings.form.depositorName.description' => 'Название организации, регистрирующей DOI. Включается в набор депонируемых метаданных и используется для идентификации того, кто произвёл депонирование.',
+      'plugins.importexport.crossref.settings.form.depositorEmail.description' => 'Адрес электронной почты лица, ответственного за регистрацию контента в Crossref. Включается в набор депонируемых метаданных и используется при отправке письма с подтверждением депонирования.',
+      'plugins.importexport.crossref.settings.form.username.description' => 'Имя пользователя в Crossref, которое будет использоваться для аутентификации вашего депонирования. Если вы используете личную учётную запись, пожалуйста прочтите совет выше.',
+      'plugins.generic.crossref.successMessage' => 'Метаданные для этого объекта были депонированы в Crossref. Чтобы просмотреть детали, посмотрите материал в <a href="https://doi.crossref.org/servlet/submissionAdmin?sf=detail&submissionID={$submissionId}">панели администрирования Crossref</a>.',
+    ),
+  ),
+);

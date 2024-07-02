@@ -1,0 +1,30 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.staticPages.displayName' => 'Vtičink za statične strani',
+      'plugins.generic.staticPages.description' => 'Vtičnik omogoča urejanje statičnih vsebin.',
+      'plugins.generic.staticPages.staticPages' => 'Statične strani',
+      'plugins.generic.staticPages.pageTitle' => 'Naslov',
+      'plugins.generic.staticPages.content' => 'Vsebina',
+      'plugins.generic.staticPages.path' => 'Pot',
+      'plugins.generic.staticPages.requirement.tinymce' => '<p><strong>Vtičnik TinyMCE mora biti nameščeni in omogočen, da lahko dodajete in urejate vsebino.</strong></p>',
+      'plugins.generic.staticPages.editAddContent' => 'Uredi/dodaj vsebino',
+      'plugins.generic.staticPages.addStaticPage' => 'Dodaj statično stran',
+      'plugins.generic.staticPages.addNewPage' => 'Dodaj novo stran',
+      'plugins.generic.staticPages.editStaticPage' => 'Uredi statično stran',
+      'plugins.generic.staticPages.noneCreated' => 'Ustvarjene ni bilo še nobene strani.',
+      'plugins.generic.staticPages.settingInstructions' => 'Spodaj vidite vse statične strani, ki so bile ustvarjene. S klikom na desni strani lahko urejate ali odstranite strani.',
+      'plugins.generic.staticPages.editInstructions' => 'Za dodajanje ali urejanje vsebine strani uporabite obrazec spodaj.',
+      'plugins.generic.staticPages.pathRegEx' => 'Polje pot lahko vsebuje le alfanumerične znake ter \'.\', \'/\', \'-\' in \'_\'.',
+      'plugins.generic.staticPages.viewInstructions' => '<p>Ta stran bo dostopna na : <blockquote>{$pagesPath}</blockquote>...kjer je %PATH% pot, ki ste jo vpisali zgoraj. <strong>Opozorilo:</strong> Dve strani ne smeta imeti enake poti. Uporaba poti, ki so vgrajene v sistem, lahko povzroči, da izgubite distop do pomembnih funkcionalnosti.</p>',
+      'plugins.generic.staticPages.duplicatePath' => 'To pot že uporablja druga statična stran.',
+      'plugins.generic.staticPages.pageSaved' => 'Stran je bial uspešno shranjena.',
+      'plugins.generic.staticPages.pageDeleted' => 'Stran je bila uspešno odstranjena.',
+      'plugins.generic.staticPages.noneExist' => 'Ustvarjene ni bilo še nobene strani',
+    ),
+  ),
+);

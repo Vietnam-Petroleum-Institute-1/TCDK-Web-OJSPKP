@@ -1,0 +1,24 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.customBlockManager.customBlocks' => 'Niestandardowy blok',
+      'plugins.generic.customBlockManager.blockName' => 'Nazwa bloku',
+      'plugins.generic.customBlockManager.addBlock' => 'Dodaj blok',
+      'plugins.generic.customBlockManager.noneCreated' => 'Nie utworzono żadnych niestandardowych bloków.',
+      'plugins.generic.customBlock.content' => 'Zawartość',
+      'plugins.generic.customBlock.nameSuffix' => '(Blok niestandardowy)',
+      'plugins.generic.customBlock.description' => 'To jest blok wygenerowany przez użytkownika.',
+      'plugins.generic.customBlock.nameRequired' => 'Wymagana jest niestandardowa nazwa bloku.',
+      'plugins.generic.customBlock.nameRegEx' => 'Niestandardowa nazwa bloku musi zawierać tylko litery, cyfry i myślniki/podkreślniki.',
+      'plugins.generic.customBlock.showName' => 'Pokaz nazwę',
+      'plugins.generic.customBlock.showName.description' => 'Wyświetla nazwę bloku nad jego zawartością.',
+      'plugins.generic.customBlockManager.displayName' => 'Menedżer niestandardowych bloków',
+      'plugins.generic.customBlockManager.manage' => 'Zarządzanie blokami niestandardowymi',
+      'plugins.generic.customBlockManager.description' => 'Ta wtyczka pozwala zarządzać (dodawać, edytować i usuwać) niestandardowymi blokami paska bocznego.',
+    ),
+  ),
+);

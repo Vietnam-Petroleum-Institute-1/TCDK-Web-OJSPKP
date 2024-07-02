@@ -1,0 +1,31 @@
+<?php $exp = 1751345594; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'api.announcements.400.contextsNotMatched' => 'الإعلان الذي طلبته ليس جزءاً من هذه المجلة.',
+      'api.emails.403.disabled' => 'لم يتم تمكين ميزة إشعارات البريد في هذه المجلة.',
+      'api.submissions.400.wrongContext' => 'طلب التقديم الذي طلبته ليس في هذه المجلة.',
+      'api.submissions.403.cantChangeContext' => 'لا يمكنك تعديل المجلة التي وجهت إليها طلب تقديمك.',
+      'api.submissions.403.unpublishedIssues' => 'ليست لديك الصلاحية لمعاينة الأعداد غير المنشورة.',
+      'api.contexts.403.requestedDisabledContexts' => 'يمكنك معاينة المجلات التي تم تمكينها فقط.',
+      'api.contexts.403.notAllowed' => 'ليست لديك صلاحية معاينة هذه المجلة.',
+      'api.contexts.403.contextsDidNotMatch' => 'لا يمكنك معاينة هذه المجلة أو تعديلها ما لم تلتمس ذلك عبر واجهة برمجة التطبيق الخاصة بالمجلة أو تلك الخاصة بعموم الموقع.',
+      'api.contexts.403.requiresContext' => 'لا يمكنك تعديل هذه المجلة مستعملاً واجهة برمجة التطبيق الخاصة بعموم الموقع.',
+      'api.contexts.403.notAllowedEdit' => 'ليست لديك صلاحية تعديل هذه المجلة.',
+      'api.contexts.403.notAllowedDelete' => 'ليست لديك صلاحية حذف هذه المجلة.',
+      'api.contexts.404.contextNotFound' => 'تعذر العثور على المجلة التي طلبتها.',
+      'api.dois.403.contextsNotMatched' => 'مُعرف المكون الرقمي الذي طلبته ليس جزءًا من هذه المجلة.',
+      'api.dois.400.noRegistrationAgencyConfigured' => 'لم تتم تهيئة أي وكالة تسجيل لمُعرفات المكونات الرقمية لهذه المجلة.',
+      'api.dois.400.depositFailed' => 'لم يتوفق إيداع بعض العناصر. يرجى التحقق منها بشكل منفرد للوقوف على رسالة الخطأ الخاصة بكل منها.',
+      'api.emailTemplates.403.notAllowedChangeContext' => 'ليست لديك صلاحية نقل قالب المراسلة هذا إلى مجلة أخرى.',
+      'api._payments.400.invalidPaymentMethod' => 'طريقة التسديد التي اخترتها غير مدعومة.',
+      'api.publications.403.contextsDidNotMatch' => 'المنشور الذي طلبته ليس جزءاً من هذه المجلة.',
+      'api.publications.403.submissionsDidNotMatch' => 'المنشور الذي طلبته ليس جزءاً من طلب التقديم هذا.',
+      'api.submissionFiles.400.badRepresentationAssocType' => 'لا يمكنك أن تربط ملفاً من مرحلة الملفات هذه مع اللوح الطباعي.',
+      'api.submission.400.inactiveSection' => 'هذا القسم لم يعد يستلم طلبات التقديم.',
+    ),
+  ),
+);

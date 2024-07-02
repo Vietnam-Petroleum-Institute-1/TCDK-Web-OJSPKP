@@ -1,0 +1,17 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.acron.name' => 'Acron Eklentisi',
+      'plugins.generic.acron.description' => 'Bu eklenti, sistemin \'cron\' gibi periyodik zamanlama araçları üzerindeki bağımlılığını azaltmaya çalışır. Ör  \'cron.\'',
+      'plugins.generic.acron.enabled' => 'Acron eklentisi etkinleştirildi.',
+      'plugins.generic.acron.disabled' => 'Acron eklentisi devre dışı bırakıldı.',
+      'plugins.generic.acron.reloadedCronTab' => 'Zamanlanmış işlemler başarılı olarak yenilendi.',
+      'plugins.generic.acron.reload' => 'Zamanlanmış İşlemleri Yenile',
+      'plugins.generic.acron.tasksReloaded' => 'Zamanlanmış işlemler yenilendi.',
+    ),
+  ),
+);

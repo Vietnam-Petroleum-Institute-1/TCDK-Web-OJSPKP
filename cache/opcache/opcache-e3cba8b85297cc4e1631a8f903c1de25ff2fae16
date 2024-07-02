@@ -1,0 +1,26 @@
+<?php $exp = 1751345594; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.webfeed.displayName' => 'Connector de canals d\'informació',
+      'plugins.generic.webfeed.description' => 'Aquest mòdul crea canals d\'informació web RSS/Atom.<br>El mòdul també inclou un bloc lateral que permet mostrar els enllaços als canals a la barra lateral de l\'aplicació',
+      'plugins.generic.webfeed.settings' => 'Configuració',
+      'plugins.generic.webfeed.settings.issue' => 'Mostra els enllaços als canals d\'informació només a les pàgines del número.',
+      'plugins.generic.webfeed.settings.homepage' => 'Mostrar els enllaços als canals web només a la pàgina d\'inici.',
+      'plugins.generic.webfeed.settings.all' => 'Mostrar els enllaços als canals web a totes les pàgines de l\'aplicació.',
+      'plugins.generic.webfeed.settings.currentIssue' => 'Mostra els elements en el número actual.',
+      'plugins.generic.webfeed.settings.recent' => 'Mostrar un nombre fix de les publicacions més recents.',
+      'plugins.generic.webfeed.settings.recentArticles' => 'Nombre de publicacions per mostrar',
+      'plugins.generic.webfeed.settings.recentItemsRequired' => 'Introduïu un nombre enter positiu per als elements més recents.',
+      'plugins.generic.webfeed.atom.altText' => 'Logotip Atom',
+      'plugins.generic.webfeed.rss1.altText' => 'Logotip RSS1',
+      'plugins.generic.webfeed.rss2.altText' => 'Logotip RSS2',
+      'plugins.generic.webfeed.settings.homepageAndIssues' => 'Mostrar els enllaços als canals web només a les pàgines d\'inici i del número.',
+      'plugins.generic.webfeed.blockTitle' => 'Darreres publicacions',
+      'plugins.generic.webfeed.settings.includeIdentifiers' => 'Incloure identificadors (ISBN, paraules clau, categories, etc.) en el sumari del canal?',
+    ),
+  ),
+);

@@ -1,0 +1,12 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.dublinCoreMeta.name' => 'Dublin Core İndeksleme Eklentisi',
+      'plugins.generic.dublinCoreMeta.description' => 'Bu eklenti, indeksleme amacıyla makale sayfalarına Dublin Core veri etiketlerini yerleştirir.',
+    ),
+  ),
+);

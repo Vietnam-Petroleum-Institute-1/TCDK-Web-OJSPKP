@@ -1,0 +1,17 @@
+<?php $exp = 1751345595; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.acron.name' => 'افزونه Acron',
+      'plugins.generic.acron.description' => 'این افزونه تلاش داد تا وابستگی سامانه به ابزارهای انجام فعالیت‌های زمان‌بندی شده مانند "cron" را کاهش دهد.',
+      'plugins.generic.acron.enabled' => 'افزونه Acron فعال شد.',
+      'plugins.generic.acron.disabled' => 'افزونه Acron غیرفعال شد.',
+      'plugins.generic.acron.reloadedCronTab' => 'تب Cron با موفقیت بارگذاری شد',
+      'plugins.generic.acron.reload' => 'بارگذاری وظایف زمان‌بندی شده',
+      'plugins.generic.acron.tasksReloaded' => 'وظایف زمان‌بندی شده بارگذاری شد.',
+    ),
+  ),
+);

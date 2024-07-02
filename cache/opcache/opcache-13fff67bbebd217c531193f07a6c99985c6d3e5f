@@ -1,0 +1,22 @@
+<?php $exp = 1751345594; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.announcementfeed.displayName' => 'Плъгин за емисия за съобщения',
+      'plugins.generic.announcementfeed.description' => 'Този плъгин създава RSS/Atom уеб синдикални емисии за съобщения в списанията хотвани на този сайт.',
+      'plugins.generic.announcementfeed.settings' => 'Настройки',
+      'plugins.generic.announcementfeed.settings.all' => 'Показване на връзки към емисиите на всички страници на списанието.',
+      'plugins.generic.announcementfeed.settings.homepage' => 'Показване на връзките към емисии само на началната страница и страницата със съобщения.',
+      'plugins.generic.announcementfeed.settings.announcement' => 'Показване на връзките към емисията само на страницата със съобщения.',
+      'plugins.generic.announcementfeed.settings.recentAnnouncements1' => 'Ограничаване на емисията до',
+      'plugins.generic.announcementfeed.settings.recentAnnouncements2' => 'последни заглавия в емисията.',
+      'plugins.generic.announcementfeed.settings.recentItemsRequired' => 'Моля, въведете положително цяло число за последните съобщения.',
+      'plugins.generic.announcementfeed.atom.altText' => 'Лого на Atom',
+      'plugins.generic.announcementfeed.rss1.altText' => 'Лого на RSS1',
+      'plugins.generic.announcementfeed.rss2.altText' => 'Лого на RSS2',
+    ),
+  ),
+);

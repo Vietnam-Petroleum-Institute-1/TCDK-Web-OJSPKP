@@ -1,0 +1,48 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n==1 || n%10==1 ? 0 : 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'emails.orcidRequestAuthorAuthorization.description' => 'Овој образец за е-пошта се користи за да се побара пристап до записот ORCID од авторите.',
+      'emails.orcidRequestAuthorAuthorization.body' => 'Почитуван {$ authorName}, <br>
+<br>
+Вие сте наведени како автор на поднесувањето на ракописот „{$submissionTitle}“ до {$contextName}.
+<br>
+<br>
+Ве молиме, дозволете ни да го додадеме вашиот ID на ORCID на овој поднесок и да го додадеме поднесувањето на вашиот ORCID профил на објавувањето. <br>
+Посетете ја врската до официјалната веб-страница на ORCID, најавете се со вашиот профил и овластете го пристапот следејќи ги упатствата. <br>
+<a href="{$authorOrcidUrl}"><img id="orcid-id-logo" src="https://info.orcid.org/sites/default/files/images/orcid_wp-content/uploads/2020/12/ORCIDiD_icon16x16.png" width=\'16\' height=\'16\' alt="ORCID iD icon" style="display: block; margin: 0 .5em 0 0; padding: 0; float: left;"/>Регистрирај се или Поврзи го ORCID iD </a> <br />
+<br>
+<br>
+<a href="{$orcidAboutUrl}"> Повеќе за ORCID на {$textName} </a> <br/>
+<br>
+Ако имате какви било прашања, контактирајте ме. <br>
+<br>
+{$principalContactSignature} <br>
+',
+      'emails.orcidRequestAuthorAuthorization.subject' => 'Барање пристап до запис ORCID',
+      'emails.orcidCollectAuthorId.description' => 'Овој образец за е-пошта се користи за собирање на ID-на ORCID од автори.',
+      'emails.orcidCollectAuthorId.body' => 'Почитуван {$recipientName},<br/>
+<br/>
+Вие сте наведени како автор на поднесен ракопис до {$contextName}.<br/>
+За да го потврдите вашето авторство, додадете го вашиот ID на ORCID на овој поднесок со посета на врската дадена подолу. <br/>
+<br/>
+<a href="{$authorOrcidUrl}"><img id="orcid-id-logo" src="https://info.orcid.org/wp-content/uploads/2020/12/ORCIDiD_icon16x16.png" width=\'16\' height=\'16\' alt="ORCID iD icon" style="display: block; margin: 0 .5em 0 0; padding: 0; float: left;"/>Регистрирај се или поврзете го вашиот ORCID iD </a> <br />
+<br/>
+<br>
+<a href="{$orcidAboutUrl}"> Повеќе информации за ORCID на {$textName} </a> <br/>
+<br/>
+Ако имате какви било прашања, контактирајте ме. <br/>
+<br/>
+{$principalContactSignature} <br/>
+',
+      'emails.orcidCollectAuthorId.subject' => 'Испраќање на ORCID',
+      'emailTemplate.variable.authorOrcidUrl' => 'Авторизирачки линка за ORCID OAuth',
+      'emailTemplate.variable.orcidAboutUrl' => 'УРЛ до страната за ORCID',
+      'plugins.generic.orcidProfile.orcidRequestAuthorAuthorization.name' => 'Авторизација orcidRequestAuthorAuthorization',
+      'plugins.generic.orcidProfile.orcidCollectAuthorId.name' => 'Авторски orcidCollectAuthorId',
+    ),
+  ),
+);

@@ -1,0 +1,33 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.citationStyleLanguage.download.ris' => 'Endnote/Zotero/Mendeley (RIS)',
+      'plugins.generic.citationStyleLanguage.download.bibtex' => 'BibTeX',
+      'plugins.generic.citationStyleLanguage.style.vancouver' => 'Vancouver',
+      'plugins.generic.citationStyleLanguage.style.turabian-fullnote-bibliography' => 'Turabian',
+      'plugins.generic.citationStyleLanguage.style.harvard-cite-them-right' => 'Harvard',
+      'plugins.generic.citationStyleLanguage.style.chicago-author-date' => 'Chicago',
+      'plugins.generic.citationStyleLanguage.displayName' => 'ციტირების სტილის ენა',
+      'plugins.generic.citationStyleLanguage.description' => 'მკითხველს მიეცით საშუალება გამოაქვეყნონ სტატიის ციტირება რამდენიმე ფორმატში ერთ-ერთში, რომელსაც აქვს Citation Style Language.',
+      'plugins.generic.citationStyleLanguage.style.acm-sig-proceedings' => 'ACM',
+      'plugins.generic.citationStyleLanguage.style.acs-nano' => 'ACS',
+      'plugins.generic.citationStyleLanguage.style.apa' => 'APA',
+      'plugins.generic.citationStyleLanguage.style.associacao-brasileira-de-normas-tecnicas' => 'ABNT',
+      'plugins.generic.citationStyleLanguage.style.ieee' => 'IEEE',
+      'plugins.generic.citationStyleLanguage.style.modern-language-association' => 'MLA',
+      'plugins.generic.citationStyleLanguage.settings.citationDownloads' => 'ჩამოტვირთვის ფორმატები',
+      'plugins.generic.citationStyleLanguage.settings.citationDownloadsDescription' => 'აირჩიეთ რომელი ჩამოსატვირთ ფორმატში გსურთ შესთავაზოთ თქვენს მკითხველს. ჩამოტვირთვის ფორმატები ჩვეულებრივ გამოიყენება მესამე მხარის ბიბლიოგრაფიის მართვის პროგრამაში, მაგალითად, EndNote ან Zotero, იმპორტირებისთვის.',
+      'plugins.generic.citationStyleLanguage.settings.citationFormats' => 'ციტირების დამატებითი ფორმატები',
+      'plugins.generic.citationStyleLanguage.settings.citationFormatsDescription' => 'აირჩიეთ, თუ რომელი დამატებითი ფორმატები გსურთ შესთავაზოთ თქვენს მკითხველებს.',
+      'plugins.generic.citationStyleLanguage.settings.citationFormatsPrimary' => 'ციტირების პირველადი ფორმატი',
+      'plugins.generic.citationStyleLanguage.settings.citationFormatsPrimaryDescription' => 'შეარჩიეთ ციტირების რომელი ფორმატი გსურთ ნაგულისხმევად აჩვენოთ თქვენი სტატიის გვერდზე.',
+      'plugins.generic.citationStyleLanguage.settings.publisherLocation' => 'გამომცემლის ადგილმდებარეობა',
+      'plugins.generic.citationStyleLanguage.settings.publisherLocation.description' => 'ციტირების ზოგიერთი ფორმა მოითხოვს გამომცემლის გეოგრაფიულ მდებარეობას, მაგალითად, „ლონდონი, დიდი ბრიტანეთი“.',
+      'plugins.generic.citationStyleLanguage.style.ama' => 'AMA',
+    ),
+  ),
+);

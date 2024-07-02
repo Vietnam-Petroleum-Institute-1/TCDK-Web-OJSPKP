@@ -1,0 +1,12 @@
+<?php $exp = 1751345594; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.googleScholar.name' => 'إضافة الفهرسة Google Scholar',
+      'plugins.generic.googleScholar.description' => 'هذه الإضافة تمكن Google Scholar من فهرسة المحتوى المنشور هنا.',
+    ),
+  ),
+);

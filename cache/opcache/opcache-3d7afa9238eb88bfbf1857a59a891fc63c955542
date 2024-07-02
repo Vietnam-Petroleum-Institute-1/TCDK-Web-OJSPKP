@@ -1,0 +1,19 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'user.accountInformation' => 'Taarifa za Akaunti',
+      'user.affiliation' => 'Taasisi',
+      'user.affiliation.description' => '(Taasisi, Chuo unakotoka, mfano. "St John\'s  University of Tanzania")',
+      'user.authorization.accessDenied' => 'Huduma Imezuiliwa',
+      'user.authorization.processAuthenticationTokenRequired' => 'Hati ya uthibitishaji wa mchakato haipo au si sahihi.',
+      'user.authorization.contextRequired' => 'Huwezi kuita huduma hii bila muktadha (jarida, mkutano, nk).',
+      'user.authorization.loginRequired' => 'Unatakiwa Kuingia',
+      'user.authorization.privateOperation' => 'Huduma uliyojaribu kufikia ni ya kibinafsi au haipo.',
+      'user.authorization.restrictedSiteAccess' => 'Umenyimwa huduma hii. wavuti hii imezuiwa kwa sasa.',
+    ),
+  ),
+);

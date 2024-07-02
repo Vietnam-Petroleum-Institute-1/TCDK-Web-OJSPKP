@@ -1,0 +1,44 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=1; plural=0;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'emails.orcidCollectAuthorId.body' => '{$recipientName}様 いつもお世話になっております。<br/>
+<br/>
+あなたは{$contextName}に投稿された原稿の著者として記載されています。<br/>。
+あなたが著者であることを確認するために、以下のリンクにアクセスして、この投稿にあなたのORCID IDを追加していただけないでしょうか。<br/>
+<br/>
+<a href="{$authorOrcidUrl}"><img id="orcid-id-logo" src="https://info.orcid.org/wp-content/uploads/2020/12/ORCIDiD_icon16x16.png" width=\'16\' height=\'16\' alt="ORCID iD icon" style="display: block; margin: 0 .5em 0 0; padding: 0; float: left;"/>ORCID iDを登録または接続する</a><br/>
+<br/>
+<br>
+<a href="{$orcidAboutUrl}">ORCIDについての詳しい情報は {$contextName}をご覧ください。</a><br/>
+<br/>
+ご不明な点がございましたら、お気軽にお問い合わせいただければと思います。<br/>
+<br/>
+{$principalContactSignature}<br/>
+',
+      'emails.orcidRequestAuthorAuthorization.body' => '{$recipientName}様 いつもお世話になっております。<br>
+<br>
+{$recipientName}様は、{$contextName}に投稿された原稿「{$submissionTitle}」の著者として登録されております。
+<br>
+<br>
+この投稿にあなたのORCID IDを追加して、出版時に投稿をあなたのORCIDプロファイルに追加することを許可していただけないでしょうか。<br>
+ORCIDの公式サイトへのリンクにアクセスして、あなたのプロフィールでログインし、その先の指示に従ってアクセスを承認していただければと思います。<br>
+<a href="{$authorOrcidUrl}"><img id="orcid-id-logo" src="https://info.orcid.org/wp-content/uploads/2020/12/ORCIDiD_icon16x16.png" width=\'16\' height=\'16\' alt="ORCID iD icon" style="display: block; margin: 0 .5em 0 0; padding: 0; float: left;"/>ORCID iDを登録または接続する</a><br/>
+<br>
+<br>
+<a href="{$orcidAboutUrl}">ORCIDについての詳細は{$contextName}</a><br/>をご覧ください。<br/>
+<br>
+ご不明な点がございましたら、お気軽にお問い合わせいただければと思います。<br>
+<br>
+{$principalContactSignature}<br>
+',
+      'emails.orcidRequestAuthorAuthorization.description' => 'このメールテンプレートは、著者にORCIDレコードへのアクセスを要求するために使用されます。',
+      'emails.orcidRequestAuthorAuthorization.subject' => 'ORCIDレコードへのアクセスを要求する',
+      'emails.orcidCollectAuthorId.description' => 'このメールテンプレートは、著者からORCID IDを収集するために使用されます。',
+      'emails.orcidCollectAuthorId.subject' => '投稿 ORCID',
+    ),
+  ),
+);

@@ -1,0 +1,31 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n > 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'api.announcements.400.contextsNotMatched' => 'Ձեր կողմից հարցված հայտարարությունը այս ամսագրի մաս չէ։',
+      'api.emails.403.disabled' => 'Մեյլով ծանուցման ֆունկցիան այս ամսագրի համար միացված չէ։',
+      'api.submissions.400.wrongContext' => 'Ձեր պահանջած ներկայացումը այս ամսագրում չէ:',
+      'api.submissions.403.cantChangeContext' => 'Դուք չեք կարող փոխել ամսագիրը։',
+      'api.submissions.403.unpublishedIssues' => 'Դուք չունեք թույլտվություն տեսնելու չհրապարակված համարը։',
+      'api.contexts.403.requestedDisabledContexts' => 'Դուք կարող եք տեսնել միայն այն ամսագրերը, որոնց համար տրված է թույլտվություն։',
+      'api.contexts.403.notAllowed' => 'Դուք չունեք թույլտվություն այս ամսագիրը դիտելու համար։',
+      'api.contexts.403.contextsDidNotMatch' => 'Դուք չեք կարող դիտել կամ խմբագրել այս ամսագիրը, քանի դեռ հարցում չեք կատարել ամսագրի API-ի կամ ամբողջ կայքի API-ի համար:',
+      'api.contexts.403.requiresContext' => 'Դուք չեք կարող խմբագրել ամսագիրը կայքի API-ից։',
+      'api.contexts.403.notAllowedEdit' => 'Դուք չունեք թույլտվություն այս ամսագիրը խմբագրելու համար։',
+      'api.contexts.403.notAllowedDelete' => 'Դուք չունեք այս ամսագիրը ջնջելու թույլտվություն։',
+      'api.contexts.404.contextNotFound' => 'Հարցված ամսագիրը չի գտնվել։',
+      'api.dois.403.contextsNotMatched' => 'Ձեր պահանջած DOI-ն այս ամսագրի մաս չէ:',
+      'api.dois.400.noRegistrationAgencyConfigured' => 'DOI գրանցման գործակալությունն այս ամսագրի համար կազմաձևված չէ:',
+      'api.dois.400.depositFailed' => 'Որոշ տարրեր հաջողությամբ չեն պահվել: Խնդրում ենք ստուգել առանձին տարրերը իրենց բնորոշ սխալի հաղորդագրությունների համար:',
+      'api.emailTemplates.403.notAllowedChangeContext' => 'Դուք չունեք թույլտվություն էլ․ փոստի այս ձևաչափը այլ ամսագիր տեղափոխելու համար։',
+      'api._payments.400.invalidPaymentMethod' => 'Վճարման ընտրված մեթոդը չի խրախուսվում։',
+      'api.publications.403.contextsDidNotMatch' => 'Հարցված հրապարակումը այս ամսագրի մաս չէ։',
+      'api.publications.403.submissionsDidNotMatch' => 'Հարցված հրապարակումը այս նյութի մաս չէ։',
+      'api.submissionFiles.400.badRepresentationAssocType' => 'You can not associate a file from this file stage with a galley.',
+      'api.submission.400.inactiveSection' => 'Այս բաժինն այլևս դիմումներ չի ստանում:',
+    ),
+  ),
+);

@@ -1,0 +1,31 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n==1 || n%10==1 ? 0 : 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'api.announcements.400.contextsNotMatched' => 'Објавата која ја побаравте не е дел од ова списание.',
+      'api.emails.403.disabled' => 'Функцијата за известување преку и-меил не е овозможена за ова списание.',
+      'api.submissions.400.wrongContext' => 'Бараниот поднесок не е во ова списание.',
+      'api.submissions.403.cantChangeContext' => 'Не може да се смени списанието за поднесување.',
+      'api.submissions.403.unpublishedIssues' => 'Немате дозвола за гледање необјавени броеви.',
+      'api.contexts.403.requestedDisabledContexts' => 'Може да гледате само списанија за кои ви е овозможено.',
+      'api.contexts.403.notAllowed' => 'Немате дозвола да го гледате ова списание.',
+      'api.contexts.403.contextsDidNotMatch' => 'Не може да го гледате или корегирате ова списание доколку не побарате API од списанието или од странично API.',
+      'api.contexts.403.requiresContext' => 'Не можете да го корегирате ова списание од страничен API.',
+      'api.contexts.403.notAllowedEdit' => 'Немате дозвола да го корегирате ова списание.',
+      'api.contexts.403.notAllowedDelete' => 'Немате дозвола да го бришете ова списание.',
+      'api.contexts.404.contextNotFound' => 'Бараното списание не е најдено.',
+      'api.dois.403.contextsNotMatched' => 'ДОИ бројот кој го побаравте не е дел од ова списание.',
+      'api.dois.400.noRegistrationAgencyConfigured' => 'Не е конфигурирана агенција за регистрација на ДОИ за ова списание.',
+      'api.dois.400.depositFailed' => 'Некои од ставките не беа успешно депонирани. Проверете ги поединечните ставки за нивните специфични пораки за грешка.',
+      'api.emailTemplates.403.notAllowedChangeContext' => 'Не е дозволено да го преместите темплејтот на овој и-мајл во друго списание.',
+      'api._payments.400.invalidPaymentMethod' => 'Избраниот метод за плаќање не е поддржан.',
+      'api.publications.403.contextsDidNotMatch' => 'Публикацијата што ја барате не е дел од ова списание.',
+      'api.publications.403.submissionsDidNotMatch' => 'Публикацијата што ја барате не е дел од овој поднесок.',
+      'api.submissionFiles.400.badRepresentationAssocType' => 'Не можете да поврзете документ од оваа фаза со galley.',
+      'api.submission.400.inactiveSection' => 'Оваа секција повеќе не прима поднесоци.',
+    ),
+  ),
+);

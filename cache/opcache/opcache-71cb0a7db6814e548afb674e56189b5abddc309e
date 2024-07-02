@@ -1,0 +1,79 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n==1 || n%10==1 ? 0 : 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'installer.additionalLocales' => 'Додатна локализација',
+      'installer.administratorAccount' => 'Администраторски налог',
+      'installer.administratorAccountInstructions' => 'Овој акоунт ќе стане администратор на страницата и ќе има целосен пристап до системот. Дополнителни акоунти можат да се создадат по инсталацијата.',
+      'installer.checkNo' => '<span class="pkp_form_error formError">НЕ</span>',
+      'installer.checkYes' => 'Да',
+      'installer.configFileError' => 'Конфигурациската датотека <tt>config.inc.php</tt> не постои или не се чита.',
+      'installer.connectionCharset' => 'Азбука за корекција',
+      'installer.contentsOfConfigFile' => 'Содржина на фајлот за подесување',
+      'installer.databaseDriver' => 'Драјвер за датабазата',
+      'installer.databaseDriverInstructions' => '<strong>Системот моментално поддржува MySQL и PostgreSQL, во случај да не можете да изберете една од овие опции подолу, контактирајте со вашиот системски администратор за да се уверите дека вашиот сервер ги има потребните PHP екстензии.</strong>',
+      'installer.databaseHost' => 'Хост',
+      'installer.databaseHostInstructions' => 'Оставете го името на хостот празно за да се поврзете користејќи приклучоци за домени наместо преку TCP / IP. Ова не е неопходно со MySQL, кој автоматски ќе користи приклучоци ако се внесе „localhost“, но е потребно со некои други сервери за бази на податоци, како што е PostgreSQL.',
+      'installer.databaseName' => 'Име на датабазата',
+      'installer.databasePassword' => 'Лозинка',
+      'installer.databaseSettings' => 'Подесувања на датабаза',
+      'installer.databaseUsername' => 'Корисничко име',
+      'installer.filesDir' => 'Директориум за аплоадирање',
+      'installer.fileSettings' => 'Подесување на фајл',
+      'installer.form.clientCharsetRequired' => 'Мора да се избере азбука.',
+      'installer.form.databaseDriverRequired' => 'Мора да се избере драјвер за датабазата.',
+      'installer.form.databaseNameRequired' => 'Името на датабазата е задолжително.',
+      'installer.form.emailRequired' => 'Потебен е имејл за администраторскиот акоунт.',
+      'installer.form.filesDirRequired' => 'Потребен е директориум што ќе се користи за чување на поставени датотеки.',
+      'installer.form.localeRequired' => 'Мора да се избере локализација.',
+      'installer.form.passwordRequired' => 'Потребна е лозинка за администраторскиот акаунт.',
+      'installer.form.passwordsDoNotMatch' => 'Администраторските лозинки не одговараат.',
+      'installer.form.separateMultiple' => 'Оддели ги вредностите со запирка',
+      'installer.form.usernameAlphaNumeric' => 'Корисничкото име на администраторот може да содржи само алфанумерички знаци, горна или долан цртичка, и мора да започне и да заврши со алфанумерички карактер.',
+      'installer.form.usernameRequired' => 'Потребно е корисничко име на администраторскиот акоунт.',
+      'installer.form.timeZoneRequired' => 'Мора да означите временска зона.',
+      'installer.installationWrongPhp' => '<br/><strong> ПРЕДУПРЕДУВАЕ: Вашата тековна верзија на PHP не ги исполнува минималните услови за инсталација. Препорачливо е да се ажурира на неодамнешно издание на PHP. </strong>',
+      'installer.installErrorsOccurred' => 'Има грешка при инсталација',
+      'installer.installerSQLStatements' => 'SQL изјави за инсталација',
+      'installer.installFileError' => 'Датотеката за инсталација <tt>dbscripts/xml/install.xml</tt> не постои или не е читлива.',
+      'installer.installFilesDirError' => 'Директориумот наведен за поставени датотеки не постои или не може да се запише.',
+      'installer.installParseDBFileError' => 'Грешка при анализирање на инсталација на датабазата <tt>{$file}</tt>.',
+      'installer.installMigrationError' => 'Грешка при извршување на миграцијата <tt> {$class} </tt>.',
+      'installer.installParseEmailTemplatesFileError' => 'Грешка при анализирање на образецот за е-пошта <tt>{$file}</tt>.',
+      'installer.installParseFilterConfigFileError' => 'Грешка при анализирање на датотеката за конфигурација на филтерот <tt>{$file}</tt>.',
+      'installer.unsupportedUpgradeError' => 'Ажурирајте го неподдржано. Погледнете ги документите / UPGRADE-UNSUPPORTED за детали.',
+      'installer.timezoneInstructions' => 'Временската зона што треба да се користи за овој систем.',
+      'installer.additionalLocalesInstructions' => 'Изберете кои било дополнителни јазици за поддршка во овој систем. Дополнителни јазици, исто така, може да се инсталираат во секое време од интерфејсот за администрација на страницата.<br>* = Означува јазици што не се целосно преведени (> 90% од преведените термини)',
+      'installer.locale' => 'Локализација',
+      'installer.locale.maybeIncomplete' => 'Обележаната локализација можеби некомплетна.',
+      'installer.localeSettings' => 'Подесувања на локализацијата',
+      'installer.oaiSettings' => 'OAI Подесувања',
+      'installer.oaiRepositoryIdInstructions' => 'Уникатен идентификатор користен за идентификација на записите за метаподатоци, индексирани од оваа страница, <a href="https://www.openarchives.org/" target="_blank">Open Archives Initiative</a> користејќи го протоколот за собирање на метаподатоци.',
+      'installer.oaiRepositoryId' => 'Идентификатор на репозиторијумот',
+      'installer.publicFilesDirError' => 'Јавниот директориумот не постои или не може да се запише.',
+      'installer.releaseNotes' => 'Забелешки за изданието',
+      'installer.preInstallationInstructionsTitle' => 'Чекори за прединсталација',
+      'installer.preInstallationInstructions' => '
+		<p>1. Следните фајлови и директориуми (и нивната содржина) мора да бидат достапни за запис:</p>
+		<ul>
+			<li><tt>config.inc.php</tt> е достапано (опционално): {$writable_config}</li>
+			<li><tt>public/</tt> е достапен: {$writable_public}</li>
+			<li><tt>cache/</tt> е достапен: {$writable_cache}</li>
+<li><tt>cache/t_cache/</tt> е достапен: {$writable_templates_cache}</li>
+			<li><tt>cache/t_cache/</tt> е достапен: {$writable_templates_compile}</li>
+			<li><tt>cache/_db</tt> е достапен: {$writable_db_cache}</li>
+		</ul>
+
+		<p>2. Директориумот за аплодирање фајлови мора да биде направен и достапан за запис(погледајте "Подесување на фајлови" подоле).</p>
+	',
+      'installer.configureXSLMessage' => '<p> Во вашата PHP-инсталација не е овозможен XSL-модулот. Или овозможете го, или конфигурирајте го параметарот xslt_command во датотеката config.inc.php. </p>',
+      'installer.beacon' => 'Бикон',
+      'installer.beacon.enable' => 'Додади единствена идентификација на страници и URL-адреса на ОАИ на PKP само за статистика и цели за предупредување за безбедност.',
+      'installer.unsupportedPhpError' => 'PHP-верзијата на вашиот сервер не е поддржана од овој софтвер. Двојно проверете ги барањата за инсталација во документи / README.',
+      'installer.miscSettings' => 'Мешани подесувања',
+    ),
+  ),
+);

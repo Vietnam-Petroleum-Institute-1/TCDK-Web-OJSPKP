@@ -1,0 +1,96 @@
+<?php $exp = 1751345595; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n > 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'emails.submissionAck.subject' => 'Accusé de réception de la soumission',
+      'emails.submissionAck.body' => '{$recipientName}:<br />
+<br />
+Nous vous remercions d\'avoir soumis le manuscrit intitulé « {$submissionTitle} » à la revue {$contextName}. Grâce à notre système de gestion en ligne, vous pourrez suivre votre soumission tout au long du processus d\'édition simplement en accédant au site Web de la revue.<br />
+<br />
+URL du manuscrit : {$submissionUrl}<br />
+Nom d\'utilisateur : {$recipientUsername}<br />
+<br />
+Si vous avez des questions, n\'hésitez pas à communiquer avec nous. Nous vous remercions d\'avoir pensé à notre revue pour la publication de vos travaux.<br />
+<br />
+{$contextSignature}',
+      'emails.reviewAck.subject' => 'Accusé de réception de l\'évaluation d\'une soumission',
+      'emails.reviewAck.body' => '{$recipientName}:<br />
+<br />
+Nous vous remercions d\'avoir évalué la soumission intitulée « {$submissionTitle} » pour {$contextName}. Nous vous sommes reconnaissants de votre contribution à la qualité des travaux que nous publions.',
+      'emails.editorDecisionSendToExternal.subject' => 'Décision du rédacteur',
+      'emails.editorDecisionSendToExternal.body' => '{$authors}:<br />
+<br />
+Nous avons pris une décision concernant votre soumission à {$contextName}, &quot;{$submissionTitle}&quot;.<br />
+<br />
+Notre décision est d\'envoyer votre soumission en évaluation<br />
+<br />
+URL de la soummission : {$submissionUrl}',
+      'emails.editorDecisionSendToProduction.subject' => 'Décision du rédacteur',
+      'emails.editorDecisionSendToProduction.body' => '{$authors},<br />
+<br />
+L\'édition de votre soumission « {$submissionTitle} » est terminée. Nous l\'envoyons maintenant en production.<br />
+<br />
+URL de la soumission : {$submissionUrl}',
+      'emails.editorDecisionRevisions.subject' => 'Décision du rédacteur',
+      'emails.editorDecisionRevisions.body' => '{$authors},<br />
+<br />
+Nous avons pris une décision concernant votre soumission « {$submissionTitle} » à la revue {$contextName}.<br />
+<br />
+Notre décision est de vous demander une nouvelle version de votre soumission.',
+      'emails.editorDecisionResubmit.subject' => 'Décision du rédacteur',
+      'emails.editorDecisionResubmit.body' => '{$authors},<br />
+<br />
+Nous avons pris une décision concernant votre soumission « {$submissionTitle} » à la revue {$contextName}.<br />
+<br />
+Notre décision est de vous demander d\'apporter des révisions à votre soumission et de la soumettre à nouveau.',
+      'emails.editorDecisionDecline.subject' => 'Décision du rédacteur',
+      'emails.editorDecisionDecline.body' => '{$authors},<br />
+<br />
+Nous avons pris une décision concernant votre soumission « {$submissionTitle} » à la revue {$contextName}.<br />
+<br />
+Notre décision est de refuser votre soumission.',
+      'emails.editorRecommendation.subject' => 'Recommandation éditoriale',
+      'emails.editorRecommendation.body' => '{$editors},<br />
+<br />
+La recommandation concernant la soumission « {$submissionTitle} » à la revue {$contextName} est de {$recommendation}',
+      'emails.copyeditRequest.subject' => 'Demande de révision d\'une soumission',
+      'emails.copyeditRequest.body' => '{$recipientName},<br />
+<br />
+J\'aimerais que vous effectuiez la révision du manuscrit intitulé « {$submissionTitle} » pour la revue {$contextName} à l\'aide des étapes suivantes.<br />
+1. Cliquer sur l\'URL de la soumission ci-dessous.<br />
+2. Ouvrir le(s) fichier(s) disponible(s) sous Fichiers des ébauches finales et effectuer votre révision, tout en ajoutant des discussions sur la révision, le cas échéant.<br />
+3. Enregistrer le(s) fichier(s) révisé(s) et le(s) téléverser dans la section Version(s) révisée(s).<br />
+4. Informer le rédacteur ou la rédactrice que tous les fichiers ont été révisés et que l\'étape de production peut débuter.<br />
+<br />
+URL de la revue {$contextName} : {$contextUrl}<br />
+URL de la soumission : {$submissionUrl}<br />
+Nom d\'utilisateur-trice : {$recipientUsername}',
+      'emails.editorDecisionInitialDecline.subject' => 'Décision éditoriale',
+      'emails.editorDecisionInitialDecline.body' => '
+			{$authors},<br />
+<br />
+Nous avons pris une décision concernant votre soumission « {$submissionTitle} » à la revue {$contextName}.<br />
+<br />
+Notre décision est de refuser votre soumission',
+      'emails.discussion.subject' => 'Un message à propos de {$contextName}',
+      'emails.discussion.body' => 'Veuillez saisir votre message.',
+      'emails.reviewConfirm.subject' => 'Acceptation d\'évaluation',
+      'emails.reviewConfirm.body' => 'Rédacteurs, rédactrices,<br />
+<br/>
+Je suis en mesure d\'évaluer la soumission intitulée « {$submissionTitle} » pour la revue {$contextName}. Je vous remercie d\'avoir pensé à moi. Je devrais être en mesure de compléter l\'évaluation pour la date du {$reviewDueDate}, voire avant.<br />
+<br />
+{$senderName}',
+      'emails.submissionAckNotAuthor.subject' => 'Accusé de réception de la soumission',
+      'emails.submissionAckNotAuthor.body' => 'Bonjour,<br />
+<br />
+Le manuscrit intitulé , &quot;{$submissionTitle}&quot;, a été soumis par {$submitterName} à {$contextName}.<br />
+<br />
+Si vous avez des questions, n\'hésitez pas à communiquer avec nous. Nous vous remercions d\'avoir pensé à {$contextName} pour la publication de vos travaux.<br />
+<br />
+{$contextSignature}',
+    ),
+  ),
+);

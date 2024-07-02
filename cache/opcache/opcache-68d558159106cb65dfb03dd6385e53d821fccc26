@@ -1,0 +1,355 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n > 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'emails.passwordResetConfirm.subject' => 'पासवर्ड रीसेट पुष्टि',
+      'emails.passwordResetConfirm.body' => 'हमें {$siteTitle} वेब साइट के लिए आपका पासवर्ड रीसेट करने का अनुरोध मिला है.<br />
+<br />
+यदि आपने यह अनुरोध नहीं किया है, तो कृपया इस ईमेल को अनदेखा करें और आपका पासवर्ड परिवर्तित नहीं किया जाएगा। यदि आप अपना पासवर्ड रीसेट करना चाहते हैं, तो नीचे दिए गए URL पर क्लिक करें.<br />
+<br />
+Reset my password: {$passwordResetUrl}<br />
+<br />
+{$siteContactName}',
+      'emails.userRegister.subject' => 'जर्नल पंजीकरण',
+      'emails.userRegister.body' => '{$recipientName}<br />
+<br />
+अब आपको {$contextName} वाले उपयोगकर्ता के रूप में पंजीकृत किया गया है। हमने इस ईमेल में आपके उपयोगकर्ता नाम और पासवर्ड को शामिल किया है, जो इस वेबसाइट के माध्यम से इस जर्नल के साथ काम करने के लिए आवश्यक हैं। किसी भी बिंदु पर, आप मुझसे संपर्क करके जर्नल की उपयोगकर्ताओं की सूची से निकाले जाने के लिए कह सकते हैं.<br />
+<br />
+Username: {$recipientUsername}<br />
+Password: {$password}<br />
+<br />
+Thank you,<br />
+{$signature}',
+      'emails.userValidateContext.subject' => 'अपना खाता मान्य करें',
+      'emails.userValidateContext.body' => '{$recipientName}<br />
+<br />
+आपने {$contextName} के साथ एक खाता बनाया है, लेकिन इससे पहले कि आप इसका उपयोग शुरू कर सकें, आपको अपने ईमेल खाते को मान्य करना होगा। ऐसा करने के लिए, बस नीचे दिए गए लिंक का पालन करें:<br />
+<br />
+{$activateUrl}<br />
+<br />
+Thank you,<br />
+{$contextSignature}',
+      'emails.reviewerRegister.subject' => '{$contextName}के साथ समीक्षक के रूप में पंजीकरण',
+      'emails.reviewerRegister.body' => 'आपकी विशेषज्ञता के प्रकाश में, हमने {$contextName} के लिए समीक्षक डेटाबेस में आपका नाम दर्ज करने की स्वतंत्रता ले ली है। यह आपकी ओर से किसी भी प्रकार की प्रतिबद्धता को पूरा नहीं करता है, लेकिन संभवतया समीक्षा के लिए प्रस्तुत करने के लिए बस हमें आपसे संपर्क करने में सक्षम बनाता है। समीक्षा के लिए आमंत्रित किए जाने पर, आपके पास प्रश्न में कागज का शीर्षक और सार देखने का अवसर होगा, और आप हमेशा आमंत्रण को स्वीकार या अस्वीकार करने की स्थिति में होंगे। आप किसी भी बिंदु पर इस समीक्षक सूची से अपना नाम हटाने के लिए कह सकते हैं.<br />
+<br />
+हम आपको एक उपयोगकर्ता नाम और पासवर्ड प्रदान कर रहे हैं, जो अपनी वेबसाइट के माध्यम से जर्नल के साथ सभी बातचीत में उपयोग किया जाता है। उदाहरण के लिए, आप अपनी समीक्षा हितों सहित अपनी प्रोफ़ाइल को अपडेट कर सकते हैं.<br />
+<br />
+Username: {$recipientUsername}<br />
+Password: {$password}<br />
+<br />
+Thank you,<br />
+{$signature}',
+      'emails.issuePublishNotify.subject' => 'नया अंक प्रकाशित',
+      'emails.issuePublishNotify.body' => 'Readers:<br />
+<br />
+{$contextName} ने अभी हाल ही में  {$contextUrl} पर अपना नवीनतम अंक प्रकाशित किया है। हम आपको यहां सामग्री की समीक्षा करने के लिए आमंत्रित करते हैं और फिर लेख और रुचि की वस्तुओं की समीक्षा करने के लिए हमारी वेब साइट पर जाते हैं.<br />
+<br />
+हमारे काम में निरंतर रुचि के लिए धन्यवाद,<br />
+{$signature}',
+      'emails.editorAssign.subject' => 'संपादकीय असाइनमेंट',
+      'emails.editorAssign.body' => '{$recipientName}:<br />
+<br />
+प्रस्तुत, &quot;{$submissionTitle},&quot; to {$contextName} आपको सेक्शन एडिटर के रूप में अपनी भूमिका में संपादकीय प्रक्रिया के माध्यम से देखने का काम सौंपा गया है.<br />
+<br />
+Submission URL: {$submissionUrl}<br />
+Username: {$recipientUsername}<br />
+<br />
+Thank you.',
+      'emails.reviewRequest.subject' => 'लेख समीक्षा का अनुरोध',
+      'emails.reviewRequest.body' => '{$recipientName}:<br />
+<br />
+मुझे विश्वास है कि आप पांडुलिपि के एक उत्कृष्ट समीक्षक के रूप में काम करेंगे, &quot;{$submissionTitle},&quot; जिसे {$contextName}को सबमिट किया गया है। सबमिशन का सार नीचे दिया गया है, और मुझे आशा है कि आप हमारे लिए इस महत्वपूर्ण कार्य को करने पर विचार करेंगे.<br />
+<br />
+कृपया जर्नल वेब साइट पर लॉग इन करें {$responseDueDate} यह इंगित करने के लिए कि क्या आप समीक्षा करेंगे या नहीं, साथ ही सबमिशन तक पहुँचने के लिए और अपनी समीक्षा और अनुशंसा दर्ज करने के लिए। वेब साइट है {$contextUrl}<br />
+<br />
+The review itself is due {$reviewDueDate}.<br />
+<br />
+यदि आपके पास जर्नल की वेब साइट के लिए आपका उपयोगकर्ता नाम और पासवर्ड नहीं है, तो आप अपना पासवर्ड रीसेट करने के लिए इस लिंक का उपयोग कर सकते हैं (जो तब आपके उपयोगकर्ता नाम के साथ आपको ईमेल किया जाएगा). {$passwordLostUrl}<br />
+<br />
+Submission URL: {$reviewAssignmentUrl}<br />
+<br />
+इस अनुरोध पर विचार करने के लिए धन्यवाद.<br />
+<br />
+{$signature}<br />
+<br />
+&quot;{$submissionTitle}&quot;<br />
+<br />
+{$submissionAbstract}',
+      'emails.reviewResponseOverdueAuto.subject' => 'लेख समीक्षा का अनुरोध',
+      'emails.reviewResponseOverdueAuto.body' => '{$recipientName}:<br />
+प्रस्तुत करने की आपकी समीक्षा के लिए हमारे अनुरोध का एक सौम्य अनुस्मारक, &quot;{$submissionTitle},&quot; for {$contextName}. हम {$ responseDueDate} द्वारा आपकी प्रतिक्रिया की उम्मीद कर रहे थे, और यह ईमेल स्वचालित रूप से जनरेट किया गया है और उस तारीख को पारित करने के साथ भेजा गया है.
+<br />
+मुझे विश्वास है कि आप पांडुलिपि के एक उत्कृष्ट समीक्षक के रूप में काम करेंगे। सबमिशन का सार नीचे दिया गया है, और मुझे आशा है कि आप हमारे लिए इस महत्वपूर्ण कार्य को करने पर विचार करेंगे.<br />
+<br />
+कृपया यह दर्शाने के लिए जर्नल वेब साइट पर लॉग इन करें कि क्या आप समीक्षा करेंगे या नहीं, साथ ही सबमिशन तक पहुँचने के लिए और अपनी समीक्षा और सिफारिश रिकॉर्ड करने के लिए। वेब साइट है {$contextUrl}<br />
+<br />
+समीक्षा स्वयं होने वाली है {$reviewDueDate}.<br />
+<br />
+यदि आपके पास जर्नल की वेब साइट के लिए आपका उपयोगकर्ता नाम और पासवर्ड नहीं है, तो आप अपना पासवर्ड रीसेट करने के लिए इस लिंक का उपयोग कर सकते हैं (जो तब आपके उपयोगकर्ता नाम के साथ आपको ईमेल किया जाएगा). {$passwordLostUrl}<br />
+<br />
+Submission URL: {$reviewAssignmentUrl}<br />
+<br />
+इस अनुरोध पर विचार करने के लिए धन्यवाद.<br />
+<br />
+{$contextSignature}<br />
+<br />
+&quot;{$submissionTitle}&quot;<br />
+<br />
+{$submissionAbstract}',
+      'emails.reviewRequestSubsequent.subject' => 'लेख समीक्षा का अनुरोध',
+      'emails.reviewRequestSubsequent.body' => '{$recipientName}:<br />
+<br />
+यह पांडुलिपि का संबंध है &quot;{$submissionTitle},&quot; जो विचाराधीन है {$contextName}.<br />
+<br />
+पांडुलिपि के पिछले संस्करण की समीक्षा के बाद, लेखकों ने अब अपने पेपर का एक संशोधित संस्करण प्रस्तुत किया है। यदि आप इसका मूल्यांकन करने में मदद कर सकते हैं तो हम इसकी सराहना करेंगे.<br />
+<br />
+कृपया यह दिखाने के लिए कि क्या आप समीक्षा करेंगे या नहीं, साथ ही सबमिशन एक्सेस करने और अपनी समीक्षा और अनुशंसा दर्ज करने के लिए कृपया {$responseDueDate} द्वारा जर्नल वेब साइट पर लॉग इन करें। वेब साइट है {$contextUrl}<br />
+<br />
+समीक्षा स्वयं होने वाली है{$reviewDueDate}.<br />
+<br />
+यदि आपके पास जर्नल की वेब साइट के लिए आपका उपयोगकर्ता नाम और पासवर्ड नहीं है, तो आप अपना पासवर्ड रीसेट करने के लिए इस लिंक का उपयोग कर सकते हैं (जो तब आपके उपयोगकर्ता नाम के साथ आपको ईमेल किया जाएगा). {$passwordLostUrl}<br />
+<br />
+सबमिशन URL: {$reviewAssignmentUrl}<br />
+<br />
+इस अनुरोध पर विचार करने के लिए धन्यवाद।<br />
+<br />
+{$signature}<br />
+<br />
+&quot;{$submissionTitle}&quot;<br />
+<br />
+{$submissionAbstract}',
+      'emails.reviewCancel.subject' => 'समीक्षा रद्द करने का अनुरोध',
+      'emails.reviewCancel.body' => '{$recipientName}:<br />
+<br />
+हमने इस बिंदु पर निर्णय लिया है कि आप सबमिशन की समीक्षा करने के लिए हमारा अनुरोध रद्द कर दें, &quot;{$submissionTitle},&quot; for {$contextName}. हम आपसे किसी भी असुविधा के लिए क्षमा चाहते हैं और यह आशा करते हैं कि हम भविष्य में इस पत्रिका की समीक्षा प्रक्रिया में सहायता करने के लिए आपको कॉल कर सकेंगे।.<br />
+<br />
+यदि आपके पास किसी तरह का प्रश्न है, तो कृपया मुझ से सम्पर्क करें.',
+      'emails.reviewReinstate.subject' => 'पुनर्स्थापना के लिए अनुरोध',
+      'emails.reviewReinstate.body' => '{$recipientName}:<br />
+<br />
+हम आपके द्वारा प्रस्तुत समीक्षा की समीक्षा करने के लिए आपके अनुरोध को पुनः स्थापित करना चाहेंगे, &quot;{$submissionTitle},&quot; for {$contextName}. हमें उम्मीद है कि आप इस पत्रिका की समीक्षा प्रक्रिया में सहायता कर पाएंगे.<br />
+<br />
+यदि आपके पास किसी तरह का प्रश्न है, तो कृपया मुझ से सम्पर्क करें।',
+      'emails.reviewDecline.subject' => 'समीक्षा करने में असमर्थ',
+      'emails.reviewDecline.body' => 'Editors:<br />
+<br />
+मुझे डर है कि इस समय मैं सबमिशन की समीक्षा करने में असमर्थ हूं, &quot;{$submissionTitle},&quot; for {$contextName}. मुझे सोचने के लिए धन्यवाद, और एक और समय मुझे कॉल करने के लिए स्वतंत्र महसूस हो रहा है.<br />
+<br />
+{$senderName}',
+      'emails.reviewRemind.subject' => 'सबमिशन रिव्यू रिमाइंडर',
+      'emails.reviewRemind.body' => '{$recipientName}:<br />
+<br />
+प्रस्तुत करने की आपकी समीक्षा के लिए हमारे अनुरोध का एक सौम्य अनुस्मारक, &quot;{$submissionTitle},&quot; for {$contextName}. हम {$ reviewDueDate} द्वारा इस समीक्षा की उम्मीद कर रहे थे, और जैसे ही आप इसे तैयार करने वाले हैं, इसे प्राप्त करके प्रसन्न होंगे.<br />
+<br />
+यदि आपके पास जर्नल की वेब साइट के लिए आपका उपयोगकर्ता नाम और पासवर्ड नहीं है, तो आप अपना पासवर्ड रीसेट करने के लिए इस लिंक का उपयोग कर सकते हैं (जो तब आपके उपयोगकर्ता नाम के साथ आपको ईमेल किया जाएगा)। {$ PasswordResetUrl}<br />
+<br />
+Submission URL: {$reviewAssignmentUrl}<br />
+<br />
+कृपया जर्नल के काम में इस महत्वपूर्ण योगदान को पूरा करने की अपनी क्षमता की पुष्टि करें। तुम्हारे उत्तर की प्रतीक्षा है मुझे.<br />
+<br />
+{$signature}',
+      'emails.reviewRemindAuto.subject' => 'ऑटोमेटेड सबमिशन रिव्यू रिमाइंडर',
+      'emails.reviewRemindAuto.body' => '{$recipientName}:<br />
+<br />
+प्रस्तुत करने की आपकी समीक्षा के लिए हमारे अनुरोध का एक सौम्य अनुस्मारक, &quot;{$submissionTitle},&quot; for {$contextName}. हम {$ reviewDueDate} द्वारा इस समीक्षा की उम्मीद कर रहे थे, और यह ईमेल स्वचालित रूप से जनरेट किया गया है और उस तारीख को पारित करने के साथ भेजा गया है। जैसे ही आप इसे तैयार करने में सक्षम होंगे, हम इसे प्राप्त करके प्रसन्न होंगे.<br />
+<br />
+यदि आपके पास जर्नल की वेब साइट के लिए आपका उपयोगकर्ता नाम और पासवर्ड नहीं है, तो आप अपना पासवर्ड रीसेट करने के लिए इस लिंक का उपयोग कर सकते हैं (जो तब आपके उपयोगकर्ता नाम के साथ आपको ईमेल किया जाएगा)। {$ PasswordResetUrl}<br />
+<br />
+Submission URL: {$reviewAssignmentUrl}<br />
+<br />
+कृपया जर्नल के काम में इस महत्वपूर्ण योगदान को पूरा करने की अपनी क्षमता की पुष्टि करें। तुम्हारे उत्तर की प्रतीक्षा है मुझे.<br />
+<br />
+{$contextSignature}',
+      'emails.editorDecisionAccept.subject' => 'संपादक का निर्णय',
+      'emails.editorDecisionAccept.body' => '{$authors}:<br />
+<br />
+हम आपके सबमिशन के बारे में निर्णय ले चुके हैं to {$contextName}, &quot;{$submissionTitle}&quot;.<br />
+<br />
+हमारा निर्णय है: सबमिशन को स्वीकार करना',
+      'emails.layoutRequest.subject' => 'अनुरोध गैलीज़',
+      'emails.layoutRequest.body' => '{$recipientName}:<br />
+<br />
+The submission &quot;{$submissionTitle}&quot; to {$contextName} अब इन चरणों का पालन करके गैलियों की जरूरत है.<br />
+1. नीचे दिए गए सबमिशन यूआरएल पर क्लिक करें.<br />
+2. जर्नल में लॉग इन करें और जर्नल के मानकों के अनुसार गैलिलियों को बनाने के लिए प्रोडक्शन रेडी फाइलों का उपयोग करें.<br />
+3. गैलीज़ को गैली फ़ाइल्स अनुभाग में अपलोड करें.<br />
+4. प्रोडक्शन डिस्कशन का उपयोग करके संपादक को सूचित करें कि गैलिसियां अपलोड और तैयार हैं.<br />
+<br />
+{$contextName} URL: {$contextUrl}<br />
+Submission URL: {$submissionUrl}<br />
+Username: {$recipientUsername}<br />
+<br />
+यदि आप इस समय यह कार्य करने में असमर्थ हैं या कोई प्रश्न हैं, तो कृपया मुझसे संपर्क करें। इस जर्नल में आपके योगदान के लिए धन्यवाद.',
+      'emails.layoutComplete.subject' => 'गैलीज़ पूर्ण',
+      'emails.layoutComplete.body' => '{$recipientName}:<br />
+<br />
+पांडुलिपि के लिए अब गैलीज़  तैयार की गई हैं, &quot;{$submissionTitle},&quot; for {$contextName} and are ready for proofreading.<br />
+<br />
+यदि आपके पास किसी तरह का प्रश्न है, तो कृपया मुझ से सम्पर्क करें.<br />
+<br />
+{$senderName}',
+      'emails.emailLink.subject' => 'संभावित ब्याज का आलेख',
+      'emails.emailLink.body' => 'सोचा कि आपको देखने में दिलचस्पी हो सकती है &quot;{$submissionTitle}&quot; by {$authors} published in Vol {$volume}, No {$number} ({$year}) of {$contextName} at &quot;{$submissionUrl}&quot;.',
+      'emails.emailLink.description' => 'यह ईमेल टेम्प्लेट एक पंजीकृत पाठक को एक लेख के बारे में जानकारी भेजने का अवसर प्रदान करता है, जिसे कोई दिलचस्पी हो। यह रीडिंग टूल्स के माध्यम से उपलब्ध है और जर्नल मैनेजर द्वारा रीडिंग टूल्स एडमिनिस्ट्रेशन पेज में सक्षम होना चाहिए.',
+      'emails.subscriptionNotify.subject' => 'सदस्यता अधिसूचना',
+      'emails.subscriptionNotify.body' => '{$recipientName}:<br />
+<br />
+अब आप हमारी ऑनलाइन जर्नल मैनेजमेंट सिस्टम में {$contextName} के लिए एक सब्सक्राइबर के रूप में पंजीकृत हो गए हैं, निम्नलिखित सदस्यता के साथ:<br />
+<br />
+{$subscriptionType}<br />
+<br />
+केवल ग्राहकों के लिए उपलब्ध सामग्री तक पहुँचने के लिए, सिस्टम में अपने यूज़रनेम के साथ लॉग इन करें, &quot;{$recipientUsername}&quot;.<br />
+<br />
+एक बार जब आप सिस्टम में लॉग इन कर लेते हैं तो आप किसी भी बिंदु पर अपना प्रोफ़ाइल विवरण और पासवर्ड बदल सकते हैं.<br />
+<br />
+कृपया ध्यान दें कि यदि आपके पास एक संस्थागत सदस्यता है, तो आपके संस्थान में उपयोगकर्ताओं को लॉग इन करने की कोई आवश्यकता नहीं है, क्योंकि सदस्यता सामग्री के लिए अनुरोध स्वचालित रूप से सिस्टम द्वारा प्रमाणित किया जाएगा।.<br />
+<br />
+यदि आपके कोई प्रश्न हैं, तो कृपया मुझसे बेझिझक संपर्क करें.<br />
+<br />
+{$subscriptionSignature}',
+      'emails.openAccessNotify.subject' => 'अंक अब ओपन एक्सेस',
+      'emails.openAccessNotify.body' => 'Readers:<br />
+<br />
+{$contextName} निम्नलिखित मुद्दे पर सिर्फ एक ओपन एक्सेस फॉर्मेट में उपलब्ध कराया गया है। हम आपको यहां सामग्री की तालिका की समीक्षा करने के लिए आमंत्रित करते हैं और फिर लेख और रुचि की वस्तुओं की समीक्षा करने के लिए हमारी वेब साइट ({$contextUrl}) पर जाएं।.<br />
+<br />
+हमारे काम में निरंतर रुचि के लिए धन्यवाद,<br />
+{$contextSignature}',
+      'emails.subscriptionBeforeExpiry.subject' => 'सदस्यता समाप्ति की सूचना',
+      'emails.subscriptionBeforeExpiry.body' => '{$recipientName}:<br />
+<br />
+आपकी {$contextName} सदस्यता समाप्त होने वाली है.<br />
+<br />
+{$subscriptionType}<br />
+Expiry date: {$expiryDate}<br />
+<br />
+इस पत्रिका तक अपनी पहुंच की निरंतरता सुनिश्चित करने के लिए, कृपया वेबसाइट पर जाएं और अपनी सदस्यता को नवीनीकृत करें। आप अपने उपयोगकर्ता नाम के साथ सिस्टम में लॉग इन करने में सक्षम हैं, &quot;{$recipientUsername}&quot;.<br />
+<br />
+यदि आपके कोई प्रश्न हैं, तो कृपया मुझसे बेझिझक संपर्क करें.<br />
+<br />
+{$subscriptionSignature}',
+      'emails.subscriptionAfterExpiry.subject' => 'सदस्यता समाप्त हो गई',
+      'emails.subscriptionAfterExpiry.body' => '{$recipientName}:<br />
+<br />
+आपकी {$contextName} सदस्यता समाप्त हो गई है.<br />
+<br />
+{$subscriptionType}<br />
+Expiry date: {$expiryDate}<br />
+<br />
+अपनी सदस्यता को नवीनीकृत करने के लिए, कृपया जर्नल वेबसाइट पर जाएं। आप अपने उपयोगकर्ता नाम के साथ सिस्टम में लॉग इन करने में सक्षम हैं, &quot;{$recipientUsername}&quot;.<br />
+<br />
+यदि आपके कोई प्रश्न हैं, तो कृपया मुझसे बेझिझक संपर्क करें.<br />
+<br />
+{$subscriptionSignature}',
+      'emails.subscriptionAfterExpiryLast.subject' => 'सदस्यता समाप्त - अंतिम अनुस्मारक',
+      'emails.subscriptionAfterExpiryLast.body' => '{$recipientName}:<br />
+<br />
+आपकी {$contextName} सदस्यता समाप्त हो गई है.<br />
+कृपया ध्यान दें कि यह अंतिम अनुस्मारक है जिसे आपको ईमेल किया जाएगा.<br />
+<br />
+{$subscriptionType}<br />
+Expiry date: {$expiryDate}<br />
+<br />
+अपनी सदस्यता को नवीनीकृत करने के लिए, कृपया जर्नल वेबसाइट पर जाएं। आप अपने उपयोगकर्ता नाम के साथ सिस्टम में लॉग इन करने में सक्षम हैं, &quot;{$recipientUsername}&quot;.<br />
+<br />
+यदि आपके कोई प्रश्न हैं, तो कृपया मुझसे बेझिझक संपर्क करें.<br />
+<br />
+{$subscriptionSignature}',
+      'emails.subscriptionPurchaseIndl.subject' => 'सदस्यता खरीद: व्यक्तिगत',
+      'emails.subscriptionPurchaseIndl.body' => 'निम्नलिखित विवरण के साथ {$ contextName} के लिए एक व्यक्तिगत सदस्यता ऑनलाइन खरीदी गई है।<br />
+<br />
+Subscription Type:<br />
+{$subscriptionType}<br />
+<br />
+User:<br />
+{$subscriberDetails}<br />
+<br />
+सदस्यता जानकारी (यदि प्रदान की गई है):<br />
+{$membership}<br />
+<br />
+इस सदस्यता को देखने या संपादित करने के लिए, कृपया निम्न URL का उपयोग करें.<br />
+<br />
+Subscription URL: {$subscriptionUrl}<br />
+',
+      'emails.subscriptionPurchaseInstl.subject' => 'सदस्यता खरीद: व्यक्तिगत',
+      'emails.subscriptionPurchaseInstl.body' => 'निम्नलिखित विवरण के साथ {$contextName} के लिए एक संस्थागत सदस्यता ऑनलाइन खरीदी गई है। इस सदस्यता को सक्रिय करने के लिए, कृपया दिए गए सदस्यता URL का उपयोग करें और सदस्यता की स्थिति को \'सक्रिय\' पर सेट करें.<br />
+<br />
+Subscription Type:<br />
+{$subscriptionType}<br />
+<br />
+Institution:<br />
+{$institutionName}<br />
+{$institutionMailingAddress}<br />
+<br />
+Domain (if provided):<br />
+{$domain}<br />
+<br />
+IP Ranges (if provided):<br />
+{$ipRanges}<br />
+<br />
+Contact Person:<br />
+{$subscriberDetails}<br />
+<br />
+सदस्यता जानकारी (यदि प्रदान की गई है):<br />
+{$membership}<br />
+<br />
+इस सदस्यता को देखने या संपादित करने के लिए, कृपया निम्न URL का उपयोग करें.<br />
+<br />
+सदस्यता URL: {$subscriptionUrl}<br />
+',
+      'emails.subscriptionRenewIndl.subject' => 'सदस्यता नवीनीकरण: व्यक्तिगत',
+      'emails.subscriptionRenewIndl.body' => 'निम्नलिखित विवरण के साथ {$contextName} के लिए एक व्यक्तिगत सदस्यता ऑनलाइन नवीनीकृत की गई है.<br />
+<br />
+Subscription Type:<br />
+{$subscriptionType}<br />
+<br />
+User:<br />
+{$subscriberDetails}<br />
+<br />
+सदस्यता जानकारी (यदि प्रदान की गई है):<br />
+{$membership}<br />
+<br />
+इस सदस्यता को देखने या संपादित करने के लिए, कृपया निम्न URL का उपयोग करें.<br />
+<br />
+सदस्यता URL: {$subscriptionUrl}<br />
+',
+      'emails.subscriptionRenewInstl.subject' => 'सदस्यता नवीनीकरण: व्यक्तिगत',
+      'emails.subscriptionRenewInstl.body' => 'निम्नलिखित विवरण के साथ {$contextName} के लिए एक संस्थागत सदस्यता ऑनलाइन नवीनीकृत की गई है.<br />
+<br />
+Subscription Type:<br />
+{$subscriptionType}<br />
+<br />
+Institution:<br />
+{$institutionName}<br />
+{$institutionMailingAddress}<br />
+<br />
+डोमेन (यदि प्रदान किया गया है):<br />
+{$domain}<br />
+<br />
+आईपी रेंज (यदि प्रदान की गई है):<br />
+{$ipRanges}<br />
+<br />
+संपर्क व्यक्ति:<br />
+{$subscriberDetails}<br />
+<br />
+सदस्यता जानकारी (यदि प्रदान की गई है):<br />
+{$membership}<br />
+<br />
+इस सदस्यता को देखने या संपादित करने के लिए, कृपया निम्न URL का उपयोग करें.<br />
+<br />
+सदस्यता URL: {$subscriptionUrl}<br />
+',
+      'emails.revisedVersionNotify.subject' => 'संशोधित संस्करण अपलोड किया गया',
+      'emails.revisedVersionNotify.body' => 'संपादकों:<br />
+<br />
+का संशोधित संस्करण &quot;{$submissionTitle}&quot; लेखक द्वारा अपलोड किया गया है {$submitterName}.<br />
+<br />
+सबमिशन URL: {$submissionUrl}<br />
+<br />
+{$signature}',
+      'emails.statisticsReportNotification.subject' => '{$ माह}, {$ वर्ष} के लिए संपादकीय गतिविधि',
+    ),
+  ),
+);

@@ -1,0 +1,12 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.htmlArticleGalley.displayName' => '"Мақаланың HTML-түйіні" модулі',
+      'plugins.generic.htmlArticleGalley.description' => 'HTML форматындағы мақалалар үшін дисплей қолдауын қамтамасыз етеді.',
+    ),
+  ),
+);

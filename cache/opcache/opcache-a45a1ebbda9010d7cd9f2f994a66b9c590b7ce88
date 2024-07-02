@@ -1,0 +1,60 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=1; plural=0;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.importexport.crossref.error.publisherNotConfigured' => 'Penerbit jurnal belum dikonfigurasi! Anda mesti menambah institusi penerbit di <a href="{$journalSettingsUrl}" target="_blank"> Halaman Tetapan Jurnal </a>.',
+      'plugins.importexport.crossref.requirements.satisfied' => 'Semua syarat plugin dipenuhi.',
+      'plugins.importexport.crossref.requirements' => 'Keperluan',
+      'plugins.importexport.crossref.description' => 'Eksport metadata artikel dalam format XML Crossref.',
+      'plugins.importexport.crossref.displayName' => 'Crossref XML Eksport Plugin',
+      'plugins.importexport.crossref.export.error.articleNotFound' => 'Tidak ada artikel yang sesuai dengan ID artikel yang ditentukan "{$articleId}".',
+      'plugins.importexport.crossref.export.error.issueNotFound' => 'Tidak ada terbiran yang sepadan dengan ID terbitan yang ditentukan "{$issueId}".',
+      'plugins.importexport.crossref.register.success.warning' => 'Pendaftaran berjaya tetapi amaran berikut berlaku: \'{$ param}\'.',
+      'plugins.importexport.crossref.register.error.mdsError' => 'Pendaftaran tidak berjaya sepenuhnya! Pelayan pendaftaran DOI mengembalikan ralat.',
+      'plugins.importexport.crossref.cliUsage' => 'Penggunaan:
+{$scriptName} {$pluginName} eksport [xmlFileName] [journal_path] artikel objectId1 [objectId2] ...
+{$scriptName} {$pluginName} daftar [journal_path] artikel objectId1 [objectId2] ...
+',
+      'plugins.importexport.crossref.senderTask.name' => 'Crossref tugas pendaftaran automatik',
+      'plugins.importexport.crossref.action.markRegistered' => 'Tandakan aktif',
+      'plugins.importexport.crossref.action.export' => 'Eksport',
+      'plugins.importexport.crossref.statusLegend' => '
+		<p> Status deposit: </p>
+		<p>
+		- Tidak didepositkan: tiada percubaan deposit untuk DOI ini. <br />
+		- Aktif: DOI telah disimpan, dan diselesaikan dengan betul. <br />
+		- Gagal: deposit DOI telah gagal. <br />
+		- Ditandakan aktif: DOI secara manual ditandakan sebagai aktif.
+		</p>
+		<p> Hanya status percubaan deposit terakhir yang ditampilkan. </p>
+		<p> Sekiranya deposit gagal, selesaikan masalahnya dan cuba mendaftarkan DOI sekali lagi. </p>',
+      'plugins.importexport.crossref.action.register' => 'Deposit',
+      'plugins.importexport.crossref.status.markedRegistered' => 'Ditanda aktif',
+      'plugins.importexport.crossref.status.registered' => 'Aktif',
+      'plugins.importexport.crossref.status.failed' => 'Gagal',
+      'plugins.importexport.crossref.issues.description' => 'Catatan: Hanya terbitan(dan bukan artikel mereka) yang akan dipertimbangkan untuk eksport/pendaftaran di sini.',
+      'plugins.importexport.crossref.settings.form.onlyValidateExport' => 'Hanya mengesahkan eksport. Jangan muat turun fail.',
+      'plugins.importexport.crossref.settings.form.validation' => 'Sahkan XML. Gunakan pilihan ini untuk muat turun XML untuk pendaftaran DOI manual.',
+      'plugins.importexport.crossref.settings.form.testMode.description' => 'Gunakan API ujian Crossref (persekitaran ujian) untuk deposit DOI. Sila jangan lupa untuk mengalih keluar pilihan ini untuk pengeluaran.',
+      'plugins.importexport.crossref.settings.form.automaticRegistration.description' => 'OJS akan mendepositkan DOI yang diberikan secara automatik ke Crossref. Sila ambil perhatian bahawa ini mungkin mengambil masa yang singkat selepas penerbitan untuk diproses (cth. bergantung pada konfigurasi cronjob anda). Anda boleh menyemak semua DOI yang tidak berdaftar.',
+      'plugins.importexport.crossref.settings.form.usernameRequired' => 'Sila masukkan nama pengguna yang anda dapat daripada Crossref.',
+      'plugins.importexport.crossref.settings.form.username' => 'Nama pengguna',
+      'plugins.importexport.crossref.registrationIntro' => 'Jika anda ingin menggunakan pemalam ini untuk mendaftarkan Pengecam Objek Digital (DOI) terus dengan Crossref, anda memerlukan nama pengguna dan kata laluan (tersedia daripada <a href="https://www.crossref.org" target="_blank"> Crossref</a>) untuk berbuat demikian. Jika anda tidak mempunyai nama pengguna dan kata laluan anda sendiri, anda masih boleh mengeksport ke dalam format XML Crossref, tetapi anda tidak boleh mendaftarkan DOI anda dengan Crossref dari dalam OJS.',
+      'plugins.importexport.crossref.settings.form.depositorEmailRequired' => 'Sila masukkan e-mel pendeposit.',
+      'plugins.importexport.crossref.settings.form.depositorNameRequired' => 'Sila masukkan nama pendeposit.',
+      'plugins.importexport.crossref.settings.form.depositorEmail' => 'E-mel pendeposit',
+      'plugins.importexport.crossref.settings.form.depositorName' => 'Nama pendeposit',
+      'plugins.importexport.crossref.settings.depositorIntro' => 'Item berikut diperlukan untuk deposit Crossref yang berjaya.',
+      'plugins.importexport.crossref.error.noDOIContentObjects' => 'Artikel tidak dipilih untuk penugasan DOI dalam plugin pengenalpasti umum DOI, jadi tiada deposit atau eksport dalam plugin ini.',
+      'plugins.importexport.crossref.error.issnNotConfigured' => 'Jurnal ISSN belum dikonfigurasi! Anda mesti menambahkan ISSN di <a href="{$journalSettingsUrl}" target="_blank"> Halaman Tetapan Jurnal </a>.',
+      'plugins.generic.crossref.description' => 'Mengendalikan mendeposit dan mengeksport metadata Crossref',
+      'plugins.generic.crossref.displayName' => 'Pemalam Pengurus Crossref',
+      'plugins.importexport.crossref.settings' => 'Tetapan Crossref',
+      'plugins.generic.crossref.registrationAgency.name' => 'Crossref',
+      'plugins.importexport.crossref.status.notDeposited' => 'Tidak disimpan',
+    ),
+  ),
+);

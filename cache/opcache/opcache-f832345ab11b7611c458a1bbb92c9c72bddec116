@@ -1,0 +1,22 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.announcementfeed.displayName' => 'Duyuru Besleme Eklentisi',
+      'plugins.generic.announcementfeed.description' => 'Bu eklenti, dergi duyuruları için RSS/Atom web akış beslemeleri üretir.',
+      'plugins.generic.announcementfeed.settings' => 'Ayarlar',
+      'plugins.generic.announcementfeed.settings.all' => 'Besleme bağlantılarını tüm dergi sayfalarında göster.',
+      'plugins.generic.announcementfeed.settings.homepage' => 'Besleme bağlantılarını yalnızca anasayfa ve duyuru sayfasında göster.',
+      'plugins.generic.announcementfeed.settings.announcement' => 'Besleme bağlantılarını yalnızca duyuru sayfasında göster.',
+      'plugins.generic.announcementfeed.settings.recentAnnouncements1' => 'Gösterilecek besleme bağlantısı sayısı',
+      'plugins.generic.announcementfeed.settings.recentAnnouncements2' => 'en son duyurular.',
+      'plugins.generic.announcementfeed.settings.recentItemsRequired' => 'Lütfen en son duyurular için pozitif bir tamsayı giriniz.',
+      'plugins.generic.announcementfeed.atom.altText' => 'Atom logo',
+      'plugins.generic.announcementfeed.rss1.altText' => 'RSS1 logo',
+      'plugins.generic.announcementfeed.rss2.altText' => 'RSS2 logo',
+    ),
+  ),
+);

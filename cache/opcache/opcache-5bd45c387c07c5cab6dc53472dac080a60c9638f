@@ -1,0 +1,32 @@
+<?php $exp = 1751345595; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n > 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'api.announcements.400.contextsNotMatched' => 'L\'annonce que vous avez demandée ne fait pas partie de cette revue.',
+      'api.emails.403.disabled' => 'La fonction de notification par courriel n\'a pas été activée pour cette revue.',
+      'api.submissions.400.wrongContext' => 'La soumission que vous avez demandée n\'est pas dans cette revue.',
+      'api.submissions.403.cantChangeContext' => 'Vous ne pouvez pas changer la revue d\'une soumission.',
+      'api.submissions.403.unpublishedIssues' => 'Vous n\'êtes pas autorisé-e à faire afficher les numéros non publiés.',
+      'api.contexts.403.requestedDisabledContexts' => 'Vous ne pouvez faire afficher que les revues qui ont été activées.',
+      'api.contexts.403.notAllowed' => 'Vous n\'avez pas la permission de faire afficher cette revue.',
+      'api.contexts.403.contextsDidNotMatch' => 'Vous ne pouvez pas faire afficher ou modifier cette revue sauf si vous faites une requête via l\'API de la revue ou encore l\'API du site.',
+      'api.contexts.403.requiresContext' => 'Vous ne pouvez pas modifier cette revue à partir de l\'API du site.',
+      'api.contexts.403.notAllowedEdit' => 'Vous n\'êtes pas autorisé-e à modifier cette revue.',
+      'api.contexts.403.notAllowedDelete' => 'Vous n\'êtes pas autorisé-e à supprimer cette revue.',
+      'api.contexts.404.contextNotFound' => 'La revue que vous avez demandée n\'a pas été trouvée.',
+      'api.dois.403.contextsNotMatched' => 'Le DOI demandé ne fait pas partie de cette revue.',
+      'api.dois.400.noRegistrationAgencyConfigured' => 'Aucune agence d\'enregistrement de DOI n\'a été configurée pour cette revue.',
+      'api.dois.400.depositFailed' => 'Certains articles n\'ont pas été déposés avec succès. Veuillez vérifier les messages d\'erreur spécifiques à chaque article.',
+      'api.emailTemplates.403.notAllowedChangeContext' => 'Vous n\'êtes pas autorisé-e à déplacer ce modèle de courriel vers une autre revue.',
+      'api._payments.400.invalidPaymentMethod' => 'Le mode de paiement que vous avez sélectionné n\'est pas pris en charge.',
+      'api.publications.403.contextsDidNotMatch' => 'La publication que vous avez demandée ne fait pas partie de cette revue.',
+      'api.publications.403.submissionsDidNotMatch' => 'La publication que vous avez demandée ne fait pas partie de cette soumission.',
+      'api.submissionFiles.400.badRepresentationAssocType' => 'Vous ne pouvez pas, à cette étape-ci du processus éditorial, associer un fichier aux épreuves.',
+      'api.submission.400.inactiveSection' => 'Cette rubrique ne reçoit plus de soumission.',
+      'api.dois.400.contextsNotMatched' => 'Le DOI demandé ne fait pas partie de cette revue.',
+    ),
+  ),
+);

@@ -1,0 +1,27 @@
+<?php $exp = 1751345599; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=1; plural=0;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.themes.default.name' => 'Chủ đề mặc định',
+      'plugins.themes.default.description' => 'Chủ đề này thực hiện chủ đề mặc định.',
+      'plugins.themes.default.option.typography.label' => 'Kiểu chữ',
+      'plugins.themes.default.option.typography.description' => 'Chọn một sự kết hợp phông chữ phù hợp với tạp chí này.',
+      'plugins.themes.default.option.typography.notoSans' => 'Noto Sans: Phông chữ gốc kỹ thuật số được Google thiết kế để hỗ trợ ngôn ngữ rộng rãi.',
+      'plugins.themes.default.option.typography.notoSerif' => 'Noto Serif: Một biến thể serif của phông chữ gốc kỹ thuật số của Google.',
+      'plugins.themes.default.option.typography.notoSerif_notoSans' => 'Noto Serif/Noto Sans: Một cặp bổ sung với các tiêu đề serif và thân văn bản sans-serif.',
+      'plugins.themes.default.option.typography.notoSans_notoSerif' => 'Noto Sans/Noto Serif: Một cặp bổ sung với các tiêu đề sans-serif và thân văn bản serif.',
+      'plugins.themes.default.option.typography.lato' => 'Lato: Một phông chữ sans-serif hiện đại phổ biến.',
+      'plugins.themes.default.option.typography.lora' => 'Lora: Một phông chữ serif cài đặt bề rộng tốt để đọc trực tuyến.',
+      'plugins.themes.default.option.typography.lora_openSans' => 'Lora/Open Sans: Một cặp miễn phí với các tiêu đề serif và thân văn bản sans-serif.',
+      'plugins.themes.default.option.colour.label' => 'Màu sắc',
+      'plugins.themes.default.option.colour.description' => 'Chọn một màu cho tiêu đề.',
+      'plugins.themes.default.option.showDescriptionInJournalIndex.option' => 'Hiển thị tóm tắt tạp chí trên trang chủ.',
+      'plugins.themes.default.option.useHomepageImageAsHeader.label' => 'Hình nền tiêu đề',
+      'plugins.themes.default.option.useHomepageImageAsHeader.description' => 'Khi hình ảnh trang chủ đã được tải lên, hãy hiển thị nó trong nền của tiêu đề thay vì vị trí thông thường trên trang chủ.',
+      'plugins.themes.default.option.useHomepageImageAsHeader.option' => 'Hiển thị hình ảnh trang chủ làm nền tiêu đề.',
+    ),
+  ),
+);

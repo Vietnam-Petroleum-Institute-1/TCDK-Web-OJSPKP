@@ -1,0 +1,48 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n > 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'emails.orcidRequestAuthorAuthorization.description' => 'էլ․ փոստի այս ձևանմուշն օգտագործվում է հեղինակներից ORCID գրառումների մուտքի թույլտվություն խնդրելու համար:',
+      'emails.orcidRequestAuthorAuthorization.body' => 'Հարգելի {$authorName},<br>
+<br>
+Դուք նշված եք որպես հեղինակ "{$submissionTitle}" ձեռագրի ներկայացման մեջ {$contextName} -ին.
+<br>
+<br>
+Խնդրում ենք թույլ տալ մեզ ավելացնել ձեր ORCID ID-ն այս ներկայացման մեջ, ինչպես նաև ավելացնել ներկայացումը ձեր ORCID պրոֆիլին հրապարակման ժամանակ:<br>
+Այցելեք ORCID-ի պաշտոնական կայքէջի հղումը, մուտք գործեք ձեր պրոֆիլով և թույլատրեք մուտքը՝ հետևելով հրահանգներին:<br>
+<a href="{$authorOrcidUrl}"><img id="orcid-id-logo" src="https://info.orcid.org/wp-content/uploads/2020/12/ORCIDiD_icon16x16.png" width=\'16\' height=\'16\' alt="ORCID iD icon" style="display: block; margin: 0 .5em 0 0; padding: 0; float: left;"/>Գրանցվեք կամ միացեք ձեր ORCID iD -ին</a><br/>
+<br>
+<br>
+<a href="{$orcidAboutUrl}">Ավելին ORCID-ի մասին {$contextName}</a><br/>
+<br>
+Եթե ունեք հարցեր, խնդրում եմ կապվեք ինձ հետ:<br>
+<br>
+{$principalContactSignature}<br>
+',
+      'emails.orcidRequestAuthorAuthorization.subject' => 'ORCID գրառումներին մուտքի հայցում',
+      'emails.orcidCollectAuthorId.description' => 'Էլ․ փոստի այս ձևանմուշը օգտագործվում է հեղինակներից ORCID id-ները հավաքելու համար:',
+      'emails.orcidCollectAuthorId.body' => 'Հարգելի {$authorName},<br/>
+<br/>
+Դուք նշվել եք որպես հեղինակ {$contextName} -ի նյութի ներկայացման մեջ.<br/>
+Ձեր հեղինակային իրավունքը հաստատելու համար խնդրում ենք ավելացնել ձեր ORCID ID-ն այս ներկայացման մեջ՝ այցելելով ստորև բերված հղումը:<br/>
+<br/>
+<a href="{$authorOrcidUrl}"><img id="orcid-id-logo" src="https://info.orcid.org/wp-content/uploads/2020/12/ORCIDiD_icon16x16.png" width=\'16\' height=\'16\' alt="ORCID iD icon" style="display: block; margin: 0 .5em 0 0; padding: 0; float: left;"/>Գրանցվեք կամ միացրեք ձեր ORCID ID-ն</a><br/>
+<br/>
+<br>
+<a href="{$orcidAboutUrl}">Լրացուցիչ տեղեկություններ ORCID-ի մասին {$contextName}</a><br/>
+<br/>
+Եթե ունեք հարցեր, խնդրում եմ կապվեք ինձ հետ:<br/>
+<br/>
+{$principalContactSignature}<br/>
+',
+      'emails.orcidCollectAuthorId.subject' => 'ORCID ներկայացում',
+      'emailTemplate.variable.authorOrcidUrl' => 'ORCID OAuth վավերացման հղում',
+      'emailTemplate.variable.orcidAboutUrl' => 'ORCID-ի մասին էջի URL',
+      'plugins.generic.orcidProfile.orcidRequestAuthorAuthorization.name' => 'orcidRequestAuthorAuthorization',
+      'plugins.generic.orcidProfile.orcidCollectAuthorId.name' => 'orcidCollectAuthorId',
+    ),
+  ),
+);

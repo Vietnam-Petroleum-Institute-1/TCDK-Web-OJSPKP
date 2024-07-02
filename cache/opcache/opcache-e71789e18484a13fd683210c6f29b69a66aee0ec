@@ -1,0 +1,97 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'emails.submissionAck.subject' => 'Poďakovanie za príspevok',
+      'emails.submissionAck.body' => '{$recipientName}:<br />
+<br />
+Ďakujeme Vám za odoslanie príspevku &quot;{$submissionTitle}&quot; do {$contextName}. S online systémom, ktorý používame, budete môcť sledovať postup príspevku redakčným procesom po prihlásení sa na stránkach časopisu:<br />
+<br />
+URL rukopisu: {$submissionUrl}<br />
+Používateľské meno: {$recipientUsername}<br />
+<br />
+Ak máte nejaké otázky, kontaktujte ma prosím. Ďakujeme, že ste zvolili tento časopis pre publikovanie Vašej práce.<br />
+<br />
+{$contextSignature}',
+      'emails.submissionAck.description' => 'Tento email, ak je povolený, je automaticky zaslaný autorke/autorovi, keď dokončí proces odosielania príspevku do časopisu. Obsahuje informácie o možnosti sledovania príspevku počas redakčného spracovania a poďakovanie autorovi za príspevok.',
+      'emails.reviewAck.subject' => 'Poďakovanie za spracovanie recenzie článku',
+      'emails.reviewAck.body' => '{$recipientName}:<br />
+<br />
+Dakujeme za dokončenie recenzie príspevku &quot;{$submissionTitle}&quot; pre {$contextName}. Vážime si Vašej práce vedúcej k skvalitneniu článkov, ktoré publikujeme.',
+      'emails.editorDecisionSendToExternal.subject' => 'Rozhodnutie editora',
+      'emails.editorDecisionSendToExternal.body' => 'Vážený(á) {$authors}:<br />
+<br />
+Dosiahli sme rozhodnutie, ktoré sa týka vášho príspevku do {$contextName}, &quot;{$submissionTitle}&quot;.<br />
+<br />
+Naše rozhodnutie je: odoslať k recenzii<br />
+<br />
+Webová adresa príspevku: {$submissionUrl}',
+      'emails.editorDecisionSendToProduction.subject' => 'Rozhodnutie editora',
+      'emails.editorDecisionSendToProduction.body' => '{$authors}:<br />
+<br />
+Editácia vášho príspevku, &quot;{$submissionTitle},&quot; je hotová.  Posielame ho teraz do produkčnej fáze.<br />
+<br />
+Webová adresa príspevku: {$submissionUrl}',
+      'emails.editorDecisionRevisions.subject' => 'Rozhodnutie editora',
+      'emails.editorDecisionRevisions.body' => '{$authors}:<br />
+<br />
+Urobili sme rozhodnutie ohľadom Vášho príspevku do {$contextName}, &quot;{$submissionTitle}&quot;.<br />
+<br />
+Naše rozhodnutie je: požadujeme prepracovanie',
+      'emails.editorDecisionResubmit.subject' => 'Rozhodnutie editora',
+      'emails.editorDecisionResubmit.body' => '{$authors}:<br />
+<br />
+Urobili sme rozhodnutie ohľadom Vášho príspevku do {$contextName}, &quot;{$submissionTitle}&quot;.<br />
+<br />
+Naše rozhodnutie je: znova odoslať k recenzii',
+      'emails.editorDecisionDecline.subject' => 'Rozhodnutie editora',
+      'emails.editorDecisionDecline.body' => '{$authors}:<br />
+<br />
+Urobili sme rozhodnutie ohľadom Vášho príspevku do {$contextName}, &quot;{$submissionTitle}&quot;.<br />
+<br />
+Naše rozhodnutie je: odmietnuť príspevok',
+      'emails.editorRecommendation.subject' => 'Odporúčania redaktora',
+      'emails.editorRecommendation.body' => '{$editors}:<br />
+<br />
+Odporúčania k príspevku {$contextName}, &quot;{$submissionTitle}&quot; je: {$recommendation}',
+      'emails.copyeditRequest.subject' => 'Žiadosť o redigovanie príspevku',
+      'emails.copyeditRequest.body' => '{$recipientName}:<br />
+<br />
+Chcel by som vás požiadať, aby ste zredigovali článok &quot;{$submissionTitle}&quot; pre {$contextName} a postupujte pritom prosím podľa nasledujúcich krokov:<br />
+1. Kliknite nižšie na URL príspevku.<br />
+2. Otvorte ľubovoľný súbor v sekcii Súbory návrhov a vykonajte redakčnú editáciu, prípadne využite diskusiu pre editačnú fázu.<br />
+3.  Uložte zredigovaný súbor a nahrajte ho v editačnom paneli.<br />
+4 . Upozornite redaktora, že všetky súbory boli zeditované a môže začať produkčná fáza.<br />
+<br />
+{$contextName} URL: {$contextUrl}<br />
+URL príspevku: {$submissionUrl}<br />
+Používateľské meno: {$recipientUsername}',
+      'emails.editorDecisionInitialDecline.subject' => 'Rozhodnutie redaktora',
+      'emails.editorDecisionInitialDecline.body' => '
+			{$authors}:<br />
+<br />
+Dosiahli sme rozhodnutie ohľadom vášho príspevku pre {$contextName}, &quot;{$submissionTitle}&quot;.<br />
+<br />
+Naše rozhodnutie je: Odmietnuť príspevok',
+      'emails.discussion.subject' => 'Správa týkajúca sa {$contextName}',
+      'emails.discussion.body' => 'Vložte, prosím, vašu správu.',
+      'emails.reviewConfirm.subject' => 'Môžem spracovať recenziu',
+      'emails.reviewConfirm.body' => 'Editori:<br />
+<br />
+Môžem a som ochotný spracovať recenziu príspevku &quot;{$submissionTitle}&quot; pre {$contextName}. Dakujem, že ste ma oslovili. Plánujem dokončiť spracovanie recenzie v stanovenom termíne {$reviewDueDate}, prípadne skôr.<br />
+<br />
+{$senderName}',
+      'emails.submissionAckNotAuthor.subject' => 'Poďakovanie za príspevok',
+      'emails.submissionAckNotAuthor.body' => 'Dobrý deň,<br />
+<br />
+{$submitterName} nahral rukopis, &quot;{$submissionTitle}&quot; do časopisu {$contextName}. <br />
+<br />
+Ak máte nejaké otázky, kontaktujte ma, prosím. Ďakujeme vám za využívanie nášho príspevku pre vaše práce.<br />
+<br />
+{$contextSignature}',
+    ),
+  ),
+);

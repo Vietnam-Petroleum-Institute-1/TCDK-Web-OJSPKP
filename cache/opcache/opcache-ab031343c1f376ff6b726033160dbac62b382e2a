@@ -1,0 +1,21 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.tinymce.name' => 'TinyMCE dodatak',
+      'plugins.generic.tinymce.description' => 'Ovaj dodatak omogućuje vizualno oblikovanje OJS-ovih tekstualnih polja pomoću <a href="https://www.tiny.cloud" target="_blank">TinyMCE</a> programa za uređivanje teksta.',
+      'plugins.generic.tinymce.settings' => 'Podešavanja',
+      'plugins.generic.tinymce.pkpTags.listTags' => 'Obeleži oznaku',
+      'plugins.generic.tinymce.pkpTags.noneAvailable' => 'Nema dostubnih oznaka za ovo polje',
+      'plugins.generic.tinymce.pkpTags.description' => 'Možete ubaciti bilo koju od ponuđenih oznaka',
+      'plugins.generic.tinymce.variables.principalContactName' => 'Ime glavnog kontakta ("{$value}")',
+      'plugins.generic.tinymce.variables.principalContactEmail' => 'Imejl adresa glavnog kontakta ("{$value}")',
+      'plugins.generic.tinymce.variables.supportContactName' => 'Ime kontakta za podršku ("{$value}")',
+      'plugins.generic.tinymce.variables.supportContactEmail' => 'Imejl kontakta za podršku ("{$value}")',
+      'plugins.generic.tinymce.variables.supportContactPhone' => 'Telefon kontakta za podršku ("{$value}")',
+    ),
+  ),
+);

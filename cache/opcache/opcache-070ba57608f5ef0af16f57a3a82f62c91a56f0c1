@@ -1,0 +1,12 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.htmlArticleGalley.displayName' => 'HTML Cikk kefelenyomat',
+      'plugins.generic.htmlArticleGalley.description' => 'Ez a plugin biztosítja a renderelést a HTML cikk kefelenyomatoknak.',
+    ),
+  ),
+);

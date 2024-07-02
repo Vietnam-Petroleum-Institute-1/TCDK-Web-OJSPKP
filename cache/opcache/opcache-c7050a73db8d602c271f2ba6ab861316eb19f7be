@@ -1,0 +1,17 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.acron.name' => 'Plugin Acron',
+      'plugins.generic.acron.reload' => 'Ricarica i compiti programmati',
+      'plugins.generic.acron.enabled' => 'Il plugin Acron è stato abilitato.',
+      'plugins.generic.acron.disabled' => 'Il plugin Acron è stato disabilitato.',
+      'plugins.generic.acron.tasksReloaded' => 'Azioni pianificate aggiornate.',
+      'plugins.generic.acron.reloadedCronTab' => 'Cron tab aggiornato correttamente.',
+      'plugins.generic.acron.description' => 'Questo plugin cerca di limitare la dipendenza dell\'applicazione da strumenti di pianificazione periodica come \'cron.\'',
+    ),
+  ),
+);

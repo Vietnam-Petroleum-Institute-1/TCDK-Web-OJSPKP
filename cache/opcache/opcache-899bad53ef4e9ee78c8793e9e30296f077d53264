@@ -1,0 +1,32 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'comments.anonymous' => 'Anonimni uporabnik',
+      'comments.anonymousNamed' => '"{$userName}"',
+      'comments.body' => 'Telo komentarja',
+      'comments.titleRequired' => 'Naslov komentarja je obvezen.',
+      'comments.confirmDeleteChildren' => 'Brisanje komentarja bo pobrisalo tudi vse odgovore nanj. Ste prepričani, da to želite?',
+      'comments.delete' => 'Briši ta komentar',
+      'comments.email' => 'E-pošta pošiljatelja',
+      'comments.emailReply' => 'E-poštni odgovor',
+      'comments.enterComment' => 'Vpišite komentar',
+      'comments.inResponseTo' => 'Kot odgovor na <a href="{$url}">{$title}</a>',
+      'comments.name' => 'Ime pošiljatelja',
+      'comments.noComments' => 'Bralci niso oddali nobenega komentarja.',
+      'comments.nReplies' => '({$num} odgovorov)',
+      'comments.oneReply' => '(1 odgovor)',
+      'comments.postAnonymously' => 'Pošljite komentar anonimno',
+      'comments.postReply' => 'Pošlji odgovor',
+      'comments.readerComments' => 'Komentarji bralcev',
+      'comments.readMore' => 'Preberi več',
+      'comments.replies' => 'Odgovori',
+      'comments.title' => 'Naslov',
+      'comments.viewAllComments' => 'Poglej vse komentarje',
+      'reader.fullText' => 'Celotno besedilo:',
+    ),
+  ),
+);

@@ -1,0 +1,26 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n > 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.webfeed.displayName' => 'Ոստայնի ժապավենի փլագին',
+      'plugins.generic.webfeed.description' => 'Այս փլագինը արտադրում է RSS/Atom վեբ սինդիկացիոն հոսքեր:<br>Փլագինը ներառում է նաև կողագոտի բլոկ, որը թույլ է տալիս ցուցադրել սնուցման հղումները ձեր հավելվածի կողագոտում',
+      'plugins.generic.webfeed.settings' => 'Կարգավորումներ',
+      'plugins.generic.webfeed.settings.issue' => 'Ցուցադրել վեբ հոսքերի հղումները միայն թողարկման էջերում:',
+      'plugins.generic.webfeed.settings.homepage' => 'Ցուցադրել վեբ հոսքերի հղումները տնային էջում:',
+      'plugins.generic.webfeed.settings.all' => 'Ցուցադրել վեբ հոսքերի հղումները բոլոր հավելվածների էջերում:',
+      'plugins.generic.webfeed.settings.currentIssue' => 'Ցուցադրել տարրերը ընթացիկ հրապարակված համարում:',
+      'plugins.generic.webfeed.settings.recent' => 'Ցուցադրել ամենավերջին հրապարակումների ֆիքսված թիվը:',
+      'plugins.generic.webfeed.settings.recentArticles' => 'Ցուցադրվող հրապարակումների քանակը',
+      'plugins.generic.webfeed.settings.recentItemsRequired' => 'Խնդրում ենք մուտքագրել դրական ամբողջ թիվ վերջին հրապարակված նյութերի համար:',
+      'plugins.generic.webfeed.atom.altText' => 'Atom լոգո',
+      'plugins.generic.webfeed.rss1.altText' => 'RSS1 լոգո',
+      'plugins.generic.webfeed.rss2.altText' => 'RSS2 լոգո',
+      'plugins.generic.webfeed.settings.homepageAndIssues' => 'Ցուցադրել վեբ հոսքերի հղումները միայն գլխավոր էջում և թողարկման էջերում:',
+      'plugins.generic.webfeed.blockTitle' => 'Վերջին հրապարակումները',
+      'plugins.generic.webfeed.settings.includeIdentifiers' => 'Ընդգրկե՞լ նույնացուցիչները (ISBN, հիմնաբառեր, դասեր և այլն) հոսքի ամփոփագրում:',
+    ),
+  ),
+);

@@ -1,0 +1,46 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'emails.orcidCollectAuthorId.subject' => 'ORCID материала',
+      'emails.orcidCollectAuthorId.body' => '{$recipientName}!<br/>
+<br/>
+Вы были указаны как автор материала, отправленного в «{$contextName}».<br/>
+Чтобы подтвердить свое авторство, пожалуйста, добавьте свой идентификатор ORCID к этому материалу, перейдя по приведенной ниже ссылке.<br/>
+<br/>
+<a href="{$authorOrcidUrl}"><img id="orcid-id-logo" src="https://info.orcid.org/wp-content/uploads/2020/12/ORCIDiD_icon16x16.png" width=\'16\' height=\'16\' alt="ORCID iD icon" style="display: block; margin: 0 .5em 0 0; padding: 0; float: left;"/>Создать или подключить ваш ORCID iD</a><br/>
+<br/>
+<br>
+<a href="{$orcidAboutUrl}">Дополнительная информация об ORCID в «{$contextName}»</a><br/>
+<br/>
+Если у Вас есть какие-либо вопросы, пожалуйста, свяжитесь со мной.<br/>
+<br/>
+{$principalContactSignature}<br/>
+',
+      'emails.orcidCollectAuthorId.description' => 'Этот шаблон письма используется для сбора идентификаторов ORCID с авторов.',
+      'emails.orcidRequestAuthorAuthorization.subject' => 'Запрос доступа к записи ORCID',
+      'emails.orcidRequestAuthorAuthorization.body' => '{$recipientName}!<br>
+<br>
+Вы были указаны как автор материала «{$submissionTitle}», отправленного в «{$contextName}».
+<br>
+<br>
+Пожалуйста, дайте нам возможность добавить ваш ORCID id к этому материалу, а также добавить материал в ваш профиль ORCID после публикации.<br>
+Перейдите по ссылке на официальном вебсайте ORCID, войдите в систему с вашей учетной записью и авторизуйте доступ, следуя инструкциям.<br>
+<a href="{$authorOrcidUrl}"><img id="orcid-id-logo" src="https://info.orcid.org/wp-content/uploads/2020/12/ORCIDiD_icon16x16.png" width=\'16\' height=\'16\' alt="ORCID iD icon" style="display: block; margin: 0 .5em 0 0; padding: 0; float: left;"/>Создать или подключить ваш ORCID iD</a><br/>
+<br>
+<br>
+<a href="{$orcidAboutUrl}">Подробнее об ORCID в «{$contextName}»</a><br/>
+<br>
+Если у Вас есть какие-либо вопросы, пожалуйста, свяжитесь со мной.<br>
+<br>
+{$principalContactSignature}<br>
+',
+      'emails.orcidRequestAuthorAuthorization.description' => 'Этот шаблон письма используется для запроса доступа к записи ORCID у авторов.',
+      'emailTemplate.variable.orcidAboutUrl' => 'URL-адрес страницы об ORCID',
+      'emailTemplate.variable.authorOrcidUrl' => 'Ссылка для OAuth-авторизации ORCID',
+    ),
+  ),
+);

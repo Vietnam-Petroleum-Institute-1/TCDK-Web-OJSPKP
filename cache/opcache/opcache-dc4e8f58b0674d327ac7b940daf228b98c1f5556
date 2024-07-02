@@ -1,0 +1,19 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=3; plural=(n == 1) ? 0 : ((n == 2) ? 1 : 2);',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'doi.manager.settings.publications' => 'Artihkkalat',
+      'article.article' => 'Artihkal',
+      'article.articles' => 'Artihkkalat',
+      'common.publication' => 'Artihkal',
+      'common.publications' => 'Artihkkalat',
+      'article.subject' => 'Čoavddasánit',
+      'article.submissions' => 'Boahtán čállosat',
+      'navigation.current' => 'Ođđasemos',
+      'navigation.infoForAuthors' => 'Čálliide',
+    ),
+  ),
+);

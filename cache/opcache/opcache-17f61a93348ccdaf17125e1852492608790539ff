@@ -1,0 +1,30 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=1; plural=0;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.staticPages.displayName' => '統計ページプラグイン',
+      'plugins.generic.staticPages.description' => 'このプラグインは統計のコンテンツ管理ができます。',
+      'plugins.generic.staticPages.staticPages' => '静的ページ',
+      'plugins.generic.staticPages.pageTitle' => 'タイトル',
+      'plugins.generic.staticPages.content' => 'コンテンツ',
+      'plugins.generic.staticPages.path' => 'パス',
+      'plugins.generic.staticPages.requirement.tinymce' => '<p><strong>コンテンツを編集・追加するためには，TinyMCE プラグインがインストールされていなければなりません。</strong></p>',
+      'plugins.generic.staticPages.editAddContent' => 'コンテンツの編集・追加',
+      'plugins.generic.staticPages.addStaticPage' => '統計ページの追加',
+      'plugins.generic.staticPages.addNewPage' => '新規ページの作成',
+      'plugins.generic.staticPages.editStaticPage' => '統計ページの編集',
+      'plugins.generic.staticPages.noneCreated' => '静的ページは作成されていません。',
+      'plugins.generic.staticPages.settingInstructions' => '下記のフォームには作成された全ての統計ページが表示されています。右のリンクを使用してページの編集および削除が可能です。',
+      'plugins.generic.staticPages.editInstructions' => 'ページを追加・編集するために下記のフォームを使用してください。',
+      'plugins.generic.staticPages.pathRegEx' => 'パスフィールドには、英数字に加えて、「.」、「/」、「-」や「_」を含める必要があります。',
+      'plugins.generic.staticPages.viewInstructions' => '<p>このページは以下の場所からアクセスできます: <blockquote>{$pagesPath}</blockquote>...ここで、%PATH%は上記で入力したパスです。<strong>注:</strong>  2つのページが同じパスを持つことはできません。システムに組み込まれているパスを使用すると、重要な機能にアクセスできなくなる可能性があります。</p>',
+      'plugins.generic.staticPages.duplicatePath' => 'この path は他の統計ページで既に使用されています。',
+      'plugins.generic.staticPages.pageSaved' => 'ページは正常に保存されました。',
+      'plugins.generic.staticPages.pageDeleted' => 'ページは正常に削除されました。',
+      'plugins.generic.staticPages.noneExist' => 'ページが作成されていません',
+    ),
+  ),
+);

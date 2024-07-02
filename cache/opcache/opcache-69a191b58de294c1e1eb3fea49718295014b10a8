@@ -1,0 +1,46 @@
+<?php $exp = 1751345595; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n > 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'emails.orcidRequestAuthorAuthorization.body' => '{$recipientName},<br/>
+<br/>
+Vous avez été inscrit ou inscrite en tant qu\'auteur ou autrice pour le manuscrit « {$submissionTitle} » soumis à {$contextName}.
+<br/>
+<br/>
+Veuillez nous autoriser à ajouter votre identifiant ORCID à cette soumission et à ajouter également la soumission à votre dossier ORCID suite à sa publication.
+<br/>
+Suivez le lien vers le site officiel d\'ORCID, connectez-vous avec votre profil et autorisez l\'accès en suivant les instructions.<br/>
+<a href="{$authorOrcidUrl}"><img id="orcid-id-logo" src="https://orcid.org/sites/default/files/images/orcid_16x16.png" width=\'16\' height=\'16\' alt="icône identifiant ORCID" style="display: block; margin: 0 .5em 0 0; padding: 0; float: left;"/>Créez ou connectez-vous avec votre identifiant ORCID</a><br/>
+<br/>
+<br/>
+<a href="{$orcidAboutUrl}">Plus de renseignements sur votre identifiant ORCID dans {$contextName}</a>
+<br/>
+<br/>
+Si vous avez des questions, n\'hésitez pas à nous contacter.<br/>
+<br/>
+{$principalContactSignature}<br/>
+',
+      'emails.orcidCollectAuthorId.body' => '{$recipientName},<br/>
+<br/>
+Vous avez été inscrit ou inscrite en tant qu\'auteur ou autrice pour un manuscrit soumis à {$contextName}.<br/>
+Pour confirmer votre statut d\'auteur ou d\'autrice, veuillez ajouter votre identifiant ORCID à cette soumission en cliquant sur le lien ci-dessous.<br/>
+<br/>
+<a href="{$authorOrcidUrl}"><img id="orcid-id-logo" src="https ://orcid.org/sites/default/files/images/orcid_16x16.png" width=\'16\' height=\'16\' alt="icône identifiant ORCID" style="display : block ; margin : 0 .5em 0 0 ; padding : 0 ; float : left ;"/>Créez ou connectez-vous avec votre identifiant ORCID</a><br/>
+<br/>
+<br/>
+<a href="{$orcidAboutUrl}">Plus de renseignements sur votre identifiant ORCID dans {$contextName}</a><br/>
+<br/>
+Si vous avez des questions, n\'hésitez pas à nous contacter.<br/>
+<br/>
+{$principalContactSignature}<br/>
+',
+      'emails.orcidRequestAuthorAuthorization.description' => 'Ce modèle de courriel est utilisé pour demander l\'accès au dossier ORCID des auteurs et autrices.',
+      'emails.orcidRequestAuthorAuthorization.subject' => 'Demande d\'accès au dossier ORCID',
+      'emails.orcidCollectAuthorId.description' => 'Ce modèle de courriel est utilisé pour récupérer les identifiants ORCID des auteurs et autrices.',
+      'emails.orcidCollectAuthorId.subject' => 'Soumission ORCID',
+    ),
+  ),
+);

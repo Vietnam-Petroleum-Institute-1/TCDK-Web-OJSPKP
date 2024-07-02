@@ -1,0 +1,21 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.tinymce.name' => 'TinyMCE-programtillegg',
+      'plugins.generic.tinymce.description' => 'Dette programtillegget gjør at du får se på skjermen din hvordan innholdet vil se ut for leserne, ved hjelp av editoren  <a href="https://www.tinymce.com" target="_blank">TinyMCE</a>.',
+      'plugins.generic.tinymce.settings' => 'Innstillinger',
+      'plugins.generic.tinymce.pkpTags.listTags' => 'Velg etikett',
+      'plugins.generic.tinymce.pkpTags.noneAvailable' => 'Ingen etiketter er tilgjengelige i dette feltet.',
+      'plugins.generic.tinymce.pkpTags.description' => 'Du kan sette inn en av følgende etiketter:',
+      'plugins.generic.tinymce.variables.principalContactName' => 'Navn hovedkontakt ("{$value}")',
+      'plugins.generic.tinymce.variables.principalContactEmail' => 'E-post hovedkontakt ("{$value}")',
+      'plugins.generic.tinymce.variables.supportContactName' => 'Brukerstøtte hovedkontakt ("{$value}")',
+      'plugins.generic.tinymce.variables.supportContactEmail' => 'Brukerstøtte epost ("{$value}")',
+      'plugins.generic.tinymce.variables.supportContactPhone' => 'Brukerstøtte telefon ("{$value}")',
+    ),
+  ),
+);

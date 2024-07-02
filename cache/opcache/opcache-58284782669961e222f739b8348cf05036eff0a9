@@ -1,0 +1,21 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.tinymce.name' => 'TinyMCE Eklentisi',
+      'plugins.generic.tinymce.description' => 'Bu eklenti OMP yazı alanlarının <a href="https://www.tiny.cloud" target="_blank">TinyMCE</a> içerik düzenleyici kullanılarak görüldüğü gibi yazılmasını sağlar.',
+      'plugins.generic.tinymce.settings' => 'Ayarlar',
+      'plugins.generic.tinymce.pkpTags.listTags' => 'Etiket Seç',
+      'plugins.generic.tinymce.pkpTags.noneAvailable' => 'Bu alan için etiket yok.',
+      'plugins.generic.tinymce.pkpTags.description' => 'Aşağıdaki etiketlerden herhangi birini ekleyebilirsiniz:',
+      'plugins.generic.tinymce.variables.principalContactName' => 'Temel İletişim Adı ("{$value}")',
+      'plugins.generic.tinymce.variables.principalContactEmail' => 'Temel İletişim e-Postası ("{$value}")',
+      'plugins.generic.tinymce.variables.supportContactName' => 'Destek İletişim Adı ("{$value}")',
+      'plugins.generic.tinymce.variables.supportContactEmail' => 'Destek İletişim e-Postası ("{$value}")',
+      'plugins.generic.tinymce.variables.supportContactPhone' => 'Destek İletişim Telefonu ("{$value}")',
+    ),
+  ),
+);

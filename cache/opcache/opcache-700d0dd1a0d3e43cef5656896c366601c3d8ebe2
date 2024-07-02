@@ -1,0 +1,46 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'emails.orcidCollectAuthorId.subject' => 'ORCID подання',
+      'emails.orcidCollectAuthorId.body' => 'Шановний(на) {$recipientName},
+<br/>
+Ви були зазначені як автор рукопису, надісланого в {$contextName}. <br/>
+Щоб підтвердити своє авторство, додайте свій ORCID iD до цього подання, відвідавши посилання, вказане нижче.<br/>
+<br/>
+<a href="{$authorOrcidUrl}"><img id="orcid-id-logo" src="https://info.orcid.org/wp-content/uploads/2020/12/ORCIDiD_icon16x16.png" width=\'16\' height=\'16\' alt="ORCID iD icon" style="display: block; margin: 0 .5em 0 0; padding: 0; float: left;"/>Зареєструватися або увійти з ORCID iD</a><br/>
+<br/>
+<br>
+<a href="{$orcidAboutUrl}">Більше інформації про ORCID у {$contextName}</a><br/>
+<br/>
+Якщо Ви маєте запитання, напишіть нам.<br/>
+<br/>
+{$principalContactSignature}<br/>
+',
+      'emails.orcidCollectAuthorId.description' => 'Цей електронний лист відправлено для збирання ORCID ID від авторів.',
+      'emails.orcidRequestAuthorAuthorization.body' => 'Шановний|Шановна {$recipientName},<br>
+<br>
+Ви були зазначені як автор подання "{$submissionTitle}" до журналу {$contextName}.
+<br>
+<br>
+Будь ласка, дозвольте нам додати Ваш ORCID до цього подання, а також додати подання до Вашого профілю ORCID  після публікації.<br>
+Відвідайте офіційний сайт ORCID, авторизуйтеся з Вашим профілем і надайте дозвіл за наступною інструкцією.<br>
+<a href="{$authorOrcidUrl}"><img id="orcid-id-logo" src="https://info.orcid.org/wp-content/uploads/2020/12/ORCIDiD_icon16x16.png" width=\'16\' height=\'16\' alt="ORCID iD icon" style="display: block; margin: 0 .5em 0 0; padding: 0; float: left;"/>Зареєструватися або авторизуватися з ORCID iD</a><br/>
+<br>
+<br>
+<a href="{$orcidAboutUrl}">Більше про ORCID у {$contextName}</a><br/>
+<br>
+Якщо у Вас виникнуть запитання, напишіть нам.<br>
+<br>
+{$principalContactSignature}<br>
+',
+      'emails.orcidRequestAuthorAuthorization.description' => 'Цей лист відправлено для запиту доступу до запису ORCID у авторів.',
+      'emails.orcidRequestAuthorAuthorization.subject' => 'Запит доступу до запису ORCID',
+      'emailTemplate.variable.authorOrcidUrl' => 'Покликання для авторизації ORCID OAuth',
+      'emailTemplate.variable.orcidAboutUrl' => 'URL-адреса сторінки про ORCID',
+    ),
+  ),
+);

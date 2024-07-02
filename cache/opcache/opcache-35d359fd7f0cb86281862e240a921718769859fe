@@ -1,0 +1,14 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n > 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.recommendByAuthor.displayName' => 'Artigos recomendados por Autor',
+      'plugins.generic.recommendByAuthor.description' => 'Este plugin insere uma lista de artigos do mesmo autor na página do resumo do artigo.',
+      'plugins.generic.recommendByAuthor.heading' => 'Artigos mais lidos do(s) mesmo(s) autor(es)',
+      'plugins.generic.recommendByAuthor.noMetric' => 'Obs.: Este plugin requer pelo menos um plugin de estatísticas/relatório ativado. Se os seus plugins de estatísticas fornecem mais de uma métrica, selecione também uma métrica principal na área de configurações do administrador e/ou na área de configurações da Revista.',
+    ),
+  ),
+);

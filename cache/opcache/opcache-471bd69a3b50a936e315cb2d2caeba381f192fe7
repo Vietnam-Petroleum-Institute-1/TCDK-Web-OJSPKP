@@ -1,0 +1,14 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.recommendByAuthor.displayName' => 'Altri articoli dello stesso autore',
+      'plugins.generic.recommendByAuthor.description' => 'Questo plugin inserisce una lista di articoli dello stesso autore nella pagina di abstract dell\'articolo.',
+      'plugins.generic.recommendByAuthor.heading' => 'Puoi leggere altri articoli dello stesso autore/i',
+      'plugins.generic.recommendByAuthor.noMetric' => 'Attenzione: Questo plugin richiede che almeno un plugin di report/statistiche sia abilitato. Se il tuo plugin di statistiche prevede più di una metrica, seleziona una matrica principale nelle configurazioni dell\'admin o nella pagine di configurazione del journal manager.',
+    ),
+  ),
+);

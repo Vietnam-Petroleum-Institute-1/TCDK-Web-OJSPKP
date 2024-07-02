@@ -1,0 +1,15 @@
+<?php $exp = 1751345595; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n > 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.recommendBySimilarity.displayName' => 'پیشنهاد مقالات مشابه',
+      'plugins.generic.recommendBySimilarity.description' => 'این افزونه فهرستی از مقالات مشابه را به صفحه چکیده مقاله اضافه می‌کند.',
+      'plugins.generic.recommendBySimilarity.heading' => 'مقالات مشابه',
+      'plugins.generic.recommendBySimilarity.advancedSearchIntro' => 'همچنین برای این مقاله می‌توانید {$advancedSearchLink}.',
+      'plugins.generic.recommendBySimilarity.advancedSearch' => 'شروع جستجوی پیشرفته مقالات مشابه',
+    ),
+  ),
+);

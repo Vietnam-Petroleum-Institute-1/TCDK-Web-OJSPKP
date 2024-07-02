@@ -1,0 +1,31 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=1; plural=0;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'api.announcements.400.contextsNotMatched' => 'Pengumuman yang anda minta bukan sebahagian daripada jurnal ini.',
+      'api.emails.403.disabled' => 'Ciri notifikasi e-mel belum diaktifkan untuk jurnal ini.',
+      'api.submissions.400.wrongContext' => 'Penyerahan yang anda minta tiada dalam jurnal ini.',
+      'api.submissions.403.cantChangeContext' => 'Anda tidak boleh mengubah jurnal yang diserahkan.',
+      'api.submissions.403.unpublishedIssues' => 'Anda tidak mempunyai kebenaran untuk melihat terbitan yang belum diterbitkan.',
+      'api.contexts.403.requestedDisabledContexts' => 'Anda hanya dapat melihat jurnal yang telah didayakan.',
+      'api.contexts.403.notAllowed' => 'Anda tidak mempunyai kebenaran untuk melihat jurnal ini.',
+      'api.contexts.403.contextsDidNotMatch' => 'Anda tidak dapat melihat atau ubahsuai jurnal ini kecuali anda membuat permintaan ke jurnal API atau site-wide API.',
+      'api.contexts.403.requiresContext' => 'Anda tidak dapat ubahsuai jurnal ini dari site-wide API.',
+      'api.contexts.403.notAllowedEdit' => 'Anda tidak mempunyai kebenaran untuk ubahsuai jurnal ini.',
+      'api.contexts.403.notAllowedDelete' => 'Anda tidak mempunyai kebenaran untuk menghapuskan jurnal ini.',
+      'api.contexts.404.contextNotFound' => 'Jurnal yang anda minta tidak dijumpai.',
+      'api.dois.403.contextsNotMatched' => 'DOI yang anda minta bukan sebahagian daripada jurnal ini.',
+      'api.dois.400.noRegistrationAgencyConfigured' => 'Tiada agensi pendaftaran DOI telah dikonfigurasikan untuk jurnal ini.',
+      'api.dois.400.depositFailed' => 'Beberapa item tidak berjaya didepositkan. Sila semak item individu untuk mesej ralat khusus mereka.',
+      'api.emailTemplates.403.notAllowedChangeContext' => 'Anda tidak mempunyai kebenaran untuk memindahkan templat e-mel ini ke jurnal lain.',
+      'api._payments.400.invalidPaymentMethod' => 'Kaedah pembayaran yang anda pilih tidak disokong.',
+      'api.publications.403.contextsDidNotMatch' => 'Penerbitan yang anda minta bukan sebahagian daripada jurnal ini.',
+      'api.publications.403.submissionsDidNotMatch' => 'Penerbitan yang anda minta bukan sebahagian daripada penyerahan ini.',
+      'api.submissionFiles.400.badRepresentationAssocType' => 'Anda tidak dapat mengaitkan fail ini dari tahap fail dengan galley.',
+      'api.submission.400.inactiveSection' => 'Bahagian ini tidak lagi menerima serahan.',
+    ),
+  ),
+);

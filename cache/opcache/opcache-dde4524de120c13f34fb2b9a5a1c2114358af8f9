@@ -1,0 +1,67 @@
+<?php $exp = 1751345599; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'admin.hostedContexts' => 'Журналлар нашр этилди',
+      'admin.settings.redirect' => 'Журнални қайта йўналтириш',
+      'admin.settings.redirectInstructions' => 'Асосий сайтга сўровлар ушбу журналга йўналтирилади. Бу, масалан, сайт фақат битта журналга эга бўлса, фойдали бўлиши мумкин.',
+      'admin.languages.confirmDisable' => 'Ҳақиқатан ҳам бу тилни ўчириб қўймоқчимисиз? Бу ҳозирда маҳаллий тилдан фойдаланаётган ҳар қандай жойлаштирилган журналларга таъсир қилиши мумкин.',
+      'admin.languages.primaryLocaleInstructions' => 'Бу сайт ва ҳар қандай жойлаштирилган журналлар учун стандарт тил бўлади.',
+      'admin.languages.supportedLocalesInstructions' => 'Сайтда қўллаб-қувватлаш учун барча тилларни танланг. Танланган тиллар сайтдаги барча журналлар томонидан фойдаланиш учун мавжуд бўлади, шунингдек, ҳар бир сайт саҳифасида пайдо бўладиган тилни танлаш менюсида пайдо бўлади (журналнинг махсус саҳифаларида бекор қилиниши мумкин). Агар бир нечта тил танланмаган бўлса, тилни алмаштириш менюси пайдо бўлмайди ва кенгайтирилган тил созламалари журналларда мавжуд бўлмайди.',
+      'admin.locale.maybeIncomplete' => 'Белгиланган тиллар тоʻлиқ боʻлмаслиги мумкин.',
+      'admin.languages.confirmUninstall' => 'Ҳақиқатан ҳам бу тилни оʻчириб ташламоқчимисиз? Бу ҳозирда маҳаллий тилдан фойдаланаётган ҳар қандай жойлаштирилган журналларга таъсир қилиши мумкин.',
+      'admin.languages.installNewLocalesInstructions' => 'Ушбу тизимда қўллаб-қувватлашни ўрнатиш учун ҳар қандай қўшимча тилларни танланг. Жойлаштирилган журналлар томонидан ишлатилишидан олдин маҳаллий тиллар ўрнатилиши керак. Янги тиллар учун қўллаб-қувватлашни қўшиш ҳақида маълумот олиш учун ОЖС ҳужжатларига қаранг.',
+      'admin.systemVersion' => 'OJS versiyasi
+',
+      'admin.systemConfiguration' => 'OJS konfiguratsiyasi
+',
+      'admin.systemConfigurationDescription' => 'OJS konfiguratsiya sozlamalari dan<tt>config.inc.php</tt>.',
+      'admin.journals.createInstructions' => 'Siz avtomatik ravishda ushbu jurnalning menejeri sifatida ro\'yxatdan o\'tasiz. Yangi jurnalni yaratganingizdan so\'ng, siz jurnalni dastlabki sozlashni yakunlash uchun uning sozlamalari ustasiga yo\'naltirilasiz.
+',
+      'admin.journals.journalSettings' => 'Jurnal sozlamalari
+',
+      'admin.journals.noneCreated' => 'Hech qanday jurnal yaratilmagan.
+',
+      'admin.contexts.create' => 'Jurnal yaratish
+',
+      'admin.journals.urlWillBe' => 'Bu jurnalni aniqlaydigan bitta qisqa so\'z yoki qisqartma bo\'lishi kerak. Jurnalning URL manzili {$sampleUrl} bo‘ladi.',
+      'admin.contexts.form.titleRequired' => 'Sarlavha kerak.',
+      'admin.contexts.form.pathRequired' => 'Path kerak.',
+      'admin.contexts.form.pathAlphaNumeric' => 'Yo\'l(Path) faqat harflar, raqamlar va _ va - belgilaridan iborat bo\'lishi mumkin. U harf yoki raqam bilan boshlanishi va tugashi kerak.',
+      'admin.contexts.form.pathExists' => 'Siz taqdim etgan yoʻl(path) allaqachon boshqa jurnal tomonidan ishlatilmoqda.',
+      'admin.contexts.form.primaryLocaleNotSupported' => 'Asosiy til jurnalning qoʻllab-quvvatlanadigan tillaridan biri boʻlishi kerak.',
+      'admin.journals.enableJournalInstructions' => 'Ushbu jurnalni saytda ochiq ko\'rinishini yoqing',
+      'admin.contexts.contextDescription' => 'Jurnal tavsifi',
+      'admin.journal.pathImportInstructions' => 'Mavjud jurnal yo\'l(path)i yoki yangi yaratish uchun yo\'l(path) (masalan, "ojs").',
+      'admin.journals.importSubscriptions' => 'Obunalarni import qilish',
+      'admin.journals.transcode' => 'ISO8859-1 dan maqola metamaʼlumotlarini transkod qilish',
+      'admin.journals.redirect' => 'OJS 1 URL manzillarini OJS 2 URL manzillariga moslashtirish uchun kod yarating',
+      'admin.journals.form.importPathRequired' => 'Import yoʻl(path)i talab qilinadi.',
+      'admin.journals.importErrors' => 'Import qilish muvaffaqiyatli yakunlanmadi',
+      'admin.mergeUsers' => 'Foydalanuvchilarni birlashtirish',
+      'admin.mergeUsers.mergeUser' => 'Foydalanuvchilarni birlashtirish',
+      'admin.mergeUsers.into.description' => 'Oldingi foydalanuvchining mualliflik huquqi, tahrirlash topshiriqlari va h.k.larga tegishli foydalanuvchini tanlang.',
+      'admin.mergeUsers.from.description' => 'Boshqa foydalanuvchi hisobiga birlashish uchun foydalanuvchini (yoki bir nechtasini) tanlang (masalan, kimdir ikkita foydalanuvchi hisobiga ega bo\'lsa). Avval tanlangan hisob(lar) o‘chiriladi va har qanday topshiriqlar, topshiriqlar va boshqalar ikkinchi hisobga tegishli bo‘ladi.',
+      'admin.mergeUsers.allUsers' => 'Barcha ro\'yxatdan o\'tgan foydalanuvchilar',
+      'admin.mergeUsers.confirm' => 'Tanlangan {$oldAccountCount} hisob(lar)ni “{$newUsername}” foydalanuvchi nomi bilan birlashtirmoqchimisiz? Tanlangan {$oldAccountCount} hisoblari keyin mavjud boʻlmaydi. Bu harakatni qaytarib bo\'lmaydi.',
+      'admin.mergeUsers.noneEnrolled' => 'Roʻyxatdan oʻtgan foydalanuvchilar yoʻq.',
+      'admin.scheduledTask.subscriptionExpiryReminder' => 'Obuna muddati tugashi haqida eslatma',
+      'admin.scheduledTask.openAccessNotification' => 'Open Access Bildirishnomasi',
+      'admin.scheduledTask.reviewReminder' => 'Taqriz Eslatmasi',
+      'admin.job.processLogFile.invalidLogEntry.issueId' => 'Nashr ID-si butun son emas.',
+      'admin.job.processLogFile.invalidLogEntry.issueGalleyId' => 'Nashr galley ID-si butun son emas.',
+      'admin.job.processLogFile.invalidLogEntry.issueAssocTypeNoMatch' => 'Nashr ID-si assoc ID bilan mos emas.',
+      'admin.settings.enableBulkEmails.description' => 'Ommaviy elektron pochta xabarlarini yuborishga ruxsat berilishi kerak bo\'lgan joylashtirilgan jurnallarni tanlang. Bu funksiya yoqilgan boʻlsa, jurnal menejeri oʻz jurnalida roʻyxatdan oʻtgan barcha foydalanuvchilarga elektron pochta xabarini yuborishi mumkin boʻladi.<br><br>Bu xususiyatdan nomaqbul elektron pochta xabarlarini yuborish uchun notoʻgʻri foydalanish baʼzi yurisdiktsiyalarda spamga qarshi qonunlarni buzishi va natijaga olib kelishi mumkin. serveringizning elektron pochta xabarlarida spam sifatida bloklangan. Bu funksiyani yoqishdan oldin texnik maslahat so‘rang va undan to‘g‘ri foydalanishga ishonch hosil qilish uchun jurnal menejerlari bilan maslahatlashing.<br><br>Ushbu xususiyatga qo‘shimcha cheklovlarni har bir jurnal uchun <a href= ro‘yxatidagi sozlamalar ustasiga tashrif buyurib yoqish mumkin. "{$hostedContextsUrl}">Hostlangan jurnallar</a>.',
+      'admin.settings.disableBulkEmailRoles.description' => 'Jurnal menejeri quyida tanlangan rollarning birortasiga ommaviy elektron pochta xabarlarini yubora olmaydi. Elektron pochta xabarnomasi funksiyasidan suiiste\'mol qilishni cheklash uchun ushbu sozlamadan foydalaning. Misol uchun, bunday xatlarni olishga rozi bo\'lmagan o\'quvchilar, mualliflar yoki boshqa yirik foydalanuvchilar guruhlariga ommaviy elektron pochta xabarlarini o\'chirib qo\'yish xavfsizroq bo\'lishi mumkin.<br><br>Ommaviy e-pochta funksiyasini ushbu jurnal uchun to\'liq o\'chirib qo\'yish mumkin <a href="{$siteSettingsUrl}">Administrator > Sayt sozlamalari</a>.',
+      'admin.settings.disableBulkEmailRoles.contextDisabled' => 'Bu jurnal uchun ommaviy elektron pochta funksiyasi o‘chirib qo‘yilgan. Bu funksiyani <a href="{$siteSettingsUrl}">Administrator > Sayt sozlamalari</a> orqali yoqing.',
+      'admin.siteManagement.description' => 'Ushbu saytdan jurnallarni qo\'shing, tahrirlang yoki o\'chiring va butun sayt sozlamalarini boshqaring.',
+      'admin.settings.statistics.geo.description' => 'Ushbu saytdagi jurnallar tomonidan to\'planishi mumkin bo\'lgan geografik foydalanish statistikasi turini tanlang. Batafsilroq geografik statistika ma\'lumotlar bazasi hajmini sezilarli darajada oshirishi va ba\'zi kamdan-kam hollarda tashrif buyuruvchilaringizning anonimligini buzishi mumkin. Har bir jurnal bu sozlamani boshqacha sozlashi mumkin, ammo jurnal hech qachon bu yerda sozlanganidan koʻra batafsilroq yozuvlarni toʻplay olmaydi. Misol uchun, agar sayt faqat mamlakat va mintaqani qo\'llab-quvvatlasa, jurnal mamlakat va mintaqani yoki faqat mamlakatni tanlashi mumkin. Jurnal mamlakat, mintaqa va shaharni kuzata olmaydi.',
+      'admin.settings.statistics.institutions.description' => 'Agar siz ushbu saytdagi jurnallar muassasalar boʻyicha foydalanish statistikasini toʻplashini istasangiz, institutsional statistikani yoqing. Jurnallar ushbu xususiyatdan foydalanish uchun muassasa va uning IP diapazonlarini qo\'shishlari kerak bo\'ladi. Institutsional statistikani yoqish ma\'lumotlar bazasi hajmini sezilarli darajada oshirishi mumkin.',
+      'admin.settings.statistics.sushi.public.description' => 'SUSHI API so\'nggi nuqtalarini ushbu saytdagi barcha jurnallar uchun ochiq qilish kerakmi yoki yo\'qmi. Agar siz ommaviy APIni yoqsangiz, har bir jurnal oʻz statistikasini shaxsiy qilish uchun ushbu sozlamani bekor qilishi mumkin. Biroq, agar siz ommaviy APIni o\'chirib qo\'ysangiz, jurnallar o\'zlarining API-larini hammaga ochiq qila olmaydi.',
+      'admin.settings.statistics.sushiPlatform.isSiteSushiPlatform' => 'Saytdan barcha jurnallar uchun platforma sifatida foydalaning.',
+    ),
+  ),
+);

@@ -1,0 +1,24 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.customBlockManager.displayName' => 'Менеджер користувацьких блоків',
+      'plugins.generic.customBlockManager.manage' => 'Керувати користувацькими блоками',
+      'plugins.generic.customBlockManager.description' => 'Цей плагін дає змогу керувати (додавати, змінювати та видаляти) користувацькими блоками на бічній панелі.',
+      'plugins.generic.customBlockManager.customBlocks' => 'Користувацькі блоки',
+      'plugins.generic.customBlockManager.blockName' => 'Назва блоку',
+      'plugins.generic.customBlockManager.addBlock' => 'Додати блок',
+      'plugins.generic.customBlockManager.noneCreated' => 'Жодного користувацького блоку не було створено.',
+      'plugins.generic.customBlock.content' => 'Контент',
+      'plugins.generic.customBlock.nameSuffix' => '(Користувацький блок)',
+      'plugins.generic.customBlock.description' => 'Це створений користувачем блок.',
+      'plugins.generic.customBlock.nameRequired' => 'Назва користувацького блоку є обов\'язковою.',
+      'plugins.generic.customBlock.nameRegEx' => 'Назва користувацького блоку повинна містити лише букви, цифри, дефіс і підкреслення.',
+      'plugins.generic.customBlock.showName.description' => 'Показати назву цього блоку над контентом блоку.',
+      'plugins.generic.customBlock.showName' => 'Показати назву',
+    ),
+  ),
+);

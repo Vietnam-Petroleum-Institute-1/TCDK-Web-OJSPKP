@@ -1,0 +1,17 @@
+<?php $exp = 1751345595; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.acron.name' => 'Acron-lisäosa',
+      'plugins.generic.acron.description' => 'Tämä lisäosa pyrkii korvaamaan cron-tyyppiset ajoitetut tehtävät.',
+      'plugins.generic.acron.enabled' => 'Acron-lisäosa on päällä.',
+      'plugins.generic.acron.disabled' => 'Acron-lisäosa on pois päältä.',
+      'plugins.generic.acron.reloadedCronTab' => 'Ajoitetut tehtävät ladattu onnistuneesti uudelleen.',
+      'plugins.generic.acron.reload' => 'Lataa ajoitetut tehtävät uudelleen',
+      'plugins.generic.acron.tasksReloaded' => 'Ajoitetut tehtävät ladattiin uudelleen.',
+    ),
+  ),
+);

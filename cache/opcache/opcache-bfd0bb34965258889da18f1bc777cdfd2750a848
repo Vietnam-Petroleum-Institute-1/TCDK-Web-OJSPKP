@@ -1,0 +1,12 @@
+<?php $exp = 1751345599; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=1; plural=0;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.htmlArticleGalley.displayName' => 'Bản in bài báo HTML',
+      'plugins.generic.htmlArticleGalley.description' => 'Plugin này cung cấp hỗ trợ kết xuất cho bản in HTML.',
+    ),
+  ),
+);

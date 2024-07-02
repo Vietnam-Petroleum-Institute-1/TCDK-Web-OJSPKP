@@ -1,0 +1,15 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'section.default.title' => 'Artikujt',
+      'section.default.abbrev' => 'ART',
+      'default.genres.article' => 'Teksti i Artikullit',
+      'default.contextSettings.openAccessPolicy' => 'Kjo revistë siguron qasje të menjëhershme të hapur në përmbajtjen e saj nisur nga parimi që vendosja e kërkimit shkencor në dispozicion të publikut, pa kushte mbështet një shkëmbim më të madh global të njohurive.',
+      'default.groups.name.manager' => 'Manaxheri i Revistës',
+    ),
+  ),
+);

@@ -1,0 +1,23 @@
+<?php $exp = 1751345595; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.webfeed.displayName' => 'افزونه بازخوراند وب',
+      'plugins.generic.webfeed.description' => 'این افزونه بازخوراند وب برای شماره جاری تولید میکند.',
+      'plugins.generic.webfeed.settings' => 'تنظیمات',
+      'plugins.generic.webfeed.settings.issue' => 'نمایش بازخوراند وب فقط بر روی صفحات شماره مجله',
+      'plugins.generic.webfeed.settings.homepage' => 'لینک فید وب را فقط در صفحاتی که شماره مجله در آن نمایش مییابد نشان بده',
+      'plugins.generic.webfeed.settings.all' => 'نمایش بازخوراند وب فقط بر روی تمام صفحات مجله',
+      'plugins.generic.webfeed.settings.currentIssue' => 'نمایش موارد بر روی شماره جاری مجله',
+      'plugins.generic.webfeed.settings.recent' => 'نمایش تعداد ثابتی از آخرین موارد',
+      'plugins.generic.webfeed.settings.recentArticles' => 'آخرین موارد چاپ شده.',
+      'plugins.generic.webfeed.settings.recentItemsRequired' => 'لطفا عدد صحیح مثبتی برای آخرین موارد چاپ شده وارد کنید.',
+      'plugins.generic.webfeed.atom.altText' => 'لوگوی Atom',
+      'plugins.generic.webfeed.rss1.altText' => 'لوگوی RSS1',
+      'plugins.generic.webfeed.rss2.altText' => 'لوگوی RSS2',
+    ),
+  ),
+);

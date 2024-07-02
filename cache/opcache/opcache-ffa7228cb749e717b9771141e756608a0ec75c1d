@@ -1,0 +1,96 @@
+<?php $exp = 1751345595; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'emails.submissionAck.subject' => 'Acuse de recibo del envío',
+      'emails.submissionAck.body' => '{$recipientName}:<br />
+<br />
+Gracias por enviar el manuscrito &quot;{$submissionTitle}&quot; a {$contextName}. Con el sistema de gestión de publicaciones en línea que utilizamos podrá seguir el progreso a través del proceso editorial tras iniciar sesión en el sitio web de la publicación:<br />
+<br />
+URL del manuscrito: {$submissionUrl}<br />
+Nombre de usuario/a: {$recipientUsername}<br />
+<br />
+Si tiene alguna duda puede ponerse en contacto conmigo. Gracias por elegir esta editorial para mostrar su trabajo.<br />
+<br />
+{$contextSignature}',
+      'emails.reviewAck.subject' => 'Acuse de recibo de revisión de artículo',
+      'emails.reviewAck.body' => '{$recipientName}:<br />
+<br />
+Gracias por completar la revisión del envío &quot;{$submissionTitle},&quot; para {$contextName}. Apreciamos su contribución a la calidad de los trabajos que publicamos.',
+      'emails.editorDecisionSendToExternal.subject' => 'Decisión del editor/a',
+      'emails.editorDecisionSendToExternal.body' => '{$authors}:<br />
+<br />
+Hemos llegado a una decisión respecto a su envío {$contextName}, &quot;{$submissionTitle}&quot;.<br />
+<br />
+Nuestra decisión es: Enviar a revisión<br />
+<br />
+Enlace: {$submissionUrl}',
+      'emails.editorDecisionSendToProduction.subject' => 'Decisión del editor/a',
+      'emails.editorDecisionSendToProduction.body' => '{$authors}:<br />
+<br />
+La edición de su envío, &quot;{$submissionTitle},&quot; se ha completado. Ya está listo para pasar a producción.<br />
+<br />
+Submission URL: {$submissionUrl}',
+      'emails.editorDecisionRevisions.subject' => 'Decisión del editor/a',
+      'emails.editorDecisionRevisions.body' => '{$authors}:<br />
+<br />
+Hemos tomado una decisión sobre su envío en {$contextName}, &quot;{$submissionTitle}&quot;.<br />
+<br />
+Nuestra decisión es: Necesita revisiones',
+      'emails.editorDecisionResubmit.subject' => 'Decisión del editor/a',
+      'emails.editorDecisionResubmit.body' => '{$authors}:<br />
+<br />
+Hemos tomado una decisión sobre su envío en {$contextName}, &quot;{$submissionTitle}&quot;.<br />
+<br />
+Nuestra decisión es: Volver a enviar a revisión',
+      'emails.editorDecisionDecline.subject' => 'Decisión del editor/a',
+      'emails.editorDecisionDecline.body' => '{$authors}:<br />
+<br />
+Hemos tomado una decisión sobre su envío en {$contextName}, &quot;{$submissionTitle}&quot;.<br />
+<br />
+Nuestra decisión es: Rechazar el envío',
+      'emails.editorRecommendation.subject' => 'Recomendación del editor/a',
+      'emails.editorRecommendation.body' => '{$editors}:<br />
+<br />
+La recomendación respecto al envío a {$contextName}, &quot;{$submissionTitle}&quot; es: {$recommendation}',
+      'emails.copyeditRequest.subject' => 'Petición de corrección',
+      'emails.copyeditRequest.body' => '{$recipientName}:<br />
+<br />
+Me gustaría pedirle que llevara a cabo la corrección de &quot;{$submissionTitle}&quot; para {$contextName}. Para hacerlo debería seguir los pasos siguientes:<br />
+1. Haga clic en la URL del envío que encontrará al final de este correo.<br />
+2. Abra todos los archivos disponibles en "Archivos borradores" y haga la corrección, añadiendo todos los comentarios que necesite en "Discusiones de corrección".<br />
+3. Guarde los archivos corregidos y cárguelos en el panel "Corregidos".<br />
+4. Notifique al editor/a que los archivos están listos y que el proceso de producción puede empezar.<br />
+<br />
+{$contextName} URL: {$contextUrl}<br />
+URL del envío: {$submissionUrl}<br />
+Nombre de usuario/a: {$recipientUsername}',
+      'emails.editorDecisionInitialDecline.subject' => 'Decisión del editor/a',
+      'emails.editorDecisionInitialDecline.body' => '
+			{$authors}:<br />
+<br />
+Hemos llegado a una decisión sobre su envío a {$contextName}, &quot;{$submissionTitle}&quot;.<br />
+<br />
+Nuestra decisión es: Rechazar el envío',
+      'emails.discussion.subject' => 'Mensaje sobre {$contextName}',
+      'emails.discussion.body' => 'Introduzca su mensaje.',
+      'emails.reviewConfirm.subject' => 'Acepto la revisión',
+      'emails.reviewConfirm.body' => 'Editores/as:<br />
+<br />
+Tengo la capacidad y deseo revisar el envío &quot;{$submissionTitle},&quot; para {$contextName}. Gracias por acordarse de mí, es mi intención tener la revisión completa en el plazo indicado: {$reviewDueDate}, a ser posible antes.<br />
+<br />
+{$senderName}',
+      'emails.submissionAckNotAuthor.subject' => 'Acuse de recibo del envío',
+      'emails.submissionAckNotAuthor.body' => 'Hola,<br />
+<br />
+{$submitterName} ha enviado el manuscrito &quot;{$submissionTitle}&quot; a {$contextName}. <br />
+<br />
+Si tiene cualquier pregunta no dude en contactarme. Le agradecemos que haya elegido esta revista para dar a conocer su obra.<br />
+<br />
+{$contextSignature}',
+    ),
+  ),
+);

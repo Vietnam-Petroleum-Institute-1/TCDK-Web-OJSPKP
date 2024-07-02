@@ -1,0 +1,37 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.importexport.datacite.displayName' => 'მოდული „ DataCite-ს ექსპორტი/რეგისტრაცია“',
+      'plugins.importexport.datacite.description' => 'აექსპორტებს, ან არეგისტრირებს გამოცემის, სტატიის, გალერეის და დამატებითი ფაილების მეტა-მონაცემებს DataCite ფორმატში.',
+      'plugins.importexport.datacite.settings.description' => 'გთხოვთ, მოარგეთ ექსპორტის მოდული DataCite მისი პირველი გამოყენების წინ.',
+      'plugins.importexport.datacite.intro' => '
+		თუ გსურთ DOI-ს რეგისტრაცია DataCite-ს საშუალებით, გთხოვთ დაუკავშირდეთ მმართველ
+		აგენტს <a href="https://datacite.org/contact.html" target="_blank">DataCite-ს
+		მთავარი გვერდი</a>-ს საშუალებით, რომელიც გადაგამისამართებთ DataCite-ს რეგიონულ წევრთან. როგორც კი
+		დაამყარებთ კონტაქტს წევრ ორგანიზაციასთან, თქვენ მიიღებთ
+		წვდომას DataCite-ს სერვისთან DOI-ს მუდმივი იდენტიფიკატორების მისაღებად
+		და მასთან დაკავშირებული მეტა-მონაცემების დასარეგისრირებლად. თუ არ გაქვთ მომხმარებლის სახელი და
+		პაროლი, მაინც შეძლებთ ექსპორტს DataCite XML ფორმატში, მაგრამ თქვენ
+		ვერ შეძლებთ თქვენი DOI-ს რეგისტრაციას DataCite-ში OJS-იდან.
+		გთხოვთ გაითვალისწინოთ, რომ პაროლი შენახული იქნება როგორც მარტივი ტექსტი, ანუ, არ დაიშიფრება,
+		ეს DataCite-ს რეგისტრაციის სერვისის მოთხოვნაა.
+	',
+      'plugins.importexport.datacite.settings.form.username' => 'მომხმარებლის სახელი (სიმბოლო)',
+      'plugins.importexport.datacite.settings.form.usernameRequired' => 'გთხოვთ, შეიტანეთ მომხმარებლის სახელი (სიმბოლო), რომელიც მიიღეთ DataCite-სგან. მომხმარებლის სახელი არ შეიძლება შეიცავდეს ორწერტილს.',
+      'plugins.importexport.datacite.settings.form.automaticRegistration.description' => 'OJS დაადეპონირებს DOI-ს ავტომატურად DataCite-ში. მიაქციეთ ყუარდღება, რომ ამას შესაძლოა დასჭირდეს გარკევული დრო, პუბლიკაციისა და დამუშავების შემდგომ (მაგალითად, cron-ის პარამეტრებიდან გამომდინარე). თქვენ შეგიძლიათ შეამოწმოთ ყველა რეგისტრირებული DOI.',
+      'plugins.importexport.datacite.settings.form.testMode.description' => 'DataCite-ს ტექსტური პრეფიქსის გამოყენება DOI-ს რეგისტრაციისათვის. გთხოვთ, არ დაგავიწყდეთ ამ პარამეტრის გათიშვა რეალური მუშაობისას.',
+      'plugins.importexport.datacite.settings.form.testUsername' => 'მომხმარებლის სახელი ტესტირებისათვის',
+      'plugins.importexport.datacite.settings.form.testPassword' => 'პაროლი ტესტირებისათვის',
+      'plugins.importexport.datacite.settings.form.testDOIPrefix' => 'სატესტო DOI პრეფიქსი',
+      'plugins.importexport.datacite.senderTask.name' => 'DataCite-ს ავტომატურად რეგისტრაციის ამოცანა',
+      'plugins.importexport.datacite.cliUsage' => 'გამოძახება: 
+{$scriptName} {$pluginName} export [outputFileName] [journal_path] {issues|articles|galleys} objectId1 [objectId2] ...
+{$scriptName} {$pluginName} register [journal_path] {issues|articles|galleys} objectId1 [objectId2] ...
+',
+    ),
+  ),
+);

@@ -1,0 +1,31 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'api.announcements.400.contextsNotMatched' => 'Объявление, которое вы запросили, не является частью данного журнала.',
+      'api.emails.403.disabled' => 'Функция уведомления по электронной почте не была включена для этого журнала.',
+      'api.submissions.400.wrongContext' => 'Запрошенный вами материал отсутствует в этом журнале.',
+      'api.submissions.403.cantChangeContext' => 'Вы не можете изменить журнал для материала.',
+      'api.submissions.403.unpublishedIssues' => 'У вас нет прав для просмотра неопубликованных выпусков.',
+      'api.contexts.403.requestedDisabledContexts' => 'Вы можете просматривать только журналы, к которым был открыт доступ.',
+      'api.contexts.403.notAllowed' => 'У вас нет прав для просмотра этого журнала.',
+      'api.contexts.403.contextsDidNotMatch' => 'Вы не можете просматривать или редактировать этот журнал, не делая запроса к API журнала или API всего сайта.',
+      'api.contexts.403.requiresContext' => 'Вы не можете редактировать этот журнал через API сайта.',
+      'api.contexts.403.notAllowedEdit' => 'У вас нет прав для редактирования этого журнала.',
+      'api.contexts.403.notAllowedDelete' => 'У вас нет прав на удаление этого журнала.',
+      'api.contexts.404.contextNotFound' => 'Запрошенный вами журнал не найден.',
+      'api.dois.403.contextsNotMatched' => 'Запрошенный вами DOI не является частью этого журнала.',
+      'api.dois.400.noRegistrationAgencyConfigured' => 'Для этого журнала не настроено агентство регистрации DOI.',
+      'api.dois.400.depositFailed' => 'Депонирование некоторых элементов завершилось неудачей. Пожалуйста, проверьте отдельные элементы на наличие сообщений о конкретных ошибках.',
+      'api.emailTemplates.403.notAllowedChangeContext' => 'У вас нет прав на перемещение этого шаблона письма в другой журнал.',
+      'api._payments.400.invalidPaymentMethod' => 'Выбранный вами метод оплаты не поддерживается.',
+      'api.publications.403.contextsDidNotMatch' => 'Запрошенная вами публикация не является частью этого журнала.',
+      'api.publications.403.submissionsDidNotMatch' => 'Запрошенная вами публикация не является частью этого материала.',
+      'api.submissionFiles.400.badRepresentationAssocType' => 'Вы не можете связать файл с этого этапа с гранкой.',
+      'api.submission.400.inactiveSection' => 'Этот раздел больше не принимает материалы.',
+    ),
+  ),
+);

@@ -1,0 +1,94 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'emails.submissionAck.subject' => 'Grazie per avere inviato il suo contributo a {$contextName}',
+      'emails.submissionAck.body' => 'Gentile {$recipientName},<br />
+<br />
+Grazie per aver inviato il suo contributo &quot;{$submissionTitle}&quot; alla testata  {$contextName}. Potrà il processo di revisione del suo manoscritto attraverso portale utilizzando la sua login al sito:<br />
+<br />
+URL della proposta: {$submissionUrl}<br />
+Username: {$recipientUsername}<br />
+<br />
+Per qualsiasi domanda non esiti a contattarmi.<br />
+La ringrazio per la preferenza espressa nei confronti di {$contextName}.<br />
+<br />
+{$contextSignature}',
+      'emails.reviewAck.subject' => 'Ringraziamenti per la revisione',
+      'emails.reviewAck.body' => 'Gentile {$recipientName}:<br />
+<br />
+Grazie per aver completato la revisione del manoscritto &quot;{$submissionTitle},&quot; per {$contextName}. Apprezziamo il tuo contributo nel mantenere alta la qualità della rivista.',
+      'emails.editorDecisionSendToExternal.subject' => 'Decisione dell\'editor',
+      'emails.editorDecisionSendToExternal.body' => 'Gentilissimo {$authors}:<br />
+<br />
+Abbiamo preso una decisione circa la tua proposta a {$contextName}, &quot;{$submissionTitle}&quot;.<br />
+<br />
+La nostra decisione: invio a un revisore esterno<br />
+<br />
+Submission URL: {$submissionUrl}',
+      'emails.editorDecisionSendToProduction.subject' => 'Decisione dell\'editor',
+      'emails.editorDecisionSendToProduction.body' => 'Gentilissimo {$authors}:<br />
+<br />
+La lavorazione editoriale della sua proposta, &quot;{$submissionTitle},&quot; è completa.  Ora viene preparata per l\'uscita sulla rivista.<br />
+<br />
+URL proposta: {$submissionUrl}',
+      'emails.editorDecisionRevisions.subject' => 'Decisione dell\'editor',
+      'emails.editorDecisionRevisions.body' => '&lt;![CDATA[{$authors}:<br />
+<br />
+Abbiamo raggiunto una decisione sulla Sua proposta a {$contextName}, &quot;{$submissionTitle}&quot;.<br />
+<br />
+La nostra decisione: è necessaria ciclo di peer-review',
+      'emails.editorDecisionResubmit.subject' => 'Decisione dell\'editor',
+      'emails.editorDecisionResubmit.body' => '{$authors}:<br />
+<br />
+Abbiamo raggiunto una decisione riguardo alla Sua submission a {$contextName}, &quot;{$submissionTitle}&quot;.<br />
+<br />
+La decisione è: mandarla di nuovo in revisione',
+      'emails.editorDecisionDecline.subject' => 'Decisione dell\'editor',
+      'emails.editorDecisionDecline.body' => '{$authors}:<br />
+<br />
+Abbiamo raggiunto una decisione riguardo alla Sua submission a {$contextName}, &quot;{$submissionTitle}&quot;.<br />
+<br />
+La decisione è di non accettare la proposta',
+      'emails.editorRecommendation.subject' => 'Raccomandazione dell\'editor',
+      'emails.editorRecommendation.body' => '{$editors}:<br />
+<br />
+La raccomandazione riguardo la proposta &quot;{$submissionTitle}&quot;, giunta per  {$contextName}, è: {$recommendation}',
+      'emails.copyeditRequest.subject' => 'Assegnazione di copyediting',
+      'emails.copyeditRequest.body' => '{$recipientName}:<br />
+<br />
+Ti chiedo di prendere in carico il copyediting del manoscritto &quot;{$submissionTitle}&quot; inviato alla testata {$contextName}.<br />
+Il documento si trova su sito web della rivista, insieme alle istruzioni per il copyediting.<br />
+Se non puoi prendere in carico il lavoro in questo periodo o hai qualche domanda, ti prego di contattarmi.<br />
+<br />
+{$contextName} URL: {$contextUrl}<br />
+URL Manoscritto: {$submissionUrl}<br />
+Username: {$recipientUsername}<br />',
+      'emails.editorDecisionInitialDecline.subject' => 'Decisione dell\'editor',
+      'emails.editorDecisionInitialDecline.body' => '
+			Gentilissimo {$authors}:<br />
+<br />
+Abbiamo preso una decisione in merito al suo manoscritto dal titolo &quot;{$submissionTitle}&quot; inviato a {$contextName} .<br />
+<br />
+Ci rincresce informarla che non ci è possibile accettare il suo contributo',
+      'emails.discussion.subject' => 'Nuovo messaggio da: {$contextName}',
+      'emails.discussion.body' => 'Inserisci qui il testo del tuo messaggio.',
+      'emails.reviewConfirm.subject' => 'Accettazione incarico di revisione',
+      'emails.reviewConfirm.body' => 'Gentile Editor,<br />
+<br />
+Accetto l\'incarico di revisionare &quot;{$submissionTitle},&quot; per {$contextName}.<br />
+Penso di completare la revisione per la data che mi avete comunicato, {$reviewDueDate}, se non prima.<br />
+<br />
+{$senderName}',
+      'emails.submissionAckNotAuthor.subject' => 'Conferma di ricezione della proposta',
+      'emails.submissionAckNotAuthor.body' => '<p>Gentilissimo {$recipientName}</p>
+<p>{$submitterName} ha aggiunto il suo nominativo in qualità di co-author del manoscritto "{$submissionTitle}" inviato per la pubblicazione alla rivista {$contextName}. </p>
+<p>questi sono i dettagli forniti: {$authorsWithAffiliation}</p>
+<p>Se non fossero corretti la prego di contattarci. Siamo a disposizione per qualsiasi chiarimento e la ringraziamo per la sua collaborazione.</p>
+<p>{$contextSignature}</p>',
+    ),
+  ),
+);

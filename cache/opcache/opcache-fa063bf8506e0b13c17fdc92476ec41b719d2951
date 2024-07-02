@@ -1,0 +1,14 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.recommendByAuthor.displayName' => 'Články odporúčané autorom',
+      'plugins.generic.recommendByAuthor.description' => 'Tento plugin vloží zoznam článkov rovnakého autora na  stránku abstraktov článku.',
+      'plugins.generic.recommendByAuthor.heading' => 'Najaktuálnejšie články rovnakého autora (rovnakých autorov)',
+      'plugins.generic.recommendByAuthor.noMetric' => 'Poznámka: Tento plugin vyžaduje, aby bol aktivovaný aspoň jeden plugin pre štatistiky/prehľad. Ak vaše štatistiky pre štatistiky poskytujú viac ako jednu metriku, vyberte prosím tiež hlavnú metriku na stránke nastavenie administrátora a/alebo na stránkach nastavenie správcu časopisov.',
+    ),
+  ),
+);

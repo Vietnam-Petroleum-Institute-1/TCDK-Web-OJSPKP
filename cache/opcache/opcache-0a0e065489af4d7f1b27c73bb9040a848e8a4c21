@@ -1,0 +1,35 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.citationStyleLanguage.displayName' => 'Style cytowań',
+      'plugins.generic.citationStyleLanguage.description' => 'Pozwala czytelnikom pobrać cytowanie opublikowanego artykułu w jednym ze wspieranych stylów cytowań.',
+      'plugins.generic.citationStyleLanguage.style.acm-sig-proceedings' => 'ACM',
+      'plugins.generic.citationStyleLanguage.style.acs-nano' => 'ACS',
+      'plugins.generic.citationStyleLanguage.style.apa' => 'APA',
+      'plugins.generic.citationStyleLanguage.style.associacao-brasileira-de-normas-tecnicas' => 'ABNT',
+      'plugins.generic.citationStyleLanguage.style.chicago-author-date' => 'Chicago (autor-data)',
+      'plugins.generic.citationStyleLanguage.style.harvard-cite-them-right' => 'Harvard',
+      'plugins.generic.citationStyleLanguage.style.ieee' => 'IEEE',
+      'plugins.generic.citationStyleLanguage.style.modern-language-association' => 'MLA',
+      'plugins.generic.citationStyleLanguage.style.turabian-fullnote-bibliography' => 'Turabian',
+      'plugins.generic.citationStyleLanguage.style.vancouver' => 'Vancouver',
+      'plugins.generic.citationStyleLanguage.download.bibtex' => 'BibTeX',
+      'plugins.generic.citationStyleLanguage.download.ris' => 'Endnote/Zotero/Mendeley (RIS)',
+      'plugins.generic.citationStyleLanguage.settings.citationDownloads' => 'Formaty do pobrania',
+      'plugins.generic.citationStyleLanguage.settings.citationDownloadsDescription' => 'Wybierz style cytowań, które chcesz udostępnić swoim czytelnikom do pobrania. Style cytowań są zwykle używane w celu dokonania importu do zewnętrznego oprogramowania do zarządzania bibliografią, takiego jak EndNote lub Zotero.',
+      'plugins.generic.citationStyleLanguage.settings.citationFormats' => 'Dodatkowe formaty cytowań',
+      'plugins.generic.citationStyleLanguage.settings.citationFormatsDescription' => 'Wybierz dodatkowe formaty, które chcesz udostępnić do pobrania swoim czytelnikom.',
+      'plugins.generic.citationStyleLanguage.settings.citationFormatsPrimary' => 'Główny (domyślny) format cytowania',
+      'plugins.generic.citationStyleLanguage.settings.citationFormatsPrimaryDescription' => 'Wybierz format cytowania, który chcesz wyświetlać domyślnie na stronie artykułu.',
+      'plugins.generic.citationStyleLanguage.settings.publisherLocation.description' => 'Niektóre style cytowania wymagają podania miejsca wydania, np. "London, U.K.".',
+      'plugins.generic.citationStyleLanguage.settings.publisherLocation' => 'Miejsce wydania',
+      'plugins.generic.citationStyleLanguage.style.ama' => 'AMA',
+      'plugins.generic.citationStyleLanguage.description.omp' => 'Pozwala czytelnikom pobrać cytowanie opublikowanej książki w jednym ze wspieranych stylów cytowań.',
+      'plugins.generic.citationStyleLanguage.settings.citationFormatsPrimaryDescription.omp' => 'Wybierz styl cytowania, który ma być domyślnie wyświetlany na stronie docelowej książki.',
+    ),
+  ),
+);

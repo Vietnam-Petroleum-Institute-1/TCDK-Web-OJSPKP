@@ -1,0 +1,13 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n % 10 != 1 || n % 100 == 11;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.recommendByAuthor.displayName' => 'Mæla með grein eftir höfund',
+      'plugins.generic.recommendByAuthor.description' => 'Þessi viðbót birtir á ágripssíðu greinar, lista yfir greinar sama höfundar.',
+      'plugins.generic.recommendByAuthor.heading' => 'Mest lesnu greinar eftir sama höfund(a)',
+    ),
+  ),
+);

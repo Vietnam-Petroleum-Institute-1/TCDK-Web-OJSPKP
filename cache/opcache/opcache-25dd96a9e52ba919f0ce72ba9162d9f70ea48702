@@ -1,0 +1,30 @@
+<?php $exp = 1751345594; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.staticPages.displayName' => 'Statisk side-plugin',
+      'plugins.generic.staticPages.description' => 'Denne plugin giver mulighed for håndtering af statisk indhold.',
+      'plugins.generic.staticPages.staticPages' => 'Statiske sider',
+      'plugins.generic.staticPages.pageTitle' => 'Titel',
+      'plugins.generic.staticPages.content' => 'Indhold',
+      'plugins.generic.staticPages.path' => 'Sti',
+      'plugins.generic.staticPages.requirement.tinymce' => '<p><strong>TinyMCE Pluginen skal installers og aktiveres for at gøre det muligt at tilføje og redigere indhold.</strong></p>',
+      'plugins.generic.staticPages.editAddContent' => 'Redigér/Tilføj indhold',
+      'plugins.generic.staticPages.addStaticPage' => 'Tilføj statisk side',
+      'plugins.generic.staticPages.addNewPage' => 'Tilføj ny side',
+      'plugins.generic.staticPages.editStaticPage' => 'Redigér statisk side',
+      'plugins.generic.staticPages.noneCreated' => 'Ingen statisk side er blevet oprettet.',
+      'plugins.generic.staticPages.settingInstructions' => 'Skemaet nedenfor viser alle de statiske sider, du har oprettet. Du kan redigere eller slette siderne ved at anvende linkene til højre.',
+      'plugins.generic.staticPages.editInstructions' => 'Vælg skemaet nedenfor for at tilføje/redigere sideindhold.',
+      'plugins.generic.staticPages.pathRegEx' => 'Sti-feltet må kun bestå af bogstaver, tal samt ".", "/", "-" og "_".',
+      'plugins.generic.staticPages.viewInstructions' => '<p>Siden kan tilgås via: <blockquote>{$pagesPath}</blockquote>...hvor %PATH% er den sti, du vælger. <strong>Bemærk:</strong> to sider kan ikke have den same sti. Brugen af stier, der er indbygget i systemet, kan medføre, at du mister adgang til vigtige funktioner.</p>',
+      'plugins.generic.staticPages.duplicatePath' => 'Denne sti er allerede valgt i forbindelse med en anden statisk side.',
+      'plugins.generic.staticPages.pageSaved' => 'Siden er gemt.',
+      'plugins.generic.staticPages.pageDeleted' => 'Siden er slettet.',
+      'plugins.generic.staticPages.noneExist' => 'Ingen sider er blevet oprettet',
+    ),
+  ),
+);

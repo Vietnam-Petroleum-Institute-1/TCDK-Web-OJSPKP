@@ -1,0 +1,34 @@
+<?php $exp = 1751345595; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.importexport.datacite.displayName' => 'DataCite-vientilisäosa',
+      'plugins.importexport.datacite.description' => 'Vie tai rekisteröi numeroita, artikkeleita, julkaistuja tiedostoja sekä liitetiedostoja DataCite-palvelun XML.muodossa ja rekisteröi DOI-tunnuksia  DataCite-rekisteröintipalvelussa.',
+      'plugins.importexport.datacite.settings.description' => 'Määritä DataCite-lisäosa ennen sen käyttämistä.',
+      'plugins.importexport.datacite.intro' => '
+		Mikäli haluat luoda DOI-tunnuksia DataCite-palvelun kautta, ota ensin yhteyttä
+		<a href="https://datacite.org/contact.html" target="_blank">palvelun kotisivujen kautta</a>
+		ja sinut ohjataan paikalliselle DataCiten jäsenelle. DataCiten jäsenorganisaatiolta saat 
+		DOI-tunnusten rekisteröintiin tarvittavat käyttäjätunnukset. Mikäli sinulla ei ole
+		käyttäjätunnuksia, voit siitä huolimatta viedä tietoja DataCite-palvelun käyttämässä
+		XML-muodossa. Huomaa, että salasana tallennetaan salaamattomassa muodossa 
+		tietokantaan johtuen DataCite-palvelun vaatimuksista.
+	',
+      'plugins.importexport.datacite.settings.form.username' => 'Käyttäjänimi (symbol)',
+      'plugins.importexport.datacite.settings.form.usernameRequired' => 'Anna DataCite-palvelusta saatu käyttäjänimi (symbol). Käyttäjänimessä ei saa olla kaksoispistettä.',
+      'plugins.importexport.datacite.settings.form.automaticRegistration.description' => 'OJS tallettaa määritetyt DOI-tunnisteet automaattisesti DataCite-palveluun. Huomioithan, että käsittely saattaa kestää hetken julkaisemisen jälkeen. Voit tarkistaa kaikki rekisteröimättömät DOI-tunnisteet.',
+      'plugins.importexport.datacite.settings.form.testMode.description' => 'Käytä DataCite-palvelun testirajapintaa (testausympäristö) DOI-tunnisteen rekisteröintiin. Muista poistaa tämä valinta tuotantosivustolla.',
+      'plugins.importexport.datacite.settings.form.testUsername' => 'Testikäyttäjänimi',
+      'plugins.importexport.datacite.settings.form.testPassword' => 'Testisalasana',
+      'plugins.importexport.datacite.settings.form.testDOIPrefix' => 'Testi DOI-prefiksi',
+      'plugins.importexport.datacite.senderTask.name' => 'DataCite-palvelun automaattinen rekisteröintitehtävä',
+      'plugins.importexport.datacite.cliUsage' => 'Käyttö: 
+{$scriptName} {$pluginName} export [outputFileName] [journal_path] {issues|articles|galleys} objectId1 [objectId2] ...
+{$scriptName} {$pluginName} register [journal_path] {issues|articles|galleys} objectId1 [objectId2] ...
+',
+    ),
+  ),
+);

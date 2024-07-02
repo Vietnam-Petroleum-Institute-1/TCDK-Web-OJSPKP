@@ -1,0 +1,30 @@
+<?php $exp = 1751345594; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.staticPages.displayName' => 'إضافة الصفحات الثابتة',
+      'plugins.generic.staticPages.description' => 'هذه الإضافة تتيح إدارة المحتوى الثابت.',
+      'plugins.generic.staticPages.staticPages' => 'الصفحات الثابتة',
+      'plugins.generic.staticPages.pageTitle' => 'العنوان',
+      'plugins.generic.staticPages.content' => 'المحتوى',
+      'plugins.generic.staticPages.path' => 'المسار',
+      'plugins.generic.staticPages.requirement.tinymce' => '<p><strong>إن إضافة TinyMCE ينبغي أن تكون منصبة وممكنة من أجل إضافة/تعديل المحتوى.</strong></p>',
+      'plugins.generic.staticPages.editAddContent' => 'تعديل/إضافة المحتوى',
+      'plugins.generic.staticPages.addStaticPage' => 'إضافة صفحة ثابتة',
+      'plugins.generic.staticPages.addNewPage' => 'إضافة صفحة جديدة',
+      'plugins.generic.staticPages.editStaticPage' => 'تعديل صفحة ثابتة',
+      'plugins.generic.staticPages.noneCreated' => 'لم يتم إنشاء أي صفحة ثابتة بعد.',
+      'plugins.generic.staticPages.settingInstructions' => 'النموذج أدناه يعرض لك كل الصفحات الثابتة التي قمت بإنشائها. بإمكانك تعديل أو حذف الصفحات مستعملاً الروابط على الجانب الأيمن.',
+      'plugins.generic.staticPages.editInstructions' => 'استعمل النموذج أدناه لغرض إضافة/تعديل محتوى الصفحة.',
+      'plugins.generic.staticPages.pathRegEx' => 'حقل المسار لا بد أن يقتصر على حروف وأرقام فضلاً عن \'.\'، \'/\'، \'-\'، و \'_\'.',
+      'plugins.generic.staticPages.viewInstructions' => '<p>هذه الصفحة ستكون متاحة على الرابط: <blockquote>{$pagesPath}</blockquote>...حيث أن %PATH% هو المسار الذي أدخلته أعلاه. <strong>Note:</strong> لا يمكن لصفحتين أن يكون لهما نفس المسار. استعمالك لتسميات مسارات خاصة بالنظام قد يفقدك إمكانية الوصول إلى بعض وظائفه الهامة.</p>',
+      'plugins.generic.staticPages.duplicatePath' => 'هذا المسار موجود مسبقاً لصفحة ثابتة أخرى.',
+      'plugins.generic.staticPages.pageSaved' => 'تم حفظ الصفحة بنجاح.',
+      'plugins.generic.staticPages.pageDeleted' => 'حذفت الصفحة بنجاح.',
+      'plugins.generic.staticPages.noneExist' => 'لم يسبق إنشاء أي صفحة ثابتة',
+    ),
+  ),
+);

@@ -1,0 +1,26 @@
+<?php $exp = 1751345594; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.webfeed.displayName' => 'Плъгин за RSS емисия на броя',
+      'plugins.generic.webfeed.description' => 'Този плъгин произвежда RSS/Atom уеб синдикална емисия. <br>Плъгинът включва и блок за странична лента, който ви позволява да показвате връзките към емисиите в страничната лента на вашето приложение',
+      'plugins.generic.webfeed.settings' => 'Настройки',
+      'plugins.generic.webfeed.settings.issue' => 'Показва връзки към емисията само на страниците на списанието.',
+      'plugins.generic.webfeed.settings.homepage' => 'Показва връзки към емисията на началната страница и на страниците на броя на списанието.',
+      'plugins.generic.webfeed.settings.all' => 'Показва връзки към емисията на всички страници на списанието.',
+      'plugins.generic.webfeed.settings.currentIssue' => 'Показва съдържание от последния актуален брой на списанието.',
+      'plugins.generic.webfeed.settings.recent' => 'Показва показва фиксиран брой от последно добавените елементи.',
+      'plugins.generic.webfeed.settings.recentArticles' => 'Брой елементи за показване',
+      'plugins.generic.webfeed.settings.recentItemsRequired' => 'Моля, въведете положително цяло число за показване на последните публикувани елементи.',
+      'plugins.generic.webfeed.atom.altText' => 'Лого на Atom',
+      'plugins.generic.webfeed.rss1.altText' => 'Лого на RSS1',
+      'plugins.generic.webfeed.rss2.altText' => 'Лого на RSS2',
+      'plugins.generic.webfeed.blockTitle' => 'Последни статии',
+      'plugins.generic.webfeed.settings.includeIdentifiers' => 'Включване на идентификатори (ISBN, ключови думи, категории и т.н.) в резюмето на емисията?',
+      'plugins.generic.webfeed.settings.homepageAndIssues' => 'Показване на връзки към уеб емисии само на началната страница и на страниците на броя.',
+    ),
+  ),
+);

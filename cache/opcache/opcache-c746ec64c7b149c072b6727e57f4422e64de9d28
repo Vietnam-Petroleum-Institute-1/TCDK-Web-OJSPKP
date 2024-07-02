@@ -1,0 +1,15 @@
+<?php $exp = 1751345594; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.recommendBySimilarity.displayName' => 'التوصية بمؤلفات مشابهة',
+      'plugins.generic.recommendBySimilarity.description' => 'هذه الإضافة تلحق قائمة بالمؤلفات المشابهة إلى صفحة الملخص.',
+      'plugins.generic.recommendBySimilarity.heading' => 'المؤلفات المشابهة',
+      'plugins.generic.recommendBySimilarity.advancedSearchIntro' => 'يمكنك أيضاً {$advancedSearchLink} لهذا المؤلَّف.',
+      'plugins.generic.recommendBySimilarity.advancedSearch' => 'إبدأ بحثاً متقدماً عن المشابهات',
+    ),
+  ),
+);

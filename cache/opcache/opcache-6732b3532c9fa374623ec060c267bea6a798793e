@@ -1,0 +1,12 @@
+<?php $exp = 1751345595; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.usageEvent.displayName' => 'Action d\'un usager',
+      'plugins.generic.usageEvent.description' => 'Créer une ancre qui sert à enregistrer une action de l\'usager dans un format définis.',
+    ),
+  ),
+);

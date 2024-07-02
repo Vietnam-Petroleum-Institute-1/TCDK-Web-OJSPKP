@@ -1,0 +1,26 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.webfeed.displayName' => 'Плагін вебканалу',
+      'plugins.generic.webfeed.description' => 'Цей плагін створює канали вебсиндикації RSS / Atom. <br>Плагін також включає блок бічної панелі, який дозволяє відображати посилання на канали на бічній панелі вашої програми',
+      'plugins.generic.webfeed.settings' => 'Налаштування',
+      'plugins.generic.webfeed.settings.issue' => 'Відображати покликання на вебканал лише на сторінках випуску.',
+      'plugins.generic.webfeed.settings.homepage' => 'Відображати покликання на вебканал лише на головній сторінці.',
+      'plugins.generic.webfeed.settings.all' => 'Відображати покликання на вебканал на всіх сторінках програми.',
+      'plugins.generic.webfeed.settings.currentIssue' => 'Відображати матеріали в поточному опублікованому випуску.',
+      'plugins.generic.webfeed.settings.recent' => 'Відображати фіксовану кількість останніх публікацій.',
+      'plugins.generic.webfeed.settings.recentArticles' => 'Кількість публікацій для відображення',
+      'plugins.generic.webfeed.settings.recentItemsRequired' => 'Будь ласка, укажіть додатнє ціле число кількості останніх опублікованих матеріалів.',
+      'plugins.generic.webfeed.atom.altText' => 'Логотип Atom',
+      'plugins.generic.webfeed.rss1.altText' => 'Логотип RSS1',
+      'plugins.generic.webfeed.rss2.altText' => 'Логотип RSS2',
+      'plugins.generic.webfeed.settings.homepageAndIssues' => 'Відображати покликання на вебканал лише на головній сторінці та сторінках випусків.',
+      'plugins.generic.webfeed.blockTitle' => 'Останні публікації',
+      'plugins.generic.webfeed.settings.includeIdentifiers' => 'Додати ідентифікатори (номер ISBN, ключові слова, категорії тощо) у зведення каналу?',
+    ),
+  ),
+);

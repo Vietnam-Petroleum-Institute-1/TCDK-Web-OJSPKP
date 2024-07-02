@@ -1,0 +1,79 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'installer.additionalLocales' => 'Dodatni jeziki',
+      'installer.administratorAccount' => 'Račun administratorja',
+      'installer.administratorAccountInstructions' => 'Ta uporabniški račun bo postal administrator celotnega spletišča in bo imel dostop do celotnega sistema. Dodani uporabniški računi se lahko naredijo po namestitvi.',
+      'installer.checkNo' => '<span class="pkp_form_error formError">NE</span>',
+      'installer.checkYes' => 'Da',
+      'installer.configFileError' => 'Nastavitvena datoteka <tt>config.inc.php</tt> ne obstaja ali ni berljiva.',
+      'installer.connectionCharset' => 'Nabor znakov povezave',
+      'installer.contentsOfConfigFile' => 'Vsebina nastavitvene datoteke',
+      'installer.databaseDriver' => 'Gonilnik baze podatkov',
+      'installer.databaseDriverInstructions' => '<strong>Sistem trenutno podpira le MySQL in PostgreSQL. V primeru, da spodaj ne morete izbrati ene od teh dveh možnosti, kontaktirajte sistemskega administratorja, da zagotovi, da bo imel strežnik nameščene potrebne PHP razširitve.</strong>',
+      'installer.databaseHost' => 'Gostitelj "Host"',
+      'installer.databaseHostInstructions' => 'Pustite ime gostitelja prazno za povezavo s pomočjo domenske vtičnice namesto TCP/IP-ja. To ni potrebno pri MySQL, ki avtomatsko uporabi vtičnico, če je vpisano "localhost". Je pa potrebno pri nekaterih drugih bazah podatkov, recimo PostgreSQL.',
+      'installer.databaseName' => 'Ime baze podatkov',
+      'installer.databasePassword' => 'Geslo',
+      'installer.databaseSettings' => 'Nastavitve baze podatkov',
+      'installer.databaseUsername' => 'Uporabniško ime',
+      'installer.filesDir' => 'Mapa za nalaganje datotek',
+      'installer.fileSettings' => 'Nastavitve datotek',
+      'installer.form.clientCharsetRequired' => 'Izbrati morate nabor znakov klienta.',
+      'installer.form.databaseDriverRequired' => 'Izbrati morate gonilnik za bazo podatkov.',
+      'installer.form.databaseNameRequired' => 'Ime baze podatkov je obvezno.',
+      'installer.form.emailRequired' => 'Veljaven e-poštni naslov za račun administratorja je obvezen.',
+      'installer.form.filesDirRequired' => 'Mapa za shranjevanje naloženih datotek je obvezna.',
+      'installer.form.localeRequired' => 'Izbrati morate jezik.',
+      'installer.form.passwordRequired' => 'Geslo za račun administratorja je obvezno.',
+      'installer.form.passwordsDoNotMatch' => 'Gesli administratorja se ne ujemata.',
+      'installer.form.separateMultiple' => 'Več vrednosti med seboj ločite z vejicami',
+      'installer.form.usernameAlphaNumeric' => 'Uporabniško ime administratorja lahko vsebuje samo alfanumerične znake, podčrtaj, pomišljaj in se mora začeti in končati z alfanumeričnim znakom.',
+      'installer.form.usernameRequired' => 'Uporabniško ime za račun administratorja je obvezno.',
+      'installer.form.timeZoneRequired' => 'Izbira časovnega pasu je obvezna.',
+      'installer.installationWrongPhp' => '<br/><strong>OPOZORILO: Vaša verzija PHP ne zadostuje minimalnim zahtevam za namestitev. Priporočljivo je, da PHP nadgradite z novejšo verzijo.</strong>',
+      'installer.installErrorsOccurred' => 'Med namestitvijo je prišlo do napak',
+      'installer.installerSQLStatements' => 'SQL stavki za namestitev',
+      'installer.installFileError' => 'Namestitvena datoteka <tt>dbscripts/xml/install.xml</tt> ne obstaja ali ni berljiva.',
+      'installer.installFilesDirError' => 'Podana mapa za nalaganje datotek ne obstaja ali vanj ne moremo pisati.',
+      'installer.installParseDBFileError' => 'Napaka pri analiziranju namestitvene datoteke za bazo podatkov <tt>{$file}</tt>.',
+      'installer.installMigrationError' => 'Napaka pri izvajanju migracijskega razreda <tt>{$class}</tt>. Napaka je bila: {$message}.',
+      'installer.installParseEmailTemplatesFileError' => 'Napaka pri analizi datoteke s predlogo za emaile <tt>{$file}</tt>.',
+      'installer.installParseFilterConfigFileError' => 'Napaka pri analizi nastavitvene datoteke filtra <tt>{$file}</tt>.',
+      'installer.unsupportedUpgradeError' => 'Nadgradnja ni podprta. Za več informacij poglejte v navodila za nadgradnjo (https://docs.pkp.sfu.ca/dev/upgrade-guide).',
+      'installer.timezoneInstructions' => 'Časovni pas, ki naj ga sistem uporablja.',
+      'installer.additionalLocalesInstructions' => 'Izberite dodatne jezike, ki naj bodo podprti na sistemu. Dodatne jezike lahko kadarkoli namestite preko administratorskega vmesnika.<br>* = Pomeni jeziki, ki niso popolnoma prevedeni (> 90% izrazov prevedenih)',
+      'installer.locale' => 'Jezik',
+      'installer.locale.maybeIncomplete' => 'Označeni jeziki so lahko nepopolni.',
+      'installer.localeSettings' => 'Jezikovne nastavitve',
+      'installer.oaiSettings' => 'OAI nastavitve',
+      'installer.oaiRepositoryIdInstructions' => 'Enoznačen identifikator, ki se uporablja za identifikacijo zapisov metapodatkov pridobljenih na tem spletišču z uporabo <a href="https://www.openarchives.org/" target="_blank">Open Archives Initiative</a> protokola za zajemanje metapodatkov.',
+      'installer.oaiRepositoryId' => 'OAI identifikator repozitorija',
+      'installer.publicFilesDirError' => 'Mapa za javne datoteke ne obstaja ali vanj ne moremo pisati.',
+      'installer.releaseNotes' => 'Opombe k izdaji',
+      'installer.preInstallationInstructionsTitle' => 'Prednamestitveni koraki',
+      'installer.preInstallationInstructions' => '
+		<p>1. Nasldenje datoteke in mape (vključno z vsebino) morajo imeti pravico pisanja:</p>
+		<ul>
+			<li><tt>config.inc.php</tt> omogočeno pisanje (opcijsko): {$writable_config}</li>
+			<li><tt>public/</tt> omogočeno pisanje: {$writable_public}</li>
+			<li><tt>cache/</tt> omogočeno pisanje: {$writable_cache}</li>
+			<li><tt>cache/t_cache/</tt> omogočeno pisanje: {$writable_templates_cache}</li>
+			<li><tt>cache/t_compile/</tt> omogočeno pisanje: {$writable_templates_compile}</li>
+			<li><tt>cache/_db</tt> omogočeno pisanje: {$writable_db_cache}</li>
+		</ul>
+
+		<p>2. Mapa za shranjevanje naloženih datotek mora obstajati in imeti omogočeno pisanje (več v "Nastavitve datotek" spodaj).</p>
+	',
+      'installer.configureXSLMessage' => '<p>Vaša PHP namestitev nima omogočenega XSL modula. Ali ga vključite ali pa ustrezno konfigurirajte paramer xslt_command v vaši config.inc.php datoteki.</p>',
+      'installer.beacon' => 'Beacon',
+      'installer.beacon.enable' => 'Vnesite enolični identifikator spletišča, ki bo hkrati osnova za OAI za PKP, izključno za statistiko in varnostna opozorila.',
+      'installer.unsupportedPhpError' => 'Vaš strežnik ima nameščeno verzijo PHP, ki ni podprta. Preverite zahtevane pogoje za namestitev v docs/README.',
+      'installer.miscSettings' => 'Dodatne nastavitve',
+    ),
+  ),
+);

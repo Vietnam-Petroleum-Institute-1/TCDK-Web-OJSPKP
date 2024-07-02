@@ -1,0 +1,26 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n % 10 != 1 || n % 100 == 11;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'api.announcements.400.contextsNotMatched' => 'Tilkynningin sem þú baðst um tengist ekki þessu tímariti.',
+      'api.emails.403.disabled' => 'Tölvupóstsendingar frá þessu tímariti hafa ekki verið virkjaðar.',
+      'api.submissions.403.cantChangeContext' => 'Þú getur ekki breytt upplýsingum um tímarit innsendingar.',
+      'api.submissions.403.unpublishedIssues' => 'Þú hefur ekki heimild tl að skoða óbirtar útgáfur.',
+      'api.contexts.403.requestedDisabledContexts' => 'Það er eingöngu hægt að skoða tímarit sem hafa verið virkjuð.',
+      'api.contexts.403.notAllowed' => 'Þú hefur ekki heimild til að skoða þetta tímarit.',
+      'api.contexts.403.contextsDidNotMatch' => 'Þú getur ekki skoðað eða breytt þessu tímariti án þess að senda beiðni á API tímritsins eða vefsíðu API.',
+      'api.contexts.403.requiresContext' => 'Þú getur ekki breytt þessu tímariti frá vefsíðu API.',
+      'api.contexts.403.notAllowedEdit' => 'Þú hefur ekki heimild til að breyta þessu tímariti.',
+      'api.contexts.403.notAllowedDelete' => 'Þú hefur ekki heimild til að eyða þessu tímariti.',
+      'api.contexts.404.contextNotFound' => 'Tímaritið sem þú baðst um finnst ekki.',
+      'api.emailTemplates.403.notAllowedChangeContext' => 'Þú hefur ekki heimild til að flytja þetta tölvupóstsniðmát yfir á annað tímarit.',
+      'api._payments.400.invalidPaymentMethod' => 'Það er ekki stutt við greiðsluaðferðina sem þú valdir.',
+      'api.publications.403.contextsDidNotMatch' => 'Ritverkið sem þú baðst um er ekki hluti af þessu tímariti.',
+      'api.publications.403.submissionsDidNotMatch' => 'Ritverkið sem þú baðst um er ekki hluti af þessari innsendingu.',
+      'api.submissionFiles.400.badRepresentationAssocType' => 'Þú getur ekki tengt skrá frá þessu skráaþrepi við galley.',
+    ),
+  ),
+);

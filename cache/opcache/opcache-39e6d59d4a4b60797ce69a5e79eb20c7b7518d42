@@ -1,0 +1,12 @@
+<?php $exp = 1751345595; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.usageEvent.displayName' => 'Journal d\'événement',
+      'plugins.generic.usageEvent.description' => 'Créer un lien vers le journal d\'événement dans un format particulier.',
+    ),
+  ),
+);

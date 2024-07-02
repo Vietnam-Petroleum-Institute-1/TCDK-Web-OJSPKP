@@ -1,0 +1,21 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.tinymce.name' => 'TinyMCE-plugin',
+      'plugins.generic.tinymce.description' => 'Det här pluginet aktiverar ett grafiskt gränssnitt för att redigera textrutor som bygger på mjukvaran <a href="https://www.tinymce.com" target="_blank">TinyMCE</a>.',
+      'plugins.generic.tinymce.settings' => 'Inställningar',
+      'plugins.generic.tinymce.pkpTags.listTags' => 'Välj element',
+      'plugins.generic.tinymce.pkpTags.noneAvailable' => 'Inga element tillgängliga för det här fältet.',
+      'plugins.generic.tinymce.pkpTags.description' => 'Du kan använda följande element:',
+      'plugins.generic.tinymce.variables.principalContactName' => 'Primär kontakt, namn ("{$value}")',
+      'plugins.generic.tinymce.variables.principalContactEmail' => 'Primär kontakt, e-postadress ("{$value}")',
+      'plugins.generic.tinymce.variables.supportContactName' => 'Supportkontakt, namn ("{$value}")',
+      'plugins.generic.tinymce.variables.supportContactEmail' => 'Supportkontakt, e-postadress ("{$value}")',
+      'plugins.generic.tinymce.variables.supportContactPhone' => 'Supportkontakt, telefonnummer ("{$value}")',
+    ),
+  ),
+);

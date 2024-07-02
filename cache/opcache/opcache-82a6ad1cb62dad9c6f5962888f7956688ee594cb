@@ -1,0 +1,12 @@
+<?php $exp = 1751345594; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.dublinCoreMeta.name' => 'Indexovací plugin Dublin Core',
+      'plugins.generic.dublinCoreMeta.description' => 'Tento plugin poskytuje meta značky Dublin Core v zobrazení článků pro účely indexování.',
+    ),
+  ),
+);

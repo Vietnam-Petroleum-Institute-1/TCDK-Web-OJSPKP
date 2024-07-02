@@ -1,0 +1,23 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.webfeed.displayName' => 'Web Feed dodatak',
+      'plugins.generic.webfeed.description' => 'Ovaj dodatak proizvodi RSS/Atom web syndication feeds za trenutni broj časopisa.',
+      'plugins.generic.webfeed.settings' => 'Podešavanja',
+      'plugins.generic.webfeed.settings.issue' => 'Prikaži linkove samo na stranici trenutnog broja.',
+      'plugins.generic.webfeed.settings.homepage' => 'Prikaži linkove samo na početnoj stranici i stranici trenutnog broja.',
+      'plugins.generic.webfeed.settings.all' => 'Prikaži linkove na svim stranicama časopisa.',
+      'plugins.generic.webfeed.settings.currentIssue' => 'Prikaži stavke trenutno objavljenog broja.',
+      'plugins.generic.webfeed.settings.recent' => 'Prikaži fiksni broj skorašnjih stavki.',
+      'plugins.generic.webfeed.settings.recentArticles' => 'poslednje objavljene stavke.',
+      'plugins.generic.webfeed.settings.recentItemsRequired' => 'Unesite broj stavki koje će se prikazivati.',
+      'plugins.generic.webfeed.atom.altText' => 'Atom logo',
+      'plugins.generic.webfeed.rss1.altText' => 'RSS1 logo',
+      'plugins.generic.webfeed.rss2.altText' => 'RSS2 logo',
+    ),
+  ),
+);

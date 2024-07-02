@@ -1,0 +1,23 @@
+<?php $exp = 1751345599; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.webfeed.displayName' => 'Veb -kanallar uchun plagin',
+      'plugins.generic.webfeed.description' => 'Ushbu plagin joriy muammo uchun RSS/Atom veb -sindikatsiyasini beradi.',
+      'plugins.generic.webfeed.settings' => 'Sozlamalar',
+      'plugins.generic.webfeed.settings.issue' => 'Veb -tasma havolalarini faqat muammoli sahifalarda ko\'rsatish.',
+      'plugins.generic.webfeed.settings.homepage' => 'Veb -tasma havolalarini faqat bosh sahifada va nashr sahifalarida ko\'rsatish.',
+      'plugins.generic.webfeed.settings.all' => 'Barcha jurnal sahifalarida veb -tasma havolalarini ko\'rsatish.',
+      'plugins.generic.webfeed.settings.currentIssue' => 'Joriy nashrda elementlarni ko\'rsatish.',
+      'plugins.generic.webfeed.settings.recent' => 'So\'nggi elementlarning belgilangan sonini ko\'rsatish.',
+      'plugins.generic.webfeed.settings.recentArticles' => 'Ko\'rsatiladigan elementlar soni',
+      'plugins.generic.webfeed.settings.recentItemsRequired' => 'Iltimos, yaqinda e\'lon qilingan ma\'lumotlar uchun musbat tamsayı kiriting.',
+      'plugins.generic.webfeed.atom.altText' => 'Atom logotipi',
+      'plugins.generic.webfeed.rss1.altText' => 'RSS1 logotipi',
+      'plugins.generic.webfeed.rss2.altText' => 'RSS2 logotipi',
+    ),
+  ),
+);

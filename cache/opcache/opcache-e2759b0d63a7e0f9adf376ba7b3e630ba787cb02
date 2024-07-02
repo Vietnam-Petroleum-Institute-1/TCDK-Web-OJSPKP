@@ -1,0 +1,22 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.announcementfeed.displayName' => 'Complemento de anuncios',
+      'plugins.generic.announcementfeed.description' => 'Este complemento xera canles de información RSS/Atom para os anuncios da revista.',
+      'plugins.generic.announcementfeed.settings' => 'Configuración',
+      'plugins.generic.announcementfeed.settings.all' => 'Mostrar enlaces en todas as páxinas da revista.',
+      'plugins.generic.announcementfeed.settings.homepage' => 'Mostrar enlaces só na páxina inicial e na páxina de noticias.',
+      'plugins.generic.announcementfeed.settings.announcement' => 'Mostrar enlaces só na páxina de anuncios.',
+      'plugins.generic.announcementfeed.settings.recentAnnouncements1' => 'Limitar as canles de información a',
+      'plugins.generic.announcementfeed.settings.recentAnnouncements2' => 'noticias máis recentes.',
+      'plugins.generic.announcementfeed.settings.recentItemsRequired' => 'Introduza un número enteiro positivo para as noticias recentes.',
+      'plugins.generic.announcementfeed.atom.altText' => 'Logo Atom',
+      'plugins.generic.announcementfeed.rss1.altText' => 'Logo RSS1',
+      'plugins.generic.announcementfeed.rss2.altText' => 'Logo RSS2',
+    ),
+  ),
+);

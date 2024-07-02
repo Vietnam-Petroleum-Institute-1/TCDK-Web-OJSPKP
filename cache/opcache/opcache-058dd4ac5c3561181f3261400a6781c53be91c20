@@ -1,0 +1,22 @@
+<?php $exp = 1751345599; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.announcementfeed.displayName' => '公告Feed插件',
+      'plugins.generic.announcementfeed.description' => '本插件用于提供期刊公告的RSS/ATOM服务。',
+      'plugins.generic.announcementfeed.settings' => '设置',
+      'plugins.generic.announcementfeed.settings.all' => '在所有页面显示Feed链接。',
+      'plugins.generic.announcementfeed.settings.homepage' => '在期刊首页与公告页面显示Feed链接。',
+      'plugins.generic.announcementfeed.settings.announcement' => '只在公告页面显示Feed链接。',
+      'plugins.generic.announcementfeed.settings.recentAnnouncements1' => '限制Feed到',
+      'plugins.generic.announcementfeed.settings.recentAnnouncements2' => '条最新的公告.',
+      'plugins.generic.announcementfeed.settings.recentItemsRequired' => '请输入一个整数作为最新公告的显示条数.',
+      'plugins.generic.announcementfeed.atom.altText' => 'Atom logo',
+      'plugins.generic.announcementfeed.rss1.altText' => 'RSS1 logo',
+      'plugins.generic.announcementfeed.rss2.altText' => 'RSS2 logo',
+    ),
+  ),
+);

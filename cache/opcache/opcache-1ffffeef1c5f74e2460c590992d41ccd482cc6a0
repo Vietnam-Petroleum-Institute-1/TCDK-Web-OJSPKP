@@ -1,0 +1,32 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'comments.anonymous' => 'Анонимный пользователь',
+      'comments.anonymousNamed' => '«{$userName}»',
+      'comments.body' => 'Текст комментария',
+      'comments.titleRequired' => 'Заголовок комментария обязателен.',
+      'comments.confirmDeleteChildren' => 'Удаление этого комментария приведет к удалению всех ответов на него. Вы уверены, что хотите это сделать?',
+      'comments.delete' => 'Удалить этот комментарий',
+      'comments.email' => 'Адрес электронной почты комментатора',
+      'comments.emailReply' => 'Ответить письмом электронной почты',
+      'comments.enterComment' => 'Ввести комментарий',
+      'comments.inResponseTo' => 'В ответ на <a href="{$url}">{$title}</a>',
+      'comments.name' => 'Имя комментатора',
+      'comments.noComments' => 'Нет опубликованных комментариев читателей.',
+      'comments.nReplies' => '(Ответов - {$num})',
+      'comments.oneReply' => '(1 ответ)',
+      'comments.postAnonymously' => 'Опубликовать этот комментарий анонимно',
+      'comments.postReply' => 'Опубликовать ответ',
+      'comments.readerComments' => 'Комментарии читателей',
+      'comments.readMore' => 'Читать дальше',
+      'comments.replies' => 'Ответы',
+      'comments.title' => 'Заголовок',
+      'comments.viewAllComments' => 'Просмотреть все комментарии',
+      'reader.fullText' => 'Полный текст:',
+    ),
+  ),
+);

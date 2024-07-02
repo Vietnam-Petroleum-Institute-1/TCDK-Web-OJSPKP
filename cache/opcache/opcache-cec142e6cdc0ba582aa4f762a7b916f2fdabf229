@@ -1,0 +1,16 @@
+<?php $exp = 1751345599; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=1; plural=0;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.webfeed.settings' => '設定',
+      'plugins.generic.webfeed.settings.recentArticles' => '顯示項目數量',
+      'plugins.generic.webfeed.settings.recentItemsRequired' => '請為最近出版項目輸入一個正數整數。',
+      'plugins.generic.webfeed.atom.altText' => 'Atom標誌',
+      'plugins.generic.webfeed.rss1.altText' => 'RSS1標誌',
+      'plugins.generic.webfeed.rss2.altText' => 'RSS2標誌',
+    ),
+  ),
+);

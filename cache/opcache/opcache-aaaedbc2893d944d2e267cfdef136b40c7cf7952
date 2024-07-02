@@ -1,0 +1,12 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.usageEvent.displayName' => 'Модуль «Событие использования»',
+      'plugins.generic.usageEvent.description' => 'Создает обработчик, который выдает событие использования сайта в определенном формате.',
+    ),
+  ),
+);

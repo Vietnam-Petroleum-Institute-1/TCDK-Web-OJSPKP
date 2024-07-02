@@ -1,0 +1,26 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.staticPages.displayName' => 'Modul pentru pagini statice',
+      'plugins.generic.staticPages.description' => 'Acest modul permite managementul paginilor statice.',
+      'plugins.generic.staticPages.pageTitle' => 'Titlu',
+      'plugins.generic.staticPages.content' => 'Conținut',
+      'plugins.generic.staticPages.path' => 'Cale',
+      'plugins.generic.staticPages.requirement.tinymce' => '<strong>Modulul TinyMCE trebuie să fie instalat și activat pentru a adăuga/edita conținut.</strong>',
+      'plugins.generic.staticPages.editAddContent' => 'Editează/Adugă conținut',
+      'plugins.generic.staticPages.addStaticPage' => 'Adaugă o pagină statică',
+      'plugins.generic.staticPages.addNewPage' => 'Adaugă o pagină nouă',
+      'plugins.generic.staticPages.editStaticPage' => 'Editează o pagină statică',
+      'plugins.generic.staticPages.settingInstructions' => 'Formularul de mai jos îți arată câte pagini statice ai creat. Poți edita sau șterge paginile folosing linkurile din bara din dreapta.',
+      'plugins.generic.staticPages.editInstructions' => 'Folosește formularul de mai jos pentru a adăuga/edita conținut în pagină.',
+      'plugins.generic.staticPages.duplicatePath' => 'Această cale există deja pentru o altă pagină statică.',
+      'plugins.generic.staticPages.pageSaved' => 'Pagină salvată cu succes.',
+      'plugins.generic.staticPages.pageDeleted' => 'Pagină ștearsă.',
+      'plugins.generic.staticPages.noneExist' => 'Nu au fost create pagini',
+    ),
+  ),
+);

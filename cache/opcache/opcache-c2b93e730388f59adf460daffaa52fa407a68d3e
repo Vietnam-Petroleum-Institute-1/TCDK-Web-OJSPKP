@@ -1,0 +1,21 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.tinymce.name' => 'TinyMCE Plugin',
+      'plugins.generic.tinymce.description' => 'Deze plugin verzorgt WYSIWYG bewerken in OMP tekstvelden met behulp van de <a href="https://www.tiny.cloud" target="_blank">TinyMCE</a> content editor.',
+      'plugins.generic.tinymce.settings' => 'Instellingen',
+      'plugins.generic.tinymce.pkpTags.listTags' => 'Selecteer een element',
+      'plugins.generic.tinymce.pkpTags.noneAvailable' => 'Er zijn geen elementen beschikbaar voor dit veld.',
+      'plugins.generic.tinymce.pkpTags.description' => 'U kan volgende elementen invoegen:',
+      'plugins.generic.tinymce.variables.principalContactName' => 'Naam van eerste contactpersoon ("{$value}")',
+      'plugins.generic.tinymce.variables.principalContactEmail' => 'E-mailadres van eerste contactpersoon ("{$value}")',
+      'plugins.generic.tinymce.variables.supportContactName' => 'Naam van technische ondersteuning ("{$value}")',
+      'plugins.generic.tinymce.variables.supportContactEmail' => 'E-mailadres van technische ondersteuning ("{$value}")',
+      'plugins.generic.tinymce.variables.supportContactPhone' => 'Telefoonnummer van technische ondersteuning ("{$value}")',
+    ),
+  ),
+);

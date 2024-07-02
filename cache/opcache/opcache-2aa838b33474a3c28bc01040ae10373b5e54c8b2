@@ -1,0 +1,14 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.recommendByAuthor.displayName' => 'Yazarın Diğer Makaleleri',
+      'plugins.generic.recommendByAuthor.description' => 'Bu eklenti, makale sayfasına aynı yazar(lar)ın dergideki diğer makalelerinin bir listesini ekler.',
+      'plugins.generic.recommendByAuthor.heading' => 'Aynı yazar(lar)ın dergideki en çok okunan makaleleri',
+      'plugins.generic.recommendByAuthor.noMetric' => 'Uyarı: Bu eklenti en az bir istatistik/rapor eklentisinin etkinleştirilmiş olmasını gerektirir. İstatistik eklentileriniz birden fazla metrik sunuyorsa, lütfen site yöneticisinin site ayarları sayfasından ve dergi yöneticisinin ayarlar sayfalarından bir ana metrik seçin.',
+    ),
+  ),
+);

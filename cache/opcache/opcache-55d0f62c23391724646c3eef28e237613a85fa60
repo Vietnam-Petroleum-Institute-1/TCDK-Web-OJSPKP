@@ -1,0 +1,17 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n > 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.acron.tasksReloaded' => 'Պլանավորված առաջադրանքները վերաբեռնվեցին:',
+      'plugins.generic.acron.reload' => 'Վերբեռնել պլանավորված առաջադրանքները',
+      'plugins.generic.acron.reloadedCronTab' => 'Cron ներդիրը հաջողությամբ վերաբեռնվեց:',
+      'plugins.generic.acron.disabled' => 'Acron փլագինը ապաակտիվացվել է։',
+      'plugins.generic.acron.enabled' => 'Acron փլագինը ակտիվացվել է։',
+      'plugins.generic.acron.description' => 'Այս փլագինը փորձում է նվազեցնել հավելվածի կախվածությունը պարբերական պլանավորման գործիքներից, ինչպիսին է «cron»',
+      'plugins.generic.acron.name' => 'Acron Ներմուծում',
+    ),
+  ),
+);

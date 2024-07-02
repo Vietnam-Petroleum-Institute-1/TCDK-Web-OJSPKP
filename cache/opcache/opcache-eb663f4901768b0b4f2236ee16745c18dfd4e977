@@ -1,0 +1,12 @@
+<?php $exp = 1751345594; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.usageEvent.displayName' => 'Událost využití',
+      'plugins.generic.usageEvent.description' => 'Vytvoří proceduru na zaznamenání události využívání v definovaném formátu.',
+    ),
+  ),
+);

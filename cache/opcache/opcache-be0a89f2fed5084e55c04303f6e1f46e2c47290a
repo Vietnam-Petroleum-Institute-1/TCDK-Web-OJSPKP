@@ -1,0 +1,23 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.webfeed.displayName' => '"Басылымның Жаңалықтар тізімі" модулі',
+      'plugins.generic.webfeed.description' => 'Журнал хабарландырулары үшін RSS/Atom пішімінде тізім жасайды.',
+      'plugins.generic.webfeed.settings' => 'Параметрлер',
+      'plugins.generic.webfeed.settings.issue' => 'Журналдың басылымдар бетінде тізімге сілтемелерді көрсетіңіз.',
+      'plugins.generic.webfeed.settings.homepage' => 'Тізімге сілтемелерді тек басты бетте және журнал басылым беттерінде көрсетіңіз.',
+      'plugins.generic.webfeed.settings.all' => 'Журналдың барлық беттерінде тізімге сілтемелерді көрсетіңіз.',
+      'plugins.generic.webfeed.settings.currentIssue' => 'Жаңа жарияланған журнал басылымында мақалалардың тізімін көрсету.',
+      'plugins.generic.webfeed.settings.recent' => 'Соңғы жарияланған мақалалардың белгіленген санын көрсету.',
+      'plugins.generic.webfeed.settings.recentArticles' => 'Экранда көрсетілетін соңғы жарияланған мақалалар саны',
+      'plugins.generic.webfeed.settings.recentItemsRequired' => 'Соңғы жарияланған мақалалардың белгіленген санын көрсету үшін оң сан енгізіңіз.',
+      'plugins.generic.webfeed.atom.altText' => 'Atom логотипі',
+      'plugins.generic.webfeed.rss1.altText' => 'RSS1 логотипі',
+      'plugins.generic.webfeed.rss2.altText' => 'RSS2 логотипі',
+    ),
+  ),
+);

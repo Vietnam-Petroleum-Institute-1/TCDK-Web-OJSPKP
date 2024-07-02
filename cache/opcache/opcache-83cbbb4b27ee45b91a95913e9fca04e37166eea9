@@ -1,0 +1,22 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n==1 || n%10==1 ? 0 : 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.announcementfeed.displayName' => 'Додаток за канал за известувања',
+      'plugins.generic.announcementfeed.description' => 'Овој плагин создава RSS/Atom веб поддржувани пораки за најави на списанието.',
+      'plugins.generic.announcementfeed.settings' => 'Поставки',
+      'plugins.generic.announcementfeed.settings.all' => 'Прикажи ги линковите до каналот на сите страници од списанието.',
+      'plugins.generic.announcementfeed.settings.homepage' => 'Прикажи ги линковите до каналот само на главната страница и на страницата со известувања.',
+      'plugins.generic.announcementfeed.settings.announcement' => 'Прикажи ги линковите до каналот само на страницата со известувања.',
+      'plugins.generic.announcementfeed.settings.recentAnnouncements1' => 'Ограничи го каналот на',
+      'plugins.generic.announcementfeed.settings.recentAnnouncements2' => 'најнови известувања.',
+      'plugins.generic.announcementfeed.settings.recentItemsRequired' => 'Ве молиме да внесете позитивен цел број за неодамнешните известувања.',
+      'plugins.generic.announcementfeed.atom.altText' => 'Лого на Atom',
+      'plugins.generic.announcementfeed.rss1.altText' => 'Лого на RSS1',
+      'plugins.generic.announcementfeed.rss2.altText' => 'Лого на RSS2',
+    ),
+  ),
+);

@@ -1,0 +1,12 @@
+<?php $exp = 1751345594; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.driver.displayName' => 'DRIVER',
+      'plugins.generic.driver.description' => 'DRIVER əlavəsi, OJS istifadə edən jurnalların DRIVER uyğunlaşdırılması və DRIVER Bələdçisi 2.0 görə OAI-PMH ara vahidinin genişləndirilməsini təmin edər.',
+    ),
+  ),
+);

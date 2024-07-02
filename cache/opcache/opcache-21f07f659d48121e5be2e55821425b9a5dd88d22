@@ -1,0 +1,12 @@
+<?php $exp = 1751345594; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.htmlArticleGalley.displayName' => 'Galerada d\'article en HTML',
+      'plugins.generic.htmlArticleGalley.description' => 'Aquest mòdul proporciona suport de renderització per a galerades d\'articles en HTML.',
+    ),
+  ),
+);

@@ -1,0 +1,24 @@
+<?php $exp = 1751345599; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=1; plural=0;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'grid.noItems' => '沒有項目',
+      'grid.action.delete' => '刪除',
+      'grid.action.addAuthor' => '新增作者',
+      'grid.action.editAuthor' => '編輯作者',
+      'grid.action.deleteAuthor' => '刪除作者',
+      'grid.action.addReviewer' => '新增評審員',
+      'grid.action.selectCreate' => '建立新評審員',
+      'grid.action.search' => '搜尋',
+      'grid.action.advancedSearch' => '進階搜尋',
+      'grid.roles.add' => '建立新角色',
+      'grid.user.mustChangePassword' => '更改密碼',
+      'grid.user.userRoles' => '用戶角色',
+      'grid.user.addRoles' => '新增角色',
+      'author.users.contributor.role' => '角色',
+    ),
+  ),
+);

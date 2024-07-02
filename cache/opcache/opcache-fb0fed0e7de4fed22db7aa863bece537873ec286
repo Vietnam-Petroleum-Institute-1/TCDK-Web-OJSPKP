@@ -1,0 +1,16 @@
+<?php $exp = 1751345593; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'sushi.reports.pr.description' => 'Activities summarized accross the journal.',
+      'sushi.reports.pr_p1.description' => 'Journal-level usage summarized by Metric_Type.',
+      'sushi.reports.tr.description' => 'Activities at the journal level.',
+      'sushi.reports.tr_j3.description' => 'Report on usage of journal content for all Metric_Types broken down by Access_Type.',
+      'sushi.reports.ir.description' => 'Activities at the article level.',
+      'sushi.reports.ir_a1.description' => 'Reports on journal article requests at the article level.',
+    ),
+  ),
+);

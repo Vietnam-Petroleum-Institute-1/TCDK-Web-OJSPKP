@@ -1,0 +1,27 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=1; plural=0;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.themes.default.name' => 'デフォルトのテーマ',
+      'plugins.themes.default.description' => 'このテーマは、デフォルトのテーマを実装しています。',
+      'plugins.themes.default.option.typography.label' => 'タイポグラフィ',
+      'plugins.themes.default.option.typography.description' => 'この雑誌に適したフォントの組み合わせを選択してください。',
+      'plugins.themes.default.option.typography.notoSans' => 'Noto Sans: 広範な言語サポートのためにGoogleによって設計されたデジタルネイティブフォント。',
+      'plugins.themes.default.option.typography.notoSerif' => 'Noto Serif: Googleのデジタルネイティブフォントのセリフバリアント。',
+      'plugins.themes.default.option.typography.notoSerif_notoSans' => 'Noto Serif/Noto Sans: セリフの見出しとサンセリフの本文テキストとの補完的な組み合わせ。',
+      'plugins.themes.default.option.typography.notoSans_notoSerif' => 'Noto Sans/Noto Serif: サンスセリフの見出しとセリフの本文テキストとの補完的な組み合わせ。',
+      'plugins.themes.default.option.typography.lato' => 'Lato: 人気のあるモダンなサンセリフフォント。',
+      'plugins.themes.default.option.typography.lora' => 'Lora: オンラインで読むのに適した幅広いセリフフォント。',
+      'plugins.themes.default.option.typography.lora_openSans' => 'Lora/Open Sans: セリフの見出しとサンセリフの本文テキストとの補完的な組み合わせ。',
+      'plugins.themes.default.option.colour.label' => '色',
+      'plugins.themes.default.option.colour.description' => 'ヘッダーの色を選択してください。',
+      'plugins.themes.default.option.showDescriptionInJournalIndex.option' => 'ホームページに雑誌の概要を表示します。',
+      'plugins.themes.default.option.useHomepageImageAsHeader.label' => 'ヘッダーの背景画像',
+      'plugins.themes.default.option.useHomepageImageAsHeader.description' => 'ホームページの画像をアップロードしたら、ホームページの通常の位置ではなく、ヘッダーの背景に表示します。',
+      'plugins.themes.default.option.useHomepageImageAsHeader.option' => 'ホームページの画像をヘッダーの背景として表示します。',
+    ),
+  ),
+);

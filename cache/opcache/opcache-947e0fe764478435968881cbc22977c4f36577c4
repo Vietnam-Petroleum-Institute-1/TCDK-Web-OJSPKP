@@ -1,0 +1,12 @@
+<?php $exp = 1751345594; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.htmlArticleGalley.displayName' => 'Плъгин за HTML типография',
+      'plugins.generic.htmlArticleGalley.description' => 'Този плъгин осигурява поддръжка за изобразяване на HTML тифографски елементи в статиите.',
+    ),
+  ),
+);

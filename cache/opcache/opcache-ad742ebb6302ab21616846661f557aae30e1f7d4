@@ -1,0 +1,30 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.staticPages.displayName' => 'სტატიკური გვერდების პლაგინი',
+      'plugins.generic.staticPages.description' => 'ეს პპლაგინი საშუალებას გაძლევთ მართოთ სტატიკური შიგთავსი.',
+      'plugins.generic.staticPages.staticPages' => 'სტატიკური გვერდები',
+      'plugins.generic.staticPages.pageTitle' => 'სათაური',
+      'plugins.generic.staticPages.content' => 'შიგთავსი',
+      'plugins.generic.staticPages.path' => 'მდებარეობა',
+      'plugins.generic.staticPages.requirement.tinymce' => '<p><strong>TinyMCE მოდული უნდა იყოს დაინსტალირებული და ჩართული, შინაარსის დამატება/ჩასწორების მიზნით.</strong></p>',
+      'plugins.generic.staticPages.editAddContent' => 'შინაარსის დამატება/ჩასწორება',
+      'plugins.generic.staticPages.addStaticPage' => 'სტატიკური გვერდის დამატება',
+      'plugins.generic.staticPages.addNewPage' => 'ახალი გვერდის დამატება',
+      'plugins.generic.staticPages.editStaticPage' => 'სტატიკური გვერდის ჩასწორება',
+      'plugins.generic.staticPages.noneCreated' => 'სტატიკური გვერდები არ შექმნილა.',
+      'plugins.generic.staticPages.settingInstructions' => 'ქვემოთ მოცემული ფორმა აჩვენებს თქვენს მიერ შექმნილ ყველა სტატიკურ გვერდს. გვერდების რედაქტირება ან წაშლა შეგიძლიათ მარჯვენა მხარეს მდებარე ბმულების გამოყენებით.',
+      'plugins.generic.staticPages.editInstructions' => 'გამოიყენეთ ქვემოთ მოცემული ფორმა გვერდის შინაარსის დასამატებლად.',
+      'plugins.generic.staticPages.pathRegEx' => 'გეზის ველი უნდა შეიცავდეს მხოლოდ ალფანუმერულ სიმბოლოებს, პლუს \'.\', \'/\', \'-\' და \'_\'.',
+      'plugins.generic.staticPages.viewInstructions' => '<p>ამ გვერდზე ხელმისაწვდომი იქნება:<blockquote> {$pagesPath}</blockquote> ... სადაც %PATH% არის ზემოთ შეყვანილი გზა. <strong>შენიშვნა:</strong> ორ გვერდს არ შეიძლება ჰქონდეს იგივე გზა. სისტემაში ჩასმული ბილიკების გამოყენებამ შეიძლება დაკარგოს მნიშვნელოვან ფუნქციებზე წვდომა.</p>',
+      'plugins.generic.staticPages.duplicatePath' => 'ეს გზა უკვე არსებობს სხვა სტატიკური გვერდისთვის.',
+      'plugins.generic.staticPages.pageSaved' => 'გვერდი წარმატებით შეინახა.',
+      'plugins.generic.staticPages.pageDeleted' => 'გვერდი წარმატებით წაიშალა.',
+      'plugins.generic.staticPages.noneExist' => 'არცერთი გვერდი არ შექმნილა',
+    ),
+  ),
+);

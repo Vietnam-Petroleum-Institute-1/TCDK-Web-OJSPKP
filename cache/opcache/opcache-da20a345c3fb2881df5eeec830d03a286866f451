@@ -1,0 +1,24 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.customBlockManager.displayName' => 'Upravljalec uporabniških blokov',
+      'plugins.generic.customBlockManager.manage' => 'Upravljaj uporabniške bloke',
+      'plugins.generic.customBlockManager.description' => 'Vtičnik omogoča, da upravljate (dodate, spreminjate in brišete) uporabniške bloke na stranskem meniju.',
+      'plugins.generic.customBlockManager.customBlocks' => 'Uporabniški bloki',
+      'plugins.generic.customBlockManager.blockName' => 'Ime bloka',
+      'plugins.generic.customBlockManager.addBlock' => 'Dodaj blok',
+      'plugins.generic.customBlockManager.noneCreated' => 'Ni nobenega uporabniškega bloka.',
+      'plugins.generic.customBlock.content' => 'Vsebina',
+      'plugins.generic.customBlock.nameSuffix' => '(Uporabniški blok)',
+      'plugins.generic.customBlock.description' => 'To blok, ki ga je ustvaril uporabnik.',
+      'plugins.generic.customBlock.nameRequired' => 'Ime bloka je obvezno.',
+      'plugins.generic.customBlock.nameRegEx' => 'Ime bloka lahko vsebuje le črke, številke in pomišljaj/podčrtaj.',
+      'plugins.generic.customBlock.showName.description' => 'Prikaži ime bloka nad vsebino bloka.',
+      'plugins.generic.customBlock.showName' => 'Prikaži ime',
+    ),
+  ),
+);

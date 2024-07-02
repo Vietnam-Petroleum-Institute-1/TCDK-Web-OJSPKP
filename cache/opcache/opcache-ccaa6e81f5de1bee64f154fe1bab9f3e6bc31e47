@@ -1,0 +1,12 @@
+<?php $exp = 1751345595; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n > 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.driver.displayName' => 'DRIVER',
+      'plugins.generic.driver.description' => 'Le module DRIVER étend l\'interface OAI-PHM selon les directives 2.0, permettant aux revues OJS de devenir compatibles à DRIVER.',
+    ),
+  ),
+);

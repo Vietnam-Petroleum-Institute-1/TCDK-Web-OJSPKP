@@ -1,0 +1,75 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=1; plural=0;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'installer.additionalLocales' => 'Bahasa/locale tambahan',
+      'installer.administratorAccount' => 'Akaun Pentadbir',
+      'installer.administratorAccountInstructions' => 'Akaun pengguna ini akan menjadi pentadbir laman dan mempunyai akses lengkap kepada sistem. Akaun pengguna tambahan boleh dibuat selepas pemasangan.',
+      'installer.checkNo' => '<span class="pkp_form_error formError">TIDAK</span>',
+      'installer.checkYes' => 'Ya',
+      'installer.configFileError' => 'Gagal konfigurasi <tt>config.inc.php</tt> tidak wujud atau tidak boleh dibaca.',
+      'installer.connectionCharset' => 'Set karakter sambungan',
+      'installer.contentsOfConfigFile' => 'Kandungan fail konfigurasi',
+      'installer.databaseDriver' => 'Pemandu pangkalan data',
+      'installer.databaseDriverInstructions' => '<strong>Pemandu pangkalan data yang disenaraikan dalam kurungan nampaknya tidak mempunyai sambungan PHP yang diperlukan dimuatkan dan pemasangan mungkin akan gagal jika dipilih.</strong><br />Mana-mana pemandu pangkalan data yang tidak disokong yang disenaraikan di atas disenaraikan semata-mata untuk tujuan akademik dan mungkin tidak berfungsi.',
+      'installer.databaseHost' => 'Hos',
+      'installer.databaseHostInstructions' => 'Biarkan nama hos kosong untuk menyambung menggunakan soket domain dan bukannya melalui TCP/IP. Ini tidak diperlukan dengan MySQL, yang akan menggunakan soket secara automatik jika "localhost" dimasukkan, tetapi diperlukan dengan beberapa pelayan pangkalan data lain seperti PostgreSQL.',
+      'installer.databaseName' => 'Nama pangkalan data',
+      'installer.databasePassword' => 'Kata laluan',
+      'installer.databaseSettings' => 'Tetapan Pangkalan Data',
+      'installer.databaseUsername' => 'Nama pengguna',
+      'installer.filesDir' => 'Direktori untuk muat naik',
+      'installer.fileSettings' => 'Tetapan Fail',
+      'installer.form.clientCharsetRequired' => 'Set karakter klien mesti dipilih.',
+      'installer.form.databaseDriverRequired' => 'Pemandu pangkalan data mesti dipilih.',
+      'installer.form.databaseNameRequired' => 'Nama pangkalan data diperlukan.',
+      'installer.form.emailRequired' => 'Alamat e-mel yang sah untuk akaun pentadbir diperlukan.',
+      'installer.form.filesDirRequired' => 'Direktori yang akan digunakan untuk menyimpan fail yang dimuat naik diperlukan.',
+      'installer.form.localeRequired' => 'Bahasa/locale mesti dipilih.',
+      'installer.form.passwordRequired' => 'Kata laluan untuk akaun pentadbir diperlukan.',
+      'installer.form.passwordsDoNotMatch' => 'Kata laluan pentadbir tidak sepadan.',
+      'installer.form.separateMultiple' => 'Asingkan beberapa nilai dengan koma',
+      'installer.form.usernameAlphaNumeric' => 'Nama pengguna pentadbir boleh mengandungi hanya aksara abjad angka, garis bawah dan sempang, dan mesti bermula dan berakhir dengan aksara abjad angka.',
+      'installer.form.usernameRequired' => 'Nama pengguna untuk akaun pentadbir diperlukan.',
+      'installer.installationWrongPhp' => '<br/><strong>AMARAN: Versi PHP semasa anda tidak memenuhi keperluan minimum untuk pemasangan. Adalah disyorkan untuk menaik taraf kepada keluaran PHP yang lebih terkini.</strong>',
+      'installer.installErrorsOccurred' => 'Ralat berlaku semasa pemasangan',
+      'installer.installerSQLStatements' => 'Penyata SQL untuk pemasangan',
+      'installer.installFileError' => 'Fail pemasangan <tt>dbscripts/xml/install.xml</tt> tidak wujud atau tidak boleh dibaca.',
+      'installer.installFilesDirError' => 'Direktori yang ditentukan untuk fail yang dimuat naik tidak wujud atau tidak boleh ditulis.',
+      'installer.installParseDBFileError' => 'Ralat menghuraikan fail pemasangan pangkalan data <tt>{$file}</tt>.',
+      'installer.installMigrationError' => 'Pengecualian telah dilemparkan apabila melaksanakan kelas migrasi <tt>{$class}</tt>. Pengecualian ialah {$message}.',
+      'installer.installParseEmailTemplatesFileError' => 'Ralat menghuraikan fail templat e-mel <tt>{$file}</tt>.',
+      'installer.installParseFilterConfigFileError' => 'Ralat menghuraikan fail konfigurasi penapis <tt>{$file}</tt>.',
+      'installer.unsupportedUpgradeError' => 'Naik taraf tidak disokong. Lihat dokumen/NAIK TARAF-TIDAK DISOKONG untuk mendapatkan butiran.',
+      'installer.locale' => 'Bahasa/Locale',
+      'installer.locale.maybeIncomplete' => 'Bahasa/locale yang ditanda mungkin tidak lengkap.',
+      'installer.localeSettings' => 'Tetapan Bahasa',
+      'installer.oaiSettings' => 'Tetapan OAI',
+      'installer.oaiRepositoryIdInstructions' => 'Pengenalpasti unik yang digunakan untuk mengenal pasti rekod metadata yang diindeks daripada laman ini menggunakan Protokol <a href="https://www.openarchives.org/" target="_blank">Open Archives Initiative</a> untuk Penuaian Metadata.',
+      'installer.oaiRepositoryId' => 'Pengenalpasti Repositori',
+      'installer.publicFilesDirError' => 'Direktori fail awam tidak wujud atau tidak boleh ditulis.',
+      'installer.releaseNotes' => 'Nota Keluaran',
+      'installer.preInstallationInstructionsTitle' => 'Langkah Pra-Pemasangan',
+      'installer.preInstallationInstructions' => '
+		<p>1. Fail dan direktori berikut (dan kandungannya) mesti boleh ditulis:</p>
+		<ul>
+			<li><tt>config.inc.php</tt> boleh ditulis (pilihan): {$writable_config}</li>
+			<li><tt>public/</tt> boleh ditulis: {$writable_public}</li>
+			<li><tt>cache/</tt> boleh ditulis: {$writable_cache}</li>
+			<li><tt>cache/t_cache/</tt> boleh ditulis: {$writable_templates_cache}</li>
+			<li><tt>cache/t_compile/</tt> boleh ditulis: {$writable_templates_compile}</li>
+			<li><tt>cache/_db</tt> boleh ditulis: {$writable_db_cache}</li>
+		</ul>
+
+		<p>2. Direktori untuk menyimpan fail yang dimuat naik mesti dibuat dan dibuat boleh ditulis (lihat "Tetapan Fail" di bawah).</p>
+	',
+      'installer.configureXSLMessage' => '<p>Pemasangan PHP anda tidak mendayakan modul XSL. Sama ada dayakannya atau konfigurasikan parameter xslt_command dalam fail config.inc.php anda.</p>',
+      'installer.beacon' => 'Suar',
+      'installer.beacon.enable' => 'Sediakan ID laman unik dan URL asas OAI kepada PKP untuk tujuan statistik dan amaran keselamatan sahaja.',
+      'installer.unsupportedPhpError' => 'Versi PHP pelayan anda tidak disokong oleh perisian ini. Semak semula keperluan pemasangan dalam docs/README.',
+    ),
+  ),
+);

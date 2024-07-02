@@ -1,0 +1,19 @@
+<?php $exp = 1751345595; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=4; plural=(n==1 || n==11) ? 0 : (n==2 || n==12) ? 1 : (n > 2 && n < 20) ? 2 : 3;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'mailable.subscriptionNotify.description' => 'Tha am post-d seo ag innse do leughadair aig a bheil ùidh gun do chruthaich am manaidsear fo-sgrìobhadh dhaibh. Tha e a’ toirt seachad URL an iris-leabhair agus stiùireadh mu dhèidhinn inntrigidh.',
+      'mailable.subscriptionExpiresSoon.description' => 'Innsidh am post-d seo do dh’fho-sgrìobhaiche gum falbh an ùine air an fho-sgrìobhadh aca a dh’aithghearr. Tha e a’ toirt seachad URL an iris-leabhair agus stiùireadh mu dhèidhinn inntrigidh.',
+      'mailable.subscriptionExpired.description' => 'Innsidh am post-d seo do dh’fho-sgrìobhaiche gun do dh’fhalbh an ùine air an fho-sgrìobhadh aca. Tha e a’ toirt seachad URL an iris-leabhair agus stiùireadh mu dhèidhinn inntrigidh.',
+      'mailable.subscriptionExpiredLast.description' => 'Innsidh am post-d seo do dh’fho-sgrìobhaiche gun do dh’fhalbh an ùine air an fho-sgrìobhadh aca. Tha e a’ toirt seachad URL an iris-leabhair agus stiùireadh mu dhèidhinn inntrigidh.',
+      'mailable.subscriptionPurchaseIndividual.description' => 'Innsidh am post-d seo do manaidsear an fho-sgrìobhaidh gun deach fo-sgrìobhadh institiuide a cheannach air loidhne. Bheir e seachad geàrr-chunntas mun fho-sgrìobhadh agus ceangal a bheir grad-inntrigeadh dhan fho-sgrìobhadh a chaidh a cheannach.',
+      'mailable.subscriptionPurchaseInstitutional.description' => 'Innsidh am post-d seo do manaidsear an fho-sgrìobhaidh gun deach fo-sgrìobhadh institiuide a cheannach air loidhne. Bheir e seachad geàrr-chunntas mun fho-sgrìobhadh agus ceangal a bheir grad-inntrigeadh dhan fho-sgrìobhadh a chaidh a cheannach.',
+      'mailable.subscriptionRenewIndividual.description' => 'Innsidh am post-d seo do manaidsear an fho- daoine fa leth gun deach fo-sgrìobhadh neach fa leth ath-nuadhachadh air loidhne. Bheir e seachad geàrr-chunntas mun fho-sgrìobhadh agus ceangal a bheir grad-inntrigeadh dhan fho-sgrìobhadh ath-nuadhaichte.',
+      'mailable.subscriptionRenewInstitutional.description' => 'Innsidh am post-d seo do manaidsear an fho-sgrìobhaidh gun deach fo-sgrìobhadh institiuide ath-nuadhachadh air loidhne. Bheir e seachad geàrr-chunntas mun fho-sgrìobhadh agus ceangal a bheir grad-inntrigeadh dhan fho-sgrìobhadh ath-nuadhaichte.',
+      'mailable.openAccessNotify.description' => 'Thèid am post-d seo a chur gu leughadairean clàraichte a dh’iarr brath air a’ phost-d nuair a bhios iris ri fhaighinn gu saor.',
+    ),
+  ),
+);

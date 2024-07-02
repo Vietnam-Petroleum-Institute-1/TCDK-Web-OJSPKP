@@ -1,0 +1,24 @@
+<?php $exp = 1751345594; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.customBlockManager.displayName' => 'Brugerdefineret blok-administrator',
+      'plugins.generic.customBlockManager.manage' => 'Administrér brugerdefinerede blokke',
+      'plugins.generic.customBlockManager.description' => 'Denne plug-in gør dig i stand til at håndtere (tilføje, redigere og slette) brugerdefinerede blokke i sidemenuen.',
+      'plugins.generic.customBlockManager.customBlocks' => 'Brugerdefinerede blokke',
+      'plugins.generic.customBlockManager.blockName' => 'Bloknavn',
+      'plugins.generic.customBlockManager.addBlock' => 'Tilføj blok',
+      'plugins.generic.customBlockManager.noneCreated' => 'Der er ikke oprettet nogen brugerdefinerede blokke.',
+      'plugins.generic.customBlock.content' => 'Indhold',
+      'plugins.generic.customBlock.nameSuffix' => '(Brugerdefineret blok)',
+      'plugins.generic.customBlock.description' => 'Dette er en brugerdefineret blok.',
+      'plugins.generic.customBlock.nameRequired' => 'Et brugerdefineret blok-navn er påkrævet.',
+      'plugins.generic.customBlock.nameRegEx' => 'Det brugerdefinerede blok-navn må kun indeholde bogstaver, tal og bindestreg/understregning.',
+      'plugins.generic.customBlock.showName.description' => 'Vis navnet på denne blok over blokindholdet.',
+      'plugins.generic.customBlock.showName' => 'Vis navn',
+    ),
+  ),
+);

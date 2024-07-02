@@ -1,0 +1,94 @@
+<?php $exp = 1751345594; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'emails.submissionAck.subject' => 'Благодарим ви за подаването на материали към {$contextName}',
+      'emails.submissionAck.body' => '{$recipientName}:<br />
+<br />
+Благодарим ви, че изпратихте ръкописа,  &quot;{$submissionTitle}&quot; до {$contextName}. Със системата за управление на онлайн списания, която използваме, ще можете да проследявате напредъкът на рецензионния и редакционен процес, като влезете в уеб сайта на списанието: <br />
+<br />
+URL на изпратения ръкопис: {$submissionUrl}<br />
+Потребител: {$recipientUsername}<br />
+<br />
+Ако имате въпроси, моля свържете се с нас. Благодарим ви, че разглеждате това списание като подходящо място за публикуване на вашия труд. <br />
+<br />
+{$contextSignature}',
+      'emails.submissionAck.description' => 'Този имейл се изпраща автоматично до автора, когато той изпрати своя материал.',
+      'emails.reviewAck.subject' => 'Благодарим ви за вашата рецензия',
+      'emails.reviewAck.body' => '<p> Уважаема/и {$recipientName}:</p>
+<p>Благодарим Ви, че резензирахте изпратените материали, &quot;{$submissionTitle},&quot; за {$contextName}. Оценяваме приноса ви към качеството на работата, която публикуваме.</p>
+<p>За нас беше удоволствие да работим с вас като рецензент за {$contextName} и се надяваме да имаме възможност да работим отново в бъдеще.</p>
+<p>Сърдечни поздрави,</p>
+<p>{$signature}</p>',
+      'emails.decision.notifyReviewers.subject' => 'Благодарим ви за вашата рецензия',
+      'emails.editorDecisionSendToExternal.subject' => 'Решение на редактора',
+      'emails.editorDecisionSendToExternal.body' => '{$authors}:<br />
+<br />
+Достигнахме решение относно вашето подаване на материали до {$contextName}, &quot;{$submissionTitle}&quot;.<br />
+<br />
+Нашето решение е да: Изпратим за рецензиране<br />
+<br />
+URL на изпратените материали: {$submissionUrl}',
+      'emails.editorDecisionSendToProduction.subject' => 'Решение на редактора',
+      'emails.editorDecisionSendToProduction.body' => '{$authors}:<br />
+<br />
+Редактирането на вашите изпратени материали , &quot;{$submissionTitle},&quot; е завършено.  В момента се подготвят за публикация.<br />
+<br />
+URL на изпратените материали: {$submissionUrl}',
+      'emails.editorDecisionRevisions.subject' => 'Решение на редактора',
+      'emails.editorDecisionRevisions.body' => '{$authors}:<br />
+<br />
+Достигнахме решение относно вашето подаване на материали до {$contextName}, &quot;{$submissionTitle}&quot;.<br />
+<br />
+Нашето решение е: Необходима е редакция',
+      'emails.editorDecisionResubmit.subject' => 'Решение на редактора',
+      'emails.editorDecisionResubmit.body' => '{$authors}:<br />
+<br />
+Достигнахме решение относно вашето подаване на материали до {$contextName}, &quot;{$submissionTitle}&quot;.<br />
+<br />
+Нашето решение е: Повторно изпращане за резензия',
+      'emails.editorDecisionDecline.subject' => 'Решение на редактора',
+      'emails.editorDecisionDecline.body' => '{$authors}:<br />
+<br />
+Достигнахме решение относно вашето подаване на материали до {$contextName}, &quot;{$submissionTitle}&quot;.<br />
+<br />
+Нашето решение е да: Отхвърлим подадените материали',
+      'emails.editorRecommendation.subject' => 'Препоръка на редактора',
+      'emails.editorRecommendation.body' => '{$editors}:<br />
+<br />
+Препоръката относно подадените материали до {$contextName}, &quot;{$submissionTitle}&quot; е: {$recommendation}',
+      'emails.copyeditRequest.subject' => 'Молба за стилистична проверка',
+      'emails.copyeditRequest.body' => '{$recipientName}:<br />
+<br />
+Моля да предприемете стилистична проверка на &quot;{$submissionTitle}&quot; за {$contextName} със следните стъпки.<br />
+1. Кликнете върху URL адреса за изпратените материали по -долу.<br />
+2. Отворете всички налични файлове под Чернови файлове и направете вашата редакция, като при необходимост добавите всякакви дискусии във връзка с вашата работа.<br />
+3. Запазете редактираните файл/файлове и ги качете в панела.<br />
+4. Уведомете редактора, че всички файлове са подготвени и че производственият процес може да започне.<br />
+<br />
+{$contextName} URL: {$contextUrl}<br />
+URL на изпратените материали: {$submissionUrl}<br />
+Потребител: {$recipientUsername}',
+      'emails.editorDecisionInitialDecline.subject' => 'Решение на редактора',
+      'emails.editorDecisionInitialDecline.body' => '
+			{$authors}:<br />
+<br />
+Достигнахме решение относно вашето подаване на материали до {$contextName}, &quot;{$submissionTitle}&quot;.<br />
+<br />
+Нашето решение е да: Отхвърлим изпратените материали',
+      'emails.discussion.subject' => 'Съобщение относно {$contextName}',
+      'emails.discussion.body' => 'Моля, въведете вашето съобщение.',
+      'emails.reviewConfirm.subject' => 'Съгласен/а да рецензира',
+      'emails.reviewConfirm.body' => 'До радакторите:<br />
+<br />
+Мога и желая да прегледам подадените материали, &quot;{$submissionTitle},&quot; за {$contextName}. Благодаря, че ме имате предвид и смятам да направя рецензията до крайния срок, {$reviewDueDate}, или преди това.<br />
+<br />
+{$senderName}',
+      'emails.submissionAckNotAuthor.subject' => 'Потвърждение за подаване',
+      'emails.submissionAckNotAuthor.body' => '<p>Уважаеми {$recipientName},</p><p>Вие сте посочени като съавтор на изпратени материали до {$contextName}. Подателят, {$submitterName}, предостави следните подробности:</p><p>{$submissionTitle}<br>{$authorsWithAffiliation}</p><p>Ако някоя от тези подробности е неправилна или вие не желаете да бъдете посочен в тези материали, моля, свържете се с мен.</p><p>Благодарим ви, че смятате това списание за място за вашата работа.</p><p>Сърдечни поздрави,</p>{$contextSignature}',
+    ),
+  ),
+);

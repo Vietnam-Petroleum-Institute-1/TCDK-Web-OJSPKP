@@ -1,0 +1,43 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'emails.orcidCollectAuthorId.subject' => 'ORCID Gönderisi',
+      'emails.orcidCollectAuthorId.body' => 'Sayın {$recipientName},
+{$contextName} adlı dergiye gönderilen  "{$submissionTitle}" adlı makale için ortak yazar olarak eklendiniz.
+
+Yazarlığınızı onaylamak için lütfen aşağıdaki bağlantıyı ziyaret ederek ORCID kimliğinizi makale için ekleyiniz.
+
+<a href="{$authorOrcidUrl}"><img id="orcid-id-logo" src="https://info.orcid.org/wp-content/uploads/2020/12/ORCIDiD_icon16x16.png" width=\'16\' height=\'16\' alt="ORCID iD icon" style="display: block; margin: 0 .5em 0 0; padding: 0; float: left;"/>ORCiD kaydol veya bağlan</a>
+
+<a href="{$orcidAboutUrl}">{$contextName} için ORCiD hakkında detaylı bilgi için</a><br/>
+
+Herhangi bir sorunuz olması halinde, lütfen bize yazınız.
+',
+      'emails.orcidCollectAuthorId.description' => 'Bu e-posta şablonu ORCID kimliklerini ortak yazarlardan istemek için kullanılır.',
+      'emails.orcidRequestAuthorAuthorization.description' => 'Bu e-posta şablonu yazarlardan ORCID kaydı erişimi istemek için kullanılır.',
+      'emails.orcidRequestAuthorAuthorization.body' => 'Sayın {$recipientName},<br>
+<br>
+{$contextName} için gönderilen "{$submissionTitle}" başlıklı makalenin yazar listesinde yer alıyorsunuz.
+<br>
+<br>
+Lütfen ORCID\'nizi kullanmamıza izin veriniz.<br>
+ORCID sayfasını ziyaret ederek giriş yapınız ve profil kısmından izin veren talimatları takip ediniz.<br>
+<a href="{$authorOrcidUrl}"><img id="orcid-id-logo" src="https://orcid.org/sites/default/files/images/orcid_16x16.png" width=\'16\' height=\'16\' alt="ORCID iD icon" style="display: block; margin: 0 .5em 0 0; padding: 0; float: left;"/>ORCID iD için kayıt ol veya bağlan</a><br/>
+<br>
+<br>
+<a href="{$orcidAboutUrl}">ORCID hakkında daha fazla {$contextName}</a><br/>
+<br>
+Herhangi bir sorun yaşarsanız, benimle iletişim kurabilirsiniz.<br>
+<br>
+{$principalContactSignature}<br>
+',
+      'emails.orcidRequestAuthorAuthorization.subject' => 'ORCID kayıt erişimi',
+      'emailTemplate.variable.authorOrcidUrl' => 'ORCID OAuth yetkilendirme bağlantısı',
+      'emailTemplate.variable.orcidAboutUrl' => 'ORCID ile ilgili sayfanın URL\'si',
+    ),
+  ),
+);

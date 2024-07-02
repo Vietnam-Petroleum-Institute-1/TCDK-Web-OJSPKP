@@ -1,0 +1,12 @@
+<?php $exp = 1751345595; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.dublinCoreMeta.name' => 'Plugiciel d\'indexation pour le Dublin Core',
+      'plugins.generic.dublinCoreMeta.description' => 'Ce plugiciel expose les métadonnées du Dublin Core pour les articles à des fins d\'indexation.',
+    ),
+  ),
+);

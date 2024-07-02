@@ -1,0 +1,11 @@
+<?php $exp = 1751345595; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'reviewer.aboutDueDates.text' => 'Editoreak eskatzen dizu ebaluazioa onartzeko edo ukatzeko Erantzuaren Epemuga baino lehen eta ebaluazioa bukatzeko Ebaluazioaren Epemuga baino lehen.',
+    ),
+  ),
+);

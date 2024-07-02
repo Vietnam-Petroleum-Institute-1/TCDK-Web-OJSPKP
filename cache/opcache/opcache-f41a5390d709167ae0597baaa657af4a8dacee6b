@@ -1,0 +1,22 @@
+<?php $exp = 1751345595; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=4; plural=(n==1 || n==11) ? 0 : (n==2 || n==12) ? 1 : (n > 2 && n < 20) ? 2 : 3;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.announcementfeed.displayName' => 'Plugan inbhir nam fiosan-naidheachd',
+      'plugins.generic.announcementfeed.description' => 'Tha am plugan seo a’ gintinn inbhirean siondacaideadh-lìn RSS/Atom airson fiosan-naidheachd an iris-leabhair.',
+      'plugins.generic.announcementfeed.settings' => 'Roghainnean',
+      'plugins.generic.announcementfeed.settings.all' => 'Na seall ceanglaichean an inbhir air gach duilleag an iris-leabhair.',
+      'plugins.generic.announcementfeed.settings.homepage' => 'Na seall ceanglaichean an inbhir ach air an duilleag-dhachaigh agus duilleag nam fiosan-naidheachd.',
+      'plugins.generic.announcementfeed.settings.announcement' => 'Na seall ceanglaichean an inbhir ach air duilleag nam fiosan-naidheachd.',
+      'plugins.generic.announcementfeed.settings.recentAnnouncements1' => 'Na seall san inbhir ach na',
+      'plugins.generic.announcementfeed.settings.recentAnnouncements2' => 'fiosan-naidheachd as ùire.',
+      'plugins.generic.announcementfeed.settings.recentItemsRequired' => 'Cuir a-steach àireamh shlàn airson fiosan-naidheachd o chionn goirid.',
+      'plugins.generic.announcementfeed.atom.altText' => 'Suaicheantas Atom',
+      'plugins.generic.announcementfeed.rss1.altText' => 'Suaicheantas RSS1',
+      'plugins.generic.announcementfeed.rss2.altText' => 'Suaicheantas RSS2',
+    ),
+  ),
+);

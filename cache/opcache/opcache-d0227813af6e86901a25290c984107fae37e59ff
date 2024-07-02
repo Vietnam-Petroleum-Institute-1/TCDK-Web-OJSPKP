@@ -1,0 +1,12 @@
+<?php $exp = 1751345594; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.lensGalley.displayName' => 'Prohlížeč článků eLife Lens',
+      'plugins.generic.lensGalley.description' => 'Tento plugin poskytuje podporu vykreslování pro sazebnic JATS XML pomocí eLife Lens.',
+    ),
+  ),
+);

@@ -1,0 +1,69 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.importexport.crossref.displayName' => 'Плагін експорту XML у Crossref',
+      'plugins.importexport.crossref.description' => 'Експортувати метадані статті у формат XML для Crossref.',
+      'plugins.importexport.crossref.requirements' => 'Вимоги',
+      'plugins.importexport.crossref.requirements.satisfied' => 'Усі вимоги плагіна виконано.',
+      'plugins.importexport.crossref.error.publisherNotConfigured' => 'Видавця журналу не налаштовано! Вам необхідно додати установу видавця на <a href="{$journalSettingsUrl}" target="_blank">сторінці налаштувань журналу</a>.',
+      'plugins.importexport.crossref.error.issnNotConfigured' => 'ISSN журналу не налаштовано! Ви маєте додати ISSN на <a href="{$journalSettingsUrl}" target="_blank">сторінці налаштувань журналу</a>.',
+      'plugins.importexport.crossref.error.noDOIContentObjects' => 'Не вибрано статті для присвоєння DOI в модулі публічних ідентифікаторів DOI, тому немає можливості подання в депозитарій або експортування в цьому модулі.',
+      'plugins.importexport.crossref.settings.depositorIntro' => 'Для успішного подання в депозитарій Crossref потрібні такі елементи.',
+      'plugins.importexport.crossref.settings.form.depositorName' => 'Ім\'я депонента',
+      'plugins.importexport.crossref.settings.form.depositorEmail' => 'Електронна адреса депонента',
+      'plugins.importexport.crossref.settings.form.depositorNameRequired' => 'Будь ласка, введіть ім\'я депонента.',
+      'plugins.importexport.crossref.settings.form.depositorEmailRequired' => 'Будь ласка, введіть адресу електронної пошти депонента.',
+      'plugins.importexport.crossref.registrationIntro' => '<p>Якщо ви хочете використовувати цей плагін для реєстрації цифрових ідентифікаторів об\'єктів (DOI) безпосередньо за допомогою <a href="https://www.crossref.org/">Crossref</a>, вам потрібно буде додати ваші <a href="https://www.crossref.org/documentation/member-setup/account-credentials/">дані облікового запису Crossref</a> у поля імені користувача й пароля нижче.</p><p>Залежно від вашого членства в Crossref існують два способи введення імені користувача та пароля:</p><ul><li>якщо ви використовуєте обліковий запис, виданий організацією, додайте ваші <a href="https://www.crossref.org/documentation/member-setup/account-credentials/#00376">спільні ім\'я користувача й пароль</a>;</li><li>якщо ви використовуєте <a href="https://www.crossref.org/documentation/member-setup/account-credentials/#00368">особистий обліковий запис</a>, введіть свою адресу електронної пошти та роль у полі імені користувача. Ім\'я користувача матиме подібний вигляд: email@example.com/role.</li><li>Якщо ви не знаєте або не маєте доступу до своїх облікових даних Crossref, ви можете звернутися по допомогу до <a href="https://support.crossref.org/">служби підтримки Crossref</a>. Без облікових даних ви все ще можете експортувати метадані у формат XML для Crossref, але ви не можете зареєструвати свої DOI у Crossref з OJS.</li></ul>',
+      'plugins.importexport.crossref.settings.form.username' => 'Ім\'я користувача',
+      'plugins.importexport.crossref.settings.form.usernameRequired' => 'Будь ласка, введіть ім\'я користувача, яке ви отримали від Crossref.',
+      'plugins.importexport.crossref.settings.form.automaticRegistration.description' => 'OJS буде автоматично депонувати призначені DOI на Crossref. Будь ласка, зверніть увагу, що після опублікування обробка може зайняти певний час (наприклад, залежно від налаштувань вашого кронджоб). Ви можете перевірити всі незареєстровані DOI.',
+      'plugins.importexport.crossref.settings.form.testMode.description' => 'Використовувати тестовий API Crossref (середовище тестування) для депонування DOI. Будь ласка, не забудьте прибрати цей параметр для подальшої роботи.',
+      'plugins.importexport.crossref.issues.description' => 'Примітка: для експорту / реєстрації тут розглядатимуться лише випуски (а не статті з них).',
+      'plugins.importexport.crossref.status.submitted' => 'Відправлений',
+      'plugins.importexport.crossref.status.completed' => 'Депонований',
+      'plugins.importexport.crossref.status.failed' => 'Помилка',
+      'plugins.importexport.crossref.status.registered' => 'Активний',
+      'plugins.importexport.crossref.status.markedRegistered' => 'Позначено як активний',
+      'plugins.importexport.crossref.statusLegend' => '
+		<p>Статус депонування:</p>
+		<p>
+		- Не депонований: цей DOI не намагалися депонувати.<br />
+		- Активний: цей DOI був депонований і правильно інтерпретується.<br />
+		- Помилка: депонування DOI не відбулося.<br />
+		- Позначено як активний: DOI вручну позначено як активний.
+		</p>
+		<p>Відображається лише статус останньої спроби депонування.</p>
+		<p>Якщо депонування не вдалося, усуньте проблему і спробуйте знову зареєструвати DOI.</p>',
+      'plugins.importexport.crossref.action.export' => 'Експорт',
+      'plugins.importexport.crossref.action.markRegistered' => 'Позначити як активний',
+      'plugins.importexport.crossref.action.register' => 'Депонувати',
+      'plugins.importexport.crossref.action.checkStatus' => 'Перевірити статус',
+      'plugins.importexport.crossref.senderTask.name' => 'Завдання автоматичної реєстрації Crossref',
+      'plugins.importexport.crossref.notification.failed' => 'Не вдалося зареєструвати DOI. Будь ласка, перейдіть в Інструменти > Імпорт/Експорт > Модуль експорту у Crossref XML щоб переглянути невдалі депонування.',
+      'plugins.importexport.crossref.cliUsage' => 'Використання:
+{$scriptName} {$pluginName} export [xmlFileName] [journal_path] articles objectId1 [objectId2] ...
+{$scriptName} {$pluginName} register [journal_path] articles objectId1 [objectId2] ...
+',
+      'plugins.importexport.crossref.register.error.mdsError' => 'Реєстрація не була повністю успішною! Сервер реєстрації DOI повернув помилку.',
+      'plugins.importexport.crossref.register.success' => 'Подання відбулося успішно!',
+      'plugins.importexport.crossref.export.error.issueNotFound' => 'Немає випуску, який би відповідав указаному ID випуску "{$issueId}".',
+      'plugins.importexport.crossref.export.error.articleNotFound' => 'Немає статті, яка відповідала б вказаному ID статті "{$articleId}".',
+      'plugins.importexport.crossref.settings.form.validation' => 'Перевірити XML. Використовуйте опцію для завантаження XML для ручної реєстрації DOI.',
+      'plugins.importexport.crossref.register.success.warning' => 'Реєстрація успішна, але отримано наступне попередження: "{$param}".',
+      'plugins.importexport.crossref.settings.form.onlyValidateExport' => 'Лише перевірте експорт. Не завантажуйте файл.',
+      'plugins.generic.crossref.registrationAgency.name' => 'Crossref',
+      'plugins.importexport.crossref.status.notDeposited' => 'Не депоновано',
+      'plugins.importexport.crossref.settings' => 'Налаштування Crossref',
+      'plugins.generic.crossref.description' => 'Обробляє розміщення та експорт метаданих Crossref',
+      'plugins.generic.crossref.displayName' => 'Плагін менеджера Crossref',
+      'plugins.importexport.crossref.settings.form.username.description' => 'Ім\'я користувача Crossref, яке буде використовуватися для автентифікації ваших депонувань. Якщо ви використовуєте особистий обліковий запис, будь ласка, перегляньте поради вище.',
+      'plugins.generic.crossref.successMessage' => 'Метадані цього елемента було збережено в Crossref. Щоб переглянути більш детальну інформацію, перегляньте подання в <a href="https://doi.crossref.org/servlet/submissionAdmin?sf=detail&submissionID={$submissionId}">адміністративній панелі Crossref</a>.',
+      'plugins.importexport.crossref.settings.form.depositorName.description' => 'Назва організації, що реєструє DOI. Воно включене до депонованих метаданих і використовується для запису того, хто подав на депонування.',
+      'plugins.importexport.crossref.settings.form.depositorEmail.description' => 'Адреса електронної пошти особи, відповідальної за реєстрацію контенту в Crossref. Вона включена до депонованих метаданих і використовується при відправці електронного листа на підтвердження депонування.',
+    ),
+  ),
+);

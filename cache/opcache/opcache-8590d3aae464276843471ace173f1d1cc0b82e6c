@@ -1,0 +1,536 @@
+<?php $exp = 1751345596; $val = \PKP\i18n\translation\Translator::__set_state(array(
+   'domain' => '',
+   'dictionary' => 
+  array (
+    '' => 
+    array (
+      '' => 
+      array (
+        'editor.submissionArchive.confirmDelete' => 'האם אתה בטוח שברצונך למחוק הגשה זו לצמיתות?',
+        'mailable.reviewConfirm.description' => 'דוא"ל זה נשלח על ידי בודק לעורך המדור בתגובה לבקשת סקירה כדי להודיע לעורך המדור כי בקשת הביקורת התקבלה ותושלם עד לתאריך שצוין.',
+        'mailable.reviewDecline.description' => 'דוא"ל זה נשלח על ידי בודק לעורך המדור בתגובה לבקשת סקירה כדי להודיע לעורך המדור כי בקשת הביקורת נדחתה.',
+        'mailable.reviewRemindAuto.description' => 'דוא"ל זה נשלח אוטומטית עם חלוף תאריך היעד של הסוקר (ראה אפשרויות סקירה תחת הגדרות> זרימת עבודה> סקירה) וגישה של בודק בלחיצה אחת מושבתת. יש לאפשר ולהגדיר משימות מתוזמנות (ראה קובץ תצורת האתר).',
+        'mailable.reviewResponseOverdueAuto.description' => 'הודעת דוא"ל זו נשלחת אוטומטית עם חלוף תאריך היעד של אישור הבודק (ראה אפשרויות סקירה תחת הגדרות> זרימת עבודה> סקירה) וגישה של בודק בלחיצה אחת מושבתת. יש לאפשר ולהגדיר משימות מתוזמנות (ראה קובץ תצורת האתר).',
+        'mailable.reviewRequest.description' => 'הודעת דוא"ל זו מעורך המדור לבודק מבקשת שהמבקר יקבל או ידחה את משימת בדיקת ההגשה. הוא מספק מידע על ההגשה כמו הכותרת והתקציר, תאריך יעד לבדיקה וכיצד לגשת להגשה עצמה. הודעה זו משמשת כאשר נבחר תהליך הבדיקה הרגיל בניהול> הגדרות> זרימת עבודה> סקירה.',
+        'mailable.reviewRequestSubsequent.description' => 'הודעת דוא"ל זו מעורך המדור לבודק מבקשת שהמבקר יקבל או ידחה את משימת בדיקת ההגשה לסבב ביקורת שני או יותר. הוא מספק מידע על ההגשה כמו הכותרת והתקציר, תאריך יעד לבדיקה וכיצד לגשת להגשה עצמה. הודעה זו משמשת כאשר נבחר תהליך הבדיקה הרגיל בניהול> הגדרות> זרימת עבודה> סקירה. (אחרת ראה ',
+        'mailable.passwordResetRequested.description' => 'דוא"ל זה נשלח למשתמש רשום כאשר הוא מציין ששכח את סיסמתו או שאינו יכול להתחבר. היא מספקת כתובת URL כדי לאפס את הסיסמה שלהם.',
+        'mailable.userRegister.description' => 'דוא"ל זה נשלח למשתמש שנרשם לאחרונה כדי לקבל אותו במערכת ולספק לו רשומה של שם המשתמש והסיסמה שלהם.',
+        'mailable.reviewerRegister.description' => 'דוא"ל זה נשלח למבקר שנרשם לאחרונה כדי לקבל אותו במערכת ולספק להם רשומה של שם המשתמש והסיסמה שלהם.',
+        'mailable.submissionAck.description' => 'דוא"ל זה, כאשר הוא מופעל, נשלח אוטומטית למחבר כאשר הם משלימים את תהליך הגשת כתב היד לכתב העת. הוא מספק מידע על מעקב אחר ההגשה בתהליך ומודה למחבר על המסירה.',
+        'mailable.submissionAckNotAuthor.description' => 'דוא"ל זה, כאשר הוא פעיל, נשלח אוטומטית למחברים האחרים שאינם משתמשים בתוך OJS שצוינו במהלך תהליך ההגשה.',
+        'submission.submissionFile' => 'קובץ הגשה',
+        'emails.submissionAck.subject' => 'אישור ההגשה',
+        'emails.submissionAck.body' => '{$recipientName}:<br />
+<br />
+תודה על הגשת המאמר {$submissionTitle} אל {$contextName}. דרך המערכת תוכל לעקוב אחר התקדמותו בתהליך העריכה על ידי כניסה לאתר כתב העת.<br />
+<br />
+כתובת אתר להגשה: {$submissionUrl}<br />
+שם משתמש: {$recipientUsername}<br />
+<br />
+אם יש לך שאלות, אנא צור איתי קשר. תודה ששקלת את כתב העת הזה כמקום לעבודה שלך.<br />
+<br />
+{$contextSignature}',
+        'emails.submissionAck.description' => 'דוא"ל זה, כאשר הוא מופעל, נשלח אוטומטית למחבר כאשר הם משלימים את תהליך הגשת כתב היד לכתב העת. הוא מספק מידע על מעקב אחר ההגשה בתהליך ומודה למחבר על המסירה.',
+        'emails.reviewAck.subject' => 'אישור סקירת מאמר',
+        'emails.reviewAck.body' => '{$recipientName}:
+
+<br />
+
+תודה על חוות דעתך על ההגשה "{$submissionTitle} ל{$contextName}. אנו מעריכים את תרומתך לאיכות העבודה שאנו מפרסמים.',
+        'emails.reviewConfirm.subject' => 'יכול לבדוק',
+        'emails.reviewConfirm.body' => 'לעורכים:<br />
+<br />
+אני מסכים לבדוק ההגשה "{$submissionTitle}" ל{$contextName}. תודה שפניתם אלי ואני מתכנן להחזיר את חוות הדעת עד {$reviewDueDate}, אם לא לפני.<br />
+<br />
+{$senderName}',
+        'emails.submissionAckNotAuthor.subject' => 'אישור הגשה',
+        'emails.submissionAckNotAuthor.body' => 'שלום,<br />
+<br />
+{$submitterName} הגיש כתב יד {$sumbissionTitle} ל{$contextName}.<br />
+<br />
+בכל שאלה ניתן לפנות אלי. תודה על פנייתך לכתב עת זה.<br />
+<br />
+{$contextSignature}',
+        'section.default.title' => 'מאמרים',
+        'section.default.abbrev' => 'מאמר',
+        'section.default.policy' => 'מדיניות ברירת המחדל של המדור',
+        'default.genres.article' => 'טקסט המאמר',
+        'default.contextSettings.privacyStatement' => '<p>השמות וכתובות הדוא"ל שהוזנו באתר כתב עת זה ישמשו אך ורק למטרות המוצהרות של כתב עת זה ולא יהיו זמינים למטרה אחרת או לצד אחר.</p>',
+        'default.contextSettings.openAccessPolicy' => 'כתב עת זה מספק גישה פתוחה מיידית לתוכנו על בסיס העיקרון שלפיו הנגשת המחקר באופן חופשי לציבור תומכת בחילופי ידע גלובליים גדולים יותר.',
+        'default.contextSettings.forReaders' => 'אנו מעודדים את הקוראים להירשם לשירות ההודעות על פרסום בכתב עת זה. השתמשו בקישור <a href="{$indexUrl}/{$contextPath}/user/register">  ">רישום</a> בראש דף הבית של כתב העת. רישום זה יביא לכך שהקורא יקבל את תוכן העניינים במייל עבור כל גיליון חדש של כתב העת. רשימה זו מאפשרת גם לכתב עת להגיע לרמה מסוימת של תמיכה וקהל קוראים. ראה את <a href="{$indexUrl}/{$contextPath}/about/submissions#privacyStatement">הצהרת פרטיות</a> של כתב העת, שמבטיח לקוראים ששמם וכתובת הדוא"ל שלהם לא ישמשו למטרות אחרות.',
+        'default.contextSettings.forAuthors' => 'מעוניין להגיש לכתב עת זה? אנו ממליצים שתבדוק את <a href="{$indexUrl}/{$contextPath}/about">אודות כתב העת</a>לכללים שלו <a href="{$indexUrl}/{$contextPath}/about/submissions#authorGuidelines">וגם להנחיות למחבר</a>. מחברים צריכים <a href="{$indexUrl}/{$contextPath}/user/register">לרשום</a> לכתב העת לפני הגשה, ואם רשומים כבר אז רק <a href="{$indexUrl}/index/login">להתחבר</a> ולהתחיל את שלבי הגשה.',
+        'default.contextSettings.forLibrarians' => 'אנו מעודדים ספרנים מחקריים לרשום כתב עת זה בין אחזקות כתבי העת האלקטרוני של הספרייה שלהם. כמו כן, ראוי לציין שמערכת ההוצאה לאור בקוד הפתוח של כתב העת הזו מתאימה לספריות לארח את חברי הסגל שלהם עם כתבי עת בהם הם עוסקים בעריכה (ראה<a href="http://pkp.sfu.ca/ojs">מערכות כתבי עת פתוחים</a>).',
+        'default.contextSettings.lockssLicense' => 'כתב עת זה משתמש במערכת LOCKSS ליצירת מערכת ארכיב מבוזרת בין הספריות המשתתפות ומאפשרת לספריות אלה ליצור ארכיונים קבועים של כתב העת למטרות שימור ושיקום. <a href="http://www.lockss.org/"> עוד ... </a>',
+        'default.contextSettings.clockssLicense' => 'כתב עת  זה משתמש במערכת CLOCKSS ליצירת מערכת ארכיב מבוזרת בין הספריות המשתתפות ומאפשר לאותם ספריות ליצור ארכיונים קבועים של כתב העת למטרות שימור ושיקום.<a href="http://clockss.org/">עוד</a>',
+        'default.groups.name.manager' => 'מנהל כתב העת',
+        'default.groups.plural.manager' => 'מנהלי כתב העת',
+        'default.groups.abbrev.manager' => 'מכע',
+        'default.groups.name.editor' => 'עורך כתב העת',
+        'default.groups.plural.editor' => 'עורכי כתב העת',
+        'default.groups.abbrev.editor' => 'עו',
+        'default.groups.name.guestEditor' => 'עורך אורח',
+        'default.groups.plural.guestEditor' => 'עורכים אורחים',
+        'default.groups.abbrev.guestEditor' => 'עא',
+        'default.groups.name.sectionEditor' => 'עורך מדור',
+        'default.groups.plural.sectionEditor' => 'עורכי מדור',
+        'default.groups.abbrev.sectionEditor' => 'עמ',
+        'default.groups.name.subscriptionManager' => 'מנהל מנויים',
+        'default.groups.plural.subscriptionManager' => 'מנהלי מנויים',
+        'default.groups.abbrev.subscriptionManager' => 'ממ',
+        'default.genres.researchInstrument' => 'כלי מחקר',
+        'default.genres.researchMaterials' => 'חומרי מחקר',
+        'default.genres.researchResults' => 'תואצות מחקר',
+        'default.genres.transcripts' => 'תמלילים',
+        'default.genres.dataAnalysis' => 'ניתוח נתונים',
+        'default.genres.dataSet' => 'מערך נתונים',
+        'default.genres.sourceTexts' => 'טקסט מקור',
+        'default.groups.name.externalReviewer' => 'מבקר',
+        'default.groups.plural.externalReviewer' => 'מבקרים',
+        'default.groups.abbrev.externalReviewer' => 'בק',
+        'api.submissions.403.cantChangeContext' => 'אינך יכול לשנות את כתב עת ההגשה.',
+        'api.submissions.403.unpublishedIssues' => 'אין לך הרשאה לצפות בגליונות שלא פורסמו.',
+        'api.contexts.403.requestedDisabledContexts' => 'אתה יכול לצפות רק בכתבי עת שהופעלו.',
+        'api.contexts.403.notAllowed' => 'אין לך הרשאה לצפות בכתב עת הזה.',
+        'api.contexts.403.contextsDidNotMatch' => 'אינך יכול לצפות או לערוך את כתב העת הזה אלא אם הגשת בקשה לממשק ה-API של כתב העת או לממשק ה-API של האתר.',
+        'api.contexts.403.requiresContext' => 'אינך יכול לערוך כתב עת זה מממשק ה-API של האתר.',
+        'api.contexts.403.notAllowedEdit' => 'אין לך הרשאה לערוך כתב העת הזה.',
+        'api.contexts.403.notAllowedDelete' => 'אין לך הרשאה למחוק את כתב העת הזה.',
+        'api.contexts.404.contextNotFound' => 'כתב העת שביקשת לא נמצא.',
+        'api.emailTemplates.403.notAllowedChangeContext' => 'אין לך הרשאה להעביר תבנית דוא"ל זו לכתב עת אחר.',
+        'api._payments.400.invalidPaymentMethod' => 'אמצעי התשלום שבחרת אינו נתמך.',
+        'api.publications.403.contextsDidNotMatch' => 'הפרסום שביקשת אינו חלק מכתב עת זה.',
+        'api.publications.403.submissionsDidNotMatch' => 'הפרסום שביקשת אינו חלק מההגשה הזו.',
+        'admin.hostedContexts' => 'כתבי עת מתארחים',
+        'admin.settings.redirect' => 'פניית כתב עת',
+        'admin.settings.redirectInstructions' => 'בקשות לאתר הראשי יופנו לכתב עת זה. זה עשוי להיות שימושי אם האתר מארח רק כתב עת בודד, למשל.',
+        'admin.languages.confirmDisable' => 'האם אתה בטוח שאתה רוצה לבטל האזור הזה? זה עשוי להשפיע על כל כתבי העת המתארחים המשתמשים כעת באזור.',
+        'admin.languages.primaryLocaleInstructions' => 'זו תהיה שפת ברירת המחדל של האתר ושל כל כתבי העת המתארחים.',
+        'admin.languages.supportedLocalesInstructions' => 'בחר את כל האזורים לתמיכה באתר. האזורים שנבחרו יהיו זמינים לשימוש בכל כתבי העת המתארחים באתר, ויופיעו גם בתפריט בחירת שפה שיופיע בכל דף אתר (שניתן יהיה לבטל אותו בדפים ספציפיים לכתב עת). אם לא נבחרו מספר אזורים, תפריט מעבר לשפה לא יופיע והגדרות השפה המורחבת לא יהיו זמינות לכתבי עת.',
+        'admin.locale.maybeIncomplete' => 'אזורים מסומנים עשויים להיות לא שלמים.',
+        'admin.languages.confirmUninstall' => 'האם אתה בטוח שברצונך להסיר את ההתקנה של אזור זה? זה עשוי להשפיע על כל כתבי העת המתארחים המשתמשים כעת באזור.',
+        'admin.languages.installNewLocalesInstructions' => 'בחר אזורים נוספים שתתקין להם תמיכה במערכת זו. יש להתקין אזורים לפני שניתן יהיה להשתמש בהם כתבי עת שמתארחים. עיין בתיעוד של OJS למידע על הוספת תמיכה בשפות חדשות.',
+        'admin.systemVersion' => 'גרסת OJS',
+        'admin.systemConfiguration' => 'תצורת OJS',
+        'admin.systemConfigurationDescription' => 'הגדרות תצורת OJS מ- <tt> config.inc.php </tt>.',
+        'admin.journals.createInstructions' => 'תירשם אוטומטית כמנהל כתב עת זה. לאחר יצירת כתב עת חדש, תנותב לאשף ההגדרות שלו, כדי להשלים את הגדרת כתב העת הראשונית.',
+        'admin.journals.journalSettings' => 'הגדרות כתב עת',
+        'admin.journals.noneCreated' => 'לא נוצרו כתבי עת.',
+        'admin.contexts.create' => 'צור כתב עת',
+        'admin.journals.urlWillBe' => 'זו צריכה להיות מילה קצרה או ראשי תיבות שמזהה את כתב העת. כתובת האתר של כתב העת תהיה {sampleUrl$}.',
+        'admin.contexts.form.titleRequired' => 'נדרשת כותרת.',
+        'admin.contexts.form.pathRequired' => 'דרוש נתיב (path).',
+        'admin.contexts.form.pathAlphaNumeric' => 'הנתיב יכול לכלול אותיות בלבד, מספרים והתווים _ ו- -. עליו להתחיל ולהסתיים באות או במספר.',
+        'admin.contexts.form.pathExists' => 'הנתיב שסיפקת נמצא בשימוש כבר בכתב עת אחר.',
+        'admin.journals.enableJournalInstructions' => 'אפשר לכתב עת זה להופיע באתר',
+        'admin.contexts.contextDescription' => 'תיאור כתב העת',
+        'admin.journal.pathImportInstructions' => 'נתיב קיים או נתיב ליצירה (למשל, "ojs").',
+        'admin.journals.importSubscriptions' => 'ייבא מנויים',
+        'admin.journals.transcode' => 'המרת קידוד מטא נתונים מ- ISO8859-1',
+        'admin.journals.redirect' => 'צור קוד למיפוי כתובות אתרים של OJS 1 לכתובות אתרים של OJS 2',
+        'admin.journals.form.importPathRequired' => 'דרוש נתיב הייבוא.',
+        'admin.journals.importErrors' => 'היבוא לא הושלם בהצלחה',
+        'admin.mergeUsers' => 'מיזוג משתמשים',
+        'admin.mergeUsers.mergeUser' => 'מיזוג משתמש',
+        'admin.mergeUsers.into.description' => 'בחר משתמש למי לייחס את מחברי המשתמש הקודם, משימות עריכה וכו \'.',
+        'admin.mergeUsers.from.description' => 'בחר משתמש (או כמה) כדי למזג לחשבון משתמש אחר (למשל, אם למישהו יש שני חשבונות משתמש). החשבונ(ות) שנבחרו ראשונים יימחקו וכל ההגשות, המטלות וכו\' יוחסו לחשבון השני.',
+        'admin.mergeUsers.allUsers' => 'כל המשתמשים הרשומים',
+        'admin.mergeUsers.confirm' => 'האם אתה בטוח שברצונך למזג את {oldAccountCount$} חשבונות שנבחרו לחשבון עם שם המשתמש "{newUsername$}"? חשבונות {oldAccountCount$} שנבחרו לא יהיו קיימים לאחר מכן. פעולה זו אינה הפיכה.',
+        'admin.mergeUsers.noneEnrolled' => 'אין משתמשים רשומים.',
+        'admin.scheduledTask.subscriptionExpiryReminder' => 'תזכורת לתאריך סיום המנוי',
+        'admin.scheduledTask.openAccessNotification' => 'הודעת גישה פתוחה',
+        'admin.scheduledTask.reviewReminder' => 'תזכורת סקירה',
+        'editor.home' => 'דף הבית של העורך',
+        'editor.submissionsAndPublishing' => 'הגשות ופרסום',
+        'editor.submissionQueue' => 'תור הגשה',
+        'editor.submissionArchive' => 'ארכיון הגשה',
+        'editor.publishing' => 'פרסום',
+        'editor.publishedIssues' => 'גיליונות שפורסמו',
+        'editor.allSections' => 'כל המדורים',
+        'editor.allEditors' => 'כל העורכים',
+        'editor.me' => 'אני',
+        'editor.publicIdentificationExists' => 'המזהה הציבורי \'{publicIdentifier$}\' כבר קיים עבור אובייקט אחר (גיליון, מאמר או קובץ). בחר מזהים ייחודיים בכתב עת שלך.',
+        'editor.submissionArchive.noSubmissions' => 'אין הגשות בארכיון.',
+        'editor.submissionArchive.saveChanges' => 'לשמור שינויים בהגשות שנשמרו בארכיון? הגשות המסומנות למחיקה יימחקו מהמערכת לצמיתות.',
+        'editor.submissionReview.confirmDecision' => 'האם אתה בטוח שברצונך לרשום החלטה זו?',
+        'editor.submissionReview.emailWillArchive' => 'הגשה זו תישמר בארכיון לאחר שנשלח דוא"ל הודעת המחבר או שנלחץ דלג על דוא"ל.',
+        'editor.submissionReview.cannotSendToCopyediting' => 'לפני שתשלח הגשה לעריכה, השתמש בקישור הודע למחבר כדי ליידע את המחבר על ההחלטה ובחר בגירסה שתישלח.',
+        'editor.notifyUsers' => 'הודע למשתמשים',
+        'editor.notifyUsers.allReaders' => 'כל הקוראים ({count$} משתמשים)',
+        'editor.notifyUsers.allAuthors' => 'כל המחברים שפורסמו ({count$} משתמשים)',
+        'editor.notifyUsers.allIndividualSubscribers' => 'כל המנויים הפרטיים ({count$} משתמשים)',
+        'editor.notifyUsers.allInstitutionalSubscribers' => 'כל המנויים המוסדיים ({count$} משתמשים)',
+        'editor.notifyUsers.inProgress' => 'מודיע למשתמשים ...',
+        'editor.usersNotified' => 'משתמשים קיבלו הודעה',
+        'editor.notifyUsers.allUsers' => 'שלח הודעה זו לכל המשתמשים הקשורים לכתב עת זה ({count$} משתמשים)',
+        'editor.notifyUsers.interestedUsers' => 'שלח הודעה זו למשתמשים הקשורים לכתב עת זה שציינו כי הם רוצים לקבל עדכונים ({count$} משתמשים)',
+        'editor.notifyUsers.includeToc' => 'כלול את תוכן העניינים מגליון זה:',
+        'editor.editorAdministration' => 'ניהול עורך',
+        'editor.issues.createIssue' => 'צור גיליון',
+        'editor.issues.editIssue' => 'ניהול גיליון: {issueIdentification$}',
+        'editor.issues.currentIssue' => 'גיליון נוכחי',
+        'editor.issues.numArticles' => 'פריטים',
+        'editor.issues.noArticles' => 'כרגע לא מוגדרים פריטים לגיליון זה.',
+        'editor.issues.confirmDelete' => 'האם אתה בטוח שברצונך למחוק גיליון זו לצמיתות?',
+        'editor.issues.published' => 'פורסם',
+        'editor.issues.unpublished' => 'לא פורסם',
+        'editor.issues.datePublished' => 'תאריך פירסום',
+        'editor.issues.volumeRequired' => 'מספר כרך נדרש וחייב להיות ערך מספרי חיובי.',
+        'editor.issues.numberRequired' => 'מספר נדרש ועליו להיות ערך מספרי חיובי.',
+        'editor.issues.yearRequired' => 'שנה נדרשת ועליה להיות ערך מספרי חיובי.',
+        'editor.issues.titleRequired' => 'כותרת נדרשת לגיליון.',
+        'editor.issues.issueIdentificationRequired' => 'נדרש זיהוי גיליון. בחר לפחות אחת מאפשרויות זיהוי הגיליון.',
+        'editor.issues.issueIdentification' => 'זיהוי גיליון',
+        'editor.issues.publicIssueIdentifier' => 'מזהה גיליון ציבורי',
+        'editor.issues.description' => 'תיאור',
+        'editor.issues.accessStatus' => 'סטטוס גישה',
+        'editor.issues.accessDate' => 'תאריך גישה פתוח',
+        'editor.issues.enableOpenAccessDate' => 'אפשר גישה פתוחה מעוכבת',
+        'editor.issues.coverPage' => 'תמונת כריכה',
+        'editor.issues.coverPageInstructions' => '(פורמטים מותרים: gif, jpg או png)',
+        'editor.issues.uploaded' => 'הועלה',
+        'editor.issues.remove' => 'הסר',
+        'editor.issues.proofed' => 'מוגהה',
+        'editor.issues.removeCoverPage' => 'להסיר את תמונת הכריכה?',
+        'editor.issues.removeCoverImageFileNameMismatch' => 'תמונת הכריכה שביקשת למחוק לא תאמה את תמונת הכריכה לגיליון זה. טען מחדש את הדף ונסה שוב.',
+        'editor.issues.removeCoverImageFileNotFound' => 'לא ניתן למצוא את תמונת השער שביקשת למחוק. יתכן שהוא כבר נמחק. נסה לטעון מחדש את הדף.',
+        'editor.issues.invalidCoverImageFormat' => 'פורמט דף שער לא חוקי. פורמטים מקובלים הם gif ,jpg או png.',
+        'editor.issues.styleFile' => 'גיליון סגנון',
+        'editor.issues.invalidStyleFormat' => 'פורמט גיליון סגנונות לא חוקי. ודא שהקובץ שהוגש הוא CSS תקף. (שים לב שגיליונות סגנונות עם הערות בהתחלה עשויים להידחות.)',
+        'editor.issues.removeStyleFile' => 'להסיר גיליון סגנונות?',
+        'editor.issues.coverPageCaption' => 'כותרת הכריכה',
+        'editor.issues.showCoverPage' => 'צור כריכה לגיליון זה עם האלמנטים הבאים.',
+        'editor.issues.coverPageDisplay' => 'הצג',
+        'editor.issues.openAccess' => 'גישה חופשית',
+        'editor.issues.subscription' => 'מנוי',
+        'editor.issues.identification' => 'זיהוי',
+        'editor.issues.access' => 'גישה',
+        'editor.issues.cover' => 'כריכה',
+        'editor.issues.confirmIssueDelete' => 'כל המאמרים יוחזרו לתור העריכה וכל הקבצים המשויכים יוסרו לצמיתות. האם אתה בטוח שברצונך להסיר את הגיליון?',
+        'editor.issues.resetIssueOrder' => 'כתב עת זה משתמש בהזמנת גיליונות בהתאמה אישית.<a href="{$url}" class="action">אפס לברירת מחדל</a>',
+        'editor.issues.resetSectionOrder' => 'גיליון זה משתמש בהזמנת מדורים בהתאמה אישית.<a href="{$url}" class="action">אפס לברירת מחדל</a>',
+        'editor.issues.issueData' => 'נתוני גיליון',
+        'editor.issues.saveChanges' => 'שמור שינויים לתוכן העניינים?',
+        'editor.issues.default' => 'ברירת מחדל',
+        'editor.issues.order' => 'סדר',
+        'editor.issues.publicId' => 'זיהוי ציבורי',
+        'editor.issues.publishIssue' => 'פרסם גיליון',
+        'editor.issues.unpublishIssue' => 'בטל את הפרסום',
+        'editor.issues.previewIssue' => 'תצוגה מקדימה של הגיליון',
+        'editor.issues.preview' => 'תצוגה מקדימה',
+        'editor.issues.confirmPublish' => 'האם אתה בטוח שברצונך לפרסם את הגיליון החדש?',
+        'editor.issues.confirmUnpublish' => 'האם אתה בטוח שברצונך לבטל את פרסום הגיליון שפורסם?',
+        'editor.issues.confirmSetCurrentIssue' => 'האם אתה בטוח שברצונך להגדיר את הגיליון לגיליון נוכחי?',
+        'editor.issues.publicArticleIdExists' => 'לא ניתן לשמור מזהה ציבורי למאמר:',
+        'editor.issues.noLiveIssues' => 'אין גיליונות נוכחיות',
+        'editor.issues.open' => 'פתוח',
+        'editor.issues.pages' => 'מספר עמודים',
+        'editor.issues.galleys' => 'הגהות גיליון',
+        'editor.issues.galley' => 'הגהת גיליון',
+        'editor.issues.viewingGalley' => 'מציג הגהת גיליון',
+        'editor.issues.issueGalleysDescription' => 'פרסם הגהות עם כל תוכן הגיליון.',
+        'editor.issues.noneIssueGalleys' => 'הגהות גליון לא פורסמו.',
+        'editor.issues.galleyLabelRequired' => 'תווית הגהות גיליון נדרש.',
+        'editor.issues.galleyLocaleRequired' => 'מיקום הגהות גיליון נדרש.',
+        'editor.issues.galleyPublicIdentificationExists' => 'מזהה הגהות גיליון ציבורי כבר קיים.',
+        'editor.issues.backToIssueGalleys' => 'חזור להגהות גיליון',
+        'editor.issues.confirmDeleteGalley' => 'האם אתה בטוח שברצונך למחוק הגהות גיליון זה?',
+        'editor.issues.identifiers' => 'מזהים',
+        'editor.navigation.futureIssues' => 'גיליונות עתידיים',
+        'grid.action.addGalley' => 'הוסף הגהה',
+        'grid.action.publish' => 'פרסם גיליון',
+        'grid.action.addIssue' => 'צור גיליון',
+        'grid.action.viewIssue' => 'הצג',
+        'grid.action.previewIssue' => 'תצוגה מקדימה',
+        'grid.action.addIssueGalley' => 'צור הגהת גיליון',
+        'grid.action.setCurrentIssue' => 'הגדר גיליון נוכחי',
+        'editor.navigation.issueArchive' => 'גיליונות קודמים',
+        'editor.article.designateReviewVersion' => 'הגדר את הקובץ המקורי כגרסת הביקורת',
+        'editor.article.decision' => 'החלטה',
+        'editor.submissions.showBy' => 'הצג לפי',
+        'editor.submissions.submitMMDD' => 'הגש MM-DD',
+        'editor.submissions.activeAssignments' => 'משימות פעילות',
+        'editor.submissions.invite' => 'הזמן',
+        'editor.submissions.accept' => 'קבל',
+        'editor.submissions.noSubmissions' => 'אין הגשות',
+        'editor.submissions.lastAssigned' => 'אחרון',
+        'editor.submissions.averageTime' => 'שבועות',
+        'editor.submissions.lastCompleted' => 'תאריך אחרון',
+        'editor.submissions.assignedTo' => 'הוקצה ל',
+        'editor.submissions.inSection' => 'במדור',
+        'editor.article.showPublicationVersion' => 'הצג פרסום מתוזמן',
+        'editor.article.publishVersion' => 'פרסם גרסה',
+        'editor.article.viewMetadata' => 'צפה במטא-נתונים של גרסה',
+        'editor.article.editMetadata' => 'ערוך מטא-נתונים של גרסה',
+        'editor.article.scheduleForPublication' => 'לוח זמנים לפרסום',
+        'editor.article.scheduleForPublication.toBeAssigned' => 'מחכה',
+        'editor.article.payment.publicationFeeNotPaid' => 'דמי פרסום לא שולמו. כדי לתזמן פריט לפרסום הודע למחבר לשלם דמי פרסום או ויתור על עמלה.',
+        'editor.article.removeCoverImageFileNotFound' => 'לא ניתן למצוא את תמונת השער שביקשת למחוק. יתכן שהוא כבר נמחק. נסה לטעון מחדש את הדף.',
+        'grid.action.removeArticle' => 'הסר את המאמר מהגליון',
+        'editor.article.remove' => 'הסר',
+        'editor.article.remove.confirm' => 'האם אתה בטוח שברצונך להסיר מאמר זה מהגיליון? המאמר יהיה זמין לתזמון בגיליון אחר.',
+        'editor.issues.invalidAccessDate' => 'תאריך הגישה אינו תקף.',
+        'editor.issues.editIssueGalley' => 'ערוך הגהת גיליון',
+        'editor.submission.production.productionReadyFilesDescription' => 'עורך הסדר מכין קבצים אלה לכל <span class="pkp_help_title">הגהה</span> ואז מעלה אותם לצורך הגהה.',
+        'editor.submission.selectGalleyFiles' => 'בחר קבצי הגהה',
+        'editor.submission.editorial.finalDraftDescription' => 'קובצי טיוטה סופיים ברשימה זו הופכים על ידי מתקין לגירסאות המתוקנות שהועלו להלן תחת <span class="pkp_help_title">התקנה</span>.',
+        'editor.submission.proof.manageProofFilesDescription' => 'כל קבצים שכבר הועלו לשלב הגשה כלשהם ניתן להוסיף לרשימת הגהה על ידי סימון תיבת הסימון כלול למטה ולחיצה על חיפוש: כל הקבצים הזמינים יופיעו וניתן לבחור אותם לכלול.',
+        'editor.publicIdentificationExistsForTheSameType' => 'המזהה הציבורי \'{publicIdentifier$}\' כבר קיים עבור אובייקט אחר מאותו סוג. בחר מזהים ייחודיים לאובייקטים מאותו סוג בכתב העת.',
+        'editor.article.coverImage' => 'תמונת כריכה',
+        'emails.passwordResetConfirm.subject' => 'אישור איפוס סיסמה',
+        'emails.passwordResetConfirm.body' => 'קיבלנו בקשתך לשנות סיסמה לאתר  {$siteTitle} 
+<br />
+<br />
+אם לא הגשת בקשה זו, אנא התעלם מאימייל זה והסיסמה שלך לא תשתנה. אם ברצונך לאפס את הסיסמה שלך, לחץ על כתובת האתר הבאה.<br />
+<br />
+איפוס סיסמה: {$passwordResetUrl}
+<br />
+{$siteContactName}',
+        'emails.userRegister.subject' => 'רישום כתב עת',
+        'emails.userRegister.body' => '{$recipientName}<br />
+<br />
+נרשמת בהצלחה {$contextName}. כללנו את שם המשתמש והסיסמה שלכם בהודעת דוא"ל זו, הדרושים לכל עבודה עם כתב עת זה דרך אתר האינטרנט שלה. בכל שלב, אתה יכול לבקש הסרה מרשימת המשתמשים של כתב העת על ידי יצירת קשר איתי.<br />
+<br />
+שם משתמש: {$recipientUsername}<br />
+סיסמה: {$password}<br />
+<br />
+תודה,<br />
+{$signature}',
+        'emails.userValidateContext.subject' => 'אמת את חשבונך',
+        'emails.userValidateContext.body' => '{$recipientName}
+<br />
+<br />
+יצרת חשבון עם {$contextName}, אך לפני שתוכל להתחיל להשתמש בו, עליך לאמת את חשבון הדוא"ל שלך. לשם כך, פשוט לחץ על הקישור שלהלן:<br />
+<br />
+{$activateUrl}<br />
+<br />
+תודה,<br />
+{$contextSignature}',
+        'emails.reviewerRegister.subject' => 'הרשמה כסוקר עם {$contextName}',
+        'emails.reviewerRegister.body' => 'לאור המומחיות שלך, רשמנו את שמך במאגר הסוקרים עבור {$contextName}. זה לא כרוך בשום צורה של התחייבות מצידך, אלא פשוט מאפשר לנו לפנות אליך עם הגשה שתוכל לבדוק. לאחר שתוזמן לבדיקה, תהיה לך הזדמנות לראות את הכותרת והתקציר של המאמר המדובר, ותמיד תהיה לך האופציה לקבל את ההזמנה או לדחות אותה. אתה יכול גם לבקש בכל נקודה להסיר את שמך מרשימת הסוקרים הזו. <br />
+<br />אנו מספקים לך שם משתמש וסיסמא, המשמשים בכל האינטראקציות עם כתב העת דרך אתר האינטרנט שלו. ייתכן שתרצה, למשל, לעדכן את הפרופיל שלך, כולל תחומי העניין שלך בביקורת. <br />
+<br />
+שם משתמש: {$recipientUsername} <br/>
+סיסמא: {$password} <br />
+<br />
+תודה לך, <br />
+{$signature}',
+        'emails.issuePublishNotify.subject' => 'גיליון חדש פורסם',
+        'emails.issuePublishNotify.body' => 'קוראים: <br />
+<br />
+{$contextName} פרסם זה עתה את הגיליון החדש ב- {$contextUrl}. אנו מזמינים אתכם לסקור את תוכן העניינים כאן ואז לבקר באתר האינטרנט שלנו כדי לסקור מאמרים ופריטים מעניינים. <br />
+<br />
+תודה על ההתעניינות המתמשכת בעבודה שלנו, <br />
+{$signature}',
+        'emails.editorAssign.subject' => 'הקצאת עריכה',
+        'emails.editorAssign.body' => '{$recipientName}:<br />
+<br />
+כתב יד {$submissionTitle} ל{$contextName} שויך אליך לטיפול בשלבי העריכה.<br />
+<br />
+אתר הגשה: {$submissionUrl}<br />
+שם משתמש: {$recipientUsername}<br />
+<br />
+תודה.',
+        'emails.reviewRequest.subject' => 'בקשה לביקורת מאמר',
+        'emails.reviewRequest.body' => '{$recipientName}:<br />
+<br />
+אתה תהיה סוקר מצוין של כתב היד {$submissionTitle} שהוגש לכתב עת {$contextName}. תקציר ההגשה מוכנס למטה, ואני מקווה שתשקול לבצע את המשימה החשובה הזו עבורנו.<br />
+<br />
+אנא היכנס לאתר כתב העת עד {$responseDueDate} לציין אם תבצע את הביקורת או לא, וכן לגשת למאמר ולרשום את הביקורת וההמלצה שלך. האתר הוא {$contextUrl}.<br />
+<br />
+הביקורת עצמו ניתן להגשה עד {$reviewDueDate}.<br />
+<br />
+אם אין ברשותך שם משתמש וסיסמה לאתר, ניתן לאפס את סיסמתך (שיישלח אליך ביחד עם שם משתמש שלך). {$passwordLostUrl}.<br />
+<br />
+אתר הגשה: {$reviewAssignmentUrl}<br />
+<br />
+תודה ששקלת את הבקשה הזו.<br />
+<br />
+"{$submissionTitle}"<br />
+<br />
+{$submissionAbstract}',
+        'emails.reviewResponseOverdueAuto.subject' => 'בקשה לסקירת מאמר',
+        'emails.reviewResponseOverdueAuto.body' => '{$recipientName}:<br />
+ברצוננו להזכיר לך על בקשתנו לבקר את ההגשה "{$submissionTitle}", ל{contextName$}. קוינו לשמוע ממך עד {$responseDueDate}, ודוא"ל זה נשלח אוטומטית בתום התאריך.
+<br />
+אנחנו מאמינים שאתה סוקר מצוין לכתב היד. תקציר ההגשה נמצא למטה, ונשמח אם תוכל לתת חוות דעת.<br />
+<br />
+אנא חבר לאתר כתב העת לציין אם אתה מסכים, וכן לגשת לכתב היד ולהעלות את חוות דעתך ואת המלמצתך. אתר כתב היד הוא {$contextUrl}.<br />
+<br />
+חוות הדעת עצמו צריך להגיש עד {$reviewDueDate}.<br />
+<br />
+אם אין ברשותך שם משתמש וסיסמתך לאתר כתב העת, אפשר לאפס את הסיסמה (ישלח לדוא"ל שלך יחד עם שם משתמש שלך). {$passwordLostUrl}<br />
+<br />
+אתר הגשה: {$submissionUrl}<br />
+<br />
+תודה על עזרתך.<br />
+<br />
+{$contextSignature}<br />
+<br />
+"{$submissionTitle}"<br />
+<br />
+{$submissionAbstract}',
+        'emails.reviewRequestSubsequent.subject' => 'בקשת סקירת מאמר',
+        'emails.reviewRequestSubsequent.body' => '{$recipientName}:<br />
+<br />
+זה נוגע לכתב היד &quot;{$submissionTitle},&quot; הנמצא בבדיקה ל- {$contextName}.<br />
+<br />
+לאחר סקירת הגרסה הקודמת של כתב היד, המחברים הגישו כעת גרסה מתוקנת של מאמרם. נשמח אם היית יכול לעזור בהערכתו.<br />
+<br />
+נא להיכנס לאתר עד {$responseDueDate} כדי לציין אם תתחיל בבדיקה או לא, כמו גם לגשת להגשה ולהקליט את הביקורת וההמלצה שלך. אתר האינטרנט הוא {$contextUrl}<br />
+<br />
+תאריך הגשת הביקורת הוא  {$reviewDueDate}.<br />
+<br />
+אם אין לך את שם המשתמש והסיסמה שלך לאתר האינטרנט של כתב העת, תוכל להשתמש בקישור זה כדי לאפס את הסיסמה שלך (שתשלח אליך בדוא"ל יחד עם שם המשתמש שלך). {$passwordLostUrl}<br />
+<br />
+אתר הגשה: {$reviewAssignmentUrl}<br />
+<br />
+תודה על עזרתך.<br />
+<br />
+{$signature}<br />
+<br />
+&quot;{$submissionTitle}&quot;<br />
+<br />
+{$submissionAbstract}',
+        'emails.reviewCancel.subject' => 'ביטול בקשה לסקירה',
+        'emails.reviewCancel.body' => '{$recipientName}:
+<br />
+החלטנו בשלב זה לבטל את בקשתנו שתבדוק את ההגשה "{$submissionTitle}" ל{$contextName}. אנו מתנצלים על אי הנוחות שעלולה לגרום לך ומקווים שנוכל לבקש ממך לסייע בתהליך הסקירה של כתב עת זה בעתיד.<br />
+<br />
+אם יש לך שאלות, אנא צור איתי קשר.',
+        'emails.reviewReinstate.subject' => 'בקשה לבדיקה חודשה',
+        'emails.reviewReinstate.body' => '{$recipientName}:
+ברצוננו להחזיר את בקשתנו שתבדוק את ההגשה "{$submissionTitle}" ל{$contextName}. אנו מקווים כי תוכלו לסייע בתהליך הסקירה של כתב העת הזה<br />
+<br />
+אם יש לך שאלות, אנא צור איתי קשר.',
+        'emails.reviewDecline.subject' => 'אינו יכול לבדוק',
+        'emails.reviewDecline.body' => 'לעורכים:<br />
+<br />
+לצערי בשלב זה איני יכול לסקור את ההגשה "{$submissionTitle} ל{$contextName}. תודה שחשבתם עלי, ולא להסס לבקש שוב.<br />
+<br />
+{$senderName}',
+        'emails.reviewRemind.subject' => 'תזכורת שליחת חוות דעת',
+        'emails.reviewRemind.body' => '{$recipientName}:<br />
+<br />
+זוהי תזכורת לבקשתנו לחוות דעתך על ההגשה "{$submissionTitle} ל{$contextName}. קוינו לקבל את חוות הדעת עד {$reviewDueDate}, ונשמח לקבל את זה בהקדם.<br />
+<br />
+אם אין ברשותך שם משתמש וסיסמתך לאתר כתב העת, ניתן לאפס אותו עם לינק זה (ישלח אליך בדוא"ל עם שם משתמש שלך). {$passwordLostUrl}<br />
+<br />
+אתר הגשה: {$reviewAssignmentUrl}<br />
+<br />
+נא לאשר הסכמתך לסקור את המאמר ולהגיש חוות דעת. מחכים לשמוע ממך.<br />
+<br />
+{$signature}',
+        'emails.reviewRemindAuto.subject' => 'תזכורת הגשת ביקורת אוטומטית',
+        'emails.editorDecisionAccept.subject' => 'החלטת העורך',
+        'emails.editorDecisionAccept.body' => '{$authors}: 
+<br />
+הגענו להחלטה לגבי הגשה שלך ל{$contextName}: {$submissionTitle}
+<br />
+החלטה שלנו: קבל הגשה',
+        'author.submit' => 'הגשה חדשה',
+        'author.track' => 'הגשות פעילות',
+        'author.submit.submitArticle' => 'הגש מאמר',
+        'author.submit.stepsToSubmit' => 'חמישה שלבים להגשה',
+        'author.submit.startHereTitle' => 'התחל הגשה חדשה',
+        'author.submit.startHereLink' => '<a href="{$submitUrl}" class="action">לחץ כאן</a> להתחיל את שלבי הגשה.',
+        'author.submit.step1' => 'שלב 1. התחלת ההגשה',
+        'author.submit.step2' => 'שלב 2. העלאת ההגשה',
+        'author.submit.step3' => 'שלב 3. הזנת מטא-נתונים של ההגשה',
+        'author.submit.step4' => 'שלב 4. העלאת קבצים משלימים',
+        'author.submit.step4a' => 'שלב 4 א. הוסף קובץ משלים',
+        'author.submit.step5' => 'שלב 5. אישור ההגשה',
+        'author.submit.start' => 'התחל',
+        'author.submit.upload' => 'העלאת הגשה',
+        'author.submit.metadata' => 'הזן מטא-נתונים',
+        'author.submit.supplementaryFiles' => 'העלה קבצים משלימים',
+        'author.submit.nextSteps' => 'השלבים הבאים',
+        'author.submit.notAccepting' => 'כתב עת זה אינו מקבל הגשות כרגע.',
+        'author.submit.requestWaiver' => 'בקש ויתור',
+        'author.submit.qualifyForWaiver' => 'אנא שקול לוותר על דמי הגשת המאמר עבור מאמר זה',
+        'author.submit.addReasonsForWaiver' => 'אנא השתמש בתיבת ההערות שלהלן כדי לציין מדוע יש לוותר על דמי הגשה.',
+        'author.submit.mustEnterWaiverReason' => 'אם אתם פונים לקבלת ויתור, אתם חייבים להכניס סיבה במקום המיועד לכך.',
+        'author.submissions.queuedReviewSubsequent' => 'בסבב הביקורת {round$}',
+        'author.submissions.queuedReviewRevisions' => 'בסקירה: נדרשות תיקונים',
+        'author.submissions.queuedEditingCopyedit' => 'בעריכה: עריכה מבוקשת',
+        'author.submissions.queuedEditingProofread' => 'בעריכה: הגהה מבוקשת',
+        'author.submissions.uploadCopyeditedVersion' => 'העלה גרסה ערוכה',
+        'author.submissions.proofreadingCorrections' => 'תיקוני הגהה',
+        'author.submissions.confirmDelete' => 'האם אתה בטוח שברצונך למחוק את ההגשה החלקית הזו?',
+        'author.submissions.viewStatus' => 'הצג סטטוס',
+        'author.submissions.noSubmissions' => 'אין הגשות.',
+        'author.submit.journalSection' => 'מדור כתב עת',
+        'author.submit.journalSectionDescription' => 'יש להגיש מאמרים לאחד ממדורי כתב העת.',
+        'author.submit.verifyChecklist' => 'עליך לוודא שכל הפריטים ברשימת הבדיקה של ההגשה הושלמו לפני שתמשיך.',
+        'author.submit.copyrightNoticeAgreeRequired' => 'עליך להסכים לתנאי הודעת זכויות היוצרים לפני שתמשיך.',
+        'submission.submit.coverNote' => 'הערות לעורך',
+        'author.submit.comments' => 'הזן טקסט (לא חובה)',
+        'author.submit.form.localeRequired' => 'בחר שפת הגשה.',
+        'author.submit.reorderInstructions' => 'סדר מחדש מחברים שיופיעו לפי הסדר שיופיעו בפרסום.',
+        'author.submit.reorder' => 'סדר מחדש את שם המחבר',
+        'author.submit.selectPrincipalContact' => 'איש קשר ראשי לתכתובת עריכה.',
+        'author.submit.addAuthor' => 'הוסף מחבר',
+        'author.submit.deleteAuthor' => 'מחק מחבר',
+        'author.submit.submissionIndexingDescription' => 'ספק מונחים לצורך מיפתוח ההגשה; מונחים נפרדים עם נקודה פסיק (מונח 1; מונח 2; מונח 3).',
+        'author.submit.coverageInstructions' => 'מתייחס למיקום הגיאוגרפי, סיקור כרונולוגי או היסטורי ו / או מאפייני מדגם המחקר.',
+        'author.submit.languageInstructions' => 'English=en; French=fr; Spanish=es. <a href="http://www.loc.gov/standards/iso639-2/php/code_list.php" target="_blank">קודים נוספים</a>.',
+        'author.submit.form.authorRequired' => 'דרוש לפחות מחבר אחד.',
+        'author.submit.form.authorRequiredFields' => 'נדרש שם פרטי, שם משפחה וכתובת דוא"ל של כל מחבר.',
+        'author.submit.form.titleRequired' => 'אנא הכנס את כותרת המאמר שלך.',
+        'author.submit.form.abstractRequired' => 'אנא הכנס את תקציר המאמר שלך.',
+        'author.submit.form.wordCountAlert' => 'חרגת ממגבלת המילים המרבית עבור תקצירים במסלול של מדור זה.',
+        'author.submit.submissionFile' => 'קובץ הגשה',
+        'author.submit.uploadSubmissionFile' => 'העלה קובץ הגשה',
+        'author.submit.replaceSubmissionFile' => 'חלף קובץ הגשה',
+        'author.submit.noSubmissionFile' => 'לא הועלה קובץ הגשה.',
+        'author.submit.noSubmissionConfirm' => 'האם אתה בטוח שברצונך להמשיך בלי להעלות קובץ הגשה?',
+        'author.submit.supplementaryFilesInstructions' => 'שלב אופציונלי זה מאפשר להוסיף קבצים משלימים להגשה. הקבצים שיכולים להיות בכל פורמט עשויים לכלול (א) כלי מחקר, (ב) מערכי נתונים העומדים בתנאי סקירת האתיקה המחקרית של המחקר, (ג) מקורות שאחרת לא יהיו זמינים לקוראים, (ד) ) דמויות וטבלאות שלא ניתן לשלבם בטקסט עצמו, או בחומרים אחרים המוסיפים לתרומת היצירה.',
+        'author.submit.supplementaryFiles.saveToUpload' => 'לחץ על שמור כדי להעלות קובץ (שלאחריו ניתן להעלות קבצים נוספים).',
+        'author.submit.forgottenSubmitSuppFile' => 'האם אתה בטוח שברצונך להמשיך בלי להעלות את הקובץ המשלים שבחרת?',
+        'author.submit.noSupplementaryFiles' => 'להגשה זו לא נוספו קבצים משלימים.',
+        'author.submit.backToSupplementaryFiles' => 'חזרה לקבצים משלימים',
+        'author.submit.confirmDeleteSuppFile' => 'האם אתה בטוח שברצונך למחוק קובץ משלים זה?',
+        'author.submit.uploadSuppFile' => 'העלה קובץ משלים',
+        'author.submit.addSupplementaryFile' => 'הוסף קובץ משלים',
+        'author.submit.editSupplementaryFile' => 'ערוך קובץ משלים',
+        'author.submit.supplementaryFileData' => 'מטא-נתונים על קבצים משלימים',
+        'author.submit.supplementaryFileDataDescription' => 'למיפתוח של חומר משלים זה, ספק את המטא-נתונים הבאים לקובץ המשלים שהועלה.',
+        'author.submit.supplementaryFileUpload' => 'קובץ משלים',
+        'author.submit.suppFile.createrOrOwner' => 'יוצר (או בעלים) של הקובץ',
+        'author.submit.suppFile.researchInstrument' => 'כלי מחקר',
+        'author.submit.suppFile.researchMaterials' => 'חומרי מחקר',
+        'author.submit.suppFile.researchResults' => 'תוצאות מחקר',
+        'author.submit.suppFile.transcripts' => 'תמלילים',
+        'author.submit.suppFile.dataAnalysis' => 'ניתוח נתונים',
+        'author.submit.suppFile.dataSet' => 'מערך נתונים',
+        'author.submit.suppFile.sourceText' => 'טקסט מקור',
+        'author.submit.suppFile.briefDescription' => 'תיאור קצר',
+        'author.submit.suppFile.availableToPeers' => 'הציגו קובץ לבודקים (ללא מטא-נתונים), מכיוון שהוא לא יפגע בבדיקה עיוורת.',
+        'author.submit.suppFile.publisherDescription' => 'השתמש רק עם חומרים שפורסמו רשמית.',
+        'author.submit.suppFile.dateDescription' => 'תאריך בו נאספו נתונים או יצרו מסמך.',
+        'author.submit.suppFile.sourceDescription' => 'שם המחקר או נקודת מוצא אחרת.',
+        'author.submit.suppFile.specifyOtherType' => 'ציין אחר',
+        'author.submit.suppFile.noFile' => 'לא הועלה קובץ.',
+        'author.submit.suppFile.form.titleRequired' => 'אנא הכנס את כותרת הקובץ המשלים הזה.',
+        'author.submit.suppFile.form.subjectRequired' => 'אנא הכנס נושא.',
+        'author.submit.suppFile.form.descriptionRequired' => 'אנא הכנס תיאור.',
+        'author.suppFile.suppFilePublicIdentificationExists' => 'זיהוי קובץ משלים ציבורי קיים כבר.',
+        'author.suppFile.publicSuppFileIdentifier' => 'מזהה קובץ משלים ציבורי',
+        'author.submit.filesSummary' => 'סיכום קובץ',
+        'author.submit.finishSubmission' => 'סיים את ההגשה',
+        'author.submit.submissionComplete' => 'ההגשה הושלמה. תודה על התעניינותך בפרסום באמצעות {journalTitle$}.',
+        'author.article.uploadAuthorVersion' => 'העלה גרסת מחבר',
+        'author.article.copyeditedFile' => 'קובץ ערוך',
+        'author.article.authorRevisedFile' => 'קובץ מחבר',
+        'author.submit.authorSubmitLoginMessage' => 'חשבון משתמש נדרש להגיש לכתב עת זה. זה מאפשר לעורכים שלנו לעקוב אחר ההגשות שלך וליצור איתך קשר כאשר מצב ההגשה שלך משתנה, או אם נדרש ממך מידע נוסף.',
+      ),
+    ),
+  ),
+   'plurals' => 
+  array (
+    '' => 
+    array (
+      'count' => 4,
+      'code' => 'return ($n == 1) ? 0 :( (($n == 2) ? 1 :( (($n > 10 && $n % 10 == 0) ? 2 :( 3)))));',
+    ),
+  ),
+));

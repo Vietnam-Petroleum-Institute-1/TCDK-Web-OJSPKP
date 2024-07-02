@@ -1,0 +1,28 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'author.submit' => 'Шинэ бүтээл илгээх',
+      'author.track' => 'Идэвхтэй бүтээлүүд',
+      'author.submit.submitArticle' => 'Бүтээлээ илгээх',
+      'author.submit.stepsToSubmit' => 'Бүтээл илгээх 5-н алхамтай',
+      'author.submit.startHereTitle' => 'Шинэ бүтээл илгээхийг эхлүүлэх',
+      'author.submit.step1' => 'Алхам 1. Бүтээл оруулах эхлэх',
+      'author.submit.step2' => 'Алхам 2. Бүтээлийн файл оруулах',
+      'author.submit.step3' => 'Алхам 3. Бүтээлийн метадата оруулах',
+      'author.submit.step4' => 'Алхам 4. Нэмэлт файлуудыг оруулах',
+      'author.submit.step4a' => 'Алхам 4а. Нэмэлт файл оруулах',
+      'author.submit.step5' => 'Адхам 5. Оруулсан бүтээлийг баталгаажуулах',
+      'author.submit.start' => 'Эхлэх',
+      'author.submit.upload' => 'Илгээх файл оруулах',
+      'author.submit.metadata' => 'Метадата оруулах',
+      'author.submit.supplementaryFiles' => 'Нэмэлт файлуудыг оруулах',
+      'author.submit.nextSteps' => 'Дараагийн алхамууд',
+      'author.submit.addAuthor' => 'Зохиогч нэмэх',
+      'author.submit.deleteAuthor' => 'Зохиогч устгах',
+    ),
+  ),
+);

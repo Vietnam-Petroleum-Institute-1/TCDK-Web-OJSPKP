@@ -1,0 +1,15 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.recommendBySimilarity.displayName' => 'Anbefal lignende artikler',
+      'plugins.generic.recommendBySimilarity.description' => 'Dette programtillegget legger til en liste av lignende artikler på artikkelens sammendragside.',
+      'plugins.generic.recommendBySimilarity.heading' => 'Lignende artikler',
+      'plugins.generic.recommendBySimilarity.advancedSearchIntro' => 'Du kan også {$advancedSearchLink} for denne artikkelen.',
+      'plugins.generic.recommendBySimilarity.advancedSearch' => 'start et avansert søk etter lignende artikler',
+    ),
+  ),
+);

@@ -1,0 +1,23 @@
+<?php $exp = 1751345595; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.webfeed.displayName' => 'Πρόσθετο Ροών Παγκοσμίου Ιστού',
+      'plugins.generic.webfeed.description' => 'Το πρόσθετο αυτό παράγει RSS/Atom web syndication ροές για το τρέχον τεύχος.',
+      'plugins.generic.webfeed.settings' => 'Ρυθμίσεις',
+      'plugins.generic.webfeed.settings.issue' => 'Εμφάνιση συνδέσμων τροφοδοσίας Ιστού μόνο σε σελίδες τεύχους.',
+      'plugins.generic.webfeed.settings.homepage' => 'Εμφάνιση συνδέσμων ροών ιστού μόνο στην αρχική σελίδα και τις σελίδες τεύχους.',
+      'plugins.generic.webfeed.settings.all' => 'Εμφάνιση συνδέσμων τροφοδοσίας Ιστού σε όλες τις σελίδες του περιοδικού.',
+      'plugins.generic.webfeed.settings.currentIssue' => 'Εμφάνιση στοιχείων στο τρέχον δημοσιευμένο τεύχος.',
+      'plugins.generic.webfeed.settings.recent' => 'Εμφανίστε έναν σταθερό αριθμό από τα πιο πρόσφατα στοιχεία.',
+      'plugins.generic.webfeed.settings.recentArticles' => 'Αριθμός στοιχείων προς εμφάνιση',
+      'plugins.generic.webfeed.settings.recentItemsRequired' => 'Εισαγάγετε έναν θετικό ακέραιο για τα πρόσφατα δημοσιευμένα στοιχεία.',
+      'plugins.generic.webfeed.atom.altText' => 'Λογότυπο Atom',
+      'plugins.generic.webfeed.rss1.altText' => 'Λογότυπο RSS1',
+      'plugins.generic.webfeed.rss2.altText' => 'Λογότυπο RSS2',
+    ),
+  ),
+);

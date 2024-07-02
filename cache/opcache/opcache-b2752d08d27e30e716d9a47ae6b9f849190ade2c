@@ -1,0 +1,60 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=1; plural=0;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.importexport.crossref.displayName' => 'Plugin Ekspor ke XML Crossref',
+      'plugins.importexport.crossref.description' => 'Ekspor metadata artikel dalam formatXML Crossref.',
+      'plugins.importexport.crossref.cliUsage' => 'Kegunaan:
+{$scriptName} {$pluginName} ekspor [xmlFileName] [journal_path] artikel objectId1 [objectId2] ...
+{$scriptName} {$pluginName} daftar [journal_path] artikel objectId1 [objectId2] ...
+',
+      'plugins.importexport.crossref.requirements' => 'Persyaratan',
+      'plugins.importexport.crossref.export.error.articleNotFound' => 'Tidak ada artikel yang cocok dengan artikel ID yang dimaksud "{$articleId}".',
+      'plugins.importexport.crossref.export.error.issueNotFound' => 'Tidak ada nomor terbitan yang sesuai dengan isu ID yang dimaksud "{$issueId}".',
+      'plugins.importexport.crossref.register.success.warning' => 'Registrasi berhasil namun peringatan berikut muncul: \'{$param}\'.',
+      'plugins.importexport.crossref.register.error.mdsError' => 'Registrasi tidak sepenuhnya berhasil! Server registrasi DOI memberikan pesan kesalahan.',
+      'plugins.importexport.crossref.senderTask.name' => 'Tugas pendaftaran otomatis Crossref',
+      'plugins.importexport.crossref.action.markRegistered' => 'Tandai sebagai aktif',
+      'plugins.importexport.crossref.action.export' => 'Ekspor',
+      'plugins.importexport.crossref.statusLegend' => '
+		<p>Status deposito:</p>
+		<p>
+		- Tidak didepositokan: tidak ada usaha pendepositoan untuk DOI ini.<br />
+		- Aktif: DOI telah berhasil didepositokan, dan bekerja dengan benar.<br />
+		- Gagal: Pendepositoan DOI telah gagal.<br />
+		- Tandai sebagai aktif: DOI telah ditandai sebagai aktif secara manual.
+		</p>
+		<p>Hanya status dari usaha pendepositoan yang terakhir saja yang ditampilkan.</p>
+		<p>Jika pendepositoan gagal, mohon selesaikan masalahnya dan coba untuk mendaftarkan DOI tersebut kembali.</p>',
+      'plugins.importexport.crossref.action.register' => 'Deposito/Simpan',
+      'plugins.importexport.crossref.status.markedRegistered' => 'Ditandai aktif',
+      'plugins.importexport.crossref.status.registered' => 'Aktif',
+      'plugins.importexport.crossref.status.failed' => 'Gagal',
+      'plugins.importexport.crossref.issues.description' => 'Catatan: Hanya nomor terbitan (dan bukan artikelnya) yang akan dimasukkan untuk diekspor/diregistrasi di sini.',
+      'plugins.importexport.crossref.settings.form.validation' => 'Validasi XML. Gunakan pilihan ini untuk unduhan XML dalam proses registrasi DOI secara manual.',
+      'plugins.importexport.crossref.settings.form.testMode.description' => 'Gunakan API ujicoba Crossref (dalam lingkungan ujicoba) untuk menyetorkan DOI. Jangan lupa untuk menghapus pilihan ini pada sistem produksi.',
+      'plugins.importexport.crossref.settings.form.automaticRegistration.description' => 'OJS akan mendepositokan nomor DOI yang telah diberikan secara otomatis ke Crossref. Perlu diketahui bahwa proses ini memakan waktu (misal, bergantung pada konfigurasi cronjob Anda). Anda dapat memeriksa semua DOI yang belum didaftarkan.',
+      'plugins.importexport.crossref.settings.form.usernameRequired' => 'Masukkan nama pengguna yang didapat dari Crossref.',
+      'plugins.importexport.crossref.settings.form.username' => 'Nama pengguna',
+      'plugins.importexport.crossref.registrationIntro' => 'Jika Anda bermaksud menggunakan plugin ini untuk mendaftarkan Digital Object Identifiers (DOI) secara langsung ke Crossref Anda memerlukan nama pengguna dan kata sandi (tersedia di <a href="http://www.crossref.org" target="_blank">Crossref</a>). Jika belum punya, Anda tetap dapat mengekspor artikel ke format XML Crossref, namun tidak dapat mendaftarkan nomor DOI-nya melalui aplikasi OJS.',
+      'plugins.importexport.crossref.settings.form.depositorEmailRequired' => 'Masukkan surel depositor.',
+      'plugins.importexport.crossref.settings.form.depositorNameRequired' => 'Masukkan nama depositor.',
+      'plugins.importexport.crossref.settings.form.depositorEmail' => 'Surel depositor',
+      'plugins.importexport.crossref.settings.form.depositorName' => 'Nama depositor',
+      'plugins.importexport.crossref.settings.depositorIntro' => 'Hal-hal berikut ini diperlukan agar proses deposit ke Crossref berhasil.',
+      'plugins.importexport.crossref.error.noDOIContentObjects' => 'Artikel tidak dipilih untuk diberikan DOI melalui plugin pengenal DOI publik, sehingga tidak dapat disimpan atau diekspor menggunakan plugin ini.',
+      'plugins.importexport.crossref.error.issnNotConfigured' => 'ISSN jurnal belum dikonfigurasi! Anda harus menambahkan ISSN ke <a href="{$journalSettingsUrl}" target="_blank"> Halaman Pengaturan Jurnal</a>.',
+      'plugins.importexport.crossref.error.publisherNotConfigured' => 'Penerbit jurnal belum dikonfigurasi! Anda harus menambahkan institusi penerbit ke <a href="{$journalSettingsUrl}" target="_blank">Halaman Pengaturan Jurnal </a>.',
+      'plugins.importexport.crossref.requirements.satisfied' => 'Semua persyaratan plugin telah dipenuhi.',
+      'plugins.importexport.crossref.settings.form.onlyValidateExport' => 'Hanya memvalidasi ekspor. Jangan unduk filenya.',
+      'plugins.generic.crossref.registrationAgency.name' => 'Crossref',
+      'plugins.importexport.crossref.status.notDeposited' => 'Belum didepositkan',
+      'plugins.importexport.crossref.settings' => 'Pengaturan Crossref',
+      'plugins.generic.crossref.description' => 'Menangani pendepositoan dan ekspor metadata Crossref',
+      'plugins.generic.crossref.displayName' => 'Plugin Pengelola Crossref',
+    ),
+  ),
+);

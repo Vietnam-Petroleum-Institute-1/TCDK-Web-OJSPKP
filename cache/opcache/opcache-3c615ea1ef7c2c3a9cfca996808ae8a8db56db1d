@@ -1,0 +1,24 @@
+<?php $exp = 1751345594; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.customBlockManager.displayName' => 'مدير الكتل المخصصة',
+      'plugins.generic.customBlockManager.manage' => 'إدارة الكتل المخصصة',
+      'plugins.generic.customBlockManager.description' => 'هذه الإضافة تتيح لك إدارة الكتل المخصصة الجانبية. بإمكانك تعديل الكتل عبر إعدادات الإضافات المعنية والتي تقوم بإنشائها هنا.',
+      'plugins.generic.customBlockManager.customBlocks' => 'الكتل المخصصة',
+      'plugins.generic.customBlockManager.blockName' => 'اسم الكتلة',
+      'plugins.generic.customBlockManager.addBlock' => 'إضافة كتلة',
+      'plugins.generic.customBlockManager.noneCreated' => 'لم يتم إنشاء أي كتلة مخصصة بعد.',
+      'plugins.generic.customBlock.content' => 'المحتوى',
+      'plugins.generic.customBlock.nameSuffix' => '(إضافة الكتلة المخصصة)',
+      'plugins.generic.customBlock.description' => 'هذه كتلة مولدة من قبل المستخدم.',
+      'plugins.generic.customBlock.nameRequired' => 'اسم الكتلة المخصصة مطلوب حتماً.',
+      'plugins.generic.customBlock.nameRegEx' => 'اسم الكتلة المخصصة يجب أن يقتصر على الحروف والأرقام وعلامة الطرح والخط التحتاني.',
+      'plugins.generic.customBlock.showName.description' => 'إظهار اسم هذه الكتلة أعلى محتواها.',
+      'plugins.generic.customBlock.showName' => 'إظهار الاسم',
+    ),
+  ),
+);

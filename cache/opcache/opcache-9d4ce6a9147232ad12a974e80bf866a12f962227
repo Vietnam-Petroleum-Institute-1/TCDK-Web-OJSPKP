@@ -1,0 +1,33 @@
+<?php $exp = 1751345599; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=1; plural=0;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'manager.announcements.datePublish' => '出版日期',
+      'manager.announcementTypes.form.typeName' => '姓名',
+      'manager.dois.status.unregistered' => '尚未註冊',
+      'manager.dois.status.registered' => '已註冊',
+      'manager.files.uploadFile' => '上傳文件',
+      'manager.people.editProfile' => '編輯帳戶',
+      'manager.userSearch.searchByName' => '按名稱搜尋用戶',
+      'manager.reviewerSearch.change' => '修改',
+      'manager.reviewerSearch.searchByName' => '按名稱搜尋評審員',
+      'manager.reviewerSearch.searchByName.short' => '按名稱搜尋',
+      'manager.reviewerSearch.interests' => '評審題材偏好',
+      'manager.roles' => '角色',
+      'manager.setup.homepageImage' => '首頁圖片',
+      'manager.setup.homepageImageInvalid' => '首頁圖片格式無效或上傳失敗，有效格式為 .gif、.jpg或.png',
+      'manager.setup.homeTitleImageInvalid' => '首頁標題圖片格式無效或上傳失敗，有效格式為 .gif、.jpg或.png',
+      'manager.setup.notifyAllAuthors' => '通知所有作者',
+      'manager.setup.submissionsNotifications' => '通知',
+      'manager.setup.privacyStatement' => '《私隱聲明》',
+      'manager.statistics.statistics.registeredUsers' => '已註冊用戶',
+      'manager.plugins.pluginGallery.homepage' => '主頁',
+      'manager.distribution.license' => '授權條款',
+      'manager.distribution.licenseTerms' => '授權條款規定',
+      'manager.setup.competingInterests.requireAuthors' => '要求提交作者投稿時，同時提供一個利益衝突（Competing Interest, 簡稱CI）聲明。',
+    ),
+  ),
+);

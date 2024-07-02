@@ -1,0 +1,12 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n > 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.pdfJsViewer.name' => 'PDF.JS Visualizador de PDF',
+      'plugins.generic.pdfJsViewer.description' => 'Este plugin usa o <a href="https://mozilla.github.io/pdf.js/">PDF.JS Visualizador de PDF</a> para embutir PDFs nas páginas de visualização dos artigos.',
+    ),
+  ),
+);

@@ -1,0 +1,15 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.recommendBySimilarity.displayName' => 'Rekommendera liknande artiklar',
+      'plugins.generic.recommendBySimilarity.description' => 'Det här pluginet lägger till en lista med liknande artiklar på artikelns abstractsida.',
+      'plugins.generic.recommendBySimilarity.heading' => 'Liknande artiklar',
+      'plugins.generic.recommendBySimilarity.advancedSearchIntro' => 'Du kanske också {$advancedSearchLink} för den här artikeln.',
+      'plugins.generic.recommendBySimilarity.advancedSearch' => 'starta en avancerad sökning efter liknande artiklar',
+    ),
+  ),
+);

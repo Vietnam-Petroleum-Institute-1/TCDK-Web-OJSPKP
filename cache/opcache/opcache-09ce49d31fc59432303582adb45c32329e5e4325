@@ -1,0 +1,93 @@
+<?php $exp = 1751345599; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=1; plural=0;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'emails.submissionAck.subject' => '投稿致谢函',
+      'emails.submissionAck.body' => '{$recipientName}:<br />
+<br />
+感谢您将稿件 〈{$submissionTitle}〉 投稿至《{$contextName}》。透过我们所使用的期刊管理系统，您将能够登入期刊网站来追踪稿件的编辑进度：<br />
+<br />
+稿件网址：{$submissionUrl}<br />
+用户名称：{$recipientUsername}<br />
+<br />
+如果您有任何问题，请与我们联络。再次感谢您考虑本期刊出版您的作品。<br />
+<br />
+{$contextSignature}',
+      'emails.reviewAck.subject' => '文章审查感谢函',
+      'emails.reviewAck.body' => '{$recipientName}:<br />
+<br />
+感谢您为《{$contextName}》完成了稿件〈{$submissionTitle}〉的审查工作。我们非常感激您对我们出版文章之品质的重要贡献。',
+      'emails.editorDecisionSendToExternal.subject' => '编辑决策',
+      'emails.editorDecisionSendToExternal.body' => '{$authors}:<br />
+<br />
+我们已经收到您的稿件： {$contextName}, &quot;{$submissionTitle}&quot;.<br />
+<br />
+我们决定：将您的稿件送去评审<br />
+<br />
+稿件的地址：{$submissionUrl}',
+      'emails.editorDecisionSendToProduction.subject' => '总编决定',
+      'emails.editorDecisionSendToProduction.body' => '{$authors}:<br />
+<br />
+您的稿件 &quot;{$submissionTitle}&quot; 修改结束。我们将要安排出版。<br />
+<br />
+稿件地址： {$submissionUrl}',
+      'emails.editorDecisionRevisions.subject' => '编辑决定',
+      'emails.editorDecisionRevisions.body' => '{$authors}:<br />
+<br />
+我们对于您在《{$contextName}》提交的〈{$submissionTitle}〉达成一项决定。<br />
+<br />
+我们的决定是：',
+      'emails.editorDecisionResubmit.subject' => '编辑决定',
+      'emails.editorDecisionResubmit.body' => '{$authors}:<br />
+<br />
+我们对于您在《{$contextName}》提交的〈{$submissionTitle}〉达成一项决定。<br />
+<br />
+我们的决定是：',
+      'emails.editorDecisionDecline.subject' => '编辑决定',
+      'emails.editorDecisionDecline.body' => '{$authors}:<br />
+<br />
+我们对于您在《{$contextName}》提交的〈{$submissionTitle}〉达成一项决定。<br />
+<br />
+我们的决定是：',
+      'emails.editorRecommendation.subject' => '总编建议',
+      'emails.editorRecommendation.body' => '{$editors}:<br />
+<br />
+关于稿件 {$contextName}, &quot;{$submissionTitle}&quot; 的建议是： {$recommendation}',
+      'emails.copyeditRequest.subject' => '编辑要求',
+      'emails.copyeditRequest.body' => '{$recipientName}您好：<br />
+<br />
+我想请您为《{$contextName}》担任稿件〈{$submissionTitle}〉的校样编辑。您可以在网站上找到这份稿件，以及校样编辑的工作指引。<br />
+<br />
+稿件网址：{$submissionUrl}"<br />
+用户名称：{$recipientUsername}<br />
+<br />
+如果您目前无法进行这份工作，或者对这项工作有任何的疑问，请直接回信与我联络。非常感谢您同意为这份期刊进行这份重要的工作。',
+      'emails.editorDecisionInitialDecline.subject' => '总编决定',
+      'emails.editorDecisionInitialDecline.body' => '
+			{$authors}:<br />
+<br />
+我们对于稿件 {$contextName}, &quot;{$submissionTitle}&quot; 形成了一个最终共识。<br />
+<br />
+我们的决定是：拒绝稿件',
+      'emails.discussion.subject' => '关于{$contextName} 的信息',
+      'emails.discussion.body' => '请输入您的信息。',
+      'emails.reviewConfirm.subject' => '可以进行审查工作',
+      'emails.reviewConfirm.body' => '{$recipientName}:<br />
+<br />
+我可以并且愿意为《{$contextName}》审查稿件〈{$submissionTitle}〉。谢谢您考虑我当审查人，而我计划在审查截止日{$reviewDueDate}前完成审查。<br />
+<br />
+{$senderName}',
+      'emails.submissionAckNotAuthor.subject' => '投稿致谢函',
+      'emails.submissionAckNotAuthor.body' => '您好,<br />
+<br />
+{$submitterName} 已将稿件 &quot;{$submissionTitle}&quot; 投稿给 {$contextName}. <br />
+<br />
+如果您有任何问题，请立即与我们联系。 感谢您考虑在本杂志出版您的作品。<br />
+<br />
+{$contextSignature}',
+    ),
+  ),
+);

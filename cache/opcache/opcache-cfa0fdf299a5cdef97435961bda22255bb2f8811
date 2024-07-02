@@ -1,0 +1,33 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=1; plural=0;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.citationStyleLanguage.settings.publisherLocation.description' => 'Beberapa format sitasi membutuhkan lokasi geografis penerbit, contoh: "London, U.K.".',
+      'plugins.generic.citationStyleLanguage.settings.publisherLocation' => 'Lokasi Penerbit',
+      'plugins.generic.citationStyleLanguage.settings.citationFormatsPrimaryDescription' => 'Pilih format sitasi yang ingin ditampilkan pada halaman artikel.',
+      'plugins.generic.citationStyleLanguage.settings.citationFormatsPrimary' => 'Format Sitasi Utama',
+      'plugins.generic.citationStyleLanguage.settings.citationFormatsDescription' => 'Pilih format tambahan yang ingin Anda tawarkan kepada pembaca.',
+      'plugins.generic.citationStyleLanguage.settings.citationFormats' => 'Format Sitasi Tambahan',
+      'plugins.generic.citationStyleLanguage.settings.citationDownloadsDescription' => 'Pilih format yang dapat diunduh oleh pembaca. Format tersebut digunakan untuk mengimpor ke dalam software manajemen daftar pustaka pihak ketiga, seperti EndNote atau Zotero.',
+      'plugins.generic.citationStyleLanguage.settings.citationDownloads' => 'Format yang tersedia diunduh',
+      'plugins.generic.citationStyleLanguage.download.ris' => 'Endnote/Zotero/Mendeley (RIS)',
+      'plugins.generic.citationStyleLanguage.download.bibtex' => 'BibTeX',
+      'plugins.generic.citationStyleLanguage.style.vancouver' => 'Vancouver',
+      'plugins.generic.citationStyleLanguage.style.turabian-fullnote-bibliography' => 'Turabian',
+      'plugins.generic.citationStyleLanguage.style.modern-language-association' => 'MLA',
+      'plugins.generic.citationStyleLanguage.style.ieee' => 'IEEE40r',
+      'plugins.generic.citationStyleLanguage.style.harvard-cite-them-right' => 'Harvard',
+      'plugins.generic.citationStyleLanguage.style.chicago-author-date' => 'Chicago',
+      'plugins.generic.citationStyleLanguage.style.associacao-brasileira-de-normas-tecnicas' => 'ABNT',
+      'plugins.generic.citationStyleLanguage.style.apa' => 'APA',
+      'plugins.generic.citationStyleLanguage.style.acs-nano' => 'ACS',
+      'plugins.generic.citationStyleLanguage.style.acm-sig-proceedings' => 'ACM',
+      'plugins.generic.citationStyleLanguage.description' => 'Izinkan pembaca memilih sitasi artikel dalam beberapa format yang didukung oleh Bahasa Gaya Selingkung.',
+      'plugins.generic.citationStyleLanguage.displayName' => 'Model Pengutipan',
+      'plugins.generic.citationStyleLanguage.style.ama' => 'AMA',
+    ),
+  ),
+);

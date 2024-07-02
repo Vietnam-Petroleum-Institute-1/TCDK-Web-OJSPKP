@@ -1,0 +1,31 @@
+<?php $exp = 1751345593; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'api.announcements.400.contextsNotMatched' => 'The announcement you requested is not part of this journal.',
+      'api.emails.403.disabled' => 'The email notification feature has not been enabled for this journal.',
+      'api.submissions.400.wrongContext' => 'The submission you requested is not in this journal.',
+      'api.submissions.403.cantChangeContext' => 'You can not change the journal of a submission.',
+      'api.submissions.403.unpublishedIssues' => 'You do not have permission to view unpublished issues.',
+      'api.contexts.403.requestedDisabledContexts' => 'You can only view journals that have been enabled.',
+      'api.contexts.403.notAllowed' => 'You do not have permission to view this journal.',
+      'api.contexts.403.contextsDidNotMatch' => 'You can not view or edit this journal unless you make a request to the journal\'s API or the site-wide API.',
+      'api.contexts.403.requiresContext' => 'You can not edit this journal from the site-wide API.',
+      'api.contexts.403.notAllowedEdit' => 'You do not have permission to edit this journal.',
+      'api.contexts.403.notAllowedDelete' => 'You do not have permission to delete this journal.',
+      'api.contexts.404.contextNotFound' => 'The journal you requested was not found.',
+      'api.dois.403.contextsNotMatched' => 'The DOI you requested is not part of this journal.',
+      'api.dois.400.noRegistrationAgencyConfigured' => 'No DOI registration agency has been configured for this journal.',
+      'api.dois.400.depositFailed' => 'Some items were not deposited successfully. Please check the individual items for their specific error messages.',
+      'api.emailTemplates.403.notAllowedChangeContext' => 'You do not have permission to move this email template to another journal.',
+      'api._payments.400.invalidPaymentMethod' => 'The payment method you selected is not supported.',
+      'api.publications.403.contextsDidNotMatch' => 'The publication that you requested is not part of this journal.',
+      'api.publications.403.submissionsDidNotMatch' => 'The publication that you requested is not part of this submission.',
+      'api.submissionFiles.400.badRepresentationAssocType' => 'You can not associated a file from this file stage with a galley.',
+      'api.submission.400.inactiveSection' => 'This section is no longer receiving submissions.',
+    ),
+  ),
+);

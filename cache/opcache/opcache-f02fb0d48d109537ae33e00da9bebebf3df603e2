@@ -1,0 +1,33 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.citationStyleLanguage.settings.publisherLocation.description' => 'Noen siteringsformater krever forlagets geografiske beliggenhet, for eksempel "London, U.K.".',
+      'plugins.generic.citationStyleLanguage.settings.publisherLocation' => 'Utgiversted',
+      'plugins.generic.citationStyleLanguage.settings.citationFormatsPrimaryDescription' => 'Velg hvilket format du ønsker å vise som standard på artikkelsiden.',
+      'plugins.generic.citationStyleLanguage.settings.citationFormatsPrimary' => 'Primært siteringsformat',
+      'plugins.generic.citationStyleLanguage.settings.citationFormatsDescription' => 'Velg hvilke andre siteringsformater du ønsker å tilby leserne.',
+      'plugins.generic.citationStyleLanguage.settings.citationFormats' => 'Andre siteringsformater',
+      'plugins.generic.citationStyleLanguage.settings.citationDownloadsDescription' => 'Velg hvilke nedlastbare formater du ønsker å tilby leserne. Nedlastbare formater brukes vanligvis til å importere til tredjeparts referanseverktøy, som EndNote eller Zotero.',
+      'plugins.generic.citationStyleLanguage.settings.citationDownloads' => 'Nedlastbare formater',
+      'plugins.generic.citationStyleLanguage.download.ris' => 'Endnote/Zotero/Mendeley (RIS)',
+      'plugins.generic.citationStyleLanguage.download.bibtex' => 'BibTeX',
+      'plugins.generic.citationStyleLanguage.style.vancouver' => 'Vancouver',
+      'plugins.generic.citationStyleLanguage.style.turabian-fullnote-bibliography' => 'Turabian',
+      'plugins.generic.citationStyleLanguage.style.modern-language-association' => 'MLA',
+      'plugins.generic.citationStyleLanguage.style.ieee' => 'IEEE',
+      'plugins.generic.citationStyleLanguage.style.harvard-cite-them-right' => 'Harvard',
+      'plugins.generic.citationStyleLanguage.style.chicago-author-date' => 'Chicago',
+      'plugins.generic.citationStyleLanguage.style.associacao-brasileira-de-normas-tecnicas' => 'ABNT',
+      'plugins.generic.citationStyleLanguage.style.apa' => 'APA',
+      'plugins.generic.citationStyleLanguage.style.acs-nano' => 'ACS',
+      'plugins.generic.citationStyleLanguage.style.acm-sig-proceedings' => 'ACM',
+      'plugins.generic.citationStyleLanguage.description' => 'La lesere hente ut en publisert artikkels sitering i ett av flere formater støttet av Citation Style Language.',
+      'plugins.generic.citationStyleLanguage.displayName' => 'Referansestilspråk',
+      'plugins.generic.citationStyleLanguage.style.ama' => 'AMA',
+    ),
+  ),
+);

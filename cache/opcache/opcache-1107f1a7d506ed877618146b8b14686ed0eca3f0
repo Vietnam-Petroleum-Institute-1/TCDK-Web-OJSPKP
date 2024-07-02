@@ -1,0 +1,46 @@
+<?php $exp = 1751345594; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'emails.orcidRequestAuthorAuthorization.description' => 'Aquesta plantilla de correu electrònic s\'utilitza per demanar accés de registre ORCID als autors/es.',
+      'emails.orcidRequestAuthorAuthorization.subject' => 'Sol·licitant accés de registre ORCID',
+      'emails.orcidCollectAuthorId.description' => 'Aquesta plantilla de correu electrònic s\'utilitza per recopilar els identificadors ORCID dels autors/es.',
+      'emails.orcidCollectAuthorId.subject' => 'ORCID de tramesa',
+      'emails.orcidRequestAuthorAuthorization.body' => 'Benvolgut/da {$recipientName},<br>
+<br>
+Us han afegit com a autor/a de l\'article "{$submissionTitle}" per a {$contextName}.
+<br>
+<br>
+Us demanem que ens permeteu afegir el vostre iD ORCID a aquesta tramesa i també afegir l\'esmentada tramesa al vostre perfil ORCID en la publicació.<br>
+Visiteu l\'enllaç del lloc web oficial d\'ORCID, inicieu la sessió amb el vostre perfil i autoritzeu l\'accés seguint les instruccions següents.<br>
+<a href="{$authorOrcidUrl}"><img id="orcid-id-logo" src="https://info.orcid.org/wp-content/uploads/2020/12/ORCIDiD_icon16x16.png" width=\'16\' height=\'16\' alt="ORCID iD icon" style="display: block; margin: 0 .5em 0 0; padding: 0; float: left;"/>Registrar o connectar el vostre iD ORCID</a><br/>
+<br>
+<br>
+<a href="{$orcidAboutUrl}">Mes informació sobre ORCID a {$contextName}</a><br/>
+<br>
+Si teniu qualsevol pregunta no dubteu a contactar-me.<br>
+<br>
+{$principalContactSignature}<br>
+',
+      'emails.orcidCollectAuthorId.body' => 'Benvolgut/da {$recipientName},<br/>
+<br/>
+Us han afegit com a autor/a d\'un article per a {$contextName}.<br/>
+Per confirmar la vostra autoria, afegiu el vostre iD ORCID a aquesta tramesa a través de l\'enllaç que apareix a continuació.<br/>
+<br/>
+<a href="{$authorOrcidUrl}"><img id="orcid-id-logo" src="https://info.orcid.org/wp-content/uploads/2020/12/ORCIDiD_icon16x16.png" width=\'16\' height=\'16\' alt="ORCID iD icon" style="display: block; margin: 0 .5em 0 0; padding: 0; float: left;"/>Registrar o connectar el vostre iD ORCID</a><br/>
+<br/>
+<br>
+<a href="{$orcidAboutUrl}">Més informació sobre ORCID a {$contextName}</a><br/>
+<br/>
+Si teniu qualsevol pregunta no dubteu a contactar-me.<br/>
+<br/>
+{$principalContactSignature}<br/>
+',
+      'emailTemplate.variable.authorOrcidUrl' => 'Enllaç d\'autorització d\' ORCID OAuth',
+      'emailTemplate.variable.orcidAboutUrl' => 'URL de la pàgina sobre ORCID',
+    ),
+  ),
+);

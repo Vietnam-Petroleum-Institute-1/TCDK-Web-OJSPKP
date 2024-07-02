@@ -1,0 +1,34 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=3; plural=(n % 10 == 0 || n % 100 >= 11 && n % 100 <= 19) ? 0 : ((n % 10 == 1 && n % 100 != 11) ? 1 : 2);',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.themes.default.name' => 'Noklusējuma tēma',
+      'plugins.themes.default.description' => 'Šī tēma izmanto noklusējuma tēmu.',
+      'plugins.themes.default.option.typography.label' => 'Burtveidoli',
+      'plugins.themes.default.option.typography.description' => 'Izvēlieties šim žurnālam piemērotu šriftu kombināciju.',
+      'plugins.themes.default.option.typography.notoSans' => 'Noto Sans: Google izstrādāts digitālais natīvais šrifts, kas nodrošina plašu valodu atbalstu.',
+      'plugins.themes.default.option.typography.notoSerif' => 'Noto Serif: Google izstrādātā digitālā natīvā fonta serifa variants.',
+      'plugins.themes.default.option.typography.notoSerif_notoSans' => 'Noto Serif/Noto Sans: Papildinošs salikums ar serifa virsrakstiem un bezserifa pamattekstu.',
+      'plugins.themes.default.option.typography.notoSans_notoSerif' => 'Noto Sans/Noto Serif: papildinošs salikums ar bezserifa virsrakstiem un serifa pamattekstu.',
+      'plugins.themes.default.option.typography.lato' => 'Lato: populārs mūsdienīgs bezserifa šrifts.',
+      'plugins.themes.default.option.typography.lora' => 'Lora: Serifa šrifts ar plašu rakstzīmju virkni, piemērots lasīšanai tiešsaistē.',
+      'plugins.themes.default.option.typography.lora_openSans' => 'Lora/Open Sans: papildinošs salikums ar serifa virsrakstiem un bezserifa pamattekstu.',
+      'plugins.themes.default.option.colour.label' => 'Krāsa',
+      'plugins.themes.default.option.colour.description' => 'Izvēlēties galvenes krāsu.',
+      'plugins.themes.default.option.showDescriptionInJournalIndex.option' => 'Rādīt žurnāla kopsavilkumu sākumlapā.',
+      'plugins.themes.default.option.useHomepageImageAsHeader.label' => 'Galvenes fona attēls',
+      'plugins.themes.default.option.useHomepageImageAsHeader.description' => 'Augšupielādēto sākumlapas attēlu rādīt galvenes fonā, nevis parastajā vietā sākumlapā.',
+      'plugins.themes.default.option.useHomepageImageAsHeader.option' => 'Rādīt sākumlapas attēlu kā galvenes fonu.',
+      'plugins.themes.default.option.displayStats.label' => 'Lietošanas statistikas attēlošanas iespējas',
+      'plugins.themes.default.option.displayStats.none' => 'Nerādīt lasītājam iesniegšanas statistikas diagrammu.',
+      'plugins.themes.default.option.displayStats.bar' => 'Izmantot stabiņu diagrammu, lai parādītu lietošanas statistiku.',
+      'plugins.themes.default.option.displayStats.line' => 'Izmantot līniju diagrammu, lai parādītu lietošanas statistiku.',
+      'plugins.themes.default.displayStats.monthInitials' => 'janv. febr. marts apr. maijs jūn. jūl. aug. sept. okt. nov. dec.',
+      'plugins.themes.default.displayStats.downloads' => 'Lejupielādes',
+      'plugins.themes.default.displayStats.noStats' => 'Lejupielādes dati vēl nav pieejami.',
+    ),
+  ),
+);

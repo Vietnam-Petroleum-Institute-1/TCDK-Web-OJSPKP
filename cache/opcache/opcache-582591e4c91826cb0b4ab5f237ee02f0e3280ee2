@@ -1,0 +1,30 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'api.announcements.400.contextsNotMatched' => 'Az Ön által kért hirdetmény nem része ennek a folyóiratnak.',
+      'api.emails.403.disabled' => 'Az e-mailes értesítési funkció nincs engedélyezve ehhez a folyóirathoz.',
+      'api.submissions.400.wrongContext' => 'Az Ön által kért beküldés nem szerepel ebben a folyóiratban.',
+      'api.submissions.403.cantChangeContext' => 'A beküldéshez tartozó folyóiratot nem változtathatja meg.',
+      'api.submissions.403.unpublishedIssues' => 'Nincs jogosultsága publikálás előtti kiadványok megtekintéséhez.',
+      'api.contexts.403.requestedDisabledContexts' => 'Csak engedélyezett folyóiratokat tekinthet meg.',
+      'api.contexts.403.notAllowed' => 'Nincs jogosultsága megtekinteni ezt a folyóiratot.',
+      'api.contexts.403.contextsDidNotMatch' => 'Ennek a folyóiratnak a megtekintéséhez vagy módosításához API igénylés szükséges.',
+      'api.contexts.403.requiresContext' => 'Ezt a folyóiratot nem tudja szerkeszteni a teljes oldalra vonatkozó API-n keresztül.',
+      'api.contexts.403.notAllowedEdit' => 'Nincs jogosultsága szerkeszteni ezt a folyóiratot.',
+      'api.contexts.403.notAllowedDelete' => 'Nincs jogosultsága törölni ezt a folyóiratot.',
+      'api.contexts.404.contextNotFound' => 'A folyóirat nem található.',
+      'api.dois.403.contextsNotMatched' => 'Az Ön által kért DOI nem része a folyóiratnak.',
+      'api.dois.400.noRegistrationAgencyConfigured' => 'Ehhez a folyóirathoz nem állítottak be DOI regisztrációs intézményt.',
+      'api.emailTemplates.403.notAllowedChangeContext' => 'Nincs jogosultsága ezt az email sablont más folyóirathoz átvinni.',
+      'api._payments.400.invalidPaymentMethod' => 'A kiválasztott fizetési mód nem támogatott.',
+      'api.publications.403.contextsDidNotMatch' => 'Az elérni kívánt publikáció nem része ennek a folyóiratnak.',
+      'api.publications.403.submissionsDidNotMatch' => 'Az elérni kívánt publikáció nem része ennek a beküldésnek.',
+      'api.submissionFiles.400.badRepresentationAssocType' => 'Ebből a fájlszakaszból nem társíthat fájlt a kefelenyomathoz.',
+      'api.submission.400.inactiveSection' => 'Ez a rovat nem fogad tovább beküldéseket.',
+    ),
+  ),
+);

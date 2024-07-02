@@ -1,0 +1,21 @@
+<?php $exp = 1751345594; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.tinymce.name' => 'Plugin TinyMCE',
+      'plugins.generic.tinymce.description' => 'Tento plugin umožňuje WYSIWYG editování textových polí OMP s využitím <a href="https://www.tiny.cloud" target="_blank">TinyMCE</a> editoru obsahu.',
+      'plugins.generic.tinymce.settings' => 'Nastavení',
+      'plugins.generic.tinymce.pkpTags.listTags' => 'Vybrat štítek',
+      'plugins.generic.tinymce.pkpTags.noneAvailable' => 'Pro toto pole nejsou štítky dostupné.',
+      'plugins.generic.tinymce.pkpTags.description' => 'Můžete vložit libovolný z následujících štítků:',
+      'plugins.generic.tinymce.variables.principalContactName' => 'Jméno hlavního kontaktu ("{$value}")',
+      'plugins.generic.tinymce.variables.principalContactEmail' => 'Email hlavního kontaktu ("{$value}")',
+      'plugins.generic.tinymce.variables.supportContactName' => 'Jméno podpory ("{$value}")',
+      'plugins.generic.tinymce.variables.supportContactEmail' => 'Email na podporu ("{$value}")',
+      'plugins.generic.tinymce.variables.supportContactPhone' => 'Telefon na podporu ("{$value}")',
+    ),
+  ),
+);

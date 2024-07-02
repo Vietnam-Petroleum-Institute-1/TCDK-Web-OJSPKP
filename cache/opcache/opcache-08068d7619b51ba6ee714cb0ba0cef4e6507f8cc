@@ -1,0 +1,24 @@
+<?php $exp = 1751345594; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.customBlockManager.displayName' => 'Manažer uživatelských panelů',
+      'plugins.generic.customBlockManager.manage' => 'Spravovat uživatelské bloky',
+      'plugins.generic.customBlock.description' => 'Toto je uživatelem vytvořený panel.',
+      'plugins.generic.customBlockManager.customBlocks' => 'Uživatelské bloky',
+      'plugins.generic.customBlockManager.blockName' => 'Název panelu',
+      'plugins.generic.customBlockManager.addBlock' => 'Přidat panel',
+      'plugins.generic.customBlockManager.noneCreated' => 'Nebyly vytvořeny žádné uživatelské bloky.',
+      'plugins.generic.customBlock.content' => 'Obsah',
+      'plugins.generic.customBlock.nameSuffix' => '(Plugin uživatelských panelů)',
+      'plugins.generic.customBlockManager.description' => 'Tento plugin vám umožňuje spravovat (přidávat, upravovat a odstraňovat) vlastní bloky v postranních panelech.',
+      'plugins.generic.customBlock.nameRequired' => 'Je třeba zadat jméno uživatelského bloku.',
+      'plugins.generic.customBlock.nameRegEx' => 'Název uživatelského bloku musí obsahovat pouze písmena, čísla a pomlčky/podtržítka.',
+      'plugins.generic.customBlock.showName.description' => 'Zobrazit název tohoto bloku nad jeho obsahem.',
+      'plugins.generic.customBlock.showName' => 'Zobrazit název',
+    ),
+  ),
+);

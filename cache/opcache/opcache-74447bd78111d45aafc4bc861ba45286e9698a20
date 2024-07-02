@@ -1,0 +1,32 @@
+<?php $exp = 1751345594; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'comments.anonymous' => 'Usuari/ària anònim',
+      'comments.anonymousNamed' => '{$userName}',
+      'comments.body' => 'Cos',
+      'comments.titleRequired' => 'Cal que introduïu un títol de comentari.',
+      'comments.confirmDeleteChildren' => 'Si s\'elimina aquest comentari, també s\'eliminaran totes les respostes. Esteu segur/a que voleu fer aquesta acció?',
+      'comments.delete' => 'Suprimeix aquest comentari',
+      'comments.email' => 'Adreça electrònica',
+      'comments.emailReply' => 'Resposta per correu electrònic',
+      'comments.enterComment' => 'Introducció d’un comentari',
+      'comments.inResponseTo' => 'En resposta a <a href="{$url}">{$title}</a>',
+      'comments.name' => 'Autor/a del comentari',
+      'comments.noComments' => 'No s’ha publicat cap comentari dels lectors/es.',
+      'comments.nReplies' => '({$num} respostes)',
+      'comments.oneReply' => '(1 resposta)',
+      'comments.postAnonymously' => 'Publica aquest comentari de manera anònima',
+      'comments.postReply' => 'Publica la resposta',
+      'comments.readerComments' => 'Comentaris dels lectors/es',
+      'comments.readMore' => 'Llegiu-ne més',
+      'comments.replies' => 'Respostes',
+      'comments.title' => 'Títol',
+      'comments.viewAllComments' => 'Visualitza tots els comentaris',
+      'reader.fullText' => 'Text complet:',
+    ),
+  ),
+);

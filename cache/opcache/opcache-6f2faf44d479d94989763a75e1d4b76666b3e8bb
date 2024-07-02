@@ -1,0 +1,13 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'admin.hostedContexts' => 'ہوسٹ کیے گئے مجلات',
+      'admin.settings.redirect' => 'مجلہ ری ڈائریکٹ',
+      'admin.settings.redirectInstructions' => 'مرکزی سائٹ سے درخواستوں کو اس مجلے میں ری ڈائریکٹ کیا جائے گا۔ یہ اس وقت فائدہ مند ہو سکتا ہے جب سائٹ میں صرف ایک مجلے کو ھوسٹ کیا گیا ہو۔',
+    ),
+  ),
+);

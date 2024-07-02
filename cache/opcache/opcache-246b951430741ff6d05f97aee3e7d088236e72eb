@@ -1,0 +1,30 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.staticPages.displayName' => 'Sabit Sayflar Eklentisi',
+      'plugins.generic.staticPages.description' => 'Bu eklenti Sabit İçerik Yönetimini sağlar.',
+      'plugins.generic.staticPages.staticPages' => 'Sabit Sayfalar',
+      'plugins.generic.staticPages.pageTitle' => 'Başlık',
+      'plugins.generic.staticPages.content' => 'İçerik',
+      'plugins.generic.staticPages.path' => 'Yol',
+      'plugins.generic.staticPages.requirement.tinymce' => '<p><strong>TinyMCE Eklentisi içerik eklemek/düzenlemek için yüklü ve etkinleştirilmiş olmalıdır.</strong></p>',
+      'plugins.generic.staticPages.editAddContent' => 'İçerik Düzelt/Ekle',
+      'plugins.generic.staticPages.addStaticPage' => 'Sabit Sayfa Ekle',
+      'plugins.generic.staticPages.addNewPage' => 'Yeni Sayfa Ekle',
+      'plugins.generic.staticPages.editStaticPage' => 'Sabit Sayfa Düzelt',
+      'plugins.generic.staticPages.noneCreated' => 'Hiçbir sabit sayfa oluşturulmadı.',
+      'plugins.generic.staticPages.settingInstructions' => 'Aşağıdaki form oluşturduğunuz tüm statik sayfaları gösterir. Sağ taraftaki bağlantıları kullanarak sayfaları düzenleyebilir veya silebilirsiniz.',
+      'plugins.generic.staticPages.editInstructions' => 'Sayfa içeriği eklemek/düzeltmek için aşağıdaki formu kullanın.',
+      'plugins.generic.staticPages.pathRegEx' => 'Yol alanı sadece alfanümerik karakterler ile \'.\', \'/\', \'-\' ve \'_\' içermelidir.',
+      'plugins.generic.staticPages.viewInstructions' => '<p>Bu sayfaya şu adresten erişilebilir: <blockquote>{$pagesPath}</blockquote> ... %PATH yukarıda girilen yoldur. <strong>Not:</strong> İki sayfa aynı yola sahip olamaz. Sisteme yerleşik yolları kullanmak, önemli işlevlere erişiminizi kaybetmenize neden olabilir.</p>',
+      'plugins.generic.staticPages.duplicatePath' => 'Bu yol başka bir sabit sayfa için zaten açık.',
+      'plugins.generic.staticPages.pageSaved' => 'Sayfa başarılı bir şekilde kaydedildi.',
+      'plugins.generic.staticPages.pageDeleted' => 'Sayfa başarılı bir şekilde silindi.',
+      'plugins.generic.staticPages.noneExist' => 'Sayfa oluşturulamadı',
+    ),
+  ),
+);

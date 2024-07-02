@@ -1,0 +1,15 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.recommendBySimilarity.displayName' => 'Raccomanda articoli simili',
+      'plugins.generic.recommendBySimilarity.description' => 'Questo plugin aggiunge una lista di articoli simili alla pagina dell\'abstract dell\'articolo.',
+      'plugins.generic.recommendBySimilarity.heading' => 'Articoli simili',
+      'plugins.generic.recommendBySimilarity.advancedSearchIntro' => 'Puoi anche {$advancedSearchLink} per questo articolo.',
+      'plugins.generic.recommendBySimilarity.advancedSearch' => 'Iniziare una ricerca avanzata di similarità',
+    ),
+  ),
+);

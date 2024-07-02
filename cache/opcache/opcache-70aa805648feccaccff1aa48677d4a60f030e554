@@ -1,0 +1,78 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'installer.additionalLocales' => 'Dodatkowe języki',
+      'installer.administratorAccount' => 'Konto administratora',
+      'installer.administratorAccountInstructions' => 'To konto użytkownika dostanie uprawnienia nadrzędnego administratora strony. Dodatkowe konta użytkowników mogą zostać utworzone po instalacji.',
+      'installer.checkNo' => '<span class="formError">NIE</span>',
+      'installer.checkYes' => 'Tak',
+      'installer.configFileError' => 'Plik konfiguracyjny <tt>config.inc.php</tt> nie istnieje lub nie jest przeznaczony do odczytu.',
+      'installer.connectionCharset' => 'Kodowanie znaków (połączenie)',
+      'installer.contentsOfConfigFile' => 'Zawartość pliku konfiguracyjnego',
+      'installer.databaseDriver' => 'Sterownik bazy danych',
+      'installer.databaseDriverInstructions' => '<strong>System wspiera obecnie wyłącznie MySQL i PostgreSQL. W przypadku jeśli nie możesz wybrać żadnej z tych opcji, skontaktuj się z administratorem serwera aby dodał odpowiednie rozszerzenia PHP.</strong>',
+      'installer.databaseHost' => 'Host',
+      'installer.databaseHostInstructions' => 'Zostaw pole puste, jeżeli chcesz połączyć się lokalnie z wykorzystaniem gniazd. Nie jest to konieczne w przypadku MySQL, który wykorzystuje gniazda automatycznie po wpisaniu \'localhost\'.',
+      'installer.databaseName' => 'Nazwa bazy danych',
+      'installer.databasePassword' => 'Hasło',
+      'installer.databaseSettings' => 'Ustawienia bazy danych',
+      'installer.databaseUsername' => 'Użytkownik',
+      'installer.filesDir' => 'Folder deponowania',
+      'installer.fileSettings' => 'Ustawienia plików',
+      'installer.form.clientCharsetRequired' => 'Kodowanie znaków jest wymagane.',
+      'installer.form.databaseDriverRequired' => 'Sterownik bazy danych jest wymagany.',
+      'installer.form.databaseNameRequired' => 'Nazwa bazy danych jest wymagana.',
+      'installer.form.emailRequired' => 'Poprawny adres e-mail administratora jest wymagany.',
+      'installer.form.filesDirRequired' => 'Folder deponowania jest wymagany.',
+      'installer.form.localeRequired' => 'Wybór języka jest wymagany.',
+      'installer.form.passwordRequired' => 'Hasło konta administratora jest wymagane.',
+      'installer.form.passwordsDoNotMatch' => 'Podane hasła nie są takie same.',
+      'installer.form.separateMultiple' => 'Oddziel wiele wartości za pomocą przecinków',
+      'installer.form.usernameAlphaNumeric' => 'Nazwa konta administratora może być złożona ze znaków alfanumerycznych, podkreśleń, oraz znaku minus (-). Ponadto, musi się zaczynać i kończyć znakiem alfanumerycznym.',
+      'installer.form.usernameRequired' => 'Nazwa użytkownika dla konta administratora jest wymagana.',
+      'installer.form.timeZoneRequired' => 'Wymagane jest podanie strefy czasowej.',
+      'installer.installationWrongPhp' => '<br/><strong>UWAGA: Wersja PHP zainstalowana na serwerze nie spełnia minimalnych wymagań niezbędnych do zainstalowania systemu. Zaktualizuj PHP do nowszej wersji.</strong>',
+      'installer.installErrorsOccurred' => 'Podczas instalacji wystąpiły błędy',
+      'installer.installerSQLStatements' => 'Wyrażenia SQL dla instalacji',
+      'installer.installFileError' => 'Plik instalacyjny <tt>dbscripts/xml/install.xml</tt> nie istnieje.',
+      'installer.installFilesDirError' => 'Folder deponowania nie istnieje lub nie jest przeznaczony do zapisu.',
+      'installer.installParseDBFileError' => 'Błąd parsowania pliku bazy danych - <tt>{$file}</tt>.',
+      'installer.installMigrationError' => 'Wystąpił błąd w trakcie migracji klas <tt>{$class}</tt>. Wyjątek: {$message}.',
+      'installer.installParseEmailTemplatesFileError' => 'Błąd parsowania pliku szablonów e-mail - <tt>{$file}</tt>.',
+      'installer.installParseFilterConfigFileError' => 'Błąd parsowania konfiguracji filtrów w pliku <tt>{$file}</tt>.',
+      'installer.unsupportedUpgradeError' => 'Aktualizacja nie jest wspierana. Zobacz docs/UPGRADE-UNSUPPORTED w celu uzyskania szczegółowych informacji.',
+      'installer.timezoneInstructions' => 'Strefa czasowa dla tego systemu.',
+      'installer.additionalLocalesInstructions' => 'Wybierz dodatkowe języki do obsługi w tym systemie. Dodatkowe języki można również zainstalować w dowolnym momencie z interfejsu administracyjnego witryny.<br>* = Oznacza języki, które nie są w pełni przetłumaczone (> 90% przetłumaczonych terminów)',
+      'installer.locale' => 'Język',
+      'installer.locale.maybeIncomplete' => 'Oznaczone tłumaczenia mogą być niekompletne.',
+      'installer.localeSettings' => 'Ustawienia języka',
+      'installer.oaiSettings' => 'Ustawienia OAI',
+      'installer.oaiRepositoryIdInstructions' => 'Unikatowy identyfikator wykorzystywany przez <a href="https://www.openarchives.org/" target="_blank">Open Archives Initiative</a> do pobierania metadanych.',
+      'installer.oaiRepositoryId' => 'Identyfikator repozytoriów OAI',
+      'installer.publicFilesDirError' => 'Główny folder instalacji nie istnieje lub nie jest przeznaczony do zapisu.',
+      'installer.releaseNotes' => 'Informacje o wydaniu',
+      'installer.preInstallationInstructionsTitle' => 'Przed instalacją',
+      'installer.preInstallationInstructions' => '
+		<p>1. Następujące pliki i foldery muszą być zapisywalne:</p>
+		<ul>
+			<li><tt>config.inc.php</tt> jest zapisywalny (opcjonalnie): {$writable_config}</li>
+			<li><tt>public/</tt> jest zapisywalny: {$writable_public}</li>
+			<li><tt>cache/</tt> jest zapisywalny: {$writable_cache}</li>
+			<li><tt>cache/t_cache/</tt> jest zapisywalny: {$writable_templates_cache}</li>
+			<li><tt>cache/t_compile/</tt> jest zapisywalny: {$writable_templates_compile}</li>
+			<li><tt>cache/_db</tt> jest zapisywalny: {$writable_db_cache}</li>
+		</ul>
+
+		<p>2. Katalog dla mediów (przesłanych plików) musi być utworzony oraz zapisywalny (zobacz "Ustawienia plików" poniżej).</p>
+	',
+      'installer.configureXSLMessage' => '<p>Twoja instalacja PHP nie posiada skonfigurowanego modułu XSL. Włącz go lub skonfiguruj komendę xslt_command w swoim pliku konfiguracyjnym config.inc.php.</p>',
+      'installer.beacon' => 'Sygnalizator',
+      'installer.beacon.enable' => 'Podaj unikatowy ID strony oraz bazowy adres OAI dla organizacji PKP wyłącznie do raportowania danych statystycznych.',
+      'installer.unsupportedPhpError' => 'Twoja wersja serwera PHP nie jest wspierana przez to oprogramowanie. Sprawdź wymagania instalacyjne w pliku docs/README.',
+    ),
+  ),
+);

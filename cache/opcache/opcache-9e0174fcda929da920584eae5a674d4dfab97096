@@ -1,0 +1,12 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.htmlArticleGalley.displayName' => 'Prikaz u HTML formatu',
+      'plugins.generic.htmlArticleGalley.description' => 'Ovaj dodatak omogućuje renderovanje fajlova članaka u HTML formatu.',
+    ),
+  ),
+);

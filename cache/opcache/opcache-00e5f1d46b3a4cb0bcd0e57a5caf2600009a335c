@@ -1,0 +1,32 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=1; plural=0;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'emails.orcidCollectAuthorId.body' => '{$recipientName} yang dihormati,<br/>
+<br/>
+Anda telah disenaraikan sebagai pengarang pada penyerahan manuskrip kepada {$contextName}.<br/>
+Untuk mengesahkan kepengarangan anda, sila tambahkan id ORCID anda pada penyerahan ini dengan melawati pautan yang disediakan di bawah.<br/>
+<br/>
+<a href="{$authorOrcidUrl}"><img id="orcid-id-logo" src="https://info.orcid.org/wp-content/uploads/2020/12/ORCIDiD_icon16x16.png" width=\'16\' height=\'16\' alt="ORCID iD icon" style="display: block; margin: 0 .5em 0 0; padding: 0; float: left;"/>Daftar atau sambungkan iD ORCID anda</ a><br/>
+<br/>
+<br>
+<a href="{$orcidAboutUrl}">Maklumat lanjut tentang ORCID di {$contextName}</a><br/>
+<br/>
+Jika anda mempunyai sebarang pertanyaan, sila hubungi saya.<br/>
+<br/>
+{$principalContactSignature}<br/>
+',
+      'emails.orcidCollectAuthorId.subject' => 'Penyerahan ORCID',
+      'emails.orcidCollectAuthorId.description' => 'E-mel ini dihantar untuk mengumpul id ORCID daripada pengarang.',
+      'emails.orcidRequestAuthorAuthorization.subject' => 'Meminta akses rekod ORCID',
+      'emails.orcidRequestAuthorAuthorization.description' => 'E-mel ini dihantar untuk meminta akses rekod ORCID daripada pengarang.',
+      'plugins.generic.orcidProfile.orcidRequestAuthorAuthorization.name' => 'orcidRequestAuthorAuthorization',
+      'emailTemplate.variable.authorOrcidUrl' => 'Pautan kebenaran ORCID OAuth',
+      'emailTemplate.variable.orcidAboutUrl' => 'URL ke halaman tentang ORCID',
+      'plugins.generic.orcidProfile.orcidCollectAuthorId.name' => 'orcidCollectAuthorId',
+    ),
+  ),
+);

@@ -1,0 +1,26 @@
+<?php $exp = 1751345599; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=1; plural=0;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'api.announcements.400.contextsNotMatched' => '您请求的公告不属于本期刊。',
+      'api.emails.403.disabled' => '此期刊尚未启用电子邮件通知功能。',
+      'api.submissions.403.cantChangeContext' => '您不能更改提交的稿件。',
+      'api.submissions.403.unpublishedIssues' => '您无权查看未发布的期刊。',
+      'api.contexts.403.requestedDisabledContexts' => '您只能查看已公开的期刊。',
+      'api.contexts.403.notAllowed' => '您无权查看此期刊。',
+      'api.contexts.403.contextsDidNotMatch' => '除非您向期刊的 API 或站点范围的 API 提出请求，否则您无法查看或编辑此期刊。',
+      'api.contexts.403.requiresContext' => '您无法在站点范围的 API 编辑此期刊。',
+      'api.contexts.403.notAllowedEdit' => '您无权编辑此期刊。',
+      'api.contexts.403.notAllowedDelete' => '您无权删除此期刊。',
+      'api.contexts.404.contextNotFound' => '未找到您请求的期刊。',
+      'api.emailTemplates.403.notAllowedChangeContext' => '您无权将此电子邮件模板移至其他期刊。',
+      'api._payments.400.invalidPaymentMethod' => '您选择的付款方式未支持。',
+      'api.publications.403.contextsDidNotMatch' => '您请求的出版物不属于该期刊。',
+      'api.publications.403.submissionsDidNotMatch' => '您请求的出版物不是本稿件的一部分。',
+      'api.submissionFiles.400.badRepresentationAssocType' => '您不能将此备用阶段文件与此文件关联。',
+    ),
+  ),
+);

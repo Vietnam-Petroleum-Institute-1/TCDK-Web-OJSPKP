@@ -1,0 +1,21 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n==1 || n%10==1 ? 0 : 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.tinymce.variables.supportContactPhone' => 'Телефонски број на контакт лице за поддршка ("{$value}")',
+      'plugins.generic.tinymce.variables.supportContactEmail' => 'Е-пошта на контакт лице за поддршка ("{$value}")',
+      'plugins.generic.tinymce.variables.supportContactName' => 'Име на контакт лице за поддршка ("{$value}")',
+      'plugins.generic.tinymce.variables.principalContactEmail' => 'Е-пошта на главно лице за контакт ("{$value}")',
+      'plugins.generic.tinymce.variables.principalContactName' => 'Име на главно лице за контакт ("{$value}")',
+      'plugins.generic.tinymce.pkpTags.description' => 'Можете да вметнете било која од следните ознаки:',
+      'plugins.generic.tinymce.pkpTags.noneAvailable' => 'Нема достапни ознаки за ова поле.',
+      'plugins.generic.tinymce.pkpTags.listTags' => 'Изберете ознака',
+      'plugins.generic.tinymce.settings' => 'Поставки',
+      'plugins.generic.tinymce.description' => 'Овој плагин овозможува WYSIWYG уредување на текстови преку <a href="https://www.tiny.cloud/" target="_blank">TinyMCE</a> уредник на содржина.',
+      'plugins.generic.tinymce.name' => 'TinyMCE плагин',
+    ),
+  ),
+);

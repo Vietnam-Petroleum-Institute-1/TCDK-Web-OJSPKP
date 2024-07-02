@@ -1,0 +1,79 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=3; plural=(n % 10 == 0 || n % 100 >= 11 && n % 100 <= 19) ? 0 : ((n % 10 == 1 && n % 100 != 11) ? 1 : 2);',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'installer.additionalLocales' => 'Papildu lokalizācijas',
+      'installer.administratorAccount' => 'Administratora konts',
+      'installer.administratorAccountInstructions' => 'Šis lietotājkonts kļūs par vietnes administratoru, un tam būs pilnīga piekļuve sistēmai. Pēc instalēšanas var izveidot papildu lietotāju kontus.',
+      'installer.checkNo' => '<span class="pkp_form_error formError">NĒ</span>',
+      'installer.checkYes' => 'Jā',
+      'installer.connectionCharset' => 'Pieslēguma rakstzīmju kopa',
+      'installer.contentsOfConfigFile' => 'Konfigurācijas faila saturs',
+      'installer.databaseDriver' => 'Datubāzes draiveris',
+      'installer.configFileError' => 'Konfigurācijas fails <tt>config.inc.php</tt> nepastāv vai nav nolasāms.',
+      'installer.form.clientCharsetRequired' => 'Jāizvēlas klienta rakstzīmju kopa.',
+      'installer.form.databaseDriverRequired' => 'Jāizvēlas datubāzes draiveris.',
+      'installer.form.databaseNameRequired' => 'Nepieciešams datubāzes nosaukums.',
+      'installer.form.emailRequired' => 'Administratora kontam ir nepieciešama derīga e-pasta adrese.',
+      'installer.form.filesDirRequired' => 'Nepieciešama direktorija, kas tiks izmantota augšupielādēto failu glabāšanai.',
+      'installer.form.localeRequired' => 'Jāizvēlas lokālā valoda.',
+      'installer.form.passwordsDoNotMatch' => 'Administratora paroles nesakrīt.',
+      'installer.form.separateMultiple' => 'Vairākas vērtības atdaliet ar komatiem',
+      'installer.form.usernameRequired' => 'Ir nepieciešams administratora konta lietotājvārds.',
+      'installer.form.timeZoneRequired' => 'Jāizvēlas laika josla.',
+      'installer.form.passwordRequired' => 'Ir nepieciešama administratora konta parole.',
+      'installer.form.usernameAlphaNumeric' => 'Administratora lietotājvārds var saturēt tikai burtu un ciparu rakstzīmes, pasvītrojumus un defisi, un tam jāsākas un jābeidzas ar burtu un ciparu rakstzīmēm.',
+      'installer.installationWrongPhp' => '<br/><strong>BRĪDINĀJUMS: Jūsu pašreizējā PHP versija neatbilst minimālajām instalēšanas prasībām. Ieteicams atjaunināt PHP versiju uz jaunāku.</strong>',
+      'installer.installErrorsOccurred' => 'Instalēšanas laikā radās kļūdas',
+      'installer.installerSQLStatements' => 'SQL paziņojumi uzstādīšanai',
+      'installer.installFileError' => 'Instalācijas fails <tt>dbscripts/xml/install.xml</tt> nepastāv vai nav nolasāms.',
+      'installer.installFilesDirError' => 'Katalogs, kas norādīts augšupielādētajiem failiem, neeksistē vai nav rakstāms.',
+      'installer.installParseDBFileError' => 'Kļūda datubāzes instalācijas faila <tt>{$file}</tt> analizēšanā.',
+      'installer.databaseDriverInstructions' => '<strong>Pašlaik sistēma atbalsta MySQL un PostgreSQL; ja nevarat izvēlēties kādu no šīm iespējām, sazinieties ar sistēmas administratoru, lai pārliecinātos, ka jūsu serverī ir nepieciešamie PHP paplašinājumi.</strong>',
+      'installer.beacon.enable' => 'Sniedziet PKP unikālu vietnes ID un OAI bāzes URL, kas tiks izmantots tikai statistikas un drošības brīdinājumu vajadzībām.',
+      'installer.miscSettings' => 'Dažādi iestatījumi',
+      'installer.unsupportedPhpError' => 'Šī programmatūra neatbalsta jūsu servera PHP versiju. Divkārt pārbaudiet instalēšanas prasības docs/README.',
+      'installer.databaseHostInstructions' => 'Lai izveidotu savienojumu, izmantojot domēna ligzdas, nevis TCP/IP, atstājiet hostname tukšu. Tas nav nepieciešams MySQL, kas automātiski izmantos ligzdas, ja būs ievadīts "localhost", bet tas ir nepieciešams dažiem citiem datubāzu serveriem, piemēram, PostgreSQL.',
+      'installer.databaseHost' => 'Host',
+      'installer.databaseName' => 'Datubāzes nosaukums',
+      'installer.databasePassword' => 'Parole',
+      'installer.databaseSettings' => 'Datubāzes uzstādījumi',
+      'installer.databaseUsername' => 'Lietotājvārds',
+      'installer.filesDir' => 'Augšupielādes katalogs',
+      'installer.fileSettings' => 'Datnes uzstādījumi',
+      'installer.installMigrationError' => 'Izpildot migrācijas klasi, tika izmests izņēmums <tt>{$class}</tt>. Izņēmums bija {$message}.',
+      'installer.unsupportedUpgradeError' => 'Jaunināšana nav atbalstīta. Sīkāku informāciju skatiet jaunināšanas rokasgrāmatā (https://docs.pkp.sfu.ca/dev/upgrade-guide).',
+      'installer.timezoneInstructions' => 'Laika josla, kas jāizmanto šajā sistēmā.',
+      'installer.locale' => 'Lokalizācija',
+      'installer.locale.maybeIncomplete' => 'Atzīmētās lokalizācijas var būt nepilnīgas.',
+      'installer.localeSettings' => 'Lokalizācijas iestatījumi',
+      'installer.oaiSettings' => 'OAI iestatījumi',
+      'installer.oaiRepositoryIdInstructions' => 'Unikāls identifikators, ko izmanto, lai identificētu metadatu ierakstus, kas indeksēti no šīs vietnes, izmantojot <a href="https://www.openarchives.org/" target="_blank">Open Archives Initiative</a> protokolu metadatu ievākšanai.',
+      'installer.oaiRepositoryId' => 'Repozitorija identifikators',
+      'installer.publicFilesDirError' => 'Publisko failu direktorija neeksistē vai nav rakstāma.',
+      'installer.releaseNotes' => 'Relīzes piezīmes',
+      'installer.preInstallationInstructionsTitle' => 'Pirmsinstalācijas soļi',
+      'installer.configureXSLMessage' => '<p>Jūsu PHP instalācijā nav iespējots XSL modulis. Vai nu iespējojiet to, vai konfigurējiet xslt_command parametru savā config.inc.php failā.</p>',
+      'installer.installParseEmailTemplatesFileError' => 'Kļūda e-pasta veidnes faila parsēšanā <tt>{$file}</tt>.',
+      'installer.additionalLocalesInstructions' => 'Izvēlieties papildu valodas, kas jāatbalsta šajā sistēmā. Papildu valodas var arī instalēt jebkurā laikā no vietnes administrēšanas saskarnes.<br>* = Valodas, kas nav pilnībā tulkotas (> 90% pārtulkoto terminu)',
+      'installer.preInstallationInstructions' => '
+		<p>1. Šādi faili un katalogi (un to saturs) ir jāpadara rakstāmi:</p>
+		<ul>
+			<li><tt>config.inc.php</tt> ir rakstāms (nav obligāti): {$writable_config}</li>
+			<li><tt>public/</tt> ir rakstāms: {$writable_public}</li>
+			<li><tt>cache/</tt> ir rakstāms: {$writable_cache}</li>
+			<li><tt>cache/t_cache/</tt> ir rakstāms: {$writable_templates_cache}</li>
+			<li><tt>cache/t_compile/</tt> ir rakstāms: {$writable_templates_compile}</li>
+			<li><tt>cache/_db</tt> ir rakstāms: {$writable_db_cache}</li>
+		</ul>
+
+		<p>2. Jāizveido un jāpadara rakstāms katalogs, kurā glabāt augšupielādētos failus (skatiet sadaļu "Failu iestatījumi" tālāk).</p>
+	',
+      'installer.beacon' => 'Bāka (beacon)',
+      'installer.installParseFilterConfigFileError' => 'Kļūda, parsējot filtra konfigurācijas failu <tt>{$file}</tt>.',
+    ),
+  ),
+);

@@ -1,0 +1,27 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.themes.default.name' => 'Predvolená téma',
+      'plugins.themes.default.description' => 'Táto téma implementuje predvolenú tému.',
+      'plugins.themes.default.option.typography.label' => 'Typografia',
+      'plugins.themes.default.option.typography.description' => 'Vyberte kombináciu typov písma, ktorá vyhovuje tomuto časopisu.',
+      'plugins.themes.default.option.typography.notoSans' => 'Noto Sans: Bezpätkové digitálne písmo navrhnuté spoločnosťou Google s rozsiahlou podporou jazykov.',
+      'plugins.themes.default.option.typography.notoSerif' => 'Noto Serif: Pätková verzia digitálneho písma spoločnosti Google.',
+      'plugins.themes.default.option.typography.notoSerif_notoSans' => 'Noto Serif/Noto Sans: Doplnkové párovanie pätkových nadpisov s bezpätkovým ďalším textom.',
+      'plugins.themes.default.option.typography.notoSans_notoSerif' => 'Noto Sans/Noto Serif: Komplementárne párovanie bezpätkových nadpisov s pätkovým ďalším textom.',
+      'plugins.themes.default.option.typography.lato' => 'Lato: Populárny moderný bezpätkový font.',
+      'plugins.themes.default.option.typography.lora' => 'Lora: Široká sada pätkového písma pre dobrú on-line čitateľnosť.',
+      'plugins.themes.default.option.typography.lora_openSans' => 'Lora/Open Sans: Komplementárne párovanie pätkových nadpisov s bezpätkovým ďalším textom.',
+      'plugins.themes.default.option.colour.label' => 'Farba',
+      'plugins.themes.default.option.colour.description' => 'Zvoľte farbu pre záhlavie.',
+      'plugins.themes.default.option.showDescriptionInJournalIndex.option' => 'Ukázať na úvodnej stránke časopisu súhrnné informácie o ňom.',
+      'plugins.themes.default.option.useHomepageImageAsHeader.label' => 'Obrázok na pozadí záhlavia',
+      'plugins.themes.default.option.useHomepageImageAsHeader.description' => 'Po nahratí obrázku domovskej stránky sa zobrazí na pozadí záhlavia miesto obvyklej pozície na úvodnej stránke.',
+      'plugins.themes.default.option.useHomepageImageAsHeader.option' => 'Zobraziť obrázok úvodnej stránky ako pozadie záhlavia.',
+    ),
+  ),
+);

@@ -1,0 +1,25 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'api.announcements.400.contextsNotMatched' => 'Požadované oznámenie nie je súčasťou tohto časopisu.',
+      'api.submissions.403.cantChangeContext' => 'Nemôžete zmeniť záznamy príspevku.',
+      'api.submissions.403.unpublishedIssues' => 'Nemáte právo vidieť nepublikované čísla.',
+      'api.contexts.403.requestedDisabledContexts' => 'Môžete zobraziť iba povolené časopisy.',
+      'api.contexts.403.notAllowed' => 'Na prehliadanie tohto časopisu nemáte oprávnenie.',
+      'api.contexts.403.contextsDidNotMatch' => 'Tento časopis nemôžete prehliadať ani upravovať, kým nepožiadate o API časopisu alebo API pre celý web.',
+      'api.contexts.403.requiresContext' => 'Tento časopis nemožno upravovať cez API.',
+      'api.contexts.403.notAllowedEdit' => 'Nemáte oprávnenie upravovať tento časopis.',
+      'api.contexts.403.notAllowedDelete' => 'Na odstránenie tohto denníka nemáte oprávnenie.',
+      'api.contexts.404.contextNotFound' => 'Požadovaný časopis nebol nájdený.',
+      'api.emailTemplates.403.notAllowedChangeContext' => 'Nemáte oprávnenie presunúť túto e-mailovú šablónu do iného časopisu.',
+      'api._payments.400.invalidPaymentMethod' => 'Zvolený spôsob platby nie je podporovaný.',
+      'api.publications.403.contextsDidNotMatch' => 'Požadovaná publikácie nie je súčasťou tohto denníka.',
+      'api.publications.403.submissionsDidNotMatch' => 'Požadovaná publikácie nie je súčasťou tohto denníka.',
+      'api.submissionFiles.400.badRepresentationAssocType' => 'Súbor z tejto fázy súboru nemôžete priradiť k sadzobnici.',
+    ),
+  ),
+);

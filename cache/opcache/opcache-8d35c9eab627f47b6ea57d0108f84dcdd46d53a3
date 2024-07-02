@@ -1,0 +1,32 @@
+<?php $exp = 1751345594; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'comments.anonymous' => 'Анонимена потребител',
+      'comments.anonymousNamed' => 'БГ: "{$userName}"',
+      'comments.body' => 'Текст на коментара',
+      'comments.titleRequired' => 'Изисква се заглавие на коментар.',
+      'comments.confirmDeleteChildren' => 'Изтриването на този коментар ще изтрие и всички отговори на него. Сигурни ли сте, че искате да направите това?',
+      'comments.delete' => 'Изтрийте този коментар',
+      'comments.email' => 'Имейл на коментиращия (изпращащ коментара)',
+      'comments.emailReply' => 'Отговор с имейл',
+      'comments.enterComment' => 'Въведете коментар',
+      'comments.inResponseTo' => 'В отговор на <a href="{$url}">{$title}</a>',
+      'comments.name' => 'Име на коментиращия (изпращащ коментара)',
+      'comments.noComments' => 'Не са публикувани коментари на читатели.',
+      'comments.nReplies' => '({$num} отговор/и)',
+      'comments.oneReply' => '(1 Отговор)',
+      'comments.postAnonymously' => 'Публикувайте този коментар анонимно',
+      'comments.postReply' => 'Публикувайте отговор',
+      'comments.readerComments' => 'Коментари на читатели',
+      'comments.readMore' => 'Прочетете повече',
+      'comments.replies' => 'Отговори',
+      'comments.title' => 'Заглавие',
+      'comments.viewAllComments' => 'Вижте всички коментари',
+      'reader.fullText' => 'Пълният текст:',
+    ),
+  ),
+);

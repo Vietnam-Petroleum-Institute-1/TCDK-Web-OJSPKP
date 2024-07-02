@@ -1,0 +1,30 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=1; plural=0;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.staticPages.displayName' => 'Plugin Halaman Statis',
+      'plugins.generic.staticPages.description' => 'Plugin ini menyediakan Manajemen Konten Statis.',
+      'plugins.generic.staticPages.staticPages' => 'Halaman Statis',
+      'plugins.generic.staticPages.pageTitle' => 'Judul',
+      'plugins.generic.staticPages.content' => 'Konten',
+      'plugins.generic.staticPages.path' => 'Jalur',
+      'plugins.generic.staticPages.requirement.tinymce' => '<p><strong>Plugin TinyMCE harus diinstal dan diaktifkan untuk menambah/mengedit konten.</strong></p>',
+      'plugins.generic.staticPages.editAddContent' => 'Edit/Tambah Konten',
+      'plugins.generic.staticPages.addStaticPage' => 'Tambah Halaman Statis',
+      'plugins.generic.staticPages.addNewPage' => 'Tambah Halaman Baru',
+      'plugins.generic.staticPages.editStaticPage' => 'Edit Halaman Statis',
+      'plugins.generic.staticPages.noneCreated' => 'Tidak ada halaman statis yang dibuat.',
+      'plugins.generic.staticPages.settingInstructions' => 'Formulir di bawah ini menunjukkan Anda semua halaman statis yang dapat Anda buat. Anda dapat mengedit atau menghapus halaman dengan menggunakan link di sisi tangan kanan.',
+      'plugins.generic.staticPages.editInstructions' => 'Gunakan formulir di bawah ini untuk menambah/mengedit konten.',
+      'plugins.generic.staticPages.pathRegEx' => 'Jalur halaman statis hanya boleh berisi karakter alfanumerik plus \'.\', \'/\', \'-\', dan \'_\'.',
+      'plugins.generic.staticPages.viewInstructions' => '<p>Halaman ini akan dapat diakses di: <blockquote>{$pagesPath}</blockquote>... di mana% PATH% adalah jalur halaman statis yang dimasukkan di atas. <strong>Catatan: </strong> Tidak ada dua halaman yang boleh memiliki jalur sama. Menggunakan jalur yang dibangun ke dalam sistem dapat menyebabkan Anda kehilangan akses ke fungsi-fungsi penting.</p>',
+      'plugins.generic.staticPages.duplicatePath' => 'Jalur ini sudah digunakan oleh halaman statis lain.',
+      'plugins.generic.staticPages.pageSaved' => 'Halaman berhasil disimpan.',
+      'plugins.generic.staticPages.pageDeleted' => 'Halaman berhasil dihapus.',
+      'plugins.generic.staticPages.noneExist' => 'Tidak ada halaman yang dibuat',
+    ),
+  ),
+);

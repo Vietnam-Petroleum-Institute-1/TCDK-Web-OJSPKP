@@ -1,0 +1,13 @@
+<?php $exp = 1751345599; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=1; plural=0;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.recommendByAuthor.displayName' => '作者推薦文章',
+      'plugins.generic.recommendByAuthor.description' => '此插件會在文章摘要頁面加添一個同一作者文章的列表。',
+      'plugins.generic.recommendByAuthor.heading' => '同作者最多閱覽文章',
+    ),
+  ),
+);

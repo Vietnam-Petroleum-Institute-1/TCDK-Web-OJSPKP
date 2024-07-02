@@ -1,0 +1,31 @@
+<?php $exp = 1751345595; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'api.announcements.400.contextsNotMatched' => 'Pyytämäsi ilmoitus ei ole osa tätä julkaisua.',
+      'api.emails.403.disabled' => 'Sähköposti-ilmoituksia ei ole otettu käyttöön tässä julkaisussa.',
+      'api.submissions.400.wrongContext' => 'Pyytämääsi käsikirjoitusta ei ole tässä julkaisussa.',
+      'api.submissions.403.cantChangeContext' => 'Et voi vaihtaa käsikirjoitukseen liittyvää julkaisua.',
+      'api.submissions.403.unpublishedIssues' => 'Sinulla ei ole lupaa katsoa julkaisemattomia numeroita.',
+      'api.contexts.403.requestedDisabledContexts' => 'Voit katsoa vain julkisia julkaisuja.',
+      'api.contexts.403.notAllowed' => 'Sinulla ei ole lupaa katsoa tätä julkaisua.',
+      'api.contexts.403.contextsDidNotMatch' => 'Et voi katsoa tai muokata tätä julkaisua, jos et tee pyyntöä julkaisun tai sivuston rajapintaan.',
+      'api.contexts.403.requiresContext' => 'Julkaisua ei voi muokata sivuston rajapinnasta käsin.',
+      'api.contexts.403.notAllowedEdit' => 'Sinulla ei ole lupaa muokata tätä julkaisua.',
+      'api.contexts.403.notAllowedDelete' => 'Sinulla ei ole lupaa poistaa tätä julkaisua.',
+      'api.contexts.404.contextNotFound' => 'Etsimääsi julkaisua ei löytynyt.',
+      'api.dois.403.contextsNotMatched' => 'Pyytämäsi DOI ei kuulu tähän julkaisuun.',
+      'api.dois.400.noRegistrationAgencyConfigured' => 'Tälle julkaisulle ei ole määritetty DOI-rekisteröintitoimistoa.',
+      'api.dois.400.depositFailed' => 'Joitakin kohteita ei onnistuttu tallettamaan. Tarkista yksittäisten kohteiden virheilmoitukset.',
+      'api.emailTemplates.403.notAllowedChangeContext' => 'Sinulla ei ole lupaa siirtää tätä sähköpostipohjaa toiseen julkaisuun.',
+      'api._payments.400.invalidPaymentMethod' => 'Valitsemaasi maksuvaihtoehto ei tueta.',
+      'api.publications.403.contextsDidNotMatch' => 'Pyytämäsi julkaistu versio ei kuulu tähän julkaisuun.',
+      'api.publications.403.submissionsDidNotMatch' => 'Pyytämäsi julkaistu versio ei kuulu tähän käsikirjoitukseen.',
+      'api.submissionFiles.400.badRepresentationAssocType' => 'Tämän vaiheen tiedosto ei voi olla julkaistava tiedosto.',
+      'api.submission.400.inactiveSection' => 'Tämä osasto ei enää vastaanota käsikirjoituksia.',
+    ),
+  ),
+);

@@ -1,0 +1,44 @@
+<?php $exp = 1751345595; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'emails.orcidCollectAuthorId.subject' => 'ORCID Zugriff erbeten',
+      'emails.orcidCollectAuthorId.body' => 'Liebe/r {$recipientName},<br/>
+<br/>
+Sie sind als Autor/in eines eingereichten Beitrags bei der Zeitschrift {$contextName} benannt worden.<br/>
+Um Ihre Autor/innenschaft zu bestätigen, geben Sie bitte Ihre ORCID iD für diese Einreichung an, indem Sie den unten angegebenen Link aufrufen.<br/>
+<br/>
+<a href="{$authorOrcidUrl}"><img id="orcid-id-logo" src="https://orcid.org/sites/default/files/images/orcid_16x16.png" width=\'16\' height=\'16\' alt="ORCID iD icon" style="display: block; margin: 0 .5em 0 0; padding: 0; float: left;"/>ORCID iD anlegen oder verknüpfen</a><br/>
+<br/>
+<a href="{$orcidAboutUrl}">Mehr Informationen zu ORCID</a><br/>
+<br/>
+Wenn Sie Fragen dazu haben, antworten Sie einfach auf diese E-Mail.<br/>
+<br/>
+{$principalContactSignature}<br/>
+',
+      'emails.orcidCollectAuthorId.description' => 'Diese E-Mail-Vorlage wird verwendet, um die ORCID-iDs von Co-Autor/innen einzuholen.',
+      'emails.orcidRequestAuthorAuthorization.subject' => 'ORCID Zugriff erbeten',
+      'emails.orcidRequestAuthorAuthorization.body' => 'Liebe/r {$recipientName},<br>
+<br>
+Sie sind als Autor/in des eingereichten Beitrags "{$submissionTitle}" bei der Zeitschrift {$contextName} benannt worden.<br>
+<br>
+Bitte gestatten Sie uns Ihre ORCID iD, falls vorhanden, zu diesem Beitrag hinzuzufügen, sowie ihr ORCID-Profil bei Veröffentlichung des Beitrags zu aktualisieren.<br>
+Dazu folgen Sie dem unten stehenden Link zur offiziellen ORCID-Seite, melden sich mit Ihren Daten an und authorisieren den Zugriff, indem
+Sie den Anweisungen auf der Seite folgen.<br>
+<a href="{$authorOrcidUrl}"><img id="orcid-id-logo" src="https://info.orcid.org/wp-content/uploads/2020/12/ORCIDiD_icon16x16.png" width=\'16\' height=\'16\' alt="ORCID iD icon" style="display: block; margin: 0 .5em 0 0; padding: 0; float: left;"/>ORCID id anlegen oder verknüpfen</a><br/>
+<br>
+<a href="{$orcidAboutUrl}">Mehr Informationen zu ORCID</a><br />
+<br>
+Wenn Sie Fragen dazu haben, antworten Sie einfach auf diese E-Mail.<br>
+<br>
+{$principalContactSignature}<br>
+',
+      'emails.orcidRequestAuthorAuthorization.description' => 'Diese E-Mail-Vorlage wird verwendet, um die Autorisierung für ORCID-Profil-Zugriff von Autor/innen einzuholen.',
+      'emailTemplate.variable.authorOrcidUrl' => 'ORCID OAuth Autorisierungslink',
+      'emailTemplate.variable.orcidAboutUrl' => 'URL zu der Seite über ORCID',
+    ),
+  ),
+);

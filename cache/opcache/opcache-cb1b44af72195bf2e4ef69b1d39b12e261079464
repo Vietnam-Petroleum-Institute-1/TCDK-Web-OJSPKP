@@ -1,0 +1,284 @@
+<?php $exp = 1751345594; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'emails.passwordResetConfirm.subject' => 'Confirmació per a la reinicialització de la contrasenya',
+      'emails.passwordResetConfirm.body' => 'Hem rebut una sol·licitud per a reinicialitzar la vostra contrasenya per al lloc web {$siteTitle}.<br />
+<br />
+Si no sou l\'autor d\'aquesta sol·licitud, ignoreu aquest missatge de correu electrònic i no es canviarà la vostra contrasenya. Si voleu reinicialitzar la contrasenya, feu clic a l\'URL següent.<br />
+<br />
+Reinicialització de la meva contrasenya: {$passwordResetUrl}<br />
+<br />
+{$siteContactName}',
+      'emails.userRegister.subject' => 'Registre a la revista',
+      'emails.userRegister.body' => '{$recipientName}<br />
+<br />
+Us acabeu de registrar com a usuari/ària de {$contextName}. Aquest missatge de correu electrònic conté el vostre nom d\'usuari/ària i la contrasenya, que necessitareu per accedir al lloc web de la revista i treballar-hi. Recordeu que en qualsevol moment em podeu sol·licitar que us elimini de la llista d\'usuaris/àries de la revista.<br />
+<br />
+Nom d\'usuari/ària: {$recipientUsername}<br />
+Contrasenya: {$password}<br />
+<br />
+Gràcies,<br />
+{$signature}',
+      'emails.userValidateContext.subject' => 'Valideu el vostre compte',
+      'emails.userValidateContext.body' => '{$recipientName}<br />
+<br />
+Heu creat un compte d\'usuari/ària per a {$contextName}, però abans de poder-lo començar a utilitzar heu de validar el vostre compte de correu electrònic. Per fer-ho, seguiu l\'enllaç següent:<br />
+<br />
+{$activateUrl}<br />
+<br />
+Gràcies,<br />
+{$contextSignature}',
+      'emails.userValidateSite.subject' => 'Valideu el vostre compte',
+      'emails.userValidateSite.body' => '{$recipientName}<br />
+<br />
+Heu creat un compte d\'usuari/ària per a {$siteTitle}, però abans de poder-lo començar a utilitzar heu de validar el vostre compte de correu electrònic. Per fer-ho, seguiu l\'enllaç següent:<br />
+<br />
+{$activateUrl}<br />
+<br />
+Gràcies,<br />
+{$siteSignature}',
+      'emails.reviewerRegister.subject' => 'Registre com a revisor a {$contextName}',
+      'emails.reviewerRegister.body' => '<p>Benvolgut/uda {$recipientName},</p><p>En vista de la seva expertesa, hem registrat el seu nom en la base de dades de revisors/es de {$contextName}. Això no implica cap compromís per part seva, simplement ens permet contactar-li per a una possible revisió d\'un treball. Quan rebi una invitació per a revisar podrà veure el títol i el resum de l\'article en qüestió, i sempre tindrà la possibilitat d\'acceptar o rebutjar la invitació. També pot demanar-nos en qualsevol moment que l\'eliminem de la llista de revisors/es.</p><p>Li enviem el nom d\'usuari/ària i la contrasenya, que li serviran per a fer qualsevol tasca de la revista a través de la seva pàgina web. Per exemple, pot actualitzar el seu perfil i incloure els seus interessos de revisió.</p><p>Nom d\'usuari/ària: {$recipientUsername}<br />Contrasenya: {$password}</p><p>Gràcies,</p>{$signature}',
+      'emails.issuePublishNotify.subject' => 'Hi ha un número nou disponible: {$issueIdentification} a {$contextName}',
+      'emails.issuePublishNotify.body' => '<p>Benvolgut/uda {$recipientName},</p><p>Ens complau anunciar la publicació de <a href="{$issueUrl}">{$issueIdentification}</a> de {$contextName}. Et convidem a llegir i compartir aquest treball amb la seva comunitat acadèmica.</p><p>Agraïm als nostres autors/es, revisors/es i editors/es les seves valuoses contribucions, i als nostres lectors/es el seu interès.</p><p>Gràcies,</p>{$signature}',
+      'emails.editorAssign.subject' => 'Heu estat assignats com a editor/a en una tramesa per a {$contextName}',
+      'emails.editorAssign.body' => '<p>Benvolgut/uda {$recipientName},</p><p>Us ha estat assignada la següent tramesa perquè en superviseu el seu procés editorial.</p><p><a href="{$submissionUrl}">{$submissionTitle}</a><br />{$authors}</p><p><b>Resum</b></p>{$submissionAbstract}<p>Si considera que la tramesa és rellevant per a {$contextName}, enviï\'l a la fase de revisió seleccionant "Enviar a revisió" i després assigni revisors/es fent clic a "Afegir revisor/a".</p><p>Si la tramesa no és apropiada per a aquesta revista, rebutgi-la.</p><p>Gràcies per endavant.</p><p>Atentament,</p>{$contextSignature}',
+      'emails.editorAssignReview.body' => '<p>Benvolgut/uda {$recipientName},</p><p>Us ha estat assignada la següent tramesa perquè en superviseu el procés de revisió per parells.</p><p><a href="{$submissionUrl}">{$submissionTitle}</a><br />{$authors}</p><p><b>Resum</b></p>{$submissionAbstract}<p>Iniciï sessió per a <a href="{$submissionUrl}">veure la tramesa</a> i assignar revisors/Es qualificats. Pot assignar un revisor/a fent clic a "Afegir revisor/a".</p><p>Gràcies per endavant.</p><p>Atentament,</p>{$signature}',
+      'emails.editorAssignProduction.body' => '<p>Benvolgut/uda {$recipientName},</p><p>Se li ha assignat la següent tramesa perquè coordini la seva fase de producció.</p><p><a href="{$submissionUrl}">{$submissionTitle}</a><br />{$authors}</p><p><b>Resum</b></p>{$submissionAbstract}<p>Iniciï sessió per a <a href="{$submissionUrl}">veure la tramesa</a>. Quan estiguin disponibles els arxius de producció carregui\'ls en la secció <strong>Publicació > Galerades</strong>. Després programi el treball per a la seva publicació fent clic en el botó <strong>Programar per a publicació</strong>.</p><p>Gràcies per endavant.</p><p>Atentament,</p>{$signature}',
+      'emails.reviewRequest.subject' => 'Invitació de revisió',
+      'emails.reviewRequest.body' => '<p>Benvolgut/uda {$recipientName},</p><p>Creiem que seria un excel·lent revisor/a per a la tramesa a {$contextName}. El títol i el resum de la tramesa es troben a continuació, espero que consideri assumir aquesta tasca tan important per a nosaltres.</p><p>Si pot revisar aquesta tramesa, hauria de retornar-nos la seva revisió abans del {$reviewDueDate}. Pot veure la tramesa, carregar els arxius de revisió i enviar-nos la seva revisió iniciant sessió en el lloc de la revista i seguint els passos del següent enllaç.</p><p><a href="{$reviewAssignmentUrl}">{$submissionTitle}</a></p><p><b>Resum</b></p>{$submissionAbstract}<p>Si us plau, <a href="{$reviewAssignmentUrl}">accepti o rebutgi</a> la revisió abans del <b>{$responseDueDate}</b>.</p><p>Pot posar-se en contacte amb nosaltres si té alguna pregunta sobre la tramesa o el procés de revisió.</p><p>Gràcies per considerar aquesta sol·licitud. Apreciem molt la seva ajuda.</p><p>Atentament,</p>{$signature}',
+      'emails.reviewResponseOverdueAuto.subject' => 'Podreu fer-vos càrrec de la revisió?',
+      'emails.reviewResponseOverdueAuto.body' => '<p>Benvolgut/uda {$recipientName},</p><p>Aquest correu electrònic és un recordatori automàtic de {$contextName} en relació amb la nostra sol·licitud de revisió de la tramesa "{$submissionTitle}".</p><p>El motiu d\'aquest correu electrònic és que encara no hem rebut la confirmació de si pot dur a terme la revisió d\'aquesta tramesa.</p><p>Si us plau, faci\'ns saber la seva decisió mitjançant el nostre programari de gestió de trameses, acceptant o rebutjant aquesta sol·licitud.</p><p>Si pot revisar aquesta tramesa, hauria de retornar-nos la seva revisió abans del {$reviewDueDate}. Pot seguir els passos de revisió per a veure la tramesa, carregar arxius de revisió i enviar els seus comentaris de revisió.</p><p>{$submissionTitle}</p><p><b>Resum</b></p>{$submissionAbstract}<p>No dubti a posar-se en contacte amb nosaltres si té alguna pregunta sobre la tramesa o el procés de revisió.</p><p>Gràcies per considerar aquesta sol·licitud. Apreciem molt la seva ajuda.</p><p>Atentament,</p>{$contextSignature}',
+      'emails.reviewRequestSubsequent.subject' => 'Sol·licitud per revisar una tramesa ja revisada',
+      'emails.reviewRequestSubsequent.body' => '<p>Benvolgut/uda {$recipientName},</p><p>Li agraïm la seva revisió de <a href="{$reviewAssignmentUrl}">{$submissionTitle}</a>. Els autors/es han tingut en compte els comentaris dels revisors/es i han enviat una versió revisada del seu treball. Li escric per a preguntar-li si podria realitzar una segona ronda de revisió per parells d\'aquesta tramesa.</p><p>Si està disponible per a revisar aquesta tramesa, hauria de retornar-nos la seva revisió abans del {$reviewDueDate}. Pot <a href="{$reviewAssignmentUrl}">seguir els passos de revisió</a> per a veure la tramesa, carregar arxius de revisió i enviar els seus comentaris de revisió.</p><p><a href="{$reviewAssignmentUrl}">{$submissionTitle}</a></p><p><b>Resum</b></p>{$submissionAbstract}<p>Si us plau, <a href="{$reviewAssignmentUrl}">accepti o rebutgi</a> la revisió abans del <b>{$responseDueDate}</b>.</p><p>No dubti a posar-se en contacte amb nosaltres si té alguna pregunta sobre la tramesa o el procés de revisió.</p><p>Gràcies per considerar aquesta sol·licitud. Apreciem molt la seva ajuda.</p><p>Atentament,</p>{$signature}',
+      'emails.reviewCancel.subject' => 'Sol·licitud de revisió cancel·lada',
+      'emails.reviewCancel.body' => '<p>Benvolgut/uda {$recipientName},</p><p>Recentment, li hem demanat que revisés una tramesa per a {$contextName}. Hem decidit cancel·lar la sol·licitud perquè revisi l\'article, {$submissionTitle}.</p><p>Lamentem qualsevol inconvenient que això pugui causar-li i esperem poder comptar amb la seva ajuda en el futur per al procés de revisió d\'aquesta revista.</p><p>Si té alguna pregunta, si us plau contacti\'m.</p>{$signature}',
+      'emails.reviewReinstate.subject' => 'Encara podeu fer revisions per a {$contextName}?',
+      'emails.reviewReinstate.body' => '<p>Benvolgut/uda {$recipientName},</p><p>Recentment hem cancel·lat la nostra sol·licitud perquè revisés la tramesa, {$submissionTitle}, per a {$contextName}. Hem revertit aquesta decisió i esperem que encara pugui dur a terme la revisió.</p><p>Si pot ajudar amb la revisió d\'aquest article, pot <a href="{$reviewAssignmentUrl}">iniciar sessió a la revista</a> per a veure la tramesa, carregar arxius de revisió i enviar la seva sol·licitud de revisió.</p><p>Si té alguna pregunta, si us plau contacti\'m.</p><p>Atentament,</p>{$signature}',
+      'emails.reviewDecline.subject' => 'Rebutjo la revisió',
+      'emails.reviewDecline.body' => 'Benvolgut/uda {$recipientName},<br />
+<br />
+Lamento comunicar-vos que en aquesta ocasió no em podré encarregar de la revisió de la tramesa &quot;{$submissionTitle}&quot; per a {$contextName}. Us agraeixo que m\'hàgiu tingut en compte i confio que ens tornem a posar en contacte en una altra ocasió.<br />
+<br />
+{$senderName}',
+      'emails.reviewRemind.subject' => 'Recordatori perquè completeu la revisió',
+      'emails.reviewRemind.body' => '<p>Benvolgut/uda {$recipientName},</p><p>Això és només un amable recordatori de la nostra sol·licitud de revisió de la tramesa "{$submissionTitle}" per a {$contextName}. Esperàvem rebre la revisió el {$reviewDueDate}, per la qual cosa ens complauria rebre-la tan aviat com sigui possible.</p><p>Pot <a href="{$reviewAssignmentUrl}">iniciar sessió a la revista</a> i seguir els passos de revisió per a veure l\'article, carregar arxius de revisió i enviar els seus comentaris.</p><p>Si necessita una pròrroga en la data límit, posi\'s en contacte amb nosaltres. Espero tenir notícies seves ben aviat.</p><p>Moltes gràcies i cordials salutacions,</p>{$signature}',
+      'emails.reviewRemindAuto.subject' => 'Recordatori perquè completeu la revisió',
+      'emails.reviewRemindAuto.body' => '<p>Benvolgut/uda {$recipientName}:</p><p>Aquest correu electrònic és un recordatori automàtic de {$contextName} en relació amb la nostra sol·licitud de revisió de la tramesa "{$submissionTitle}".</p><p>Esperàvem disposar d\'aquesta revisió el {$reviewDueDate} i ens complauria rebre-la tan aviat com sigui possible.</p><p>Si us plau, <a href="{$reviewAssignmentUrl}">iniciï sessió en la revista</a> i segueixi els passos de revisió per a veure l\'article, carregar arxius de revisió i enviar els seus comentaris de revisió.</p><p>Si necessita una extensió de la data límit, posi\'s en contacte amb nosaltres. Espero tenir notícies seves ben aviat.</p><p>Moltes gràcies i salutacions cordials,</p>{$contextSignature}',
+      'emails.editorDecisionAccept.subject' => 'La vostra tramesa a {$contextName} ha estat acceptada',
+      'emails.editorDecisionAccept.body' => '<p>Benvolgut/uda {$recipientName},</p><p>Ens complau informar-lo que hem decidit acceptar la seva tramesa sense necessitat de realitzar més revisions. Després d\'una minuciosa revisió li confirmem que el seu article "{$submissionTitle}" compleix o supera les nostres expectatives. Estem entusiasmats per publicar el seu treball en {$contextName} i li agraïm que hagi triat la nostra revista.</p><p>La seva tramesa es publicarà en un número futur de {$contextName}, li convidem a incloure-ho en la seva llista de publicacions. Reconeixem el difícil treball que comporta cada tramesa reeixida, així que volem felicitar-lo per haver aconseguit aquesta fase.</p><p>Ara la seva tramesa serà sotmesa a edició i formateig per a preparar-la per a la seva publicació.</p><p>Aviat rebrà més instruccions.</p><p>Si té alguna pregunta, posi\'s en contacte amb nosaltres a través del panell <a href="{$authorSubmissionUrl}"> d\'enviament</a>.</p><p>Atentament,</p>{$signature}',
+      'emails.editorDecisionSkipReview.subject' => 'La vostra tramesa ha estat enviada a correcció',
+      'emails.editorDecisionSkipReview.body' => '<p>Benvolgut/uda {$recipientName},</p>
+<p>Em complau informar-lo que hem decidit acceptar la seva tramesa sense passar per la fase de revisió per parells. Li confirmem que la seva tramesa "{$submissionTitle}" compleix amb les nostres expectatives, per la qual cosa no necessitem que aquest tipus de treball passi per la fase de revisió per parells. Estem emocionats per publicar el seu treball en {$contextName} i li agraïm que hagi triat la nostra revista per publicar el seu treball.</p>
+<p>La seva tramesa es publicarà en un número futur de {$contextName}, així que li convidem a incloure-ho en la seva llista de publicacions. Reconeixem el treball que implica cada tramesa reeixida i volem felicitar-lo pels seus esforços.</p>
+<p>Ara el seu enviament passarà a edició i formateig per a la seva posterior publicació. </p>
+<p>En breu rebrà més instruccions.</p>
+<p>Si té alguna pregunta, posi\'s en contacte amb nosaltres a través del seu <a href="{$authorSubmissionUrl}">panell d\'enviaments</a>.</p>
+<p>Atentament,</p>
+<p>{$signature}</p>
+',
+      'emails.layoutRequest.subject' => 'La tramesa {$submissionId} està llesta per a producció a {$contextAcronym}',
+      'emails.layoutRequest.body' => '{$recipientName}:<br />
+<br />
+Us demanem que us encarregueu de preparar les galerades de la tramesa &quot;{$submissionTitle}&quot; per a {$contextName} seguint els passos següents:<br />
+1. Feu clic a l\'URL de la tramesa que trobareu més avall en aquest missatge.<br />
+2. Inicieu la sessió a la revista i utilitzeu els arxius llestos per a producció per crear les galerades d\'acord amb els estàndards de la revista.<br />
+3. Carregueu les galerades en la secció d\'arxius de galerada.<br />
+4. Notifiqueu a l\'editor/a a través de les discussions de producció que les galerades ja estan preparades i carregades.<br />
+<br />
+{$contextName} URL: {$contextUrl}<br />
+URL de la tramesa: {$submissionUrl}<br />
+Nom d\'ausuari/ària: {$recipientUsername}<br />
+<br />
+Si no esteu disponible per dur a terme aquesta tasca o si teniu cap pregunta, no dubteu a contactar-me. Gràcies per la vostra contribució a aquesta revista.',
+      'emails.layoutComplete.subject' => 'Galerades completades',
+      'emails.layoutComplete.body' => 'Benvolgut/uda {$recipientName},<br />
+<br />
+Ja he preparat les galerades del manuscrit &quot;{$submissionTitle}&quot; per a {$contextName}. Així, doncs, ja estan a punt per a entrar en el procés de correcció de proves.<br />
+<br />
+Si teniu qualsevol consulta, no dubteu a fer-me-la arribar.<br />
+<br />
+{$senderName}',
+      'emails.emailLink.subject' => 'Article que us pot interessar',
+      'emails.emailLink.body' => 'Considero que us pot interessar llegir l\'article &quot;{$submissionTitle}&quot; de {$authors} publicat en el volum {$volume}, número {$number} ({$year}) de {$contextName}. El podeu consultar a &quot;{$submissionUrl}&quot;.',
+      'emails.emailLink.description' => 'Aquesta plantilla de missatge de correu electrònic ofereix als lectors registrats l\'oportunitat d\'enviar informació sobre un article a algú que hi pugui estar interessat. Aquesta plantilla està disponible a les eines de lectura si l\'administrador de la revista l\'ha habilitada a la pàgina d\'administració d\'aquestes eines.',
+      'emails.subscriptionNotify.subject' => 'Notificació de subscripció',
+      'emails.subscriptionNotify.body' => 'Benvolgut/uda {$recipientName},<br />
+<br />
+Us acabeu de registrar com a subscriptor del nostre sistema de gestió de revistes en línia per a {$contextName} amb la subscripció següent:<br />
+<br />
+{$subscriptionType}<br />
+<br />
+Per a accedir als continguts que només estan disponibles per als subscriptors, inicieu la sessió al sistema amb el vostre nom d\'usuari, &quot;{$recipientUsername}&quot;.<br />
+<br />
+Una vegada dins el sistema podreu canviar la contrasenya i els detalls del vostre perfil en qualsevol moment.<br />
+<br />
+Noteu que si disposeu d\'una subscripció institucional, els usuaris membres de la institució no hauran d\'iniciar la sessió, ja que el sistema autenticarà automàticament les sol·licituds d\'accés al contingut per a subscriptors.<br />
+<br />
+Si teniu qualsevol consulta, no dubteu a fer-me-la arribar.<br />
+<br />
+{$subscriptionSignature}',
+      'emails.openAccessNotify.subject' => 'Accés lliure: {$issueIdentification} de {$contextName} ara està disponible en accés obert',
+      'emails.openAccessNotify.body' => 'Benvolguts lectors/ores,<br />
+<br />
+{$contextName} acaba de publicar en format d\'accés obert el número següent. Us convidem a consultar-ne el sumari adjunt i a visitar el nostre lloc web ({$contextUrl}) per accedir als articles i elements que us interessin<br />
+<br />
+Us agraïm l\'interès en la nostra revista.<br />
+{$contextSignature}',
+      'emails.subscriptionBeforeExpiry.subject' => 'Avís de venciment de la subscripció',
+      'emails.subscriptionBeforeExpiry.body' => 'Benvolgut/uda {$recipientName},<br />
+<br />
+La vostra subscripció per a {$contextName} és a punt de vèncer.<br />
+<br />
+{$subscriptionType}<br />
+Data de venciment: {$expiryDate}<br />
+<br />
+Per a assegurar-vos que seguireu tenint accés a aquesta revista, entreu al lloc web i renoveu la vostra subscripció. Podeu iniciar la sessió al sistema amb el vostre nom d\'usuari, &quot;{$recipientUsername}&quot;.<br />
+<br />
+Si teniu cap consulta, no dubteu a fer-me-la arribar.<br />
+<br />
+{$subscriptionSignature}',
+      'emails.subscriptionAfterExpiry.subject' => 'La subscripció ha vençut',
+      'emails.subscriptionAfterExpiry.body' => 'Benvolgut/uda {$recipientName},<br />
+<br />
+La vostra subscripció per a {$contextName} ha vençut.<br />
+<br />
+{$subscriptionType}<br />
+Data de venciment: {$expiryDate}<br />
+<br />
+Per a renovar la subscripció, aneu al lloc web de la revista. Podeu iniciar la sessió al sistema amb el vostre nom d\'usuari, &quot;{$recipientUsername}&quot;.<br />
+<br />
+Si teniu qualsevol consulta, no dubteu a fer-me-la arribar.<br />
+<br />
+{$subscriptionSignature}',
+      'emails.subscriptionAfterExpiryLast.subject' => 'La subscripció ha vençut (últim recordatori)',
+      'emails.subscriptionAfterExpiryLast.body' => 'Benvolgut/uda {$recipientName},<br />
+<br />
+La vostra subscripció per a {$contextName} ha vençut.<br />
+Tingueu en compte que aquest missatge és el darrer recordatori que rebreu.<br />
+<br />
+{$subscriptionType}<br />
+Data de venciment: {$expiryDate}<br />
+<br />
+Per a renovar la subscripció, aneu al lloc web de la revista. Podeu iniciar la sessió al sistema amb el vostre nom d\'usuari, &quot;{$recipientUsername}&quot;.<br />
+<br />
+Si teniu qualsevol consulta, no dubteu a fer-me-la arribar.<br />
+<br />
+{$subscriptionSignature}',
+      'emails.subscriptionPurchaseIndl.subject' => 'Compra de subscripció: Individual',
+      'emails.subscriptionPurchaseIndl.body' => 'S\'ha adquirit en línia una subscripció individual per a {$contextName} amb els detalls següents.<br />
+<br />
+Tipus de subscripció:<br />
+{$subscriptionType}<br />
+<br />
+Usuari/ària:<br />
+{$subscriberDetails}<br />
+<br />
+Informació d\'afiliació (si s\'aporta):<br />
+{$membership}<br />
+<br />
+Per veure o editar aquesta subscripció feu servir el següent URL.<br />
+<br />
+URL de la subscripció: {$subscriptionUrl}<br />
+',
+      'emails.subscriptionPurchaseInstl.subject' => 'Compra de subscripció: Institucional',
+      'emails.subscriptionPurchaseInstl.body' => 'S\'ha adquirit en línia una subscripció institucional per a {$contextName} amb els detalls següents. Per activar aquesta subscripció feu servir l\'URL de subscripció proporcionat i ajusteu l\'estat a \'Actiu\'.<br />
+<br />
+Tipus de subscripció:<br />
+{$subscriptionType}<br />
+<br />
+Institució:<br />
+{$institutionName}<br />
+{$institutionMailingAddress}<br />
+<br />
+Domini (si s\'aporta):<br />
+{$domain}<br />
+<br />
+Rangs IP (si s\'aporten):<br />
+{$ipRanges}<br />
+<br />
+Persona de contacte:<br />
+{$subscriberDetails}<br />
+<br />
+Informació d\'afiliació (si s\'aporta):<br />
+{$membership}<br />
+<br />
+Per veure o editar aquesta subscripció feu servir el següent URL.<br />
+<br />
+URL de la subscripció: {$subscriptionUrl}<br />
+',
+      'emails.subscriptionRenewIndl.subject' => 'Renovació de la subscripció: Individual',
+      'emails.subscriptionRenewIndl.body' => 'S\'ha renovat en línia una subscripció individual per a {$contextName} amb els detalls següents.<br />
+<br />
+Tipus de subscripció:<br />
+{$subscriptionType}<br />
+<br />
+Usuari/ària:<br />
+{$subscriberDetails}<br />
+<br />
+Informació d\'afiliació (si s\'aporta):<br />
+{$membership}<br />
+<br />
+Per veure o editar aquesta subscripció feu servir el següent URL.<br />
+<br />
+URL de la subscripció: {$subscriptionUrl}<br />
+',
+      'emails.subscriptionRenewInstl.subject' => 'Renovació de subscripció: Institucional',
+      'emails.subscriptionRenewInstl.body' => 'S\'ha renovat en línia una subscripció institucional per a {$contextName} amb els detalls següents.<br />
+<br />
+Tipus de subscripció:<br />
+{$subscriptionType}<br />
+<br />
+Institució:<br />
+{$institutionName}<br />
+{$institutionMailingAddress}<br />
+<br />
+Domini (si s\'aporta):<br />
+{$domain}<br />
+<br />
+Rangs IP (si s\'aporten):<br />
+{$ipRanges}<br />
+<br />
+Persona de contacte:<br />
+{$subscriberDetails}<br />
+<br />
+Informació d\'afiliació (si s\'aporta):<br />
+{$membership}<br />
+<br />
+Per veure o editar aquesta subscripció feu servir el següent URL.<br />
+<br />
+URL de la subscripció: {$subscriptionUrl}<br />
+',
+      'emails.revisedVersionNotify.subject' => 'Versió revisada carregada',
+      'emails.revisedVersionNotify.body' => '<p>Benvolgut/uda {$recipientName},</p><p>L\'autor/a ha carregat revisions per a la tramesa, <b>{$authorsShort} — {$submissionTitle}</b>.</p><p>Com a editor/a assignat, li sol·licitem que iniciï sessió, <a href="{$submissionUrl}">visualitzi les revisions</a> i prengui la decisió d\'acceptar, rebutjar o remetre la tramesa a una altra revisió.</p><br><br>—<br>Aquest és un missatge automàtic de <a href="{$contextUrl}">{$contextName}</a>.',
+      'emails.statisticsReportNotification.subject' => 'Activitat editorial per {$month}, {$year}',
+      'emails.statisticsReportNotification.body' => '
+{$recipientName}, <br />
+<br />
+Ja està disponible l\'informe de salut de la vostra revista per {$month}, {$year}. Les estadístiques clau d\'aquest mes son les següents.<br />
+<ul>
+	<li>Trameses noves aquest mes: {$newSubmissions}</li>
+	<li>Trameses rebutjades aquest mes: {$declinedSubmissions}</li>
+	<li>Trameses acceptades aquest mes: {$acceptedSubmissions}</li>
+	<li>Trameses totals en el sistema: {$totalSubmissions}</li>
+</ul>
+Inicieu sessió a la revista per veure les <a href="{$editorialStatsLink}">tendències editorials</a> i les <a href="{$publicationStatsLink}">estadístiques d\'articles publicats</a> amb més detall. S\'adjunta una còpia completa de les tendències editorials d\'aquest mes.<br />
+<br />
+Salutacions cordials,<br />
+{$contextSignature}',
+      'emails.announcement.subject' => '{$announcementTitle}',
+      'emails.announcement.body' => '<b>{$announcementTitle}</b><br />
+<br />
+{$announcementSummary}<br />
+<br />
+Visiteu el nostre lloc web per llegir <a href="{$announcementUrl}">l\'avís complet</a>.',
+      'emails.paymentRequestNotification.subject' => 'Notificació de sol·licitud de pagament',
+      'emails.paymentRequestNotification.body' => '<p>Benvolgut/uda {$recipientName},</p><p>El felicitem per l\'acceptació de la seva tramesa, {$submissionTitle}, en {$contextName}. Ara que ha estat acceptat, ens agradaria sol·licitar-li el pagament de la taxa de publicació.</p><p>Aquesta taxa cobreix els costos de producció per a la seva publicació. Per a realitzar el pagament, visiti <a href="{$queuedPaymentUrl}">{$queuedPaymentUrl}</a>.</p><p>Si té alguna pregunta consulti les nostres <a href="{$submissionGuidelinesUrl}">directrius d\'enviament</a>.</p>',
+      'emails.paymentRequestNotification.footer' => '<br><br>—<br>Aquest és un missatge automàtic de <a href="{$contextUrl}">{$*contextName}</a>.',
+    ),
+  ),
+);

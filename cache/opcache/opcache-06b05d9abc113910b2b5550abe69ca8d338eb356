@@ -1,0 +1,26 @@
+<?php $exp = 1751345595; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.googleAnalytics.displayName' => 'Módulo de Google Analytics',
+      'plugins.generic.googleAnalytics.description' => 'Integre OJS con Google Analytics, el sistema de análisis de tráfico web de Google. Requiere una cuenta previa creada en Google Analytics. Vea la página de <a href="http://www.google.com/analytics/" title="Google Analytics site">Google Analytics </a> para más información.',
+      'plugins.generic.googleAnalytics.manager.settings' => 'Opciones',
+      'plugins.generic.googleAnalytics.manager.googleAnalyticsSettings' => 'Opciones de Google Analytics',
+      'plugins.generic.googleAnalytics.manager.settings.description' => '<p>Con este módulo activo puede usar Google Analytics 3 para recopilar y analizar datos sobre uso y tráfico del sitio web. Este módulo requiere que haya configurado previamente una cuenta en Google Analytics. Visite el sitio de <a href="http://www.google.com/analytics/" title="Google Analytics site">Google Analytics</a> para obtener más información.</p><p> Tenga en cuenta que Google Analytics puede necesitar hasta 24 horas antes de que las estadísticas sean recopiladas y registradas. Durante este periodo, la función \'Comprobar estado\' puede que no informe con exactitud si ha detectado el código de seguimiento requerido.</p>
+<p><strong>IMPORTANTE:</strong>Google Analytics 3 dejará de funcionar el 1 se Julio de 2023.</p>',
+      'plugins.generic.googleAnalytics.manager.settings.googleAnalyticsSiteId' => 'Número de cuenta',
+      'plugins.generic.googleAnalytics.manager.settings.googleAnalyticsSiteIdInstructions' => 'En Google Analytics, pulse sobre "Check Status" para ver el código de seguimiento de su página. El número de cuenta aparece en el código de seguimiento: _uacct = "###". Introduzca los caracteres que corresponden a ###.',
+      'plugins.generic.googleAnalytics.manager.settings.googleAnalyticsSiteIdRequired' => 'Por favor, introduzca un número de cuenta.',
+      'plugins.generic.googleAnalytics.manager.settings.trackingCode' => 'Código de seguimiento',
+      'plugins.generic.googleAnalytics.manager.settings.trackingCodeRequired' => 'Por favor seleccione un código de seguimiento a utilizar.',
+      'plugins.generic.googleAnalytics.manager.settings.urchin' => 'Código de seguimiento legado (urchin.js)',
+      'plugins.generic.googleAnalytics.manager.settings.ga' => 'Código de seguimiento nuevo (ga.js)',
+      'plugins.generic.googleAnalytics.authorAccount' => 'Número de cuenta de Google Analytics',
+      'plugins.generic.googleAnalytics.authorAccountInvalid' => 'Uno o más números de cuenta de Google Analytics introducidos para presentaciones de autores no son válidos.',
+      'plugins.generic.googleAnalytics.authorAccount.description' => 'Para realizar el seguimiento del número de lectores de los artículos publicados a través de Google Analytics, introduzca un número de cuenta (por ejemplo, UA-xxxxxx-x).',
+    ),
+  ),
+);

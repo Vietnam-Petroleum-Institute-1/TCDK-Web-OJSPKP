@@ -1,0 +1,27 @@
+<?php $exp = 1751345599; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=1; plural=0;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.themes.default.name' => '默认主题',
+      'plugins.themes.default.description' => '此主题为默认主题。',
+      'plugins.themes.default.option.typography.label' => '排版',
+      'plugins.themes.default.option.typography.description' => '选择适合此期刊的字体组合。',
+      'plugins.themes.default.option.typography.notoSans' => 'Noto Sans：由Google设计的数字原生字体，可提供广泛的语言支持。',
+      'plugins.themes.default.option.typography.notoSerif' => 'Noto Serif：Google数字原生字体的 serif 变体。',
+      'plugins.themes.default.option.typography.notoSerif_notoSans' => 'Noto Serif / Noto Sans：与衬线标题和无衬线正文文本互补的完美组合。',
+      'plugins.themes.default.option.typography.notoSans_notoSerif' => 'Noto Sans / Noto Serif：与 sans-serif 标题和衬线体文本的完美组合。',
+      'plugins.themes.default.option.typography.lato' => 'Lato：一种流行的现代无衬线字体。',
+      'plugins.themes.default.option.typography.lora' => 'Lora：广泛使用的衬线字体，非常适合在线阅读。',
+      'plugins.themes.default.option.typography.lora_openSans' => 'Lora / Open Sans：与衬线标题和无衬线正文文本完美组合。',
+      'plugins.themes.default.option.colour.label' => '配色',
+      'plugins.themes.default.option.colour.description' => '选择标题的颜色。',
+      'plugins.themes.default.option.showDescriptionInJournalIndex.option' => '在主页上显示期刊简介。',
+      'plugins.themes.default.option.useHomepageImageAsHeader.label' => '标头背景图片',
+      'plugins.themes.default.option.useHomepageImageAsHeader.description' => '上传首页图片后，将其显示在标头的背景中，而不是首页上的通常位置。',
+      'plugins.themes.default.option.useHomepageImageAsHeader.option' => '将首页图像显示为标头背景。',
+    ),
+  ),
+);

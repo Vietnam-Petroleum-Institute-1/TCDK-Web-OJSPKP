@@ -1,0 +1,12 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.htmlArticleGalley.displayName' => 'Plik artykułu HTML',
+      'plugins.generic.htmlArticleGalley.description' => 'Wtyczka umożliwia wsparcie dla plików artykułów w formacie HTML.',
+    ),
+  ),
+);

@@ -1,0 +1,12 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n > 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.usageEvent.displayName' => 'Օգտագործման իրադարձություն',
+      'plugins.generic.usageEvent.description' => 'Ստեղծում է կեռիկ, որն ապահովում է օգտագործման իրադարձությունը սահմանված ձևաչափով:',
+    ),
+  ),
+);

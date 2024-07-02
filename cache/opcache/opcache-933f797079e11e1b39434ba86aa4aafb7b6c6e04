@@ -1,0 +1,18 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.googleAnalytics.displayName' => 'Google Analytics-plugin',
+      'plugins.generic.googleAnalytics.description' => 'Koppla ihop OJS med Google Analytics, Googles tjänst för analys av trafik på webbsidor. Kräver att du redan har konfigurerat ett Google Analytics-konto. Se <a href="http://www.google.com/analytics/" title="Google Analytics webbsida">Google Analytics webbsida</a> för mer information.',
+      'plugins.generic.googleAnalytics.manager.settings.description' => '<p>När detta plugin är aktivt kan Google Analytics användas för att samla in och analysera webbplatsens trafik. Notera att detta plugin kräver att du redan har konfigurerat ett Google Analytics-konto. Se <a href="http://www.google.com/analytics/" title="Google Analytics webbplats">Google Analytics webbplats</a> för mer information.</p><p>Observera att det kan ta upp till 24 timmar innan Google Analytics har samlat in och rapporterat tillbaka statistik. Under denna period kan det hända att funktionen \'Kontrollera status\' rapporterar felaktigt om den hittat den nödvändiga koden för spårning.</p>',
+      'plugins.generic.googleAnalytics.manager.settings.googleAnalyticsSiteId' => 'Egendomsnummer',
+      'plugins.generic.googleAnalytics.manager.settings.googleAnalyticsSiteIdRequired' => 'Ange egendomsnummer.',
+      'plugins.generic.googleAnalytics.authorAccount' => 'Google Analytics egendomsnummer',
+      'plugins.generic.googleAnalytics.authorAccount.description' => 'För att spåra läsning av publicerade artiklar med hjälp av Google Analytics, ange egendomsnummer här (ex. UA-xxxxxx-x).',
+      'plugins.generic.googleAnalytics.authorAccountInvalid' => 'Ett eller flera egendomsnummer som angivits är inte giltiga.',
+    ),
+  ),
+);

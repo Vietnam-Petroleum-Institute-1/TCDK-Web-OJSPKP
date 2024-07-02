@@ -1,0 +1,12 @@
+<?php $exp = 1751345599; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.dublinCoreMeta.name' => 'Dublin Core indeksli plagin',
+      'plugins.generic.dublinCoreMeta.description' => 'Ushbu plagin Dublin Core meta teglarini indeksatsiya qilish uchun maqola ko\'rinishlariga joylashtiradi.',
+    ),
+  ),
+);

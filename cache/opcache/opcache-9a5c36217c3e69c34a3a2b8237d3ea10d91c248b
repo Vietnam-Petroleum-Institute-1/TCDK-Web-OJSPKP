@@ -1,0 +1,22 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.announcementfeed.displayName' => 'Plugin pre poskytovanie oznámení o novinkách',
+      'plugins.generic.announcementfeed.description' => 'Tento plugin vytvára RSS/Atom web syndikáciu noviniek na stránkach časopisu.',
+      'plugins.generic.announcementfeed.settings' => 'Nastavenie',
+      'plugins.generic.announcementfeed.settings.all' => 'Zobraziť odkazy na oznámenia na všetkých stránkach časopisu.',
+      'plugins.generic.announcementfeed.settings.homepage' => 'Zobraziť odkazy na oznámenie iba na úvodnej stránke a stránke noviniek.',
+      'plugins.generic.announcementfeed.settings.announcement' => 'Zobraziť odkazy na oznámenie iba na stránke noviniek.',
+      'plugins.generic.announcementfeed.settings.recentAnnouncements1' => 'Obmedziť oznámenia na',
+      'plugins.generic.announcementfeed.settings.recentAnnouncements2' => 'posledné novinky.',
+      'plugins.generic.announcementfeed.settings.recentItemsRequired' => 'Vložte prosím celé kladné číslo pre počet posledných noviniek.',
+      'plugins.generic.announcementfeed.atom.altText' => 'Atom logo',
+      'plugins.generic.announcementfeed.rss1.altText' => 'RSS1 logo',
+      'plugins.generic.announcementfeed.rss2.altText' => 'RSS2 logo',
+    ),
+  ),
+);

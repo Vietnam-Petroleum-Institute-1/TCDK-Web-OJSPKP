@@ -1,0 +1,27 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.themes.default.name' => 'Standaard stijl',
+      'plugins.themes.default.description' => 'Deze stijl is de standaard weergave.',
+      'plugins.themes.default.option.typography.label' => 'Lettertype',
+      'plugins.themes.default.option.typography.description' => 'Kies een combinatie van fonts voor het tijdschrift.',
+      'plugins.themes.default.option.typography.notoSans' => 'Noto Sans: een zuiver digitale font, ontworpen door Google, met uitgebreide dekking van talen.',
+      'plugins.themes.default.option.typography.notoSerif' => 'Noto Serif: een serif variant van Google\'s zuiver digitale font.',
+      'plugins.themes.default.option.typography.notoSerif_notoSans' => 'Noto Serif/Noto Sans: een combinatie van serif voor titels en sans-serif voor lopende tekst.',
+      'plugins.themes.default.option.typography.notoSans_notoSerif' => 'Noto Sans/Noto Serif: een combinatie van sans-serif voor titels en serif voor lopende tekst.',
+      'plugins.themes.default.option.typography.lato' => 'Lato: een populaire moderne sans-serif font.',
+      'plugins.themes.default.option.typography.lora' => 'Lora: een brede serif font die makkelijk leesbaar is online.',
+      'plugins.themes.default.option.typography.lora_openSans' => 'Lora/Open Sans: een combinatie van serif voor titels en sans-serif voor lopende tekst.',
+      'plugins.themes.default.option.colour.label' => 'Kleur',
+      'plugins.themes.default.option.colour.description' => 'Kies een kleur voor de header.',
+      'plugins.themes.default.option.showDescriptionInJournalIndex.option' => 'Toon de samenvatting van het tijdschrift op de startpagina.',
+      'plugins.themes.default.option.useHomepageImageAsHeader.label' => 'Achtergrondafbeelding header',
+      'plugins.themes.default.option.useHomepageImageAsHeader.description' => 'Als een startpagina-afbeelding is geüpload, toon deze dan op de achtergrond van de header in plaats van op de gebruikelijke positie op de startpagina.',
+      'plugins.themes.default.option.useHomepageImageAsHeader.option' => 'Toon de startpagina-afbeelding als achtergrond van de header.',
+    ),
+  ),
+);

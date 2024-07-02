@@ -1,0 +1,12 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n==1 || n%10==1 ? 0 : 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.googleScholar.description' => 'Овој плагин овозможува индексирање на објавената содржина во Google Scholar.',
+      'plugins.generic.googleScholar.name' => 'Плагин за индексирање на Google Scholar',
+    ),
+  ),
+);

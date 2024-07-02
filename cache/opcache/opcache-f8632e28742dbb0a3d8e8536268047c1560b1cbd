@@ -1,0 +1,15 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.recommendBySimilarity.displayName' => 'მოდული „რეკომენდებული მსგავსი სტატიები“',
+      'plugins.generic.recommendBySimilarity.description' => 'ამატებს მსგავსი სტატიების სიას მიმდინარე სტატიის ანოტაციის გვერდზე.',
+      'plugins.generic.recommendBySimilarity.heading' => 'მსგავსი სტატიები',
+      'plugins.generic.recommendBySimilarity.advancedSearchIntro' => 'თქვენ ასევე შეგიძლიათ {$advancedSearchLink} ამ სტატიისათვის.',
+      'plugins.generic.recommendBySimilarity.advancedSearch' => 'მსგავსი სტატიების გაფართოებული ძიების დაწყება',
+    ),
+  ),
+);

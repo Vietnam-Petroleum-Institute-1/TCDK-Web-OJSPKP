@@ -1,0 +1,64 @@
+<?php $exp = 1751345594; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.importexport.crossref.displayName' => 'Crossref XML Eksport-plugin',
+      'plugins.importexport.crossref.description' => 'Eksportér artikelmetadata i Crossref XML format.',
+      'plugins.importexport.crossref.cliUsage' => 'Brug: 
+{$scriptName} {$pluginName} export [xmlFileName] [journal_path] articles objectId1 [objectId2] ...
+{$scriptName} {$pluginName} register [journal_path] articles objectId1 [objectId2] ...
+',
+      'plugins.importexport.crossref.export.error.issueNotFound' => 'Intet nummer matchede det specificerede nummer-ID "{$issueId}".',
+      'plugins.importexport.crossref.export.error.articleNotFound' => 'Ingen artikel matchede det specificerede artikel ID "{$articleId}".',
+      'plugins.importexport.crossref.requirements' => 'Krav',
+      'plugins.importexport.crossref.requirements.satisfied' => 'Alle plugin-krav er opfyldt.',
+      'plugins.importexport.crossref.error.publisherNotConfigured' => 'Et tidsskriftsforlag mangler at blive indskrevet! Der skal tilføjes en forlæggerinstitution på <a href="{$journalSettingsUrl}" target="_blank">Konfigurationssiden</a>.',
+      'plugins.importexport.crossref.error.issnNotConfigured' => 'Et ISSN mangler at blive indskrevet! Der skal tilføjes et ISSN på the <a href="{$journalSettingsUrl}" target="_blank">Konfigurationssiden</a>.',
+      'plugins.importexport.crossref.error.noDOIContentObjects' => 'Der er ikke valgt artikler i forbindelse med DOI-tildeling under DOI public indentifier-pluginen, så der er ingen deponerings- eller eksportmuligheder i dette plugin.',
+      'plugins.importexport.crossref.settings.depositorIntro' => 'Følgende elementer er påkrævet for at foretage en Crossref-deponering.',
+      'plugins.importexport.crossref.settings.form.depositorName' => 'Deponents navn',
+      'plugins.importexport.crossref.settings.form.depositorEmail' => 'Deponents e-mail',
+      'plugins.importexport.crossref.settings.form.depositorNameRequired' => 'Indsæt deponentnavn.',
+      'plugins.importexport.crossref.settings.form.depositorEmailRequired' => 'Indsæt deponent-e-mail.',
+      'plugins.importexport.crossref.registrationIntro' => '<p>Hvis du ønsker at anvende dette plugin til direkte registrering af Digital Object Identifiers (DOI\'er) hos <a href="http://www.crossref.org/">Crossref</a>, skal du tilføje dit <a href="https://www.crossref.org/documentation/member-setup/account-credentials/">Crossref kontooplysninger</a> i felterne til brugernavn og kodeord nedenfor.</p><p>Alt afhængigt af dit Crossref medlemskab, er der to måder at indtaste dit brugernavn og kodeord på:</p><ul><li>Hvis du anvender en konto for en organisation, skal du indtaste dit <a href="https://www.crossref.org/documentation/member-setup/account-credentials/#00376">delte brugernavn og kodeord</a></li><li>Hvis du anvender en <a href="https://www.crossref.org/documentation/member-setup/account-credentials/#00368">personlig konto</a>, skal du indtaste din e-mailadresse og rolle i feltet til brugernavn. Brugernavnet vil se ud på følgende måde email@example.com/rolle</li><li>Hvis du ikke kender eller har adgang til dine Crossref kontooplysninger, kan du kontakte <a href="https://support.crossref.org/">Crossrefs support</a> for at få hjælp. Uden kontooplysninger kan du stadig eksportere metadata til Crossref XML formatet, men du kan ikke registrere dine DOI\'er hos Crossref direkte via OJS.</li></ul>',
+      'plugins.importexport.crossref.settings.form.username' => 'Brugernavn',
+      'plugins.importexport.crossref.settings.form.usernameRequired' => 'Indsæt det brugernavn du har fået udleveret fra Crossref.',
+      'plugins.importexport.crossref.settings.form.automaticRegistration.description' => 'OJS vil automatisk deponere tildelte DOI\'er til Crossref. Bemærk, at der kan gå lidt tid mellem publicering og endelig færdigbehandling (fx afhængig af din konfigurering af cronjob). Du kan søge efter alle ikke-registrerede DOI\'er.',
+      'plugins.importexport.crossref.settings.form.testMode.description' => 'Brug Crossref test-API (testmiljø) til DOI-deponeringen. Glem ikke at fjerne denne mulighed i forbindelse med produktionen.',
+      'plugins.importexport.crossref.issues.description' => 'Bemærk: Kun numre (og ikke deres artikler) vil her blive taget i betragtning ved eksport/registrering.',
+      'plugins.importexport.crossref.status.failed' => 'Fejlet',
+      'plugins.importexport.crossref.status.registered' => 'Aktiv',
+      'plugins.importexport.crossref.status.markedRegistered' => 'Markeret aktiv',
+      'plugins.importexport.crossref.statusLegend' => '
+		<p>Indsendelsesstatus:</p>
+		<p>
+		- Ikke deponeret: ingen forsøg på indlevering er foretaget mht. denne DOI.<br />
+		- Aktiv: denne DOI er blevet indleveret og korrekt deponeret.<br />
+		- Fejlet: denne DOI-indlevering fejlede.<br />
+		- Markeret aktiv: denne DOI blev manuelt markeret som værende aktiv. 
+		</p>
+		<p>Det er kun status for de seneste indsendelsesforsøg der er registreret.</p>
+		<p>Hvis der er sket en fejldeponering, bedes du løse problemet og foretage et nyt registreringsforsøg.</p>',
+      'plugins.importexport.crossref.action.markRegistered' => 'Markér aktiv',
+      'plugins.importexport.crossref.senderTask.name' => 'Crossrefs automatiske registreringsfunktion',
+      'plugins.importexport.crossref.action.export' => 'Eksport',
+      'plugins.importexport.crossref.register.success.warning' => 'Registreringen var vellykket, men følgende advarsel fremkom: \'{$param}\'.',
+      'plugins.importexport.crossref.register.error.mdsError' => 'Registrering var ikke fuldt ud vellykket! DOI-registreringsserveren returnerede en fejl.',
+      'plugins.importexport.crossref.action.register' => 'Deponér',
+      'plugins.importexport.crossref.settings.form.validation' => 'Validér XML. Brug denne mulighed ved XML-download til den manuelle DOI-registrering.',
+      'plugins.importexport.crossref.settings.form.onlyValidateExport' => 'Validér kun eksport. Download ikke filen.',
+      'plugins.generic.crossref.registrationAgency.name' => 'Crossref',
+      'plugins.importexport.crossref.status.notDeposited' => 'Ikke deponeret',
+      'plugins.importexport.crossref.settings' => 'Crossref indstillinger',
+      'plugins.generic.crossref.description' => 'Håndterer deponering og eksport af Crossref metadata',
+      'plugins.generic.crossref.displayName' => 'Crossref Manager Plugin',
+      'plugins.importexport.crossref.settings.form.depositorName.description' => 'Navnet på den organisation, der registrerer DOI\'erne. Dette inkluderes i de deponerede metadata og bruges til at betegne hvem, der indsendte deponeringen.',
+      'plugins.importexport.crossref.settings.form.depositorEmail.description' => 'E-mail adressen på den person, der er ansvarlig for at registrere indhold hos Crossref. Denne inkluderes i de deponerede metadata og bruges til at sende en e-mail med bekræftelse på deponeringen.',
+      'plugins.importexport.crossref.settings.form.username.description' => 'Crossref brugernavnet, der vil blive anvendt til at autentificere dine deponeringer. Hvis du bruger en personlig konto, bedes du læse rådet ovenfor.',
+      'plugins.generic.crossref.successMessage' => 'Metadata for dette element er blevet deponeret hos Crossref. For at se yderligere detaljer, bedes du finde indsendelsen i <a href="https://doi.crossref.org/servlet/submissionAdmin?sf=detail&submissionID={$submissionId}">Crossref admin panelet</a>.',
+    ),
+  ),
+);

@@ -1,0 +1,21 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.tinymce.name' => 'Плагін TinyMCE',
+      'plugins.generic.tinymce.description' => 'Цей плагін робить можливим візуальне редагування (WYSIWYG) текстових полів із використанням редактора контента <a href="https://www.tiny.cloud" target="_blank">TinyMCE</a>.',
+      'plugins.generic.tinymce.settings' => 'Налаштування',
+      'plugins.generic.tinymce.pkpTags.listTags' => 'Обрати тег',
+      'plugins.generic.tinymce.pkpTags.noneAvailable' => 'Немає тегів, доступних для цього поля.',
+      'plugins.generic.tinymce.pkpTags.description' => 'Ви можете вставити будь-який із таких тегів:',
+      'plugins.generic.tinymce.variables.principalContactName' => 'Ім\'я основного представника ("{$value}")',
+      'plugins.generic.tinymce.variables.principalContactEmail' => 'Електронна пошта основного представника ("{$value}")',
+      'plugins.generic.tinymce.variables.supportContactName' => 'Ім\'я представника технічної підтримки ("{$value}")',
+      'plugins.generic.tinymce.variables.supportContactEmail' => 'Електронна пошта представника технічної підтримки ("{$value}")',
+      'plugins.generic.tinymce.variables.supportContactPhone' => 'Телефон представника технічної підтримки ("{$value}")',
+    ),
+  ),
+);

@@ -1,0 +1,54 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.importexport.crossref.action.register' => 'Depozit',
+      'plugins.importexport.crossref.status.markedRegistered' => 'Marcat activ',
+      'plugins.importexport.crossref.status.registered' => 'Activ',
+      'plugins.importexport.crossref.status.failed' => 'Eșuare',
+      'plugins.importexport.crossref.issues.description' => 'Notă: Numai numerele (și nu articolele conținute) vor fi luate în considerare pentru export / înregistrare aici.',
+      'plugins.importexport.crossref.settings.form.validation' => 'Validați XML ul. Utilizați această opțiune pentru  XML descărcat, pentru înregistrarea manuală DOI.',
+      'plugins.importexport.crossref.settings.form.testMode.description' => 'Utilizați API-ul de testare Crossref (mediu de testare) pentru depunerea DOI. Vă rugăm să nu uitați să eliminați această opțiune pentru producție.',
+      'plugins.importexport.crossref.settings.form.automaticRegistration.description' => 'OJS va depune DOI alocate automat la Crossref. Vă rugăm să rețineți că este posibil să dureze un timp scurt după publicare (de exemplu, în funcție de configurația cronjob). Puteți verifica toate DOI-urile neînregistrate.',
+      'plugins.importexport.crossref.settings.form.usernameRequired' => 'Vă rugăm să introduceți numele de utilizator pe care l-ați primit de la Crossref.',
+      'plugins.importexport.crossref.settings.form.username' => 'Nume de utilizator',
+      'plugins.importexport.crossref.registrationIntro' => 'Dacă doriți să utilizați acest plugin pentru a înregistra identificatorii de obiecte digitale (DOI) direct cu Crossref, veți avea nevoie de un nume de utilizator și o parolă (disponibile la <a href="http://www.crossref.org" target="_blank">Crossref</a>). Dacă nu aveți propriul nume de utilizator și parolă, puteți să exportați în formatul XML Crossref, dar nu puteți înregistra DOI-urile dvs. cu Crossref din OJS.',
+      'plugins.importexport.crossref.settings.form.depositorEmailRequired' => 'Vă rog să introduceți emailul depozitarului.',
+      'plugins.importexport.crossref.settings.form.depositorNameRequired' => 'Vă rog să introduceți numele depozitarului.',
+      'plugins.importexport.crossref.settings.form.depositorEmail' => 'Emailul depozitarului',
+      'plugins.importexport.crossref.settings.form.depositorName' => 'Numele depozitarului',
+      'plugins.importexport.crossref.settings.depositorIntro' => 'Următoarele elemente sunt necesare pentru un depozit Crossref de succes.',
+      'plugins.importexport.crossref.error.noDOIContentObjects' => 'Articolele nu sunt selectate pentru alocarea DOI în pluginul de identificare publică DOI, deci nu există nicio depunere sau posibilitate de export în acest plugin.',
+      'plugins.importexport.crossref.error.issnNotConfigured' => 'ISSN ul revistei nu a fost configurat. Este necesar să adăugați ISSN ul în Pagina de Setări pentru revistă <a href="{$journalSettingsUrl}" target="_blank"></a>.',
+      'plugins.importexport.crossref.error.publisherNotConfigured' => 'Editorul de jurnal nu a fost configurat! Este necesar să adăugați o instituție în Pagina de setări pentru revistă <a href="{$journalSettingsUrl}" target="_blank"></a>.',
+      'plugins.importexport.crossref.requirements.satisfied' => 'Toate cerințele pluginului sunt satisfăcute.',
+      'plugins.importexport.crossref.requirements' => 'Cerințe',
+      'plugins.importexport.crossref.description' => 'Exportare metadate articole în formatul XML pentru Crossref.',
+      'plugins.importexport.crossref.displayName' => 'Plugin pentru exportul fișierelor XML necesare Crossref',
+      'plugins.importexport.crossref.export.error.articleNotFound' => 'Nici un articol nu se potrivește cu ID de articol specificat "{$articleId}".',
+      'plugins.importexport.crossref.export.error.issueNotFound' => 'Nu se potrivește nici un număr cu ID de număr specificat "{$issueId}".',
+      'plugins.importexport.crossref.register.success.warning' => 'Înregistrarea a avut succes, dar a apărut următorul avertisment: \'{$param}\'.',
+      'plugins.importexport.crossref.register.error.mdsError' => 'Înregistrarea nu a fost pe deplin reușită! Serverul de înregistrare DOI a returnat o eroare.',
+      'plugins.importexport.crossref.cliUsage' => 'Întrebuințare:
+{$scriptName} {$pluginName} export [xmlFileName] [journal_path] articole objectId1 [objectId2] ...
+{$scriptName} {$pluginName} înregistrare [journal_path] articole objectId1 [objectId2] ...
+',
+      'plugins.importexport.crossref.senderTask.name' => 'Sarcină de înregistrare automată Crossref',
+      'plugins.importexport.crossref.action.markRegistered' => 'Marcați activ',
+      'plugins.importexport.crossref.action.export' => 'Descărcare XML',
+      'plugins.importexport.crossref.statusLegend' => '
+		<p>Status depunere:</p>
+		<p>
+		- Nu a fost depus: nu a fost încercată depunerea pentru acest DOI.<br />
+		- Activ: DOI a fost depus și se rezolvă corect.<br />
+		- Eșuat: depozitul DOI a eșuat.<br />
+		- Marcat activ: DOI a fost marcat manual ca activ.
+		</p>
+		<p>Este afișată doar starea ultimei încercări de depunere.</p>
+		<p>În cazul în care un depozit nu a reușit, rezolvați problema și încercați să înregistrați din nou DOI.</p>',
+    ),
+  ),
+);

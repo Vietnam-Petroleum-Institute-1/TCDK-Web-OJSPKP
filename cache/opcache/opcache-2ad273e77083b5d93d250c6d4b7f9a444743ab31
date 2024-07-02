@@ -1,0 +1,15 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.recommendBySimilarity.displayName' => '"Сунушталган окшош макалалар" модулу',
+      'plugins.generic.recommendBySimilarity.description' => 'Макаланын абстракттуу барагына окшош макалалардын тизмесин кошот.',
+      'plugins.generic.recommendBySimilarity.heading' => 'Окшош макалалар',
+      'plugins.generic.recommendBySimilarity.advancedSearchIntro' => 'Бул макала үчүн {$advancedSearchLink} да аласыз.',
+      'plugins.generic.recommendBySimilarity.advancedSearch' => 'окшош макалалар үчүн өркүндөтүлгөн издөө баштоо',
+    ),
+  ),
+);

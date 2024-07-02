@@ -1,0 +1,96 @@
+<?php $exp = 1751345595; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'emails.submissionAck.subject' => 'Käsikirjoituksesi on vastaanotettu',
+      'emails.submissionAck.body' => 'Hyvä {$recipientName},<br />
+<br />
+Kiitos käsikirjoituksen &quot;{$submissionTitle}&quot; lähettämisestä julkaisuun {$contextName}. Käyttämämme online-julkaisunhallintajärjestelmän avulla voitte seurata käsikirjoituksen etenemistä toimitusprosessissa kirjautumalla julkaisun verkkosivustolle:<br />
+<br />
+Käsikirjoituksen URL: {$submissionUrl}<br />
+Käyttäjätunnus: {$recipientUsername}<br />
+<br />
+Jos teillä on kysyttävää, otattehan yhteyttä minuun. Kiitos, että valitsitte tämän julkaisun työllenne.<br />
+<br />
+{$contextSignature}',
+      'emails.reviewAck.subject' => 'Artikkelin arviointi vastaanotettu',
+      'emails.reviewAck.body' => 'Hyvä {$recipientName},<br />
+<br />
+Kiitos käsikirjoituksen &quot;{$submissionTitle}&quot; arvioimisesta julkaisulle {$contextName}. Arvostamme panostanne julkaisemamme työn laadun hyväksi.',
+      'emails.editorDecisionSendToExternal.subject' => 'Toimittajan päätös',
+      'emails.editorDecisionSendToExternal.body' => 'Hyvä {$authors},<br />
+<br />
+Olemme tehneet päätöksen julkaisuun {$contextName} lähettämäänne käsikirjoitusta &quot;{$submissionTitle}&quot; koskien.<br />
+<br />
+Päätöksemme on: Lähetetään arvioitavaksi<br />
+<br />
+Käsikirjoituksen URL: {$submissionUrl}',
+      'emails.editorDecisionSendToProduction.subject' => 'Toimittajan päätös',
+      'emails.editorDecisionSendToProduction.body' => 'Hyvä {$authors},<br />
+<br />
+Käsikirjoituksenne &quot;{$submissionTitle},&quot; on nyt toimitettu ja lähetämme sen tuotantoon.<br />
+<br />
+Käsikirjoituksen URL: {$submissionUrl}',
+      'emails.editorDecisionRevisions.subject' => 'Toimittajan päätös',
+      'emails.editorDecisionRevisions.body' => 'Hyvä {$authors},<br />
+<br />
+Olemme tehneet päätöksen julkaisuun {$contextName} lähettämäänne käsikirjoitusta &quot;{$submissionTitle}&quot; koskien.<br />
+<br />
+Päätöksemme on: Vaatii korjauksia',
+      'emails.editorDecisionResubmit.subject' => 'Toimittajan päätös',
+      'emails.editorDecisionResubmit.body' => 'Hyvä {$authors},<br />
+<br />
+Olemme tehneet päätöksen julkaisuun {$contextName} lähettämäänne käsikirjoitusta &quot;{$submissionTitle}&quot; koskien.<br />
+<br />
+Päätöksemme on: Lähetettävä uudelleen arvioitavaksi',
+      'emails.editorDecisionDecline.subject' => 'Toimittajan päätös',
+      'emails.editorDecisionDecline.body' => 'Hyvä {$authors},<br />
+<br />
+Olemme tehneet päätöksen julkaisuun {$contextName} lähettämäänne käsikirjoitusta &quot;{$submissionTitle}&quot; koskien.<br />
+<br />
+Päätöksemme on: Käsikirjoitus on hylätty',
+      'emails.editorRecommendation.subject' => 'Toimittajan suositus',
+      'emails.editorRecommendation.body' => '{$editors}:<br />
+<br />
+Julkaisun {$contextName} käsikirjoitusta &quot;{$submissionTitle}&quot; koskeva suositus on: {$recommendation}',
+      'emails.copyeditRequest.subject' => 'Teknistä toimittamista pyydetään',
+      'emails.copyeditRequest.body' => 'Hyvä {$recipientName},<br />
+<br />
+Pyytäisin teitä toimittamaan teknisesti käsikirjoituksen &quot;{$submissionTitle}&quot; julkaisulle {$contextName}, seuraavia vaiheita noudattaen:<br />
+1. Klikatkaa alla olevaa käsikirjoituksen URL-osoitetta.<br />
+2. Avatkaa Luonnostiedostot-otsikon alla olevat tiedostot ja toimittakaa ne teknisesti. Voitte samalla lisätä tekniseen toimittamiseen liittyviä keskusteluja tarpeen mukaan.<br />
+3. Tallentakaa teknisesti toimitetut tiedostot ja ladatkaa ne Teknisesti toimitettu -paneeliin.<br />
+4. Ilmoittakaa toimittajalle, että kaikki tiedostot ovat valmiina, ja että tuotantoprosessi voidaan aloittaa.<br />
+<br />
+{$contextName} URL: {$contextUrl}<br />
+Käsikirjoituksen URL: {$submissionUrl}<br />
+Käyttäjätunnus: {$recipientUsername}',
+      'emails.editorDecisionInitialDecline.subject' => 'Toimittajan päätös',
+      'emails.editorDecisionInitialDecline.body' => '
+			Hyvä {$authors},<br />
+<br />
+Olemme tehneet päätöksen julkaisuun {$contextName} lähettämäänne käsikirjoitusta &quot;{$submissionTitle}&quot; koskien.<br />
+<br />
+Päätöksemme on: Käsikirjoitus on hylätty',
+      'emails.discussion.subject' => 'Viesti julkaisua {$contextName} koskien',
+      'emails.discussion.body' => 'Kirjoita viesti.',
+      'emails.reviewConfirm.subject' => 'Arvioinnin hyväksyminen',
+      'emails.reviewConfirm.body' => 'Hyvät toimittajat,<br />
+<br />
+Olen halukas arvioimaan käsikirjoituksen &quot;{$submissionTitle}&quot; julkaisulle {$contextName}. Kiitos, että pyysitte minua tähän tehtävään. Suoritan arvioinnin viimeistään sen määräaikaan {$reviewDueDate} mennessä.<br />
+<br />
+{$senderName}',
+      'emails.submissionAckNotAuthor.subject' => 'Käsikirjoituksesi on vastaanotettu',
+      'emails.submissionAckNotAuthor.body' => 'Hei,<br />
+<br />
+{$submitterName} on lähettänyt julkaisuumme {$contextName} käsikirjoituksen &quot;{$submissionTitle}&quot;.<br />
+<br />
+Jos teillä on kysyttävää, otattehan yhteyttä minuun. Kiitos, että valitsitte tämän julkaisun työllenne.<br />
+<br />
+{$contextSignature}',
+    ),
+  ),
+);

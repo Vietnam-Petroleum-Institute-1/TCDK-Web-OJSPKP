@@ -1,0 +1,14 @@
+<?php $exp = 1751345599; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=1; plural=0;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'emails.discussion.subject' => '有關{$contextName}的訊息',
+      'emails.discussion.body' => '請輸入您的訊息。',
+      'emails.reviewConfirm.subject' => '能夠評審',
+      'emails.submissionAckNotAuthor.subject' => '投稿確認',
+    ),
+  ),
+);

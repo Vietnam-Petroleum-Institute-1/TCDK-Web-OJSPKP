@@ -1,0 +1,30 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.staticPages.displayName' => 'Statikus oldalak plugin',
+      'plugins.generic.staticPages.description' => 'Ezzel a bővítménnyel tud statikus tartalmakat kezelni.',
+      'plugins.generic.staticPages.staticPages' => 'Statikus oldalak',
+      'plugins.generic.staticPages.pageTitle' => 'Cím',
+      'plugins.generic.staticPages.content' => 'Tartalom',
+      'plugins.generic.staticPages.path' => 'Útvonal',
+      'plugins.generic.staticPages.requirement.tinymce' => '<p><strong>A TinyMCE bővítményt telepíteni és engedélyezni kell a tartalom hozzáadása/szerkesztése érdekében.</strong></p>',
+      'plugins.generic.staticPages.editAddContent' => 'Tartalom hozzáadása/szerkesztése',
+      'plugins.generic.staticPages.addStaticPage' => 'Statikus oldal hozzáadása',
+      'plugins.generic.staticPages.addNewPage' => 'Új oldal hozzáadása',
+      'plugins.generic.staticPages.editStaticPage' => 'Statikus oldal szerkesztése',
+      'plugins.generic.staticPages.noneCreated' => 'Nem lett statikus oldal létrehozva.',
+      'plugins.generic.staticPages.settingInstructions' => 'A lenti űrlapon láthatóak az eddig létrehozott statikus oldalak. A jobb oldalon található linkek segítségével tudja szerkeszteni vagy törölni az oldalakat.',
+      'plugins.generic.staticPages.editInstructions' => 'Használja a lenti űrlapot oldaltartalom hozzáadásához/szerkesztéséhez.',
+      'plugins.generic.staticPages.pathRegEx' => 'Az útvonalmező csak alfanumerikus karaktereket valamint \'.\', \'/\', \'-\', és \'_\' karaktereket tartalmazhat.',
+      'plugins.generic.staticPages.viewInstructions' => '<p>Ez az oldal elérhető lesz: <blockquote>{$pagesPath}</ blockquote> ... ahol a %PATH% a fent megadott elérési út. <strong> Megjegyzés:</strong> Nem lehet két oldalnak ugyanaz az útvonala. A rendszerbe épített útvonalak használatával elveszítheti a fontos funkciókhoz való hozzáférést.</p>',
+      'plugins.generic.staticPages.duplicatePath' => 'Ez az útvonal már létezik egy másik statikus oldalhoz.',
+      'plugins.generic.staticPages.pageSaved' => 'Az oldal sikeresen mentve.',
+      'plugins.generic.staticPages.pageDeleted' => 'Az oldal sikeresen törölve.',
+      'plugins.generic.staticPages.noneExist' => 'Nem lettek oldalak létrehozva',
+    ),
+  ),
+);

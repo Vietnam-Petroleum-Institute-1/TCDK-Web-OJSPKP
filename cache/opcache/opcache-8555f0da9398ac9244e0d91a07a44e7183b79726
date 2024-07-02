@@ -1,0 +1,15 @@
+<?php $exp = 1751345594; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.recommendBySimilarity.advancedSearch' => 'Təkmilləşmiş bir oxşarlıq axtarışı başladın',
+      'plugins.generic.recommendBySimilarity.displayName' => 'Oxşar məqalələri tövsiyə edin',
+      'plugins.generic.recommendBySimilarity.description' => 'Bu əlavə məqalə xülasə səhifəsinə oxşar məqalələrin bir siyahısını əlavə edər.',
+      'plugins.generic.recommendBySimilarity.heading' => 'Oxşar məqalələr',
+      'plugins.generic.recommendBySimilarity.advancedSearchIntro' => 'Bu məqalə üçün əlavə olaraq {$advancedSearchLink} edə bilərsiniz.',
+    ),
+  ),
+);

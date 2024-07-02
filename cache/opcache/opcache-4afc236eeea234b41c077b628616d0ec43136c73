@@ -1,0 +1,12 @@
+<?php $exp = 1751345595; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.htmlArticleGalley.displayName' => 'Mise en page pour HTML',
+      'plugins.generic.htmlArticleGalley.description' => 'Ce plugiciel permet l\'édition sous format HTML de la mise en page d\'article.',
+    ),
+  ),
+);

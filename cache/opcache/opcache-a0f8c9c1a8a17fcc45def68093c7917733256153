@@ -1,0 +1,116 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'emails.submissionAck.subject' => 'Cikk beküldésének visszaigazolása',
+      'emails.submissionAck.body' => 'Tisztelt {$recipientName}!<br />
+<br />
+Köszönjük, hogy benyújtotta a(z) &quot;{$submissionTitle}&quot; című kéziratot a(z) {$contextName} folyóirathoz. Az általunk használt online folyóiratkezelő rendszerrel, lehetősége lesz végigkövetni a cikk szerkesztési folyamatát, amennyiben bejelentkezik a folyóirat oldalára:<br />
+<br />
+Kézirat URL:  {$submissionUrl}<br />
+Felhasználónév: {$recipientUsername}<br />
+<br />
+Ha bármilyen kérdése merülne fel, kérjük vegye fel a szerkesztőséggel a kapcsolatot. Köszönjük, hogy a munkájának megjelentetéséhez folyóiratunkat választotta.<br />
+<br />
+{$contextSignature}',
+      'emails.reviewAck.subject' => 'Szakmai lektorálás elfogadása',
+      'emails.reviewAck.body' => 'Tisztelt {$recipientName}!<br />
+<br />
+Köszönjük, hogy elkészítette a(z) {$contextName} folyóirathoz beküldött &quot;{$submissionTitle},&quot; című kézirat szakmai bírálatát.<br />
+<br />
+Üdvözlettel,<br />
+{$signature}',
+      'emails.editorDecisionSendToExternal.subject' => 'Szerkesztői döntés',
+      'emails.editorDecisionSendToExternal.body' => 'Tisztelt {$authors}!<br />
+<br />
+Értesítjük, hogy a(z) {$contextName} folyóirathoz beküldött &quot;{$submissionTitle}&quot; című cikkét szakmai lektorálásra elküldtük.<br />
+<br />
+A cikk URL: {$submissionUrl}<br />
+<br />
+Üdvözlettel,<br />
+{$signature}<br />',
+      'emails.editorDecisionSendToProduction.subject' => 'Szerkesztői döntés',
+      'emails.editorDecisionSendToProduction.body' => 'Tisztelt {$authors}!<br />
+<br />
+A(z) &quot;{$submissionTitle},&quot; című kéziratának lektorálása befejeződött, megjelentetésre küldjük.<br />
+<br />
+A kézirat URL címe: {$submissionUrl}<br />
+<br />
+Üdvözlettel,<br />
+{$signature}<br />',
+      'emails.editorDecisionRevisions.subject' => 'Szerkesztői döntés',
+      'emails.editorDecisionRevisions.body' => 'Tisztelt {$authors}!<br />
+<br />
+Értesítjük, hogy a(z) {$contextName} folyóirathoz beküldött &quot;{$submissionTitle}&quot; című cikkének átdolgozása szükséges.<br />
+<br /> 
+Üdvözlettel,<br />
+{$signature}<br />',
+      'emails.editorDecisionResubmit.subject' => 'Szerkesztői döntés',
+      'emails.editorDecisionResubmit.body' => 'Tisztelt {$authors}!<br />
+<br />
+Értesítjük, hogy a(z) {$contextName} folyóirathoz beküldött &quot;{$submissionTitle}&quot; című cikkének új változatát szükséges benyújtani szakmai lektorálásra.<br />
+<br /> 
+Üdvözlettel,<br />
+{$signature}<br />',
+      'emails.editorDecisionDecline.subject' => 'Szerkesztői döntés',
+      'emails.editorDecisionDecline.body' => 'Tisztelt {$authors}!<br />
+<br />
+Értesítjük, hogy a(z) {$contextName} folyóirathoz beküldött &quot;{$submissionTitle}&quot; című kézirata elutasításra került.<br />
+<br /> 
+Üdvözlettel,<br />
+{$signature}<br />',
+      'emails.editorRecommendation.subject' => 'Szerkesztői javaslat',
+      'emails.editorRecommendation.body' => 'Tisztelt {$editors}!<br />
+<br />
+A(z) {$contextName} folyóirathoz beküldött &quot;{$submissionTitle}&quot; című cikkel kapcsolatban javaslatunk: {$recommendation}<br />   
+<br />
+Üdvözlettel,<br />  
+{$signature}<br />',
+      'emails.copyeditRequest.subject' => 'Technikai szerkesztés kérése',
+      'emails.copyeditRequest.body' => 'Tisztelt {$recipientName}!<br />
+<br />
+Kérjük, hogy végezze el a(z) &quot;{$submissionTitle}&quot; című cikk alábbi lépésekből álló technikai szerkesztési folyamatát a(z) {$contextName} folyóiratnál.<br />
+1. Kattintson a kézirat URL címére alább.<br />
+2. Nyissa meg a fájlt vagy fájlokat a Vázlatok között és végezze el a technikai szerkesztést. Ha szükséges, kezdeményezzen technikai szerkesztői párbeszédet.<br />
+3. Mentse el a szerkesztett fájl(okat), és töltse fel a Szerkesztett részhez.<br />
+4. Értesítse a Szerkesztőt, hogy elkészült minden fájllal és megkezdhető a megjelentetési fázis.<br />
+<br />
+{$contextName} URL: {$contextUrl}<br />
+Kézirat URL címe: {$submissionUrl}<br />
+Felhasználónév: {$recipientUsername}<br />
+<br />
+Üdvözlettel,<br />
+{$signature}',
+      'emails.editorDecisionInitialDecline.subject' => 'Szerkesztői döntés',
+      'emails.editorDecisionInitialDecline.body' => '
+			Tisztelt {$authors}!<br />
+<br />
+Értesítjük, hogy a(z) {$contextName} folyóirathoz beküldött &quot;{$submissionTitle}&quot; című kézirata elutasításra került.<br />
+<br /> 
+Üdvözlettel,<br />
+{$signature}<br />',
+      'emails.discussion.subject' => 'Üzenet a(z) {$contextName} folyóirattól',
+      'emails.discussion.body' => 'Kérjük, adja meg itt üzenete tartalmát.',
+      'emails.reviewConfirm.subject' => 'Lektori felkérés elfogadása',
+      'emails.reviewConfirm.body' => 'Tisztelt Szerkesztők!<br />
+<br />
+Vállalom a(z) {$contextName} folyóirathoz beküldött &quot;{$submissionTitle},&quot; című kézirat lektorálását. Köszönöm a felkérést, a bírálatot a megadott határidőig ({$reviewDueDate}) elvégzem.<br />
+<br />
+Üdvözlettel,<br />
+{$senderName}',
+      'emails.submissionAckNotAuthor.subject' => 'Értesítés cikk beküldéséről',
+      'emails.submissionAckNotAuthor.body' => 'Tisztelt Szerző!<br />
+<br />
+Ezúton értesítjük, hogy {$submitterName} benyújtotta a(z) {$contextName} folyóirathoz a(z) &quot;{$submissionTitle}&quot; című kéziratot.<br />
+<br />
+Köszönjük, hogy munkájuk publikálásához folyóiratunkat választották.<br />
+<br />
+Ha a szerkesztési munkafolyamat során segítségére lehetünk, kérjük forduljon szerkesztőségünkhöz.<br />
+<br />
+{$contextSignature}',
+    ),
+  ),
+);

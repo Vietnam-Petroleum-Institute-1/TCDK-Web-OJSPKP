@@ -1,0 +1,21 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.importexport.datacite.displayName' => 'DataCite Export/Registration dodatak',
+      'plugins.importexport.datacite.description' => 'Izvezite ili registrujte metapodatke broja, članaka, prikaza i dodatnih fajlova u DataCIte formatu',
+      'plugins.importexport.datacite.settings.description' => 'Podesite dodatak pre prve upotrebe.',
+      'plugins.importexport.datacite.settings.form.username' => 'Korisničko ime (simbol)',
+      'plugins.importexport.datacite.settings.form.usernameRequired' => 'Unesite korisničko ime (simbol) koji ste dobili od DataCite. Korisničko ime ne može sadržati kolone.',
+      'plugins.importexport.datacite.settings.form.automaticRegistration.description' => 'OJS će automatski deponovati DOI-je kod DataCite. Imajte na umu da će ovo potrajati neko vreme nakon procesa objavljivanja. U svakom momentu možete proveriti neregistrovane DOI-je.',
+      'plugins.importexport.datacite.settings.form.testMode.description' => 'Koristite DataCite test prefiks za registraciju DOI-ja. Ne zaboravite da uklonite ovu opciju na radnoj verziji sajta.',
+      'plugins.importexport.datacite.senderTask.name' => 'DataCite zadatak automatske registracije',
+      'plugins.importexport.datacite.cliUsage' => 'Upotreba: 
+{$scriptName} {$pluginName} export xmlFileName journal_path {issues|articles|galleys|suppfiles} objectId1 [objectId2] ...
+{$scriptName} {$pluginName} register journal_path {issues|articles|galleys|suppfiles} objectId1 [objectId2] ...',
+    ),
+  ),
+);

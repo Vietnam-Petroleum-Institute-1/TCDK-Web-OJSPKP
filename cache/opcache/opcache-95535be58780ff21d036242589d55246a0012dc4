@@ -1,0 +1,12 @@
+<?php $exp = 1751345595; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n > 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.pdfJsViewer.name' => 'Visionneuse PDF PDF.js',
+      'plugins.generic.pdfJsViewer.description' => 'Ce plugiciel utilise la visionneuse PDF <a href="http://mozilla.github.io/pdf.js">pdf.js</a> pour intégrer des fichiers PDF sur les pages de visualisation des épreuves des articles et numéros.',
+    ),
+  ),
+);

@@ -1,0 +1,31 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'api.announcements.400.contextsNotMatched' => 'Talep ettiğiniz duyuru bu dergide yer almamaktadır.',
+      'api.emails.403.disabled' => 'E-posta bildirim özelliği bu dergi için etkinleştirilmedi.',
+      'api.submissions.400.wrongContext' => 'İstediğiniz gönderi bu dergide değil.',
+      'api.submissions.403.cantChangeContext' => 'Bir gönderinin dergisini değiştiremezsiniz.',
+      'api.submissions.403.unpublishedIssues' => 'Yayımlanmamış konuları görüntüleme izniniz yok.',
+      'api.contexts.403.requestedDisabledContexts' => 'Yalnızca izin verilen dergileri görüntüleyebilirsiniz.',
+      'api.contexts.403.notAllowed' => 'Bu dergiyi görüntüleme yetkiniz bulunmuyor.',
+      'api.contexts.403.contextsDidNotMatch' => 'Derginin API bağlantısına veya site-geneli API bağlantısına bir sorgu yapmadan bu dergiyi görüntüleyemez veya düzenleyemezsiniz.',
+      'api.contexts.403.requiresContext' => 'Bu dergiyi site-geneli API ile düzenleyemezsiniz.',
+      'api.contexts.403.notAllowedEdit' => 'Bu dergiyi düzenleme yetkisine sahip değilsiniz.',
+      'api.contexts.403.notAllowedDelete' => 'Bu dergiyi silme yetkisine sahip değilsiniz.',
+      'api.contexts.404.contextNotFound' => 'Sorguladığınız dergi bulunamadı.',
+      'api.dois.403.contextsNotMatched' => 'İstediğiniz DOI bu dergide değil.',
+      'api.dois.400.noRegistrationAgencyConfigured' => 'Bu dergi için herhangi bir DOI ayarı yapılandırılmamış.',
+      'api.dois.400.depositFailed' => 'Bazı ögeler için DOI alınamadı. Lütfen spesifik hata mesajlarını tek tek kontrol edin.',
+      'api.emailTemplates.403.notAllowedChangeContext' => 'Bu e-posta şablonunu başka bir dergiye taşıma yetkisine sahip değilsiniz.',
+      'api._payments.400.invalidPaymentMethod' => 'Seçtiğiniz ödeme yöntemi desteklenmiyor.',
+      'api.publications.403.contextsDidNotMatch' => 'Sorguladığınız yayın bu dergiye ait değil.',
+      'api.publications.403.submissionsDidNotMatch' => 'Sorguladığınız yayın bu gönderiye ait değil.',
+      'api.submissionFiles.400.badRepresentationAssocType' => 'Bu dosyayı dizgi aşamasındaki bir dosya ile ilişkilendiremezsiniz.',
+      'api.submission.400.inactiveSection' => 'Bu bölüm için aday makale gönderilemiyor.',
+    ),
+  ),
+);

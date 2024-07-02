@@ -1,0 +1,37 @@
+<?php $exp = 1751345594; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.importexport.datacite.displayName' => 'Mòdul d\'exportació/registre DataCite',
+      'plugins.importexport.datacite.description' => 'Exportar o registrar les metadades del número, l\'article, la galerada i els arxius complementaris en format DataCite.',
+      'plugins.importexport.datacite.settings.description' => 'Configureu el mòdul d\'exportació DataCite abans d\'utilitzar-lo per primera vegada.',
+      'plugins.importexport.datacite.intro' => '
+		Si voleu registrar els DOIs amb DataCite, contacteu amb l\'agent administrador
+		a través de la <a href="https://datacite.org/contact.html" target="_blank">pàgina
+		d\'inici de DataCite</a>, on se us indicarà  el vostre membre local de DataCite.
+		Quan hagueu establert un acord amb ell, se us proporcionarà accés al servei
+		DataCite per generar identificadors persistents (DOIs) i per registrar les
+		metadades associades. Encara que no tingueu nom d\'usuari/ària ni
+		contrasenya podreu exportar en format DataCite XML, però no podreu
+		registrar els vostres DOI amb DataCite directament des de OJS.
+		Tingueu en compte que la contrasenya es guardarà com a text pla, és a dir,
+		sense encriptar, a causa dels requisits del servei de registre de DataCite.
+	',
+      'plugins.importexport.datacite.settings.form.username' => 'Nom d\'usuari (símbol)',
+      'plugins.importexport.datacite.settings.form.usernameRequired' => 'Introduïu el nom d\'usuari/ària (símbol) obtingut de DataCite. El nom d\'usuari/ària no pot contenir dos punts.',
+      'plugins.importexport.datacite.settings.form.automaticRegistration.description' => 'OJS dipositarà automàticament els DOI a DataCite. Tingueu en compte que aquest procés pot trigar una mica després de la publicació (p. ex., en funció de la vostra configuració del cron). Podeu comprovar tots els DOI no registrats.',
+      'plugins.importexport.datacite.settings.form.testMode.description' => 'Utilitzeu el prefix de prova de DataCite per al registre de DOI. No oblideu desactivar aquesta opció en la versió de producció.',
+      'plugins.importexport.datacite.settings.form.testUsername' => 'Nom d\'usuari/ària de test',
+      'plugins.importexport.datacite.settings.form.testPassword' => 'Contrasenya de test',
+      'plugins.importexport.datacite.settings.form.testDOIPrefix' => 'Prefix DOI de test',
+      'plugins.importexport.datacite.senderTask.name' => 'Tasca de registre automàtic DataCite',
+      'plugins.importexport.datacite.cliUsage' => 'Ús:
+{$scriptName} {$pluginName} export [outputFileName] [journal_path] {issues|articles|galleys} objectId1 [objectId2] ...
+{$scriptName} {$pluginName} register [journal_path] {issues|articles|galleys} objectId1 [objectId2] ...
+',
+    ),
+  ),
+);

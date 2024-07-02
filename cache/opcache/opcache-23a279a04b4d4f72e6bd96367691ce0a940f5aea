@@ -1,0 +1,26 @@
+<?php $exp = 1751345594; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.webfeed.displayName' => 'Plugin Web Feed',
+      'plugins.generic.webfeed.description' => 'Tento plugin vytváří webové syndikační kanály RSS/Atom.<br>Součástí pluginu je také blok postranního panelu, který umožňuje zobrazovat odkazy na kanály na postranním panelu aplikace',
+      'plugins.generic.webfeed.settings' => 'Nastavení',
+      'plugins.generic.webfeed.settings.issue' => 'Zobrazit odkazy na feed pouze na stránkách čísla.',
+      'plugins.generic.webfeed.settings.homepage' => 'Zobrazení odkazů na webové kanály pouze na domovské stránce.',
+      'plugins.generic.webfeed.settings.all' => 'Zobrazení odkazů na webové kanály na všech stránkách aplikace.',
+      'plugins.generic.webfeed.settings.currentIssue' => 'Zobrazit položky v aktuálně publikovaném čísle.',
+      'plugins.generic.webfeed.settings.recent' => 'Zobrazovat pevný počet nejnovějších publikací.',
+      'plugins.generic.webfeed.settings.recentArticles' => 'Počet publikací ke zobrazení',
+      'plugins.generic.webfeed.settings.recentItemsRequired' => 'Vložte prosím celé kladné číslo pro počet posledních vydaných položek.',
+      'plugins.generic.webfeed.atom.altText' => 'Atom logo',
+      'plugins.generic.webfeed.rss1.altText' => 'RSS1 logo',
+      'plugins.generic.webfeed.rss2.altText' => 'RSS2 logo',
+      'plugins.generic.webfeed.blockTitle' => 'Poslední publikace',
+      'plugins.generic.webfeed.settings.includeIdentifiers' => 'Zahrnout identifikátory (ISBN, klíčová slova, kategorie atd.) do shrnutí kanálu?',
+      'plugins.generic.webfeed.settings.homepageAndIssues' => 'Zobrazení odkazů na webový kanál pouze na domovské stránce a na stránkách čísla.',
+    ),
+  ),
+);

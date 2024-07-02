@@ -1,0 +1,34 @@
+<?php $exp = 1751345594; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.themes.default.name' => 'Standard layout-tema',
+      'plugins.themes.default.description' => 'Dette tema implementerer standard layout-temaet.',
+      'plugins.themes.default.option.typography.label' => 'Typografi',
+      'plugins.themes.default.option.typography.description' => 'Vælg en font, der passer til dette tidsskrift.',
+      'plugins.themes.default.option.typography.notoSans' => 'Noto Sans: En digital-skabt font designet af Google til brug for omfattende sprogunderstøttelse.',
+      'plugins.themes.default.option.typography.notoSerif' => 'Noto Serif: En serif-variant af Google\'s digital-native font.',
+      'plugins.themes.default.option.typography.notoSerif_notoSans' => 'Noto Serif/Noto Sans: En komplementær blanding af serif overskriftstyper og sans-serif brødtekst.',
+      'plugins.themes.default.option.typography.notoSans_notoSerif' => 'Noto Sans/Noto Serif: En komplementær blanding af sans-serif overskriftstyper og serif brødtekst.',
+      'plugins.themes.default.option.typography.lato' => 'Lato: En populær moderne sans-serif font.',
+      'plugins.themes.default.option.typography.lora' => 'Lora: En bred serif font velegnet til online-læsning.',
+      'plugins.themes.default.option.typography.lora_openSans' => 'Lora/Open Sans: En komplementær blanding af serif overskriftstyper og sans-serif brødtekst.',
+      'plugins.themes.default.option.colour.label' => 'Farve',
+      'plugins.themes.default.option.colour.description' => 'Vælg en farve til sidehovedet.',
+      'plugins.themes.default.option.showDescriptionInJournalIndex.option' => 'Vis tidsskriftsresuméet på hjemmesiden.',
+      'plugins.themes.default.option.useHomepageImageAsHeader.label' => 'Sidehovedets baggrundsbillede',
+      'plugins.themes.default.option.useHomepageImageAsHeader.description' => 'Når et hjemmesidebillede er blevet uploadet, skal det vises på sidehovedets baggrund i stedet for dets sædvanlige position på hjemmesiden.',
+      'plugins.themes.default.option.useHomepageImageAsHeader.option' => 'Vis hjemmesidebilledet som sidehovedets baggrundsbillede.',
+      'plugins.themes.default.option.displayStats.label' => 'Visningsmuligheder for brugsstatistik',
+      'plugins.themes.default.option.displayStats.none' => 'Fremvis ikke diagram over indsendelsesstatistik for læseren.',
+      'plugins.themes.default.option.displayStats.bar' => 'Anvend søjlediagram til visning af brugsstatistik.',
+      'plugins.themes.default.option.displayStats.line' => 'Anvend kurvediagram til visning af brugsstatistik.',
+      'plugins.themes.default.displayStats.monthInitials' => 'Jan Feb Mar Apr Maj Jun Jul Aug Sep Okt Nov Dec',
+      'plugins.themes.default.displayStats.downloads' => 'Downloads',
+      'plugins.themes.default.displayStats.noStats' => 'Download-data er endnu ikke tilgængelige.',
+    ),
+  ),
+);

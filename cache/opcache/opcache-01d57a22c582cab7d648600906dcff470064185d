@@ -1,0 +1,65 @@
+<?php $exp = 1751345595; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.importexport.crossref.displayName' => 'Crossref XML -vientilisäosa',
+      'plugins.importexport.crossref.description' => 'Vie kuvailutietoja Crossref-palvelun XML-muodossa ja rekisteröi DOI-tunnuksia Crossref-rekisteröintipalvelussa.',
+      'plugins.importexport.crossref.requirements' => 'Vaatimukset',
+      'plugins.importexport.crossref.requirements.satisfied' => 'Kaikki lisäosan vaatimukset täyttyvät.',
+      'plugins.importexport.crossref.error.publisherNotConfigured' => 'Julkaisun julkaisijaa ei ole määritetty! Julkaiseva instituutio on lisättävä <a href="{$journalSettingsUrl}" target="_blank">Julkaisun asetukset -sivulla</a>.',
+      'plugins.importexport.crossref.error.issnNotConfigured' => 'Julkaisun ISSN-tunnusta ei ole määritetty! ISSN on lisättävä <a href="{$journalSettingsUrl}" target="_blank">Julkaisun asetukset -sivulla</a>.',
+      'plugins.importexport.crossref.error.noDOIContentObjects' => 'DOI-tunnisteiden määrittämisessä käytettäviä artikkeleita ei ole valittu DOI-tunnistelisäosassa, joten tässä lisäosassa ei ole talletus- tai vientimahdollisuutta.',
+      'plugins.importexport.crossref.settings.depositorIntro' => 'Onnistuneeseen Crossref-talletukseen vaaditaan seuraavat kohteet.',
+      'plugins.importexport.crossref.settings.form.depositorName' => 'Tallettajan nimi',
+      'plugins.importexport.crossref.settings.form.depositorEmail' => 'Tallettajan sähköposti',
+      'plugins.importexport.crossref.settings.form.depositorNameRequired' => 'Anna tallettajan nimi.',
+      'plugins.importexport.crossref.settings.form.depositorEmailRequired' => 'Anna tallettajan sähköposti.',
+      'plugins.importexport.crossref.registrationIntro' => '<p>Jos haluat käyttää tätä lisäosaa rekisteröidäksesi digitaalisia objektien tunnisteita (DOI) suoraan <a href="http://www.crossref.org/">Crossrefiin</a>, sinun on lisättävä <a href="https://www.crossref.org/documentation/member-setup/account-credentials/">Crossref-tilisi tunnukset</a> alla oleviin käyttäjätunnus ja salasana -kenttiin.</p><p>Crossref-jäsenyydestäsi riippuen voit syöttää käyttäjätunnuksesi ja salasanasi kahdella eri tavalla:</p><ul><li>Jos käytät organisaation tiliä, lisää <a href="https://www.crossref.org/documentation/member-setup/account-credentials/#00376">jaettu käyttäjätunnus ja salasana</a></li><li>Jos käytät <a href="https://www.crossref.org/documentation/member-setup/account-credentials/#00368">henkilökohtaista tiliä</a>, syötä sähköpostiosoitteesi ja rooli käyttäjätunnus-kenttään. Käyttäjätunnus näyttää seuraavalta: email@example.com/role</li><li>If Jos et tiedä Crossref-tunnuksiasi tai sinulla ei ole pääsyä niihin, voit ottaa yhteyttä <a href="https://support.crossref.org/">Crossrefin tukeen</a> saadaksesi apua. Ilman tunnuksia voit silti viedä metatietoja Crossrefin XML-muotoon, mutta et voi rekisteröidä DOI-tunnuksia Crossrefiin OJS-järjestelmästä käsin.</li></ul>',
+      'plugins.importexport.crossref.settings.form.username' => 'Käyttäjätunnus',
+      'plugins.importexport.crossref.settings.form.usernameRequired' => 'Anna Crossref-palvelusta saamasi käyttäjätunnus.',
+      'plugins.importexport.crossref.settings.form.automaticRegistration.description' => 'OJS tallettaa määritetyt DOI-tunnisteet automaattisesti Crossrefiin. Huomioithan, että käsittely saattaa kestää hetken julkaisemisen jälkeen. Voit tarkistaa kaikki rekisteröimättömät DOI-tunnisteet.',
+      'plugins.importexport.crossref.settings.form.testMode.description' => 'Käytä Crossref-palvelun testirajapintaa (testausympäristö) DOI-tunnisteen rekisteröintiin. Muista poistaa tämä valinta tuotantosivustolla.',
+      'plugins.importexport.crossref.issues.description' => 'Huom. Ainoastaan numeroita (ei niiden artikkeleita) voidaan viedä/rekisteröidä tässä.',
+      'plugins.importexport.crossref.status.failed' => 'Epäonnistui',
+      'plugins.importexport.crossref.status.registered' => 'Aktiivinen',
+      'plugins.importexport.crossref.status.markedRegistered' => 'Merkitty aktiiviseksi',
+      'plugins.importexport.crossref.statusLegend' => '
+		<p>Talletuksen tila:</p>
+		<p>
+		- Ei talletettu: tätä DOI-tunnistetta ei ole yritetty tallentaa.<br />
+		- Aktiivinen: DOI-tunniste on talletettu ja se resolvoituu oikein.<br />
+		- Epäonnistui: DOI-tunnisteen talletus epäonnistui.<br />
+		- Merkitty aktiiviseksi: DOI-tunniste merkittiin manuaalisesti aktiiviseksi.
+		</p>
+		<p>Vain viimeisimmän talletusyrityksen tila näytetään.</p>
+		<p>Jos talletus on epäonnistunut, ratkaise ongelma ja yritä rekisteröidä DOI-tunniste uudelleen.</p>',
+      'plugins.importexport.crossref.action.export' => 'Vie',
+      'plugins.importexport.crossref.action.markRegistered' => 'Merkitse aktiiviseksi',
+      'plugins.importexport.crossref.senderTask.name' => 'Crossrefin automaattinen rekisteröintitehtävä',
+      'plugins.importexport.crossref.cliUsage' => 'Käyttö: 
+{$scriptName} {$pluginName} [xmlFileName] [journal_path] artikkelit [articleId1] [articleId2] ...
+{$scriptName} {$pluginName} [xmlFileName] [journal_path] numero [issueId]
+',
+      'plugins.importexport.crossref.cliError' => 'VIRHE:',
+      'plugins.importexport.crossref.export.error.issueNotFound' => 'Yksikään numero ei vastannut määritettyä numeron tunnistetta "{$issueId}".',
+      'plugins.importexport.crossref.export.error.articleNotFound' => 'Yksikään artikkeli ei vastannut määritettyä artikkelin tunnistetta "{$articleId}".',
+      'plugins.importexport.crossref.register.success.warning' => 'Rekisteröinti onnistui, mutta palautti tämän varoituksen: \'{$param}\'.',
+      'plugins.importexport.crossref.register.error.mdsError' => 'Rekisteröinti ei onnistunut! DOI-palvelin palautti virheen.',
+      'plugins.importexport.crossref.action.register' => 'Rekisteröi',
+      'plugins.importexport.crossref.settings.form.validation' => 'Tarkista XML. Käytä tätä toimintoa vain mikäli lataat XML-tiedoston manuaalista DOI-rekisteröintiä varten.',
+      'plugins.importexport.crossref.settings.form.onlyValidateExport' => 'Tee ainostaan tarkistus. Älä lataa tiedostoa.',
+      'plugins.generic.crossref.displayName' => 'Crossref-lisäosa',
+      'plugins.generic.crossref.description' => 'Käsittelee Crossref-metatietojen tallentamista ja vientiä',
+      'plugins.importexport.crossref.settings' => 'Crossref-asetukset',
+      'plugins.importexport.crossref.settings.form.depositorName.description' => 'DOI-tunnukset rekisteröivän organisaation nimi. Nimi sisältyy talletettuihin metatietoihin, ja sitä käytetään talletuksen tekijän kirjaamiseen.',
+      'plugins.importexport.crossref.settings.form.depositorEmail.description' => 'Sen henkilön sähköpostiosoite, joka vastaa sisällön rekisteröinnistä Crossrefin tietokantaan. Osoite sisältyy talletettuihin metatietoihin ja sitä käytetään lähetettäessä talletuksen vahvistussähköpostia.',
+      'plugins.importexport.crossref.settings.form.username.description' => 'Crossref-käyttäjätunnus, jota käytetään talletusten todentamiseen. Jos käytät henkilökohtaista tiliä, katso edellä olevat ohjeet.',
+      'plugins.importexport.crossref.status.notDeposited' => 'Ei talletettu',
+      'plugins.generic.crossref.registrationAgency.name' => 'Crossref',
+      'plugins.generic.crossref.successMessage' => 'Tämän nimikkeen metatiedot on talletettu Crossrefiin. Katso lisätietoja <a href="https://doi.crossref.org/servlet/submissionAdmin?sf=detail&submissionID={$submissionId}">Crossrefin hallintapaneelista</a>.',
+    ),
+  ),
+);

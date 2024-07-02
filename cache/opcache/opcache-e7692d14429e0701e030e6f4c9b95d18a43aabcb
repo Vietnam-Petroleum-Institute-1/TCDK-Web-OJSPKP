@@ -1,0 +1,375 @@
+<?php $exp = 1751345595; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'emails.passwordResetConfirm.subject' => 'Confirmación de restablecemento de contrasinal',
+      'emails.passwordResetConfirm.body' => 'Recibimos unha solicitude para cambiar o seu contrasinal para o sitio web {$siteTitle}.<br />
+<br />
+Se vostede non fixo esta solicitude, ignore este correo electrónico e o seu contrasinal non cambiará. Se quere cambiar o seu contrasinal, faga clic en URL.<br />
+<br />
+Cambiar o meu contrasinal: {$passwordResetUrl}<br />
+<br />
+{$siteContactName}',
+      'emails.userRegister.subject' => 'Rexistro dun novo usuario',
+      'emails.userRegister.body' => '{$recipientName}<br />
+<br />
+Acaba de rexistrarse como usuario/a de {$contextName}. Neste correo electrónico inclúense o seu nome de usuario/a e o seu contrasinal, datos necesarios para calquera interacción coa revista a través da páxina web. En calquera momento pode solicitar ser eliminado/a da lista de usuarios/as da revista contactando con nós.<br />
+<br />
+Nome de usuario/a: {$recipientUsername}<br />
+Contrasinal: {$password}<br />
+<br />
+Grazas,<br />
+{$signature}',
+      'emails.userValidateContext.subject' => 'Valide a súa conta',
+      'emails.userValidateContext.body' => '{$recipientName}<br />
+<br />
+Creou unha conta de usuario/a para {$contextName}, pero antes de poder empezar a utilizala debe validar a súa conta de correo electrónico. Para facelo,  siga simplemente o enlace seguinte:<br />
+<br />
+{$activateUrl}<br />
+<br />
+Grazas,<br />
+{$contextSignature}',
+      'emails.reviewerRegister.subject' => 'Rexistro como revisor de {$contextName}',
+      'emails.reviewerRegister.body' => 'Despois de avaliar o seu perfil, tomamos a liberdade de rexistrar o seu nome na base de datos de revisores de {$contextName}. O feito de pertencer a esta base de datos non implica ningún compromiso pola súa parte e, por outra banda, permítenos propoñerlle a revisión dun envío. Cando reciba unha proposta de revisión dun documento terá acceso ao título e ao resumo do artigo en cuestión, e tanto poderá aceptar como rexeitar a invitación. En calquera momento pode solicitar que se suprima o seu nome da lista de revisores.<br />
+<br />
+A continuación enviarémoslle o seu nome de usuario e o seu contrasinal, datos que necesitará para interactuar co sitio web desta revista. É posible que, por exemplo, queira actualizar o seu perfil e incluír os seus intereses de revisión.<br />
+<br />
+Nome de usuario: {$recipientUsername}<br />
+Contrasinal: {$password}<br />
+<br />
+Moitas grazas,<br />
+{$signature}',
+      'emails.issuePublishNotify.subject' => 'Novo número publicado',
+      'emails.issuePublishNotify.body' => 'Estimados/as lectores/as:<br />
+<br />
+{$contextName} acaba de publicar o seu último número en {$contextUrl}. Convidámolos a consultar a táboa de contidos e a visitar o noso sitio web para ler os artigos e documentos que lles poidan interesar.<br />
+<br />
+Agradecemos o seu interese  pola nosa revista,<br />
+{$signature}',
+      'emails.editorAssign.subject' => 'Asignación editorial',
+      'emails.editorAssign.body' => '{$recipientName}:<br />
+<br />
+Asignóuselle o envío &quot;{$submissionTitle}&quot; para a revista {$contextName} co fin de que supervise o seu proceso editorial como Editor/a de Sección.<br />
+<br />
+URL do envío: {$submissionUrl}<br />
+Usuario/a: {$recipientUsername}<br />
+<br />
+Grazas.',
+      'emails.reviewRequest.subject' => 'Solicitude de revisión dun artigo',
+      'emails.reviewRequest.body' => '{$recipientName}:<br />
+<br />
+Considero que sería un excelente revisor/a do manuscrito, &quot;{$submissionTitle},&quot; que foi enviado á revista {$contextName}. A continuación atopará un resumo do envío e espero que acepte encargarse desta tarefa tan importante para nós.<br />
+<br />
+Por favor, inicie a sesión na páxina web da revista antes do {$responseDueDate} para indicarnos se acepta ou non encargarse da revisión do envío, así como para tener acceso al envío y para registrar su revisión y recomendación. La dirección es {$contextUrl}<br />
+<br />
+La revisión propiamente dicha debería estar lista el {$reviewDueDate}.<br />
+<br />
+Si no recuerda su nombre de usuaria/o y contraseña, puede utilizar este enlace para restablecer su contraseña (esta le será enviada por correo electrónico junto con su nombre de usuario/a). {$passwordLostUrl}<br />
+<br />
+URL del envío: {$reviewAssignmentUrl}<br />
+<br />
+Gracias por considerar nuestra solicitud.<br />
+<br />
+{$signature}<br />
+<br />
+&quot;{$submissionTitle}&quot;<br />
+<br />
+{$submissionAbstract}',
+      'emails.reviewResponseOverdueAuto.subject' => 'Recordatorio de solicitude de revisión dun artigo',
+      'emails.reviewResponseOverdueAuto.body' => '{$recipientName}:<br />
+Lembrámoslle a nosa solicitude de revisión do envío, &quot;{$submissionTitle},&quot; para a revista {$contextName}. Esperabamos recibir a súa resposta antes de {$responseDueDate}, e, como xa chegou esa data, xerouse e enviouse este correo electrónico automaticamente.
+<br />
+Consideramos que sería un excelente revisor para este manuscrito. A continuación atopará o resumo do artigo, esperamos que acepte encargarse desta tarefa tan importante para nós.<br />
+<br />
+Pedímoslle que inicie a sesión na revista para indicarnos se acepta ou non encargarse da revisión do envío e, en caso de aceptalo, para acceder a el e rexistrar a súa revisión e a súa recomendación. O sitio web da revista é {$contextUrl}<br />
+<br />
+A data límite para facer a revisión é o {$reviewDueDate}.<br />
+<br />
+Se non lembra o seu nome de usuario/a ou o contrasinal para o sitio web da revista, pode utilizar o enlace seguinte para restablecer o contrasinal (recibirao por correo electrónico xuntamente co seu nome de usuario/a). {$passwordLostUrl}<br />
+<br />
+URL do envío: {$reviewAssignmentUrl}<br />
+<br />
+Grazas por ter en conta esta solicitude.<br />
+<br />
+{$contextSignature}<br />
+<br />
+&quot;{$submissionTitle}&quot;<br />
+<br />
+{$submissionAbstract}',
+      'emails.reviewRequestSubsequent.subject' => 'Solicitude de revisión dun artigo',
+      'emails.reviewRequestSubsequent.body' => '{$recipientName}:<br />
+<br />
+Este correo está relacionado co manuscrito &quot;{$submissionTitle},&quot; que está sendo estudado por {$contextName}.<br />
+<br />
+Tras a revisión da versión previa do manuscrito, os autores/as enviaron unha versión revisada do seu artigo. Agradeceriámoslle que nos axudase a avaliala.<br />
+<br />
+Para facelo, inicie sesión no sitio web da revista antes do {$responseDueDate} para indicar se levará a cabo a revisión ou non, así como para acceder ao envío e rexistrar a súa revisión e recomendación. O sitio web é {$contextUrl}<br />
+<br />
+A data límite para entregar a revisión é o {$reviewDueDate}.<br />
+<br />
+Se non ten nome de usuario/a nin contrasinal para o sitio web da revista, pode facer clic neste enlace para restablecer o seu contrasinal (enviarémosllo xuntamente co seu nome de usuario/a). {$passwordLostUrl}<br />
+<br />
+URL do envío: {$reviewAssignmentUrl}<br />
+<br />
+Grazas por ter en consideración esta solicitude.<br />
+<br />
+{$signature}<br />
+<br />
+&quot;{$submissionTitle}&quot;<br />
+<br />
+{$submissionAbstract}',
+      'emails.reviewCancel.subject' => 'Solicitude de revisión cancelada',
+      'emails.reviewCancel.body' => '{$recipientName}:<br />
+<br />
+Decidimos cancelar a nosa solicitude concernente á revisión do envío &quot;{$submissionTitle}&quot; para {$contextName}. Lamentamos as molestias que lle poida causar esta decisión e esperamos volver solicitar os seus servizos de revisión para esta revista no futuro.<br />
+<br />
+Se ten calquera pregunta, non dubide en contactar con nós.',
+      'emails.reviewReinstate.subject' => 'Solicitude de revisión restablecida',
+      'emails.reviewReinstate.body' => '{$recipientName}:<br />
+<br />
+Gustaríanos restablecer a solicitude de revisión do envío &quot;{$submissionTitle},&quot; para {$contextName}. Esperamos que estea dispoñible e nos axude neste proceso de revisión da revista.<br />
+<br />
+Se ten calquera pregunta, non dubide en contactar con nós.',
+      'emails.reviewDecline.subject' => 'Rexeitamento da solicitude de revisión',
+      'emails.reviewDecline.body' => 'Editores/as:<br />
+<br />
+Lamento comunicarlles que nesta ocasión non vou poder encargarme da revisión do envío &quot;{$submissionTitle},&quot; para {$contextName}. Agradézolles que pensasen en min e espero que volvan contactar comigo noutra ocasión.<br />
+<br />
+{$senderName}',
+      'emails.reviewRemind.subject' => 'Recordatorio de revisión dun envío',
+      'emails.reviewRemind.body' => '{$recipientName}:<br />
+<br />
+Lembrámoslle a nosa petición de revisión do envío &quot;{$submissionTitle},&quot; para {$contextName}. Esperabamos a súa revisión antes do {$reviewDueDate}, e confiamos en recibila en canto sexa posible.<br />
+<br />
+Se perdeu o seu nome de usuario/a e o contrasinal para o sitio web da revista, pode utilizar o enlace seguinte para cambiar o seu contrasinal (que lle será enviado por correo electrónico xuntamente co seu nome de usuario/a). {$passwordLostUrl}<br />
+<br />
+URL do envío: {$reviewAssignmentUrl}<br />
+<br />
+Pregámoslle que nos confirme a súa dispoñibilidade para completar esta contribución vital para o funcionamento da revista. Esperamos ter noticias súas moi pronto.<br />
+<br />
+{$signature}',
+      'emails.reviewRemindAuto.subject' => 'Recordatorio automático de revisión dun envío',
+      'emails.reviewRemindAuto.body' => '{$recipientName}:<br />
+<br />
+Lembrámoslle a nosa petición de revisión do envío &quot;{$submissionTitle},&quot; para {$contextName}. Esperabamos esta revisión antes do {$reviewDueDate}, e xerouse e enviouse automaticamente este correo ao vencer o prazo de entrega. Non obstante, aínda confiamos en recibir a súa revisión en canto sexa posible.<br />
+<br />
+Se perdeu o seu nome de usuario/a ou o contrasinal para o sitio web da revista, pode utilizar o enlace seguinte para cambiar o contrasinal (que lle será enviado por correo electrónico xuntamente co seu nome de usuario/a). {$passwordLostUrl}<br />
+<br />
+URL do envío: {$reviewAssignmentUrl}<br />
+<br />
+Pregámoslle que nos confirme a súa dispoñibilidade para completar esta contribución vital para o funcionamento da revista. Esperamos ter noticias súas axiña.<br />
+<br />
+{$contextSignature}',
+      'emails.editorDecisionAccept.subject' => 'Decisión do editor/a',
+      'emails.editorDecisionAccept.body' => '{$authors}:<br />
+<br />
+Tomamos unha decisión respecto ao seu envío para {$contextName}, &quot;{$submissionTitle}&quot;.<br />
+<br />
+A nosa decisión é: Aceptar o envío',
+      'emails.layoutRequest.subject' => 'Solicitude de galeradas',
+      'emails.layoutRequest.body' => '{$recipientName}:<br />
+<br />
+Pídolle que se encargue de preparar as galeradas do envío &quot;{$submissionTitle}&quot; para {$contextName}, conforme os pasos seguintes:<br />
+1. Faga clic no URL do envío que atopará máis abaixo nesta mensaxe.<br />
+2. Acceda ao sitio web da revista e utilice os arquivos preparados para produción para crear as galeradas de acordo cos estándares da revista.<br />
+3. Cargue as galeradas na sección de arquivos de galerada.<br />
+4. Notifique ao editor a través das discusións de produción que as galeradas xa están cargadas e preparadas.<br />
+<br />
+URL da revista {$contextName}: {$contextUrl}<br />
+URL do envío: {$submissionUrl}<br />
+Nome de usuario/a: {$recipientUsername}<br />
+<br />
+Se non está dispoñible para levar a cabo este traballo neste momento ou se ten algunha pregunta, póñase en contacto con nós. Grazas pola súa contribución á revista.',
+      'emails.layoutComplete.subject' => 'Galeradas completadas',
+      'emails.layoutComplete.body' => '{$recipientName}:<br />
+<br />
+Xa están preparadas as galeradas do manuscrito &quot;{$submissionTitle},&quot; para {$contextName} e, por tanto, a punto para entrar no proceso de corrección de probas.<br />
+<br />
+Se ten calquera pregunta, non dubide en contactar con nós.<br />
+<br />
+{$senderName}',
+      'emails.emailLink.subject' => 'Artigo posiblemente interesante',
+      'emails.emailLink.body' => 'Penso que lle podería interesar ler o artigo &quot;{$submissionTitle}&quot; de {$authors}, publicado no volume {$volume}, número {$number} ({$year}) de {$contextName}, dispoñible en &quot;{$submissionUrl}&quot;.',
+      'emails.emailLink.description' => 'Este modelo de correo electrónico ofrece a un lector/a rexistrado/a a oportunidade de enviar información sobre un artigo a alguén que poida estar interesado. Está dispoñible a través das ferramentas de lectura e debe ser activado polo administrador/a da revista na páxina de administración de ferramentas de lectura.',
+      'emails.subscriptionNotify.subject' => 'Notificación de subscrición',
+      'emails.subscriptionNotify.body' => '{$recipientName}:<br />
+<br />
+Acaba de rexistrarse como subscritor/a do noso sistema de xestión de revistas en liña para {$contextName}, co tipo de subscrición seguinte:<br />
+<br />
+{$subscriptionType}<br />
+<br />
+Para acceder ao contido exclusivo para subscritores/as, abonda con que entre no sistema co seu nome de usuario/a, &quot;{$recipientUsername}&quot;.<br />
+<br />
+Unha vez dentro do sistema, pode cambiar os detalles do seu perfil e o seu contrasinal en calquera momento.<br />
+<br />
+Teña en conta que se dispón dunha subscrición institucional, os usuarios/as da institución  non necesitarán identificarse, posto que o sistema autenticará automaticamente as solicitudes de acceso ao contido para subscritores.<br />
+<br />
+Se ten calquera pregunta, non dubide en contactar con nós/as.<br />
+<br />
+{$subscriptionSignature}',
+      'emails.openAccessNotify.subject' => 'Agora o número é de acceso libre',
+      'emails.openAccessNotify.body' => 'Estimados lectores/as:<br />
+<br />
+{$contextName} acaba de publicar en formato de acceso libre o número seguinte. Convidámolos a consultar o sumario aquí e a visitar o noso sitio web ({$contextUrl}) para acceder aos artigos e a outros elementos do seu interese.<br />
+<br />
+Grazas polo continuo interese no noso traballo.<br />
+{$contextSignature}',
+      'emails.subscriptionBeforeExpiry.subject' => 'Notificación de vencemento da subscrición',
+      'emails.subscriptionBeforeExpiry.body' => '{$recipientName}:<br />
+<br />
+	A súa subscrición a {$contextName} está a punto de expirar.<br />
+<br />
+	{$subscriptionType}<br />
+	Data de vencemento: {$expiryDate}<br />
+<br />
+	Para asegurarse de que segue tendo acceso a esta revista, entre no sitio web e renove a súa subscrición.  Pode acceder ao sistema co seu nome de usuario/a, &quot;{$recipientUsername}&quot;.<br />
+<br />
+	Se ten algunha pregunta, non dubide en contactar con nós.<br />
+<br />
+	{$subscriptionSignature}',
+      'emails.subscriptionAfterExpiry.subject' => 'Subscrición vencida',
+      'emails.subscriptionAfterExpiry.body' => '{$recipientName}:<br />
+<br />
+	A súa subscrición a {$contextName} expirou.<br />
+<br />
+	{$subscriptionType}<br />
+	Data de vencemento: {$expiryDate}<br />
+<br />
+	Para renovar a súa subscrición vaia ao sitio web da revista. Pode acceder ao sistema co seu nome de usuario, &quot;{$recipientUsername}&quot;.<br />
+<br />
+	Se ten calquera pregunta, non dubide en contactar con nós.<br />
+<br />
+	{$subscriptionSignature}',
+      'emails.subscriptionAfterExpiryLast.subject' => 'A subscrición expirou (último recordatorio)',
+      'emails.subscriptionAfterExpiryLast.body' => '{$recipientName}:<br />
+<br />
+	A súa subscrición a {$contextName} expirou.<br />
+	Teña en conta que este é o último recordatorio que se lle enviará.<br />
+<br />
+	{$subscriptionType}<br />
+	Data de vencemento: {$expiryDate}<br />
+<br />
+	Para renovar a subscrición vaia ao sitio web da revista.  Pode acceder ao sistema co seu nome de usuario/a, &quot;{$recipientUsername}&quot;.<br />
+<br />
+	Se ten calquera pregunta, non dubide en contactar con nós.<br />
+<br />
+	{$subscriptionSignature}',
+      'emails.subscriptionPurchaseIndl.subject' => 'Adquisición de subscrición: individual',
+      'emails.subscriptionPurchaseIndl.body' => 'Adquiriuse en liña unha subscrición individual para {$contextName} cos detalles seguintes:<br />
+<br />
+Tipo de subscrición:<br />
+{$subscriptionType}<br />
+<br />
+Usuario/a:<br />
+{$subscriberDetails}<br />
+<br />
+Información de afiliación (se se achega):<br />
+{$membership}<br />
+<br />
+Para ver ou editar esta subscrición, utilice o URL seguinte.<br />
+<br />
+URL da subscrición: {$subscriptionUrl}<br />
+',
+      'emails.subscriptionPurchaseInstl.subject' => 'Adquisición de subscrición: institucional',
+      'emails.subscriptionPurchaseInstl.body' => 'Adquiriuse en liña unha subscrición institucional para {$contextName} cos detalles seguintes . Para activar esta subscrición, utilice o enlace proporcionado e pase o estado da subscrición a \'Activo\'.<br />
+<br />
+Tipo de subscrición:<br />
+{$subscriptionType}<br />
+<br />
+Institución:<br />
+{$institutionName}<br />
+{$institutionMailingAddress}<br />
+<br />
+Dominio (se se proporciona):<br />
+{$domain}<br />
+<br />
+Rangos de IP (se se proporcionan):<br />
+{$ipRanges}<br />
+<br />
+Persoa de contacto:<br />
+{$subscriberDetails}<br />
+<br />
+Información de afiliación (se se proporciona):<br />
+{$membership}<br />
+<br />
+Para ver ou editar esta subscrición, utilice o URL seguinte.<br />
+<br />
+URL da subscrición: {$subscriptionUrl}<br />
+',
+      'emails.subscriptionRenewIndl.subject' => 'Renovación de subscrición: Individual',
+      'emails.subscriptionRenewIndl.body' => 'Unha subscrición individual foi renovada en liña para {$contextName} cos detalles seguintes.<br />
+<br />
+Tipo de subscrición:<br />
+{$subscriptionType}<br />
+<br />
+Usuario/a:<br />
+{$subscriberDetails}<br />
+<br />
+Información de afiliación (se se proporciona):<br />
+{$membership}<br />
+<br />
+Para ver ou editar esta subscrición utilice o seguinte URL:<br />
+<br />
+URL da subscrición: {$subscriptionUrl}<br />
+',
+      'emails.subscriptionRenewInstl.subject' => 'Renovación de subscrición: Institucional',
+      'emails.subscriptionRenewInstl.body' => 'Renovouse en liña unha subscrición institucional para {$contextName} cos detalles seguintes.<br />
+<br />
+Tipo de subscrición:<br />
+{$subscriptionType}<br />
+<br />
+Institución:<br />
+{$institutionName}<br />
+{$institutionMailingAddress}<br />
+<br />
+Dominio (se se proporciona):<br />
+{$domain}<br />
+<br />
+Rangos IP (se se proporcionan):<br />
+{$ipRanges}<br />
+<br />
+Persoa de contacto:<br />
+{$subscriberDetails}<br />
+<br />
+Información de afiliación (se se proporciona):<br />
+{$membership}<br />
+<br />
+Para ver ou editar esta subscrición, utilice o seguinte URL:<br />
+<br />
+URL da subscrición: {$subscriptionUrl}<br />
+',
+      'emails.revisedVersionNotify.subject' => 'Versión revisada cargada',
+      'emails.revisedVersionNotify.body' => 'Editores/as:<br />
+<br />
+O autor {$submitterName} cargou unha versión revisada de &quot;{$submissionTitle}&quot;.<br />
+<br />
+URL do envío: {$submissionUrl}<br />
+<br />
+{$signature}',
+      'emails.statisticsReportNotification.subject' => 'Actividade editorial para {$month}, {$year}',
+      'emails.statisticsReportNotification.body' => '
+{$recipientName}, <br />
+<br />
+O informe da actividade editorial da súa revista de {$month}, {$year} xa está dispoñible. As estatísticas clave deste mes son as seguintes.<br />
+<ul>
+	<li>Novos envíos este mes: {$newSubmissions}</li>
+	<li>Envíos rexeitados este mes: {$declinedSubmissions}</li>
+	<li>Envíos aceptados este mes: {$acceptedSubmissions}</li>
+	<li>Envíos totais no sistema: {$totalSubmissions}</li>
+</ul>
+Inicie sesión na revista para obter máis detalles sobre as <a href="{$editorialStatsLink}">tendencias editoriais</a> e as <a href="{$publicationStatsLink}">estatísticas de artigos publicados</a>. Anéxase unha copia completa das tendencias editoriais deste mes .<br />
+<br />
+Cordialmente,<br />
+{$contextSignature}',
+      'emails.announcement.subject' => '{$announcementTitle}',
+      'emails.announcement.body' => '<b>{$announcementTitle}</b><br />
+<br />
+{$announcementSummary}<br />
+<br />
+Visite o noso sitio web para ler <a href="{$announcementUrl}">o anuncio completo</a>.',
+    ),
+  ),
+);

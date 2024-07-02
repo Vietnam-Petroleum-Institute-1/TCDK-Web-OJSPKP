@@ -1,0 +1,26 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.webfeed.displayName' => 'Web Feed vtičnik',
+      'plugins.generic.webfeed.description' => 'Vtičnik pripravi RSS/Atom feed. Vtičnik vsebuje tudi stranski blok, ki omogoča, da prikažete povezavo do feed-a na spletni strani.',
+      'plugins.generic.webfeed.settings' => 'Nastavitve',
+      'plugins.generic.webfeed.settings.issue' => 'Prikaži web feed povezave le na straneh številk revij.',
+      'plugins.generic.webfeed.settings.homepage' => 'Prikaži web feed povezave le na domači strani in straneh številk revij.',
+      'plugins.generic.webfeed.settings.all' => 'Prikaži web feed povezave na vseh straneh revije.',
+      'plugins.generic.webfeed.settings.currentIssue' => 'Prikaži le trenutno objavljeno številko.',
+      'plugins.generic.webfeed.settings.recent' => 'Prikaži fiksno število zadnjih številk.',
+      'plugins.generic.webfeed.settings.recentArticles' => 'Število postavk, ki se prikažejo',
+      'plugins.generic.webfeed.settings.recentItemsRequired' => 'Prosimo, vnesite pozitivno celoštevilčno vrednost za zadnje objavljene številke.',
+      'plugins.generic.webfeed.atom.altText' => 'Atom logo',
+      'plugins.generic.webfeed.rss1.altText' => 'RSS1 logo',
+      'plugins.generic.webfeed.rss2.altText' => 'RSS2 logo',
+      'plugins.generic.webfeed.blockTitle' => 'Zadnji članki',
+      'plugins.generic.webfeed.settings.includeIdentifiers' => 'Vključi identifikatorje (ISBN, ključne besede, kategorije, itd.) v povzetek vira?',
+      'plugins.generic.webfeed.settings.homepageAndIssues' => 'Prikaži povezave za web feed samo na naslovni strani in naslovnicah številk.',
+    ),
+  ),
+);

@@ -1,0 +1,24 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n > 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.customBlock.showName.description' => 'Ցույց տալ այս բլոկի անունը բլոկի բովանդակության վերևում:',
+      'plugins.generic.customBlock.showName' => 'Ցույց տվեք անունը',
+      'plugins.generic.customBlock.nameRegEx' => 'Անհատականացված բլոկի անունը պետք է պարունակի միայն տառեր, թվեր և գծիկներ/ընդգծումներ:',
+      'plugins.generic.customBlock.nameRequired' => 'Պահանջվում է անհատականացված բլոկի անունը:',
+      'plugins.generic.customBlock.description' => 'Սա օգտվողի կողմից ստեղծված բլոկ է:',
+      'plugins.generic.customBlock.nameSuffix' => '(Անհատականացված բլոկ)',
+      'plugins.generic.customBlock.content' => 'Բովանդակություն',
+      'plugins.generic.customBlockManager.noneCreated' => 'Չեն ստեղծվել անհատականացված բլոկներ:',
+      'plugins.generic.customBlockManager.addBlock' => 'Ավելացրեք բլոկ',
+      'plugins.generic.customBlockManager.blockName' => 'Բլոկի անունը',
+      'plugins.generic.customBlockManager.customBlocks' => 'Անհատականացված բլոկներ',
+      'plugins.generic.customBlockManager.description' => 'Այս փլագինը թույլ է տալիս կառավարել (ավելացնել, խմբագրել և ջնջել) կողագոտու անհատականացված բլոկները:',
+      'plugins.generic.customBlockManager.manage' => 'Կառավարեք անհատականացված բլոկները',
+      'plugins.generic.customBlockManager.displayName' => 'Անհատականացված բլոկի կառավարիչ',
+    ),
+  ),
+);

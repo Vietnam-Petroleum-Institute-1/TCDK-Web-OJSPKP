@@ -1,0 +1,12 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.googleScholar.name' => 'Vtičnik za Google Scholar indeksiranje',
+      'plugins.generic.googleScholar.description' => 'Vtičnik omgoča, da Google Scholar indeksira objavljeno vsebino.',
+    ),
+  ),
+);

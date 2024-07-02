@@ -1,0 +1,17 @@
+<?php $exp = 1751345594; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.acron.tasksReloaded' => 'Планираните задачи са презаредени.',
+      'plugins.generic.acron.reload' => 'Презаредете планираните задачи',
+      'plugins.generic.acron.reloadedCronTab' => 'Cron tab успешно се презареди.',
+      'plugins.generic.acron.disabled' => 'Acron плъгинът е деактивиран.',
+      'plugins.generic.acron.enabled' => 'Acron плъгинът е активиран.',
+      'plugins.generic.acron.description' => 'Този плъгин се опитва да намали зависимостта на приложението от инструменти за периодично планиране като „cron.“',
+      'plugins.generic.acron.name' => 'Модул (плъгин) "Acron"',
+    ),
+  ),
+);

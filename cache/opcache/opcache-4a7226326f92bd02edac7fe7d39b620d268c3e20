@@ -1,0 +1,26 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n > 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.webfeed.displayName' => 'Plugin Canal de Divulgação RSS',
+      'plugins.generic.webfeed.description' => 'Este plugin produz canais de divulgação RSS/Atom para a edição atual.<br>Este plugin inclui ainda um bloco da barra lateral que lhe permite apresentar os links dos feeds aos utilizadores',
+      'plugins.generic.webfeed.settings' => 'Configurações',
+      'plugins.generic.webfeed.settings.issue' => 'Exibir canais somente nas páginas da edição.',
+      'plugins.generic.webfeed.settings.homepage' => 'Exibir links de canais apenas nas páginas de início e das edições.',
+      'plugins.generic.webfeed.settings.all' => 'Exibir canais em todas as páginas da revista.',
+      'plugins.generic.webfeed.settings.currentIssue' => 'Exibir itens da edição atual.',
+      'plugins.generic.webfeed.settings.recent' => 'Exibe um número fixo dos artigos mais recentes.',
+      'plugins.generic.webfeed.settings.recentArticles' => 'Número de itens a exibir',
+      'plugins.generic.webfeed.settings.recentItemsRequired' => 'Indique um número inteiro positivo para o número de artigos mais recentes.',
+      'plugins.generic.webfeed.atom.altText' => 'Logo Atom',
+      'plugins.generic.webfeed.rss1.altText' => 'Logo RSS1',
+      'plugins.generic.webfeed.rss2.altText' => 'Logo RSS2',
+      'plugins.generic.webfeed.blockTitle' => 'Artigos mais recentes',
+      'plugins.generic.webfeed.settings.includeIdentifiers' => 'Incluir identificadores (ISBN, palavras-chave, categorias, etc.) no resumo do feed?',
+      'plugins.generic.webfeed.settings.homepageAndIssues' => 'Exibir links do feed web apenas na página inicial e nas páginas de edição.',
+    ),
+  ),
+);

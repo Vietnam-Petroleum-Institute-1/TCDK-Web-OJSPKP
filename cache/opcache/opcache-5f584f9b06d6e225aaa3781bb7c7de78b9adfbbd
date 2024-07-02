@@ -1,0 +1,17 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=1; plural=0;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.acron.tasksReloaded' => 'スケジュール済みタスクが再ロードされ巻いた。',
+      'plugins.generic.acron.reload' => 'スケジュール済みタスクの再ロード',
+      'plugins.generic.acron.reloadedCronTab' => 'Cron タブが正常に再ロードされました。',
+      'plugins.generic.acron.disabled' => 'Acronプラグインは無効です。',
+      'plugins.generic.acron.enabled' => 'Acronプラグイン は有効です。',
+      'plugins.generic.acron.description' => 'このプラグインは、「 cron 」などの定期的なスケジューリングツールへのアプリケーションの依存を軽減しようとします。',
+      'plugins.generic.acron.name' => 'Acronプラグイン',
+    ),
+  ),
+);

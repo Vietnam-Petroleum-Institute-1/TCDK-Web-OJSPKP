@@ -1,0 +1,31 @@
+<?php $exp = 1751345594; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'api.announcements.400.contextsNotMatched' => 'Požadované oznámení není součástí tohoto časopisu.',
+      'api.emails.403.disabled' => 'Pro tento časopis nebyla zapnuta e-mailová upozornění.',
+      'api.submissions.400.wrongContext' => 'Příspěvek, který jste požadovali, není v tomto časopisu.',
+      'api.submissions.403.cantChangeContext' => 'Nemůžete změnit záznamy příspěvku.',
+      'api.submissions.403.unpublishedIssues' => 'Nemáte právo vidět čísla, která nebyla publikována.',
+      'api.contexts.403.requestedDisabledContexts' => 'Můžete zobrazit pouze časopisy, které byly povoleny.',
+      'api.contexts.403.notAllowed' => 'K prohlížení tohoto časopisu nemáte oprávnění.',
+      'api.contexts.403.contextsDidNotMatch' => 'Tento časopis nemůžete prohlížet ani upravovat, dokud nepožádáte o API časopisu nebo API pro celý web.',
+      'api.contexts.403.requiresContext' => 'Tento časopis nelze upravovat přes API pro celý web.',
+      'api.contexts.403.notAllowedEdit' => 'Nemáte oprávnění upravovat tento časopis.',
+      'api.contexts.403.notAllowedDelete' => 'K odstranění tohoto časopisu nemáte oprávnění.',
+      'api.contexts.404.contextNotFound' => 'Požadovaný časopis nebyl nalezen.',
+      'api.dois.403.contextsNotMatched' => 'Požadované DOI není součástí tohoto časopisu.',
+      'api.dois.400.noRegistrationAgencyConfigured' => 'Pro tento časopis nebyla nakonfigurována žádná registrační agentura DOI.',
+      'api.dois.400.depositFailed' => 'Některé položky nebyly úspěšně uloženy. Podívejte se prosím na konkrétní chybová hlášení u jednotlivých položek.',
+      'api.emailTemplates.403.notAllowedChangeContext' => 'Nemáte oprávnění přesunout tuto e-mailovou šablonu do jiného časopisu.',
+      'api._payments.400.invalidPaymentMethod' => 'Zvolený způsob platby není podporován.',
+      'api.publications.403.contextsDidNotMatch' => 'Požadované vydání není součástí tohoto časopisu.',
+      'api.publications.403.submissionsDidNotMatch' => 'Požadované vydání není součástí tohoto příspěvku.',
+      'api.submissionFiles.400.badRepresentationAssocType' => 'Nelze přidružit soubor z této fáze souborů se sazebnicí.',
+      'api.submission.400.inactiveSection' => 'Tato sekce již nepřijímá příspěvky.',
+    ),
+  ),
+);

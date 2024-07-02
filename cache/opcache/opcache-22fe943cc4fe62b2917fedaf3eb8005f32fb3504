@@ -1,0 +1,32 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'comments.anonymous' => 'Анонимді пайдаланушы',
+      'comments.anonymousNamed' => '"{$userName}"',
+      'comments.body' => 'Пікір мәтіні',
+      'comments.titleRequired' => 'Түсініктеменің тақырыбы міндетті түрде болуы керек.',
+      'comments.confirmDeleteChildren' => 'Бұл пікірді жою оған берілген барлық жауаптарды жояды. Сіз мұны шынымен орындағыңыз келе ме?',
+      'comments.delete' => 'Осы пікірді жою',
+      'comments.email' => 'Пікір қалдырушының электрондық поштасы',
+      'comments.emailReply' => 'Электрондық пошта арқылы жауап беру',
+      'comments.enterComment' => 'Пікір енгізу',
+      'comments.inResponseTo' => 'Жауап ретінде <a href="{$url}">{$title}</a>',
+      'comments.name' => 'Комментатордың аты',
+      'comments.noComments' => 'Оқырмандардың жарияланған пікірлері жоқ.',
+      'comments.nReplies' => '({$num} Жауаптар)',
+      'comments.oneReply' => '(1 жауап)',
+      'comments.postAnonymously' => 'Бұл пікірді жасырын түрде жариялау',
+      'comments.postReply' => 'Жауапты жариялау',
+      'comments.readerComments' => 'Оқырмандардың пікірлері',
+      'comments.readMore' => 'Әрі қарай оқу',
+      'comments.replies' => 'Жауаптар',
+      'comments.title' => 'Тақырыбы',
+      'comments.viewAllComments' => 'Барлық пікірлерді көру',
+      'reader.fullText' => 'Толық мәтін:',
+    ),
+  ),
+);

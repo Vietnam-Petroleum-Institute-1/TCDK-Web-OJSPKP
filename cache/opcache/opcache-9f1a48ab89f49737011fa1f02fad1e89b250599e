@@ -1,0 +1,26 @@
+<?php $exp = 1751345595; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n > 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.staticPages.displayName' => 'پلاگین صفحات استاتیک',
+      'plugins.generic.staticPages.description' => 'با این پلاگین میتوان محتوای استاتیک را اداره کرد',
+      'plugins.generic.staticPages.pageTitle' => 'عنوان',
+      'plugins.generic.staticPages.content' => 'محتوا',
+      'plugins.generic.staticPages.path' => 'مسیر',
+      'plugins.generic.staticPages.requirement.tinymce' => '<strong>قبل از اینکه بتوانیم محتوائی را اضافه یا حذف کنیم باید پلاگین تینی ام سی ای را فعال سازیم.</strong>',
+      'plugins.generic.staticPages.editAddContent' => 'ویرایش یا افزودن محتوا',
+      'plugins.generic.staticPages.addStaticPage' => 'افزودن صفحه استاتیک',
+      'plugins.generic.staticPages.addNewPage' => 'افزودن صفحه جدید',
+      'plugins.generic.staticPages.editStaticPage' => 'ویرایش صفجه استاتیک',
+      'plugins.generic.staticPages.settingInstructions' => 'در فرم زیر تمام صفحات استاتیک ایجاد شده را میبینید. با استفاده از لینک های سمت راست میتوانید صفحات را ویرایش یا حذف کنید.',
+      'plugins.generic.staticPages.editInstructions' => 'با استفاده از فرم زیر میتوانید محتوای صفحه را اضافه یا ویرایش کنید',
+      'plugins.generic.staticPages.duplicatePath' => 'مسیر مشخص شده هم اکنون وجود دارد.',
+      'plugins.generic.staticPages.pageSaved' => 'صفحه با موفقیت ذخیره شده.',
+      'plugins.generic.staticPages.pageDeleted' => 'صفحه با موفقیت حذف شد.',
+      'plugins.generic.staticPages.noneExist' => 'هیج صفحه ای ایجاد نشده است',
+    ),
+  ),
+);

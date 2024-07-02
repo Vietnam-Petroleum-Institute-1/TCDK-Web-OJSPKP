@@ -1,0 +1,17 @@
+<?php $exp = 1751345595; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.importexport.crossref.description' => 'Εξαγωγή των μεταδεδομένων του άρθρου σε μορφή Crossref XML.',
+      'plugins.importexport.crossref.displayName' => 'Πρόσθετο εξαγωγής Crossref XML',
+      'plugins.importexport.crossref.requirements.satisfied' => 'Πληρούνται όλες οι απαιτήσεις των πρόσθετων.',
+      'plugins.importexport.crossref.requirements' => 'Απαιτήσεις',
+      'plugins.importexport.crossref.status.registered' => 'Ενεργό',
+      'plugins.importexport.crossref.status.failed' => 'Απέτυχε',
+      'plugins.importexport.crossref.settings.form.username' => 'Όνομα χρήστη',
+    ),
+  ),
+);

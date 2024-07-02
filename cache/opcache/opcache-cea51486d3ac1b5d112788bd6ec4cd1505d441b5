@@ -1,0 +1,19 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=1; plural=0;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.googleAnalytics.authorAccountInvalid' => 'Satu atau lebih nombor akaun Google Analytics yang dimasukkan untuk pengarang penyerahan tidak sah.',
+      'plugins.generic.googleAnalytics.authorAccount.description' => 'Untuk mengesan pembaca artikel yang diterbitkan menggunakan Google Analytics, masukkan nombor akaun di sini (mis. UA-xxxxxx-x).',
+      'plugins.generic.googleAnalytics.authorAccount' => 'Nombor akaun Analitis Google',
+      'plugins.generic.googleAnalytics.manager.settings.googleAnalyticsSiteIdRequired' => 'Sila masukkan nombor akaun.',
+      'plugins.generic.googleAnalytics.manager.settings.googleAnalyticsSiteId' => 'Nombor akaun',
+      'plugins.generic.googleAnalytics.manager.settings.description' => '<p>Dengan pemalam ini didayakan, Analitis Google boleh digunakan untuk mengumpul dan menganalisis penggunaan tapak web dan trafik. Sila ambil perhatian bahawa pemalam ini memerlukan anda telah menyediakan akaun Google Analitis. Sila lihat <a href="https://www.google.com/analytics/" title="tapak Google Analitis">tapak Google Analitis</a> untuk mendapatkan maklumat lanjut.</p>
+<p>Sila ambil perhatian bahawa Analitis Google mungkin memerlukan sehingga 24 jam sebelum statistik dikumpulkan dan dilaporkan. Dalam tempoh ini, fungsi \'Semak Status\' mungkin tidak melaporkan dengan tepat sama ada ia telah mengesan kod penjejakan yang diperlukan.</p>',
+      'plugins.generic.googleAnalytics.description' => 'Gabungkan OJS dengan Google Analytics, aplikasi analisis lalu lintas laman web Google. Memerlukan anda telah menyediakan akaun Analitis Google. Sila lihat <a href="http://www.google.com/analytics/" title=" laman web Analisis Google"> laman Analitis Google </a> untuk maklumat lebih lanjut.',
+      'plugins.generic.googleAnalytics.displayName' => 'Plugin Analitis Google',
+    ),
+  ),
+);

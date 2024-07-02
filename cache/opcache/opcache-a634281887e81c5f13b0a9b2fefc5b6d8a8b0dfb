@@ -1,0 +1,22 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.announcementfeed.displayName' => 'Feed per gli avvisi',
+      'plugins.generic.announcementfeed.description' => 'Questo plugin produce feed RSS/Atom per gli avvisi della rivista.',
+      'plugins.generic.announcementfeed.settings' => 'Impostazioni',
+      'plugins.generic.announcementfeed.settings.all' => 'Mostra i link ai feed su tutte le pagine della rivista.',
+      'plugins.generic.announcementfeed.settings.homepage' => 'Mostra i link ai feed solo nella homepage e nella pagina degli avvisi.',
+      'plugins.generic.announcementfeed.settings.announcement' => 'Mostra i link ai feed solo nella pagina degli avvisi.',
+      'plugins.generic.announcementfeed.settings.recentAnnouncements1' => 'Limita i feed ai',
+      'plugins.generic.announcementfeed.settings.recentAnnouncements2' => 'avvisi più recenti.',
+      'plugins.generic.announcementfeed.settings.recentItemsRequired' => 'Inserisci un numero intero positivo per gli avvisi da mostrare nel feed.',
+      'plugins.generic.announcementfeed.atom.altText' => 'Logo Atom',
+      'plugins.generic.announcementfeed.rss1.altText' => 'Logo RSS1',
+      'plugins.generic.announcementfeed.rss2.altText' => 'Logo RSS2',
+    ),
+  ),
+);

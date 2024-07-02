@@ -1,0 +1,30 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=1; plural=0;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.staticPages.displayName' => 'Plugin Halaman Statik',
+      'plugins.generic.staticPages.description' => 'Plugin ini membolehkan Pengurusan Kandungan Statik.',
+      'plugins.generic.staticPages.staticPages' => 'Halaman Statik',
+      'plugins.generic.staticPages.pageTitle' => 'Tajuk',
+      'plugins.generic.staticPages.content' => 'Kandungan',
+      'plugins.generic.staticPages.path' => 'Laluan URL',
+      'plugins.generic.staticPages.requirement.tinymce' => '<p><strong>Plugin TinyMCE mesti dipasang dan didayakan untuk menambah/mengedit kandungan.</strong></p>',
+      'plugins.generic.staticPages.editAddContent' => 'Edit/Tambah Kandungan',
+      'plugins.generic.staticPages.addStaticPage' => 'Tambah Halaman Statik',
+      'plugins.generic.staticPages.addNewPage' => 'Tambah Halaman Baharu',
+      'plugins.generic.staticPages.editStaticPage' => 'Edit Halaman Statik',
+      'plugins.generic.staticPages.noneCreated' => 'Tiada halaman statik telah dicipta.',
+      'plugins.generic.staticPages.settingInstructions' => 'Borang di bawah menunjukkan kepada anda semua halaman statik yang telah anda buat. Anda boleh mengedit atau memadam halaman menggunakan pautan di sebelah kanan.',
+      'plugins.generic.staticPages.editInstructions' => 'Gunakan borang di bawah untuk menambah/mengedit kandungan halaman.',
+      'plugins.generic.staticPages.pathRegEx' => 'Medan laluan url mesti mengandungi hanya aksara abjad angka ditambah \'.\', \'/\', \'-\' dan \'_\'.',
+      'plugins.generic.staticPages.viewInstructions' => '<p>Halaman ini boleh diakses di: <blockquote>{$pagesPath}</blockquote>...di mana %PATH% ialah laluan url yang dimasukkan di atas. <strong>Nota:</strong> Tiada dua halaman boleh mempunyai laluan url yang sama. Menggunakan laluan yang terbina dalam sistem boleh menyebabkan anda kehilangan akses kepada fungsi penting.</p>',
+      'plugins.generic.staticPages.duplicatePath' => 'Laluan url ini sudah wujud untuk halaman statik lain.',
+      'plugins.generic.staticPages.pageSaved' => 'Halaman berjaya disimpan.',
+      'plugins.generic.staticPages.pageDeleted' => 'Halaman berjaya dipadamkan.',
+      'plugins.generic.staticPages.noneExist' => 'Tiada halaman telah dicipta',
+    ),
+  ),
+);

@@ -1,0 +1,12 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.usageEvent.displayName' => 'Zdarzenia użycia',
+      'plugins.generic.usageEvent.description' => 'Włącz możliwość dostarczania zdarzeń użycia w zdefiniowanym formacie.',
+    ),
+  ),
+);

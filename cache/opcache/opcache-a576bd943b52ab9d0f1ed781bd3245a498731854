@@ -1,0 +1,14 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.recommendByAuthor.displayName' => 'Anbefal artikler av forfatter',
+      'plugins.generic.recommendByAuthor.description' => 'Dette programtillegget legger til en liste over artikler av samme forfatter på artikkelens sammendragside.',
+      'plugins.generic.recommendByAuthor.heading' => 'Mest leste artikler av samme forfatter(e)',
+      'plugins.generic.recommendByAuthor.noMetric' => 'Merk: Programtillegget krever at minst ett programtillegg for statistikk eller rapportering er slått på. Dersom programtillegget måler mer enn en variabel, velg også hovedvariabel på administratorens sideinnstillinger og/eller tidsskriftsadministratorens innstillingssider.',
+    ),
+  ),
+);

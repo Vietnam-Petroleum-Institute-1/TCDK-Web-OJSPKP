@@ -1,0 +1,19 @@
+<?php $exp = 1751345594; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.googleAnalytics.displayName' => 'Добавка за Google Analytics',
+      'plugins.generic.googleAnalytics.description' => 'Интегриране на OJS с Google Analytics - прложението на Google за анализиране трафика към сайта. Изисква се да сте създали профил за Google Analytics. Моля, прегледайте сайта <a href="https://www.google.com/analytics/" title="Сайт Google Analytics">Google Analytics</a> за повече информация.',
+      'plugins.generic.googleAnalytics.manager.settings.description' => '<p>С активиране на тази добавка може да се използва Google Analytics за събиране и анализиране използването на сайта и трафика към него. моля, обърнете внимание, че това изисква да сте направили профил в Google Analytics. Моля прегледайте сайта <a href="https://www.google.com/analytics/" title="Сайт Google Analytics">Google Analytics</a> за повече информация.</p>
+<p>Обърнете внимение, че Google Analytics може да изисква до 24 часа преди да покаже статистика. През това време функцията \'Check Status\' може да връща, че не е открила искания код за проследяване.</p>',
+      'plugins.generic.googleAnalytics.manager.settings.googleAnalyticsSiteId' => 'Номер на профила',
+      'plugins.generic.googleAnalytics.manager.settings.googleAnalyticsSiteIdRequired' => 'Моля въведете номера на профила.',
+      'plugins.generic.googleAnalytics.authorAccount' => 'Номер на профила в Google Analytics',
+      'plugins.generic.googleAnalytics.authorAccount.description' => 'За да следите четенето на статии чрез Google Analytics, въведете номер на профил (например: UA-xxxxxx-x).',
+      'plugins.generic.googleAnalytics.authorAccountInvalid' => 'Един или повече номера на профили за Google Analytics, въведени като автори на прадложени работи, не са валидни.',
+    ),
+  ),
+);

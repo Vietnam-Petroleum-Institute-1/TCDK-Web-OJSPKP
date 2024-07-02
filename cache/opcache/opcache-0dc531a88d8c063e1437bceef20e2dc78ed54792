@@ -1,0 +1,12 @@
+<?php $exp = 1751345599; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=1; plural=0;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.dublinCoreMeta.name' => '都柏林核心索引插件',
+      'plugins.generic.dublinCoreMeta.description' => '此插件在文章閱覽嵌入都柏林核心描述標籤作為索引之用。',
+    ),
+  ),
+);

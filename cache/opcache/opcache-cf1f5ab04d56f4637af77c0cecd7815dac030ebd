@@ -1,0 +1,23 @@
+<?php $exp = 1751345595; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=4; plural=(n==1 || n==11) ? 0 : (n==2 || n==12) ? 1 : (n > 2 && n < 20) ? 2 : 3;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.webfeed.displayName' => 'Plugan an inbhir-lìn',
+      'plugins.generic.webfeed.description' => 'Tha am plugan seo a’ gintinn inbhirean siondacaideadh-lìn RSS/Atom airson na h-irise làithreach.',
+      'plugins.generic.webfeed.settings' => 'Roghainnean',
+      'plugins.generic.webfeed.settings.issue' => 'Na seall ceanglaichean an inbhir-lìn ach air duilleagan na h-irise.',
+      'plugins.generic.webfeed.settings.homepage' => 'Na seall ceanglaichean an inbhir-lìn ach air an duilleag-dhachaigh agus duilleagan na h-irise.',
+      'plugins.generic.webfeed.settings.all' => 'Seall ceanglaichean an inbhir-lìn air gach duilleag an iris-leabhair.',
+      'plugins.generic.webfeed.settings.currentIssue' => 'Seallaidh seo nithean san iris fhoillsichte làithreach.',
+      'plugins.generic.webfeed.settings.recent' => 'Seallaidh seo àireamh shocraichte de rudan a bha ann o chionn goirid.',
+      'plugins.generic.webfeed.settings.recentArticles' => 'Co mheud nì a thèid a shealltainn',
+      'plugins.generic.webfeed.settings.recentItemsRequired' => 'Cuir a-steach àireamh shlàn airson nithean a chaidh fhoillseachadh o chionn goirid.',
+      'plugins.generic.webfeed.atom.altText' => 'Suaicheantas Atom',
+      'plugins.generic.webfeed.rss1.altText' => 'Suaicheantas RSS1',
+      'plugins.generic.webfeed.rss2.altText' => 'Suaicheantas RSS2',
+    ),
+  ),
+);

@@ -1,0 +1,90 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'emails.submissionAck.subject' => '{$contextName} için gönderdiğiniz aday makale için teşekkürler',
+      'emails.submissionAck.body' => 'Sayın {$recipientName},<br />
+<br />
+{$contextName} adlı dergiye gönderdiğiniz &quot;{$submissionTitle}&quot; adlı çalışma için teşekkür ederiz. Kullanmakta olduğumuz internet erişimli dergi yönetim sistemi ile, dergi web sitesine aşağıdaki bilgilerle giriş yaparak çalışmanızı değerlendirme süreçlerindeki durumunu takip edebilirsiniz:<br />
+<br />
+Erişim adresi: {$submissionUrl}<br />
+Kullanıcı Adı: {$recipientUsername}<br />
+<br />
+Herhangi bir soru veya sorununuz olursa lütfen bizimle iletişime geçiniz. Emek ürünü çalışmanızı yayınlamak üzere dergimizi tercih ettiğiniz için teşekkür ederiz.<br />
+<br />
+{$contextSignature}',
+      'emails.reviewAck.subject' => 'Değerlendirme İçin Teşekkür',
+      'emails.reviewAck.body' => 'Sayın {$recipientName},<br />
+<br />
+{$contextName} adlı dergide yayınlanması için değerlendirilmek üzere gönderilen &quot;{$submissionTitle}&quot; başlıklı çalışmanın değerlendirme işlemini tamamladığınız için teşekkür ederiz. Yayınımıza yaptığınız katkıyı takdirle anıyoruz.',
+      'emails.editorDecisionSendToExternal.subject' => 'Editör Kararı',
+      'emails.editorDecisionSendToExternal.body' => '{$authors}:<br />
+<br />
+{$contextName}, &quot;{$submissionTitle}&quot; adresine yaptığınız gönderi için bir karara varılmıştır.<br />
+<br />
+Karar: Hakeme Gönderilmesi Uygundur<br />
+<br />
+Submission URL: {$submissionUrl}',
+      'emails.editorDecisionSendToProduction.subject' => 'Aday makalenizin yayınlanması için sonraki adımlar',
+      'emails.editorDecisionSendToProduction.body' => '{$authors}:<br />
+<br />
+
+&quot;{$submissionTitle},&quot; adlı gönderinizin düzenlemesi tamamlandı. Makalenizi basım aşamasına gönderiyoruz.<br />
+<br />
+Gönderi URL\'si: {$submissionUrl}',
+      'emails.editorDecisionRevisions.subject' => 'Aday makalenizin değerlendirme süreci tamamlandı ve düzeltme talebi',
+      'emails.editorDecisionRevisions.body' => '{$authors}:<br />
+<br />
+{$contextName} için gönderdiğiniz &quot;{$submissionTitle}&quot; başlıklı çalışmanıza ilişkin değerlendirme süreci sonucu bir karara varılmıştır.<br />
+<br />
+Kararımız: Düzeltme Gerekli',
+      'emails.editorDecisionResubmit.subject' => 'Editör Kararı',
+      'emails.editorDecisionResubmit.body' => 'Sayın {$authors},<br />
+<br />
+{$contextName} için gönderdiğiniz &quot;{$submissionTitle}&quot; başlıklı çalışmanız ile ilgili bir karara varılmıştır.<br />
+<br />
+Kararımız: Hakem Değerlendirmesi İçin Tekrar Gönder',
+      'emails.editorDecisionDecline.subject' => 'Editör Kararı',
+      'emails.editorDecisionDecline.body' => 'Sayın {$authors},<br />
+<br />
+{$contextName} için gönderdiğiniz &quot;{$submissionTitle}&quot; başlıklı çalışmanız ile ilgili bir karara varılmıştır.<br />
+<br />
+Kararımız: Makale Reddedildi',
+      'emails.editorRecommendation.subject' => 'Editör Tavsiyesi',
+      'emails.editorRecommendation.body' => '{$editors}:<br />
+<br />
+{$contextName}, &quot;{$submissionTitle}&quot; adlı gönderi ile ilgili öneri: {$recommendation}',
+      'emails.copyeditRequest.subject' => 'Sayfa düzeni için rica',
+      'emails.copyeditRequest.body' => 'Sayın {$recipientName},<br />
+<br />
+{$contextName} ileri sayılarında yayınlanmak üzere kabul edilen &quot;{$submissionTitle}&quot; başlıklı çalışmanın sayfa düzenini tamamlamanızı rica ederim. Dergi sitesinde yazıyı , sayfa düzeni konusundaki özel açıklamalar ile birlikte bulabilirsiniz. <br />
+<br />
+Yazı ulaşım adresi: {$submissionUrl}<br />
+Kullanıcı adı: {$recipientUsername}<br />
+<br />
+Lütfen eğer sayfa düzenini yapmanız konusunda bir sorun var ise bana bildiriniz.<br />
+DErgimizin kalitesini arttıran değerli katkılarınız için teşekkür ederiz.',
+      'emails.editorDecisionInitialDecline.subject' => 'Editör Kararı',
+      'emails.editorDecisionInitialDecline.body' => 'Sayın {$authors},<br />
+<br />
+{$contextName} için gönderdiğiniz &quot;{$submissionTitle}&quot; başlıklı aday makaleniz ile ilgili değerlendirme süreci tamamlanmıştır.<br />
+<br />
+Değerlendirme sonucu karar:  Aday Makale Reddedildi',
+      'emails.discussion.subject' => '{$contextName} ile ilgili bir mesaj',
+      'emails.discussion.body' => 'Lütfen mesajınızı giriniz.',
+      'emails.reviewConfirm.subject' => 'Değerlendirmeyi Yapacağım',
+      'emails.reviewConfirm.body' => 'Sayın {$recipientName},<br />
+<br />
+{$contextName} adlı dergide yayımlanması için değerlendirilmek üzere gönderilen &quot;{$submissionTitle}&quot; başlıklı makalenin değerlendirme talebini kabul ediyorum. Değerlendirme raporunu en geç {$reviewDueDate} tarihine kadar göndereceğim.<br />
+<br />
+Çalışmayı değerlendirmek üzere tarafıma gönderdiğiniz için teşekkür ederim.<br />
+<br />
+{$senderName}',
+      'emails.submissionAckNotAuthor.subject' => 'Gönderme onayı',
+      'emails.submissionAckNotAuthor.body' => '<p>Sayın {$recipientName},</p><p>{$contextName} için gönderilen aday makaleye ortak yazar olarak eklendiniz. Aday makaleyi gönderen, {$submitterName} aşağıdaki ayrıntıları sundu:</p><p>{$submissionTitle}<br>{$authorsWithAffiliation}</p><p>Bu detaylardan herhangi biri yanlış ise ya da bu aday makalede adınızın geçmesini istemiyorsanız, lütfen benimle iletişime geçin.</p><p>Dergimizi tercih ettiğiniz için teşekkür ederiz.</p><p>Saygılarımla,</p>{$contextSignature}',
+    ),
+  ),
+);

@@ -1,0 +1,79 @@
+<?php $exp = 1751345595; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n > 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'installer.additionalLocales' => 'Paramètres régionaux supplémentaires',
+      'installer.administratorAccount' => 'Compte administrateur',
+      'installer.administratorAccountInstructions' => 'Ce compte utilisateur deviendra l\'administrateur-trice du site et aura le plein accès à tout le système. D\'autres comptes utilisateurs peuvent être créés après l\'installation.',
+      'installer.checkNo' => '<span class="pkp_form_error formError">NON</span>',
+      'installer.checkYes' => 'Oui',
+      'installer.configFileError' => 'Le fichier de configuration <tt>config.inc.php</tt> n\'existe pas ou n\'est pas lisible.',
+      'installer.connectionCharset' => 'Jeu de caractères pour la connexion',
+      'installer.contentsOfConfigFile' => 'Contenu du fichier de configuration',
+      'installer.databaseDriver' => 'Pilote de la base de données',
+      'installer.databaseDriverInstructions' => '<strong>Les pilotes de bases de données qui sont listés entre crochets ne semblent pas avoir chargé l\'extension PHP requise et l\'installation risque donc d\'échouer s\'ils sont sélectionnés.</strong><br />Tous les pilotes de bases de données qui ne sont pas pris en charge, tel indiqué ci-dessus, sont listés uniquement à des fins académiques et ne fonctionneront vraisemblablement pas.',
+      'installer.databaseHost' => 'Hôte de la base de données',
+      'installer.databaseHostInstructions' => 'Laisser le nom de l\'hôte de la base de données vide pour se connecter à l\'aide de connecteurs logiciels de domaine au lieu de le faire par TCP/IP. Ce n\'est pas nécessaire avec MySQL, qui utilisera automatiquement des connecteurs logiciels si « localhost » a été saisi, mais c\'est obligatoire avec d\'autres serveurs de bases de données tel que PostgreSQL.',
+      'installer.databaseName' => 'Nom de la base de données',
+      'installer.databasePassword' => 'Mot de passe',
+      'installer.databaseSettings' => 'Paramètres de la base de données',
+      'installer.databaseUsername' => 'Nom d\'utilisateur-trice',
+      'installer.filesDir' => 'Répertoire pour les téléversements',
+      'installer.fileSettings' => 'Paramètres des fichiers',
+      'installer.form.clientCharsetRequired' => 'Un jeu de caractères client doit être sélectionné.',
+      'installer.form.databaseDriverRequired' => 'Un pilote de base de données doit être sélectionné.',
+      'installer.form.databaseNameRequired' => 'Le nom de la base de données est obligatoire.',
+      'installer.form.emailRequired' => 'Un courriel valide pour le compte administrateur est obligatoire.',
+      'installer.form.filesDirRequired' => 'Le répertoire à utiliser pour stocker les fichiers téléversés est obligatoire.',
+      'installer.form.localeRequired' => 'Un paramètre régional doit être sélectionné.',
+      'installer.form.passwordRequired' => 'Un mot de passe pour le compte administrateur est obligatoire.',
+      'installer.form.passwordsDoNotMatch' => 'Les mots de passe de l\'administrateur-trice ne correspondent pas.',
+      'installer.form.separateMultiple' => 'Séparer les valeurs multiples par une virgule',
+      'installer.form.usernameAlphaNumeric' => 'Le nom d\'utilisateur-trice de l\'administrateur-trice ne peut contenir que des caractères alphanumériques, traits de soulignement, et traits d\'union, et doit commencer et se terminer par un caractère alphanumérique.',
+      'installer.form.usernameRequired' => 'Un nom d\'utilisateur-trice pour le compte administrateur-trice est obligatoire.',
+      'installer.form.timeZoneRequired' => 'Un fuseau horaire doit être sélectionné.',
+      'installer.installationWrongPhp' => '<br/><strong>AVERTISSEMENT : Votre version actuelle de PHP ne satisfait pas aux exigences minimales d\'installation. Nous vous recommandons de faire la mise à jour vers une version plus récente de PHP.</strong>',
+      'installer.installErrorsOccurred' => 'Des erreurs se sont produites pendant l\'installation',
+      'installer.installerSQLStatements' => 'Énoncés SQL pour l\'installation',
+      'installer.installFileError' => 'Le fichier d\'installation <tt>dbscripts/xml/install.xml</tt> n\'existe pas ou n\'est pas lisible.',
+      'installer.installFilesDirError' => 'Le répertoire demandé pour les fichiers téléversés n\'existe pas ou n\'est pas disponible en écriture.',
+      'installer.installParseDBFileError' => 'Erreur de traitement du fichier d\'installation de la base de données <tt>{$file}</tt>.',
+      'installer.installMigrationError' => 'Une erreur s\'est produite lors de l\'exécution de la classe de migration <tt>{$class}</tt>. L\'exception était {$message}.',
+      'installer.installParseEmailTemplatesFileError' => 'Une erreur s\'est produite lors de l\'analyse du fichier du modèle de courriel <tt>{$file}</tt>.',
+      'installer.installParseFilterConfigFileError' => 'Erreur de traitement du fichier de configuration du filtre <tt>{$file}</tt>.',
+      'installer.unsupportedUpgradeError' => 'Mise à niveau non supportée. Voir docs/UPGRADE-UNSUPPORTED pour plus de renseignements.',
+      'installer.timezoneInstructions' => 'Le fuseau horaire à utiliser pour ce système.',
+      'installer.additionalLocalesInstructions' => 'Sélectionner toutes les langues supplémentaires à prendre en charge dans ce système. Des langues supplémentaires peuvent également être installées à tout moment depuis l\'interface d\'administration du site. <br> * = Désigne les langues qui ne sont pas entièrement traduites (> 90% des termes traduits)',
+      'installer.locale' => 'Paramètre régional',
+      'installer.locale.maybeIncomplete' => 'Les contenus des paramètres régionaux sélectionnés peuvent être incomplets.',
+      'installer.localeSettings' => 'Paramètrage du paramètre régional',
+      'installer.oaiSettings' => 'Paramètres OAI',
+      'installer.oaiRepositoryIdInstructions' => 'Un identifiant unique utilisé pour identifier les enregistrements de métadonnées indexés dans ce site à l\'aide du protocole <a href="https://www.openarchives.org/" target="_blank">Open Archives Initiative</a> pour la collecte de métadonnées.',
+      'installer.oaiRepositoryId' => 'Identifiant du dépôt OAI',
+      'installer.publicFilesDirError' => 'Le répertoire des fichiers publics n\'existe pas ou n\'est pas disponible en écriture.',
+      'installer.releaseNotes' => 'Notes relatives à la mise à jour',
+      'installer.preInstallationInstructionsTitle' => 'Étapes de préinstallation',
+      'installer.preInstallationInstructions' => '
+		<p>1. Les fichiers et répertoires suivants (et leur contenu) doivent être accessibles en écriture :</p>
+		<ul>
+			<li><tt>config.inc.php</tt> est accessible en écriture (optionnel) : {$writable_config}</li>
+			<li><tt>public/</tt> est accessible en écriture : {$writable_public}</li>
+			<li><tt>cache/</tt> est accessible en écriture : {$writable_cache}</li>
+			<li><tt>cache/t_cache/</tt> est accessible en écriture : {$writable_templates_cache}</li>
+			<li><tt>cache/t_compile/</tt> est accessible en écriture : {$writable_templates_compile}</li>
+			<li><tt>cache/_db</tt> est accessible en écriture : {$writable_db_cache}</li>
+		</ul>
+
+		<p>2. Vous devez créer un répertoire pour conserver les fichiers téléversés et il doit être accessible en écriture (voir « Paramètres du fichier » ci-dessous).</p>
+	',
+      'installer.configureXSLMessage' => '<p>Le module XSL de votre installation PHP n\'est pas activé. Veuillez l\'activer ou configurer le paramètre xslt_command de votre fichier config.inc.php.</p>',
+      'installer.beacon' => 'Balise',
+      'installer.beacon.enable' => 'Procure un identifiant unique de site et un URL de base pour le protocole OAI pour PKP. Ceux-ci sont utilisés uniuqement à des fins de statistiques et de sécurité.',
+      'installer.unsupportedPhpError' => 'La version PHP de votre serveur n\'est pas supportée par ce logiciel. Vérifiez les conditions d\'installation dans docs/README.',
+      'installer.miscSettings' => 'Paramètres divers',
+    ),
+  ),
+);

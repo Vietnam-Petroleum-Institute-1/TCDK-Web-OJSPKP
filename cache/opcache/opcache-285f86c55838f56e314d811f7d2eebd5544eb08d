@@ -1,0 +1,12 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.googleScholar.name' => 'Google Scholar ინდექსირების პლაგინი',
+      'plugins.generic.googleScholar.description' => 'ეს პლაგინი საშუალებას გაძლევთ მოახდინოთ გამოქვეყნებული შიგთავსის ინდექსაცია Google Scholar-ში.',
+    ),
+  ),
+);

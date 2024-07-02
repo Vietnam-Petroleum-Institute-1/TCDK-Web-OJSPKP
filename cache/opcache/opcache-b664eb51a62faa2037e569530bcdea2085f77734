@@ -1,0 +1,96 @@
+<?php $exp = 1751345595; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=4; plural=(n==1 || n==11) ? 0 : (n==2 || n==12) ? 1 : (n > 2 && n < 20) ? 2 : 3;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'emails.submissionAck.subject' => 'Dearbhadh air tagradh',
+      'emails.submissionAck.body' => '{$recipientName}:<br />
+<br />
+Mòran taing airson an sgrìobhainn “{$submissionTitle}” airson {$contextName} a chur thugainn. Leis an t-siostam air loidhne a chleachdas sinn airson stiùireadh iris-leabhraichean, is urrainn dhut sùil a chumail air adhartas tron phròiseas deasachaidh le bhith a’ clàradh a-steach air làrach-lìn an iris-leabhair:<br />
+<br />
+URL an tagraidh: {$submissionUrl}<br />
+Ainm-cleachdaiche: {$recipientUsername}<br />
+<br />
+Ma tha ceist sam bith agad, cuir fios thugam. Mòran taing airson an t-iris-leabhar seo a thaghadh mar dhòigh foillseachaidh dha d’ obair.<br />
+<br />
+{$contextSignature}',
+      'emails.reviewAck.subject' => 'Freagairt mu lèirmheas artaigil',
+      'emails.reviewAck.body' => '{$recipientName}:<br />
+<br />
+Mòran taing airson an lèirmheas air an tagradh “{$submissionTitle},” airson {$contextName} a choileanadh. Tha sinn fada nad chomain airson na h-obrach a nì thu airson na dh’fhoillsicheas sinn a chumail aig ìre àrd.',
+      'emails.editorDecisionSendToExternal.subject' => 'Co-dhùnadh deasaiche',
+      'emails.editorDecisionSendToExternal.body' => '{$authors}:<br />
+<br />
+Thàinig sinn gu co-dhùnadh a thaobh an tagraidh agad gu {$contextName}, “{$submissionTitle}”.<br />
+<br />
+Cho-dhùin sinn Cuir airson lèirmheas<br />
+<br />
+URL an tagraidh: {$submissionUrl}',
+      'emails.editorDecisionSendToProduction.subject' => 'Co-dhùnadh deasaiche',
+      'emails.editorDecisionSendToProduction.body' => '{$authors}:<br />
+<br />
+Tha obair deasachaidh an tagraidh agad, “{$submissionTitle},” deiseil.  Tha sinn ga chur chun an sgioba saothrachaidh an-dràsta.<br />
+<br />
+URL an tagraidh: {$submissionUrl}',
+      'emails.editorDecisionRevisions.subject' => 'Co-dhùnadh deasaiche',
+      'emails.editorDecisionRevisions.body' => '{$authors}:<br />
+<br />
+Thàinig sinn gu co-dhùnadh a thaobh an tagraidh agad gu {$contextName}, “{$submissionTitle}”.<br />
+<br />
+Cho-dhùin sinn na leanas: Tha feum air ath-dheasachadh',
+      'emails.editorDecisionResubmit.subject' => 'Co-dhùnadh deasaiche',
+      'emails.editorDecisionResubmit.body' => '{$authors}:<br />
+<br />
+Thàinig sinn gu co-dhùnadh a thaobh an tagraidh agad gu {$contextName}, “{$submissionTitle}”.<br />
+<br />
+Cho-dhùin sinn Cuir a chùm lèirmheis às ùr',
+      'emails.editorDecisionDecline.subject' => 'Co-dhùnadh deasaiche',
+      'emails.editorDecisionDecline.body' => '{$authors}:<br />
+<br />
+Thàinig sinn gu co-dhùnadh a thaobh an tagraidh agad gu {$contextName}, “{$submissionTitle}”.<br />
+<br />
+Cho-dhùin sinn an tagradh a dhiùltadh',
+      'emails.editorRecommendation.subject' => 'Moladh an deasaiche',
+      'emails.editorRecommendation.body' => '{$editors}:<br />
+<br />
+’S e seo an co-dhùnadh a thaobh an tagraidh gu {$contextName}, “{$submissionTitle}”: {$recommendation}',
+      'emails.copyeditRequest.subject' => 'Iarrtas grinn-deasachaidh',
+      'emails.copyeditRequest.body' => '{$recipientName}:<br />
+<br />
+Bu toil leam iarraidh ort “{$submissionTitle}” airson {$contextName} a ghrinn-deasachadh a rèir nan ceuman a leanas.<br />
+1. Briog air URL an tagraidh gu h-ìosal.<br />
+2. Fosgail faidhle sam bith a tha sna “Dreachdan fhaidhlichean” is dèan grinn-deasachadh orra agus tòisich deasbadan grinn-deasachaidh ma bhios feum orra.<br />
+3. Sàbhail na faidhlichean a rinn thu grinn-deasachadh orra agus luchdaich suas iad chun na panail “Grinn-deasaichte”.<br />
+4. Cuir fios chun an deasaiche gun do dhèilig thu ris a h-uile faidhle agus gum faodar tòiseachadh air an t-saothrachadh.<br />
+<br />
+URL {$contextName}: {$contextUrl}<br />
+URL an tagraidh: {$submissionUrl}<br />
+Ainm-cleachdaiche: {$recipientUsername}',
+      'emails.editorDecisionInitialDecline.subject' => 'Co-dhùnadh deasaiche',
+      'emails.editorDecisionInitialDecline.body' => '
+			{$authors}:<br />
+<br />
+Thàinig sinn gu co-dhùnadh a thaobh an tagraidh agad gu {$contextName}, “{$submissionTitle}”.<br />
+<br />
+Cho-dhùin sinn an tagradh a dhiùltadh',
+      'emails.discussion.subject' => 'Teachdaireachd a thaobh {$contextName}',
+      'emails.discussion.body' => 'Cuir a-steach do theachdaireachd.',
+      'emails.reviewConfirm.subject' => 'Bidh e comasach lèirmheas a dhèanamh air',
+      'emails.reviewConfirm.body' => 'Deasaichean:<br />
+<br />
+Tha mi deiseil is deònach lèirmheas a dhèanamh air an tagradh “{$submissionTitle},” airson {$contextName}. Mòran taing airson an cothrom seo a thoirt dhomh agus tha mi an dòchas an lèirmheas a choileanadh ron {$reviewDueDate}.<br />
+<br />
+{$senderName}',
+      'emails.submissionAckNotAuthor.subject' => 'Dearbhadh air tagradh',
+      'emails.submissionAckNotAuthor.body' => 'Shin thu,<br />
+<br />
+Chuir {$submitterName} an sgrìobhainn “{$submissionTitle}” gu {$contextName}. <br />
+<br />
+Ma tha ceist sam bith agad, cuir fios thugam. Mòran taing airson an t-iris-leabhar seo a thaghadh mar dhòigh foillseachaidh dha d’ obair.<br />
+<br />
+{$contextSignature}',
+    ),
+  ),
+);

@@ -1,0 +1,50 @@
+<?php $exp = 1751345595; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.importexport.crossref.displayName' => 'افزونه برون دهی Crossref XML',
+      'plugins.importexport.crossref.description' => 'برون دهی فراداده مقاله ئر فرمت Crossref XML',
+      'plugins.importexport.crossref.requirements' => 'نیازمندی ها',
+      'plugins.importexport.crossref.requirements.satisfied' => 'تمامی نیازمندی های این افزونه برقرار است.',
+      'plugins.importexport.crossref.error.publisherNotConfigured' => 'ناشر مجله مشخص نشده است! شما باید در <a href="{$journalSettingsUrl}" target="_blank">صفحه تنظیمات مجله</a> ناشر آن را اضافه کنید',
+      'plugins.importexport.crossref.error.issnNotConfigured' => 'شاپای مجله مشخص نشده است! شما باید در <a href="{$journalSettingsUrl}" target="_blank">صفحه تنظیمات مجله</a> شاپای آن را اضافه کنید',
+      'plugins.importexport.crossref.error.noDOIContentObjects' => 'در افزونه DOI، مقالات برای اختصاص DOI انتخاب نشده است، بنابراین هیچ سپرده یا امکان برون دهی در این افزونه وجود ندارد.',
+      'plugins.importexport.crossref.settings.depositorIntro' => 'موارد زیر برای ارتباط با Crossref مورد نیاز است.',
+      'plugins.importexport.crossref.settings.form.depositorName' => 'نام سپرده گذار',
+      'plugins.importexport.crossref.settings.form.depositorEmail' => 'ایمیل سپرده گذار',
+      'plugins.importexport.crossref.settings.form.depositorNameRequired' => 'لطفا نام سپرده گذار را وارد کنید',
+      'plugins.importexport.crossref.settings.form.depositorEmailRequired' => 'لطفا ایمیل سپرده گذار را وارد کنید',
+      'plugins.importexport.crossref.registrationIntro' => 'اگر می خواهید از این افزونه برای ثبت مستقیم DOI با Crossref استفاده کنید، به نام کاربری و رمز عبور (از <a href="http://www.crossref.org" target="_blank">Crossref</a>) نیاز خواهید داشت. اگر شما نام کاربری و رمز عبور خود را ندارید، همچنان می توانید اطلاعات مجله را به فرمت XML Crossref برون دهی کنید، اما نمی توانیدشناسه DOI خود از طریق Crossref ثبت کنید.',
+      'plugins.importexport.crossref.settings.form.username' => 'نام کاربری',
+      'plugins.importexport.crossref.settings.form.usernameRequired' => 'لطفا نام کاربری که از Crossref دریافت کرده اید وارد کنید',
+      'plugins.importexport.crossref.settings.form.automaticRegistration.description' => 'سامانه به طور خودکار شناسه DOI را به Crossrefتحویل می دهد. لطفا توجه داشته باشید که ممکن است پس از انتشار زمان کوتاهی برای پردازش سپری شود. شما می توانید تمام DOI های ثبت نشده را تیک بزنید.',
+      'plugins.importexport.crossref.settings.form.testMode.description' => 'از API تست Crossref (محیط آزمایش) برای سپرده DOI استفاده کنید. لطفا فراموش نکنید که این گزینه را در زمان انتشار محتوا حذف کنید.',
+      'plugins.importexport.crossref.issues.description' => 'توجه: فقط شماره ها (و نه مقالات آنها) برای برون دهی/ثبت در نظر گرفته می شود.',
+      'plugins.importexport.crossref.status.failed' => 'ناموفق',
+      'plugins.importexport.crossref.status.registered' => 'فعال',
+      'plugins.importexport.crossref.status.markedRegistered' => 'نشانه گذاری شده به عنوان فعال',
+      'plugins.importexport.crossref.statusLegend' => '<p>سپرده:</p>
+<p>
+-سپرده نشده: هیچ تلاشی برای سپرده گذاری برای این DOI انجام نشده است.<br />
+-فعال: DOI سپرده شده است و به درستی حل و فصل می شود.<br />
+-ناموفق: سپرده DOI شکست خورده است.<br />
+-نشانه گذاری شده به عنوان فعال: DOI به صورت دستی به عنوان فعال شناخته شده است.<br />
+</p>
+<p>
+تنها وضعیت آخرین تلاش سپرده نمایش داده می شود.
+</p>
+<p>
+اگر سپرده شکست خورده باشد، لطفا مشکل را حل کنید و مجددا DOI را ثبت کنید.
+</p>',
+      'plugins.importexport.crossref.action.export' => 'دانلود XML',
+      'plugins.importexport.crossref.action.markRegistered' => 'نشانه گذاری به عنوان فعال',
+      'plugins.importexport.crossref.senderTask.name' => 'وظیفه ثبت خودکار Crossref',
+      'plugins.importexport.crossref.cliUsage' => 'نحوه استفاده:  {$scriptName} {$pluginName} export [xmlFileName] [journal_path] articles objectId1 [objectId2] ...  {$scriptName} {$pluginName} register [journal_path] articles objectId1 [objectId2] ...',
+      'plugins.importexport.crossref.export.error.issueNotFound' => 'هیچ شماره ای با شناسه مقاله "{$issueId}" همخوانی ندارد.',
+      'plugins.importexport.crossref.export.error.articleNotFound' => 'هیچ مقاله ای با شناسه مقاله "{$articleId}" همخوانی ندارد.',
+    ),
+  ),
+);

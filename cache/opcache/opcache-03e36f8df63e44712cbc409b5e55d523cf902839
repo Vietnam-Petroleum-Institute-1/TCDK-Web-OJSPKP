@@ -1,0 +1,26 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'api.announcements.400.contextsNotMatched' => 'ご希望のお知らせは本誌には掲載されておりません。',
+      'api.emails.403.disabled' => 'ご要望のあったお知らせは本誌には掲載されていません。',
+      'api.submissions.403.cantChangeContext' => '投稿したジャーナルを変更することはできません。',
+      'api.submissions.403.unpublishedIssues' => '未発表の号の閲覧権限はありません。',
+      'api.contexts.403.requestedDisabledContexts' => '有効化されたジャーナルしか表示できません。',
+      'api.contexts.403.notAllowed' => 'このジャーナルを閲覧する権限がありません。',
+      'api.contexts.403.contextsDidNotMatch' => 'ジャーナルのAPIまたはサイト全体のAPIにリクエストをしない限り、このジャーナルを表示または編集することはできません。',
+      'api.contexts.403.requiresContext' => 'サイト全体のAPIからこのジャーナルを編集することはできません。',
+      'api.contexts.403.notAllowedEdit' => 'このジャーナルを編集する権限がありません。',
+      'api.contexts.403.notAllowedDelete' => 'このジャーナルを削除する権限がありません。',
+      'api.contexts.404.contextNotFound' => 'ご希望のジャーナルが見つかりませんでした。',
+      'api.emailTemplates.403.notAllowedChangeContext' => 'このメールテンプレートを別のジャーナルに移す権限はありません。',
+      'api._payments.400.invalidPaymentMethod' => '選択された支払い方法はサポートされていません。',
+      'api.publications.403.contextsDidNotMatch' => 'ご希望の出版物は、本ジャーナルには含まれていません。',
+      'api.publications.403.submissionsDidNotMatch' => 'ご要望のあった出版物は、この投稿の一部ではありません。',
+      'api.submissionFiles.400.badRepresentationAssocType' => 'このファイルステージのファイルをゲラ刷りと関連付けることはできません。',
+    ),
+  ),
+);

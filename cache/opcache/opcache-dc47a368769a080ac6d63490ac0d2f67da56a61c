@@ -1,0 +1,21 @@
+<?php $exp = 1751345595; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n > 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.pubIds.urn.displayName' => 'URN',
+      'plugins.pubIds.urn.description' => 'Ce module permet l\'attribution d\'URN (Uniform Resource Names) aux numéros, articles et épreuves dans OJS.',
+      'plugins.pubIds.urn.manager.settings.description' => 'Veuillez configurer ce module URN afin de gérer et utiliser les URN dans OJS :',
+      'plugins.pubIds.urn.manager.settings.urnObjects' => 'Contenu de la revue',
+      'plugins.pubIds.urn.manager.settings.urnObjectsRequired' => 'Veuillez choisir les objets auxquels des URN doivent être attribués.',
+      'plugins.pubIds.urn.manager.settings.explainURNs' => 'Sélectionner les objets publiés auxquels des URN seront attribués :',
+      'plugins.pubIds.urn.manager.settings.enableIssueURN' => 'Numéros',
+      'plugins.pubIds.urn.manager.settings.enablePublicationURN' => 'Articles',
+      'plugins.pubIds.urn.manager.settings.enableRepresentationURN' => 'Épreuves',
+      'plugins.pubIds.urn.manager.settings.urnPrefix' => 'Préfixe URN',
+      'plugins.pubIds.urn.manager.settings.urnPrefix.description' => 'Le préfixe URN est la partie fixe, qui ne change jamais (exemple :urn:nbn:de:0000-).',
+    ),
+  ),
+);

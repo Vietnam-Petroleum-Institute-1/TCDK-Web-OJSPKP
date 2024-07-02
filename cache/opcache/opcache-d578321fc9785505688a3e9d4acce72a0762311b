@@ -1,0 +1,66 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.orcidProfile.about.display' => 'For å bekrefte at du har brukt iD-en og at den er autentisert, viser vi ORCID iD-ikonet <img src="https://orcid.org/sites/default/files/image/orcid_16x16(1).gif" alt="iD icon" width="16" height="16" border="0"> ved siden av navnet ditt på artikkelsiden for innleveringen din og på den offentlige brukerprofilen din.<br>
+	Lær mer på <a href="https://orcid.org/blog/2013/02/22/how-should-orcid-id-be-displayed">How should an ORCID iD be displayed.</a>',
+      'plugins.generic.orcidProfile.about.display.title' => 'Hvor vises ORCID iD-er?',
+      'plugins.generic.orcidProfile.about.howAndWhyMemberAPI' => 'Dette tidsskriftet innhenter din ORCID iD slik at vi kan være sikre på at du er riktig identifisert og knyttet til publikasjonen (e) dine. Dette vil sikre at du er knyttet til din totale publikasjonsliste gjennom hele karrieren. <br>
+ Når du klikker på "Godkjenn"-knappen i popup-vinduet ORCID, ber vi deg dele ID-en din ved hjelp av en godkjent prosess - enten ved å registrere deg for en ORCID-ID eller, hvis du allerede har en, ved å logge på. inn i ORCID-kontoen din, og gi oss deretter tillatelse til å få ORCID iD. Vi gjør dette for å sikre at du er riktig identifisert og har en sikker tilkobling til ORCID iD. <br>
+ Lær mer her: <a href="https://orcid.org/blog/2017/02/20/whats-so-special-about-signing"> Hva er så spesielt med å logge på? </a> <br>
+ Dette tidsskriftet samler inn og viser godkjente forfattere og medforfatteres ID-er på OJS-profilen og artikkelsiden. I tillegg vil artikkelmetadata automatisk overføres til din ORCID-post, slik at vi kan hjelpe deg med å holde posten oppdatert med pålitelig informasjon. Lær mer her: <a href="https://orcid.org/blog/2017/08/10/six-ways-make-your-orcid-id-work-you"> Seks måter å få ORCID iD til å jobbe for deg! </a>
+',
+      'plugins.generic.orcidProfile.about.howAndWhyPublicAPI' => 'Dette tidsskriftet innhenter din ORCID iD slik at vi kan være sikre på at du er riktig identifisert og assosiert med publikasjonen(e) dine. Dette vil sikre at du er assosiert med din totale publikasjonsliste gjennom hele karrieren. <br>Når du klikker på "Godkjenn"-knappen i ORCID-popup-vinduet, vil vi be deg om å dele din ID via en godkjent prosess, enten på <a href = "https://support.orcid.org/hc/en-us/articles/360006897454">registrer deg for en ORCID iD</a>, eller hvis du allerede har en <a href =" https://support.orcid.org/hc/en-us/category/360000661673 "> ved å logge på ORCID-kontoen din </a> og gi oss tillatelse til å få din ORCID iD. Vi gjør dette for å sikre at du er riktig identifisert og sikkert knyttet til din ORCID iD. <br>
+Lær mer i <a href="https://orcid.org/blog/2017/02/20/whats-so-special-about-signing"> Hva er så spesielt med å logge på. </a> <br />
+Dette tidsskriftet samler inn og viser godkjente forfattere og medforfatteres ID-er på OJS-profilen og artikkelsiden.',
+      'plugins.generic.orcidProfile.about.howAndWhy.title' => 'Hvordan og hvorfor samler vi inn ORCID iD-er?',
+      'plugins.generic.orcidProfile.about.orcidExplanation' => 'ORCID er en uavhengig ideell organisasjon som gir en vedvarende identifikator - en ORCID iD - som skiller deg fra andre forskere, og en mekanisme for å koble dine forskningsresultater og aktiviteter til din iD. ORCID er integrert i mange systemer som brukes av utgivere, finansiører, institusjoner og andre forskningsrelaterte tjenester. Les mer på <a href="https://orcid.org">orcid.org</a>.',
+      'plugins.generic.orcidProfile.about.title' => 'Hva er ORCID?',
+      'plugins.generic.orcidProfile.authorise' => 'Autoriser og koble til din ORCID iD',
+      'plugins.generic.orcidProfile.connect' => 'Opprett eller koble til ORCID iD-en din',
+      'plugins.generic.orcidProfile.fieldset' => 'ORCID',
+      'plugins.generic.orcidProfile.failure.contact' => 'Vennligst kontakt redaksjonslederen med ditt navn, ORCID iD, og detaljer om innleveringen.',
+      'plugins.generic.orcidProfile.authFailure' => 'ORCID-autorisasjonslenken er allerede brukt, eller er ugyldig.',
+      'plugins.generic.orcidProfile.verify.denied' => 'Du nektet tilgang til ORCID-oversikten din.',
+      'plugins.generic.orcidProfile.verify.duplicateOrcid' => 'En ORCID iD var allerede lagret for denne innleveringen.',
+      'plugins.generic.orcidProfile.verify.failure' => 'ORCID iD-en din kunne ikke bekreftes. Lenken er ikke lenger gyldig.',
+      'plugins.generic.orcidProfile.verify.success' => 'ORCID iD-en din er blitt bekreftet og assosiert med innleveringen.',
+      'plugins.generic.orcidProfile.verify.sendSubmissionToOrcid.notpublished' => 'Innleveringen vil bli lagt til ORCID-posten din ved publisering.',
+      'plugins.generic.orcidProfile.verify.sendSubmissionToOrcid.failure' => 'Innleveringen kunne ikke legges til ORCID-posten din.',
+      'plugins.generic.orcidProfile.verify.sendSubmissionToOrcid.success' => 'Innleveringen er lagt til ORCID-posten din.',
+      'plugins.generic.orcidProfile.verify.title' => 'ORCID-autorisasjon',
+      'plugins.generic.orcidProfile.author.unauthenticated' => 'ORCID iD ikke autentisert! Be om godkjenning fra bidragsyteren.',
+      'plugins.generic.orcidProfile.author.orcidEmptyNotice' => 'Se nedenfor for å be om autentisert ORCID iD',
+      'plugins.generic.orcidProfile.author.deleteORCID' => 'Slett ORCID iD og tilgangsbevis!',
+      'plugins.generic.orcidProfile.author.requestAuthorization' => 'Send e-post for å be om ORCID-autorisasjon fra bidragsyter',
+      'plugins.generic.orcidProfile.author.accessTokenStored' => 'ORCID-posttilgang gitt med omfanget {$orcidAccessScope}, gyldig til',
+      'plugins.generic.orcidProfile.author.accessDenied' => 'ORCID-tilgang ble nektet på',
+      'plugins.generic.orcidProfile.manager.settings.logLevel.all' => 'Alt',
+      'plugins.generic.orcidProfile.manager.settings.logLevel.error' => 'Feilmeldinger',
+      'plugins.generic.orcidProfile.manager.settings.logLevel.help' => 'Velg mengden loggføring som lages av programtillegget',
+      'plugins.generic.orcidProfile.manager.settings.logSectionTitle' => 'ORCID-logg for forespørsler',
+      'plugins.generic.orcidProfile.manager.settings.sendMailToAuthorsOnPublication' => 'Send e-post for å be om ORCID-autorisasjon fra forfattere når en artikkel godtas, dvs. blir sendt til manuskriptredigering',
+      'plugins.generic.orcidProfile.manager.settings.mailSectionTitle' => 'E-post-innstillinger',
+      'plugins.generic.orcidProfile.manager.settings.orcidScope' => 'Profils adgangsområde',
+      'plugins.generic.orcidProfile.manager.settings.orcidClientSecret' => 'Klienthemmelighet (Client Secret)',
+      'plugins.generic.orcidProfile.manager.settings.orcidClientId' => 'Klient-ID',
+      'plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath.memberSandbox' => 'Medlems-sandbox',
+      'plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath.member' => 'Medlem',
+      'plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath.publicSandbox' => 'Offentlig sandbox',
+      'plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath.public' => 'Offentlig',
+      'plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath' => 'ORCID API',
+      'plugins.generic.orcidProfile.manager.settings.description.globallyconfigured' => 'ORCID API-en ble konfigurert globalt av verten. Følgende opplysninger er lagret.',
+      'plugins.generic.orcidProfile.manager.settings.description' => 'Konfigurer ORCID API-tilgang for å hente ORCID-profilinformasjon til bruker- og forfatterprofiler, og oppdatere tilkoblede ORCID-poster med nye publikasjoner (bare for ORCID-medlemmer).',
+      'plugins.generic.orcidProfile.manager.settings.hidden' => 'skjult',
+      'plugins.generic.orcidProfile.manager.settings.title' => 'ORCID API-innstillinger',
+      'plugins.generic.orcidProfile.emailOrOrcid' => 'E-postadresse eller ORCID iD:',
+      'plugins.generic.orcidProfile.noData' => 'Fant ingen data fra ORCID.',
+      'plugins.generic.orcidProfile.instructions' => 'Du kan fylle ut dette skjemaet med informasjon fra en ORCID-profil. Skriv inn e-postadressen eller identiteten (iD) knyttet til ORCID-profilen. Klikk så «Send inn».',
+      'plugins.generic.orcidProfile.description' => 'Dette programtillegget gjør det mulig å importere brukerprofilinformasjon fra ORCID.',
+      'plugins.generic.orcidProfile.displayName' => 'ORCID-profil programtillegg',
+    ),
+  ),
+);

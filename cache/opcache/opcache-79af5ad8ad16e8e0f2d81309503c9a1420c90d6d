@@ -1,0 +1,18 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.googleAnalytics.displayName' => 'Google Analytics Plugin',
+      'plugins.generic.googleAnalytics.description' => 'Integrálja a OJS-t a Google Analytics weboldal forgalommeghatározási alkalmazásával. Szükséges, hogy legyen meglévő Google Analytics fiókja. További információt a <a href="http://www.google.com/analytics/" title="Google Analytics webhely"> Google Analytics webhelyen </a> talál.',
+      'plugins.generic.googleAnalytics.manager.settings.description' => '<p>Az ezzel a bővítménnyel engedélyezett Google Analytics a webhelyhasználat és a forgalom összegyűjtésére és elemzésére használható. Felhívjuk figyelmét, hogy ez a plugin megköveteli, hogy legyen beállított Google Analytics fiókja. További információt a <a href="http://www.google.com/analytics/" title="Google Analytics webhely"> Google Analytics webhelyen </a> talál. </ P> <p> Kérjük, vegye figyelembe, hogy A Google Analytics 24 órát igényel az első statisztikai adatok gyűjtése és jelentése előtt. Ebben az időszakban a "Állapot ellenőrzése" funkció nem tudja pontosan jelenteni, hogy észlelte-e a szükséges követőkódot.</p>',
+      'plugins.generic.googleAnalytics.manager.settings.googleAnalyticsSiteId' => 'Fiókszám',
+      'plugins.generic.googleAnalytics.manager.settings.googleAnalyticsSiteIdRequired' => 'Kérjük, írja be a fiókszámát.',
+      'plugins.generic.googleAnalytics.authorAccount' => 'Google Analytics fiókszám',
+      'plugins.generic.googleAnalytics.authorAccount.description' => 'A közzétett cikkek olvasóinak nyomon követése a Google Analytics segítségével, adjon meg egy fiókszámot itt(pl. UA-xxxxxx-x).',
+      'plugins.generic.googleAnalytics.authorAccountInvalid' => 'A beküldő szerzők számára megadott egy vagy több Google Analytics-fiók szám nem érvényes.',
+    ),
+  ),
+);

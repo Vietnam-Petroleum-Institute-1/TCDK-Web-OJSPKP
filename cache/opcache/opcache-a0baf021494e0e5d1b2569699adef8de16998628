@@ -1,0 +1,55 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.importexport.crossref.export.error.articleNotFound' => 'არ არის სტატია, რომელიც შეესაბამება სტატიის ID-ის „{$articleId}“.',
+      'plugins.importexport.crossref.export.error.issueNotFound' => 'არ არის გამოცემა, რომელიც შეესაბამება გამოცემის მითითებულ ID-ის „{$issueId}“.',
+      'plugins.importexport.crossref.register.success.warning' => 'რეგისტრაციამ წარმატებით ჩაიარა, მაგრამ მიღებულია შემდეგი გაფრთხილება: „{$param}“.',
+      'plugins.importexport.crossref.register.error.mdsError' => 'რეგისტრაცია არ იყო სრულიად წარმატებული! DOI-ს რეგისტრაციის სერვერმა შეცდომა დააბრუნა.',
+      'plugins.importexport.crossref.cliUsage' => 'გამოძახება:
+{$scriptName} {$pluginName} export [xmlFileName] [journal_path] articles objectId1 [objectId2] ...
+{$scriptName} {$pluginName} register [journal_path] articles objectId1 [objectId2] ...
+',
+      'plugins.importexport.crossref.senderTask.name' => 'Crossref-ის ავტომატური რეგისტრაციის ამოცანა',
+      'plugins.importexport.crossref.action.markRegistered' => 'აქტიურად მონიშვნა',
+      'plugins.importexport.crossref.action.export' => 'ექსპორტი',
+      'plugins.importexport.crossref.statusLegend' => '
+		<p>დეპონირების სტატუსი:</p>
+		<p>
+		- არ არის დეპონირებული: არ მომხდარა DOI-ს დეპონირება.<br />
+		- აქტიური: DOI-ს დეპონირება მოხდა და ის კორექტულია.<br />
+		- ჩაიშალა: DOI-ს დეპონირება ვერ მოხერხდა.<br />
+		- მონიშნულია აქტიურად: DOI მოინიშნა აქტიურად ხელით.
+		</p>
+		<p>ჩანს დეპონირების მხოლოდ ბოლო სტატუსი.</p>
+		<p>თუ დეპონირება ჩაიშალა, გთხოვთ გადაწყვიტეთ პრობლემა და ხელახლა სცადეთ DOI-ს რეგისტრაცია.</p>',
+      'plugins.importexport.crossref.action.register' => 'დეპონირება',
+      'plugins.importexport.crossref.status.markedRegistered' => 'მონიშულია, როგორც აქტიური',
+      'plugins.importexport.crossref.status.registered' => 'აქტიური',
+      'plugins.importexport.crossref.status.failed' => 'ჩაიშალა',
+      'plugins.importexport.crossref.issues.description' => 'შენიშვნა: აქ ექსპორტ/იმპორტისათვის განხილული იქნება მხოლოდ გამოცემები (და არა სტატიები ამ გამოცემებში).',
+      'plugins.importexport.crossref.settings.form.onlyValidateExport' => 'მხოლოდ ექსპორტის შემწომება, ჩამოტვირთვის გარეშე.',
+      'plugins.importexport.crossref.settings.form.validation' => 'XML-ის შემოწმება. გამოიყენეთ ეს პარამეტრი, XML-ის ჩამოსატვირთად DOI-ის ხელით რეგისტრაციისას.',
+      'plugins.importexport.crossref.settings.form.testMode.description' => 'ტექსტური API Crossref-ის გამოყენება (ტესტირების გარემო) DOI-ის დეპონირებისათვის. გთხოვთ, არ დაგავიწყდეთ ამ პარამეტრის გათიშვა რეალური მუშაობისას.',
+      'plugins.importexport.crossref.settings.form.automaticRegistration.description' => 'OJS განათავსებს მინიჭებულ DOI-ს ავტომატურად Crossref-ში. მიაქციეთ ყურადღება, რომ ამას შესაძლოა დასჭირდეს გარკვეული დრო გამოქვეყნებისა და დამუშავების შემდეგ (მაგალითად, თქვენი cron-ის პარამეტრების მიხედვით). თქვენ შეგიძლიათ გადაამოწმოთ ყველა არარეგისტრირებული DOI.',
+      'plugins.importexport.crossref.settings.form.usernameRequired' => 'გთხოვთ შეიტანოთ მომხმარებლის სახელი, რომელიც მიიღეთ Crossref-იდან.',
+      'plugins.importexport.crossref.settings.form.username' => 'მომხმარებლის სახელი',
+      'plugins.importexport.crossref.registrationIntro' => 'თუ გსურთ ამ მოდულის გამოყენება ციფრული ობიექტების (DOI) რეგისტრაციისათვის უშუალოდ Crossref-ში, ამისათვის საჭირო იქნება მომხმარებლის სახელი და პაროლი (მიღება შესაძლებელია აქ: <a href="http://www.crossref.org" target="_blank">Crossref</a>). თუ არ გაქვთ მომხმარებლის სახელი და პაროლი, შეგიძლიათ დააექსპორტოთ Crossref XML ფორმატში, მაგრამ ვერ შეძლებთ თქვენი DOI-ის რეგისტრაციას Crossref-ში OJS-იდან.',
+      'plugins.importexport.crossref.settings.form.depositorEmailRequired' => 'გთხოვთ, შეიტანოთ დეპოზიტორის ელფოსტა.',
+      'plugins.importexport.crossref.settings.form.depositorNameRequired' => 'გთხოვთ, შეიტანოთ დეპოზიტორის სახელი.',
+      'plugins.importexport.crossref.settings.form.depositorEmail' => 'დეპოზიტორის ელფოსტა',
+      'plugins.importexport.crossref.settings.form.depositorName' => 'დეპოზიტორის სახელი',
+      'plugins.importexport.crossref.settings.depositorIntro' => 'შემდეგი ინფორმაცია აუცილებელია Crossref დეპოზიტარიუმში წარმატებით გადასაცემად.',
+      'plugins.importexport.crossref.error.noDOIContentObjects' => 'არ არის არჩეული სტატიები DOI-ის მისანიჭებლად, DOI-ის ღია იდენტიფიკატორების მოდულში, ამიტომ არ არის შესაძლებელი ამ მოდულში დეპონირების, ან ექსპორტის.',
+      'plugins.importexport.crossref.error.issnNotConfigured' => 'ჟურანლის ISSN არ არის მორგებული! თქვენ უნდა დაამატოთ ISSN <a href="{$journalSettingsUrl}" target="_blank">ჟურნალის პარამეტრები</a> გვერდზე.',
+      'plugins.importexport.crossref.error.publisherNotConfigured' => 'ჟურნალის გამომცემელი არ არის მორგებული! თქვენ უნდა დაამატოთ გამომცემლის ორგანიზაცია <a href="{$journalSettingsUrl}" target="_blank">ჟურნალის პარამეტრები</a> გვერდზე.',
+      'plugins.importexport.crossref.requirements.satisfied' => 'მოდულის ყველა მოთხოვნა შესრულებულია.',
+      'plugins.importexport.crossref.requirements' => 'მოთხოვნები',
+      'plugins.importexport.crossref.description' => 'აექსპორტებს სტატიის მეტა-მონაცემებს Crossref XML ფორმატში.',
+      'plugins.importexport.crossref.displayName' => 'მოდული „Crossref XML-ის ექსპორტი“',
+    ),
+  ),
+);

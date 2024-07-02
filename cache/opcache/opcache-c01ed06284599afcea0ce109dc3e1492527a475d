@@ -1,0 +1,268 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'emails.passwordResetConfirm.subject' => 'Bekreftelse på tilbakestilling av passord',
+      'emails.passwordResetConfirm.body' => 'Vi har mottatt en forespørsel om å tilbakestille passordet ditt til nettstedet {$siteTitle}.<br />
+<br />
+Hvis du ikke har sendt oss en slik forespørsel og ikke vil endre passordet ditt, kan du ignorere denne e-posten. Hvis du ønsker nytt passord, klikk på lenken nedenfor.<br />
+<br />
+Forny passordet: {$passwordResetUrl}<br />
+<br />
+{$siteContactName}',
+      'emails.userRegister.subject' => 'Du er nå registrert som bruker',
+      'emails.userRegister.body' => '{$recipientName}<br />
+<br />
+Takk for at du har registrert deg som bruker av {$contextName}. Ta godt vare på brukernavnet og passordet, som du vil trenge hver gang du skal utføre oppgaver i tidsskriftet på nettstedet. Du kan når som helst be om å bli fjernet fra brukerlisten. Ta i tilfelle kontakt med meg. <br />
+<br />
+Brukernavn: {$recipientUsername}<br />
+Passord: {$password}<br />
+<br />
+Vennlig hilsen<br />
+{$signature}',
+      'emails.userValidateContext.subject' => 'Bekreft brukerkontoen din',
+      'emails.userValidateContext.body' => '{$recipientName}<br />
+<br />
+Du har opprettet en brukerkonto hos {$contextName}, men før du kan begynne å bruke den, må du bekrefte e-postkontoen din. Følg lenken under for å gjøre dette:<br />
+<br />
+{$activateUrl}<br />
+<br />
+Vennlig hilsen<br />
+{$contextSignature}',
+      'emails.userValidateSite.subject' => 'Validér kontoen din',
+      'emails.userValidateSite.body' => '{$recipientName}<br />
+<br />
+Du har oprettet en konto hos {$contextName}, men før du kan bruke den, må du validere e-postadressen din. Det gjør du ved å følge lenken nedenfor:<br />
+<br />
+{$activateUrl}<br />
+<br />
+Takk. <br />
+{$siteSignature}',
+      'emails.reviewerRegister.subject' => 'Registrering som fagfelle hos {$contextName}',
+      'emails.reviewerRegister.body' => '<p>På grunn av ditt faglige omdømme, har vi tillatt oss å registrere navnet ditt i databasen over potensielle fagfeller for {$contextName}. Dette innebærer ingen form for forpliktelse fra din side, men gir oss en mulighet til å henvende oss til deg hvis vi mottar manuskript innen ditt fagfelt. Dersom du får en forespørsel om å fagfellevurdere et manuskript, vil du få mulighet til å se tittel og sammendrag for det aktuelle manuskriptet. Du vil alltid stå fritt til å akseptere eller avslå oppdraget. Du kan dessuten når som helst be om at navnet ditt blir fjernet fra listen vår over potensielle fagfeller.</p>
+<p>Her får du brukernavn og et passord til nettstedet vårt som kan brukes til alt arbeid med {$contextName}. Der kan du også endre profilen din, for eksempel institusjonstilhørighet og faglige interesser.</p>
+<p> Brukernavn: {$recipientUsername}<br/>
+Passord: {$password}</p>
+<p>På forhånd takk.</p>
+{$signature}',
+      'emails.issuePublishNotify.subject' => 'Ny utgave publisert: {$issueIdentification} i {$contextName}',
+      'emails.issuePublishNotify.body' => '<p>Til våre lesere</p><p>{$contextName} har nettopp publisert en ny utgave:  <a href="{$issueUrl}">{$issueIdentification}</a>. Vi inviterer deg til å lese og dele innholdet i ditt nettverk.<p>Tusen takk til våre forfattere, fagfeller og redaktører for deres verdifulle bidrag, og tusen takk til våre lesere for deres fortsatte interesse i vårt arbeid.</p>
+<p>Med vennlig hilsen</p>{$signature}',
+      'emails.editorAssign.subject' => 'Du er oppnevnt til redaktør for en innlevering til {$contextName}',
+      'emails.editorAssign.body' => '<p>Kjære {$recipientName}</p><p>Du er blitt tildelt det følgende manuskriptet, som du skal følge gjennom den redaksjonelle prosessen. </p><p><a href="{$submissionUrl}">{$submissionTitle}</a><br />{$authors}</p><p><b>Sammendrag</b></p>{$submissionAbstract}
+<p>Hvis du mener at manuskriptet er relevant for {$contextName}, så send det videre til vurdering ved å klikke på "Send til fagfellevurdering" og oppnevn fagfeller ved å klikke på "Legg til fagfelle".</p><p>Hvis innleveringen ikke passer til dette tidsskriftet, så avvis innleveringen.</p><p>På forhånd takk.</p><p>Med vennlig hilsen</p>{$contextSignature}',
+      'emails.editorAssignReview.body' => '<p>Kjære {$recipientName},</p><p> Følgende innlevering er tildelt deg for oppfølging gjennom fagfellevurderingen.</p><p><a href="{$submissionUrl}">{$submissionTitle}</a><br />{$authors}</p><p><b>Abstract</b></p>{$submissionAbstract}<p>Logg inn for å <a href="{$submissionUrl}">se innleveringen</a> og tildele fagfeller. Du kan legge til en fagfelle ved å trykke på "Legg til fagfelle".</p><p>På forhånd takk.</p><p>Med vennlig hilsen,</p>{$signature}',
+      'emails.editorAssignProduction.body' => '<p>Kjære {$recipientName},</p><p> Følgende innlevering er tildelt deg for oppfølging gjennom produksjonstrinnet.</p><p><a href="{$submissionUrl}">{$submissionTitle}</a><br />{$authors}</p><p><b>Abstract</b></p>{$submissionAbstract}<p>Logg inn for å <a href="{$submissionUrl}">se innleveringen</a>. Når produksjonsklare filer er tilgjengelige, last dem opp under <strong>Publikasjon > Oppsett</strong>. Deretter kan du planlegge de for publisering ved å trykke <strong>Planlegg for publisering</strong>.</p><p>På forhånd takk.</p><p>Med vennlig hilsen,</p>{$signature}',
+      'emails.reviewRequest.subject' => 'Forespørsel om fagfellevurdering',
+      'emails.reviewRequest.body' => '<p> Kjære {$recipientName}</p><p>Jeg tror at du vil være en utmerket fagfelle for et manuskript som er innsendt til {$contextName). Nedenfor finner du manuskriptets tittel og sammendrag, og jeg håper at du kan påta deg denne viktige oppgaven for oss.</p><p>Hvis du har mulighet til å vurdere dette manuskript, er fristen {$reviewDueDate}. Du kan se manuskriptet, laste opp dokument og sende inn din vurdering ved å logge inn på tidsskriftets hjemmeside og følge prosessen via lenken nedenfor.</p><p><a href="{$reviewAssignmentUrl}">{$submissionTitle}</a></p><p>Sammendrag</p>{$submissionAbstract}<p>Vennligst aksepter eller avslå denne forespørselen innen {$responseDueDate}</p><p>Ta gjerne kontakt om du har spørsmål om manuskriptet eller vurderingsprosessen.</p><p>Takk for at du vurderer denne forespørselen. </p><p>Med vennlig hilsen</p>{$signature}',
+      'emails.reviewResponseOverdueAuto.subject' => 'Vil du kunne vurdere dette manuskriptet for oss?',
+      'emails.reviewResponseOverdueAuto.body' => '<p>Kjære {$recipientName}</p><p>Denne e-posten er en automatisk påminnelse fra {$contextName} angående vår forespørsel om du kan påta deg å vurdere manuskriptet: "{$submissionTitle}."</p><p>Du mottar denne e-posten fordi vi ennå ikke har fått svar på om du har mulighet til å vurdere dette manuskriptet.</p><p>Vær vennlig å sende oss ditt svar via publiseringssystemet.</p><p>Om du har mulighet til å vurdere dette manuskript, så er fristen {$reviewDueDate}. Du kan følge stegene for fagfellevurdering for å se manuskriptet, laste opp dokumenter og sende inn dine kommentarer.</p><p>{$submissionTitle}</p><p>Sammendrag</p>{$submissionAbstract}<p>Ta gjerne kontakt hvis du har spørsmål om manuskriptet eller vurderingsprosessen</p><p>Takk for at du vurderer denne forespørselen.</p><p>Med vennlig hilsen</p>{$contextSignature}',
+      'emails.reviewRequestSubsequent.subject' => 'Forespørsel om fagfellevurdering av revidert innlevering',
+      'emails.reviewRequestSubsequent.body' => '<p>Kjære {$recipientName}</p><p>Takk for din vurdering av <a href="{$reviewAssignmentUrl}">{$submissionTitle}</a>. Forfatterne har sendt inn en revidert versjon av manuskriptet. Jeg håper du er villig til å gjøre en ny vurdering av dette reviderte manuskript til {$contextName}.</p><p>Hvis du har mulighet til å vurdere dette manuskriptet, er fristen {$reviewDueDate}. Du kan <a href="{$reviewAssignmentUrl}">følge stegene for fagfellevurdering</a> for å se manuskriptet, laste opp dokumenter og sende inn din kommentarer<p><p><a href="{$reviewAssignmentUrl}">{$submissionTitle}</a></p><p>Sammendrag</p>{$submissionAbstract}<p>Vennligst aksepter eller avslå denne forespørselen innen {$responseDueDate}.</p><p>Ta gjerne kontakt om du har spørsmål om manuskriptet eller vurderingsprosessen.</p><p>Takk for at du vurderer denne forespørselen. </p><p>Med vennlig hilsen</p>{$signature}',
+      'emails.reviewCancel.subject' => 'Annulering av forespørsel om fagfellevurdering',
+      'emails.reviewCancel.body' => '{$recipientName}:<br />
+<p>Vi har dessverre bestemt oss for å annullere vår forespørsel om fagfellevurdering av innleveringen «{$submissionTitle}», som vi tidligere har bedt deg om å påta deg for {$contextName}. Vi beklager bryderiet, men håper at vi fortsatt kan be deg om å vurdere manuskript for oss i fremtiden.</p>
+<p>Ta kontakt med meg hvis du har spørsmål.</p>{$signature}',
+      'emails.reviewReinstate.subject' => 'Har du fremdeles mulighet til å være fagfelle for {$contextName}?',
+      'emails.reviewReinstate.body' => '<p>Kjære {$recipientName}</p><p>Nylig annullerte vi vår forespørsel om å vurdere manuskriptet, {$submissionTitle}, for {$contextName}. Vi har endret vår beslutning og håper at du fremdeles har mulighet til å gjennomføre fagfellevurderingen.</p><p> Hvis du kan ta på deg oppgaven, kan du logge inn på vår hjemmeside for å se manuskriptet, laste opp dokument og sende inn din vurdering.</p><p>Ta gjerne kontakt hvis du har spørsmål</p><p>Med vennlig hilsen</p>{$signature}',
+      'emails.reviewDecline.subject' => 'Avslå forespørsel om fagfellevurdering',
+      'emails.reviewDecline.body' => '{$recipientName}:<br />
+<br />
+Jeg kan dessverre ikke påta meg oppdraget med å vurdere innleveringen «{$submissionTitle}» for {$contextName}. Jeg takker for forespørselen. Ta kontakt ved en senere anledning.<br />
+<br />
+{$senderName}',
+      'emails.reviewRemind.subject' => 'En påminnelse om å fullføre fagfellevurderingen din',
+      'emails.reviewRemind.body' => '<p>Kjære {$recipientName}</p><p>Dette er en påminnelse om vår forespørsel om fagfellevurdering av manuskriptet: "{$submissionTitle}," til {$contextName}. Vi hadde håpet å motta vurderingen senest {$reviewDueDate} og ser frem til at motta den så snart den er klar.</p><p>Du kan logge inn på tidsskriftets hjemmeside og følge stegene for fagfellevurdering for å se manuskriptet, laste opp dokumenter og sende inn dine kommentarer.</p><p>Om du har behov for å utsette fristen, ta kontakt. Jeg ser frem til å høre fra deg.</p><p>På forhånd takk og med vennlig hilsen</p>{$signature}',
+      'emails.reviewRemindAuto.subject' => 'Påminnelse om å fullføre fagfellevurderingen din',
+      'emails.reviewRemindAuto.body' => '<p>Kjære {$recipientName}</p><p>Dette er en automatisk generert e-post fra {$contextName} som sendes for å minne deg på at du har tatt på deg å vurdere manuskriptet: "{$submissionTitle}."</p><p>Vi hadde håpet å motta vurderingen senest {$reviewDueDate} og ser frem til å motta den, så snart den er klar.</p><p>Du kan logge inn på tidsskriftets hjemmeside og følge stegene for fagfellevurdering for å se manuskriptet, laste opp dokumenter og sende inn dine kommentarer.</p><p>Hvis du har behov for å utsette fristen, ta kontakt. Jeg ser frem til å høre fra deg.</p><p>På forhånd takk og med vennlig hilsen</p>{$contextSignature}',
+      'emails.editorDecisionAccept.subject' => 'Innleveringen din har blitt akseptert til {$contextName}',
+      'emails.editorDecisionAccept.body' => '<p>Kjære {$recipientName}</p><p>Jeg er glad for å kunne informere deg om at vi har besluttet å akseptere ditt manuskript, {$submissionTitle}, uten ytterligere endringer. Vi gleder oss til å publisere ditt manuskript i {$contextName}, og vi takker deg for at du valgte vårt tidsskrift til ditt arbeid.</p><p>Ditt manuskript vil bli publisert i et fremtidig nummer av {$contextName}, og du er velkommen til å inkludere det i din publikasjonsliste. Vi anerkjenner det harde arbeidet som ligger bak hvert antatte manuskript, og vi vil gjerne gratulere deg med innsatsen.</p><p>Ditt manuskript vil nå bli redigert og formatert for å klargjøres for publisering.</p><p>Du vil snart motta ytterligere instruksjoner.</p><p>Hvis du har spørsmål, ta kontakt via din <a href="{$submissionUrl}">innleveringsside</a>.</p><p>Med vennlig hilsen</p>{$signature}',
+      'emails.editorDecisionSkipReview.subject' => 'Din innlevering er blitt sendt til språkvask',
+      'emails.editorDecisionSkipReview.body' => '<p>Kjære {$recipientName}</p>
+<p>Jeg er glad for å kunne informere deg om at vi har besluttet å akseptere ditt manuskript {$submissionTitle} uten fagfellevurdering. Vi gleder oss til å publisere din artikkel i {$contextName}, og vi takker deg for at du valgte vårt tidsskrift til ditt arbeid.</p>
+Ditt manuskript vil bli publisert i et fremtidig nummer av {$contextName}, og du er velkommen til å inkludere det i din publikasjonsliste. Vi anerkjenner det harde arbeidet som ligger bak hvert antatte manuskript og vil gjerne gratulere deg med innsatsen.</p>
+<p>Ditt manuskript vil nå bli redigert og formatert for å klargjøres for publisering.</p>
+<p>Du vil snart motta ytterligere instruksjoner.</p>
+<p>Hvis du har spørsmål, ta kontakt via din <a href="{$authorSubmissionUrl}">innleveringsside</a>.</p>
+<p>Med vennlig hilsen</p>
+<p>{$signatur}</p>
+',
+      'emails.layoutRequest.subject' => 'Innleveringen {$submissionId} er klar for produksjon til {$contextAcronym}',
+      'emails.layoutRequest.body' => '<p>Kjære{$recipientName}</p><p>En ny innlevering er klar til layout redigering:</p><p><a href="{$submissionUrl}">{$submissionId} {$submissionTitle}</a><br />{$contextName}</p><ol><li>1. Klikk på manuskriptets URL-adresse ovenfor.</li><li>2. Last ned de produksjonsklare filene og bruk dem for å lage et oppsett som følger tidsskriftets retningslinjer.</li><li>3. Last opp oppsettet til ‘Filer klare for produksjon’ under fanen Produksjon. </li><li>4. Gi beskjed til redaktøren om at oppsettet er lastet opp og klart via produksjonsdiskusjonen.</li></ol><p>Hvis du ikke er i stand til at påta deg dette arbeidet på nåværende tidspunkt eller har spørsmål, ta kontakt. Takk for ditt bidrag til dette tidsskrift.</p><p>Med vennlig hilsen</p>{$signature}',
+      'emails.layoutComplete.subject' => 'Oppsett ferdigstilt',
+      'emails.layoutComplete.body' => '<p>Kjære {$recipientName}</p><p>Et publiseringsklart oppsett er nå ferdig for følgende manuskript og er klart til en siste gjennomgang.</p><p><a href="{$submissionUrl}">{$submissionTitle}</a><br />{$contextName}</p><p>Ta gjerne kontakt om du har spørsmål.</p><p>Med vennlig hilsen</p><p>{$senderName}</p>',
+      'emails.emailLink.subject' => 'En interessant artikkel',
+      'emails.emailLink.body' => 'Jeg tenkte du kanskje kan være interessert i å lese artikkelen «{$submissionTitle}». Den er skrevet av {$authors} og publisert i årgang {$volume}, utgave {$number} ({$year}) av {$contextName}, og er tilgjengelig på: «{$submissionUrl}».',
+      'emails.emailLink.description' => 'Denne e-postmalen gir en registrert bruker muligheten til å sende informasjon om en artikkel til potenisielt interesserte. Den er tilgjengelig via «Leseverktøy», og må være slått på av redaksjonslederen fra administrasjonssiden for leseverktøy.',
+      'emails.subscriptionNotify.subject' => 'Varsel om nyopprettet abonnement',
+      'emails.subscriptionNotify.body' => '{$recipientName}:<br />
+<br />
+Du er nå registrert som abonnent hos det nettbaserte tidsskriftet {$contextName}. Abonnementstypen du har er:<br />
+<br />
+{$subscriptionType}<br />
+<br />
+Du får enkelt tilgang til tidsskriftet ved å logge inn med brukernavnet «{$recipientUsername}».<br />
+<br />
+Så snart du har logget inn, kan du når som helst endre personinformasjonen og passordet som er knyttet til ditt brukernavn.<br />
+<br />
+Merk at institusjonsabonnement er satt opp slik at de enkelte brukerne på institusjonens datasystem ikke behøver å logge inn, fordi systemet verifiserer henvendelsene fra slike brukere automatisk.<br />
+<br />
+Ta kontakt med meg om du har spørsmål.<br />
+<br />
+{$subscriptionSignature}',
+      'emails.openAccessNotify.subject' => 'Ny utgave er åpent tilgjengelig',
+      'emails.openAccessNotify.body' => 'Til våre lesere:<br />
+<br />
+{$contextName} har nå gjort følgende utgave åpent tilgjengelig. Innholdsfortegnelsen er vedlagt. Vi inviterer deg til å besøk nettstedet vårt ({$contextUrl}) for å se nærmere på innhold som kan være av interesse.<br />
+<br />
+Takk for at du viser interesse for arbeidet vårt.<br />
+{$contextSignature}',
+      'emails.subscriptionBeforeExpiry.subject' => 'Varsel: Abonnementet ditt utløper',
+      'emails.subscriptionBeforeExpiry.body' => '{$recipientName}:<br />
+<br />
+Abonnementet ditt på {$contextName} løper snart ut.<br />
+<br />
+{$subscriptionType}<br />
+Utløpsdato: {$expiryDate}<br />
+<br />
+Gå til tidsskriftets nettsted om du vil fornye abonnementet. Du logger inn med brukernavnet ditt «{$recipientUsername}».<br />
+<br />
+Ta kontakt med meg om du har spørsmål.<br />
+<br />
+{$subscriptionSignature}',
+      'emails.subscriptionAfterExpiry.subject' => 'Varsel: utløpt abonnement',
+      'emails.subscriptionAfterExpiry.body' => '{$recipientName}:<br />
+<br />
+Abonnementet ditt på {$contextName} har løpt ut.<br />
+<br />
+{$subscriptionType}<br />
+Utløpsdato: {$expiryDate}<br />
+<br />
+Gå til tidsskriftets nettsted for å fornye abonnementet ditt. Du logger inn med brukernavnet ditt: «{$recipientUsername}».<br />
+<br />
+Ta kontakt med meg om du har spørsmål.<br />
+<br />
+{$subscriptionSignature}',
+      'emails.subscriptionAfterExpiryLast.subject' => 'Siste varsel: Uløpt abonnement',
+      'emails.subscriptionAfterExpiryLast.body' => '{$recipientName}:<br />
+<br />
+Abonnementet ditt på {$contextName} har løpt ut.<br />
+Dette er det siste varselet du vil motta fra oss om dette.<br />
+<br />
+{$subscriptionType}<br />
+Utløpsdato: {$expiryDate}<br />
+<br />
+Gå til tidsskriftets nettsted for å fornye abonnementet ditt. Du logger inn med brukernavnet ditt: «{$recipientUsername}».<br />
+<br />
+Ta kontakt med meg om du har spørsmål.<br />
+<br />
+{$subscriptionSignature}',
+      'emails.subscriptionPurchaseIndl.subject' => 'Abonnementskjøp: Individuelt abonnement',
+      'emails.subscriptionPurchaseIndl.body' => 'Et individuelt abonnement på tidsskriftet {$contextName} har blitt kjøpt på nett. Detaljer om kjøpet:<br />
+<br />
+Abonnementstype:<br />
+{$subscriptionType}<br />
+<br />
+Bruker:<br />
+{$subscriberDetails}<br />
+<br />
+Medlemskapsinformasjon (om oppgitt):<br />
+{$membership}<br />
+<br />
+For å se eller endre dette abonnementet, bruk følgende URL: {$subscriptionUrl}<br />
+',
+      'emails.subscriptionPurchaseInstl.subject' => 'Abonnementskjøp: Institusjonelt abonnement',
+      'emails.subscriptionPurchaseInstl.body' => 'Et institusjonelt abonnement på <i>{$contextName}</i> har blitt kjøpt på nettet. Se detaljer om kjøpet under. For å aktivisere abonnementet, bruk den angitte abonnements URL og sett abonnementsstatus til «Aktiv».<br />
+<br />
+Abonnementstype:<br />
+{$subscriptionType}<br />
+<br />
+Institusjon:<br />
+{$institutionName}<br />
+{$institutionMailingAddress}<br />
+<br />
+Domene (hvis spesifisert):<br />
+{$domain}<br />
+<br />
+IP-område (hvis spesifisert):<br />
+{$ipRanges}<br />
+<br />
+Kontaktperson:<br />
+{$subscriberDetails}<br />
+<br />
+Medlemskapsinformasjon (hvis spesifisert):<br />
+{$membership}<br />
+<br />
+For å se eller endre dette abonnementet, bruk følgende URL: {$subscriptionUrl}
+',
+      'emails.subscriptionRenewIndl.subject' => 'Abonnementsfornyelse: Individuelt abonnement',
+      'emails.subscriptionRenewIndl.body' => 'Et individuelt abonnement på {$contextName} har blitt fornyet online. For mer informasjon se under.<br />
+<br />
+Abonnementstype:<br />
+{$subscriptionType}<br />
+<br />
+Bruker:<br />
+{$subscriberDetails}<br />
+<br />
+Medlemskapsinformasjon (hvis spesifisert):<br />
+{$membership}<br />
+<br />
+For å se eller endre dette abonnementet, bruk denne URL-en: {$subscriptionUrl}
+',
+      'emails.subscriptionRenewInstl.subject' => 'Abonnementsfornyelse: Institusjonelt abonnement',
+      'emails.subscriptionRenewInstl.body' => 'Et institusjonelt abonnement på {$contextName} har blitt fornyet online. For mer informasjon se under.<br />
+<br />
+Abonnementstype:<br />
+{$subscriptionType}<br />
+<br />
+Institusjon:<br />
+{$institutionName}<br />
+{$institutionMailingAddress}<br />
+<br />
+Domene (hvis spesifisert):<br />
+{$domain}<br />
+<br />
+IP-område (hvis spesifisert):<br />
+{$ipRanges}<br />
+<br />
+Kontaktperson:<br />
+{$subscriberDetails}<br />
+<br />
+Medlemskapsinformasjon (hvis spesifisert):<br />
+{$membership}<br />
+<br />
+For å se eller endre dette abonnementet, bruk URL-en: {$subscriptionUrl}
+',
+      'emails.revisedVersionNotify.subject' => 'Revidert versjon lastet opp',
+      'emails.revisedVersionNotify.body' => '<p>Kjære {$recipientName},</p>
+<p>Forfatteren har lastet opp en revidert versjon av manuskriptet som har blitt tildelt deg for å se gjennom fagfellevurderingsprosessen: <b>{$authorsShort} — {$submissionTitle}</b>.</p><p>Vennligst logg inn for å <a href="{$submissionUrl}">se gjennom revisjonen</a> og ta en beslutning om hvorvidt innleveringen skal aksepteres, avvises eller sendes til ny vurderingsrunde.</p><br><br>—<br>Dette er en automatisk beskjed fra <a href="{$contextUrl}">{$contextName}</a>.',
+      'emails.statisticsReportNotification.subject' => 'Redaksjonell aktivitet for {$month}, {$year}',
+      'emails.statisticsReportNotification.body' => '
+{$recipientName}, <br />
+<br />
+Tilstandsrapporten for {$month}, {$year} er nå klar. Nøkkeltallene for denne måneden:<br />
+<ul>
+	<li>Nye innleveringer denne måneden: {$newSubmissions}</li>
+	<li>Avviste innleveringer denne måneden: {$declinedSubmissions}</li>
+	<li>Aksepterte innleveringer denne måneden: {$acceptedSubmissions}</li>
+	<li>Totalt antall innleveringer i systemet: {$totalSubmissions}</li>
+</ul>
+Logg inn i tidsskriftet for å se mer detaljerte <a href="{$editorialStatsLink}">redaksjonelle trender</a> og <a href="{$publicationStatsLink}">statistikk for publiserte artikler</a>. En komplett kopi av denne månedens redaksjonelle utvikling er vedlagt.<br />
+<br />
+Vennlig hilsen,<br />
+{$contextSignature}',
+      'emails.announcement.subject' => '{$announcementTitle}',
+      'emails.announcement.body' => '<b> {$announcementTitle} </b> <br />
+<br />
+{$announcementSummary} <br />
+<br />
+Besøk nettstedet vårt for å lese <a href="{$announcementUrl}">hele kunngjøringen</a>.',
+      'emails.paymentRequestNotification.subject' => 'Melding om betalingsforespørsel',
+      'emails.paymentRequestNotification.body' => '<p>Kjære{$recipientName},</p><p>Vi gratulerer deg med at din innlevering, {$submissionTitle}, har blitt akseptert for publisering i {$contextName}. Nå som innleveringen har blitt akseptert, ber vi deg betale publiseringsavgiften.</p><p> Denne avgiften dekker produksjonskostnadene i forbindelse med publisering av innleveringen. For å betale, gå til <a href="{$queuedPaymentUrl}">{$queuedPaymentUrl}</a>.</p><p>Hvis du har spørsmål, se våre <a href="{$submissionGuidelinesUrl}">Retningslinjer for innleveringer</a></p>',
+      'emails.paymentRequestNotification.footer' => '<br><br>—<br>Dette er en automatisk generert beskjed fra <a href="{$contextUrl}">{$contextName}</a>.',
+    ),
+  ),
+);

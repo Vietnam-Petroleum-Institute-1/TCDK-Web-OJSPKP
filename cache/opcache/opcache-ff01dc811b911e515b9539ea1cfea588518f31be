@@ -1,0 +1,32 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=3; plural=(n % 10 == 0 || n % 100 >= 11 && n % 100 <= 19) ? 0 : ((n % 10 == 1 && n % 100 != 11) ? 1 : 2);',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'comments.anonymous' => 'Anonīms lietotājs',
+      'comments.anonymousNamed' => '"{$userName}"',
+      'comments.body' => 'Komentāra teksts',
+      'comments.titleRequired' => 'Ir jānorāda komentāra virsraksts.',
+      'comments.confirmDeleteChildren' => 'Dzēšot šo komentāru, tiks dzēstas arī visas atbildes uz to. Vai tiešām vēlaties to darīt?',
+      'comments.delete' => 'Dzēst šo komentāru',
+      'comments.email' => 'Komentētāja e-pasts',
+      'comments.emailReply' => 'Atbildēt e-pastā',
+      'comments.enterComment' => 'Ievadīt komentāru',
+      'comments.inResponseTo' => 'Atbildot uz <a href="{$url}">{$title}</a>',
+      'comments.name' => 'Komentētāja vārds',
+      'comments.noComments' => 'Nav publicēti nekādi lasītāju komentāri.',
+      'comments.nReplies' => '({$num} atbilžu)',
+      'comments.oneReply' => '(1 atbilde)',
+      'comments.postAnonymously' => 'Publicēt šo komentāru anonīmi',
+      'comments.postReply' => 'Publicēt atbildi',
+      'comments.readerComments' => 'Lasītāju komentāri',
+      'comments.readMore' => 'Lasīt vairāk',
+      'comments.replies' => 'Atbildes',
+      'comments.title' => 'Virsraksts',
+      'comments.viewAllComments' => 'Skatīt visus komentārus',
+      'reader.fullText' => 'Pilns teksts:',
+    ),
+  ),
+);

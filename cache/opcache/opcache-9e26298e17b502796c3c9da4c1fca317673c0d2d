@@ -1,0 +1,31 @@
+<?php $exp = 1751345594; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'api.announcements.400.contextsNotMatched' => 'L\'avís que heu sol·licitat no forma part d\'aquesta revista.',
+      'api.emails.403.disabled' => 'La funcionalitat de notificació per correu electrònic no s\'ha activat en aquesta revista.',
+      'api.submissions.400.wrongContext' => 'La tramesa que heu sol·licitat no està en aquesta revista.',
+      'api.submissions.403.cantChangeContext' => 'No podeu canviar la revista d\'un article.',
+      'api.submissions.403.unpublishedIssues' => 'No teniu permís per veure els números no publicats.',
+      'api.contexts.403.requestedDisabledContexts' => 'Només podeu veure revistes que estiguin actives.',
+      'api.contexts.403.notAllowed' => 'No teniu permís per veure aquesta revista.',
+      'api.contexts.403.contextsDidNotMatch' => 'No podreu veure ni editar aquesta revista a menys que feu una sol·licitud a l\'API de la revista o de tot el lloc web.',
+      'api.contexts.403.requiresContext' => 'No podeu editar aquesta revista des de l\'API de tot el lloc web.',
+      'api.contexts.403.notAllowedEdit' => 'No teniu permís per editar aquesta revista.',
+      'api.contexts.403.notAllowedDelete' => 'No teniu permís per eliminar aquesta revista.',
+      'api.contexts.404.contextNotFound' => 'No s\'ha trobat la revista que heu sol·licitat.',
+      'api.dois.403.contextsNotMatched' => 'El DOI que heu sol·licitat no forma part d\'aquesta revista.',
+      'api.dois.400.noRegistrationAgencyConfigured' => 'No s\'ha configurat cap agència de registre DOI per a aquesta revista.',
+      'api.dois.400.depositFailed' => 'Alguns elements no s\'han dipositat correctament. Comproveu els elements individuals segons els missatges d\'error específics.',
+      'api.emailTemplates.403.notAllowedChangeContext' => 'No teniu permís per moure aquesta plantilla de correu electrònic a una altra revista.',
+      'api._payments.400.invalidPaymentMethod' => 'El mètode de pagament que heu seleccionat no està suportat.',
+      'api.publications.403.contextsDidNotMatch' => 'La publicació que heu sol·licitat no forma part d\'aquesta revista.',
+      'api.publications.403.submissionsDidNotMatch' => 'La publicació que heu sol·licitat no forma part d\'aquesta tramesa.',
+      'api.submissionFiles.400.badRepresentationAssocType' => 'Des d\'aquesta fase no podeu associar un arxiu amb una galerada.',
+      'api.submission.400.inactiveSection' => 'Aquesta secció ja no rep més trameses.',
+    ),
+  ),
+);

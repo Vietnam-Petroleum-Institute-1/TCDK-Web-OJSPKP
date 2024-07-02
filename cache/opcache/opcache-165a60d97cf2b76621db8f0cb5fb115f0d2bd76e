@@ -1,0 +1,26 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'emails.subscriptionNotify.subject' => 'Obaveštenje o pretplati',
+      'emails.subscriptionNotify.body' => '{$recipientName}:<br />
+<br />
+Registrovani ste kao pretplatnik u sistemu {$contextName}, sa sledećim pretplatama:<br />
+<br />
+{$subscriptionType}<br />
+<br />
+Da biste pristupili sadržaju koji je dostupan samo pretplatnicima jednostavno se prijavite u sistem sa Vašim korisničkim imenom &quot;{$recipientUsername}&quot;.<br />
+<br />
+Kada se prijavite, možete menjati podatke na vašem profilu i lozinku.<br />
+<br />
+Imajte na umu da ukoliko imate institucionalnu pretplatu nema potrebe da se korisnici sa vaše institucije prijavljuju korisničkim imenom i lozinkom pošto će pretplata biti automatski prepoznata od strane sistema.<br />
+<br />
+Ukoliko imate bilo kakvih pitanja slobodno nas kontaktirajte.<br />
+<br />
+{$subscriptionSignature}',
+    ),
+  ),
+);

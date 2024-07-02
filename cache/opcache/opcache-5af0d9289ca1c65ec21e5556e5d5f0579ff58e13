@@ -1,0 +1,34 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.themes.default.name' => 'Varsayılan Tema',
+      'plugins.themes.default.description' => 'Bu tema eklentisi varsayılan temayı uygular.',
+      'plugins.themes.default.option.typography.label' => 'Tipografi',
+      'plugins.themes.default.option.typography.description' => 'Bu dergiye uygun bir yazı tipi kombinasyonu seçiniz.',
+      'plugins.themes.default.option.typography.notoSans' => 'Noto Sans: Geniş dil desteği için Google tarafından tasarlanan font ailesidir.',
+      'plugins.themes.default.option.typography.notoSerif' => 'Noto Serif: Google\'ın serif (tırnaklı) bir yazı tipi ailesidir.',
+      'plugins.themes.default.option.typography.notoSerif_notoSans' => 'Noto Serif / Noto Sans: Serif başlıkları ve sans-serif gövde metni ile tamamlayıcı bir eşleştirme sağlar.',
+      'plugins.themes.default.option.typography.notoSans_notoSerif' => 'Noto Sans / Noto Serif: Sans-serif başlıkları ve serif gövde metni ile tamamlayıcı bir eşleştirme sağlar.',
+      'plugins.themes.default.option.typography.lato' => 'Lato: Popüler bir modern sans-serif yazı tipi.',
+      'plugins.themes.default.option.typography.lora' => 'Lora: Çevrimiçi okumak için iyi tasarlanmış geniş bir serif (tırnaklı) yazı tipi.',
+      'plugins.themes.default.option.typography.lora_openSans' => 'Lora / Open Sans: Serif başlıkları ve sans-serif gövde metni ile eşleştirme sağlar.',
+      'plugins.themes.default.option.colour.label' => 'Renk',
+      'plugins.themes.default.option.colour.description' => 'Üst kısım için bir renk seçin.',
+      'plugins.themes.default.option.showDescriptionInJournalIndex.option' => 'Ana sayfada dergi özetini göster.',
+      'plugins.themes.default.option.useHomepageImageAsHeader.label' => 'Üst Kısım Arkaplan Resmi',
+      'plugins.themes.default.option.useHomepageImageAsHeader.description' => 'Bir ana sayfa resmi yüklendiğinde, ana sayfadaki normal başlık konumu yerine başlığın arka planında görüntüleyin.',
+      'plugins.themes.default.option.useHomepageImageAsHeader.option' => 'Anasayfa resmini başlık arkaplanı olarak kullan.',
+      'plugins.themes.default.option.displayStats.label' => 'Kullanım istatistikleri gösterim ayarları',
+      'plugins.themes.default.option.displayStats.none' => 'Makale kullanıcı istatistikleri grafiğini okurlara gösterme.',
+      'plugins.themes.default.option.displayStats.bar' => 'Kullanım istatistiklerini göstermek için sütun grafiği kullan.',
+      'plugins.themes.default.option.displayStats.line' => 'Kullanım istatistiklerini göstermek için çizgi grafiği kullan.',
+      'plugins.themes.default.displayStats.monthInitials' => 'Oca Şub Mar Nis May Haz Tem Ağu Eyl Eki Kas Ara',
+      'plugins.themes.default.displayStats.downloads' => 'İndirmeler',
+      'plugins.themes.default.displayStats.noStats' => 'İndirme verisi henüz mevcut değil.',
+    ),
+  ),
+);

@@ -1,0 +1,26 @@
+<?php $exp = 1751345595; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.webfeed.displayName' => 'Verkkosyötelisäosa',
+      'plugins.generic.webfeed.description' => 'Tämä lisäosa tuottaa RSS/Atom-verkkosisältösyötteitä.<br>Lisäosa sisältää myös sivupalkkilohkon, jonka avulla voit näyttää syötelinkit sivustosi sivupalkissa',
+      'plugins.generic.webfeed.settings' => 'Asetukset',
+      'plugins.generic.webfeed.settings.issue' => 'Näytä verkkosyötelinkit vain numeroiden sivuilla.',
+      'plugins.generic.webfeed.settings.homepage' => 'Näytä verkkosyötelinkit vain etusivulla.',
+      'plugins.generic.webfeed.settings.all' => 'Näytä verkkosyötelinkit julkaisun kaikilla sivuilla.',
+      'plugins.generic.webfeed.settings.currentIssue' => 'Näytä kohteet uusimmassa julkaistussa numerossa.',
+      'plugins.generic.webfeed.settings.recent' => 'Näytä kiinteä määrä viimeisimpiä kohteita.',
+      'plugins.generic.webfeed.settings.recentArticles' => 'Näytettävien kohteiden määrä',
+      'plugins.generic.webfeed.settings.recentItemsRequired' => 'Anna positiivinen kokonaisluku viimeisimmille julkaistuille kohteille.',
+      'plugins.generic.webfeed.atom.altText' => 'Atom-logo',
+      'plugins.generic.webfeed.rss1.altText' => 'RSS1-logo',
+      'plugins.generic.webfeed.rss2.altText' => 'RSS2-logo',
+      'plugins.generic.webfeed.blockTitle' => 'Uusimmat artikkelit',
+      'plugins.generic.webfeed.settings.homepageAndIssues' => 'Näytä verkkosyötelinkit vain etusivulla ja numeroiden sivuilla.',
+      'plugins.generic.webfeed.settings.includeIdentifiers' => 'Sisällytä tunnisteet (ISBN, avainsanat, kategoriat jne.) syötteen yhteenvetoon?',
+    ),
+  ),
+);

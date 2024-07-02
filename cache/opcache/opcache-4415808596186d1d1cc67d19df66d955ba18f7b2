@@ -1,0 +1,12 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.googleScholar.name' => 'Plugin indicizzazione Google Scholar',
+      'plugins.generic.googleScholar.description' => 'Questo plugin attiva l\'indicizzazione del contenuto pubblicato in Google Scholar.',
+    ),
+  ),
+);

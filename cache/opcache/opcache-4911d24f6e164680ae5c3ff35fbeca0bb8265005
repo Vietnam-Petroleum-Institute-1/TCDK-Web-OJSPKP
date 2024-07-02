@@ -1,0 +1,32 @@
+<?php $exp = 1751345595; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'comments.anonymous' => 'Erabiltzaile anonimoa',
+      'comments.anonymousNamed' => '"{$userName}"',
+      'comments.body' => 'Gorputza',
+      'comments.titleRequired' => 'Iruzkinaren titulua behar da.',
+      'comments.confirmDeleteChildren' => 'Iruzkin hau ezabatzen bada, eman zaizkion erantzunak ere ezabatu egingo dira. Ziur zaude ezabatu nahi duzula?',
+      'comments.delete' => 'Ezabatu iruzkin hau',
+      'comments.email' => 'Helbide el.',
+      'comments.emailReply' => 'Mezu bidez erantzun',
+      'comments.enterComment' => 'Sartu iruzkina',
+      'comments.inResponseTo' => 'Honi erantzunez: <a href="{$url}">{$title}</a>',
+      'comments.name' => 'Izena',
+      'comments.noComments' => 'Irakurleek ez dute iruzkinik egin.',
+      'comments.nReplies' => '({$num} erantzun)',
+      'comments.oneReply' => '(Erantzun 1)',
+      'comments.postAnonymously' => 'Jarri iruzkin hau anonimo gisa',
+      'comments.postReply' => 'Bidali erantzuna',
+      'comments.readerComments' => 'Irakurleen iruzkinak',
+      'comments.readMore' => 'Gehiago irakurri',
+      'comments.replies' => 'Erantzunak',
+      'comments.title' => 'Titulua',
+      'comments.viewAllComments' => 'Ikusi iruzkin guztiak',
+      'reader.fullText' => 'Testu osoa:',
+    ),
+  ),
+);

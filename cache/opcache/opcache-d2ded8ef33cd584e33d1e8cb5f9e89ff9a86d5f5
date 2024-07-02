@@ -1,0 +1,90 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=1; plural=0;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'emails.submissionAck.subject' => 'Ucapan Terima Kasih',
+      'emails.submissionAck.body' => '{$recipientName}: <br />
+<br />
+Terima kasih kerana menghantar manuskrip, &quot;{$submissionTitle}&quot; ke {$contextName}. Dengan sistem pengurusan jurnal dalam talian yang kami gunakan, anda dapat melacak kemajuannya melalui proses editorial dengan masuk ke laman web jurnal: <br />
+<br />
+URL Penyerahan: {$submissionUrl} <br />
+Nama pengguna: {$recipientUsername} <br />
+<br />
+Sekiranya anda mempunyai sebarang pertanyaan, sila hubungi saya. Terima kasih kerana mempertimbangkan jurnal ini sebagai tempat kerja anda. <br />
+<br />
+{$contextSignature}',
+      'emails.reviewAck.subject' => 'Ucapan Terima Kasih atas Ulasan Artikel',
+      'emails.reviewAck.body' => '{$recipientName}: <br />
+<br />
+Terima kasih kerana menyelesaikan ulasan penyerahan, &quot; {$submissionTitle}, &quot; untuk {$contextName}. Kami menghargai sumbangan anda terhadap kualiti karya yang kami terbitkan.',
+      'emails.editorDecisionSendToExternal.subject' => 'Keputusan Editor',
+      'emails.editorDecisionSendToExternal.body' => '{$authors}: <br />
+<br />
+Kami telah membuat keputusan mengenai penyerahan anda ke {$contextName}, &quot; {$ submissionTitle} &quot ;. <br />
+<br />
+Keputusan kami adalah untuk: Kirim ke Ulasan <br />
+<br />
+URL Penyerahan: {$submissionUrl}',
+      'emails.editorDecisionSendToProduction.subject' => 'Keputusan Editor',
+      'emails.editorDecisionSendToProduction.body' => '{$authors}: <br />
+<br />
+Penyuntingan penyerahan anda, &quot; {$submissionTitle}, &quot; selesai. Kami sekarang mengirimkannya ke produksi. <br />
+<br />
+URL Penyerahan: {$submissionUrl}',
+      'emails.editorDecisionRevisions.subject' => 'Keputusan Editor',
+      'emails.editorDecisionRevisions.body' => '{$ authorName}: <br />
+<br />
+Kami telah membuat keputusan mengenai penyerahan anda ke {$contextName}, &quot; {$submissionTitle} & quot ;. <br />
+<br />
+Keputusan kami adalah: Semakan Diperlukan',
+      'emails.editorDecisionResubmit.subject' => 'Keputusan Editor',
+      'emails.editorDecisionResubmit.body' => '{$authors}: <br />
+<br />
+Kami telah membuat keputusan mengenai penyerahan anda ke {$contextName}, &quot; {$submissionTitle} &quot ;. <br />
+<br />
+Keputusan kami adalah untuk: Serah semula untuk Ulasan',
+      'emails.editorDecisionDecline.subject' => 'Keputusan Editor',
+      'emails.editorDecisionDecline.body' => '{$authors}: <br />
+<br />
+Kami telah membuat keputusan mengenai penyerahan anda ke {$contextName}, &quot; {$submissionTitle} &quot ;. <br />
+<br />
+Keputusan kami adalah untuk: Menolak Penyerahan',
+      'emails.editorRecommendation.subject' => 'Cadangan Editor',
+      'emails.editorRecommendation.body' => '{$editor}: <br />
+<br />
+Cadangan mengenai penyerahan kepada {$contextName}, &quot; {$submissionTitle} &quot; ialah: {$recommendation}',
+      'emails.copyeditRequest.subject' => 'Permintaan Copyediting',
+      'emails.copyeditRequest.body' => '{$recipientName}: <br />
+<br />
+Saya meminta anda melakukan copyediting &quot; {$submissionTitle} &quot; untuk {$contextName} dengan mengikuti langkah-langkah ini. <br />
+1. Klik pada URL Penyerahan di bawah. <br />
+2. Buka mana-mana fail yang ada di bawah Fail  Draf dan lakukan copyediting anda, sambil menambahkan Perbincangan Copyediting mengikut keperluan. <br />
+3. Simpan fail yang copyedited , dan muat naik ke panel yang Copyedited. <br />
+4. Maklumkan kepada Editor bahawa semua fail telah disiapkan, dan proses Produksi dapat dimulai. <br />
+<br />
+{$contextName} URL: {$contextUrl}<br />
+URL Penyerahan:{$submissionUrl}<br />
+Nama pengguna: {$recipientUsername}',
+      'emails.editorDecisionInitialDecline.subject' => 'Keputusan Editor',
+      'emails.editorDecisionInitialDecline.body' => '
+			{$authors}: <br />
+<br />
+Kami telah membuat keputusan mengenai penyerahan anda ke {$contextName}, &quot; {$submissionTitle} &quot ;. <br />
+<br />
+Keputusan kami adalah untuk: Menolak Penyerahan',
+      'emails.discussion.subject' => 'Mesej mengenai {$contextName}',
+      'emails.discussion.body' => 'Sila masukkan mesej anda.',
+      'emails.reviewConfirm.subject' => 'Mampu Mengulas',
+      'emails.reviewConfirm.body' => 'Penyunting:<br />
+<br />
+Saya mampu dan bersedia menyemak penyerahan, &quot;{$submissionTitle},&quot; untuk {$contextName}. Terima kasih untuk pemakluman dan saya bercadang untuk menyelesaikan semakan sebelum tarikh tamatnya, {$reviewDueDate}, jika tidak sebelum ini.<br />
+<br />
+{$senderName}',
+      'emails.submissionAckNotAuthor.subject' => 'Pengesahan penyerahan',
+      'emails.submissionAckNotAuthor.body' => '<p>Hello {$recipientName},</p><p>Anda telah dinamakan sebagai pengarang bersama atas penyerahan kepada {$contextName}. Yang menghantar, {$submitterName} memberikan butiran seperti berikut:</p><p>{$submissionTitle}<br>{$authorsWithAffiliation}</p><p>Jika mana-mana butiran ini tidak betul, atau anda tidak mahu dinamakan pada penyerahan ini, sila hubungi saya.</p><p> Terima kasih kerana mempertimbangkan jurnal ini sebagai tempat kerja anda.</p>{$contextSignature}',
+    ),
+  ),
+);

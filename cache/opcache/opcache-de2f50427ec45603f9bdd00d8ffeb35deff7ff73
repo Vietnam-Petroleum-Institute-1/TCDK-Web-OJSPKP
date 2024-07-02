@@ -1,0 +1,44 @@
+<?php $exp = 1751345595; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'emails.orcidCollectAuthorId.subject' => 'Υποβολή ORCID',
+      'emails.orcidCollectAuthorId.body' => 'Αγαπητέ/η {$recipientName},
+
+Έχετε καταχωρηθεί ως ένας/μια από τους συγγραφείς στην υποβολή "{$submissionTitle}" στο "{$contextName}".
+
+Παρακαλούμε συμπληρώστε το ORCID iD σας στα στοιχεία της υποβολής, επιλέγοντας τον ακόλουθο σύνδεσμο:
+
+{$authorOrcidUrl}
+
+Παρακαλώ επικοινωνήστε μαζί μας εάν χρειάζεστε πρόσθετες διευκρινίσεις.
+
+{$editorialContactSignature}
+
+
+',
+      'emails.orcidCollectAuthorId.description' => 'Αυτό το μήνυμα χρησιμοποιείται για τη συλλογή του ORCID iD των συγγραφέων.',
+      'emails.orcidRequestAuthorAuthorization.subject' => 'Αίτημα πρόσβασης στο ORCID σας',
+      'emails.orcidRequestAuthorAuthorization.body' => 'Αγαπητέ/η {$recipientName},<br>
+<br>
+Έχετε καταχωρηθεί ως συγγραφέας στην υποβολή "{$submissionTitle}" στο "{$contextName}".
+<br>
+<br>
+Παρακαλούμε επιτρέψτε μας να προσθέσουμε το ORCID id σας στην υποβολή, καθώς και να καταχωρήσουμε την υποβολή στο ORCID προφίλ σας κατά τη δημοσίευσή της.<br>
+Επιλέξτε τον σύνδεσμο προς τον ιστότοπο του ORCID, εισέλθετε στον λογαριασμό σας και ενεργοποιήστε τη δυνατότητα πρόσβασης ακολουθώντας τις σχετικές οδηγίες.<br>
+<a href="{$authorOrcidUrl}"><img id="orcid-id-logo" src="https://orcid.org/sites/default/files/images/orcid_16x16.png" width=\'16\' height=\'16\' alt="ORCID iD icon" style="display: block; margin: 0 .5em 0 0; padding: 0; float: left;"/>Register or Connect your ORCID iD</a><br/>
+<br>
+<br>
+<a href="{$orcidAboutUrl}">Περισσότερες πληροφορίες για το ORCID στο {$contextName}</a><br/>
+<br>
+Παρακαλώ επικοινωνήστε μαζί μας εάν χρειάζεστε πρόσθετες διευκρινίσεις.<br>
+<br>
+{$principalContactSignature}<br>
+',
+      'emails.orcidRequestAuthorAuthorization.description' => 'Αυτό το μήνυμα χρησιμοποιείται ως αίτημα πρόσβασης στο μητρώο ORCID των συγγραφέων.',
+    ),
+  ),
+);

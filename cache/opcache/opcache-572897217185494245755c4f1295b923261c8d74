@@ -1,0 +1,17 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.acron.name' => 'Acron programtillegg',
+      'plugins.generic.acron.description' => 'Dette programtillegget bidrar til å redusere avhengighet av anvendelse av faste verktøy som for eksempel \'cron.\'',
+      'plugins.generic.acron.enabled' => 'Acron-programtillegg har blitt aktivert.',
+      'plugins.generic.acron.disabled' => 'Acron-programtillegg har blitt deaktivert.',
+      'plugins.generic.acron.reloadedCronTab' => 'Cron-fanen lastes på nytt.',
+      'plugins.generic.acron.reload' => 'Last planlagte oppgaver på nytt',
+      'plugins.generic.acron.tasksReloaded' => 'Planlagte oppgaver ble lastet på nytt.',
+    ),
+  ),
+);

@@ -1,0 +1,17 @@
+<?php $exp = 1751345594; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.acron.name' => 'Mòdul Acron',
+      'plugins.generic.acron.reload' => 'Recarrega les tasques programades',
+      'plugins.generic.acron.tasksReloaded' => 'Les tasques planificades s\'han recarregat.',
+      'plugins.generic.acron.reloadedCronTab' => 'La pestanya Cron s\'ha recarregat correctament.',
+      'plugins.generic.acron.disabled' => 'El mòdul Acron s\'ha deshabilitat.',
+      'plugins.generic.acron.enabled' => 'El mòdul Acron s\'ha habilitat.',
+      'plugins.generic.acron.description' => 'Aquest mòdul intenta reduir la dependència de l\'aplicació d\'eines de planificació periòdiques com \'cron\'.',
+    ),
+  ),
+);

@@ -1,0 +1,21 @@
+<?php $exp = 1751345595; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.tinymce.name' => 'TinyMCE',
+      'plugins.generic.tinymce.description' => 'Το Πρόσθετο αυτό ενεργοποιεί την WYSIWYG επεξεργασία των πεδίων κειμένου του OJS με την χρήση του επεξεργαστή περιεχομένου <a href="https://www.tiny.cloud" target="_blank">TinyMCE</a>.',
+      'plugins.generic.tinymce.settings' => 'Ρυθμίσεις',
+      'plugins.generic.tinymce.pkpTags.listTags' => 'Επιλογή ετικέτας',
+      'plugins.generic.tinymce.pkpTags.noneAvailable' => 'Δεν υπάρχουν διαθέσιμες ετικέτες γι αυτό το πεδίο.',
+      'plugins.generic.tinymce.pkpTags.description' => 'Μπορείτε να εισάγετε από τις παρακάτω ετικέτες:',
+      'plugins.generic.tinymce.variables.principalContactName' => 'Κύριο όνομα επικοινωνίας ("{$value}")',
+      'plugins.generic.tinymce.variables.principalContactEmail' => 'Κύριο email επικοινωνίας ("{$value}")',
+      'plugins.generic.tinymce.variables.supportContactName' => 'Όνομα επαφής υποστήριξης ("{$value}")',
+      'plugins.generic.tinymce.variables.supportContactEmail' => 'Email επαφής υποστήριξης ("{$value}")',
+      'plugins.generic.tinymce.variables.supportContactPhone' => 'Τηλέφωνο επαφής υποστήριξης ("{$value}")',
+    ),
+  ),
+);

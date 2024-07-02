@@ -1,0 +1,14 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.recommendByAuthor.displayName' => 'Articole recomandate după autor',
+      'plugins.generic.recommendByAuthor.description' => 'Acest plugin introduce o listă de articole ale aceluiași autor pe pagina cu rezumatul articolului.',
+      'plugins.generic.recommendByAuthor.heading' => 'Cele mai citite articole ale aceluiași autor(i)',
+      'plugins.generic.recommendByAuthor.noMetric' => 'Observații: Acest plugin necesită cel puțin un plugin pentru statistici / rapoarte pentru a fi activat. Dacă pluginurile dvs. de statistici furnizează mai multe valori, vă rugăm să selectați și o valoare principală în pagina de setări a site-ului administratorului și/sau în paginile de setări ale managerului jurnalului.',
+    ),
+  ),
+);

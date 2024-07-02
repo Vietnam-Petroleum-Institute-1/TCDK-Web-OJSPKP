@@ -1,0 +1,24 @@
+<?php $exp = 1751345593; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'sushi.status.description' => 'COUNTER Usage Reports for {$contextName}.',
+      'sushi.exception.1' => 'Requested date ({$beginDate} or {$endDate}) is in the middle of the month; however, only whole months are considered.',
+      'sushi.exception.2' => 'Requested item ID ({$itemId}) is not a number. This parameter expects a submission ID.',
+      'sushi.exception.3' => 'Parameter item_id contains more than one value, however only one is accepted. The following values are not considered: item_id={$itemIdValues}',
+      'sushi.exception.1030.missing' => 'Missing {$params}.',
+      'sushi.exception.1030.invalid' => 'Invalid {$params}.',
+      'sushi.exception.3020.dateFormat' => 'Invalid format for begin_date or end_date.',
+      'sushi.exception.3020.dateRange' => 'Invalid date range.',
+      'sushi.exception.3030' => 'No usage available for requested dates. Request was for {$beginDate} to {$endDate}.',
+      'sushi.exception.3031' => 'Request was for {$beginDate} to {$endDate}; however, usage is only available to {$lastDate}.',
+      'sushi.exception.3032' => 'Request was for {$beginDate} to {$endDate}; however, usage is only available from {$earliestDate}.',
+      'sushi.exception.3050' => 'The request contained parameters ({$params}) that are not recognized in the context of the report being serviced.',
+      'sushi.exception.3060' => 'The following filter values are not supported: {$filterValues}',
+      'sushi.exception.3062' => 'The following attribute values are not supported: {$attributeValues}',
+    ),
+  ),
+);

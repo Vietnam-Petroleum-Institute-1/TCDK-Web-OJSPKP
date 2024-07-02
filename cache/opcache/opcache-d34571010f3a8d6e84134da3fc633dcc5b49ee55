@@ -1,0 +1,31 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=3; plural=(n % 10 == 0 || n % 100 >= 11 && n % 100 <= 19) ? 0 : ((n % 10 == 1 && n % 100 != 11) ? 1 : 2);',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'api.announcements.400.contextsNotMatched' => 'Jūsu pieprasītais sludinājums nav iekļauts šajā žurnālā.',
+      'api.emails.403.disabled' => 'E-pasta paziņojumu funkcija šim žurnālam nav iespējota.',
+      'api.submissions.400.wrongContext' => 'Jūsu pieprasītais materiāls nav iekļauts šajā žurnālā.',
+      'api.submissions.403.unpublishedIssues' => 'Jums nav tiesību skatīt nepublicētus žurnāla numurus.',
+      'api.contexts.403.requestedDisabledContexts' => 'Varat skatīt tikai tos žurnālus, kas ir iespējoti.',
+      'api.contexts.403.notAllowed' => 'Jums nav atļaujas skatīt šo žurnālu.',
+      'api.contexts.403.requiresContext' => 'Šo žurnālu nevar rediģēt no vietnes API.',
+      'api.contexts.403.notAllowedEdit' => 'Jums nav tiesību rediģēt šo žurnālu.',
+      'api.contexts.403.notAllowedDelete' => 'Jums nav tiesību dzēst šo žurnālu.',
+      'api.contexts.404.contextNotFound' => 'Jūsu pieprasītais žurnāls nav atrasts.',
+      'api.dois.403.contextsNotMatched' => 'Jūsu pieprasītais DOI nav iekļauts šajā žurnālā.',
+      'api.dois.400.noRegistrationAgencyConfigured' => 'Šim žurnālam nav konfigurēta DOI reģistrēšanas aģentūra.',
+      'api.emailTemplates.403.notAllowedChangeContext' => 'Jums nav atļaujas pārvietot šo e-pasta veidni uz citu žurnālu.',
+      'api._payments.400.invalidPaymentMethod' => 'Jūsu izvēlētā maksājuma metode netiek atbalstīta.',
+      'api.publications.403.contextsDidNotMatch' => 'Jūsu pieprasītā publikācija nav daļa no šī žurnāla.',
+      'api.publications.403.submissionsDidNotMatch' => 'Jūsu pieprasītā publikācija nav iekļauta šajā iesniegtajā materiālā.',
+      'api.submissionFiles.400.badRepresentationAssocType' => 'Jūs nevarat saistīt datni šajā posmā ar saliktni.',
+      'api.submissions.403.cantChangeContext' => 'Jūs nevarat mainīt žurnālu, kurā ir iesniegts materiāls.',
+      'api.contexts.403.contextsDidNotMatch' => 'Jūs nevarat apskatīt vai rediģēt šo žurnālu, ja vien neesat veicis pieprasījumu žurnāla API vai vietnes mēroga API.',
+      'api.dois.400.depositFailed' => 'Dažas vienības netika veiksmīgi noguldītas. Lūdzu, pārbaudiet vienības atsevišķi, lai redzētu konkrētos kļūdas paziņojumus.',
+      'api.submission.400.inactiveSection' => 'Šajā sadaļā materiāli vairs netiek pieņemti.',
+    ),
+  ),
+);

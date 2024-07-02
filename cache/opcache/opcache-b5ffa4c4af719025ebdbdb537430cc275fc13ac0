@@ -1,0 +1,14 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'doi.displayName' => 'DOI',
+      'doi.readerDisplayName' => 'DOI',
+      'doi.manager.settings.description' => 'Sukonfiguruokite DOI skiep, kad galtumte valdyti ir naudoti DOI sistemoje:',
+      'doi.manager.settings.doiPrefix' => 'DOI priedlis',
+    ),
+  ),
+);

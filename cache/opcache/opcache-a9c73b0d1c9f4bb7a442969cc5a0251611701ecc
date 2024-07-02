@@ -1,0 +1,23 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.webfeed.displayName' => 'Webes Hírfolyam Plugin',
+      'plugins.generic.webfeed.description' => 'Ez a plugin RSS/Atom web hírfolyamot hoz létre a legfrissebb számhoz.',
+      'plugins.generic.webfeed.settings' => 'Beállítások',
+      'plugins.generic.webfeed.settings.issue' => 'Webes hírfolyam linkek megjelenítése csak a folyóiratszám oldalain.',
+      'plugins.generic.webfeed.settings.homepage' => 'Webes hírfolyam linkek megjelenítése a honlapon és a a folyóiratszám oldalain.',
+      'plugins.generic.webfeed.settings.all' => 'Webes hírfolyam linkek megjelenítése minden folyóirat oldalon.',
+      'plugins.generic.webfeed.settings.currentIssue' => 'Elemek megjelenítése a legfrissebb megjelent számban.',
+      'plugins.generic.webfeed.settings.recent' => 'Egy adott számú legfrissebb elem megjelenítése.',
+      'plugins.generic.webfeed.settings.recentArticles' => 'Megjelenítendő elemek száma',
+      'plugins.generic.webfeed.settings.recentItemsRequired' => 'Adjon meg egy pozitív egész számot a legfrissebb megjelent elemhez.',
+      'plugins.generic.webfeed.atom.altText' => 'Atom logo',
+      'plugins.generic.webfeed.rss1.altText' => 'RSS1 logo',
+      'plugins.generic.webfeed.rss2.altText' => 'RSS2 logo',
+    ),
+  ),
+);

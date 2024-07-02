@@ -1,0 +1,27 @@
+<?php $exp = 1751345595; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'editor.submissionArchive.confirmDelete' => 'Ziur zaude betiko ezabatu nahi duzula bidalketa hau?',
+      'editor.activityLog' => 'Jarduera-erregistroa',
+      'editor.submission.workflowDecision.submission.declined' => 'Bidalketa ukatua.',
+      'editor.submission.workflowDecision.changeDecision' => 'Erabakia aldatu',
+      'editor.submission.workflowDecision.invalidStage' => 'Bidalketa ez dago lan-fluxuaren etapa egokian erabakia hartzeko.',
+      'editor.review.notInitiated' => 'Oraindik ez da hasi berrikuspen-prozesua.',
+      'editor.submission.copyediting.personalMessageToUser' => 'Erabiltzaileari mezua',
+      'editor.submission.uploadSelectFiles' => 'Igo/aukeratu fitxategiak',
+      'editor.submission.selectFiles' => 'Hautatu fitxategiak',
+      'editor.submission.fileList.includeAllStages' => 'Bistaratu lan-fluxuaren etapa eskuragarri guztietako fitxategiak.',
+      'editor.review.reviewDueDate' => 'Ebaluazioaren Epemuga',
+      'editor.review.rateReviewer' => 'Ebaluatzailearen balorazioa',
+      'editor.submission.schedulePublication' => 'Argitaratzeko programatua',
+      'editor.review' => 'Berrikuspena',
+      'editor.review.noReviewFilesUploaded' => 'Ez da fitxategirik igo',
+      'editor.submission.production.productionReadyFiles' => 'Ekoizpenerako prest dauden artxiboak',
+      'editor.submission.newRound' => 'Ebaluazio-txanda berria',
+    ),
+  ),
+);

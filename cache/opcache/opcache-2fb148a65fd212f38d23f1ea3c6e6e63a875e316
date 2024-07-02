@@ -1,0 +1,31 @@
+<?php $exp = 1751345595; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'api.announcements.400.contextsNotMatched' => 'Die angefragte Mitteilung ist nicht Teil dieser Zeitschrift.',
+      'api.emails.403.disabled' => 'Die E-Mail-Benachrichtigungsfunktion wurde für dieses Journal nicht aktiviert.',
+      'api.submissions.400.wrongContext' => 'Die angeforderte Einreichung befindet sich nicht in diesem Journal.',
+      'api.submissions.403.cantChangeContext' => 'Sie können die Zeitschrift einer Einreichung nicht ändern.',
+      'api.submissions.403.unpublishedIssues' => 'Sie haben keine Berechtigung, unveröffentlichte Ausgaben zu sehen.',
+      'api.contexts.403.requestedDisabledContexts' => 'Sie können nur Zeitschriften ansehen die freigeschaltet sind.',
+      'api.contexts.403.notAllowed' => 'Sie haben keine Berechtigung diese Zeitschrift anzusehen.',
+      'api.contexts.403.contextsDidNotMatch' => 'Sie können diese Zeitschrift nicht ansehen oder ändern, außer Sie stellen eine Anfrage an die API der Zeitschrift oder die site-wide API.',
+      'api.contexts.403.requiresContext' => 'Sie können diese Zeitschrift nicht von der site-wide API aus ändern.',
+      'api.contexts.403.notAllowedEdit' => 'Sie haben keine Berechtigung diese Zeitschrift zu ändern.',
+      'api.contexts.403.notAllowedDelete' => 'Sie haben keine Berechtigung diese Zeitschrift zu löschen.',
+      'api.contexts.404.contextNotFound' => 'Die Zeitschrift, nach der Sie suchen, wurde nicht gefunden.',
+      'api.dois.403.contextsNotMatched' => 'Die DOI, nach der Sie suchen, ist nicht Teil dieses Journals.',
+      'api.dois.400.noRegistrationAgencyConfigured' => 'Für dieses Journal wurde noch keine DOI-Registrierungsagentur eingetragen.',
+      'api.dois.400.depositFailed' => 'Einige Artikel wurden nicht erfolgreich abgeliefert. Bitte überprüfen Sie die individuellen Artikel auf ihre einzelnen Fehlermeldungen.',
+      'api.emailTemplates.403.notAllowedChangeContext' => 'Sie haben keine Berechtigung diese E-Mail-Vorlage zu einer anderen Zeitschrift zu verschieben.',
+      'api._payments.400.invalidPaymentMethod' => 'Die von Ihnen gewählte Zahlungsmethode wird nicht unterstützt.',
+      'api.publications.403.contextsDidNotMatch' => 'Die Publikation, die Sie suchen, ist nicht Teil dieser Zeitschrift.',
+      'api.publications.403.submissionsDidNotMatch' => 'Die Publikation, die Sie suchen, ist nicht Teil dieser EInreichung.',
+      'api.submissionFiles.400.badRepresentationAssocType' => 'Eine Datei aus diesem Dateistadium kann nicht mit einer Fahne verknüpft werden.',
+      'api.submission.400.inactiveSection' => 'Für diese Rubrik sind keine Einreichungen mehr möglich.',
+    ),
+  ),
+);

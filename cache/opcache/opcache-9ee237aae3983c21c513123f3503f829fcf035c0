@@ -1,0 +1,12 @@
+<?php $exp = 1751345595; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.driver.displayName' => 'DRIVER',
+      'plugins.generic.driver.description' => 'Le plugiciel DRIVER étend certaines fonctionnalités du protocole OAI-PMH selon les directives 2.0, rendant ainsi OJS compatible à ces directives.',
+    ),
+  ),
+);

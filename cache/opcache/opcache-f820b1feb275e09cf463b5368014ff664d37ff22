@@ -1,0 +1,31 @@
+<?php $exp = 1751345594; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'api.announcements.400.contextsNotMatched' => 'İstədiyiniz elan bu jurnalda yoxdur.',
+      'api.emails.403.disabled' => 'Email bildiriş funksiyası bu jurnal üçün aktivləşdirilmədi.',
+      'api.submissions.400.wrongContext' => 'İstədiyiniz fayl (yazı) bu jurnalda deyil.',
+      'api.submissions.403.cantChangeContext' => 'Bir faylın (yazının) jurnalını dəyişə bilməzsiniz.',
+      'api.submissions.403.unpublishedIssues' => 'Yayımlanmamış mövzulara baxma icazəniz yoxdur.',
+      'api.contexts.403.requestedDisabledContexts' => 'Sadəcə icazə verilən jurnallara baxa bilərsiniz.',
+      'api.contexts.403.notAllowed' => 'Bu jurnala baxma səlahiyyətiniz yoxdur.',
+      'api.contexts.403.contextsDidNotMatch' => 'Jurnalın API-sinə və ya bütün sayt API-sinə sorğu göndərməsəniz, bu jurnala baxa və ya redaktə edə bilməzsiniz.',
+      'api.contexts.403.requiresContext' => 'Bu jurnalı bütün sayt API-si ilə redaktə edə bilməzsiniz.',
+      'api.contexts.403.notAllowedEdit' => 'Bu jurnalı redaktə etmə səlahiyyətiniz yoxdur.',
+      'api.contexts.403.notAllowedDelete' => 'Bu jurnalı silmə səlahiyyətiniz yoxdur.',
+      'api.dois.400.depositFailed' => 'Bəzi elementlər üçün DOI alına bilmədi. Zəhmət olmasa xüsusi xəta mesajlarını bir-bir yoxlayın.',
+      'api.emailTemplates.403.notAllowedChangeContext' => 'Bu email şablonunu başqa bir jurnala transfer etmə səlahiyyətiniz yoxdur.',
+      'api._payments.400.invalidPaymentMethod' => 'Seçdiyiniz ödəmə metodu dəstəklənmir.',
+      'api.publications.403.contextsDidNotMatch' => 'Axtardığınız nəşr bu jurnala aid deyil.',
+      'api.dois.403.contextsNotMatched' => 'İstədiyiniz DOI bu jurnalda deyil.',
+      'api.dois.400.noRegistrationAgencyConfigured' => 'Bu jurnal üçün heç bir DOI tənzimləməsi yaradılmayıb.',
+      'api.publications.403.submissionsDidNotMatch' => 'Axtardığınız nəşr bu fayla aid deyil.',
+      'api.submissionFiles.400.badRepresentationAssocType' => 'Bu faylı dizayn mərhələsindəki bir fayl ilə əlaqələndirə bilməzsiniz.',
+      'api.contexts.404.contextNotFound' => 'Axtardığınız jurnal tapılmadı.',
+      'api.submission.400.inactiveSection' => 'Bu bölmə artıq müraciətləri qəbul etmir.',
+    ),
+  ),
+);

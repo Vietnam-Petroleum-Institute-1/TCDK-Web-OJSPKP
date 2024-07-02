@@ -1,0 +1,25 @@
+<?php $exp = 1751345594; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.googleAnalytics.displayName' => 'Mòdul Google Analytics',
+      'plugins.generic.googleAnalytics.description' => 'Integra OJS amb Google Analytics, una aplicació de Google per a l\'anàlisi del trànsit de llocs web. Cal que disposeu d\'un compte del Google Analytics. Per a obtenir més informació, vegeu el <a href="http://www.google.com/analytics/" title="lloc web del Google Analytics">lloc web del Google Analytics</a>.',
+      'plugins.generic.googleAnalytics.manager.settings' => 'Configuració',
+      'plugins.generic.googleAnalytics.manager.googleAnalyticsSettings' => 'Configuració del Google Analytics',
+      'plugins.generic.googleAnalytics.manager.settings.description' => '<p>Si activeu aquest controlador podreu utilitzar el Google Analytics per recopilar i analitzar dades relatives a l\'ús i el trànsit d\'aquesta revista. Tingueu en compte que aquest mòdul requereix que hagueu configurat prèviament un compte de Google Analytics. Consulteu el lloc web de <a href="http://www.google.com/analytics/" title="Google Analytics site">Google Analytics</a> per obtenir més informació.</p><p> Google Analytics pot necessitar fins a 24 hores abans que les estadístiques comencin a recopilar-se i registrar-se. Durant aquest període, la funció \'Comprovar estat\' potser no funcionarà de manera precisa si ha detectat el codi de seguiment sol·licitat.</p>',
+      'plugins.generic.googleAnalytics.manager.settings.googleAnalyticsSiteId' => 'Número de compte',
+      'plugins.generic.googleAnalytics.manager.settings.googleAnalyticsSiteIdInstructions' => 'Dins el Google Analytics, feu clic a Check Status per a visualitzar el codi de seguiment del lloc web. El número de compte es mostra en el codi de seguiment: _uacct = "###". Introduïu el text que correspon a ###.',
+      'plugins.generic.googleAnalytics.manager.settings.googleAnalyticsSiteIdRequired' => 'Introduïu un número de compte.',
+      'plugins.generic.googleAnalytics.manager.settings.trackingCode' => 'Codi de seguiment',
+      'plugins.generic.googleAnalytics.manager.settings.trackingCodeRequired' => 'Trieu el codi de seguiment que vulgueu utilitzar.',
+      'plugins.generic.googleAnalytics.manager.settings.urchin' => 'Codi de seguiment heretat (urchin.js)',
+      'plugins.generic.googleAnalytics.manager.settings.ga' => 'Codi de seguiment nou (ga.js)',
+      'plugins.generic.googleAnalytics.authorAccount' => 'Número de compte de Google Analytics',
+      'plugins.generic.googleAnalytics.authorAccountInvalid' => 'Un o més números de compte de Google Analytics introduïts per a trameses d\'autors/es no són vàlids.',
+      'plugins.generic.googleAnalytics.authorAccount.description' => 'Per fer el seguiment del nombre de lectors dels articles publicats mitjançant Google Analytics, introduïu aquí un número de compte (p. ex.: UA-xxxxxx-x).',
+    ),
+  ),
+);

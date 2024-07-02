@@ -1,0 +1,30 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n > 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.staticPages.displayName' => 'Ստատիկ էջերի փլագին',
+      'plugins.generic.staticPages.description' => 'Այս փլագինը թույլ է տալիս Ստատիկ բովանդակության կառավարումը:',
+      'plugins.generic.staticPages.staticPages' => 'Ստատիկ էջեր',
+      'plugins.generic.staticPages.pageTitle' => 'Վերնագիր',
+      'plugins.generic.staticPages.content' => 'Բովանդակություն',
+      'plugins.generic.staticPages.path' => 'Ուղի',
+      'plugins.generic.staticPages.requirement.tinymce' => '<p><strong>TinyMCE փլագինը պետք է տեղադրվի և միացված լինի՝ բովանդակություն ավելացնելու/խմբագրելու համար:</strong></p>',
+      'plugins.generic.staticPages.editAddContent' => 'Խմբագրել/Ավելացնել բովանդակություն',
+      'plugins.generic.staticPages.addStaticPage' => 'Ավելացնել ստատիկ էջը',
+      'plugins.generic.staticPages.addNewPage' => 'Ավելացնել նոր էջ',
+      'plugins.generic.staticPages.editStaticPage' => 'Խմբագրել ստատիկ էջը',
+      'plugins.generic.staticPages.noneCreated' => 'Ստատիկ էջեր չեն ստեղծվել:',
+      'plugins.generic.staticPages.settingInstructions' => 'Ստորև բերված ձևը ցույց է տալիս ձեր ստեղծած բոլոր ստատիկ էջերը: Դուք կարող եք խմբագրել կամ ջնջել էջերը՝ օգտագործելով աջ կողմի հղումները:',
+      'plugins.generic.staticPages.editInstructions' => 'Օգտագործեք ստորև բերված ձևը էջի բովանդակությունը ավելացնելու/խմբագրելու համար:',
+      'plugins.generic.staticPages.pathRegEx' => 'Ուղիի դաշտը պետք է պարունակի միայն տառա-թվային նշաններ գումարած \', \'/\', \'-\', և \'_\'.',
+      'plugins.generic.staticPages.viewInstructions' => '<p>Այս էջը հասանելի կլինի: <blockquote>{$pagesPath}</blockquote>...որտեղ %PATH% վերևում մուտքագրված ուղին է։ <strong>Նշում:</strong> Ոչ մի երկու էջ չեն կարող ունենալ նույն ուղին: Համակարգում ներկառուցված ուղիների օգտագործումը կարող է պատճառ դառնալ, որ դուք կորցնեք մուտքը դեպի կարևոր գործառույթներ:</p>',
+      'plugins.generic.staticPages.duplicatePath' => 'Այս ուղին արդեն գոյություն ունի մեկ այլ ստատիկ էջի համար:',
+      'plugins.generic.staticPages.pageSaved' => 'Էջը հաջողությամբ պահպանվեց:',
+      'plugins.generic.staticPages.pageDeleted' => 'Էջը հաջողությամբ ջնջվեց:',
+      'plugins.generic.staticPages.noneExist' => 'Ոչ մի էջ չի ստեղծվել',
+    ),
+  ),
+);

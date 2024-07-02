@@ -1,0 +1,22 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.announcementfeed.displayName' => 'მოდული „განცხადებების ლენტი“',
+      'plugins.generic.announcementfeed.description' => 'ქმნის ლენტს RSS/Atom ფორმატში, ჟურნალის განცხადებებისათვის.',
+      'plugins.generic.announcementfeed.settings' => 'პარამეტრები',
+      'plugins.generic.announcementfeed.settings.all' => 'აჩვენებს ბმულებს ლენტზე ჟურნალის ყველა გვერდზე.',
+      'plugins.generic.announcementfeed.settings.homepage' => 'ბმულის ჩვენება ლენტზე მხოლოდ მთავარ და განცხადებების გვერდებზე.',
+      'plugins.generic.announcementfeed.settings.announcement' => 'ბმულის ჩვენება ლენტზე მხოლოდ განცხადებების გვერდზე.',
+      'plugins.generic.announcementfeed.settings.recentAnnouncements1' => 'ლენტის შეზღუდვა',
+      'plugins.generic.announcementfeed.settings.recentAnnouncements2' => 'ყველაზე ახალი განცხადებები.',
+      'plugins.generic.announcementfeed.settings.recentItemsRequired' => 'გთხოვთ შეიტანოთ დადებითი მთელი რიცხვი ახალი განცხადებების რაოდენობის მისათითებლად.',
+      'plugins.generic.announcementfeed.atom.altText' => 'Atom-ის ლოგო',
+      'plugins.generic.announcementfeed.rss1.altText' => 'RSS1-ის ლოგო',
+      'plugins.generic.announcementfeed.rss2.altText' => 'RSS2-ის ლოგო',
+    ),
+  ),
+);

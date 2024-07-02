@@ -1,0 +1,27 @@
+<?php $exp = 1751345594; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.themes.default.name' => 'Zadana tema',
+      'plugins.themes.default.description' => 'Ova tema implementira zadanu temu.',
+      'plugins.themes.default.option.typography.label' => 'Tipografija',
+      'plugins.themes.default.option.typography.description' => 'Odaberite kombinaciju fontova koja odgovara ovom časopisu.',
+      'plugins.themes.default.option.typography.notoSans' => 'Noto Sans: Digitalni izvorni font koji je dizajnirao Google za široku jezičnu podršku.',
+      'plugins.themes.default.option.typography.notoSerif' => 'Noto Serif: Serif varijanta Googleovog izvornog fonta.',
+      'plugins.themes.default.option.typography.notoSerif_notoSans' => 'Noto Serif/Noto Sans: Komplementarno uparivanje sa serif tekstom za naslove i sans-serif tekstom za tijelo.',
+      'plugins.themes.default.option.typography.notoSans_notoSerif' => 'Noto Sans/Noto Serif: Komplementarno uparivanje s sans-serif tekstom za naslove i serif tekstom za tijelo.',
+      'plugins.themes.default.option.typography.lato' => 'Lato: Popularni moderni sans-serif font.',
+      'plugins.themes.default.option.typography.lora' => 'Lora: Široko postavljeni serif font dobar za čitanje na mreži.',
+      'plugins.themes.default.option.typography.lora_openSans' => 'Lora/Open Sans: Komplementarno uparivanje sa serif tekstom za naslove i sans-serif tekstom za tijelo.',
+      'plugins.themes.default.option.colour.label' => 'Boja',
+      'plugins.themes.default.option.colour.description' => 'Odaberite boju zaglavlja.',
+      'plugins.themes.default.option.showDescriptionInJournalIndex.option' => 'Prikaži sažetak časopisa na početnoj stranici.',
+      'plugins.themes.default.option.useHomepageImageAsHeader.label' => 'Pozadinska slika zaglavlja',
+      'plugins.themes.default.option.useHomepageImageAsHeader.description' => 'Kada je slika početne stranice prenesena, prikaži je u pozadini zaglavlja, umjesto na uobičajenom položaju na početnoj stranici.',
+      'plugins.themes.default.option.useHomepageImageAsHeader.option' => 'Prikaži sliku početne stranice kao pozadinu zaglavlja.',
+    ),
+  ),
+);

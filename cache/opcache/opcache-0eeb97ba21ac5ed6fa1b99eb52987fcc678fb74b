@@ -1,0 +1,27 @@
+<?php $exp = 1751345599; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=1; plural=0;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.themes.default.name' => '默認主題',
+      'plugins.themes.default.description' => '主題設定為默認主題。',
+      'plugins.themes.default.option.typography.label' => '印刷體裁',
+      'plugins.themes.default.option.typography.description' => '選取一個適合此期刊的字體。',
+      'plugins.themes.default.option.colour.label' => '顏色',
+      'plugins.themes.default.option.colour.description' => '選取標頭(Header)的顏色。',
+      'plugins.themes.default.option.showDescriptionInJournalIndex.option' => '在主頁顯示期刊簡介。',
+      'plugins.themes.default.option.useHomepageImageAsHeader.label' => '標頭(Header)背景圖片',
+      'plugins.themes.default.option.useHomepageImageAsHeader.description' => '上載主頁圖片後在標頭(Header)背景顯示，而非一般在主頁的位置。',
+      'plugins.themes.default.option.useHomepageImageAsHeader.option' => '顯示主頁圖片為標頭(Header)背景。',
+      'plugins.themes.default.option.displayStats.label' => '使用量統計展示選項',
+      'plugins.themes.default.option.displayStats.none' => '不向讀者展示投稿使用統計。',
+      'plugins.themes.default.option.displayStats.bar' => '使用長條圖來展示統計。',
+      'plugins.themes.default.option.displayStats.line' => '使用折線圖來展示統計。',
+      'plugins.themes.default.displayStats.monthInitials' => '一 二 三 四 五 六 七 八 九 十 十一 十二',
+      'plugins.themes.default.displayStats.downloads' => '下載',
+      'plugins.themes.default.displayStats.noStats' => '尚未有下載數據。',
+    ),
+  ),
+);

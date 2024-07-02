@@ -1,0 +1,12 @@
+<?php $exp = 1751345594; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.googleScholar.name' => 'Google Scholar-indekserings-plugin',
+      'plugins.generic.googleScholar.description' => 'Denne plugin muliggør indeksering af publiceret indhold i Google Scholar.',
+    ),
+  ),
+);

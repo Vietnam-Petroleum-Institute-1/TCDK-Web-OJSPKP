@@ -1,0 +1,159 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'emails.submissionAck.subject' => 'Potrditev oddaje prispevka pri reviji {$contextName}',
+      'emails.submissionAck.body' => '<p>Spoštovani {$recipientName},</p><p>Hvala za oddajo rokopisa v revijo {$contextName}. Sprejeli smo vaš prispevek, {$submissionTitle}, in eden od naših urednikov ga bo kamlu pregledal. Dobili boste email obvestilo, ko bo opravljena prva presoja. Morda vas bomo kontaktirali za dodatne informacije.</p><p>Vaš prispevek lahko pogledate in mu sledite skozi uredniški postopek na naslednji lokaciji:</p><p>URL prispevka: {$authorSubmissionUrl}</p><p>Če ste se iz sistema odjavili, se lahko ponovno prijavite z uporabniškim imenom {$recipientUsername}.</p><p>Če imate kakršnokoli vprašanje, se lahko obrnete name preko vaše <a href="{$authorSubmissionUrl}">nadzorne plošče prispevkov</a>.</p><p>Hvala, da ste se odločili za revijo {$contextName} kot prostor za vaše delo.</p>{$contextSignature}',
+      'emails.submissionAck.description' => 'Ta email se avtomatično pošlje avtorju, ko odda prispevek.',
+      'emails.reviewAck.subject' => 'Zahvala za recenzijo prispevka',
+      'emails.reviewAck.body' => '{$recipientName}:<br />
+<br />
+Hvala za dokončanje recenzije prispevka, &quot;{$submissionTitle},&quot; za revijo {$contextName}. Zahvaljujemo se za vaš prispevek k kvaliteti del, ki jih objavljamo.',
+      'emails.decision.notifyReviewers.subject' => 'Hvala za vašo recenzijo',
+      'emails.decision.notifyReviewers.body' => '<p>Spoštovani {$recipientName},</p>
+<p>Hvala za dokončanje recenzije prispevka, {$submissionTitle}, pri reviji {$contextName}. Hvležni smo vam za vaš čas in znanje, ki prispevata k kvaliteti del, ki jih objavljamo. Vaše komentarje in komentarje ostalih recenzentov smo skupaj z urednikovo odločitvijo delili z avtorji.</p>
+<p>Na osnovi prejetih mnenj, smo avtorje obvestili o naslednjem:</p>
+<p>{$decisionDescription}</p>
+<p>Vaše priporočilo je bilo upoštevno skupaj s priporočili ostalih recenzentov pred sprejeto odločitvijo. Občasno se odločitev urednika lahko razlikuje od priporočila, ki ga je podal eden ali več recenzentov. Urednik upošteva veliko faktorjev in odločitve ne sprejme zlahka. Hvaležni smo vam za vašo recenzentsko znanje in predloge.</p>
+<p>V veselje nam je bilo delati z vami v recenzentskem postopku pri reviji {$contextName} in upamo, da bomo imeli možnost delati z vami še kdaj v prihodnosti.</p>
+<p>S spoštovanjem,</p>
+<p>{$signature}</p>',
+      'emails.decision.notifyOtherAuthors.subject' => 'Novice v zvezi z vašim prispevkom',
+      'emails.decision.notifyOtherAuthors.body' => '<p>Spodnji email je bil poslan avtorju {$submittingAuthorName} pri reviji {$contextName} v zvezi s prispevkom {$submissionTitle}.</p>
+<p>Kopijo tega obvestila prejemate, ker ste bili navedeni kot soavtor prispevka. Navodila v sporočilu spodaj so namenjena le avtorju, ki je oddal prispevek, to je {$submittingAuthorName} in v tem trenutku z vaše strani ni potrebna nobena akcija.</p>
+
+{$messageToSubmittingAuthor}',
+      'emails.editorDecisionSendToExternal.subject' => 'Vaš prispevek je bil poslal v recenzijo',
+      'emails.editorDecisionSendToExternal.body' => '{$authors}:<br />
+<br />
+Sprejeli smo odločitev glede vašega prispevka &quot;{$submissionTitle}&quot; za revijo {$contextName}.<br />
+<br />
+Naša odločitev je: Prispevek se pošlje v recenzijo<br />
+<br />
+URL povezava do prispevka: {$submissionUrl}',
+      'emails.editorDecisionSendToProduction.subject' => 'Naslednji koraki za objavo vašega prispevka',
+      'emails.editorDecisionSendToProduction.body' => '{$authors}:<br />
+<br />
+Urejanje vašega prispevka, &quot;{$submissionTitle},&quot; je končano. Prispevek bom poslali v produkcijo.<br />
+<br />
+URL povezava do prispevka: {$submissionUrl}',
+      'emails.editorDecisionRevisions.subject' => 'Vaš prispevek je bil recenziran in prosimo vas, da oddate popravke',
+      'emails.editorDecisionRevisions.body' => '{$authors}:<br />
+<br />
+Sprejeli smo odločitev glede vašega prispevka &quot;{$submissionTitle}&quot; za revijo {$contextName}.<br />
+<br />
+Naša odločitev je: Potrebni so popravki',
+      'emails.editorDecisionResubmit.subject' => 'Vaš prispevek je bil recenziran - prosimo popravite in ponovno oddajte',
+      'emails.editorDecisionResubmit.body' => '{$authors}:<br />
+<br />
+Sprejeli smo odločitev glede vašega prispevka &quot;{$submissionTitle}&quot; za revijo {$contextName}.<br />
+<br />
+Naša odločitev je: Potreben je ponoven krog recenzije',
+      'emails.editorDecisionDecline.subject' => 'Vaš prispevek je bil zavrnjen',
+      'emails.editorDecisionDecline.body' => '{$authors}:<br />
+<br />
+Sprejeli smo odločitev glede vašega prispevka &quot;{$submissionTitle}&quot; za revijo {$contextName}.<br />
+<br />
+Naša odločitev je: Prispevek se zavrne',
+      'emails.editorRecommendation.subject' => 'Uredniško priporočilo',
+      'emails.editorRecommendation.body' => '{$editors}:<br />
+<br />
+Moje priporočilo glede prispevka &quot;{$submissionTitle}&quot; v reviji {$contextName}, je: {$recommendation}',
+      'emails.copyeditRequest.subject' => 'Prispevek {$submissionId} je pripravljen za lektoriranje pri reviji {$contextAcronym}',
+      'emails.copyeditRequest.body' => '{$recipientName}:<br />
+<br />
+Rad bi vas prosil, da opravite lektoriranje prispevka &quot;{$submissionTitle}&quot; za publikacijo {$contextName} po naslednjih korakih:<br />
+1. Kliknite na URL povezavo do prispevka spodaj.<br />
+2. Odprite vse datoteke, ki so na voljo pod Osnutki datotek in opravite lektroranje ter hkrati dodajte tudi razprave za lektoriranje, kot se vam zdi potrebno.<br />
+3. Shranite vse datoteke in jih naložite v razdelek z lektoriranimi datotekami.<br />
+4. Obvestite urednika, da so vse datoteke pripravljene in se lahko začne proces produkcije.<br />
+<br />
+Povezava do publikacije {$contextName}: {$contextUrl}<br />
+Povezava do prispevka: $submissionUrl}<br />
+Uporabniško ime: {$recipientUsername}',
+      'emails.editorDecisionNewReviewRound.subject' => 'Vaš prispevek je bil poslal v nov krog recenzije',
+      'emails.editorDecisionNewReviewRound.body' => '<p>Spoštovani {$recipientName},</p>
+<p>Vaš revidiran prispevek, {$submissionTitle}, je bil poslan v naslednji krog recenzije. 
+Oglasili se vam bomo z mnenji recenzentov in inforamcijami o naslednjih korakih.</p>
+<p>Če imate kakršnokoli vprašanje, se lahko obrnete name preko vaše <a href="{$authorSubmissionUrl}">nadzorne plošče prispevkov</a>.</p>
+<p>S spoštovanjem,</p>
+<p>{$signature}</p>
+',
+      'emails.editorDecisionRevertDecline.subject' => 'Spremenili smo odločitev o zavrnitvi vašega prispevka',
+      'emails.editorDecisionRevertDecline.body' => '<p>Spoštovani {$recipientName},</p>
+<p>Odločitev o zavrnitvi vašega prispevka, {$submissionTitle}, je bila spremenjena. 
+Urednik bo zaključil recenzijski krog in vas obvestil, ko bo sprejeta odločitev. </p>
+<p>Občasno se zgodi, da je zabeležena odločitev o zavrnitvi prispevka zavedena pomotoma 
+v našem sistemu in mora biti spremenjena. Opravičujem se za morebitne nevšečosti.</p>
+<p>Če bo potrebno, vas bomo kontaktirali za nadaljno pomoč.</p>
+<p>Če imate kakršnokoli vprašanje, se lahko obrnete name preko vaše <a href="{$authorSubmissionUrl}">nadzorne plošče prispevkov</a>.</p>
+<p>S spoštovanjem,</p>
+<p>{$signature}</p>
+',
+      'emails.editorDecisionRevertInitialDecline.subject' => 'Spremenili smo odločitev o zavrnitvi vašega prispevka',
+      'emails.editorDecisionRevertInitialDecline.body' => '<p>Spoštovani {$recipientName},</p>
+<p>Odločitev o zavrnitvi vašega prispevka, {$submissionTitle}, je bila spremenjena. 
+Urednik bo vaš prispevek podrobneje pregledal, pred odločitivijo o zavrnitvi 
+prispevka ali pošiljanju v recenziranje.</p>
+<p>Občasno se zgodi, da je zabeležena odločitev o zavrnitvi prispevka zavedena pomotoma 
+v našem sistemu in mora biti spremenjena. Opravičujem se za morebitne nevšečosti.</p>
+<p>Če bo potrebno, vas bomo kontaktirali za nadaljno pomoč.</p>
+<p>Če imate kakršnokoli vprašanje, se lahko obrnete name preko vaše <a href="{$authorSubmissionUrl}">nadzorne plošče prispevkov</a>.</p>
+<p>S spoštovanjem,</p>
+<p>{$signature}</p>
+',
+      'emails.editorDecisionInitialDecline.subject' => 'Vaš prispevek je bil zavrnjen',
+      'emails.editorDecisionInitialDecline.body' => '
+			{$authors}:<br />
+<br />
+V uredništvu revije {$contextName} smo sprejeli odločitev glede vašega prispevka &quot;{$submissionTitle}&quot;.<br />
+<br />
+Naša odločitev je: Prispevek se zavrne',
+      'emails.editorialReminder.subject' => 'Čakajoče uredniške zadolžitve pri reviji {$contextName}',
+      'emails.editorialReminder.body' => '<p>Spoštovani {$recipientName},</p><p>Trenutno imate dodeljenih {$numberOfSubmissions} prispevkov za <a href="{$contextUrl}">{$contextName}</a>. Naslednji prispevki <b>čakajo na vaš odziv</b>.</p>{$outstandingTasks}<p>Preglejte vaše zadolžitve v vaši <a href="{$submissionsUrl}">nadzorni plošči prispevkov</a>.</p><p>Če imate kakšna vprašanje glede vaših zadolžitev, prosimo kontaktirajte {$contactName} preko {$contactEmail}.</p>',
+      'discussion.notification.description' => 'Ta email se pošlje, ko uporabnik ustvari novo diskusijo ali odgovori na obstoječo',
+      'emails.editorDecisionBackFromProduction.subject' => 'Vaš prispevek je bil poslan nazaj v lektoriranje',
+      'emails.editorDecisionBackFromProduction.body' => '<p>Spoštovani {$recipientName},</p><p>Vaš prispevek, {$submissionTitle}, je bil poslan nazaj v fazo lektoriranja, kjer bo lektoriran in oblikovan v format primeren za objavo.</p><p>Občasno je prispevek poslan v fazo produkcije preden je pripravljen za izdelavo končnega preloma za objavo. Vaš prispevek še ni nared za objavo. Opravičujemo se za morebitne neprijetnosti.</p><p>Če imate kakršnokoli vprašanje, se lahko obrnete name preko vaše <a href="{$authorSubmissionUrl}">nadzorne plošče prispevkov</a>.</p><p>Če bomo potrebovali vašo pomoč, vas bomo kontaktirali.</p><p>S spoštovanjem, </p><p>{$signature}</p>',
+      'emails.editorDecisionBackFromCopyediting.subject' => 'Vaš prispevek je bil poslan nazaj v fazo recenzije',
+      'emails.editorDecisionBackFromCopyediting.body' => '<p>Spoštovani {$recipientName},</p><p>Vaš prispevek, {$submissionTitle}, je bil poslan nazaj v fazo recenzije. Prispevek bo šel v dodatno recenziranje, preden bo lahko sprejet za objavo.</p><p>Občasno se zgodi, da je odločitev o sprejetju prispeveka zavedena pomotoma v našem sistemu in ga moramo ponovno poslati nazaj v fazo recenzije. Opravičujemo se za morebitne neprijetnosti. Naredili bomo vse, da bo recenzija opravljna hitro, tako da boste dobili končno odločitev čimprej. </p><p>Če bomo potrebovali vašo pomoč, vas bomo kontaktirali.</p><p>Če imate kakršnokoli vprašanje, se lahko obrnete name preko vaše <a href="{$authorSubmissionUrl}">nadzorne plošče prispevkov</a>.</p><p>Če bomo potrebovali vašo pomoč, vas bomo kontaktirali.</p><p>S spoštovanjem,</p><p>{$signature}</p>',
+      'emails.editorDecisionCancelReviewRound.subject' => 'Recenzijski krog za vaš prispevek je bil preklican',
+      'emails.editorDecisionCancelReviewRound.body' => '<p>Spoštovani {$recipientName},</p><p>Pred kratkim smo odprli nov krog recenzije za vaš prispevek, {$submissionTitle}. Zdaj ta krog recenzije zapiramo.</p><p>Občasno se zgodi, da je odločitev o odprtju novega kroga recenzije zabeležena v našem sistemu pomotoma in zato moramo preklicati ta recenzijski krog. Opravičujemo se za morebitne neprijetnosti.</p><p>Če bomo potrebovali vašo pomoč, vas bomo kontaktirali.</p><p>Če imate kakršnokoli vprašanje, se lahko obrnete name preko vaše <a href="{$authorSubmissionUrl}">nadzorne plošče prispevkov</a>.</p><p>S spoštovanjem,</p><p>{$signature}</p>',
+      'emails.reviewResendRequest.subject' => 'Ponovna prošnja za recenzijo za revijo {$contextName}',
+      'emails.reviewResendRequest.body' => '<p>Spoštovani {$recipientName},</p><p>Pred kratkim ste zavrnili našo prošnjo za recenzijo prispevka, {$submissionTitle}, za revijo {$contextName}. Pišem vam, da preverim, če lahko recenzijo vendarle opravite.</p><p>Zelo bi vam bili hvaležni, če bi recenijo lahko opravili, razumemo pa tudi, če to v tem trenutku ni mogoče. Kakorkoli, prosimo <a href="{$reviewAssignmentUrl}">sprejmite ali zavrnite prošnjo</a> do {$responseDueDate}, da lahko poiščemo morebitnega drugega recenzenta.</p><p>Če imate kakšno vprašanje, me prosim kontaktirajte.</p><p>S spoštovanjem,</p>{$signature}',
+      'emails.footer.unsubscribe' => '<br><br>—<br><a href="{$unsubscribeUrl}">Odjavi</a> od emailov od revije <a href="{$contextUrl}">{$contextName}</a>.',
+      'emails.footer.unsubscribe.discussion' => '<br><br>—<br>Odgovorite na ta komentar na <a href="{$submissionUrl}">#{$submissionId} {$authorsShort}</a> ali <a href="{$unsubscribeUrl}">se odjavite</a> od emailov poslanih od revije <a href="{$contextUrl}">{$contextName}</a>.',
+      'emails.footer.unsubscribe.automated' => '<br><br>—<br>To je avtomatsko sporočilo od revije <a href="{$contextUrl}">{$contextName}</a>. Kadarkoli se lahko <a href="{$unsubscribeUrl}">odjavite</a> od tega emaila.',
+      'emailTemplate.variable.unsubscribe' => 'Povezava za odjavo od tega emaila.',
+      'emails.discussion.subject' => 'Sporočilo v zvezi s publikacijo {$contextName}',
+      'emails.discussion.body' => 'Prosimo, vnesite vaše sporočilo.',
+      'emails.versionCreated.subject' => 'Ustvarjena je bila nova verzija prispevka {$submissionTitle}',
+      'emails.versionCreated.body' => '<p>Spoštovani {$recipientName}, </p><p>To je avtomatsko sporočilo z obvestilom, da je bila ustvarjena nova verzija vašega prispevka, {$submissionTitle}. To verzijo prispevka lahko vicite v vaši nadzorne plošče prispevkov na naslednji povezavi:</p><p><a href="{$submissionUrl}">{$submissionTitle}</a></p><hr><p>To je avtomatski email poslan od revije <a href="{$contextUrl}">{$contextName}</a>.</p>',
+      'emails.reviewComplete.subject' => 'Recenzija je zaključena: {$reviewerName} priporoča {$reviewRecommendation} za #{$submissionId} {$authorsShort} — {$submissionTitle}',
+      'emails.reviewComplete.body' => '<p>Spoštovani {$recipientName},</p><p>{$reviewerName} je opravil naslednjo recenzijo:</p><p><a href="{$submissionUrl}">#{$submissionId} {$authorsShort} — {$submissionTitle}</a><br /><b>Priporočilo:</b> {$reviewRecommendation}<br /><b>Tip:</b> {$reviewMethod}</p><p>Prijavite se v <a href="{$submissionUrl}">, da boste lahko videli vse komentarje in datoteke,</a> ki jih je naložil ta recenzent.</p>',
+      'emails.reviewEdit.subject' => 'Vaša recenzijska zadolžitev pri reviji {$contextName} je bila spremenjena',
+      'emails.reviewEdit.body' => '<p>Spoštovani {$recipientName},</p><p>Urednik je spremenil vašo recenzijsko zadolžitev pri reviji {$contextName}. Prosimo preverite spodnje podrobnosti in nam sporočite, če imate kakšna vprašanja.</p><p><a href="{$reviewAssignmentUrl}">{$submissionTitle}</a><br /><b>Tip:</b> {$reviewMethod}<br /><b>Sprejmi ali zavrni do:</b> {$responseDueDate}<br /><b>Recenzijo opravi do:</b> {$reviewDueDate}</p><p>Kadarkoli se lahko prijavite v sistem, da opravite <a href="{$reviewAssignmentUrl}">to recenzijo</a>.</p>',
+      'emails.reviewConfirm.subject' => 'Sprejetje recenzije: {$reviewerName} je sprejel recenzijsko zadolžitev za prispevek #{$submissionId} {$authorsShort} — {$submissionTitle}',
+      'emails.reviewConfirm.body' => 'Editors:<br />
+<br />
+Pripravljen sem opraviti recenzijo prispevka, &quot;{$submissionTitle},&quot; za revijo {$contextName}. Hvala za povabilo. Sporočam vam, da nameravam recenzijo dokončati do predvidenega datuma, {$reviewDueDate}, če ne prej.<br />
+<br />
+{$senderName}',
+      'emails.submissionSavedForLater.subject' => 'Nadaljuje oddajo prispevka pri reviji {$contextName}',
+      'emails.submissionSavedForLater.body' => '<p>Spoštovani {$recipientName},</p><p>Podrobnosti vašega prispevka so bila shranjena v naš sistem, a prispevek še ni bil dokončno oddan v obdelavo. Katarkoli se lahko vrnete in končate oddajo prispevka s pomočjo spodnje povezave.</p><p><a href="{$submissionWizardUrl}">{$authorsShort} — {$submissionTitle}</a></p><hr><p>To je avtomatski email od revije <a href="{$contextUrl}">{$contextName}</a>.</p>',
+      'emails.submissionNeedsEditor.subject' => 'Oddan je bil nov prispevek, kateremu je potrebno dodeliti urednika: {$submissionTitle}',
+      'emails.submissionNeedsEditor.body' => '<p>Spoštoavni {$recipientName},</p><p>Naslednji prispevek je bil oddan in nima dodeljenega urednika.</p><p><a href="{$submissionUrl}">{$submissionTitle}</a><br />{$authors}</p><p><b>Povzetek </b></p>{$submissionAbstract}<p>Prosimo dodelite prispevku urednika, ki bo odgovoren za ta prispevek. To naredite s klikom na naslov prispevka zgoraj in dodelitvijo urednika v rubriki Udeležanci.</p><hr><p>To je avtomatski email od revije <a href="{$contextUrl}">{$contextName}</a>.</p>',
+      'emails.submissionAckNotUser.description' => 'Ta email se avtomatsk pošlje vsem avtorjem novega prispevka, razen avtorju, ki je prispevek oddal.',
+      'emails.submissionAckNotAuthor.subject' => 'Potrditev oddaje prispevka',
+      'emails.submissionAckNotAuthor.body' => 'Spoštovani {$recipientName},<br />
+<br />
+{$submitterName} je oddal rokopis &quot;{$submissionTitle}&quot; v revijo {$contextName}. <br />
+<br />
+Če imate kakršnokoli vprašanje, se lahko obrnete name. Hvala, da ste izbrali našo revijo za objavo vašega dela.<br />
+<br />
+{$contextSignature}',
+    ),
+  ),
+);

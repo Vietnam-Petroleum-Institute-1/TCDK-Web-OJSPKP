@@ -1,0 +1,17 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n==1 || n%10==1 ? 0 : 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.acron.name' => 'Acron Plugin',
+      'plugins.generic.acron.tasksReloaded' => 'Закажаните задачи повторно е вчитани.',
+      'plugins.generic.acron.reload' => 'Вчитај ги повторно закажаните задачи',
+      'plugins.generic.acron.reloadedCronTab' => 'Крон табот е успешно повторно е вчитан.',
+      'plugins.generic.acron.disabled' => 'Акрон-приклучокот е оневозможен.',
+      'plugins.generic.acron.enabled' => 'Овозможен е додатокот Acron.',
+      'plugins.generic.acron.description' => 'Овој додаток се обидува да ја намали зависноста на апликацијата од алатки за периодично закажување како што е „cron.“',
+    ),
+  ),
+);

@@ -1,0 +1,22 @@
+<?php $exp = 1751345599; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.announcementfeed.displayName' => 'E\'lonlar uchun plagin',
+      'plugins.generic.announcementfeed.description' => 'Ushbu plagin jurnal e\'lonlari uchun RSS/Atom veb -sindikatsiyalari kanallarini ishlab chiqaradi.',
+      'plugins.generic.announcementfeed.settings' => 'Sozlamalar',
+      'plugins.generic.announcementfeed.settings.all' => 'Barcha jurnal sahifalarida tasma havolalarini ko\'rsatish.',
+      'plugins.generic.announcementfeed.settings.homepage' => 'Tasma havolalarini faqat bosh sahifada va e\'lonlar sahifasida ko\'rsatish.',
+      'plugins.generic.announcementfeed.settings.announcement' => 'Tasma havolalarini faqat e\'lonlar sahifasida ko\'rsatish.',
+      'plugins.generic.announcementfeed.settings.recentAnnouncements1' => 'Oziqlantirishni cheklang',
+      'plugins.generic.announcementfeed.settings.recentAnnouncements2' => 'eng so\'nggi e\'lonlar.',
+      'plugins.generic.announcementfeed.settings.recentItemsRequired' => 'So\'nggi e\'lonlar uchun musbat tamsayı kiriting.',
+      'plugins.generic.announcementfeed.atom.altText' => 'Atom logotipi',
+      'plugins.generic.announcementfeed.rss1.altText' => 'RSS1 logotipi',
+      'plugins.generic.announcementfeed.rss2.altText' => 'RSS2 logotipi',
+    ),
+  ),
+);

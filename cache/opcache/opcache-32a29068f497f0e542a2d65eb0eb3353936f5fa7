@@ -1,0 +1,27 @@
+<?php $exp = 1751345595; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'api.announcements.400.contextsNotMatched' => 'O aviso que solicitou non forma parte desta revista.',
+      'api.emails.403.disabled' => 'A función de notificación de correo electrónico non foi activada para esta revista.',
+      'api.submissions.400.wrongContext' => 'O envío que solicitou non se atopa nesta revista.',
+      'api.submissions.403.cantChangeContext' => 'Non pode cambiar a revista dun envío.',
+      'api.submissions.403.unpublishedIssues' => 'Non ten permiso para consultar os números que non se publicaron.',
+      'api.contexts.403.requestedDisabledContexts' => 'Só pode ver revistas que estean activas.',
+      'api.contexts.403.notAllowed' => 'Non ten autorización para ver esta revista.',
+      'api.contexts.403.contextsDidNotMatch' => 'Non pode ver ou editar esta revista a menos que faga unha solicitude á API da revista ou de todo o sitio web.',
+      'api.contexts.403.requiresContext' => 'Non pode editar esta revista desde a API de todo o sitio web.',
+      'api.contexts.403.notAllowedEdit' => 'Non ten autorización para editar esta revista.',
+      'api.contexts.403.notAllowedDelete' => 'Non ten autorización para eliminar esta revista.',
+      'api.contexts.404.contextNotFound' => 'A revista que solicitou non se atopou.',
+      'api.emailTemplates.403.notAllowedChangeContext' => 'Non ten autorización para trasladar este modelo de correo electrónico  a outra revista.',
+      'api._payments.400.invalidPaymentMethod' => 'O modo de pagamento que seleccionou non está soportado.',
+      'api.publications.403.contextsDidNotMatch' => 'A publicación que solicitou non forma parte desta revista.',
+      'api.publications.403.submissionsDidNotMatch' => 'A publicación que solicitou non forma parte deste envío.',
+      'api.submissionFiles.400.badRepresentationAssocType' => 'Non é posible asociar un arquivo desta etapa cunha galerada.',
+    ),
+  ),
+);

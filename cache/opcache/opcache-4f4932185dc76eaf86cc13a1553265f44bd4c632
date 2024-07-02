@@ -1,0 +1,22 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.announcementfeed.displayName' => 'Dodatak linkova obaveštenja',
+      'plugins.generic.announcementfeed.description' => 'Ovaj dodatak proizvodi RSS/Atom linkove obaveštenja vezanih za časopis.',
+      'plugins.generic.announcementfeed.settings' => 'Podešavanja',
+      'plugins.generic.announcementfeed.settings.all' => 'Prikaži linkove na svim stranicama časopisa.',
+      'plugins.generic.announcementfeed.settings.homepage' => 'Prikaži linkove samo na početnoj stranici i stranici obaveštenja.',
+      'plugins.generic.announcementfeed.settings.announcement' => 'Prikaži linkove samo na stranici obaveštenja.',
+      'plugins.generic.announcementfeed.settings.recentAnnouncements1' => 'Ograniči linkove na',
+      'plugins.generic.announcementfeed.settings.recentAnnouncements2' => 'Skorašnjih obaveštenja.',
+      'plugins.generic.announcementfeed.settings.recentItemsRequired' => 'Unesite broj linkova koji će se prikazivati.',
+      'plugins.generic.announcementfeed.atom.altText' => 'Atom logo',
+      'plugins.generic.announcementfeed.rss1.altText' => 'RSS1 logo',
+      'plugins.generic.announcementfeed.rss2.altText' => 'RSS2 logo',
+    ),
+  ),
+);

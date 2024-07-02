@@ -1,0 +1,26 @@
+<?php $exp = 1751345595; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n > 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.webfeed.displayName' => 'Plugiciel de fils de nouvelles',
+      'plugins.generic.webfeed.description' => 'Ce plugiciel produit des flux de syndication Web RSS/Atom.<br>Le plugiciel comprend également un bloc de barre latérale qui vous permet d\'afficher les liens du flux dans la barre latérale de votre application.',
+      'plugins.generic.webfeed.settings' => 'Paramètres',
+      'plugins.generic.webfeed.settings.issue' => 'Afficher les liens du fil sur les pages du numéro seulement.',
+      'plugins.generic.webfeed.settings.homepage' => 'Afficher les liens du fil sur la page d\'accueil seulement.',
+      'plugins.generic.webfeed.settings.all' => 'Afficher les liens du fil sur toutes les pages de la revue.',
+      'plugins.generic.webfeed.settings.currentIssue' => 'Afficher les éléments du numéro courant.',
+      'plugins.generic.webfeed.settings.recent' => 'Afficher un nombre fixe des publications les plus récentes.',
+      'plugins.generic.webfeed.settings.recentArticles' => 'Nombre de publications à afficher',
+      'plugins.generic.webfeed.settings.recentItemsRequired' => 'Veuillez entrer un nombre entier positif pour les éléments publiés récemment.',
+      'plugins.generic.webfeed.atom.altText' => 'Logo Atom',
+      'plugins.generic.webfeed.rss1.altText' => 'Logo RSS1',
+      'plugins.generic.webfeed.rss2.altText' => 'Logo RSS2',
+      'plugins.generic.webfeed.settings.homepageAndIssues' => 'Afficher les liens du fil sur la page d\'accueil et sur les pages des numéros uniquement.',
+      'plugins.generic.webfeed.blockTitle' => 'Dernières publications',
+      'plugins.generic.webfeed.settings.includeIdentifiers' => 'Inclure des identifiants (ISBN, mots-clés, catégories, etc.) dans le sommaire du fil ?',
+    ),
+  ),
+);

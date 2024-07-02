@@ -1,0 +1,32 @@
+<?php $exp = 1751345595; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'comments.anonymous' => 'Ανώνυμος Χρήστης',
+      'comments.anonymousNamed' => '"{$userName}"',
+      'comments.body' => 'Κείμενο μηνύματος',
+      'comments.titleRequired' => 'Απαιτείται τίτλος για το σχόλιο.',
+      'comments.confirmDeleteChildren' => 'Διαγράφοντας το σχόλιο, διαγράφονται και οι απαντήσεις σε αυτό. Επιθυμείτε να συνεχίσετε;',
+      'comments.delete' => 'Διαγραφή σχολίου',
+      'comments.email' => 'Ηλεκτρονική διεύθυνση αποστολέα',
+      'comments.emailReply' => 'Απαντητικό μήνυμα',
+      'comments.enterComment' => 'Εισαγωγή σχόλιου',
+      'comments.inResponseTo' => 'Σε απάντηση του <a href="{$url}">{$title}</a>',
+      'comments.name' => 'Όνομα αποστολέα',
+      'comments.noComments' => 'Κανένα σχόλιο αναγνωστών',
+      'comments.nReplies' => '({$num} Απαντήσεις)',
+      'comments.oneReply' => '(1 Απάντηση)',
+      'comments.postAnonymously' => 'Καταχωρήστε το σχόλιο ανώνυμα',
+      'comments.postReply' => 'Στείλτε απάντηση',
+      'comments.readerComments' => 'Σχόλια Aναγνωστών',
+      'comments.readMore' => 'Διαβάστε περισσότερα',
+      'comments.replies' => 'Απαντήσεις',
+      'comments.title' => 'Τίτλος',
+      'comments.viewAllComments' => 'Προβολή όλων των σχολίων',
+      'reader.fullText' => 'Πλήρες κείμενο:',
+    ),
+  ),
+);

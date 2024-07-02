@@ -1,0 +1,21 @@
+<?php $exp = 1751345595; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.tinymce.name' => 'TinyMCE-lisäosa',
+      'plugins.generic.tinymce.settings' => 'Asetukset',
+      'plugins.generic.tinymce.pkpTags.listTags' => 'Valitse elementti',
+      'plugins.generic.tinymce.pkpTags.noneAvailable' => 'Tälle kentälle ei ole saatavilla elementtejä.',
+      'plugins.generic.tinymce.pkpTags.description' => 'Voit lisätä minkä tahansa seuraavista elementeistä:',
+      'plugins.generic.tinymce.variables.principalContactName' => 'Pääasiallisen yhteyshenkilön nimi ("{$value}")',
+      'plugins.generic.tinymce.variables.principalContactEmail' => 'Pääasiallisen yhteyshenkilön sähköposti ("{$value}")',
+      'plugins.generic.tinymce.variables.supportContactName' => 'Teknisen tuen nimi ("{$value}")',
+      'plugins.generic.tinymce.variables.supportContactEmail' => 'Teknisen tuen sähköposti ("{$value}")',
+      'plugins.generic.tinymce.variables.supportContactPhone' => 'Teknisen tuen puhelin ("{$value}")',
+      'plugins.generic.tinymce.description' => 'Tämä lisäosa mahdollistaa tekstikenttien WYSIWYG-muokkauksen <a href="https://www.tiny.cloud/" target="_blank">TinyMCE</a>-sisältöeditorilla.',
+    ),
+  ),
+);

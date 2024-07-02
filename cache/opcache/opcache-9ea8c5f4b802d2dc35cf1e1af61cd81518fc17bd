@@ -1,0 +1,14 @@
+<?php $exp = 1751345599; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.recommendByAuthor.displayName' => 'Muallifning maqolalarini tavsiya eting',
+      'plugins.generic.recommendByAuthor.description' => 'Ushbu plagin maqolaning mavhum sahifasida o\'sha muallifning maqolalari ro\'yxatini qo\'shadi.',
+      'plugins.generic.recommendByAuthor.heading' => 'Xuddi shu muallif (lar) ning eng ko\'p o\'qilgan maqolalari',
+      'plugins.generic.recommendByAuthor.noMetric' => 'Obs.: Bu plaginni yoqish uchun kamida bitta statistika/hisobot plagini kerak. Agar sizning statistik plaginlaringiz bir nechta ko\'rsatkichlarni taqdim etsa, iltimos, administratorning sayt sozlamalari sahifasida va/yoki jurnal menejerining sozlash sahifalarida asosiy ko\'rsatkichni tanlang.',
+    ),
+  ),
+);

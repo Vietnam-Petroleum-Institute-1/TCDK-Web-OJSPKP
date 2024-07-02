@@ -1,0 +1,15 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.recommendBySimilarity.displayName' => 'Articole similare',
+      'plugins.generic.recommendBySimilarity.description' => 'Acest plugin adaugă o listă de articole similare paginii cu rezumatul articolului.',
+      'plugins.generic.recommendBySimilarity.heading' => 'Articole similare',
+      'plugins.generic.recommendBySimilarity.advancedSearchIntro' => 'Puteți, de asemenea, {$advancedSearchLink} pentru acest articol.',
+      'plugins.generic.recommendBySimilarity.advancedSearch' => 'începeți o căutare avansată de similaritate',
+    ),
+  ),
+);

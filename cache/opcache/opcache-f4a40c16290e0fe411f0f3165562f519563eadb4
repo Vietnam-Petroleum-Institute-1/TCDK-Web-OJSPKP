@@ -1,0 +1,15 @@
+<?php $exp = 1751345594; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.recommendBySimilarity.displayName' => 'Препоръчване на подобни статии',
+      'plugins.generic.recommendBySimilarity.description' => 'Този плъгин добавя списък с подобни статии към страницата с резюме на статията.',
+      'plugins.generic.recommendBySimilarity.heading' => 'Подобни статии',
+      'plugins.generic.recommendBySimilarity.advancedSearchIntro' => 'Можете също да прегледате {$advancedSearchLink} във връзка с тази статия.',
+      'plugins.generic.recommendBySimilarity.advancedSearch' => 'стартирайте разширено търсене за подобни статии',
+    ),
+  ),
+);

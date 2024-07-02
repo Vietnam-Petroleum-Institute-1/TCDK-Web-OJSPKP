@@ -1,0 +1,32 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n % 10 != 1 || n % 100 == 11;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'comments.anonymous' => 'Óþekktur notandi',
+      'comments.anonymousNamed' => '"{$userName}"',
+      'comments.body' => 'Meginmál',
+      'comments.titleRequired' => 'Það þarf að vera titill á athugasemd.',
+      'comments.confirmDeleteChildren' => 'Með því að eyða þessari athugasemd þá eyðast öll svör við henni.  Ertu viss um að þú viljir gera þetta?',
+      'comments.delete' => 'Eyða þessari athugasemd',
+      'comments.email' => 'Netfang þess sem póstar',
+      'comments.emailReply' => 'Senda svar í tölvupósti',
+      'comments.enterComment' => 'Skrifa athugasemd',
+      'comments.inResponseTo' => 'Svar við <a href="{$url}">{$title}</a>',
+      'comments.name' => 'Nafn póstanda',
+      'comments.noComments' => 'Engar athugasemdir frá lesendum hafa verið skráðar.',
+      'comments.nReplies' => '({$num} svör)',
+      'comments.oneReply' => '(1 svar)',
+      'comments.postAnonymously' => 'Birta þessa athugasemd nafnlaust',
+      'comments.postReply' => 'Svara',
+      'comments.readerComments' => 'Athugasemdir lesanda',
+      'comments.readMore' => 'Lesa meira',
+      'comments.replies' => 'Svör',
+      'comments.title' => 'Titill',
+      'comments.viewAllComments' => 'Skoða allar athugasemdir',
+      'reader.fullText' => 'Heildartexti:',
+    ),
+  ),
+);

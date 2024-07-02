@@ -1,0 +1,17 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.acron.tasksReloaded' => 'Schemalagda uppgifter har laddats om.',
+      'plugins.generic.acron.reload' => 'Ladda om schemalagda uppgifter',
+      'plugins.generic.acron.reloadedCronTab' => 'Cron-fliken har laddats om.',
+      'plugins.generic.acron.disabled' => 'Acron-plugin avaktiverad.',
+      'plugins.generic.acron.enabled' => 'Acron-plugin aktiverad.',
+      'plugins.generic.acron.name' => 'Acron-plugin',
+      'plugins.generic.acron.description' => 'Denna plugin minskar systemets beroende av schemaläggningsverktyg, t.ex. "cron".',
+    ),
+  ),
+);

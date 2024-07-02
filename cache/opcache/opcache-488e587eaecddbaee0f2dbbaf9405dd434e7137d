@@ -1,0 +1,12 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n > 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.dublinCoreMeta.name' => 'Դուբլինյան միջուկի ինդեքսավորման պլագին',
+      'plugins.generic.dublinCoreMeta.description' => 'Այս փլագինը ինդեքսավորման նպատակով հոդվածների դիտումների մեջ տեղադրում է Dublin Core մետա պիտակները:',
+    ),
+  ),
+);

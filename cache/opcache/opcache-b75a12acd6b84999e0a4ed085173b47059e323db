@@ -1,0 +1,32 @@
+<?php $exp = 1751345594; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'comments.anonymous' => 'Anonym bruger',
+      'comments.anonymousNamed' => '"{$userName}"',
+      'comments.body' => 'Brødtekst',
+      'comments.titleRequired' => 'En kommentartitel er påkrævet.',
+      'comments.confirmDeleteChildren' => 'Hvis du sletter denne kommentar, slettes eventuelle svar også. Er du sikker på, at du vil gøre dette?',
+      'comments.delete' => 'Slet denne kommentar',
+      'comments.email' => 'Afsenders e-mail-adresse',
+      'comments.emailReply' => 'E-mail-svar',
+      'comments.enterComment' => 'Angiv kommentar',
+      'comments.inResponseTo' => 'Som svar på <a href="{$url}">{$title}</a>',
+      'comments.name' => 'Afsenders navn',
+      'comments.noComments' => 'Der er ikke sendt nogen læserkommentarer .',
+      'comments.nReplies' => '({$num} svar)',
+      'comments.oneReply' => '(1 svar)',
+      'comments.postAnonymously' => 'Send denne kommentar anonymt',
+      'comments.postReply' => 'Besvar',
+      'comments.readerComments' => 'Kommentarer fra læsere',
+      'comments.readMore' => 'Læs mere',
+      'comments.replies' => 'Svar',
+      'comments.title' => 'Titel',
+      'comments.viewAllComments' => 'Vis alle kommentarer',
+      'reader.fullText' => 'Fuld tekst:',
+    ),
+  ),
+);

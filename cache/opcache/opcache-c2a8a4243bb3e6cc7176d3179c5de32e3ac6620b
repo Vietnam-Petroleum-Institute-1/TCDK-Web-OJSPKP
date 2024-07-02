@@ -1,0 +1,21 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=1; plural=0;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.tinymce.name' => 'TinyMCEプラグイン',
+      'plugins.generic.tinymce.description' => '<a href="https://www.tiny.cloud" target="_blank">TinyMCE</a>コンテンツエディタを使って、テキストエリアの内容をWSYWIGで編集できるようにします。',
+      'plugins.generic.tinymce.settings' => '設定',
+      'plugins.generic.tinymce.pkpTags.listTags' => 'タグを選択',
+      'plugins.generic.tinymce.variables.supportContactPhone' => '技術支援担当者電話番号 ("{$value}")',
+      'plugins.generic.tinymce.variables.supportContactEmail' => '技術支援担当者メールアドレス ("{$value}")',
+      'plugins.generic.tinymce.variables.supportContactName' => '技術支援担当者名 ("{$value}")',
+      'plugins.generic.tinymce.variables.principalContactEmail' => '連絡責任者メールアドレス ("{$value}")',
+      'plugins.generic.tinymce.variables.principalContactName' => '連絡責任者名 ("{$value}")',
+      'plugins.generic.tinymce.pkpTags.description' => '以下のいずれかのタグを挿入することができます。',
+      'plugins.generic.tinymce.pkpTags.noneAvailable' => 'このフィールドにはタグはありません。',
+    ),
+  ),
+);

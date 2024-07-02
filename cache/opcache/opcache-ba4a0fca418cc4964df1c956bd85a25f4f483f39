@@ -1,0 +1,97 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'emails.submissionAck.subject' => 'გაგზავნის დადასტურება',
+      'emails.submissionAck.body' => '{$recipientName}:<br />
+<br />
+Thank you for submitting the manuscript, &quot;{$submissionTitle}&quot; to {$contextName}. With the online journal management system that we are using, you will be able to track its progress through the editorial process by logging in to the journal web site:<br />
+<br />
+Submission URL: {$submissionUrl}<br />
+Username: {$recipientUsername}<br />
+<br />
+If you have any questions, please contact me. Thank you for considering this journal as a venue for your work..<br />
+<br />
+{$contextSignature}',
+      'emails.reviewAck.subject' => 'რეცენზიის მიღების დასტური',
+      'emails.reviewAck.body' => '{$recipientName}:<br />
+<br />
+Thank you for completing the review of the submission, &quot;{$submissionTitle},&quot; for {$contextName}. We appreciate your contribution to the quality of the work that we publish..',
+      'emails.editorDecisionSendToExternal.subject' => 'რედაქციის გადაწყვეტილება',
+      'emails.editorDecisionSendToExternal.body' => '{$authors}:<br />
+<br />
+We have reached a decision regarding your submission to {$contextName}, &quot;{$submissionTitle}&quot;..<br />
+<br />
+Our decision is to: Send to Review<br />
+<br />
+Submission URL: {$submissionUrl}',
+      'emails.editorDecisionSendToProduction.subject' => 'რედაქციის გადაწყვეტილება',
+      'emails.editorDecisionSendToProduction.body' => '{$authors}:<br />
+<br />
+The editing of your submission, &quot;{$submissionTitle},&quot; is complete.  We are now sending it to production..<br />
+<br />
+Submission URL: {$submissionUrl}',
+      'emails.editorDecisionRevisions.subject' => 'რედაქციის გადაწყვეტილება',
+      'emails.editorDecisionRevisions.body' => '{$authors}:<br />
+<br />
+We have reached a decision regarding your submission to {$contextName}, &quot;{$submissionTitle}&quot;..<br />
+<br />
+Our decision is: Revisions Required',
+      'emails.editorDecisionResubmit.subject' => 'რედაქციის გადაწყვეტილება',
+      'emails.editorDecisionResubmit.body' => '{$authors}:<br />
+<br />
+We have reached a decision regarding your submission to {$contextName}, &quot;{$submissionTitle}&quot;..<br />
+<br />
+Our decision is to: Resubmit for Review',
+      'emails.editorDecisionDecline.subject' => 'რედაქციის გადაწყვეტილება',
+      'emails.editorDecisionDecline.body' => '{$authors}:<br />
+<br />
+We have reached a decision regarding your submission to {$contextName}, &quot;{$submissionTitle}&quot;..<br />
+<br />
+Our decision is to: Decline Submission',
+      'emails.editorRecommendation.subject' => 'რედაქციის გადაწყვეტილება',
+      'emails.editorRecommendation.body' => '{$editors}: <br />
+<br />
+The recommendation regarding the submission to {$contextName}, &quot;{$submissionTitle}&quot; is: {$recommendation}',
+      'emails.copyeditRequest.subject' => 'ლიტერატურული რედაქტირების მოთხოვნა',
+      'emails.copyeditRequest.body' => '{$recipientName}:<br />
+<br />
+I would ask that you undertake the copyediting of &quot;{$submissionTitle}&quot; for {$contextName} by following these steps..<br />
+1. Click on the Submission URL below.<br />
+2. Open any files available under Draft Files and do your copyediting, while adding any Copyediting Discussions as needed.<br />
+3. Save copyedited file(s), and upload to Copyedited panel.<br />
+4. Notify the Editor that all files have been prepared, and that the Production process may begin.<br />
+<br />
+{$contextName} URL: {$contextUrl}<br />
+Submission URL: {$submissionUrl}<br />
+Username: {$recipientUsername}',
+      'emails.editorDecisionInitialDecline.subject' => 'რედაქციის გადაწყვეტილება',
+      'emails.editorDecisionInitialDecline.body' => '
+			{$authors}:<br />
+<br />
+We have reached a decision regarding your submission to {$contextName}, &quot;{$submissionTitle}&quot;..<br />
+<br />
+Our decision is to: Decline Submission',
+      'emails.discussion.subject' => 'შეტყობინება ჟურანლის შესახებ {$contextName}',
+      'emails.discussion.body' => 'გთხოვთ, შეიტანოთ შეტყობინება.',
+      'emails.reviewConfirm.subject' => 'თანხმობა რეცენზირებაზე',
+      'emails.reviewConfirm.body' => 'Editors:<br />
+<br />
+I am able and willing to review the submission, &quot;{$submissionTitle},&quot; for {$contextName}. Thank you for thinking of me, and I plan to have the review completed by its due date, {$reviewDueDate}, if not before..<br />
+<br />
+{$senderName}',
+      'emails.submissionAckNotUser.description' => 'ეს წერილი (თუ ეს შესაძლებლობა ჩართულია) ავტომატურად გაეგზავნება სხვა ავტორებს, რომლებიც არ არიან OJS-ის მომხმარებლები, მაგრამ მითითებული არიან მასალების გაგზავნის პროცეში.',
+      'emails.submissionAckNotAuthor.subject' => 'გაგზავნის დადასტურება',
+      'emails.submissionAckNotAuthor.body' => 'Hello,<br />
+<br />
+{$submitterName} has submitted the manuscript, &quot;{$submissionTitle}&quot; to {$contextName}. <br />
+<br />
+If you have any questions, please contact me. Thank you for considering this journal as a venue for your work..<br />
+<br />
+{$contextSignature}',
+    ),
+  ),
+);

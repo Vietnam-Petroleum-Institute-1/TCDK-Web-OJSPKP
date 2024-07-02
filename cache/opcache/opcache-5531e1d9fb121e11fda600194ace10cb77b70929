@@ -1,0 +1,19 @@
+<?php $exp = 1751345595; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.googleAnalytics.displayName' => 'Google Analytics -lisäosa',
+      'plugins.generic.googleAnalytics.description' => 'Yhdistä OJS Google Analytics -palveluun. Vaatii Google Analytics -tilin. Lisätietoja löytyy <a href="http://www.google.com/analytics/" title="Google Analytics">Google Analytics -palvelun kotisivuilta</a>.',
+      'plugins.generic.googleAnalytics.manager.settings.description' => '<p>Tällä lisäosalla Google Analytics -palvelua voidaan käyttää julkaisun kotisivujen kävijätilastointiin. Lisäosa vaatii, että sinulla on voimassa oleva Google Analytics -tili. Lisätietoja löytyy <a href="http://www.google.com/analytics/" title="Google Analytics">Google Analytics -palvelun kotisivuilta</a>.</p>
+	<p>Huomaa, että Google Analytics päivittyy noin 24 tunnin viiveellä. Tänä aikana \'Tarkista tila\' -toiminto ei välttämättä ilmoita oikein, onko lisäosan käyttöönotto onnistunut.</p>',
+      'plugins.generic.googleAnalytics.manager.settings.googleAnalyticsSiteId' => 'Tilin numero',
+      'plugins.generic.googleAnalytics.manager.settings.googleAnalyticsSiteIdRequired' => 'Anna tilin numero.',
+      'plugins.generic.googleAnalytics.authorAccount' => 'Google Analytics -tilin numero',
+      'plugins.generic.googleAnalytics.authorAccount.description' => 'Google Analytics -tilastoinnin aktivoimiseksi, anna tilin numeron tähän (muotoa UA-xxxxxx-x).',
+      'plugins.generic.googleAnalytics.authorAccountInvalid' => 'Yksi tai useampi annetuista tilin numeroista on väärin.',
+    ),
+  ),
+);

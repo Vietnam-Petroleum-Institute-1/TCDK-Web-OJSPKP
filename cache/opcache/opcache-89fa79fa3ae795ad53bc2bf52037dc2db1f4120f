@@ -1,0 +1,14 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.recommendByAuthor.displayName' => 'Beveel artikels van deze auteur aan',
+      'plugins.generic.recommendByAuthor.description' => 'Deze plugin voegt een lijst van artikels van dezelfde auteur toe op de pagina met de samenvatting van het artikel.',
+      'plugins.generic.recommendByAuthor.heading' => 'Meestgelezen artikels van dezelfde auteur(s)',
+      'plugins.generic.recommendByAuthor.noMetric' => 'Merk op: voor deze plugin moet minstens één statistiek/rapport plugin ingeschakeld zijn. Als uw statistieken plugins meer dan één gebruiksmeting bieden, stel dan een hoofdgebruiksmeting in op de beheerspagina van de website en/of het tijdschrift.',
+    ),
+  ),
+);

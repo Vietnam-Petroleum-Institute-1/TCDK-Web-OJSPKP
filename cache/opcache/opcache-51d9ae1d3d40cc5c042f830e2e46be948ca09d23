@@ -1,0 +1,12 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.dublinCoreMeta.name' => 'Complemento de indexación de Dublin Core',
+      'plugins.generic.dublinCoreMeta.description' => 'Este complemento integra as etiquetas Dublin Core nas visualizacións do artigo con fins de indexación.',
+    ),
+  ),
+);

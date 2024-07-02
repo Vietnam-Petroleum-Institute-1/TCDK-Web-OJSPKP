@@ -1,0 +1,24 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.customBlockManager.displayName' => 'Administrasjon av egendefinerte blokker',
+      'plugins.generic.customBlockManager.blockName' => 'Blokknavn',
+      'plugins.generic.customBlockManager.addBlock' => 'Legg til blokk',
+      'plugins.generic.customBlock.content' => 'Innhold',
+      'plugins.generic.customBlock.nameSuffix' => '(Programtillegg for egendefinerte blokker)',
+      'plugins.generic.customBlock.description' => 'Dette er en brukergenerert blokk.',
+      'plugins.generic.customBlock.nameRegEx' => 'Navnet på den egendefinerte blokken kan bare ha bokstaver, tall,  bindestrek og understrek.',
+      'plugins.generic.customBlock.nameRequired' => 'Du må gi et navn til den egendefinerte blokken.',
+      'plugins.generic.customBlockManager.noneCreated' => 'Ingen egendefinerte blokker har blitt laget.',
+      'plugins.generic.customBlockManager.customBlocks' => 'Egendefinerte blokker',
+      'plugins.generic.customBlockManager.description' => 'Dette programtillegget lar deg administrere (legge til, endre og slette) egendefinerte blokker i sidemenyen.',
+      'plugins.generic.customBlockManager.manage' => 'Administrer egendefinerte blokker',
+      'plugins.generic.customBlock.showName.description' => 'Vis navnet på denne blokken over blokkinnholdet.',
+      'plugins.generic.customBlock.showName' => 'Vis navn',
+    ),
+  ),
+);

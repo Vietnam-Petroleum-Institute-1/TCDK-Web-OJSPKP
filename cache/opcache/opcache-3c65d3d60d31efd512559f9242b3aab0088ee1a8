@@ -1,0 +1,1844 @@
+<?php $exp = 1751345595; $val = \PKP\i18n\translation\Translator::__set_state(array(
+   'domain' => '',
+   'dictionary' => 
+  array (
+    '' => 
+    array (
+      '' => 
+      array (
+        'common.publicKnowledgeProject' => 'Public Knowledge Project',
+        'about.description' => 'Tuairisgeul',
+        'about.guidelines' => 'Treòirean',
+        'about.aboutSite' => 'Mun làrach',
+        'about.contact' => 'Fiosrachadh conaltraidh',
+        'about.contact.email' => 'Post-d',
+        'about.contact.phone' => 'Fòn',
+        'about.contact.principalContact' => 'Prìomh neach-conaltraidh',
+        'about.contact.supportContact' => 'Neach-conaltraidh taice',
+        'about.other' => 'Eile',
+        'about.people' => 'Daoine',
+        'about.policies' => 'Poileasaidhean',
+        'about.siteMap' => 'Mapa na làraich',
+        'announcement.announcements' => 'Fiosan-naidheachd',
+        'announcement.announcementsHome' => 'Fiosan-naidheachd',
+        'announcement.moreAnnouncements' => 'Barrachd fhiosan-naidheachd…',
+        'announcement.noneExist' => 'Cha deach fios-naidheachd sam bith fhoillseachadh.',
+        'announcement.posted' => 'Air a phostadh',
+        'announcement.postedOn' => 'Air a phostadh {$postDate}',
+        'announcement.view' => 'Seall am fios-naidheachd',
+        'common.allDownloads' => 'Gach luchdadh a-nuas',
+        'common.navigation.sidebar' => 'Bàr-taoibh',
+        'common.navigation.site' => 'Seòladaireachd na làraich',
+        'common.navigation.user' => 'Seòladaireachd nan cleachdaichean',
+        'common.tasks' => 'Saothraichean',
+        'common.list' => 'Liosta',
+        'common.grid' => 'Griod',
+        'common.confirmDelete' => 'A bheil thu cinnteach gu bheil thu airson an nì seo a sguabadh às? Cha ghabh seo a neo-dhèanamh.',
+        'common.abstract' => 'Geàrr-chunntas',
+        'common.accepted' => 'Air gabhail ris',
+        'common.acknowledged' => 'Air aideachadh',
+        'common.action' => 'Gnìomh',
+        'common.activate' => 'Cuir an gnìomh',
+        'common.active' => 'Gnìomhach',
+        'common.inactive' => 'Na thàmh',
+        'common.add' => 'Cuir ris',
+        'common.name' => 'Ainm',
+        'common.all' => 'Na h-uile',
+        'common.alphaList' => 'A À B C D E È F G H I Ì J K L M N O Ò P Q R S T U Ù V W X Y Z',
+        'common.altTextInstructions' => '  ',
+        'common.assigned.date' => ' ',
+        'common.completed.date' => ' ',
+        'common.confirmed.date' => ' ',
+        'common.edit' => 'Deasaich',
+        'common.error.databaseError' => ' ',
+        'common.fileUploaderError' => '  ',
+        'common.filter' => 'Criathragan',
+        'common.filterAdd' => 'Cuir criathrag ris: {$filterTitle}',
+        'common.filterRemove' => 'Falamhaich a’ chriathrag: {$filterTitle}',
+        'common.go' => 'Siuthad',
+        'common.height' => 'Àirde',
+        'common.homepageNavigationLabel' => 'Dhachaigh',
+        'common.homePageHeaderLogo.altText' => 'Suaicheantas bann-cinn na duilleige-dachaigh',
+        'common.hour' => 'Uair a thìde',
+        'common.id' => 'ID',
+        'common.import' => 'Ion-phortaich',
+        'common.initiate' => 'Cuir a dhol',
+        'common.inProgress' => 'A’ dol air adhart',
+        'common.itemsPerPage' => 'Nithean air gach duilleag',
+        'common.keywords' => 'Faclan-luirg',
+        'common.language' => 'Cànan',
+        'common.languages' => 'Cànain',
+        'common.lastActivity' => 'A’ ghnìomhachd mu dheireadh {$date}.',
+        'common.less' => 'Nas lugha',
+        'common.lessThan' => '{$value} no nas lugha',
+        'common.lessThanOnly' => 'A tha nas lugha na',
+        'common.commaListSeparator' => ', ',
+        'common.semicolonListSeparator' => '; ',
+        'common.manage' => 'Stiùirich',
+        'common.mailingAddress' => 'Seòladh puist',
+        'common.billingAddress' => 'An seòladh bileachaidh (ma tha seo eadar-dhealaichte)',
+        'common.minute' => 'mionaid(ean)',
+        'common.modify' => 'Atharraich',
+        'common.month' => 'Mìos',
+        'common.more' => 'Barrachd',
+        'common.moreThan' => '{$value} no barrachd',
+        'common.moreThanOnly' => 'Barrachd air',
+        'common.noneAssigned' => 'Cha deach gin iomruineadh',
+        'common.none' => 'Chan eil gin',
+        'common.no' => 'Chan eil',
+        'common.noItemsFound' => 'Cha deach nì sam bith a lorg.',
+        'common.noComments' => 'Gun bheachdan',
+        'common.notApplicable' => 'Chan eil seo buailteach',
+        'common.notApplicableShort' => 'N/A',
+        'common.notAvailable' => 'Chan eil seo ri fhaighinn',
+        'common.note' => 'An aire',
+        'common.noTemporaryFile' => 'Cha b’ urrainn dhuinn am faidhle a luchdaich thu suas a lorg. Feuch is luchdaich suas e a-rithist.',
+        'common.notes' => 'Nòtaichean',
+        'common.notes.tooltip' => 'Nòtaichean (buidhe: tha nòtaichean ùra ann; gorm: tha nòtaichean ann air an deach coimhead; liath: gun nòtaichean)',
+        'common.notified' => 'Air fios a chur',
+        'common.notified.date' => 'Air fios a chur: {$dateNotified}',
+        'common.noMatches' => 'Chan eil maids sam bith ann',
+        'common.off' => 'Dheth',
+        'common.on' => 'Air',
+        'common.ok' => 'Ceart ma-thà',
+        'common.options' => 'Roghainnean',
+        'common.order' => 'Òrdugh',
+        'common.orderUp' => 'Àrdaich ionad {$itemTitle}',
+        'common.orderDown' => 'Lùghdaich ionad {$itemTitle}',
+        'common.originalFileName' => 'Ainm an fhaidhle tùsail',
+        'common.or' => 'no',
+        'common.other' => 'Eile',
+        'common.overdue' => 'Fadalach',
+        'common.override' => 'Tar-àithn',
+        'common.pagination' => '{$start}–{$end} à {$total}',
+        'common.pagination.label' => 'Seall an còrr dhe na duilleagan',
+        'common.pagination.goToPage' => 'Tadhail air {$page}',
+        'common.pagination.next' => 'An ath-dhuilleag',
+        'common.pagination.previous' => 'An duilleag roimhe',
+        'common.pageNumber' => 'Duilleag {$pageNumber}',
+        'common.percentage' => '{$percentage}%',
+        'common.plugin' => 'Plugan',
+        'common.pluginEnabled' => 'Chaidh am plugan “{$pluginName}” a chur an comas.',
+        'common.pluginDisabled' => 'Chaidh am plugan “{$pluginName}” a chur à comas.',
+        'common.prefix' => 'Ro-leasachan',
+        'common.prefixAndTitle.tip' => 'Mar eisimpleir: An, Am',
+        'common.preview' => 'Ro-shealladh',
+        'common.publisher' => 'Foillsichear',
+        'common.quality' => 'Càileachd',
+        'common.queue.long.active' => 'Gnìomhach',
+        'common.range' => '{$min}‑{$max}',
+        'common.re' => 'Re:',
+        'common.readMore' => 'Leugh an còrr',
+        'common.readMoreWithTitle' => 'Leugh barrachd mu dheidhinn {$title}',
+        'common.record' => 'Clàr',
+        'common.refresh' => 'Ath-nuadhaich',
+        'common.related' => 'Co-cheangailte',
+        'common.reminder' => 'Cuimhneachan',
+        'common.reminded.date' => 'Cuimhneachan: {$dateReminded}',
+        'common.remote' => 'Cèin',
+        'common.remoteURL' => 'An URL cèin',
+        'common.remove' => 'Thoir air falbh',
+        'common.removeItem' => 'Thoir {$item} air falbh',
+        'common.removeSelection' => 'Thoir na thagh mi air falbh',
+        'common.replaced' => 'Chaidh rud a chur na àite',
+        'common.replaceFile' => 'Cuir an àite an fhaidhle',
+        'common.requiredField' => '* Tha seo a’ comharradh raon riatanach',
+        'common.required' => 'Riatanach',
+        'common.reset' => 'Ath-shuidhich',
+        'common.saveAndContinue' => 'Sàbhail agus lean air adhart',
+        'common.saveAndEmail' => 'Sàbhail is cuir air a’ phost-d',
+        'common.save' => 'Sàbhail',
+        'common.saving' => 'Ga shàbhaladh',
+        'common.search' => 'Lorg',
+        'common.searchQuery' => 'Ceist luirg',
+        'common.clearSearch' => 'Falamhaich an abairt-luirg',
+        'common.second' => 'diog(an)',
+        'common.selectAll' => 'Tagh na h-uile',
+        'common.selectedPrefix' => 'Air a thaghadh:',
+        'common.selectNone' => 'Na tagh gin',
+        'common.select' => 'Tagh',
+        'common.selectWithName' => 'Tagh {$name}',
+        'common.sendEmail' => 'Cuir post-d',
+        'common.size' => 'Meud',
+        'common.source' => 'An tùs',
+        'common.status' => 'Staid',
+        'common.subject' => 'Cuspair',
+        'common.subjects' => 'Cuspairean',
+        'common.submenu' => 'Fo-chlàr-taice',
+        'common.subtitle' => 'Fo-thiotal',
+        'common.suggest' => 'Mol',
+        'common.title' => 'Tiotal',
+        'common.titleSeparator' => '|',
+        'common.top' => 'Bàrr',
+        'common.true' => 'True',
+        'common.type' => 'Seòrsa',
+        'common.component' => 'Co-phàirt',
+        'common.uninitiated' => 'Gun tòiseachadh',
+        'common.unknownError' => 'Thachair mearachd ris nach robh dùil. Ath-luchdaich an duilleag is feuch ris a-rithist.',
+        'common.unread' => 'Gun leughadh',
+        'common.untitled' => 'Gun tiotal',
+        'common.updated' => 'Air ùrachadh',
+        'common.uploadedDate' => 'Chaidh a luchdadh suas',
+        'common.upload' => 'Luchdaich suas',
+        'common.uploadFailed' => 'Cha b’ urrainn dhuinn am faidhle a luchdadh suas no a sgrùdadh.',
+        'common.up' => 'Suas',
+        'common.addFile' => 'Cuir faidhle ris',
+        'common.upload.addFile' => 'Luchdaich suas faidhle',
+        'common.upload.restore' => 'Aisig am fear tùsail',
+        'common.upload.thumbnailPreview' => 'Ro-shealladh dhen dealbh a thagh thu.',
+        'common.upload.changeFile' => 'Atharraich am faidhle',
+        'common.upload.dragFile' => 'Slaod faidhle an seo is leig às e airson tòiseachadh air a luchdadh suas',
+        'common.url' => 'URL',
+        'common.user' => 'Cleachdaiche',
+        'common.user.nonexistent' => '[Chan eil an cleachdaiche seo ann]',
+        'common.view' => 'Sealladh',
+        'common.viewWithName' => 'Seall {$name}',
+        'common.viewProfile' => 'Seall a’ phròifil',
+        'common.weeks' => 'seachdain(ean)',
+        'common.width' => 'Leud',
+        'common.withParenthesis' => '{$item} ({$inParenthesis})',
+        'common.year' => 'Bliadhna',
+        'common.yes' => 'Tha',
+        'debug.notes' => 'An aire:',
+        'editor.submissionReview.uploadFile' => 'Luchdaich suas faidhle airson lèirmheas',
+        'editor.submissionReview.uploadAttachment' => 'Luchdaich suas faidhle',
+        'email.addAttachment' => 'Cuir ceanglachan ris',
+        'email.addBccRecipient' => 'Cuir BCC ris',
+        'email.addCcRecipient' => 'Cuir CC ris',
+        'email.addToRecipient' => 'Cuir faightear ris',
+        'email.attachments' => 'Ceanglachain',
+        'email.bcc' => 'BCC',
+        'email.bccSender' => 'Cuir lethbhreac dhen teachdaireachd seo gun t-seòladh agam fhìn ({$address})',
+        'email.body' => 'Bodhaig',
+        'email.cc' => 'CC',
+        'email.compose' => 'Cuir post-d',
+        'email.compose.tooManyRecipients' => 'Tha thu a’ cur na teachdaireachd seo gu cus dhaoine.',
+        'email.compose.tooSoon' => ' ',
+        'email.compose.error' => ' ',
+        'email.email' => 'Post-d',
+        'email.from' => 'O',
+        'email.invalid' => 'Chan eil an seòladh puist-d {$email} dligheach.',
+        'email.multipart' => 'Seo teachdaireachd ioma-phàirteach san fhòrmat MIME.',
+        'email.recipient' => 'Faightear',
+        'email.recipients' => 'Faightearan',
+        'email.sender' => 'Seòladair',
+        'email.senderName' => 'Ainm an t-seòladair',
+        'email.senderEmail' => 'Post-d an t-seòladair',
+        'email.send' => 'Cuir',
+        'email.subject' => 'Cuspair',
+        'email.subjectRequired' => 'Cuir rudeigin ann mar chuspair a’ phuist-d.',
+        'email.bodyRequired' => 'Cuir rudeigin ann mar bhodhaig teacsa a’ phuist-d.',
+        'email.to' => 'Gu',
+        'form.url.invalid' => ' ',
+        'form.confirmSubmit' => 'A bheil thu cinnteach gu bheil thu airson am foirm seo a chur?',
+        'form.confirmSubmit.title' => 'Dearbh',
+        'form.dataHasChanged' => ' ',
+        'form.disallowedLocales' => ' ',
+        'form.disallowedProp' => 'Chan eil an roghainn seo ceadaichte.',
+        'form.dropzone.dictFileTooBig' => ' ',
+        'form.dropzone.dictResponseError' => ' ',
+        'form.errorA11y' => ' ',
+        'form.errors' => ' ',
+        'form.csrfInvalid' => '  ',
+        'form.invalidImage' => ' ',
+        'icon.comment.alt' => 'Beachd',
+        'icon.delete.alt' => 'Sguab às',
+        'icon.edit.alt' => 'Deasaich',
+        'icon.folder.alt' => 'Pasgan',
+        'icon.font_large.alt' => 'Mòr',
+        'icon.font_medium.alt' => 'Meadhanach',
+        'icon.font_small.alt' => 'Beag',
+        'icon.info.alt' => 'Fiosrachadh',
+        'icon.letter.alt' => 'Litir',
+        'icon.mail.alt' => 'Post',
+        'icon.unchecked.alt' => 'Gun chromag',
+        'icon.view.alt' => 'Sealladh',
+        'informationCenter.informationCenter' => 'An t-ionad-fiosrachaidh',
+        'stageParticipants.canChangeMetadata' => ' ',
+        'stageParticipants.noOptionsToHandle' => 'Cha b’ urrainn dad atharrachadh air a’ chom-pàirtiche',
+        'locale.primary' => 'Am prìomh chànan',
+        'locale.supported' => 'Cànain ris a bheil taic',
+        'navigation.about' => 'Mu dhèidhinn',
+        'navigation.admin' => 'Ball sgioba rianachd LibreOffice',
+        'navigation.archives' => 'Na tasg-lannan',
+        'navigation.breadcrumbLabel' => 'Tha thu an-seo:',
+        'navigation.breadcrumbSeparator' => '/',
+        'navigation.tools' => 'Innealan',
+        'navigation.tools.importExport' => 'Ion-phortaich/às-phortaich',
+        'navigation.tools.statistics' => 'Stats',
+        'navigation.browse' => 'Rùraich',
+        'navigation.backTo' => '⟵ Air ais gu {$page}',
+        'navigation.browseByAuthor' => 'A rèir ùghdair',
+        'navigation.browseByTitle' => 'A-rèir tiotail',
+        'navigation.dashboard' => 'Deas-bhòrd',
+        'navigation.data' => 'Dàta',
+        'navigation.home' => 'Dhachaigh',
+        'navigation.infoForReaders' => 'Dhan luchd-leughaidh',
+        'navigation.infoForReaders.long' => 'Fiosrachadh dhan luchd-leughaidh',
+        'navigation.items' => '{$from} – {$to} à {$total} uile gu lèir',
+        'navigation.items.shownTotal' => '{$shown} à {$total} uile gu lèir',
+        'navigation.login' => 'Clàraich a-steach',
+        'navigation.nextStep' => 'An ath-cheum',
+        'navigation.previousStep' => 'An ceum roimhe',
+        'navigation.publicMenu' => 'An clàr-taice poblach',
+        'navigation.register' => 'Clàraich',
+        'navigation.search' => 'Lorg',
+        'navigation.settings' => 'Roghainnean',
+        'navigation.setup' => 'Suidheachadh',
+        'navigation.sitemap' => 'Mapa na làraich',
+        'navigation.skip.description' => 'Geàrr leum gu na ceanglaichean susbaint',
+        'notification.reviewAcknowledged' => ' ',
+        'notification.settingsDescription' => '  ',
+        'search.matchAll' => 'Maidsich gach roinn-seòrsa',
+        'search.noResults' => 'Gun toradh',
+        'search.operator.and' => 'agus',
+        'search.operator.not' => 'chan e',
+        'search.operator.or' => 'no',
+        'search.SearchFor' => 'Lorg airson',
+        'search.searchResults' => 'Toraidhean luirg',
+        'notification.type.allRevisionsIn' => 'Chaidh faidhle ath-dheasaichte a luchdadh suas airson lèirmheas ann an {$stage}.',
+        'notification.type.pendingRevisions' => 'Lèirmheasan ri ath-sgrùdadh ann an {$stage}.',
+        'notification.type.pendingRevisions.title' => 'Chaidh na lèirmheasan a shìneadh air adhart gu {$stage}.',
+        'notification.type.reviewerComment' => 'Thug lèirmheasaiche seachad beachd air “{$title}”.',
+        'user.email' => 'Seòladh puist-d',
+        'user.authorization.submissionFile' => 'Chan eil cead aig a’ chleachdaiche làithreach am faidhle tagraidh ud inntrigeadh.',
+        'user.authorization.invalidPublication' => 'Foillseachadh mì-dhligheach.',
+        'user.authorization.invalidSubmission' => 'Tagradh mì-dhligheach.',
+        'user.authorization.invalidReviewRound' => 'Cuairt lèirmheis mhì-dhligheach.',
+        'user.authorization.invalidQuery' => 'Deasbad mì-dhligheach.',
+        'user.authorization.unauthorizedNote' => 'Chan eil cead agad air teachdaireachd an deasbaid seo.',
+        'user.authorization.unauthorizedReviewAssignment' => 'Chan eil cead agad air an obair lèirmheis seo.',
+        'user.authorization.authorRoleMissing' => 'Chan eil ceadan gu leòr agad an tagradh fhaicinn. Deasaich a’ phròifil agad is dèan cinnteach gun deach na dreuchdan iomchaidh iomruineadh dhut fo “Clàraich mar”.',
+        'user.authorization.submissionAuthor' => 'Chan e an cleachdaiche làithreach ùghdar an tagraidh a chaidh iarraidh. Dèan cinnteach gun do chlàraich thu a-steach air a’ chunntas cheart.',
+        'user.register.form.privacyConsentLabel' => 'Roghainnean prìobhaideachd',
+        'notification.type.queryActivity' => 'Gnìomhachd dheasbadan.',
+        'notification.type.queryAdded' => 'Chaidh an deasbad a chur ris.',
+        'validator.localeExpected' => ' ',
+        'validator.localeKey' => ' ',
+        'common.withForwardSlash' => '{$item}/{$afterSlash}',
+        'common.categorySeparator' => '{$parent} > {$child}',
+        'mailable.reviewConfirm.description' => 'Thèid am post-d seo a chur gu deasaiche earrainn le lèirmheasaiche mar fhreagairt air iarrtas airson fios a leigeil gu deasaiche na h-earrainn gun deach gabhail ris an iarrtas agus gun tèid a choileanadh ron cheann-là a chaidh a shònrachadh.',
+        'mailable.reviewDecline.description' => 'Thèid am post-d seo a chur gu deasaiche earrainn le lèirmheasaiche mar fhreagairt air iarrtas airson fios a leigeil gu deasaiche na h-earrainn gun deach an t-iarrtas a dhiùltadh.',
+        'mailable.reviewRemindAuto.description' => 'Thèid am post-d seo a chur gu fèin-obrachail nuair a dh’fhalbhas an ùine air a’ cheann-là lìbhrigidh aig lèirmheasaiche (faic na roghainnean lèirmheis fo na “Roghainnean” > “Sruth-obrach” > “Lèirmheas) agus nuair a bhios inntrigeadh lèirmheasaichean le aon bhriogadh à comas. Feumaidh sgeidealachadh shaothraichean a bhith an comas agus air a rèiteachadh (faic faidhle rèiteachadh na làraich).',
+        'mailable.reviewResponseOverdueAuto.description' => 'Thèid am post-d seo a chur gu fèin-obrachail nuair a dh’fhalbhas an ùine air ceann-là freagairt dearbhadh an lèirmheasaiche (faic na roghainnean lèirmheis fo na “Roghainnean” > “Sruth-obrach” > “Lèirmheas) agus nuair a bhios inntrigeadh lèirmheasaichean le aon bhriogadh à comas. Feumaidh sgeidealachadh shaothraichean a bhith an comas agus air a rèiteachadh (faic faidhle rèiteachadh na làraich).',
+        'mailable.reviewRequest.description' => 'Tha am post-d seo dheasaiche earrainn gu lèirmheasaiche a’ faighneachd an gabh iad ri lèirmheas air tagradh no an diùlt iad e. Tha e a’ toirt seachad fiosrachadh mun tagradh, mar an tiotal is geàrr-chunntas, ceann-là lìbhrigeadh an lèirmheis agus mar a gheibhear greim air an tagradh e fhèin. Seo an teachdaireachd a thèid a chleachdadh nuair a thaghar am pròiseas lèirmheis stannardach fo “Stiùireadh” > “Roghainnean” > “Sruth-obrach” > “Lèirmheas”.',
+        'mailable.reviewRequestSubsequent.description' => 'Tha am post-d seo dheasaiche earrainn gu lèirmheasaiche a’ faighneachd an gabh iad ri lèirmheas air tagradh san dàrna cuairt (no cuairt nas motha) no an diùlt iad e. Tha e a’ toirt seachad fiosrachadh mun tagradh, mar an tiotal is geàrr-chunntas, ceann-là lìbhrigeadh an lèirmheis agus mar a gheibhear greim air an tagradh e fhèin. Seo an teachdaireachd a thèid a chleachdadh nuair a thaghar am pròiseas lèirmheis stannardach fo “Stiùireadh” > “Roghainnean” > “Sruth-obrach” > “Lèirmheas”.',
+        'mailable.passwordResetRequested.description' => 'Thèid am post-d seo a chur gu cleachdaiche clàraichte nuair a bhios iad air innse gun do dhìochuimhnich iad am facal-faire aca no nach urrainn dhaibh clàradh a-steach. Tha e a’ toirt URL dhaibh far an urrainn dhaibh am facal-faire aca ath-shuidheachadh.',
+        'mailable.userRegister.description' => 'Thèid am post-d seo a chur gu cleachdaiche a tha air ùr-chlàradh agus a’ cur fàilte dhan t-siostam orra agus a’ thoirt dhaibh clàr dhen ainm-chleachdaiche is facal-faire aca.',
+        'mailable.reviewerRegister.description' => 'Thèid am post-d seo a chur gu lèirmheasaiche a tha air ùr-chlàradh agus a’ cur fàilte dhan t-siostam orra agus a’ thoirt dhaibh clàr dhen ainm-chleachdaiche is facal-faire aca.',
+        'mailable.submissionAck.description' => 'Thèid am post-d seo, ma bhios e an comas, a chur gu fèin-obrachail gu ùghdar nuair a choileanas iad tagradh le bhith a’ chur sgrìobhainn chun an iris-leabhair. Tha e ag innse mar as urrainnear an tagradh a thracadh tron phròiseas agus tha e a’ toirt taing dhan ùghdar airson an tagraidh.',
+        'mailable.submissionAckNotAuthor.description' => 'Thèid am post-d seo, ma bhios e an comas, a chur gu fèin-obrachail gu na h-ùghdaran eile a chaidh ainmeachadh rè an tagraidh ach nach eil nan cleachdaichean am broinn OJS.',
+        'mailable.revisedVersionNotify.description' => 'Thèid am post-d seo a chur chun an deasaiche iomruinte gu fèin-obrachail nuair a luchdaicheas ùghdar suas tionndadh lèirmheaste de dh’artaigeal.',
+        'mailable.announcementNotify.description' => 'Thèid am post-d seo a chur nuair a chaidh fios-naidheachd ùr a chruthachadh.',
+        'submission.viewingPreview' => '’S e ro-shealladh a tha seo ’s cha deach fhoillseachadh fhathast. <a href="{$url}">Seall an tagradh</a>',
+        'submission.submissionFile' => 'Faidhle tagraidh',
+        'emails.submissionAck.subject' => 'Dearbhadh air tagradh',
+        'emails.submissionAck.body' => '{$recipientName}:<br />
+<br />
+Mòran taing airson an sgrìobhainn “{$submissionTitle}” airson {$contextName} a chur thugainn. Leis an t-siostam air loidhne a chleachdas sinn airson stiùireadh iris-leabhraichean, is urrainn dhut sùil a chumail air adhartas tron phròiseas deasachaidh le bhith a’ clàradh a-steach air làrach-lìn an iris-leabhair:<br />
+<br />
+URL an tagraidh: {$submissionUrl}<br />
+Ainm-cleachdaiche: {$recipientUsername}<br />
+<br />
+Ma tha ceist sam bith agad, cuir fios thugam. Mòran taing airson an t-iris-leabhar seo a thaghadh mar dhòigh foillseachaidh dha d’ obair.<br />
+<br />
+{$contextSignature}',
+        'emails.reviewAck.subject' => 'Freagairt mu lèirmheas artaigil',
+        'emails.reviewAck.body' => '{$recipientName}:<br />
+<br />
+Mòran taing airson an lèirmheas air an tagradh “{$submissionTitle},” airson {$contextName} a choileanadh. Tha sinn fada nad chomain airson na h-obrach a nì thu airson na dh’fhoillsicheas sinn a chumail aig ìre àrd.',
+        'emails.editorDecisionSendToExternal.subject' => 'Co-dhùnadh deasaiche',
+        'emails.editorDecisionSendToExternal.body' => '{$authors}:<br />
+<br />
+Thàinig sinn gu co-dhùnadh a thaobh an tagraidh agad gu {$contextName}, “{$submissionTitle}”.<br />
+<br />
+Cho-dhùin sinn Cuir airson lèirmheas<br />
+<br />
+URL an tagraidh: {$submissionUrl}',
+        'emails.editorDecisionSendToProduction.subject' => 'Co-dhùnadh deasaiche',
+        'emails.editorDecisionSendToProduction.body' => '{$authors}:<br />
+<br />
+Tha obair deasachaidh an tagraidh agad, “{$submissionTitle},” deiseil.  Tha sinn ga chur chun an sgioba saothrachaidh an-dràsta.<br />
+<br />
+URL an tagraidh: {$submissionUrl}',
+        'emails.editorDecisionRevisions.subject' => 'Co-dhùnadh deasaiche',
+        'emails.editorDecisionRevisions.body' => '{$authors}:<br />
+<br />
+Thàinig sinn gu co-dhùnadh a thaobh an tagraidh agad gu {$contextName}, “{$submissionTitle}”.<br />
+<br />
+Cho-dhùin sinn na leanas: Tha feum air ath-dheasachadh',
+        'emails.editorDecisionResubmit.subject' => 'Co-dhùnadh deasaiche',
+        'emails.editorDecisionResubmit.body' => '{$authors}:<br />
+<br />
+Thàinig sinn gu co-dhùnadh a thaobh an tagraidh agad gu {$contextName}, “{$submissionTitle}”.<br />
+<br />
+Cho-dhùin sinn Cuir a chùm lèirmheis às ùr',
+        'emails.editorDecisionDecline.subject' => 'Co-dhùnadh deasaiche',
+        'emails.editorDecisionDecline.body' => '{$authors}:<br />
+<br />
+Thàinig sinn gu co-dhùnadh a thaobh an tagraidh agad gu {$contextName}, “{$submissionTitle}”.<br />
+<br />
+Cho-dhùin sinn an tagradh a dhiùltadh',
+        'emails.editorRecommendation.subject' => 'Moladh an deasaiche',
+        'emails.editorRecommendation.body' => '{$editors}:<br />
+<br />
+’S e seo an co-dhùnadh a thaobh an tagraidh gu {$contextName}, “{$submissionTitle}”: {$recommendation}',
+        'emails.copyeditRequest.subject' => 'Iarrtas grinn-deasachaidh',
+        'emails.copyeditRequest.body' => '{$recipientName}:<br />
+<br />
+Bu toil leam iarraidh ort “{$submissionTitle}” airson {$contextName} a ghrinn-deasachadh a rèir nan ceuman a leanas.<br />
+1. Briog air URL an tagraidh gu h-ìosal.<br />
+2. Fosgail faidhle sam bith a tha sna “Dreachdan fhaidhlichean” is dèan grinn-deasachadh orra agus tòisich deasbadan grinn-deasachaidh ma bhios feum orra.<br />
+3. Sàbhail na faidhlichean a rinn thu grinn-deasachadh orra agus luchdaich suas iad chun na panail “Grinn-deasaichte”.<br />
+4. Cuir fios chun an deasaiche gun do dhèilig thu ris a h-uile faidhle agus gum faodar tòiseachadh air an t-saothrachadh.<br />
+<br />
+URL {$contextName}: {$contextUrl}<br />
+URL an tagraidh: {$submissionUrl}<br />
+Ainm-cleachdaiche: {$recipientUsername}',
+        'emails.editorDecisionInitialDecline.subject' => 'Co-dhùnadh deasaiche',
+        'emails.editorDecisionInitialDecline.body' => '
+			{$authors}:<br />
+<br />
+Thàinig sinn gu co-dhùnadh a thaobh an tagraidh agad gu {$contextName}, “{$submissionTitle}”.<br />
+<br />
+Cho-dhùin sinn an tagradh a dhiùltadh',
+        'emails.discussion.subject' => 'Teachdaireachd a thaobh {$contextName}',
+        'emails.discussion.body' => 'Cuir a-steach do theachdaireachd.',
+        'emails.reviewConfirm.subject' => 'Bidh e comasach lèirmheas a dhèanamh air',
+        'emails.reviewConfirm.body' => 'Deasaichean:<br />
+<br />
+Tha mi deiseil is deònach lèirmheas a dhèanamh air an tagradh “{$submissionTitle},” airson {$contextName}. Mòran taing airson an cothrom seo a thoirt dhomh agus tha mi an dòchas an lèirmheas a choileanadh ron {$reviewDueDate}.<br />
+<br />
+{$senderName}',
+        'emails.submissionAckNotAuthor.subject' => 'Dearbhadh air tagradh',
+        'emails.submissionAckNotAuthor.body' => 'Shin thu,<br />
+<br />
+Chuir {$submitterName} an sgrìobhainn “{$submissionTitle}” gu {$contextName}. <br />
+<br />
+Ma tha ceist sam bith agad, cuir fios thugam. Mòran taing airson an t-iris-leabhar seo a thaghadh mar dhòigh foillseachaidh dha d’ obair.<br />
+<br />
+{$contextSignature}',
+        'section.default.title' => 'Artaigealan',
+        'section.default.abbrev' => 'ART',
+        'section.default.policy' => 'Poileasaidh bunaiteach na h-earrainn',
+        'default.genres.article' => 'Teacsa an artaigil',
+        'default.contextSettings.privacyStatement' => '<p>Cha chleachdar na h-ainmean is seòlaidhean puist-d a chuirear a-steach air làrach an iris-leabhair seo ach airson amasan foillsichte an iris-leabhair seo agus cha chuirear ri làimh pàrtaidh sam bith eile iad no airson adhbhar sam bith eile.</p>',
+        'default.contextSettings.openAccessPolicy' => 'Tha an t-iris-leabhar seo a’ toirt cothrom fosgailte air an t-susbaint ann a chionn ’s gu bheil sinn dhen bheachd gun tig àrdachadh air eadar-mhalairt eòlais eadar-nàiseanta ma chuirear rannsachadh ri làimh a’ phobaill gun chuingeachadh.',
+        'default.contextSettings.forReaders' => 'Mholamaid do leughadairean clàradh airson seirbheis brathan foillseachadh an iris-leabhair seo. Cleachd an ceangal <a href="{$indexUrl}/{$contextPath}/user/register">Clàraich</a> aig bàrr duilleag-dhachaigh an iris-leabhair. Ma nì thu clàradh, gheibh thu clàr-innse gach iris ùr an iris-leabhair air a’ phost-d. Ri linn sin, ’s urrainn dhan iris-leabhar tagradh gu bheil ìre de thaic no luchd-leughaidh aca. Faic <a href="{$indexUrl}/{$contextPath}/about/submissions#privacyStatement">poileasaidh prìobhaideachd</a> an iris-leabhair a dhearbhas dha na leughadairean nach cleachd iad an ainmean is seòlaidhean puist-d airson adhbhar sam bith eile.',
+        'default.contextSettings.forAuthors' => 'A bheil ùidh agad ann an com-pàirteachas san iris-leabhar seo? Mholamaid dhut sùil a thoirt air an duilleag <a href="{$indexUrl}/{$contextPath}/about">Mun iris-leabhar seo</a> airson poileasaidh earrannan an iris-leabhair agus air an <a href="{$indexUrl}/{$contextPath}/about/submissions#authorGuidelines">stiùireadh do dh’ùghdaran</a>. Feumaidh ùghdaran <a href="{$indexUrl}/{$contextPath}/user/register">clàradh</a> aig an iris-leabhar mus cuir iad tagradh no, ma tha iad clàraichte mu thràth, faodaidh iad <a href="{$indexUrl}/index/login">clàradh a-steach</a> agus tòiseachadh air na còig ceuman a tha ri choileanadh.',
+        'default.contextSettings.forLibrarians' => 'Tha sinn a’ brosnachadh leabhar-lannaichean an t-iris-leabhar seo a chur am measg iris-leabhraichean dealain na leabhar-lainn aca. A bharrachd air sin, faodaidh leabhar-lannan an siostam foillseachaidh a tha stèidhichte air còd fosgailte aig an iris-leabhar seo a chur air òstaireachd iad fhèin airson buill nan roinnean aca a tha an sàs deasachadh iris-leabhraichean (faic <a href="http://pkp.sfu.ca/ojs">Open Journal Systems</a>).',
+        'default.contextSettings.lockssLicense' => 'Tha an t-iris-leabhar seo a’ cleachdadh siostam LOCKSS airson siostam tasglannachaidh sgaoilte a chruthachadh eadar na leabhar-lannan a tha a’ gabhail pàirt agus bheir e comas dha na leabhar-lannan seo tasg-lannan buana dhen iris-leabhar a chruthachadh a chùm glèidhidh is aisig. <a href="http://www.lockss.org/">Barrachd…</a>',
+        'default.contextSettings.clockssLicense' => 'Tha an t-iris-leabhar seo a’ cleachdadh siostam CLOCKSS airson siostam tasglannachaidh sgaoilte a chruthachadh eadar na leabhar-lannan a tha a’ gabhail pàirt agus bheir e comas dha na leabhar-lannan seo tasg-lannan buana dhen iris-leabhar a chruthachadh a chùm glèidhidh is aisig. <a href="http://clockss.org/">Barrachd…</a>',
+        'default.groups.name.manager' => 'Manaidsear an iris-leabhair',
+        'default.groups.plural.manager' => 'Manaidsearan an iris-leabhair',
+        'default.groups.abbrev.manager' => 'JM',
+        'default.groups.name.editor' => 'Deasaiche an iris-leabhair',
+        'default.groups.plural.editor' => 'Deasaichean an iris-leabhair',
+        'default.groups.abbrev.editor' => 'JE',
+        'default.groups.name.guestEditor' => 'Deasaiche aoigh',
+        'default.groups.plural.guestEditor' => 'Deasaichean aoigh',
+        'default.groups.abbrev.guestEditor' => 'GE',
+        'default.groups.name.sectionEditor' => 'Deasaiche na h-earrainn',
+        'default.groups.plural.sectionEditor' => 'Deasaichean na h-earrainn',
+        'default.groups.abbrev.sectionEditor' => 'SecE',
+        'default.groups.name.subscriptionManager' => 'Manaidsear an fho-sgrìobhaidh',
+        'default.groups.plural.subscriptionManager' => 'Manaidsearan an fho-sgrìobhaidh',
+        'default.groups.abbrev.subscriptionManager' => 'SubM',
+        'default.genres.researchInstrument' => 'Ionnsramaid rannsachaidh',
+        'default.genres.researchMaterials' => 'Stuthan rannsachaidh',
+        'default.genres.researchResults' => 'Toraidhean rannsachaidh',
+        'default.genres.transcripts' => 'Tar-sgrìobhaidhean',
+        'default.genres.dataAnalysis' => 'Anailis dàta',
+        'default.genres.dataSet' => 'Seata dàta',
+        'default.genres.sourceTexts' => 'Teacsaichean tùsail',
+        'default.groups.name.externalReviewer' => 'Lèirmheasaiche',
+        'default.groups.plural.externalReviewer' => 'Lèirmheasaichean',
+        'default.groups.abbrev.externalReviewer' => 'R',
+        'context.current' => 'An t-iris-leabhar làithreach:',
+        'context.select' => 'Geàrr leum gu iris-leabhar eile:',
+        'navigation.categories' => 'Roinnean-seòrsa',
+        'navigation.categories.browse' => 'Rùraich',
+        'reviewer.article.enterReviewForm' => 'Briog air an ìomhaigheag gus am foirm lèirmheis a lìonadh.',
+        'reviewer.submission.reviewFormResponse.form.responseRequired' => 'Lìon na raointean air a bheil feum.',
+        'common.software' => 'Open Journal Systems',
+        'common.confirmComplete' => 'A bheil thu cinnteach gu bheil thu airson comharradh gun deach an t-saothair seo a choileanadh? Dh’fhaoidte nach urrainn dhut dad atharrachadh às a dhèidh sin.',
+        'common.payment' => 'Pàigheadh',
+        'common.payments' => 'Pàighidhean',
+        'common.homePageHeader.altText' => 'Bann-cinn na duilleige-dachaigh',
+        'common.journalHomepageImage.altText' => 'Dealbh duilleag-dhachaigh an iris-leabhair',
+        'navigation.journalHelp' => 'Cobhair an iris-leabhair',
+        'navigation.current' => 'An tè làithreach',
+        'navigation.otherJournals' => 'Leabhraichean-là eile',
+        'navigation.browseByIssue' => 'A rèir irise',
+        'navigation.infoForAuthors' => 'Do dh’ùghdaran',
+        'navigation.infoForLibrarians' => 'Do leabhar-lannaichean',
+        'navigation.competingInterestGuidelines' => 'Stiùireadh mu chòmhstri ùidhean',
+        'navigation.infoForAuthors.long' => 'Fiosrachadh do dh’ùghdaran',
+        'navigation.infoForLibrarians.long' => 'Fiosrachadh do leabhar-lannaichean',
+        'navigation.skip.about' => 'Leum chun an fhiosrachaidh mun iris-leabhar',
+        'navigation.skip.issue' => 'Leum chun na h-irise làithreach',
+        'common.queue.long.submissionsUnassigned' => 'Gun iomruineadh',
+        'common.queue.short.submissionsUnassigned' => 'Gun iomruineadh',
+        'common.queue.long.submissionsInEditing' => 'Tagraidhean fo dheasachadh',
+        'common.queue.short.submissionsInEditing' => 'Fo dheasachadh',
+        'common.queue.long.submissionsInReview' => 'Tagraidhean fo lèirmheas',
+        'common.queue.short.submissionsInReview' => 'Fo lèirmheas',
+        'common.queue.long.submissionsArchives' => 'Tasg-lannan',
+        'common.queue.short.submissionsArchives' => 'Tasg-lannan',
+        'common.queue.short.active' => 'Gnìomhach',
+        'common.queue.long.completed' => 'Tasg-lann',
+        'common.queue.short.completed' => 'Tasg-lann',
+        'submissionGroup.assignedSubEditors' => 'Deasaichean iomruinte',
+        'section.section' => 'Earrann',
+        'section.sections' => 'Earrannan',
+        'section.title' => 'Tiotal na h-earrainn',
+        'section.abbreviation' => 'Giorrachadh',
+        'section.abbreviation.example' => '(Mar eisimpleir, Artaigealan=ART)',
+        'section.policy' => 'Poileasaidh na h-earrainn',
+        'article.article' => 'Artaigeal',
+        'article.articles' => 'Artaigealan',
+        'common.publication' => 'Artaigeal',
+        'common.publications' => 'Artaigealan',
+        'article.submissionId' => 'ID an tagraidh',
+        'article.title' => 'Tiotal',
+        'article.authors' => 'Ùghdaran',
+        'article.indexingInformation' => 'Fiosrachadh inneacsaidh',
+        'article.metadata' => 'Meata-dàta',
+        'article.journalSection' => 'Earrann na h-irise',
+        'article.file' => 'Faidhle',
+        'article.suppFile' => 'Faidhle foirlionaidh',
+        'article.suppFiles' => 'Faidhlichean foirlionaidh',
+        'article.suppFilesAbbrev' => 'Faidhlichean foirlionaidh',
+        'article.discipline' => 'Diosaplain is fo-dhiosaplainean acadaimigeach',
+        'article.subject' => 'Faclan-luirg',
+        'article.coverage' => 'Tuairisgeulachadh',
+        'article.type' => 'Seòrsa, dòigh no dòigh-obrach',
+        'article.language' => 'Cànan',
+        'article.sectionEditor' => 'SE',
+        'article.commentsToEditor' => 'Beachdan an ùghdair',
+        'article.submission' => 'Tagradh',
+        'article.submissions' => 'Tagraidhean',
+        'article.details' => 'Mion-fhiosrachadh',
+        'article.abstract' => 'Geàrr-chunntas',
+        'article.coverPage.altText' => 'Dealbh a’ chòmhdachaidh',
+        'article.accessLogoOpen.altText' => 'Inntrigeadh fosgailte',
+        'article.accessLogoRestricted.altText' => 'Inntrigeadh cuingichte',
+        'article.comments.sectionDefault' => 'Bun-roghainn',
+        'article.comments.disable' => 'Cuir à comas',
+        'article.comments.enable' => 'Cuir an comas',
+        'article.fontSize' => 'Meud a’ chrutha-chlò',
+        'article.fontSize.small.altText' => 'Beag',
+        'article.fontSize.medium.altText' => 'Meadhanach',
+        'article.fontSize.large.altText' => 'Mòr',
+        'article.return' => 'Till gu mion-fhiosrachadh an artaigil',
+        'submission.submissionEditing' => 'Deasachadh an tagraidh',
+        'submission.changeSection' => 'Atharraich gu',
+        'submission.sent' => 'Air a chur',
+        'submission.editorDecision' => 'Co-dhùnadh deasaiche',
+        'submission.round' => 'Cuairt&nbsp;{$round}',
+        'submission.editorReview' => 'Lèirmheas an deasaiche',
+        'submission.notifyAuthor' => 'Cuir fios chun an ùghdair',
+        'submission.notifyEditor' => 'Cuir fios chun an deasaiche',
+        'submission.editorAuthorRecord' => 'Clàr post-d an deasaiche/ùghdair',
+        'submission.reviewersVersion' => 'An tionndadh dhen fhaidhle le nòtaichean an lèirmheasaiche',
+        'submission.postReviewVersion' => 'An tionndadh dhen fhaidhle a tha an dèidh lèirmheis',
+        'submission.editorVersion' => 'Tionndadh an deasaiche',
+        'submission.authorsRevisedVersion' => 'An tionndadh dhen fhaidhle a rinn an t-ùghdar lèirmheas air',
+        'submission.authorVersion' => 'Tionndadh an ùghdair',
+        'submission.copyediting' => 'Grinn-deasachadh',
+        'submission.copyedit' => 'Grinn-deasachadh',
+        'submission.proofreading' => 'Dearbh-leughadh',
+        'submission.scheduling' => 'Sgeidealan',
+        'submission.scheduledIn' => 'Gu bhith fhoillseachadh ann an {$issueName}.',
+        'submission.scheduledIn.tba' => '(TBA)',
+        'submissions.step1' => 'Ceum 1',
+        'submissions.step3' => 'Ceum 3',
+        'submissions.queuedReview' => 'Fo lèirmheas',
+        'submissions.published' => 'Foillsichte',
+        'submissions.initial' => 'Tòiseachail',
+        'submissions.proofread' => 'Air a dhearbh-leughadh',
+        'submissions.initialProof' => 'Dearbhadh tòiseachail',
+        'submissions.postAuthor' => 'An dèidh an ùghdair',
+        'submissions.reviewRound' => 'A’ chuairt lèirmheis',
+        'submissions.proof' => 'Dearbhadh',
+        'submissions.editorDecision' => 'Co-dhùnadh deasaiche',
+        'submissions.editorRuling' => 'Riaghladh deasaiche',
+        'submission.eventLog' => 'Loga nan tachartas',
+        'submissions.copyeditComplete' => 'Air a ghrinn-deasachadh',
+        'submissions.layoutComplete' => 'Co-dhealbhachd air a dheasachadh',
+        'submissions.proofreadingComplete' => 'Air a dhearbh-leughadh',
+        'submission.search' => 'Lorg artaigeal',
+        'journal.currentIssue' => 'An iris làithreach',
+        'context.contexts' => 'Iris-leabhraichean',
+        'journal.path' => 'Slighe',
+        'context.context' => 'Iris-leabhar',
+        'journal.issn' => 'ISSN',
+        'journal.viewAllIssues' => 'Seall a h-uile iris',
+        'user.authorization.representationNotFound' => 'Cha b’ urrainn dhuinn a’ mhòr-dhuilleag a dh’iarr thu a lorg.',
+        'user.noRoles.selectUsersWithoutRoles' => 'Gabh a-staigh cleachdaichean aig nach eil dreuchd san iris-leabhar seo.',
+        'user.profile.profileImage' => 'Dealbh na pròifil',
+        'user.showAllJournals' => 'Seall na h-iris-leabhraichean agam',
+        'user.registerForOtherJournals' => 'Clàraich airson iris-leabhraichean eile',
+        'user.reviewerPrompt' => 'A bheil ùidh agad ann a bhith a’ dèanamh lèirmheasan air tagraidhean dhan iris-leabhar seo?',
+        'user.reviewerPrompt.userGroup' => 'Tha, iarr dreuchd {$userGroup}.',
+        'user.reviewerPrompt.optin' => 'Tha, tha mi ag iarraidh gun cuirear fios thugam ma bhios iarrtas ann airson lèirmheas tagraidh dhan iris-leabhar seo.',
+        'user.register.contextsPrompt' => 'Dè na h-iris-leabhraichean air an làrach seo bu toil leat clàradh aca?',
+        'user.register.otherContextRoles' => 'Iarr na dreuchdan a leanas.',
+        'user.register.noContextReviewerInterests' => 'Ma dh’iarr thu inbhe lèirmheasaiche airson iris-leabhar sam bith, cuir a-steach na cuspairean sa bheil ùidh agad.',
+        'user.myJournals' => 'Na h-iris-leabhraichean agam',
+        'user.manageMySubscriptions' => 'Stiùirich na fo-sgrìobhaidhean agam',
+        'user.noRoles.chooseJournal' => 'Chan eil an cunntas agad co-cheangailte ri iris-leabhar sam bith aig an àm seo. Tagh iris-leabhar:',
+        'user.noRoles.noRolesForJournal' => 'Chan eil dreuchd sam bith aig a’ chunntas agad mu choinneamh an iris-leabhair seo aig an àm seo. Tagh gnìomh gu h-ìosal:',
+        'user.noRoles.submitArticle' => 'Cuir moladh',
+        'user.noRoles.submitArticleRegClosed' => 'Cuir artaigeal airson foillseachadh: Tha clàradh ùghdaran à comas aig an àm seo.',
+        'user.noRoles.regReviewer' => 'Clàraich mar lèirmheasaiche',
+        'user.noRoles.regReviewerClosed' => 'Clàraich mar lèirmheasaiche: Tha clàradh lèirmheasaichean à comas aig an àm seo.',
+        'user.role.manager' => 'Manaidsear an iris-leabhair',
+        'user.role.subEditor' => 'Deasaiche na h-earrainn',
+        'user.role.subscriptionManager' => 'Manaidsear an fho-sgrìobhaidh',
+        'user.role.managers' => 'Manaidsearan an iris-leabhair',
+        'user.role.subEditors' => 'Deasaichean na h-earrainn',
+        'user.role.subscriptionManagers' => 'Manaidsearan an fho-sgrìobhaidh',
+        'user.role.journalAssistant' => 'Cuidiche an iris-leabhair',
+        'user.role.journalAssistants' => 'Cuidichean an iris-leabhair',
+        'issue.issue' => 'Iris',
+        'issue.issues' => 'Irisean',
+        'issue.title' => 'Tiotal',
+        'issue.viewIssueIdentification' => 'Seall {$identification}',
+        'issue.volume' => 'Leabhar',
+        'issue.number' => 'Àireamh',
+        'issue.vol' => 'Lbh.',
+        'issue.no' => 'Àir.',
+        'issue.year' => 'Bliadhna',
+        'issue.noIssues' => 'Gun iris sam bith',
+        'issue.toc' => 'An clàr-innse',
+        'issue.abstract' => 'An geàrr-chunntas',
+        'issue.coverPage.altText' => 'An duilleag-chòmhdachaidh',
+        'issue.fullIssue' => 'An iris shlàn',
+        'issue.nonpdf.title' => 'Luchdaich a-nuas an iris',
+        'issue.viewIssue' => 'Seall an iris',
+        'issue.return' => 'Till gu mion-fhiosrachadh na h-irise',
+        'subscriptionTypes.currency' => 'Airgeadra',
+        'subscriptionTypes.year' => 'bhliadhna',
+        'subscriptionTypes.years' => 'bliadhna',
+        'subscriptionTypes.month' => 'mhìos',
+        'subscriptionTypes.months' => 'mìos(an)',
+        'subscriptionTypes.nonExpiring' => 'Buan',
+        'subscriptionTypes.format' => 'Fòrmat',
+        'subscriptionTypes.format.online' => 'Air loidhne',
+        'subscriptionTypes.format.print' => 'An clò-bhualadh',
+        'subscriptionTypes.format.printOnline' => 'An clò-bhualadh is air loidhne',
+        'subscriptions.inactive' => 'Neo-ghnìomhach',
+        'subscriptions.status' => 'Staid',
+        'subscriptions.status.active' => 'Gnìomhach',
+        'subscriptions.status.needsInformation' => 'Fiosrachadh a dhìth',
+        'subscriptions.status.needsApproval' => 'Feumach air aontachadh',
+        'subscriptions.status.awaitingManualPayment' => 'A’ feitheamh ri pàigheadh de làimh',
+        'subscriptions.status.awaitingOnlinePayment' => 'A’ feitheamh ri pàigheadh air loidhne',
+        'subscriptions.status.noSubscription' => 'Chan eil fo-sgrìobhadh gnìomhach agad.',
+        'subscriptions.status.other' => 'Eile, faic na nòtaichean',
+        'subscriptions.individualDescription' => 'Ma tha fo-sgrìobhadh neach fa leth aig cuideigin, feumaidh iad clàradh a-steach a dh’fhaighinn cothrom air susbaint an fho-sgrìobhaidh.',
+        'subscriptions.institutionalDescription' => 'Ma tha fo-sgrìobhadh institiuide aig cuideigin, cha leigear a leas clàradh a-steach. Gheibhear inntrigeadh do shusbaint nam fo-sgrìobhaidhean stèidhichte air àrainn agus/no seòladh IP a’ chleachdaiche.',
+        'subscriptions.institutionalOnlinePaymentDescription' => '<strong>An aire:</strong> Feumaidh fo-sgrìobhaidhean institiuide a chaidh a cheannach air loidhne cead àrainne agus rainse nan IP mus tèid am fo-sgrìobhadh a chur an gnìomh.',
+        'submission.event.general.defaultEvent' => 'Tachartas tagraidh',
+        'submission.event.submissionSubmitted' => 'Chaidh an t-artaigeal a chur',
+        'submission.event.general.issueScheduled' => 'Chaidh an tagradh a chur gu ciutha foillseachaidh',
+        'submission.event.general.issueAssigned' => 'Chaidh an tagradh iomruineadh do dh’fhoillseachadh',
+        'submission.event.general.articlePublished' => 'Chaidh an t-artaigeal fhoillseachadh',
+        'submission.event.author.authorRevision' => 'Chaidh lèirmheas an ùghdar a chur',
+        'submission.event.general.authorRevision' => 'Chaidh faidhle lèirmheasan an ùghdair ùrachadh',
+        'submission.event.editor.editorAssigned' => 'Chaidh an deasaiche iomruineadh dhan tagradh',
+        'submission.event.editor.editorUnassigned' => 'Chaidh an deasaiche a thoirt air falbh on tagradh',
+        'submission.event.editor.editorDecision' => 'Chaidh co-dhùnadh an deasaiche a chur',
+        'submission.event.editor.editorFile' => 'Chaidh faidhle an deasaiche ùrachadh',
+        'submission.event.editor.submissionArchived' => 'Chaidh an tagradh a chur dhan tasg-lann',
+        'submission.event.editor.submissionRestored' => 'Chaidh an tagradh aiseag on tasg-lann',
+        'submission.event.copyedit.copyeditorAssigned' => 'Chaidh an grinn-deasaiche iomruineadh dhan tagradh',
+        'submission.event.copyedit.copyeditorUnassigned' => 'Chaidh an grinn-deasaiche a thoirt air falbh on tagradh',
+        'submission.event.copyedit.copyeditInitiated' => 'Chaidh an obair grinn-deasachaidh iomruineadh',
+        'submission.event.copyedit.copyeditRevision' => 'Chaidh faidhle lèirmheasan a’ ghrinn-deasaiche ùrachadh',
+        'submission.event.copyedit.copyeditInitialCompleted' => 'Chaidh a’ chiad ghrinn-deasachadh a choileanadh',
+        'submission.event.copyedit.copyeditFinalCompleted' => 'Chaidh an grinn-deasachadh deireannach a choileanadh',
+        'submission.event.copyedit.copyeditSetFile' => 'Chaidh faidhle a’ ghrinn-deasachaidh ùrachadh',
+        'submission.event.proofread.proofreaderAssigned' => 'Chaidh dearbh-leughadair iomruineadh dhan tagradh',
+        'submission.event.proofread.proofreaderUnassigned' => 'Chaidh an dearbh-leughadair a thoirt air falbh on tagradh',
+        'submission.event.proofread.proofreadInitiated' => 'Thòiseachadh air an obair dearbh-leughaidh',
+        'submission.event.proofread.proofreadRevision' => 'Chaidh faidhle lèirmheasan an dearbh-leughadair ùrachadh',
+        'submission.event.proofread.proofreadCompleted' => 'Chaidh an obair dearbh-leughaidh a choileanadh',
+        'submission.event.layout.layoutEditorAssigned' => 'Chaidh deasaiche co-dhealbhachd iomruineadh dhan tagradh',
+        'submission.event.layout.layoutEditorUnassigned' => 'Chaidh deasaiche na co-dhealbhachd a thoirt air falbh on tagradh',
+        'submission.event.layout.layoutInitiated' => 'Thòiseachadh air an obair cho-dhealbhachd',
+        'submission.event.layout.layoutGalleyCreated' => 'Chaidh mòr-dhuilleag na co-dhealbhachd ùrachadh',
+        'submission.event.layout.layoutComplete' => 'Chaidh an obair co-dhealbhachd a choileanadh',
+        'reader.subscribersOnly' => 'Fo-sgrìobhaichean a-mhàin',
+        'reader.subscriptionRequiredLoginText' => 'Feumaidh tu fo-sgrìobhadh mus fhaigh thu cothrom air an nì seo. Clàraich a-steach dhan iris-leabhar gus am fo-sgrìobhadh a dhearbhadh.',
+        'reader.openAccess' => 'Inntrigeadh fosgailte',
+        'reader.subscriptionAccess' => 'Feumaidh seo fo-sgrìobhadh',
+        'reader.subscriptionOrFeeAccess' => 'Feumaidh seo fo-sgrìobhadh no tàille',
+        'reader.purchasePrice' => '({$currency} {$price})',
+        'comments.commentsOnArticle' => 'Beachdan air an artaigeal seo',
+        'comments.authenticated' => 'a rèir <a href="{$publicProfileUrl}" target="_parent">{$userName}</a>',
+        'search.results.orderBy' => 'Cuir na toraidhean air dòigh a rèir',
+        'search.results.orderBy.article' => 'Tiotal an artaigil',
+        'search.results.orderBy.author' => 'Ùghdar',
+        'search.results.orderBy.date' => 'Ceann-là an fhoillseachaidh',
+        'search.results.orderBy.issue' => 'Iris',
+        'search.results.orderBy.journal' => 'Tiotal an iris-leabhair',
+        'search.results.orderBy.popularityAll' => 'Fèillmhorachd (a-riamh)',
+        'search.results.orderBy.popularityMonth' => 'Fèillmhorachd (am mìos seo chaidh)',
+        'search.results.orderBy.relevance' => 'Buntainneas',
+        'search.results.orderDir.asc' => 'A’ dìreadh',
+        'search.results.orderDir.desc' => 'A’ teàrnadh',
+        'search.results.similarDocuments' => 'sgrìobhainnean coltach ris',
+        'admin.overwriteConfigFileInstructions' => '<h4>AN AIRE!</h4>
+<p>Cha b’ urrainn dhan t-siostam sgrìobhadh thairis air an fhaidhle rèiteachaidh. Airson na h-atharraichean agad air an rèiteachadh a chur an sàs, feumaidh tu <tt>config.inc.php</tt> fhosgladh ann an deasaiche teacsa iomchaidh agus na tha san raon teacsa gu h-ìosal a chur an àite na susbaint ann.</p>',
+        'subscriptionManager.subscriptionManagement' => 'Stiùireadh nam fo-sgrìobhadh',
+        'subscriptionManager.individualSubscriptions' => 'Fo-sgrìobhaidhean daoine fa leth',
+        'subscriptionManager.institutionalSubscriptions' => 'Fo-sgrìobhaidhean institiuide',
+        'subscriptionManager.subscriptionTypes' => 'Seòrsaichean de dh’fho-sgrìobhaidhean',
+        'plugins.categories.viewableFiles' => 'Plugain mòr-dhuilleagan artaigealan',
+        'plugins.categories.viewableFiles.description' => 'Tha plugain mòr-dhuilleagan nan artaigealan a’ toirt comas sgrìobhainnean de dhiofar seòrsaichean a shealltainn mar mhòr-dhuilleagan.',
+        'plugins.categories.auth.description' => 'Bheir plugain ùghdarrachaidh comas dha Open Journal Systems saothraichean dearbhadh chleachdaichean iomruineadh do shiostaman eile, can frithealaichean LDAP.',
+        'plugins.categories.generic.description' => 'Thathar a’ cleachdadh plugain coitcheann airson siostam an iris-leabhair fhosgailte a leudachadh ann an dòighean air nach eil plugain eile comasach.',
+        'manager.setup.copyrightNotice.sample' => '<h3>Brathan còir-lethbhreac Creative Commons a tha gam moladh</h3>
+<h4>1. Am poileasaidh a thathar a’ moladh airson iris-leabhraichean ris a bheil inntrigeadh fosgailte</h4>
+Tha ùghdaran a tha airson rud fhoillseachadh san iris-leabhar seo ag aontachadh ris na teirmichean a leanas:
+<ol type="a">
+	<li>Glèidhidh na h-ùghdaran a’ chòir-lethbhreac aca agus tha iad a’ toirt cead ciad fhoillseachadh dhan iris-leabhar agus a’ cur na h-obrach fo <a target="_new" href="http://creativecommons.org/licenses/by/3.0/">cheadachas aithrisidh Creative Commons</a> ag aon aon àm a bheir cead do dhaoine eile an obair a cho-roinneadh fhad ’s a nì iad aithris air ùghdar na h-obrach agus a chiad fhoillseachadh san iris-leabhar seo.
+</li>
+	<li>Faodaidh ùghdaran cùmhnantan fa leth eile a dhèanamh airson sgaoileadh neo-às-dùnach de thionndadh na h-obrach a dh’fhoillsich an t-iris-leabhar (m.e. airson a phostadh ann an ionad-tasgaidh buidhinn no fhoillseachadh ann an leabhar) fhad ’s a nithear aithris air ciad fhoillseachadh na h-obrach san iris-leabhar seo.
+</li>
+	<li>Tha cead aig ùghdaran an cuid obrach a phostadh air loidhne (m.e. ann an ionadan-tasgaidh institiuidean no air an làrach-lìn aca) agus thathar a’ brosnachadh seo ro agus rè pròiseas an tagraidh oir faodaidh seo eadar-ghabhail thairbheach a bhrosnachadh agus iomradh nas tràithe agus nas pailte dhen obair fhoillsichte (Faic <a target="_new" href="http://opcit.eprints.org/oacitation-biblio.html">The Effect of Open Access</a>).</li>
+</ol>
+
+<h4>2. Am poileasaidh a thathar a’ moladh airson iris-leabhraichean ris a bheil inntrigeadh fosgailte le dàil</h4>
+Tha ùghdaran a tha airson rud fhoillseachadh san iris-leabhar seo ag aontachadh ris na teirmichean a leanas:
+<ol type="a">
+	<li>Glèidhidh na h-ùghdaran a’ chòir-lethbhreac aca agus tha iad a’ toirt cead ciad fhoillseachadh dhan iris-leabhar agus a’ cur na h-obrach [SÒNRAICH ÙINE] an dèidh foillseachaidh fo <a target="_new" href="http://creativecommons.org/licenses/by/3.0/">cheadachas aithrisidh Creative Commons</a> ag aon aon àm a bheir cead do dhaoine eile an obair a cho-roinneadh fhad ’s a nì iad aithris air ùghdar na h-obrach agus a chiad fhoillseachadh san iris-leabhar seo.
+</li>
+	 <li>Faodaidh ùghdaran cùmhnantan fa leth eile a dhèanamh airson sgaoileadh neo-às-dùnach de thionndadh na h-obrach a dh’fhoillsich an t-iris-leabhar (m.e. airson a phostadh ann an ionad-tasgaidh buidhinn no fhoillseachadh ann an leabhar) fhad ’s a nithear aithris air ciad fhoillseachadh na h-obrach san iris-leabhar seo.
+</li>
+	 <li>Tha cead aig ùghdaran an cuid obrach a phostadh air loidhne (m.e. ann an ionadan-tasgaidh institiuidean no air an làrach-lìn aca) agus thathar a’ brosnachadh seo ro agus rè pròiseas an tagraidh oir faodaidh seo eadar-ghabhail thairbheach a bhrosnachadh agus iomradh nas tràithe agus nas pailte dhen obair fhoillsichte (Faic <a target="_new" href="http://opcit.eprints.org/oacitation-biblio.html">The Effect of Open Access</a>).</li>
+</ol>',
+        'manager.setup.basicEditorialStepsDescription' => 'Ceuman: Ciutha nan tagradh &gt; Lèirmheas nan tagradh &gt; Deasachadh nan tagradh &gt; Clàr-innse.<br /><br />
+Tagh modail airson na ceuman seo dhen phròiseas deasachaidh a làimhseachadh. (Tadhail air “Deasaichean” ann an “Stiùireadh nan iris-leabhar” airson deasaiche stiùiridh agus deasaichean earrannan ainmeachadh.)',
+        'manager.setup.referenceLinkingDescription' => '<p>Airson ’s gun urrainn do leughadairean tionndaidhean air loidhne dhe na h-obrachaidhean air a bheil ùghdar ag iomradh, tha na roghainnean a leanas ri làimh.</p>
+
+<ol>
+	<li><strong>Cuir inneal leughaidh ris</strong><p>’S urrainn do mhanaidsear nan iris-leabhraichean “Lorg reifreansan” a chur ris na h-innealan leughaidh a gheibhear an cois nithean foillsichte agus bheir seo comas do leughadairean an tiotal aig reifreans a chur a-steach agus lorg a dhèanamh ann an stòir-dhàta sgoilearach ro-shocraichte.</p>
+</li>
+	<li><strong>Leabaich ceanglaichean sna reifreansan</strong><p>’S urrainn do dheasaiche na co-dhealbhachd ceangal ri reifreansan air loidhne a chur ris ma leanar an stiùireadh a leanas (gabhaidh seo a dheasachadh).</p></li>
+</ol>',
+        'manager.people.confirmDisable' => 'A bheil thu airson an cleachdaiche seo a chur à comas? Ma nì thu seo, chan urrainn dhan chleachdaiche clàradh a-steach dhan t-siostam tuilleadh.
+
+’S urrainn dhut innse dhan chleachdaiche carson a chuir thu an cunntas aca à comas.',
+        'manager.people.noAdministrativeRights' => 'Tha sinn duilich ach chan eil còraichean rianachd agad mu choinneamh a’ chleachdaiche seo.
+Dh’fhaoidte nach eil a chionn ’s:
+<ul>
+			<li>gu bheil an cleachdaiche na rianaire làraich
+</li>
+			<li>gu bheil an cleachdaiche gnìomhach ann an iris-leabhraichean nach eil fo do stiùireadh-sa
+</li>
+		</ul>
+	gum bi aig rianaire làraich an t-saothair seo a choileanadh.
+	',
+        'editor.submissionReview.notes' => '
+	<ol>
+	<li>Ma tha nì air a shoillseachadh, tha sin ag innse gum feum deasaiche rudeigin a dhèanamh agus seo na leubailean:
+<ul>
+			<li class="highlightReviewerNotNotified">Chaidh lèirmheasaiche iomruineadh ach cha deach fios a chur aca air a’ phost-d
+</li>
+			<li class="highlightNoDecision">Thill gach lèirmheasaiche na beachdan aca ach cha deach co-dhùnadh a chlàradh
+</li>
+			<li class="highlightRevisedCopyUploaded">Luchdaich an t-ùghdar suas sgrìobhainn lèirmheasaichte
+</li>
+			<li class="highlightReviewerConfirmationOverdue">Tha an lèirmheasaiche fadalach le dearbhadh a’ chuiridh gu lèirmheas seise
+</li>
+			<li class="highlightReviewerCompletionOverdue">Tha an lèirmheasaiche fadalach le coileanadh an lèirmheis
+</li>
+		</ul>
+</li>
+	<li>Thèid an raon “Ri lìbhrigeadh” a lìonadh nuair a ghabhas an lèirmheasaiche ris an iarrtas airson lèirmheas; seallaidh e co mheud seachdain a tha air fhàgail gu ceann-là lìbhrigeadh an lèirmheis no (-) co mheud seachdain ’s a tha e fadalach.</li>
+</ol>',
+        'editor.submissionEditing.notes' => '
+	<ol>
+	<li>Ma tha nì air a shoillseachadh, tha sin ag innse gum feum deasaiche rudeigin a dhèanamh agus seo na leubailean:
+<ul>
+			<li class="highlightCopyediting">Tha rud ri dhèanamh ann an ceum a’ ghrinn-deasachaidh
+</li>
+			<li class="highlightCopyediting">Tha rud ri dhèanamh ann an ceum na co-dhealbhachd
+</li>
+			<li class="highlightCopyediting">Tha rud ri dhèanamh ann an ceum an dearbh-leughaidh</li>
+		</ul>
+	</li>
+</ol>',
+        'sectionEditor.activeEditorialAssignments' => 'Obraichean deasachaidh gnìomhach',
+        'sectionEditor.completedEditorialAssignments' => 'Obraichean deasachaidh coileanta',
+        'sectionEditor.noneAssigned' => 'Cha deach tagradh sam bith iomruineadh.',
+        'sectionEditor.copyedit.confirmRenotify' => 'Ma chuireas tu brath dhan ghrinn-deasaiche seo às ùr, thèid am pìos obrach aca ath-thòiseachadh. A bheil thu cinnteach gu bheil thu airson seo a dhèanamh?',
+        'sectionEditor.author.confirmRenotify' => 'Ma chuireas tu brath dhan ùghdar seo às ùr, thèid am pìos obrach aca ath-thòiseachadh. A bheil thu cinnteach gu bheil thu airson seo a dhèanamh?',
+        'sectionEditor.layout.confirmRenotify' => 'Ma chuireas tu brath dhan deasaiche cho-dhealbhachd seo às ùr, thèid am pìos obrach aca ath-thòiseachadh. A bheil thu cinnteach gu bheil thu airson seo a dhèanamh?',
+        'sectionEditor.proofreader.confirmRenotify' => 'Ma chuireas tu brath dhan dearbh-leughadair seo às ùr, thèid am pìos obrach aca ath-thòiseachadh. A bheil thu cinnteach gu bheil thu airson seo a dhèanamh?',
+        'sectionEditor.regrets.breadcrumb' => 'Aithreachasan',
+        'sectionEditor.regrets.title' => '#{$submissionId} aithreachasan an lèirmheasaiche, na sguir iad dheth ⁊ cuairtean roimhe seo',
+        'sectionEditor.regrets' => 'Aithreachasan',
+        'sectionEditor.regrets.link' => 'Seall aithreachasan, na sguireadh dheth, cuairtean roimhe',
+        'sectionEditor.regrets.reviewRound' => 'Lèirmheas seise, cuairt {$round}',
+        'sectionEditor.regrets.decisionRound' => 'Co-dhùnadh an deasaiche, cuairt {$round}',
+        'sectionEditor.regrets.regretsAndCancels' => 'Aithreachasan ⁊ na sguir an lèirmheasaiche dheth',
+        'sectionEditor.regrets.regret' => 'Aithreachas',
+        'sectionEditor.regrets.result' => 'Toradh',
+        'sectionEditor.review.enrollReviewer' => 'Clàraich cleachdaiche làithreach mar lèirmheasaiche',
+        'sectionEditor.review.createReviewer' => 'Cruthaich lèirmheasaiche ùr',
+        'layoutEditor.activeEditorialAssignments' => 'Obraichean deasachaidh gnìomhach',
+        'layoutEditor.completedEditorialAssignments' => 'Obraichean deasachaidh coileanta',
+        'layoutEditor.noActiveAssignments' => 'Chan eil obair deasachaidh ghnìomhach agad.',
+        'layoutEditor.layoutEditingAssignments' => 'Obraichean deasachadh co-dhealbhachd',
+        'layoutEditor.galley.uploadGalleyFormat' => 'Fòrmat luchdadh suas mhòr-dhuilleagan',
+        'layoutEditor.galley.replaceGalley' => 'Cuir an àite an fhaidhle',
+        'layoutEditor.galley.uploadSuppFile' => 'Luchdaich suas faidhle foirlionaidh',
+        'submission.layout.imageInvalid' => 'Fòrmat deilbh mì-dhligheach. Gabhar ri faidhlichean .gif, .jpg agus .png.',
+        'submission.layout.galley.remotelyHostedContent' => 'Bidh a’ mhòr-dhuilleag seo ri làimh air làrach-lìn fa leth.',
+        'submission.layout.galley.remoteURL' => 'URL de shusbaint air òstair cèin',
+        'reviewer.pendingReviews' => 'Artaigealan ri lèirmheasadh',
+        'reviewer.completedReviews' => 'Deiseil',
+        'reviewer.averageQuality' => 'Rangachadh',
+        'reviewer.article.fileToBeReviewed' => 'Am faidhle a tha ri lèirmheasadh',
+        'reviewer.article.notifyTheEditor' => 'Cuir fios chun an deasaiche',
+        'reviewer.article.canDoReview' => 'Nì mi an lèirmheas',
+        'reviewer.article.cannotDoReview' => 'Chan urrainn dhomh an lèirmheas a dhèanamh',
+        'reviewer.article.restrictedFileAccess' => 'Bidh an tagradh ri làimh ma ghabhas lèirmheasaiche an tagradh os làimh',
+        'reviewer.article.submissionEditor' => 'Deasaiche an tagraidh',
+        'reviewer.article.reviewerCommentsDescription' => 'Sgrìobh no cuir ann beachdan an lèirmheis an-seo',
+        'reviewer.article.editorToEnter' => 'Ri lìonadh leis an deasaiche',
+        'reviewer.article.sendReminder' => 'Cuir cuimhneachan',
+        'reviewer.article.automatic' => '(Gu fèin-obrachail)',
+        'reviewer.article.recommendation' => 'Moladh',
+        'reviewer.article.submitReview' => 'Cuir an lèirmheas chun an deasaiche',
+        'reviewer.article.reviewerComments' => 'Beachdan',
+        'reviewer.article.uploadedFile' => 'Faidhlichean a chaidh luchdadh suas',
+        'reviewer.article.reviewersAnnotatedVersion' => 'An tionndadh a luchdaich an lèirmheasaiche suas',
+        'reviewer.article.reviewersAnnotatedVersionDescription' => '(Ma tha thu airson nòtaichean a chur ris an fhaidhle dhan deasaiche, sàbhail e air a’ chlàr-chruaidh agad is cleachd “Brabhsaich” no “Luchdaich suas”.)',
+        'reviewer.article.schedule.request' => 'Iarrtas an deasaiche',
+        'reviewer.article.schedule.response' => 'Do fhreagairt',
+        'reviewer.article.schedule.submitted' => 'Chaidh an lèirmheas a chur',
+        'reviewer.article.schedule.due' => 'Tha an lèirmheas ri lìbhrigeadh',
+        'reviewer.article.decision.accept' => 'Gabh ris an tagradh',
+        'reviewer.article.decision.pendingRevisions' => 'Tha feum air ath-dheasachadh',
+        'reviewer.article.decision.resubmitHere' => 'Cuir a chùm lèirmheis às ùr',
+        'reviewer.article.decision.resubmitElsewhere' => 'Cuir às ùr am badeigin eile',
+        'reviewer.article.decision.decline' => 'Diùlt an tagradh',
+        'reviewer.article.decision.seeComments' => 'Seall na beachdan',
+        'reviewer.article.schedule' => 'An sgeideal',
+        'reviewer.article.submissionToBeReviewed' => 'An tagradh a tha ri lèirmheasadh',
+        'reviewer.article.reviewSchedule' => 'Sgeideal lèirmheis',
+        'reviewer.article.reviewSteps' => 'Ceuman lèirmheis',
+        'reviewer.article.reviewerGuidelines' => 'Stiùireadh do lèirmheasaichean',
+        'reviewer.article.reviewGuidelinesDescription' => 'Innsidh an stiùireadh do lèirmheasaichean mar a thomhaiseas iad a bheil tagradh iomchaidh airson foillseachadh san iris-leabhar agus faodar stiùireadh sònraichte sam bith a ghabhail a-staigh a dh’innseas mar a dh’ullaichear lèirmheas èifeachdach is cuideachail. Bidh dà bhogsa airson teacsa saor aig lèirmheasaichean rè an lèirmheis, a’ chiad dhiubh “airson an ùghdair is an deasaiche” agus an dàrna fear “airson an deasaiche.” Air neo, is urrainn do mhanaidsear an iris-leabhair lèirmheas seise a chruthachadh fon earrann “Foirmean lèirmheis.” Ge be dè an t-slighe, bidh cothrom aig na deasaichean na lèirmheasan a ghabhail a-staigh sa chonaltradh leis an ùghdar.',
+        'reviewer.article.notifyEditorA' => 'Cuir fios gu deasaiche nan tagraidhean',
+        'reviewer.article.notifyEditorB' => 'is innis an gabh thu an lèirmheas os làimh.',
+        'reviewer.article.consultGuidelines' => 'Ma tha thusa a’ dol a dhèanamh an lèirmheis, thoir sùil air an stiùireadh do lèirmheasaichean gu h-ìosal.',
+        'reviewer.article.downloadSubmission' => 'Briog air ainmean fhaidhlichean airson na faidhlichean a tha co-cheangailte ris an tagradh seo a luchdadh a-nuas is lèirmheas a dhèanamh orra (air an sgrìn no air tionndadh clò-bhuailte).',
+        'reviewer.article.enterCompetingInterests' => 'Cuir an cèill a bhail còmhstri ùidhean agad a thaobh an rannsachaidh seo (faic <a target="_new" class="action" href="{$competingInterestGuidelinesUrl}">poileasaidh na còmhstri ùidhean</a>).',
+        'reviewer.competingInterests' => 'Còmhstri ùidhean',
+        'reviewer.article.enterReviewA' => 'Briog air an ìomhaigheag airson do lèirmheas air an tagradh seo a chur a-steach (no a chur ann).',
+        'reviewer.article.uploadFile' => 'A bharrachd air sin, is urrainn dhut faidhlichean a luchdadh suas dhan deasaiche agus/no ùghdar airson co-comhairleachaidh.',
+        'reviewer.article.selectRecommendation' => 'Tagh moladh agus cuir an lèirmheas airson am pròiseas a choileanadh. Feumaidh tu lèirmheas a chur a-steach no faidhle a luchdadh suas mus tagh thu moladh.',
+        'reviewer.article.selectRecommendation.byEditor' => 'Suidhich no cuir air gleus moladh an lèirmheasaiche.',
+        'reviewer.article.mustSelectDecision' => 'Cha deach moladh a thaghadh. Feumaidh tu moladh a thaghadh airson a chur.',
+        'reviewer.article.confirmDecision' => 'Turas a chlàraich thu co-dhùnadh, chan urrainn dhut atharraichean a dhèanamh air an lèirmheas seo tuilleadh. A bheil thu cinnteach gu bheil thu airson leantainn air adhart?',
+        'copyeditor.article.fileToCopyedit' => 'Am faidhle a tha ri ghrinn-deasachadh',
+        'copyeditor.article.copyeditorFile' => 'Faidhle a’ ghrinn-deasaiche',
+        'copyeditor.article.copyeditorFinalFile' => 'Faidhle a’ ghrinn-deasaiche',
+        'proofreader.noProofreadingAssignments' => 'Chan eil dearbh-leughadh ri dhèanamh',
+        'author.submit.uploadInstructions' => '
+<p>Airson sgrìobhainn a luchdadh suas dhan iris-leabhar seo, lean ris na ceuman a leanas.</p>
+<ol>
+<li>Air an duilleag seo, briog air “Brabhsaich” (no “Tagh faidhle”) a dh’fhosglas uinneag airson faidhle a thaghadh air clàr-cruaidh a’ choimpiutair agad.
+</li>
+<li>Faigh grèim air an fhaidhle a tha thu airson cur thugainn agus comharraich e.
+</li>
+<li>Briog air “Fosgail” san uinneag “Tagh faidhle” agus cuiridh sinn ainm an fhaidhle dhan duilleag seo.
+</li>
+<li>Briog air “Luchdaich suas” air an duilleag seo agus luchdaichidh sin suas am faidhle on choimpiutair gu làrach-lìn an iris-leabhair agus thèid ainm ùr a thoirt air an fhaidhle a rèir gnàthasan an iris-leabhair.
+</li>
+<li>Turas a chaidh an tagradh a luchdadh suas, briog air “Sàbhail agus lean air adhart” aig bonn na duilleige seo.</li>
+</ol>',
+        'submission.review.mustUploadFileForReview' => 'Cha ghabh am post-d iarrtais a chur gus am bi tionndadh lèirmheis ann.',
+        'submission.copyedit.mustUploadFileForInitialCopyedit' => 'Cha ghabh am post-d iarrtais a chur gus an deach faidhle a thaghadh airson grinn-deasachadh fo “Co-dhùnadh an deasaiche” air duilleag nan lèirmheasan.',
+        'submission.copyedit.mustUploadFileForCopyedit' => 'Cha ghabh am post-d iarrtais a chur gus an deach am faidhle a luchdadh suas airson grinn-deasachadh.',
+        'submission.copyedit.initialCopyedit' => 'Grinn-deasachadh tòiseachail',
+        'submission.copyedit.editorsCopyedit' => 'Grinn-deasachadh an deasaiche',
+        'submission.copyedit.editorAuthorReview' => 'Grinn-deasachadh an ùghdair',
+        'submission.copyedit.finalCopyedit' => 'Grinn-deasachadh deireannach',
+        'submission.copyedit.copyeditVersion' => 'Tionndadh an grinn-deasachaidh',
+        'submission.copyedit.selectCopyeditor' => 'Iomruin grinn-deasaiche',
+        'submission.copyedit.useFile' => 'Cleachd am faidhle',
+        'submission.copyedit.copyeditComments' => 'Beachdan grinn-deasachaidh',
+        'submission.copyedit.instructions' => 'Stiùireadh grinn-deasachaidh',
+        'submission.layout.noLayoutFile' => 'Chan eil gin (Luchdaich suas an tionndadh grinn-deasaichte deireannach mar thionndadh co-dhealbhachd mus cuir thu iarrtas)',
+        'submission.layout.galleyPublicIdentificationExists' => 'Tha aithnichear poblach a’ ghailearaidh seo ann mu thràth.',
+        'submission.layout.assignLayoutEditor' => 'Iomruin deasaiche co-dhealbhachd',
+        'submission.layout.replaceLayoutEditor' => 'Tagh deasaiche co-dhealbhachd ùr',
+        'submission.layout.layoutComments' => 'Beachdan co-dhealbhachd',
+        'submission.layout.instructions' => 'Stiùireadh co-dhealbhachd',
+        'submission.layout.referenceLinking' => 'Ceangladh nan reifreansan',
+        'submission.proofreadingComments' => 'Beachdan dearbh-leughaidh',
+        'submission.proofread.corrections' => 'Ceartachaidhean dearbh-leughaidh',
+        'submission.proofread.instructions' => 'Stiùireadh dearbhaidh',
+        'submission.logType.article' => 'Artaigeal',
+        'submission.logType.author' => 'Ùghdar',
+        'submission.logType.editor' => 'Deasaiche',
+        'submission.logType.review' => 'Lèirmheas',
+        'submission.logType.copyedit' => 'Grinn-deasachadh',
+        'submission.logType.layout' => 'Co-dhealbhachd',
+        'submission.logType.proofread' => 'Dearbh-leughadh',
+        'submission.comments.editorAuthorCorrespondence' => 'Conaltradh an deasaiche/ùghdair',
+        'submission.comments.copyeditComments' => 'Beachdan grinn-deasachaidh',
+        'submission.comments.viewableDescription' => 'Gabhaidh na beachdan seo a cho-roinneadh leis an ùghdar.<br />
+(’S urrainn dhut barrachd bheachdan a chur ris an dèidh dhut a shàbhaladh cuideachd.)',
+        'submission.comments.canShareWithAuthor' => 'Airson an ùghdair is an deasaiche',
+        'submission.comments.cannotShareWithAuthor' => 'Airson an deasaiche',
+        'submission.comments.blindCcReviewers' => 'An dèidh a chur, thoir seachad lethbhreac so-dheasaichte BCC as urrainnear cur dha na lèirmheasaichean.',
+        'submission.comments.forAuthorEditor' => 'Airson an ùghdair is an deasaiche',
+        'submission.comments.forEditor' => 'Airson an deasaiche',
+        'submission.comments.saveAndEmailAuthor' => 'Sàbhail is cuir post-d chun an ùghdair',
+        'submission.comments.saveAndEmailEditor' => 'Sàbhail is cuir post-d chun an deasaiche',
+        'user.register.selectContext' => 'Tagh iris-leabhar airson clàradh aige:',
+        'user.register.noJournals' => 'Chan eil iris-leabhar sam bith air an làrach seo as urrainn dhut clàradh aige.',
+        'user.register.privacyStatement' => 'An aithris prìobhaideachd',
+        'user.register.registrationDisabled' => 'Chan eil an t-iris-leabhar seo a’ clàradh chleachdaichean aig an àm seo.',
+        'user.register.form.passwordLengthTooShort' => 'Chan eil am facal-faire a chuir thu a-steach fada gu leòr.',
+        'user.register.readerDescription' => 'Gheibhear fios air a’ phost-d nuair a thèid iris dhen iris-leabhar fhoillseachadh.',
+        'user.register.openAccessNotificationDescription' => 'Gheibhear fios air a’ phost-d nuair a thèid inntrigeadh fosgailte a thoirt do dh’iris-leabhar.',
+        'user.register.authorDescription' => 'Comasach air nithean a chur dhan iris.',
+        'user.register.reviewerDescriptionNoInterests' => 'Deònach lèirmheas seise a dhèanamh air tagraidhean dhan iris-leabhar.',
+        'user.register.reviewerDescription' => 'Deònach lèirmheas seise a dhèanamh air tagraidhean dhan làrach.',
+        'user.register.reviewerInterests' => 'Aithneachadh de dh’ùidhean lèirmheis (raointean chuspairean agus dòighean rannsachaidh):',
+        'user.register.form.emailConsentAllContexts' => 'Tha, bu toil leam fios fhaighinn air foillseachaidhean ùra agus brathan a thaobh gach iris-leabhar a chlàraich mi aige.',
+        'user.register.form.privacyConsentThisContext' => 'Tha, tha mi ag aontachadh gun tèid an dàta agam a chruinneachadh is a stòradh a rèir <a href="{$privacyUrl}" target="_blank">aithris prìobhaideachd</a> an iris-leabhair seo.',
+        'user.register.form.missingContextConsent' => 'Feumaidh tu gabhail ris an aithris phrìobhaideachd aig gach iris-leabhar a tha thu a’ clàradh aige.',
+        'user.register.form.missingSiteConsent' => 'Feumaidh tu gabhail ri aithris prìobhaideachd na làraich seo.',
+        'user.subscriptions.mySubscriptions' => 'Na fo-sgrìobhaidhean agam',
+        'user.subscriptions.subscriptionStatus' => 'Staid an fho-sgrìobhaidh',
+        'user.subscriptions.statusInformation' => 'Chì thu fo-sgrìobhaidhean gnìomhach agus feadhainn a dh’fhalbh an ùine orra gu h-ìosal leis a’ cheann-là a dh’fhalbh an ùine orra. A bharrachd air sin, dh’fhaoidte gum bi am fiosrachadh a leanas mun staid ri fhaicinn an cois gach fo-sgrìobhadh.',
+        'user.subscriptions.status' => 'Staid',
+        'user.subscriptions.statusDescription' => 'Tuairisgeul',
+        'user.subscriptions.status.needsInformationDescription' => 'Tha feum air barrachd fiosrachaidh mus gabh am fo-sgrìobhadh a chur an gnìomh',
+        'user.subscriptions.status.needsApprovalDescription' => 'Feumaidh gach fo-sgrìobhadh lèirmheas mus gabh a chur an gnìomh',
+        'user.subscriptions.status.awaitingManualPaymentDescription' => 'Thòiseachadh air pàigheadh de làimh ach cha d’fhuaradh e fhathast',
+        'user.subscriptions.status.awaitingOnlinePaymentDescription' => 'Thòiseachadh air pàigheadh air loidhne ach sguireadh dheth no cha deach a choileanadh',
+        'user.subscriptions.individualSubscriptions' => 'Fo-sgrìobhadh neach fa leth',
+        'user.subscriptions.institutionalSubscriptions' => 'Fo-sgrìobhaidhean institiuide',
+        'user.subscriptions.renew' => 'Ath-nuadhaich',
+        'user.subscriptions.purchase' => 'Ceannaich',
+        'user.subscriptions.purchaseNewSubscription' => 'Ceannaich fo-sgrìobhadh ùr',
+        'user.subscriptions.purchaseIndividualSubscription' => 'Ceannaich fo-sgrìobhadh neach fa leth',
+        'user.subscriptions.purchaseInstitutionalSubscription' => 'Ceannaich fo-sgrìobhadh institiuide',
+        'user.subscriptions.expires' => 'Falbhaidh an ùine air: {$date}',
+        'user.subscriptions.expired' => 'Dh’fhalbh an ùine air: {$date}',
+        'user.subscriptions.viewSubscriptionTypes' => 'Seall na seòrsaichean de dh’fho-sgrìobhaidhean a tha ri fhaighinn',
+        'user.subscriptions.form.typeId' => 'Seòrsa an fho-sgrìobhaidh',
+        'user.subscriptions.form.membership' => 'Ballrachd',
+        'user.subscriptions.form.membershipRequired' => 'Thagh thu fo-sgrìobhadh de sheòrsa a dh’fheumas fiosrachadh ballrachd.',
+        'user.subscriptions.form.typeIdValid' => 'Tagh seòrsa dligheach de dh’fho-sgrìobhadh.',
+        'user.subscriptions.form.subscriptionExists' => 'Tha fo-sgrìobhadh fa leth aig a’ chunntas chleachdaiche seo mu thràth.',
+        'user.subscriptions.form.membershipInstructions' => 'Fiosrachadh mun bhallrachd ma tha feum air seo mu choinneamh seòrsa an fho-sgrìobhaidh a chaidh a thaghadh.',
+        'user.subscriptions.form.institutionName' => 'Ainm na h-institiuide',
+        'user.subscriptions.form.institutionNameRequired' => 'Tha feum air ainm institiuid.',
+        'user.subscriptions.form.institutionMailingAddress' => 'Seòladh puist',
+        'user.subscriptions.form.domain' => 'Àrainn',
+        'user.subscriptions.form.domainInstructions' => 'Ma chuirear rainsean IP a-steach an-seo, cha leigear a leas àrainn a chur a-steach.<br />Tha ainmean àrainnean nan luachan dligheach (m.e. gla.ac.uk).',
+        'user.subscriptions.form.domainIPRangeRequired' => 'Feumaidh fo-sgrìobhadh dhen t-seòrsa a thagh thu àrainn agus/no rainse IP airson dearbhadh an fho-sgrìobhaidh.',
+        'user.subscriptions.form.domainValid' => 'Cuir àrainn dhligheach a-steach.',
+        'user.subscriptions.form.ipRange' => 'Rainsean IP',
+        'user.subscriptions.form.ipRangeItem' => '&#8226;',
+        'user.subscriptions.form.ipRangeInstructions' => 'Ma chuirear rainsean IP a-steach an-seo, cha leigear a leas àrainn a chur a-steach.<br />Tha luachan dligheach a’ gabhail a-staigh seòlaidhean IP (m.e. 142.58.103.1), rainse IP (m.e. 142.58.103.1 - 142.58.103.4), rainse IP le saorag “*” (m.e. 142.58.*.*) agus rainse IP le CIDR (m.e. 142.58.100.0/24).',
+        'user.subscriptions.form.ipRangeValid' => 'Cuir a-steach rainse IP dhligheach.',
+        'user.subscriptions.form.deleteIpRange' => 'Sguab às',
+        'user.subscriptions.form.addIpRange' => 'Cuir ris',
+        'search.browseAuthorIndex' => 'Rùraich clàr-amais nan ùghdar',
+        'search.searchFor' => 'Lorg na leanas sna h-artaigealan',
+        'search.withinJournal' => 'Am broinn',
+        'search.allJournals' => 'A h-uile iris-leabhar',
+        'search.authorIndex' => 'Rùraich clàr-amais nan ùghdar',
+        'search.authorDetails' => 'Mion-fhiosrachadh mun ùghdar',
+        'search.syntaxInstructions' => 'Gliocasan luirg:<ul>
+<li>Chan eil aire do litrichean mòra ’s beaga ann am faclan-luirg
+</li>
+<li>Thèid faclan cumanta a leigeil seachad
+</li>
+<li>A ghnàth, cha tèid ach artaigealan a thilleadh a tha <em>gach</em> facal-luirg sa cheist aca (sin e, thathar a’ tuigsinn dheth gu bheil <em>AND</em> eatarra)
+</li>
+<li>Dèan lorg le iomadh facal le <em>OR</em> eatarra airson artaigealan anns a bheil co-dhiù aonan dhiubh; m.e. <em>foghlam OR rannsachadh</em>
+</li>
+<li>Cleachd eadar-ràdhan airson ceistean nas toinnte a chruthachadh; m.e. <em>tasg-lann ((iris-leabhar OR co-labhairt) NOT teusas)</em>
+</li>
+<li>Lorg abairt phongail le bhith ga chur eadar comharran-labhairt; m.e. <em>"foillseachadh le inntrigeadh fosgailte"</em>
+</li>
+<li>Dùin facal às le bhith a’ cur <strong>-</strong> no <em>NOT</em> air a bheulaibh; m.e. <em>air loidhne -poileataigs</em> no <em>air loidhne NOT poileataigs</em>
+</li>
+<li>Cleachd <strong>*</strong> ann am facal mar shaorag a ghabhas àite sreath charactaran sam bith; m.e. <em>moraltachd sòis*</em> airson sgrìobhainnean anns a bheil “sòiseo-eòlach” no “sòisealtais” a’ nochdadh</li>
+</ul>',
+        'article.pageTitle' => 'A’ coimhead air {$title}',
+        'article.pdf.title' => 'Portable Document Format (PDF)',
+        'article.download' => 'Luchdaich a-nuas am faidhle PDF seo',
+        'article.pluginMissing' => '<p>Thèid am faidhle PDF agad a luchdadh an-seo fhèin mar is trice ma tha plugan leughadair PDF aig a’ bhrabhsair-lìn agad (mar eisimpleir, tionndadh ùr de <a href="https://get.adobe.com/reader/">Adobe Acrobat Reader</a>).</p>',
+        'article.nonpdf.title' => 'Luchdadh a-nuas an artaigil',
+        'article.nonpdf.note' => 'Thèid am faidhle a thagh thu a luchdadh a-nuas gu fèin-obrachail a ghnàth. Mur an dèan e sin, briog air a’ cheangal gu h-ìosal. Thoir an aire gum feum thu prògram no plugan sònraichte mus fhaic thu am faidhle seo ma dh’fhaoidte.<br /><br />Mur an tèid am faidhle a luchdadh a-nuas gu fèin-obrachail, <a href="{$url}">briog an-seo</a>.',
+        'site.journalsHosted' => 'Iris-leabhraichean air òstaireachd na làraich seo',
+        'site.journalView' => 'Seall an t-iris-leabhar',
+        'site.journalRegister' => 'Clàraich',
+        'site.journalCurrent' => 'An iris làithreach',
+        'site.noJournals' => 'Chan eil iris-leabhraichean ri fhaighinn.',
+        'current.current' => 'An tè làithreach',
+        'current.noCurrentIssue' => 'Chan eil iris làithreach ann',
+        'current.noCurrentIssueDesc' => 'Cha do dh’fhoillsich an t-iris-leabhar seo iris sam bith gu ruige seo.',
+        'archive.archives' => 'Na tasg-lannan',
+        'archive.archivesPageNumber' => 'Na tasg-lannan – Duilleag {$pageNumber}',
+        'archive.browse' => 'Rùraich na seann irisean',
+        'archive.issueUnavailable' => 'Chan eil an iris seo ri làimh',
+        'about.statistics' => 'Stats',
+        'about.aboutContext' => 'Mun iris-leabhar',
+        'about.history' => 'Eachdraidh an iris-leabhair',
+        'about.editorialTeam' => 'An sgioba deasachaidh',
+        'about.editorialTeam.biography' => 'Beatha-eachdraidh',
+        'about.editorialPolicies' => 'Poileasaidhean deasachaidh',
+        'about.focusAndScope' => 'Fòcas is sgòp',
+        'about.sectionPolicies' => 'Poileasaidhean nan earrannan',
+        'about.submissions' => 'Tagraidhean',
+        'about.onlineSubmissions.login' => 'Clàraich a-steach',
+        'about.onlineSubmissions.register' => 'Clàraich',
+        'about.onlineSubmissions.registrationRequired' => '{$login} no {$register} a dhèanamh tagradh.',
+        'about.onlineSubmissions.submissionActions' => '{$newSubmission} no {$viewSubmissions}.',
+        'about.onlineSubmissions.submitToSection' => 'Dèan tagradh ùr dhan earrann <a href="{$url}">{$name}</a>.',
+        'about.onlineSubmissions.newSubmission' => 'Dèan tagradh ùr',
+        'about.onlineSubmissions.viewSubmissions' => 'coimhead air na tagraidhean agad a tha ri dhèiligeadh',
+        'about.authorGuidelines' => 'Riaghailtean dha na h-ùghdaran',
+        'about.submissionPreparationChecklist' => 'Liosta-chromagan ullachadh an tagraidh',
+        'about.submissionPreparationChecklist.description' => 'Mar phàirt dhen phròiseas tagraidh, bidh aig na h-ùghdaran cromag a chur ris na nithean a leanas air fad a dh’innse gu bheil an tagradh aca a’ gèilleadh ri gach aon dhiubh agus mur eil tagradh a’ gèilleadh ris na riaghailtean seo, dh’fhaoidte gun tèid a thilleadh dha na h-ùghdaran.',
+        'about.copyrightNotice' => 'Brath na còrach-lethbhreac',
+        'about.privacyStatement' => 'An aithris prìobhaideachd',
+        'about.authorFees' => 'Tàillean ùghdair',
+        'about.authorFeesMessage' => 'Iarraidh an t-iris-leabhar seo na tàillean a leanas air ùghdaran.',
+        'about.peerReviewProcess' => 'Pròiseas nan lèirmheas le seise',
+        'about.publicationFrequency' => 'Tricead an fhoillseachaidh',
+        'about.openAccessPolicy' => 'Poileasaidh an inntrigidh fhosgailte',
+        'about.delayedOpenAccess' => 'Inntrigeadh fosgailte le dàil',
+        'about.delayedOpenAccessDescription1' => 'Bidh inntrigeadh fosgailte do shusbaint an iris-leabhair seo',
+        'about.delayedOpenAccessDescription2' => 'mìos(an) an dèidh foillseachadh de dh’iris.',
+        'about.archiving' => 'Tasglannadh',
+        'about.subscriptions' => 'Fo-sgrìobhaidhean',
+        'about.subscriptions.individual' => 'Fo-sgrìobhaidhean daoine fa leth',
+        'about.subscriptions.institutional' => 'Fo-sgrìobhaidhean institiuide',
+        'about.subscriptionsContact' => 'Neach-conaltraidh nam fo-sgrìobhadh',
+        'about.subscriptionTypes.name' => 'Ainm',
+        'about.subscriptionTypes.format' => 'Fòrmat',
+        'about.subscriptionTypes.duration' => 'Faid',
+        'about.subscriptionTypes.cost' => 'Cosgais',
+        'about.availableSubscriptionTypes' => 'Seòrsaichean de dh’fho-sgrìobhaidhean',
+        'about.memberships' => 'Ballrachdan',
+        'about.aboutThisPublishingSystem' => 'Barrachd fiosrachaidh mu na siostaman foillseachaidh, mun ùrlar agus sruth-obrach le OJS/PKP.',
+        'about.aboutThisPublishingSystem.altText' => 'Pròiseas foillseachadh is deasachadh OJS',
+        'about.aboutSoftware' => 'Mu Open Journal Systems',
+        'about.aboutOJSJournal' => 'Tha an t-iris-leabhar seo a’ cleachdadh Open Journal Systems {$ojsVersion}, bathar-bog le còd fosgailte airson stiùireadh iris-leabhraichean is foillseachadh, le taic a’ Public Knowledge Project agus ga sgaoileadh gu saor fo cheadachas coitcheann poblach GNU. Tadhail air làrach-lìn PKP airson <a href="http://pkp.sfu.ca/">barrachd fiosrachaidh mun bhathar-bhog</a>. <a href="{$contactUrl}">Cuir fios chun an iris-leabhair fhèin</a> ma tha ceist agad mun iris-leabhar agus tagraidhean dhan iris-leabhar.',
+        'about.aboutOJSSite' => 'Tha an làrach seo a’ cleachdadh Open Journal Systems {$ojsVersion}, bathar-bog le còd fosgailte airson stiùireadh iris-leabhraichean is foillseachadh, le taic a’ <a href="http://pkp.sfu.ca/">Public Knowledge Project</a> agus ga sgaoileadh gu saor fo cheadachas coitcheann poblach GNU.',
+        'help.ojsHelp' => 'Cobhair Open Journal Systems',
+        'help.ojsHelpAbbrev' => 'Cobhair OJS',
+        'help.searchReturnResults' => 'Till gu toraidhean an luirg',
+        'help.goToEditPage' => 'Deasaich {$sectionTitle}',
+        'donations.thankYou' => 'Mòran taing',
+        'donations.thankYouMessage' => 'Mòran taing airson taic a chumail rinn.  Tha sinn fada nad chomain.',
+        'payment.loginRequired' => 'Feumaidh tu a bhith clàraichte a-staigh mus urrainn dhut pàigheadh a dhèanamh.',
+        'payment.loginRequired.forArticle' => 'Feumaidh tu artaigeal a cheannach no fo-sgrìobhadh a bhith agad mus fhaigh thu cothrom air an nì seo. A dhearbhadh gu bheil fo-sgrìobhadh agad, a dh’fhaighinn cothrom air na cheannaich no roimhe no airson artaigeal a cheannach, clàraich a-steach dhan iris-leabhar.',
+        'payment.loginRequired.forIssue' => 'Feumaidh tu iris a cheannach no fo-sgrìobhadh a bhith agad mus fhaigh thu cothrom air an nì seo. A dhearbhadh gu bheil fo-sgrìobhadh agad, a dh’fhaighinn cothrom air na cheannaich no roimhe no airson iris a cheannach, clàraich a-steach dhan iris-leabhar.',
+        'payment.loginRequired.forDonation' => 'Feumaidh tu a bhith clàraichte a-staigh mus urrainn dhut tabhartas a thoirt.',
+        'payment.paid' => 'Air a phàigheadh',
+        'payment.payNow' => 'Pàigh an-dràsta',
+        'payment.waive' => 'Leig seachad',
+        'payment.alreadyPaid' => 'Air a phàigheadh mu thràth',
+        'payment.alreadyPaidMessage' => 'Cuir cromag sa bhogsa seo ma phàigh thu an t-iris-leabhar mu thràth airson pròiseas an tagraidh a choileanadh.  Cha dèanar lèirmheas air an tagradh gus an ruig am pàigheadh.  Briog air “Pàigh an-dràsta” gu h-àrd is gheibh thu stiùireadh mu na dòighean air am pàigh thu air a shon.',
+        'payment.paymentReceived' => 'Fhuaras am pàigheadh',
+        'payment.paymentSent' => 'Chaidh a phàigheadh mu thràth',
+        'payment.authorFees' => 'Tàillean ùghdair',
+        'payment.type.submission' => 'Tàille tagraidh',
+        'payment.type.publication' => 'Tàille foillseachaidh',
+        'payment.type.publication.required' => 'Tha an tàille foillseachaidh ri phàigheadh.',
+        'payment.type.fastTrack' => 'Tàille airson grad-lèirmheas',
+        'payment.type.membership' => 'Tàille ballrachd neach fa leth',
+        'payment.type.purchaseArticle' => 'Tàille airson artaigeal a cheannach',
+        'payment.type.purchaseIssue' => 'Tàille airson iris a cheannach',
+        'payment.type.subscription' => 'Tàille fo-sgrìobhaidh',
+        'payment.type.donation' => 'Tabhartasan',
+        'payment.requestPublicationFee' => 'Iarr tàille foillseachaidh ({$feeAmount})',
+        'payment.notFound' => 'Chaidh pàigheadh iarraidh ach dh’fhalbh an ùine air an iarrtas. Cuir fios gu manaidsear an iris-leabhair airson mion-fhiosrachadh.',
+        'payment.donation.makeDonation' => 'Thoir tabhartas',
+        'payment.submission.paySubmission' => 'Pàigh tàille tagraidh',
+        'payment.publication.payPublication' => 'Pàigh airson foillseachadh',
+        'payment.publication.publicationPaid' => 'Tàille foillseachaidh air a phàigheadh',
+        'payment.membership.buyMembership' => 'Ceannaich ballrachd neach fa leth',
+        'payment.membership.renewMembership' => 'Ath-nuadhaich a’ bhallrachd neach fa leth',
+        'payment.membership.ends' => 'A’ crìochnachadh',
+        'payment.subscription.purchase' => 'Ceannaich fo-sgrìobhaidh',
+        'payment.subscription.renew' => 'Ath-nuadhaich am fo-sgrìobhadh',
+        'payment.subscription.expires' => 'Falbhaidh an ùine air',
+        'installer.appInstallation' => 'Stàladh OJS',
+        'installer.ojsUpgrade' => 'Àrdachadh OJS',
+        'installer.installationInstructions' => '<h4>Tionndadh OJS {$version}</h4>
+
+<p>Mòran taing airson <strong>Open Journal Systems</strong> aig a’ Public Knowledge Project a luchdadh a-nuas.
+Mus lean thu air adhart, leugh am faidhle <a href="{$baseUrl}/docs/README.md">README</a> a tha ga ghabhail a-staigh leis a’ bhathar-bhog seo.
+Airson barrachd fiosrachaidh mun Public Knowledge Project agus na pròiseactan bathair-bhog aca, tadhail air <a href="http://pkp.sfu.ca/" target="_blank">làrach-lìn PKP</a>.
+Ma tha thu airson aithris a dhèanamh aig buga no ma tha ceist agad mu Open Journal Systems, faic am <a href="http://forum.pkp.sfu.ca" target="_blank">fòram taice</a> no tadhail air an t-siostam aig PKP airson <a href="https://github.com/pkp/pkp-lib#issues" target="_blank">aithris a dhèanamh aig bugaichean</a>.
+Ge b’ fheàrr leinn cluinntinn o dhaoine slighe an fhòraim, ’s urrainn dhut post-d a chur chun an sgioba cuideachd <a href="mailto:pkp.contact@gmail.com">pkp.contact@gmail.com</a>.</p>
+
+<h4>Àrdachadh</h4>
+
+<p>Ma tha thu ag àrdachadh stàladh làithreach de OJS, <a href="{$upgradeUrl}">briog an-seo</a> a leantainn air adhart.</p>
+
+<h4>Riatanasan an t-siostaim a mholamaid</h4>
+
+<ul>
+	<li><a href="http://www.php.net/" target="_blank">PHP</a> >= {$phpRequiredVersion}; ’s e PHP {$phpVersion}{$wrongPhpText} a tha agad an-dràsta
+</li>
+	<li><a href="http://www.mysql.com/" target="_blank">MySQL</a> >= 4.1 no <a href="http://www.postgresql.org/" target="_blank">PostgreSQL</a> >= 9.1.5
+</li>
+	<li><a href="http://httpd.apache.org/" target="_blank">Apache</a> >= 1.3.2x no >= 2.0.4x no Microsoft IIS 6
+</li>
+	<li>Siostam-obrachaidh:
+OS sam bith a chuireas taic ris a’ bhathar-bhog gu h-àrd, a’ gabhail a-staigh <a href="http://www.linux.org/" target="_blank">Linux</a>, <a href="http://www.bsd.org/" target="_blank">BSD</a>, <a href="http://www.oracle.com/sun/" target="_blank">Solaris</a>, <a href="http://www.apple.com/" target="_blank">Mac OS X</a>, <a href="http://www.microsoft.com/">Windows</a>
+</li>
+</ul>
+
+<p>Leis nach eil de mhaoineachadh aig PKP gach co-measgachadh de bhathar-bog agus ùrlar a chur fo dheuchainn, chan urrainn dhuinn barantas sam bith a thoirt gun obraich e mar bu chòir no gum bi taic airson gach co-measgachadh.</p>
+
+<p>Gabhaidh na roghainnean seo a chur air gleus an dèidh an stàlaidh le bhith a’ deasachadh an fhaidhle <tt>config.inc.php</tt> sa bhun-phasgan OJS no slighe eadar-aghaidh lìn airson rianachd na làraich.</p>
+
+<h4>Siostam stòr-dàta ris a bheil taic</h4>
+
+<p>Cha deach OJS a chur fo dheuchainn gu ruige seo ach air MySQL agus PostgreSQL, ach dh’fhaoidte gun obraich siostam stiùireadh stòr-dàta eile ma tha taic <a href="http://adodb.sourceforge.net/" target="_blank">ADOdb</a> riutha (gu ìre no gu tur).
+Faodar aithisgean air co-chòrdalachd agus/no brèidean còd airson DBMS eile a chur gu sgioba OJS.</p>
+',
+        'installer.preInstallationInstructions' => '
+<h4>Ceuman ron stàladh</h4>
+
+
+<p>1. Feumaidh tu na faidhlichean is pasganan a leans (agus an t-susbaint annta) a dhèanamh so-sgrìobhte:</p>
+<ul>
+	<li>Tha <tt>config.inc.php</tt> so-sgrìobhte (roghainneil):
+{$writable_config}
+</li>
+	<li>Tha <tt>public/</tt> so-sgrìobhte:
+{$writable_public}
+</li>
+	<li>Tha <tt>cache/</tt> so-sgrìobhte:
+{$writable_cache}
+</li>
+	<li>Tha <tt>cache/t_cache/</tt> so-sgrìobhte:
+{$writable_templates_cache}
+</li>
+	<li>Tha <tt>cache/t_compile/</tt> so-sgrìobhte:
+{$writable_templates_compile}
+</li>
+	<li>Tha <tt>cache/_db</tt> so-sgrìobhte:
+{$writable_db_cache}
+</li>
+</ul>
+
+<p>2. Feumaidh tu pasgan a chruthachadh far an cumar na faidhlichean a thèid a luchdadh suas agus feumaidh e a bhith so-sgrìobhte (faic “Roghainnean faidhle” gu h-ìosal.</p>',
+        'installer.upgradeInstructions' => '<h4>Tionndadh OJS {$version}</h4>
+
+<p>Mòran taing airson <strong>Open Journal Systems</strong> aig a’ Public Knowledge Project a luchdadh a-nuas.
+Mus lean thu air adhart, leugh na faidhlichean <a href="{$baseUrl}/docs/README.md">README</a> agus <a href="{$baseUrl}/docs/UPGRADE.md">UPGRADE</a> a tha gan gabhail a-staigh leis a’ bhathar-bhog seo.
+Airson barrachd fiosrachaidh mun Public Knowledge Project agus na pròiseactan bathair-bhog aca, tadhail air <a href="http://pkp.sfu.ca/" target="_blank">làrach-lìn PKP</a>.
+Ma tha thu airson aithris a dhèanamh aig buga no ma tha ceist agad mu Open Journal Systems, faic am <a href="http://forum.pkp.sfu.ca" target="_blank">fòram taice</a> no tadhail air an t-siostam aig PKP airson <a href="https://github.com/pkp/pkp-lib#issues" target="_blank">aithris a dhèanamh aig bugaichean</a>.
+Ge b’ fheàrr leinn cluinntinn o dhaoine slighe an fhòraim, ’s urrainn dhut post-d a chur chun an sgioba cuideachd aig <a href="mailto:pkp.contact@gmail.com">pkp.contact@gmail.com</a>.</p>
+<p><strong>Mholamaid dhut gu mòr</strong> gun dèan thu lethbhreac-glèidhidh dhen stòr-dàta, pasgan nam faidhlichean agus pasgan stàladh OJS agad mus lean thu air adhart.</p>
+<p>Ma tha thu a’ ruith <a href="http://www.php.net/features.safe-mode" target="_blank">sa mhodh sàbhailte PHP</a>, dèan cinnteach gu bheil crìoch àrd aig steòrnadh max_execution_time san fhaidhle rèiteachaidh php.ini agad.
+Ma ruigear a’ chrìoch-ama seo no tè sam bith eile (m.e. an steòrnadh “Timeout” aig Apache) agus ma bhriseas sin a-steach air an àrdachadh, bidh agad ris a chur ceart de làimh.</p>',
+        'installer.localeSettingsInstructions' => 'Airson làn-taic Unicode (UTF-8), tagh UTF-8 airson gach roghainn a thaobh nan seataichean charactaran.
+Thoir an aire gum bi agad ri PHP a thrusadh le taic airson leabhar-lann <a href="http://www.php.net/mbstring" target="_blank">mbstring</a> (rud a bhios an comas a ghnàth anns gach stàladh PHP o chionn greis).
+Dh’fhaoidte gum bi duilgheadasas agad le seataichean charactaran sònraichte mur eil am frithealaiche agad a’ coileanadh nan riatanasan seo.
+<br /><br />
+Tha taic aig an fhrithealaiche agad ri mbstring: <strong>{$supportsMBString}</strong>',
+        'installer.allowFileUploads' => 'Tha am frithealaiche agad a’ ceadachadh luchdadh suas de dh’fhaidhlichean aig an àm seo: <strong>{$allowFileUploads}</strong>',
+        'installer.maxFileUploadSize' => 'Tha am frithealaiche agad a’ ceadachadh luchdadh suas de dh’fhaidhlichean suas chun a’ mheud a leanas aig an àm seo: <strong>{$maxFileUploadSize}</strong>',
+        'installer.localeInstructions' => 'Am prìomh-chànan a chleachdas an siostam seo. Thoir sùil air an stiùireadh airson OJS ma tha cànan a dhìth ort nach fhaic thu an-seo.',
+        'installer.filesDirInstructions' => 'Cuir a-steach ainm slàn na slighe gu pasgan làithreach far an tèid na faidhlichean a chumail a thèid a luchdadh suas. Cha bu chòir dha a bhith na phasgan a ruigear calg-dhìreach on lìon. <strong>Dèan cinnteach gu bheil am pasgan seo ann agus gun gabh sgrìobhadh ann mus tòisich thu air an stàladh.</strong> Bu chòir do shlaisichean air adhart a bhith ann an ainmean slighean Windows, m.e. "C:/myjournal/faidhlichean".',
+        'installer.databaseSettingsInstructions' => 'Feumaidh OJS cothrom air stòr-dàta SQL far an cùm e an dàta aige. Faic riatanasan an t-siostaim gu h-àrd airson liosta nan stòr-dàta ris a bheil taic. Cuir na roghainnean a thèid a chleachdadh airson ceangal a dhèanamh ris an stòr-dàta sna raointean gu h-ìosal.',
+        'installer.installApplication' => 'Stàlaich Open Journal Systems',
+        'installer.upgradeApplication' => 'Àrdaich Open Journal Systems',
+        'installer.reinstallAfterDatabaseError' => '<strong>Rabhadh:</strong> Ma dh’fhàilligeas an stàladh letheach slighe tro stàladh an stòir-dhàta, dh’fhaoidte gum bi agad ris an stòr-dàta OJS no clàran an stòir-dhàta a sguabadh às mus nì thu oidhirp eile air an stòr-dàta a stàladh.',
+        'installer.overwriteConfigFileInstructions' => '<h4>CUDROMACH!</h4>
+<p>Cha b’ urrainn dhan stàlaichear sgrìobhadh thairis air an fhaidhle rèiteachaidh.
+Mus cleachd thu an siostam, fosgail <tt>config.inc.php</tt> ann an deasaiche teacsa iomchaidh agus cuir na tha san raon teacsa gu h-ìosal an àite na susbaint ann.</p>',
+        'installer.installationComplete' => '<p>Chaidh OJS a stàladh.</p>
+<p>Airson tòiseachadh leis an t-siostam, <a href="{$loginUrl}">clàraich a-steach</a> leis an ainm-chleachdaiche is facal-faire a chuir thu a-steach air an duilleag roimhpe.</p>
+<p>Ma tha thu airson pàirt a ghabhail ann an coimhearsnachd PKP,</p>
+<ol>
+	<li>Leugh <a href="http://pkp.sfu.ca/blog" target="_new">bloga PKP</a> agus lean ris an <a href="http://pkp.sfu.ca/blog/feed" target="_new">inbhir RSS</a> airson naidheachd is ùrachaidhean.
+</li>
+	<li>Tadhail air an <a href="http://forum.pkp.sfu.ca" target="_new">fhòram taice</a> ma tha ceist no beachd sam bith agad.</li>
+</ol>',
+        'installer.upgradeComplete' => '<p>Chaidh tionndadh {$version} de OJS a stàladh.</p>
+<p>Na dìochuimhnich an roghainn “stàlaichte” a chur gu <em>Air</em> a-rithist san fhaidhle rèiteachaidh config.inc.php agad.</p>
+<p>Mur eil thu air clàradh agus ma tha thu ag iarraidh naidheachdan is ùrachaidhean fhaighinn, <strong>dèan clàradh aig<a href="http://pkp.sfu.ca/ojs/register" target="_new">http://pkp.sfu.ca/ojs/register</a>.</strong> Ma tha ceistean no beachdan agad mu dhèidhinn, tadhail air an <a href="http://forum.pkp.sfu.ca" target="_new">fhòram taice</a>.</p>',
+        'site.upgradeAvailable.admin' => 'Tha tionndadh ùr de OJS ri fhaighinn! ’S e tionndadh {$currentVersion} de OJS a tha agad an-dràsta. ’S e {$latestVersion} an tionndadh as ùire de OJS. Tadhail air <a href="http://pkp.sfu.ca/ojs_download" target="_new">an duilleag seo</a> a luchdadh a-nuas an tionndaidh as ùire agus airson stiùireadh mun àrdachadh.',
+        'site.upgradeAvailable.manager' => 'Tha tionndadh ùr de OJS ri fhaighinn! ’S e tionndadh {$currentVersion} de OJS a tha agad an-dràsta. ’S e {$latestVersion} an tionndadh as ùire de OJS. Cuir fios gu rianaire na làraich agad, ({$siteAdminName}, <a href="mailto:{$siteAdminEmail}">{$siteAdminEmail}</a>) is innis dhaibh gu bheil tionndadh ùr ga sgaoileadh. Gheibh thu barrachd fiosrachaidh <a href="http://pkp.sfu.ca/ojs_download" target="_new">an-seo</a>.',
+        'log.author.documentRevised' => 'Rinn {$authorName} lèirmheas air an artaigeal {$submissionId}. ’S e {$fileId} ID ùr an fhaidhle.',
+        'log.review.reviewerUnassigned' => 'Chaidh {$reviewerName} a thoirt air falbh o lèirmheas an tagraidh {$submissionId} mu choinneamh cuairt {$round} dhen lèirmheas.',
+        'log.review.reviewInitiated' => 'Thòiseachadh air lèirmheas cuairt {$round} le {$reviewerName} mu choinneamh an tagraidh {$submissionId}.',
+        'log.review.reviewerRated' => 'Chaidh {$userName} a rangachadh a thaobh cuairt {$round} dhen tagradh {$submissionId}.',
+        'log.review.reviewDueDateSet' => 'Chaidh {$dueDate} a shuidheachadh le {$reviewerName} mar cheann-là lìbhrigidh airson lèirmheas cuairt {$round} dhen tagradh {$submissionId}.',
+        'log.review.reviewRecommendationSet' => 'Chaidh am moladh airson lèirmheas cuairt {$round} dhen tagradh {$submissionId} le {$reviewerName} a shuidheachadh.',
+        'log.review.reviewRecommendationSetByProxy' => 'Chaidh am moladh airson cuairt {$round} dhen tagradh {$submissionId} a shuidheachadh leis an deasaiche, {$editorName}, às leth an lèirmheasaiche, {$reviewerName}.',
+        'log.review.resubmit' => 'Chaidh an tagradh {$submissionId} a chur airson ath-lèirmheas.',
+        'log.review.reviewDeclined' => 'Dhiùlt {$userName} lèirmheas cuairt {$round} mu choinneamh tagradh {$submissionId}.',
+        'log.review.reviewAccepted' => 'Ghabh {$reviewerName} ri lèirmheas cuairt {$round} mu choinneamh tagraidh {$submissionId}.',
+        'log.review.reviewDeclinedByProxy' => 'Dhiùlt {$userName} lèirmheas cuairt {$round} mu choinneamh tagradh {$submissionId} às leth {$reviewerName}.',
+        'log.review.reviewAcceptedByProxy' => 'Ghabh {$userName} ri lèirmheas cuairt {$round} mu choinneamh tagradh {$submissionId} às leth {$reviewerName}.',
+        'log.review.reviewFileByProxy' => 'Luchdaich an deasaiche, {$userName}, suas faidhle lèirmheis airson cuairt {$round} dhen tagradh {$submissionId} às leth an lèirmheasaiche, {$reviewerName}.',
+        'log.review.reviewerFile' => 'Chaidh faidhle lèirmheasaiche a luchdadh suas.',
+        'log.editor.decision' => 'Chaidh co-dhùnadh le deasaiche ({$decision}) mu choinneamh an artaigil {$submissionId} a chlàradh le {$editorName}.',
+        'log.editor.recommendation' => 'Chaidh moladh le deasaiche ({$decision}) mu choinneamh an artaigil {$submissionId} a chlàradh le {$editorName}.',
+        'log.copyedit.initiate' => 'Thòisich {$copyeditorName} air grinn-deasachadh an tagraidh {$submissionId}.',
+        'log.copyedit.copyeditFileSet' => 'Chaidh faidhle bunaiteach a’ ghrinn-deasachaidh a thaghadh.',
+        'log.copyedit.initialEditComplete' => 'Choilean {$copyeditorName} an grinn-deasachadh tòiseachail dhen tagradh {$submissionId}.',
+        'log.copyedit.finalEditComplete' => 'Choilean {$copyeditorName} an grinn-deasachadh deireannach dhen tagradh {$submissionId}.',
+        'log.copyedit.copyeditorAssigned' => 'Chaidh {$copyeditorName} iomruineadh dhan tagradh {$submissionId} mar ghrinn-deasaiche.',
+        'log.copyedit.copyeditorFile' => 'Chaidh tionndadh grinn-deasaiche de dh’fhaidhle an tagraidh a luchdadh suas.',
+        'log.copyedit.authorFile' => 'Chaidh tionndadh de dh’fhaidhle an tagraidh a ghrinn-deasaich an t-ùghdar a luchdadh suas.',
+        'log.layout.layoutEditorAssigned' => 'Chaidh {$editorName} iomruineadh dhan tagradh {$submissionId} mar dheasaiche na co-dhealbhachd.',
+        'log.layout.layoutEditorUnassigned' => 'Chaidh {$editorName} a thoirt air falbh on tagradh {$submissionId} mar dheasaiche na co-dhealbhachd.',
+        'log.layout.layoutEditComplete' => 'Choilean {$editorName} deasachadh na co-dhealbhachd san tagradh {$submissionId}.',
+        'log.editor.metadataModified' => 'Chaidh meata-dàta an artaigil seo atharrachadh le {$editorName}.',
+        'log.editor.editorFile' => 'Chaidh tionndadh deasaiche de dh’fhaidhle an tagraidh a luchdadh suas.',
+        'log.editor.archived' => 'Chaidh an tagradh {$submissionId} a chur dhan tasg-lann.',
+        'log.editor.restored' => 'Chaidh an tagradh {$submissionId} aiseag dhan chiutha.',
+        'log.editor.editorAssigned' => 'Chaidh {$editorName} iomruineadh dhan tagradh {$submissionId} mar dheasaiche.',
+        'log.proofread.assign' => 'Dh’iomruin {$assignerName} {$proofreaderName} airson dearbh-leughadh a dhèanamh air an tagradh {$submissionId}.',
+        'log.proofread.complete' => 'Chuir {$proofreaderName} {$submissionId} airson sgeidealachadh.',
+        'log.imported' => 'Thug {$userName} a-steach an t-artaigeal {$submissionId}.',
+        'metadata.pkp.peerReviewed' => 'Artaigeal air a lèirmheas le seise',
+        'notification.type.editing' => 'Tachartasan deasachaidh',
+        'notification.type.submissionSubmitted' => 'Chaidh artaigeal ùr, “{$title}”, a chur.',
+        'notification.type.editorDecisionComment' => 'Chaidh beachd a thoirt seachad air co-dhùnadh an deasaiche mu choinneamh “{$title}.”',
+        'notification.type.galleyModified' => 'Chaidh mòr-dhuilleag airson “{$title}” atharrachadh.',
+        'notification.type.issuePublished' => 'Chaidh iris fhoillseachadh.',
+        'notification.type.newAnnouncement' => 'Chaidh fios-naidheachd ùr a chruthachadh.',
+        'notification.type.reviewerFormComment' => 'Chaidh lèirmheas air foirm lèirmheis a chur mu choinneamh “{$title}.”',
+        'notification.type.reviewing' => 'Lèirmheasadh thachartasan',
+        'notification.type.site' => 'Tachartasan na làraich',
+        'notification.type.submissionComment' => 'Thug deasaiche seachad beachd air “{$title}.”',
+        'notification.type.submissions' => 'Tachartas tagraidh',
+        'notification.type.userComment' => 'Thug leughadair seachad beachd air “{$title}”',
+        'notification.type.public' => 'Fiosan-naidheachd poblach',
+        'notification.savedIssueMetadata' => 'Chaidh meata-dàta foillseachadh na h-irise a shàbhaladh.',
+        'notification.type.editorAssignmentTask' => 'Chaidh artaigeal ùr a chur agus tha e feumach air deasaiche.',
+        'notification.type.assignProductionUser' => 'Tagh cleachdaiche airson mòr-dhuilleagan a chruthachadh leis a’ cheangal “Iomruin” ann an liosta nan com-pàirtichean.',
+        'notification.type.awaitingRepresentations' => 'A’ feitheamh ris na mòr-dhuilleagan.',
+        'user.authorization.copyeditorAssignmentMissing' => 'Chaidh inntrigeadh a dhiùltadh! Cha deach d’ iomruineadh mar ghrinn-deasaiche an artaigil seo.',
+        'user.authorization.noContext' => 'Chan eil iris-leabhar sa cho-theacsa!',
+        'user.authorization.sectionAssignment' => 'Tha thu a’ feuchainn ri cothrom fhaighinn air artaigeal nach eil na phàirt dhen earrann agad-sa.',
+        'user.authorization.invalidIssue' => 'Chaidh iris mhì-dhligheach iarraidh!',
+        'user.authorization.invalidCopyditorSubmission' => 'Bha tagradh a’ ghrinn-deasaiche mì-dhligheach no cha deach tagradh grinn-deasaiche iarraidh!',
+        'grid.action.createContext' => 'Cruthaich iris-leabhar ùr',
+        'editor.navigation.issues' => 'Irisean',
+        'notification.type.approveSubmission' => 'Tha an tagradh seo a’ feitheamh ri aonta fhathast agus nochdaidh e san iris an uairsin.',
+        'notification.type.approveSubmissionTitle' => 'A’ feitheamh ri aonta.',
+        'user.profile.form.showOtherContexts' => 'Clàraich aig iris-leabhraichean eile',
+        'user.profile.form.hideOtherContexts' => 'Falaich na h-iris-leabhraichean eile',
+        'article.view.interstitial' => 'Tagh faidhle artaigil airson a luchdadh a-nuas.',
+        'grid.catalogEntry.availableRepresentation.approved' => 'Air aontachadh',
+        'grid.catalogEntry.availableRepresentation.notApproved' => 'A’ feitheamh ri aonta',
+        'grid.catalogEntry.approvedRepresentation.title' => 'Aonta a’ ghailearaidh',
+        'grid.catalogEntry.approvedRepresentation.message' => '<p>Thoir aonta foillseachaidh dhan ghailearaidh seo.</p>',
+        'grid.catalogEntry.approvedRepresentation.removeMessage' => '<p>Thoir an t-aonta air falbh on ghailearaidh seo.</p>',
+        'search.cli.rebuildIndex.indexing' => 'Ag inneacsadh “{$journalName}”',
+        'search.cli.rebuildIndex.indexingByJournalNotSupported' => 'Chan eil an gleus luirg seo a’ ceadachadh ath inneacsadh iris-leabhar air iris-leabhar.',
+        'search.cli.rebuildIndex.unknownJournal' => 'Cha robh an t-slighe “{$journalPath}” a thugadh seachad a’ dol gu iris-leabhar.',
+        'editor.issues.backIssues' => 'Seann irisean',
+        'editor.issues.futureIssues' => 'Irisean ri thighinn',
+        'navigation.subscriptions' => 'Fo-sgrìobhaidhean',
+        'log.editor.submissionExpedited' => 'Ghabh {$editorName} am pròiseas deasachaidh airson an artaigil {$submissionId} os làimh.',
+        'catalog.sortBy' => 'Òrdugh nan artaigeal',
+        'catalog.sortBy.categoryDescription' => 'Tagh òrdugh dha na h-artaigealan san roinn-seòrsa seo.',
+        'mailable.subscriptionNotify.description' => 'Tha am post-d seo ag innse do leughadair aig a bheil ùidh gun do chruthaich am manaidsear fo-sgrìobhadh dhaibh. Tha e a’ toirt seachad URL an iris-leabhair agus stiùireadh mu dhèidhinn inntrigidh.',
+        'mailable.subscriptionExpiresSoon.description' => 'Innsidh am post-d seo do dh’fho-sgrìobhaiche gum falbh an ùine air an fho-sgrìobhadh aca a dh’aithghearr. Tha e a’ toirt seachad URL an iris-leabhair agus stiùireadh mu dhèidhinn inntrigidh.',
+        'mailable.subscriptionExpired.description' => 'Innsidh am post-d seo do dh’fho-sgrìobhaiche gun do dh’fhalbh an ùine air an fho-sgrìobhadh aca. Tha e a’ toirt seachad URL an iris-leabhair agus stiùireadh mu dhèidhinn inntrigidh.',
+        'mailable.subscriptionExpiredLast.description' => 'Innsidh am post-d seo do dh’fho-sgrìobhaiche gun do dh’fhalbh an ùine air an fho-sgrìobhadh aca. Tha e a’ toirt seachad URL an iris-leabhair agus stiùireadh mu dhèidhinn inntrigidh.',
+        'mailable.subscriptionPurchaseIndividual.description' => 'Innsidh am post-d seo do manaidsear an fho-sgrìobhaidh gun deach fo-sgrìobhadh institiuide a cheannach air loidhne. Bheir e seachad geàrr-chunntas mun fho-sgrìobhadh agus ceangal a bheir grad-inntrigeadh dhan fho-sgrìobhadh a chaidh a cheannach.',
+        'mailable.subscriptionPurchaseInstitutional.description' => 'Innsidh am post-d seo do manaidsear an fho-sgrìobhaidh gun deach fo-sgrìobhadh institiuide a cheannach air loidhne. Bheir e seachad geàrr-chunntas mun fho-sgrìobhadh agus ceangal a bheir grad-inntrigeadh dhan fho-sgrìobhadh a chaidh a cheannach.',
+        'mailable.subscriptionRenewIndividual.description' => 'Innsidh am post-d seo do manaidsear an fho- daoine fa leth gun deach fo-sgrìobhadh neach fa leth ath-nuadhachadh air loidhne. Bheir e seachad geàrr-chunntas mun fho-sgrìobhadh agus ceangal a bheir grad-inntrigeadh dhan fho-sgrìobhadh ath-nuadhaichte.',
+        'mailable.subscriptionRenewInstitutional.description' => 'Innsidh am post-d seo do manaidsear an fho-sgrìobhaidh gun deach fo-sgrìobhadh institiuide ath-nuadhachadh air loidhne. Bheir e seachad geàrr-chunntas mun fho-sgrìobhadh agus ceangal a bheir grad-inntrigeadh dhan fho-sgrìobhadh ath-nuadhaichte.',
+        'mailable.openAccessNotify.description' => 'Thèid am post-d seo a chur gu leughadairean clàraichte a dh’iarr brath air a’ phost-d nuair a bhios iris ri fhaighinn gu saor.',
+        'submission.submit.userGroup' => 'Cuir e ’s mi nam dhreuchd a leanas…',
+        'submission.upload.selectComponent' => 'Tagh co-phàirt artaigil',
+        'submission.title' => 'Tiotal an artaigil',
+        'submission.title.tip' => 'Mar is trice, ’s e “dealbh”, “teacsa” an seòrsa de thagradh no seòrsa eile de mheadhan, a’ gabhail a-staigh “bathar-bog” no “rud eadar-ghnìomhach”.  Tagh am fear as iomchaidhe dhan tagradh agad. Gheibh thu buill-eisimpleir aig <a target="_blank" href="http://dublincore.org/documents/2001/04/12/usageguide/generic.shtml#type">http://dublincore.org/documents/2001/04/12/usageguide/generic.shtml#type</a>',
+        'submission.submit.newSubmissionMultiple' => 'Tòisich air tagradh ùr ann an',
+        'submission.submit.newSubmissionSingle' => 'Tagradh ùr',
+        'grid.action.workflow' => 'Sruth-obrach an tagraidh',
+        'submission.abstract.wordCount.description' => 'Feumaidh an geàrr-chunntas a bhith uiread a dh’fhaclan a dh’ fhaid no nas giorra: {$wordCount}.',
+        'submission.submit.noContext' => 'Cha b’ urrainn dhuinn iris-leabhar an tagraidh seo a lorg.',
+        'submission.issueEntry' => 'Meata-dàta',
+        'submission.submit.whatNext.description' => 'Chaidh fios mun tagradh agad a chur chun an iris-leabhair agus chaidh post-d a chur thugad a dhearbhas gun d’fhuair iad e. Turas a rinn an lèirmheasaiche lèirmheas air an tagradh, cuiridh iad fios thugad.',
+        'grid.action.galleyInIssueEntry' => 'Tha a’ mhòr-dhuilleag a’ nochdadh ann an innteart na h-irise',
+        'grid.action.issueEntry' => 'Faic meata-dàta an tagraidh seo',
+        'submission.event.articleGalleyMadeAvailable' => 'Chaidh mòr-dhuilleag an artaigil “{$galleyFormatName}” a chur ri làimh.',
+        'submission.event.articleGalleyMadeUnavailable' => 'Chan eil mòr-dhuilleag an artaigil “{$galleyFormatName}” ri làimh tuilleadh.',
+        'submission.event.publicIdentifiers' => 'Chaidh aithnichearan poblach an tagraidh seo ùrachadh.',
+        'grid.issueEntry.availableGalley.title' => 'Aonta an fhòrmait',
+        'grid.issueEntry.availableGalley.removeMessage' => '<p><em>Cha bhi</em> a’ mhòr-dhuilleag seo ri làimh an luchd-leughaidh.</p>',
+        'grid.issueEntry.availableGalley.message' => '<p><em>Bidh</em> a’ mhòr-dhuilleag seo ri làimh an luchd-leughaidh.</p>',
+        'grid.action.availableArticleGalley' => 'Cuir a’ mhòr-dhuilleag seo ri làimh',
+        'submission.galleyFiles' => 'Faidhlichean nam mòr-dhuilleag',
+        'submission.proofReadingDescription' => 'Luchdaichidh deasaiche na co-dhealbhachd suas na faidhlichean a chaidh ullachadh airson foillseachadh agus a tha deiseil airson saothrachadh an-seo. Cleachd <em>Iomruin neach-sgrùdaidh</em> a thaghadh nan ùghdaran is daoine eile a nì dearbh-leughadh air na mòr-dhuilleagan. Thèid na faidhlichean ceartaichte a luchdadh suas airson aontachadh ron fhoillseachadh.',
+        'grid.action.approveProof' => 'Thoir aonta dhan tionndadh dearbhaidh seo airson a ghabhail a-staigh sa mhòr-dhuilleag.',
+        'grid.action.pageProofApproved' => 'Fhuair an tionndadh dearbhaidh seo aonta agus thèid a ghabhail a-staigh sa mhòr-dhuilleag.',
+        'submission.submit.titleAndSummary' => 'An tiotal is geàrr-chunntas',
+        'submission.submit.upload.description' => 'Luchdaich suas na faidhlichean a tha co-cheangailte ris an tagradh seo, a’ gabhail a-staigh an artaigil, na meadhanan, seataichean dàta, obair-ealain is msaa.',
+        'submission.pageProofs' => 'Dearbh-leughadh',
+        'workflow.review.externalReview' => 'Lèirmheas',
+        'submission.event.issueMetadataUpdated' => 'Chaidh am meata-dàta tagraidh aig an iris ùrachadh.',
+        'submission.upload.fileContents' => 'Co-phàirt an artaigil',
+        'submission.complete' => 'Air aontachadh',
+        'submission.incomplete' => 'A’ feitheamh ri aonta',
+        'submission.submit.submissionChecklist' => 'Liosta-chromagan an tagraidh',
+        'submission.submit.privacyStatement' => 'An aithris prìobhaideachd',
+        'submission.submit.contributorRole' => 'Dreuchd neach-pàirteachaidh',
+        'submission.citationFormat.notFound' => 'Cha b’ urrainn dhuinn t-iomradh a dh’iarr thu fhaighinn san fhòrmat sin.',
+        'submission.metadataDescription' => 'Tha na riatanasan seo stèidhichte air seata meata-dàta Dublin Core, stannard eadar-nàiseanta airson tuairisgeul a thoirt air susbaint iris-leabhraichean.',
+        'section.any' => 'Earrann sam bith',
+        'submission.sectionOptions' => 'Roghainnean na h-earrainn',
+        'catalog.browseTitles' => 'Nithean ({$numTitles})',
+        'catalog.category.heading' => 'A h-uile nì',
+        'galley.editPublishedDisabled' => 'Cha ghabh mòr-dhuilleagan an fhoillseachaidh seo a dheasachadh a chionn ’s gun deach fhoillseachadh mu thràth.',
+        'galley.publicationNotFound' => 'Cha b’ urrainn dhuinn am foillseachadh dhen mhòr-dhuilleag seo a lorg.',
+        'publication.assignToissue' => 'Iomruin do dh’iris',
+        'publication.datePublished.description' => 'Thèid ceann-là an fhoillseachaidh a shuidheachadh gu fèin-obrachail nuair a thèid an iris fhoillseachadh. Na cuir a-steach ceann-là foillsichidh ach ma chaidh an t-artaigeal fhoillseachadh roimhe seo am badeigin eile agus ma tha feum agad air seann cheann-là a chur air.',
+        'publication.invalidSection' => 'Cha b’ urrainn dhuinn an earrann dhen fhoillseachadh seo a lorg.',
+        'publication.inactiveSection' => '{$section} (Neo-ghnìomhach)',
+        'publication.invalidIssue' => 'Cha b’ urrainn dhuinn an iris dhen fhoillseachadh seo a lorg.',
+        'publication.publish.confirmation' => 'Chaidh gach riatanas foillseachaidh a choileanadh. A bheil thu cinnteach gu bheil thu airson seo fhoillseachadh?',
+        'publication.publish.confirmation.futureIssue' => 'Chaidh gach riatanas foillseachaidh a choileanadh. Thèid seo fhoillseachadh nuair a thig {$issue} a-mach. A bheil thu cinnteach gu bheil thu airson seo a chur air an sgeideal airson foillseachadh?',
+        'publication.publish.confirmation.backIssue' => 'Chaidh gach riatanas foillseachaidh a choileanadh. Thèid seo fhoillseachadh sa bhad ann an {$issue}. A bheil thu cinnteach gu bheil thu airson seo fhoillseachadh?',
+        'publication.publish.confirmation.datePublishedInPast' => 'Chaidh gach riatanas foillseachaidh a choileanadh. Leis gun deach {$datePublished} a shuidheachadh mar cheann-là foillseachaidh, thèid fhoillseachadh sa bhad. A bheil thu cinnteach gu bheil thu airson seo fhoillseachadh?',
+        'publication.required.issue' => 'Feumar am foillseachadh iomruineadh do dh’iris mus gabh fhoillseachadh.',
+        'publication.publishedIn' => 'Air fhoillseachadh ann an <a href="{$issueUrl}">{$issueName}</a>.',
+        'publication.scheduledIn' => 'Gu bhith fhoillseachadh ann an <a href="{$issueUrl}">{$issueName}</a>.',
+        'publication.unscheduledIn' => 'Cha deach seo a chur air an sgeideal airson foillseachadh fhathast.',
+        'publication.selectIssue' => 'Tagh iris airson a chur air an sgeideal airson foillseachadh',
+        'submission.submit.form.authorRequired' => 'Tha feum air co-dhiù aon ùghdar.',
+        'submission.submit.form.titleRequired' => 'Cuir a-steach tiotal an artaigil seo.',
+        'submission.submit.form.abstractRequired' => 'Cuir a-steach geàrr-chunntas an artaigil agad.',
+        'submission.submit.form.wordCountAlert' => 'Tha an geàrr-chunntas agad ro fhada. Dèan nas giorra e gus an gèill e ri crìoch nam faclan aig an earrann seo.',
+        'submission.submit.form.contributorRoleRequired' => 'Tagh dreuchd neach-pàirteachaidh.',
+        'emails.passwordResetConfirm.subject' => 'Dearbhadh ath-shuidheachadh an fhacail-fhaire',
+        'emails.passwordResetConfirm.body' => 'Fhuair sinn iarrtas am facal-faire agad airson na làraich-lìn {$siteTitle} ath-shuidheachadh.<br />
+<br />
+Mur an do dh’iarr thusa seo, leig seachad am post-d agus agus cha tèid am facal-faire agad atharrachadh. Ma tha thu airson am facal-faire agad ath-shuidheachadh, briog air an URL gu h-ìosal.<br />
+<br />
+Ath-shuidhich am facal-faire agam: {$passwordResetUrl}<br />
+<br />
+{$siteContactName}',
+        'emails.userRegister.subject' => 'Clàradh iris-leabhair',
+        'emails.userRegister.body' => '{$recipientName}<br />
+<br />
+Tha thu làn-chlàraichte mar neach-cleachdaidh aig {$contextName} a-nis. Tha an t-ainm-cleachdaiche agus facal-faire agad sa phost-d seo agus feumaidh tu seo airson eadar-ghabhail a dhèanamh leis an iris-leabhar seo air an làrach-lìn aige. ’S urrainn dhut iarraidh orm do thoirt air falbh o liosta luchd-cleachdaidh an iris-leabhair uair sam bith.<br />
+<br />
+Ainm-cleachdaiche: {$recipientUsername}<br />
+Facal-faire: {$password}<br />
+<br />
+Mòran taing,<br />
+{$signature}',
+        'emails.userValidateContext.subject' => 'Dearbhadh a’ chunntais agad',
+        'emails.userValidateContext.body' => '{$recipientName}<br />
+<br />
+Chruthaich thu cunntas aig {$contextName} ach feumaidh sinn an cunntas puist-d agad a dhearbhadh mus urrainn dhut a chleachdadh. Cha leig thu leas ach an ceangal gu h-ìosal a leantainn airson a dhearbhadh:<br />
+<br />
+{$activateUrl}<br />
+<br />
+Mòran taing,<br />
+{$contextSignature}',
+        'emails.reviewerRegister.subject' => 'Clàradh mar lèirmheasaiche aig {$contextName}',
+        'emails.reviewerRegister.body' => 'Leis na tha de dh’eòlas agad, bha sinn cho dàna ’s gun do chlàraich sinn d’ ainm ann an stòr-dàta nan lèirmheasaichean airson {$contextName}. Chan eil dleastanas sam bith ag èirigh riut ri linn sin, cha dèan e ach cothrom a thoirt dhuinne faighneachd dhìot am biodh ùidh agad ann an lèirmheas tagraidh. Ma gheibh thu cuireadh, chì thu tiotal is geàrr-chunntas a’ phàipeir agus is urrainn dhut gabhail ris no a dhiùltadh mar a thogras tu. ’S urrainn dhut iarraidh oirnn uair sam bith d’ ainm a thoirt air falbh o liosta nan lèirmheasaichean cuideachd.<br />
+<br />
+Tha sinn a’ toirt dhut ainm-cleachdaiche agus facal-faire a dh’fheumas tu airson eadar-ghabhail a dhèanamh leis an iris-leabhar air an làrach-lìn aca. Dh’fhaoidte gum b’ fheàirrde dhut a’ phròifil agad ùrachadh agus innse dè na cuspairean sa bheil ùidh agad a thaobh lèirmheasan mar eisimpleir.<br />
+<br />
+Ainm-cleachdaiche: {$recipientUsername}<br />
+Facal-faire: {$password}<br />
+<br />
+Mòran taing,<br />
+{$signature}',
+        'emails.issuePublishNotify.subject' => 'Iris ùr air fhoillseachadh',
+        'emails.issuePublishNotify.body' => 'Leughadairean:<br />
+<br />
+Tha {$contextName} dìreach air iris ùr fhoillseachadh aig {$contextUrl}. Tha sinn a’ cur fàilte ort sùil a thoirt air a’ chlàr-innse an-seo agus a thadhal air an làrach-lìn againn an uairsin airson sùil a thoirt air artaigealan is rudan eile a dh’fhaodadh a bhith inntinneach dhut.<br />
+<br />
+Mòran taing airson sìor ùidh a nochdadh nar n-obair,<br />
+{$signature}',
+        'emails.editorAssign.subject' => 'Iomruineadh deasachaidh',
+        'emails.editorAssign.body' => '{$recipientName}:<br />
+<br />
+Chaidh an tagradh “{$submissionTitle}” airson {$contextName} iomruineadh dhut airson a stiùireadh tron phròiseas deasachaidh ’s tu nad dheasaiche earrainn.<br />
+<br />
+URL an tagraidh: {$submissionUrl}<br />
+Ainm-cleachdaiche: {$recipientUsername}<br />
+<br />
+Mòran taing.',
+        'emails.reviewRequest.subject' => 'Iarrtas airson lèirmheas artaigil',
+        'emails.reviewRequest.body' => '{$recipientName}:<br />
+<br />
+Tha mi a’ creidsinn gum biodh tu fìor mhath mar lèirmheasaiche airson na sgrìobhainn “{$submissionTitle}” a chaidh a chur gu {$contextName}. Tha geàrr-chunntas an tagraidh gu h-ìosal agus bhiomaid fada nad chomain nam b’ urrainn dhut an obair chudromach seo a dhèanamh dhuinn.<br />
+<br />
+Clàraich a-steach gu làrach-lìn an iris-leabhair ron {$responseDueDate} a dh’innse an dèan thu an lèirmheas seo gus nach dèan agus a dh’fhaighinn cothrom air an tagradh agus a chlàradh do lèirmheis is do mholaidhean. ’S e {$contextUrl} an làrach-lìn<br />
+<br />
+Bidh an lèirmheas fhèin ri lìbhrigeadh {$reviewDueDate}.<br />
+<br />
+Mur eil am facal-faire is ainm-cleachdaiche agad airson làrach-lìn an iris-leabhair, ’s urrainn dhut am facal-faire agad ath-shuidheachadh leis a’ cheangal seo agus thèid a chur thugad air a’ phost-d an uairsin còmhla ris an ainm-chleachdaiche agad. {$passwordLostUrl}<br />
+<br />
+URL an tagraidh: {$reviewAssignmentUrl}<br />
+<br />
+Mòran taing airson an t-iarrtas seo a thoirt fa-near.<br />
+<br />
+{$signature}<br />
+<br />
+“{$submissionTitle}”<br />
+<br />
+{$submissionAbstract}',
+        'emails.reviewResponseOverdueAuto.subject' => 'Iarrtas airson lèirmheas artaigil',
+        'emails.reviewResponseOverdueAuto.body' => '{$recipientName}:<br />
+Dìreach cuimhneachan beag gun deach iarraidh ort lèirmheas a dhèanamh air an tagradh “{$submissionTitle},” airson {$contextName}. Bha sinn an dòchas cluinntinn uat ron {$responseDueDate} agus chaidh am post-d seo a chur gu fèin-obrachail leis gu bheil sinn seachad air a’ cheann-là ud a-nis.
+<br />
+Tha mi a’ creidsinn gum biodh tu fìor mhath mar lèirmheasaiche airson na sgrìobhainn. Tha geàrr-chunntas an tagraidh gu h-ìosal agus bhiomaid fada nad chomain nam b’ urrainn dhut an obair chudromach seo a dhèanamh dhuinn.<br />
+<br />
+Clàraich a-steach gu làrach-lìn an iris-leabhair a dh’innse an dèan thu an lèirmheas seo gus nach dèan agus a dh’fhaighinn cothrom air an tagradh agus a chlàradh do lèirmheis is do mholaidhean. ’S e {$contextUrl} an làrach-lìn<br />
+<br />
+Bidh an lèirmheas fhèin ri lìbhrigeadh {$reviewDueDate}.<br />
+<br />
+Mur eil am facal-faire is ainm-cleachdaiche agad airson làrach-lìn an iris-leabhair, ’s urrainn dhut am facal-faire agad ath-shuidheachadh leis a’ cheangal seo agus thèid a chur thugad air a’ phost-d an uairsin còmhla ris an ainm-chleachdaiche agad. {$passwordLostUrl}<br />
+<br />
+URL an tagraidh: {$reviewAssignmentUrl}<br />
+<br />
+Mòran taing airson an t-iarrtas seo a thoirt fa-near.<br />
+<br />
+{$contextSignature}<br />
+<br />
+“{$submissionTitle}”<br />
+<br />
+{$submissionAbstract}',
+        'emails.reviewRequestSubsequent.subject' => 'Iarrtas airson lèirmheas artaigil',
+        'emails.reviewRequestSubsequent.body' => '{$recipientName}:<br />
+<br />
+Tha seo mu dhèidhinn na sgrìobhainn “{$submissionTitle}” a tha {$contextName} a’ cnuasachadh.<br />
+<br />
+Ri linn lèirmheis air an tionndadh roimhe dhen sgrìobhainn, chuir na h-ùghdaran tionndadh lèirmheaste dhen phàipear aca thugainn. Bhiomaid fada nad chomain nam b’ urrainn dhut sgrùdadh a dhèanamh air còmhla rinn.<br />
+<br />
+Clàraich a-steach gu làrach-lìn an iris-leabhair ron {$responseDueDate} a dh’innse an dèan thu an lèirmheas seo gus nach dèan agus a dh’fhaighinn cothrom air an tagradh agus a chlàradh do lèirmheis is do mholaidhean. ’S e {$contextUrl} an làrach-lìn<br />
+<br />
+Bidh an lèirmheas fhèin ri lìbhrigeadh {$reviewDueDate}.<br />
+<br />
+Mur eil am facal-faire is ainm-cleachdaiche agad airson làrach-lìn an iris-leabhair, ’s urrainn dhut am facal-faire agad ath-shuidheachadh leis a’ cheangal seo agus thèid a chur thugad air a’ phost-d an uairsin còmhla ris an ainm-chleachdaiche agad. {$passwordLostUrl}<br />
+<br />
+URL an tagraidh: {$reviewAssignmentUrl}<br />
+<br />
+Mòran taing airson an t-iarrtas seo a thoirt fa-near.<br />
+<br />
+{$signature}<br />
+<br />
+“{$submissionTitle}”<br />
+<br />
+{$submissionAbstract}',
+        'emails.reviewCancel.subject' => 'Iarrtas airson lèirmheas air a chur gu neoini',
+        'emails.reviewCancel.body' => '{$recipientName}:<br />
+<br />
+Cho-dhùin sinn an lèirmheas air an tagradh “{$submissionTitle},” airson {$contextName}, a dh’iarr sinn ort a chur gu neoini. Tha sinn duilich ma chuireas seo fo mhì-ghoireas thu idir agus tha sinn an dòchas gum bi thu deònach fhathast taic a chumail ri obair lèirmheis airson an iris-leabhair seo san àm ri teachd.<br />
+<br />
+Ma tha ceist sam bith agad, cuir fios thugam.',
+        'emails.reviewReinstate.subject' => 'Iarrtas airson lèirmheas air a chur beò às ùr',
+        'emails.reviewReinstate.body' => '{$recipientName}:<br />
+<br />
+Bu toil leinn an lèirmheas air an tagradh “{$submissionTitle},” airson {$contextName}, a dh’iarr sinn ort a chur beò a-rithist. Tha sinn an dòchas gun urrainn dhut ar cuideachdadh leis an lèirmheas airson an iris-leabhair.<br />
+<br />
+Ma tha ceist sam bith agad, cuir fios thugam.',
+        'emails.reviewDecline.subject' => 'Cha bhi e comasach lèirmheas a dhèanamh air',
+        'emails.reviewDecline.body' => 'Deasaichean:<br />
+<br />
+Tha eagal orm nach urrainn dhomh lèirmheas a dhèanamh air an tagradh “{$submissionTitle},” airson {$contextName} aig an àm seo. Mòran taing airson an cothrom seo a thoirt dhomh agus tha fàilte romhaibh a leithid iarraidh orm uair sam bith.<br />
+<br />
+{$senderName}',
+        'emails.reviewRemind.subject' => 'Cuimhneachan mu lèirmheas tagraidh',
+        'emails.reviewRemind.body' => '{$recipientName}:<br />
+<br />
+Dìreach cuimhneachan beag gun deach iarraidh ort lèirmheas a dhèanamh air an tagradh “{$submissionTitle},” airson {$contextName}. Bha sinn an dòchas an lèirmheas seo a choileanadh ro {$reviewDueDate} agus bhiomaid fada nad chomain nam b’ urrainn dhut a chur thugainn cho luath ’s a ghabhas.<br />
+<br />
+Mur eil am facal-faire is ainm-cleachdaiche agad airson làrach-lìn an iris-leabhair, ’s urrainn dhut am facal-faire agad ath-shuidheachadh leis a’ cheangal seo agus thèid a chur thugad air a’ phost-d an uairsin còmhla ris an ainm-chleachdaiche agad. {$passwordLostUrl}<br />
+<br />
+URL an tagraidh: {$reviewAssignmentUrl}<br />
+<br />
+Saoil am b’ urrainn dhut fios a leigeil thugainn am b’ urrainn dhut an obair chudromach seo a dhèanamh airson an iris-leabhair fhathast? Tha mi an dòchas cluinntinn uat.<br />
+<br />
+{$signature}',
+        'emails.reviewRemindAuto.subject' => 'Cuimhneachan fèin-obrachail mu lèirmheas tagraidh',
+        'emails.reviewRemindAuto.body' => '{$recipientName}:<br />
+<br />
+Dìreach cuimhneachan beag gun deach iarraidh ort lèirmheas a dhèanamh air an tagradh “{$submissionTitle},” airson {$contextName}. Bha sinn an dòchas an lèirmheas seo a choileanadh ro {$reviewDueDate} agus chaidh am post-d seo a chur gu fèin-obrachail leis gu bheil sinn seachad air a’ cheann-là ud a-nis. Bhiomaid fada nad chomain nam b’ urrainn dhut a chur thugainn fhathast cho luath ’s a ghabhas.<br />
+<br />
+Mur eil am facal-faire is ainm-cleachdaiche agad airson làrach-lìn an iris-leabhair, ’s urrainn dhut am facal-faire agad ath-shuidheachadh leis a’ cheangal seo agus thèid a chur thugad air a’ phost-d an uairsin còmhla ris an ainm-chleachdaiche agad. {$passwordLostUrl}<br />
+<br />
+URL an tagraidh: {$reviewAssignmentUrl}<br />
+<br />
+Saoil am b’ urrainn dhut fios a leigeil thugainn am b’ urrainn dhut an obair chudromach seo a dhèanamh airson an iris-leabhair fhathast? Tha mi an dòchas cluinntinn uat.<br />
+<br />
+{$contextSignature}',
+        'emails.editorDecisionAccept.subject' => 'Co-dhùnadh deasaiche',
+        'emails.editorDecisionAccept.body' => '{$authors}:<br />
+<br />
+Thàinig sinn gu co-dhùnadh a thaobh an tagraidh agad gu {$contextName}, “{$submissionTitle}”.<br />
+<br />
+Cho-dhùin sinn Gabh ris an tagradh',
+        'emails.layoutRequest.subject' => 'Iarr na mòr-dhuilleagan',
+        'emails.layoutRequest.body' => '{$recipientName}:<br />
+<br />
+Tha an tagradh “{$submissionTitle}” airson {$contextName} feumach air obair co-dhealbhachd air na mòr-dhuilleagan a rèir nan ceuman a leanas.<br />
+1. Briog air URL an tagraidh gu h-ìosal.<br />
+2. Clàraich a-steach dhan iris-leabhar agus cleachd na faidhlichean a tha deiseil airson saothrachadh airson mòr-dhuilleagan a chruthachadh a rèir riaghailtean an iris-leabhair.<br />
+3. Luchdaich na mòr-dhuilleagan suas gu earrann faidhlichean nam mòr-dhuilleag.<br />
+4. Cuir fios chun an deasaiche gun deach na mhòr-dhuilleaganan a luchdadh suas is deiseil slighe nan deasbadan saothrachaidh.<br />
+<br />
+URL {$contextName}: {$contextUrl}<br />
+URL an tagraidh: {$submissionUrl}<br />
+Ainm-cleachdaiche: {$recipientUsername}<br />
+<br />
+Mur urrainn dhut an obair seo a dhèanamh an-dràsta fhèin no ma tha ceist sam bith agad, cuir fios thugam. Mòran taing airson taic a chumail ris an iris-leabhar seo.',
+        'emails.layoutComplete.subject' => 'Tha na mòr-dhuilleagan deiseil',
+        'emails.layoutComplete.body' => '{$recipientName}:<br />
+<br />
+Chaidh na mòr-dhuilleagan a dheasachadh airson na sgrìobhainn a-nis, “{$submissionTitle},” airson {$contextName} agus tha iad deiseil airson dearbh-leughadh.<br />
+<br />
+Ma tha ceist sam bith agad, cuir fios thugam.<br />
+<br />
+{$senderName}',
+        'emails.emailLink.subject' => 'Artaigeal sam bi ùidh ma dh’fhaoidte',
+        'emails.emailLink.body' => 'Shaoil leam gum biodh ùigh agad ann an “{$submissionTitle}” le {$authors} a chaidh fhoillseachadh ann an leabhar {$volume}, àireamh {$number} ({$year}) de {$contextName} aig “{$submissionUrl}”.',
+        'emails.emailLink.description' => 'Tha an teamplaid puist-d seo a’ toirt cothrom do leughadair clàraichte fiosrachadh mu dhèidhinn artaigil a chur do chuideigin aig am bi ùidh ann ma dh’fhaoidte. Tha e ri fhaighinn slighe nan innealan leughaidh agus feumaidh manaidsearan an iris-leabhair a chur an comas air duilleag rianachd nan innealan leughaidh.',
+        'emails.subscriptionNotify.subject' => 'Brath mu fho-sgrìobhadh',
+        'emails.subscriptionNotify.body' => '{$recipientName}:<br />
+<br />
+Chaidh do chlàradh mar fho-sgrìobhaiche aig siostam stiùireadh an iris-leabhair againn airson {$contextName} fon fho-sgrìobhadh a leanas:<br />
+<br />
+{$subscriptionType}<br />
+<br />
+Airson cothrom fhaighinn air susbaint nach fhaigh ach daoine le fo-sgrìobhadh, clàraich a-steach dhan t-siostam leis an ainm-chleachdaiche agad, “{$recipientUsername}”.<br />
+<br />
+Turas a chlàraich thu a-steach dhan t-siostam, is urrainn dhut mion-fhiosrachadh na pròifil agus am facal-faire agad atharrachadh uair sam bith.<br />
+<br />
+Thoir an aire nach fheum luchd-cleachdaidh san institiuid agad clàradh a-steach mas e fo-sgrìobhadh institiuide a tha agaibh oir thèid iarrtasan airson susbaint fo-sgrìobhaidh a dhearbhadh gu fèin-obrachail leis an t-siostam.<br />
+<br />
+Ma tha ceist sam bith agad, cuir fios thugam.<br />
+<br />
+{$subscriptionSignature}',
+        'emails.openAccessNotify.subject' => 'Tha inntrigeadh fosgailte dhan iris a-nis',
+        'emails.openAccessNotify.body' => 'Leughadairean:<br />
+<br />
+Tha {$contextName} dìreach air an iris a leanas a chur ri làimh gu saor. Tha sinn a’ cur fàilte ort sùil a thoirt air a’ chlàr-innse an-seo agus a thadhal air an làrach-lìn againn ({$contextUrl}) an uairsin airson sùil a thoirt air artaigealan is rudan eile a dh’fhaodadh a bhith inntinneach dhut.<br />
+<br />
+Mòran taing airson sìor ùidh a nochdadh nar n-obair,<br />
+{$contextSignature}',
+        'emails.subscriptionBeforeExpiry.subject' => 'Rabhadh gum falbh an ùine air fo-sgrìobhadh',
+        'emails.subscriptionBeforeExpiry.body' => '{$recipientName}:<br />
+<br />
+Tha an ùine gu bhith falbh air an fho-sgrìobhadh agad dhe {$contextName}.<br />
+<br />
+{$subscriptionType}<br />
+Falbhaidh an ùine air: {$expiryDate}<br />
+<br />
+A dhèanamh cinnteach gum bi sìor chothrom agad air an iris-leabhar seo, tadhail air làrach-lìn an iris-leabhair agus ath-nuadhaich am fo-sgrìobhadh agad. ’S urrainn dhut clàradh a-steach dhan t-siostam leis an ainm-chleachdaiche agad, “{$recipientUsername}”.<br />
+<br />
+Ma tha ceist sam bith agad, cuir fios thugam.<br />
+<br />
+{$subscriptionSignature}',
+        'emails.subscriptionAfterExpiry.subject' => 'Dh\'fhalbh an ùine air an fho-sgrìobhadh',
+        'emails.subscriptionAfterExpiry.body' => '{$recipientName}:<br />
+<br />
+Dh’fhalbh an ùine air an fho-sgrìobhadh agad dhe {$contextName}.<br />
+<br />
+{$subscriptionType}<br />
+Falbhaidh an ùine air: {$expiryDate}<br />
+<br />
+Tadhail air làrach-lìn an iris-leabhair a dh’ath-nuadhachadh an fho-sgrìobhaidh agad. ’S urrainn dhut clàradh a-steach dhan t-siostan leis an ainm-chleachdaiche agad, “{$recipientUsername}”.<br />
+<br />
+Ma tha ceist sam bith agad, cuir fios thugam.<br />
+<br />
+{$subscriptionSignature}',
+        'emails.subscriptionAfterExpiryLast.subject' => 'Fo-sgrìobhadh air an do dh’fhalbh an ùine – Cuimhneachan mu dheireadh',
+        'emails.subscriptionAfterExpiryLast.body' => '{$recipientName}:<br />
+<br />
+Dh’fhalbh an ùine air an fho-sgrìobhadh agad dhe {$contextName}.<br />
+Thoir an aire gur e seo an cuimhneachan mu dheireadh a gheibh thu air a’ phost-d.<br />
+<br />
+{$subscriptionType}<br />
+Falbhaidh an ùine air: {$expiryDate}<br />
+<br />
+Tadhail air làrach-lìn an iris-leabhair a dh’ath-nuadhachadh an fho-sgrìobhaidh agad. ’S urrainn dhut clàradh a-steach dhan t-siostam leis an ainm-chleachdaiche agad, “{$recipientUsername}”.<br />
+<br />
+Ma tha ceist sam bith agad, cuir fios thugam.<br />
+<br />
+{$subscriptionSignature}',
+        'emails.subscriptionPurchaseIndl.subject' => 'Ceannach an fho-sgrìobhaidh: Fo-sgrìobhadh neach fa leth',
+        'emails.subscriptionPurchaseIndl.body' => 'Chaidh fo-sgrìobhadh neach fa leth a cheannach air loidhne airson {$contextName} leis a’ mhion-fhiosrachadh a leanas.<br />
+<br />
+Seòrsa an fho-sgrìobhaidh:<br />
+{$subscriptionType}<br />
+<br />
+An cleachdaiche:<br />
+{$subscriberDetails}<br />
+<br />
+Fiosrachadh na ballrachd (ma chaidh sin a thoirt seachad):<br />
+{$membership}<br />
+<br />
+Cleachd an URL a leanas a choimhead air an fho-sgrìobhadh seo no airson a dheasachadh.<br />
+<br />
+URL an fho-sgrìobhaidh: {$subscriptionUrl}<br/>
+',
+        'emails.subscriptionPurchaseInstl.subject' => 'Ceannach an fho-sgrìobhaidh: Fo-sgrìobhadh institiuide',
+        'emails.subscriptionPurchaseInstl.body' => 'Chaidh fo-sgrìobhadh institiuide a cheannach air loidhne airson {$contextName} leis a’ mhion-fhiosrachadh a leanas. Airson am fo-sgrìobhadh seo a chur an gnìomh, cleachd an URL fo-sgrìobhaidh a thug sinn dhut agus tagh “Gnìomhach” mar staid an fho-sgrìobhaidh.<br />
+<br />
+Seòrsa an fho-sgrìobhaidh:<br />
+{$subscriptionType}<br />
+<br />
+An institiuid:<br />
+{$institutionName}<br />
+{$institutionMailingAddress}<br />
+<br />
+An àrainn (ma chaidh sin a thoirt seachad):<br />
+{$domain}<br />
+<br />
+Na rainsean IP (ma chaidh iad a thoirt seachad):<br />
+{$ipRanges}<br />
+<br />
+Neach-conaltraidh:<br />
+{$subscriberDetails}<br />
+<br />
+Fiosrachadh na ballrachd (ma chaidh sin a thoirt seachad):<br />
+{$membership}<br />
+<br />
+Cleachd an URL a leanas a choimhead air an fho-sgrìobhadh seo no airson a dheasachadh.<br />
+<br />
+URL an fho-sgrìobhaidh: {$subscriptionUrl}<br/>
+',
+        'emails.subscriptionRenewIndl.subject' => 'Ath-nuadhachadh an fho-sgrìobhaidh: Fo-sgrìobhadh neach fa leth',
+        'emails.subscriptionRenewIndl.body' => 'Chaidh fo-sgrìobhadh neach fa leth ath-nuadhachadh air loidhne airson {$contextName} leis a’ mhion-fhiosrachadh a leanas.<br />
+<br />
+Seòrsa an fho-sgrìobhaidh:<br />
+{$subscriptionType}<br />
+<br />
+An cleachdaiche:<br />
+{$subscriberDetails}<br />
+<br />
+Fiosrachadh na ballrachd (ma chaidh sin a thoirt seachad):<br />
+{$membership}<br />
+<br />
+Cleachd an URL a leanas a choimhead air an fho-sgrìobhadh seo no airson a dheasachadh.<br />
+<br />
+URL an fho-sgrìobhaidh: {$subscriptionUrl}<br/>
+',
+        'emails.subscriptionRenewInstl.subject' => 'Ath-nuadhachadh an fho-sgrìobhaidh: Fo-sgrìobhadh institiuide',
+        'emails.subscriptionRenewInstl.body' => 'Chaidh fo-sgrìobhadh institiuide ath-nuadhachadh air loidhne airson {$contextName} leis a’ mhion-fhiosrachadh a leanas.<br />
+<br />
+Seòrsa an fho-sgrìobhaidh:<br />
+{$subscriptionType}<br />
+<br />
+An institiuid:<br />
+{$institutionName}<br />
+{$institutionMailingAddress}<br />
+<br />
+An àrainn (ma chaidh sin a thoirt seachad):<br />
+{$domain}<br />
+<br />
+Na rainsean IP (ma chaidh iad a thoirt seachad):<br />
+{$ipRanges}<br />
+<br />
+Neach-conaltraidh:<br />
+{$subscriberDetails}<br />
+<br />
+Fiosrachadh na ballrachd (ma chaidh sin a thoirt seachad):<br />
+{$membership}<br />
+<br />
+Cleachd an URL a leanas a choimhead air an fho-sgrìobhadh seo no airson a dheasachadh.<br />
+<br />
+URL an fho-sgrìobhaidh: {$subscriptionUrl}<br/>
+',
+        'emails.revisedVersionNotify.subject' => 'Chaidh tionndadh lèirmheaste a luchdadh suas',
+        'emails.revisedVersionNotify.body' => 'Deasaichean:<br />
+<br />
+Chaidh tionndadh lèirmheaste de &quot;{$submissionTitle}&quot; a luchdadh suas leis an ùghdar {$submitterName}.<br />
+<br />
+URL an tagraidh: {$submissionUrl}<br />
+<br />
+{$signature}',
+        'emails.statisticsReportNotification.subject' => 'Gnìomhachd deasachaidh sa mhìos seo: {$month} {$year}',
+        'emails.statisticsReportNotification.body' => '
+{$recipientName}, <br />
+<br />
+Tha aithisg slàinte an iris-leabhair agad sa mhìos seo ri fhaighinn a-nis: {$month} {$year}. Tha prìomh-stats a’ mhìos seo gu h-ìosal dhut.<br />
+<ul>
+	<li>Tagraidhean ùra am mìos seo: {$newSubmissions}</li>
+	<li>Tagraidhean a chaidh a dhiùltadh am mìos seo: {$declinedSubmissions}</li>
+	<li>Tagraidhean a chaidh gabhail riutha am mìos seo: {$acceptedSubmissions}</li>
+	<li>Tagraidhean san t-siostam uile gu lèir: {$totalSubmissions}</li>
+</ul>
+Clàraich a-steach dhan iris-leabhar airson barrachd fiosrachaidh mu na <a href="{$editorialStatsLink}">treandaichean deasachaidh</a> agus <a href="{$publicationStatsLink}">stats nan artaigealan a chaidh fhoillseachadh</a>. Tha lethbhreac slàn de threandaichean deasachaidh a’ mhìos seo an cois seo.<br />
+<br />
+Le deagh dhùrachd,<br />
+{$contextSignature}',
+        'emails.announcement.subject' => '{$announcementTitle}',
+        'emails.announcement.body' => '<b>{$announcementTitle}</b><br />
+<br />
+{$announcementSummary}<br />
+<br />
+Tadhail air an làrach-lìn againn is leugh <a href="{$announcementUrl}">am fios-naidheachd slàn</a>.',
+        'author.submit' => 'Tagradh ùr',
+        'author.track' => 'Tagraidhean gnìomhach',
+        'author.submit.submitArticle' => 'Cuir artaigeal',
+        'author.submit.stepsToSubmit' => 'Còig ceuman airson an tagradh a chur',
+        'author.submit.startHereTitle' => 'Tòisich air tagradh ùr',
+        'author.submit.startHereLink' => '<a href="{$submitUrl}" class="action">Briog an-seo</a> a thòiseachadh air ceum a h-aon (à còig) de chur an tagraidh.',
+        'author.submit.step1' => 'Ceum 1. A’ tòiseachadh air an tagradh',
+        'author.submit.step2' => 'Ceum 2. A’ luchdadh suas an tagraidh',
+        'author.submit.step3' => 'Ceum 3. A’ cur a-steach meata-dàta an tagraidh',
+        'author.submit.step4' => 'Ceum 4. A’ luchdadh suas nam faidhlichean foirlionaidh',
+        'author.submit.step4a' => 'Ceum 4a. Cuir faidhle foirlionaidh ris',
+        'author.submit.step5' => 'Ceum 5. A’ dearbhadh an tagraidh',
+        'author.submit.start' => 'Tòisich',
+        'author.submit.upload' => 'Luchdaich an tagradh suas',
+        'author.submit.metadata' => 'Cuir a-steach meata-dàta',
+        'author.submit.supplementaryFiles' => 'Luchdaich suas faidhlichean foirlionaidh',
+        'author.submit.nextSteps' => 'Na h-ath cheuman',
+        'author.submit.notAccepting' => 'Chan eil an iris seo a’ gabhail ri tagraidhean aig an àm seo.',
+        'author.submit.requestWaiver' => 'Iarr cur gu neoini na tàille',
+        'author.submit.qualifyForWaiver' => 'Tha sinn ag iarraidh gun cuirear an tàille airson an artaigil seo gu neoini',
+        'author.submit.addReasonsForWaiver' => 'Mìnich sa bhogsa gu h-ìosal carson a chuirte an tàille gu neoini.',
+        'author.submit.mustEnterWaiverReason' => 'Ma tha thu ag iarraidh gun tèid an tàille a chur gu neoini, feumaidh tu adhbhar a thoirt seachad san raon air a shon.',
+        'author.submissions.queuedReviewSubsequent' => 'Sa cuairt lèirmheis {$round}',
+        'author.submissions.queuedReviewRevisions' => 'Fo lèirmheas: Tha feum air ath-dheasachadh',
+        'author.submissions.queuedEditingCopyedit' => 'Fo dheasachadh: Chaidh grinn-deasachadh iarraidh',
+        'author.submissions.queuedEditingProofread' => 'Fo dheasachadh: Chaidh dearbh-leughadh iarraidh',
+        'author.submissions.uploadCopyeditedVersion' => 'Luchdaich suas tionndadh grinn-deasaichte',
+        'author.submissions.proofreadingCorrections' => 'Ceartachaidhean an dearbh-leughaidh',
+        'author.submissions.confirmDelete' => 'A bheil thu cinnteach gu bheil thu airson tagradh neo-choileanta seo a sguabadh às?',
+        'author.submissions.viewStatus' => 'Seall an staid',
+        'author.submissions.noSubmissions' => 'Chan eil tagradh ann.',
+        'author.submit.journalSection' => 'Earrann na h-irise',
+        'author.submit.journalSectionDescription' => 'Feumar artaigealan a chur a-null gu aon dhe na h-earrannan aig an iris.',
+        'author.submit.verifyChecklist' => 'Feumaidh tu dèanamh cinnteach gun do dhèilig thu ri gach rud air liosta an tagraidh mus lean thu air adhart.',
+        'author.submit.copyrightNoticeAgreeRequired' => 'Feumaidh tu gabhail ri brath na còrach-lethbhreac mus lean thu air adhart.',
+        'submission.submit.coverNote' => 'Beachdan dhan deasaiche',
+        'author.submit.comments' => 'Cuir teacsa a-steach (roghainneil)',
+        'author.submit.form.localeRequired' => 'Tagh cànan an tagraidh.',
+        'author.submit.reorderInstructions' => 'Cuir na h-ùghdaran air dòigh san òrdugh anns an nochd iad sa fhoillseachadh.',
+        'author.submit.reorder' => 'Atharraich òrdugh ainm nan ùghdar',
+        'author.submit.selectPrincipalContact' => 'Am prìomh neach-conaltraidh airson conaltradh deasachaidh.',
+        'author.submit.addAuthor' => 'Cuir ùghdar ris',
+        'author.submit.deleteAuthor' => 'Sguab an t-ùghdar às',
+        'author.submit.submissionIndexingDescription' => 'Thoir seachad teirmichean airson inneacsadh an tagraidh; cuir leth-chòilean eadar na teirmichean (teirm1; teirm2; teirm3).',
+        'author.submit.coverageInstructions' => 'Tha seo a’ buntainn ri ionad geò-spàsail, sìneadh ama no eachdraidheil agus/no na feartan aig a’ bhall-sampaill rannsachaidh.',
+        'author.submit.languageInstructions' => 'Beurla=en; Fraingis=fr; Spàinntis=es. <a href="http://www.loc.gov/standards/iso639-2/php/code_list.php" target="_blank">Còdaichean a bharrachd</a>.',
+        'author.submit.form.authorRequired' => 'Tha feum air co-dhiù aon ùghdar.',
+        'author.submit.form.authorRequiredFields' => 'Tha ainm, sloinneadh is post-d gach ùghdar riatanach.',
+        'author.submit.form.titleRequired' => 'Cuir a-steach tiotal an artaigil seo.',
+        'author.submit.form.abstractRequired' => 'Cuir a-steach geàrr-chunntas an artaigil agad.',
+        'author.submit.form.wordCountAlert' => 'Tha thu seachad air a’ chunntas fhaclan a tha ceadaichte airson geàrr-chunntasan ann an traca na h-earrainn seo.',
+        'author.submit.submissionFile' => 'Faidhle tagraidh',
+        'author.submit.uploadSubmissionFile' => 'Luchdaich suas faidhle tagraidh',
+        'author.submit.replaceSubmissionFile' => 'Cuir an àite an fhaidhle tagraidh',
+        'author.submit.noSubmissionFile' => 'Cha deach faidhle tagraidh a luchdadh suas.',
+        'author.submit.noSubmissionConfirm' => 'A bheil thu cinnteach gu bheil thu airson leantainn air adhart gun a bhith faidhle tagraidh a luchdadh suas?',
+        'author.submit.supplementaryFilesInstructions' => 'Bheir an ceum roghainneil seo comas do dhaoine faidhlichean foirlionaidh a chur ri tagradh. Dh’fhaoidte gum bi na leanas sna faidhlichean (a dh’fhaodadh a bhith ann am fòrmat sam bith): (a) ionnsramaidean rannsachaidh, (b) seataichean dàta a ghèilleas ri teirmichean lèirmheas beusalachd an rannsachaidh seo, (c) tùsan nach biodh ri làimh leughadairean air dòigh eile, (d) àireamhan is clàran nach gabh amalachadh san teacsa fhèin no stuthan eile a chuireas ris an obair.',
+        'author.submit.supplementaryFiles.saveToUpload' => 'Briog air “Sàbhail” airson am faidhle a luchdadh suas (gabhaidh faidhlichean a bharrachd a luchdadh suas an dèidh sin).',
+        'author.submit.forgottenSubmitSuppFile' => 'A bheil thu cinnteach gu bheil thu airson leantainn air adhart gun a bhith a’ luchdadh suas an fhaidhle fhoirlionaidh a thagh thu?',
+        'author.submit.noSupplementaryFiles' => 'Cha deach faidhle foirlionaidh sam bith a chur ris an tagradh seo.',
+        'author.submit.backToSupplementaryFiles' => 'Air ais chun nam faidhlichean foirlionaidh',
+        'author.submit.confirmDeleteSuppFile' => 'A bheil thu cinnteach gu bheil thu airson am faidhle foirlionaidh seo a sguabadh às?',
+        'author.submit.uploadSuppFile' => 'Luchdaich suas faidhle foirlionaidh',
+        'author.submit.addSupplementaryFile' => 'Cuir faidhle foirlionaidh ris',
+        'author.submit.editSupplementaryFile' => 'Deasaich faidhle foirlionaidh',
+        'author.submit.supplementaryFileData' => 'Meata-dàta an fhaidhle fhoirlionaidh',
+        'author.submit.supplementaryFileDataDescription' => 'Airson na stuthan foirlionaidh seo inneacsadh, thoir seachad am meata-dàta a leanas airson an fhaidhle fhoirlionaidh a luchdaich thu suas.',
+        'author.submit.supplementaryFileUpload' => 'Faidhle foirlionaidh',
+        'author.submit.suppFile.createrOrOwner' => 'Cruthadair (no sealbhadair) an fhaidhle',
+        'author.submit.suppFile.researchInstrument' => 'Ionnsramaid rannsachaidh',
+        'author.submit.suppFile.researchMaterials' => 'Stuthan rannsachaidh',
+        'author.submit.suppFile.researchResults' => 'Toraidhean rannsachaidh',
+        'author.submit.suppFile.transcripts' => 'Tar-sgrìobhaidhean',
+        'author.submit.suppFile.dataAnalysis' => 'Anailis dàta',
+        'author.submit.suppFile.dataSet' => 'Seata dàta',
+        'author.submit.suppFile.sourceText' => 'Teacsa tùsail',
+        'author.submit.suppFile.briefDescription' => 'Tuairisgeul goirid',
+        'author.submit.suppFile.availableToPeers' => 'Taisbean am faidhle dhan luchd-lèirmheis (as aonais meata-dàta), oir cha bhris e an lèirmheas dall.',
+        'author.submit.suppFile.publisherDescription' => 'Na cleachd seo ach mu choinneamh stuthan a chaidh fhoillseachadh gu foirmeil.',
+        'author.submit.suppFile.dateDescription' => 'Cuin a chaidh an dàta a chruinneachadh no an ionnsramaid a chruthachadh.',
+        'author.submit.suppFile.sourceDescription' => 'Ainm an rannsachaidh no tùs eile.',
+        'author.submit.suppFile.specifyOtherType' => 'Sònraich rud eile',
+        'author.submit.suppFile.noFile' => 'Cha deach faidhle a luchdadh suas.',
+        'author.submit.suppFile.form.titleRequired' => 'Cuir a-steach tiotal an fhaidhle fhoirlionaidh seo.',
+        'author.submit.suppFile.form.subjectRequired' => 'Cuir a-steach cuspair.',
+        'author.submit.suppFile.form.descriptionRequired' => 'Cuir a-steach tuairisgeul.',
+        'author.suppFile.suppFilePublicIdentificationExists' => 'Tha an t-aithnichear poblach seo aig faidhle foirlionaidh eile mu thràth.',
+        'author.suppFile.publicSuppFileIdentifier' => 'Aithnichear poblach an fhaidhle fhoirlionaidh',
+        'author.submit.filesSummary' => 'Geàrr-chunntas air an fhaidhle',
+        'author.submit.finishSubmission' => 'Coilean cur an tagraidh',
+        'author.submit.submissionComplete' => 'Chaidh an tagradh a chur. Tapadh leat airson ùidh a ghabhail ann am foillseachadh san iris {$journalTitle}.',
+        'author.article.uploadAuthorVersion' => 'Luchdaich suas tionndadh an ùghdair',
+        'author.article.copyeditedFile' => 'Faidhle grinn-deasaichte',
+        'author.article.authorRevisedFile' => 'Faidhle an ùghdair',
+        'author.submit.authorSubmitLoginMessage' => 'Tha feum air cunntas cleachdaiche mus gabh artaigeal a chur chun na h-irise seo. Bheir seo comas dha na deasaichean againn an tagradh agad a thracadh agus fios a chur thugad ma thig atharrachadh air inbhe an tagraidh agad no ma bhios feum air barrachd fiosrachaidh.',
+        'plugins.generic.announcementfeed.displayName' => 'Plugan inbhir nam fiosan-naidheachd',
+        'plugins.generic.announcementfeed.description' => 'Tha am plugan seo a’ gintinn inbhirean siondacaideadh-lìn RSS/Atom airson fiosan-naidheachd an iris-leabhair.',
+        'plugins.generic.announcementfeed.settings' => 'Roghainnean',
+        'plugins.generic.announcementfeed.settings.all' => 'Na seall ceanglaichean an inbhir air gach duilleag an iris-leabhair.',
+        'plugins.generic.announcementfeed.settings.homepage' => 'Na seall ceanglaichean an inbhir ach air an duilleag-dhachaigh agus duilleag nam fiosan-naidheachd.',
+        'plugins.generic.announcementfeed.settings.announcement' => 'Na seall ceanglaichean an inbhir ach air duilleag nam fiosan-naidheachd.',
+        'plugins.generic.announcementfeed.settings.recentAnnouncements1' => 'Na seall san inbhir ach na',
+        'plugins.generic.announcementfeed.settings.recentAnnouncements2' => 'fiosan-naidheachd as ùire.',
+        'plugins.generic.announcementfeed.settings.recentItemsRequired' => 'Cuir a-steach àireamh shlàn airson fiosan-naidheachd o chionn goirid.',
+        'plugins.generic.announcementfeed.atom.altText' => 'Suaicheantas Atom',
+        'plugins.generic.announcementfeed.rss1.altText' => 'Suaicheantas RSS1',
+        'plugins.generic.announcementfeed.rss2.altText' => 'Suaicheantas RSS2',
+        'plugins.generic.dublinCoreMeta.name' => 'Plugan inneacsadh Dublin Core',
+        'plugins.generic.dublinCoreMeta.description' => 'Tha am plugan seo a’ leabachadh meata-tagaichean Dublin Core ann an seallaidhean artaigealan airson inneacsadh.',
+        'plugins.generic.webfeed.displayName' => 'Plugan an inbhir-lìn',
+        'plugins.generic.webfeed.description' => 'Tha am plugan seo a’ gintinn inbhirean siondacaideadh-lìn RSS/Atom airson na h-irise làithreach.',
+        'plugins.generic.webfeed.settings' => 'Roghainnean',
+        'plugins.generic.webfeed.settings.issue' => 'Na seall ceanglaichean an inbhir-lìn ach air duilleagan na h-irise.',
+        'plugins.generic.webfeed.settings.homepage' => 'Na seall ceanglaichean an inbhir-lìn ach air an duilleag-dhachaigh agus duilleagan na h-irise.',
+        'plugins.generic.webfeed.settings.all' => 'Seall ceanglaichean an inbhir-lìn air gach duilleag an iris-leabhair.',
+        'plugins.generic.webfeed.settings.currentIssue' => 'Seallaidh seo nithean san iris fhoillsichte làithreach.',
+        'plugins.generic.webfeed.settings.recent' => 'Seallaidh seo àireamh shocraichte de rudan a bha ann o chionn goirid.',
+        'plugins.generic.webfeed.settings.recentArticles' => 'Co mheud nì a thèid a shealltainn',
+        'plugins.generic.webfeed.settings.recentItemsRequired' => 'Cuir a-steach àireamh shlàn airson nithean a chaidh fhoillseachadh o chionn goirid.',
+        'plugins.generic.webfeed.atom.altText' => 'Suaicheantas Atom',
+        'plugins.generic.webfeed.rss1.altText' => 'Suaicheantas RSS1',
+        'plugins.generic.webfeed.rss2.altText' => 'Suaicheantas RSS2',
+        'plugins.generic.recommendBySimilarity.displayName' => 'Artaigealan coltach ris a mholar',
+        'plugins.generic.recommendBySimilarity.description' => 'Tha am plugan seo a’ cur ris liosta de dh’artaigealan coltach ris air duilleag geàrr-chunntas an artaigil.',
+        'plugins.generic.recommendBySimilarity.heading' => 'Artaigealan coltach ris',
+        'plugins.generic.recommendBySimilarity.advancedSearchIntro' => '’S urrainn dhut {$advancedSearchLink} cuideachd.',
+        'plugins.generic.recommendBySimilarity.advancedSearch' => 'tòiseachadh air lorg ionnannachd adhartach',
+        'plugins.generic.recommendByAuthor.displayName' => 'Artaigealan a mholar leis an aon ùghdar',
+        'plugins.generic.recommendByAuthor.description' => 'Tha am plugan seo a’ cur a-steach liosta artaigealan leis an aon ùghdar air duilleag geàrr-chunntas an artaigil.',
+        'plugins.generic.recommendByAuthor.heading' => 'Na h-artaigealan leis na h-aon ùghdaran a leughar as trice',
+        'plugins.generic.recommendByAuthor.noMetric' => 'Thoir an aire: Feumaidh am plugan seo co-dhiù aon phlugan stadastaireachd/aithrisidh an comas. Ma tha na plugain stadastaireachd agad a’ toirt seachad barrachd air aon mheatrachd, tagh prìomh-mheatrachd air duilleag rianairean roghainnean na làraich agus/no air duilleag manaidsearan an iris-leabhair.',
+      ),
+    ),
+  ),
+   'plurals' => 
+  array (
+    '' => 
+    array (
+      'count' => 4,
+      'code' => 'return ($n==1 || $n==11) ? 0 :( ($n==2 || $n==12) ? 1 :( ($n > 2 && $n < 20) ? 2 :( 3)));',
+    ),
+  ),
+));

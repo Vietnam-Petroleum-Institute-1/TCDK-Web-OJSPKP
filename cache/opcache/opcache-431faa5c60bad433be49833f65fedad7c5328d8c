@@ -1,0 +1,12 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.htmlArticleGalley.displayName' => 'Модуль «HTML-гранка статьи»',
+      'plugins.generic.htmlArticleGalley.description' => 'Обеспечивает поддержку отображения для гранок статей в формате HTML.',
+    ),
+  ),
+);

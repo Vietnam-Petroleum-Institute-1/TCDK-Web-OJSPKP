@@ -1,0 +1,24 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.customBlockManager.displayName' => 'Özelleştirilmiş Blok Yöneticisi',
+      'plugins.generic.customBlockManager.description' => 'This Plugin lets you manage custom sidebar blocks.  You can edit the blocks in the settings of each plugin that you create here.',
+      'plugins.generic.customBlockManager.blockName' => 'Blok Adı',
+      'plugins.generic.customBlockManager.addBlock' => 'Blok ekle',
+      'plugins.generic.customBlock.content' => 'İçerik',
+      'plugins.generic.customBlock.nameSuffix' => '(Özelleştirilmiş Blok Eklentisi)',
+      'plugins.generic.customBlock.description' => 'Bu üye tarafından oluşturulmuş bir bloktur.',
+      'plugins.generic.customBlockManager.manage' => 'Özel Blokları Yönet',
+      'plugins.generic.customBlockManager.customBlocks' => 'Özel Bloklar',
+      'plugins.generic.customBlockManager.noneCreated' => 'Özel blok oluşturulmadı.',
+      'plugins.generic.customBlock.nameRequired' => 'Özel blok adı gerekli.',
+      'plugins.generic.customBlock.nameRegEx' => 'Özel blok adı sadece harf, sayı ve kısa çizgi / alt çizgi içermelidir.',
+      'plugins.generic.customBlock.showName.description' => 'Bu bloğun başlığını içeriğinin üzerinde gösterin.',
+      'plugins.generic.customBlock.showName' => 'Görünecek Başlık',
+    ),
+  ),
+);

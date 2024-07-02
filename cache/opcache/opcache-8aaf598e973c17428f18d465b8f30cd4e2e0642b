@@ -1,0 +1,22 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.announcementfeed.displayName' => 'Mededelingenfeed Plugin',
+      'plugins.generic.announcementfeed.description' => 'Deze plugin produceert RSS/Atom feeds voor mededelingen van het tijdschrift.',
+      'plugins.generic.announcementfeed.settings' => 'Instellingen',
+      'plugins.generic.announcementfeed.settings.all' => 'Toon feed links op alle pagina\'s van het tijdschrift.',
+      'plugins.generic.announcementfeed.settings.homepage' => 'Toon feed links alleen op de startpagina en de mededelingenpagina.',
+      'plugins.generic.announcementfeed.settings.announcement' => 'Toon feed links alleen op de mededelingenpagina.',
+      'plugins.generic.announcementfeed.settings.recentAnnouncements1' => 'Beperk feed tot',
+      'plugins.generic.announcementfeed.settings.recentAnnouncements2' => 'Meest recente mededelingen.',
+      'plugins.generic.announcementfeed.settings.recentItemsRequired' => 'Geef een positief geheel getal voor recente mededelingen.',
+      'plugins.generic.announcementfeed.atom.altText' => 'Atom logo',
+      'plugins.generic.announcementfeed.rss1.altText' => 'RSS1 logo',
+      'plugins.generic.announcementfeed.rss2.altText' => 'RSS2 logo',
+    ),
+  ),
+);

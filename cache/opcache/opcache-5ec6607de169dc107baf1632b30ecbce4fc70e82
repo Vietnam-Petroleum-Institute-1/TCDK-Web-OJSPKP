@@ -1,0 +1,21 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.tinymce.name' => 'Модуль «TinyMCE»',
+      'plugins.generic.tinymce.description' => 'Включает визуальное редактирование (WYSIWYG) текстовых областей с использованием редактора контента <a href="https://www.tiny.cloud" target="_blank">TinyMCE</a>.',
+      'plugins.generic.tinymce.settings' => 'Настройки',
+      'plugins.generic.tinymce.pkpTags.listTags' => 'Выбрать тэг',
+      'plugins.generic.tinymce.pkpTags.noneAvailable' => 'Нет тегов, доступных для этого поля.',
+      'plugins.generic.tinymce.pkpTags.description' => 'Вы можете вставлять любой из следующих тегов:',
+      'plugins.generic.tinymce.variables.principalContactName' => 'Имя представителя редакции («{$value}»)',
+      'plugins.generic.tinymce.variables.principalContactEmail' => 'Адрес электронной почты представителя редакции («{$value}»)',
+      'plugins.generic.tinymce.variables.supportContactName' => 'Имя представителя технической поддержки («{$value}»)',
+      'plugins.generic.tinymce.variables.supportContactEmail' => 'Адрес электронной почты представителя технической поддержки («{$value}»)',
+      'plugins.generic.tinymce.variables.supportContactPhone' => 'Телефон представителя технической поддержки («{$value}»)',
+    ),
+  ),
+);

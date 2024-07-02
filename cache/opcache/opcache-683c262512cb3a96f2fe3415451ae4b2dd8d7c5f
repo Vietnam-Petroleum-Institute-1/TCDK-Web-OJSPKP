@@ -1,0 +1,14 @@
+<?php $exp = 1751345594; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.recommendByAuthor.displayName' => 'Articles recomanats per autor/a',
+      'plugins.generic.recommendByAuthor.description' => 'Aquest mòdul insereix una llista d\'articles del mateix autor/a en la pàgina de resum de l\'article.',
+      'plugins.generic.recommendByAuthor.heading' => 'Articles més llegits del mateix autor/a',
+      'plugins.generic.recommendByAuthor.noMetric' => 'Nota: Aquest mòdul necessita que com a mínim s\'activi un mòdul d\'estadístiques/informes. Si els vostres mòduls d\'estadístiques proporcionen més d\'una mètrica, seleccioneu també aleshores una mètrica principal en la pàgina de configuració de l\'administrador/a del lloc i/o en les pàgines d\'administració de la revista.',
+    ),
+  ),
+);

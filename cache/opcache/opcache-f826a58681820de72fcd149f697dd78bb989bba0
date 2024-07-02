@@ -1,0 +1,64 @@
+<?php $exp = 1751345594; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.importexport.crossref.displayName' => 'إضافة تصدير Crossref XML',
+      'plugins.importexport.crossref.description' => 'تصدير البيانات الوصفية للمقالات بصيغة Crossref XML.',
+      'plugins.importexport.crossref.requirements' => 'المتطلبات',
+      'plugins.importexport.crossref.requirements.satisfied' => 'تمت تلبية كل متطلبات الإضافة.',
+      'plugins.importexport.crossref.error.publisherNotConfigured' => 'ناشر المجلة لم يتم تعريفه بعد! عليك إضافة مؤسسة النشر ضمن <a href="{$publisherUrl}" target="_blank">تهيئة المجلة، الخطوة 1.5</a>.',
+      'plugins.importexport.crossref.error.issnNotConfigured' => 'معرف ISSN للمجلة غير معرف حتى الآن! عليك أن تضيف رمز ISSN في صفحة <a href="{$journalSettingsUrl}" target="_blank">إعدادات المجلة</a>.',
+      'plugins.importexport.crossref.error.noDOIContentObjects' => 'لم يسبق إختيار المؤلفات لتعيين DOI في إضافة المعرف العام DOI، لذلك لن يكون لهذه الإضافة إمكانية إيداع أو تصدير حالياً.',
+      'plugins.importexport.crossref.settings.depositorIntro' => 'العناصر الآتية مطلوبة من أجل إنجاح إيداع Crossref.',
+      'plugins.importexport.crossref.settings.form.depositorName' => 'اسم المودِع',
+      'plugins.importexport.crossref.settings.form.depositorEmail' => 'البريد الالكتروني للمودِع',
+      'plugins.importexport.crossref.settings.form.depositorNameRequired' => 'يُرجى إدخال اسم المودِع.',
+      'plugins.importexport.crossref.settings.form.depositorEmailRequired' => 'يُرجى إدخال البريد الالكتروني للمودِع.',
+      'plugins.importexport.crossref.registrationIntro' => 'إذا أردت استعمال هذه الإضافة لتسجيل معرفات المكونات الرقمية (DOIs) مباشرة في Crossref ستكون بحاجة إلى اسم مستخدم وكلمة مرور (متوافران عبر <a href="https://www.crossref.org" target="_blank">Crossref</a>) من أجل القيام بذلك. إن لم يكن لك اسم مستخدم وكلمة مرور خاصين بك، سيكون بإمكانك أيضاً التصدير إلى Crossref بصيغة XML، لكن لن تتمكن من تسجيل DOI الخاصة بك في Crossref من داخل نظام المجلات المفتوحة.',
+      'plugins.importexport.crossref.settings.form.username' => 'اسم المستخدم',
+      'plugins.importexport.crossref.settings.form.usernameRequired' => 'رجاءًا، أدخل اسم المستخدم الذي حصلت عليه من Crossref.',
+      'plugins.importexport.crossref.settings.form.automaticRegistration.description' => 'نظام المجلات المفتوحة سيقوم بإيداع معرفات المكونات الرقمية المعينة للمقالات تلقائيًا في Crossref. لطفاً، لاحظ أن هذا الأمر قد يستغرق وقتاً قصيراً للمعالجة بعد إجراء النشر (أي اعتماداً على إعداداتك للإضافة cronjob). بإمكانك التحقق من كل معرفات المكونات الرقمية غير المسجلة.',
+      'plugins.importexport.crossref.settings.form.testMode.description' => 'استعمل واجهة برمجة التطبيق لإختبار Crossref (بيئة الاختبار) لمستودع معرف المكون الرقمي. لطفاً، لا تنس إزالة هذا الخيار عند التشغيل الفعلي.',
+      'plugins.importexport.crossref.settings.form.validation' => 'التحقق من XML. استعمل هذا الخيار لتنزيل XML العائد للتسجيل اليدوي لمُعرَّف المكون الرقمي.',
+      'plugins.importexport.crossref.issues.description' => 'ملاحظة: الأعداد فقط (وليس مقالاتها) سيتم الأخذ بها هنا عند إجراء التصدير/التسجيل.',
+      'plugins.importexport.crossref.status.failed' => 'فشِل',
+      'plugins.importexport.crossref.status.registered' => 'فعال',
+      'plugins.importexport.crossref.status.markedRegistered' => 'مؤشر بأنه فعال',
+      'plugins.importexport.crossref.statusLegend' => '
+		<p>حالة الإيداع:</p>
+		<p>
+		- غير مُودَع: لم تحدث محاولة إيداع لمُعرَّف المكون الرقمي هذا.<br />
+		- فعال: تم إيداع مُعرَّف المكون الرقمي، ويجري التعامل مع بشكل صائب.<br />
+		- فشِل: فشلت عملية إيداع مُعرَّف المكون الرقمي.<br />
+		- مؤشَّر بأنه فعال: تم تأشير مُعرَّف المكون الرقمي يدويًا بأنه فعال.
+		</p>
+		<p>يتم عرض حالة آخر محاولة إيداع فقط.</p>
+		<p>إذا فشلت عملية الإيداع، يرجى حل المشكلة ثم محاولة تسجيل مُعرَّف المكون الرقمي مرة أخرى.</p>',
+      'plugins.importexport.crossref.action.export' => 'تصدير',
+      'plugins.importexport.crossref.action.markRegistered' => 'التأشير بأنه فعال',
+      'plugins.importexport.crossref.senderTask.name' => 'مهمة التسجيل التلقائي لـ Crossref',
+      'plugins.importexport.crossref.cliUsage' => 'Usage: 
+{$scriptName} {$pluginName} export [xmlFileName] [journal_path] articles objectId1 [objectId2] ...
+{$scriptName} {$pluginName} register [journal_path] articles objectId1 [objectId2] ...
+',
+      'plugins.importexport.crossref.register.error.mdsError' => 'لم يكن التسجيل موفقًا بالكامل! لقد أجاب مخدم تسجيل مُعرَّف المكون الرقمي بوقوع خطأ ما.',
+      'plugins.importexport.crossref.register.success.warning' => 'التسجيل كان موفقًا ولكن ظهر التنبيه الآتي: \'{$param}\'.',
+      'plugins.importexport.crossref.export.error.issueNotFound' => 'لا يوجد عدد يطابق مُعرَّف العدد المحدد "{$issueId}".',
+      'plugins.importexport.crossref.export.error.articleNotFound' => 'لا توجد مقالة تطابق المقالة المحددة بالرمز "{$articleId}".',
+      'plugins.importexport.crossref.action.register' => 'الإيداع',
+      'plugins.importexport.crossref.settings.form.onlyValidateExport' => 'تحقق من عملية التصدير فقط. لا تقم بتنزيل الملف.',
+      'plugins.generic.crossref.registrationAgency.name' => 'Crossref',
+      'plugins.importexport.crossref.status.notDeposited' => 'غير مودع',
+      'plugins.importexport.crossref.settings' => 'إعدادات Crossref',
+      'plugins.generic.crossref.description' => 'يتعامل مع البيانات الوصفية لـ Crossref من حيث الإيداع والتصدير',
+      'plugins.generic.crossref.displayName' => 'إضافة مدير Crossref',
+      'plugins.importexport.crossref.settings.form.depositorName.description' => 'اسم المنظمة المُسجلة لمُعرَّفات المكونات الرقمية. يتم تضمينها مع البيانات الوصفية المودَعة وتستعمل لتسجيل الجهة التي قدمت الإيداع.',
+      'plugins.importexport.crossref.settings.form.depositorEmail.description' => 'عنوان البريد الالكتروني للفرد المسؤول عن تسجيل المحتوى في Crossref. يتم تضمينه مع البيانات الوصفية المودَعة ويستعمل عند إرسال رسالة تأكيد الإيداع.',
+      'plugins.importexport.crossref.settings.form.username.description' => 'اسم المستخدم في Crossref الذي سيُستعمل للمصادقة على إيداعاتك. إذا كنت تستعمل حسابًا شخصيًا، يرجى معاينة النصيحة أعلاه.',
+      'plugins.generic.crossref.successMessage' => 'تم إيداع البيانات الوصفية لهذا العنصر في Crossref. لمعاينة المزيد من التفاصيل، أنظر طلب التقديم في <a href="https://doi.crossref.org/servlet/submissionAdmin?sf=detail&submissionID={$submissionId}">لوحة مشرف Crossref</a>.',
+    ),
+  ),
+);

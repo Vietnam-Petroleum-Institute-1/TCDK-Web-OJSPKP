@@ -1,0 +1,15 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.recommendBySimilarity.displayName' => 'Benzer Makaleleri Öner',
+      'plugins.generic.recommendBySimilarity.description' => 'Bu eklenti makale özet sayfasına benzer makalelerin bir listesini ekler.',
+      'plugins.generic.recommendBySimilarity.heading' => 'Benzer Makaleler',
+      'plugins.generic.recommendBySimilarity.advancedSearchIntro' => 'Bu makale için ayrıca {$advancedSearchLink} yapabilirsiniz.',
+      'plugins.generic.recommendBySimilarity.advancedSearch' => 'gelişmiş bir benzerlik araması başlat',
+    ),
+  ),
+);

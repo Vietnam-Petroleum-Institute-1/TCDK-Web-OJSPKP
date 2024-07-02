@@ -1,0 +1,12 @@
+<?php $exp = 1751345594; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.htmlArticleGalley.displayName' => 'لوح الطباعة للمقال بصيغة HTML',
+      'plugins.generic.htmlArticleGalley.description' => 'هذه الإضافة تقدم الدعم لإخراج ألواح الطباعة للمقالات بصيغة HTML.',
+    ),
+  ),
+);

@@ -1,0 +1,12 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=1; plural=0;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.pdfJsViewer.description' => 'Plugin ini menggunakan <a href="http://mozilla.github.io/pdf.js">pembuka pdf.js PDF</a> untuk menampilkan PDF pada halaman tampilan galley artikel dan issue.',
+      'plugins.generic.pdfJsViewer.name' => 'Pembuka PDF.JS PDF',
+    ),
+  ),
+);

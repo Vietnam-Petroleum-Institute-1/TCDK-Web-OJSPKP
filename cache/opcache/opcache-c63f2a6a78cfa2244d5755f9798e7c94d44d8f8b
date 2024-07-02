@@ -1,0 +1,12 @@
+<?php $exp = 1751345599; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.htmlArticleGalley.displayName' => 'HTML maqolasi Galley',
+      'plugins.generic.htmlArticleGalley.description' => 'Bu plagin HTML Maqolalar galereyalarini qo\'llab -quvvatlashni ta\'minlaydi.',
+    ),
+  ),
+);

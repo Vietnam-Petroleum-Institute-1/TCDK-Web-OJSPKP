@@ -1,0 +1,24 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n==1 || n%10==1 ? 0 : 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.customBlock.showName.description' => 'Прикажи име на овој блок над содржината на блокот.',
+      'plugins.generic.customBlock.showName' => 'Прикажи име',
+      'plugins.generic.customBlock.nameRegEx' => 'Името на прилагодливиот блок мора да содржи само букви, бројки и цртичка/долна црта.',
+      'plugins.generic.customBlock.nameRequired' => 'Потребно е име на прилагодливиот блок.',
+      'plugins.generic.customBlock.description' => 'Ова е кориснички-создаден блок.',
+      'plugins.generic.customBlock.nameSuffix' => '(Прилагодлив блок)',
+      'plugins.generic.customBlock.content' => 'Содржина',
+      'plugins.generic.customBlockManager.noneCreated' => 'Не се создадени прилагодливи блокови.',
+      'plugins.generic.customBlockManager.addBlock' => 'Додади блок',
+      'plugins.generic.customBlockManager.blockName' => 'Име на блок',
+      'plugins.generic.customBlockManager.customBlocks' => 'Прилагодливи блокови',
+      'plugins.generic.customBlockManager.description' => 'Овој плагин ви дозоволува уредување (додади, корегирај, исфрли) на странични прилагодливи блокови.',
+      'plugins.generic.customBlockManager.manage' => 'Уреди прилагодливи блокови',
+      'plugins.generic.customBlockManager.displayName' => 'Прилагодлив блок менаџер',
+    ),
+  ),
+);

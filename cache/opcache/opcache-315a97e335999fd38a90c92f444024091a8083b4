@@ -1,0 +1,12 @@
+<?php $exp = 1751345597; $val = \PKP\i18n\translation\Translator::__set_state(array(
+   'domain' => '',
+   'dictionary' => 
+  array (
+    '' => 
+    array (
+    ),
+  ),
+   'plurals' => 
+  array (
+  ),
+));

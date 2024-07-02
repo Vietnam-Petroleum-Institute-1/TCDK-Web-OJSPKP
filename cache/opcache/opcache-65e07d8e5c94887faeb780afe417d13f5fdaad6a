@@ -1,0 +1,17 @@
+<?php $exp = 1751345595; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'api.404.resourceNotFound' => 'منابع درخواستی یافت نشد.',
+      'api.submissions.400.missingRequired' => 'به دلیل آنکه برخی از اطلاعات ضروری در دسترس نیست، درخواست شما قابل اجرا نمی‌باشد',
+      'api.submissions.400.invalidIssueIdentifiers' => 'شماره، دوره و یا سال درخواستی معتبر نمی‌باشد',
+      'api.submissions.403.csrfTokenFailure' => 'درخواست شما نادیده گرفته شد. شاید به دلیل آن است که ورود شما به سیستم منقشی شده است. لطفاً صفحه را از اول بارگذاری کرده و دوباره تلاش کنید',
+      'api.submissions.403.deleteSubmissionOutOfContext' => 'شما نمی‌توانید مقاله ارسالی که به این محتوا منتسب نشده است را حذف کنید',
+      'api.submissions.403.requestedOthersUnpublishedSubmissions' => 'شما تنها مجاز به دیدن مقالات چاپ نشده‌ای هستید که به شما انتساب داده شده است.',
+      'api.submissions.403.unauthorizedDeleteSubmission' => 'شما مجاز به حذف این مقاله ارسالی نیستید.',
+    ),
+  ),
+);

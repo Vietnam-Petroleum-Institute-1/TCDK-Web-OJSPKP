@@ -1,0 +1,55 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.importexport.crossref.displayName' => 'Programtillegg for eksport av Crossref XML',
+      'plugins.importexport.crossref.description' => 'Eksporter artikkelmetadata i Crossref XML-format.',
+      'plugins.importexport.crossref.cliUsage' => 'Bruk:
+{$scriptName} {$pluginName} export [xmlFileName] [journal_path] articles objectId1 [objectId2] ...
+{$scriptName} {$pluginName} register [journal_path] articles objectId1 [objectId2] ...
+',
+      'plugins.importexport.crossref.export.error.issueNotFound' => 'Ingen utgave stemmer med den angitte utgave-ID\'en "{$issueId}".',
+      'plugins.importexport.crossref.export.error.articleNotFound' => 'Ingen artikkel stemmer med den angitte artikkel-ID\'en "{$articleId}".',
+      'plugins.importexport.crossref.error.noDOIContentObjects' => 'Artikler er ikke valgt for DOI-tildeling i programutvidelsen for DOI-indikatorer, så det er ingen mulighet for deponering eller eksport i denne programutvidelsen.',
+      'plugins.importexport.crossref.error.issnNotConfigured' => 'Et ISSN for tidsskriftet har ikke blitt konfigurert! Du må legge til et ISSN-nummer i siden <a href="{$journalSettingsUrl}" target="_blank">Tidsskriftsinstillinger</a>.',
+      'plugins.importexport.crossref.register.success.warning' => 'Registreringen var vellykket, men følgende advarsel ble gitt: \'{$param}\'.',
+      'plugins.importexport.crossref.register.error.mdsError' => 'Overføringen mislyktes. Serveren som skal registrere DOI meldte en feil: «{$param}».',
+      'plugins.importexport.crossref.senderTask.name' => 'Crossref automatisk registreringsoppgave',
+      'plugins.importexport.crossref.action.markRegistered' => 'Merket aktiv',
+      'plugins.importexport.crossref.action.export' => 'Last ned XML',
+      'plugins.importexport.crossref.statusLegend' => '
+		<p>Deponeringsstatus:</p>
+		<p>
+		- Ikke deponert: ingen forsøk på å deponere denne DOI-en  har blitt gjort.<br />
+		- Aktiv: DOI-en har blitt deponert, er aktiv og har en fungerende peker.<br />
+		- Feilet: DOI-deponeringen har feilet.<br />
+		- Markert aktiv: DOI-en ble manuelt markert som aktiv.
+		</p>
+		<p>Kun status ved siste deponeringsforsøk vises.</p>
+		<p>Hvis en deponering har feilet, forsøk å løs problemet og registrer DOI-en på nytt.</p>',
+      'plugins.importexport.crossref.action.register' => 'Deponer',
+      'plugins.importexport.crossref.status.markedRegistered' => 'Merket aktiv',
+      'plugins.importexport.crossref.status.registered' => 'Aktiv',
+      'plugins.importexport.crossref.status.failed' => 'Feilet',
+      'plugins.importexport.crossref.issues.description' => 'Merk: Bare numre (issues), ikke enkeltartikler vil bli eksportert/registrert her.',
+      'plugins.importexport.crossref.settings.form.validation' => 'Valider XML. Bruk dette valget for nedlasting av XML ved manuell DOI-registrering.',
+      'plugins.importexport.crossref.settings.form.testMode.description' => 'Bruk Crossref test API (testmiljø) for DOI-deponering. Ikke glem å skru av dette valget for produksjonen.',
+      'plugins.importexport.crossref.settings.form.automaticRegistration.description' => 'OJS vil deponere tildelt DOI-nummer automatisk til Crossref. Vær oppmerksom på at dette kan ta litt tid etter publiseringen til å prosesseres (f.eks. avhengig av din cronjob-konfigurasjon). Du kan sjekke av for alle uregistrerte DOI-numre.',
+      'plugins.importexport.crossref.settings.form.usernameRequired' => 'Vennligst skriv inn brukernavnet du fikk fra Crossref.',
+      'plugins.importexport.crossref.settings.form.username' => 'Brukernavn',
+      'plugins.importexport.crossref.registrationIntro' => 'Hvis du ønsker å bruke dette programtillegget for å registrere "Digital Object Identifiers" (DOI) direkte i Crossref, trenger du et brukernavn og passord (tilgjengelig fra <a href="http://www.crossref.org" target="_blank">Crossref</a>) for å gjøre dette. Hvis du ikke har et brukernavn og passord kan du fortsatt eksportere ved å bruke Crossrefs XML-format, men du kan ikke registrere DOI-numre til Crossref via OJS.',
+      'plugins.importexport.crossref.settings.form.depositorEmailRequired' => 'Vennligst skriv inn opplasters e-post.',
+      'plugins.importexport.crossref.settings.form.depositorNameRequired' => 'Vennligst skriv inn opplasters navn.',
+      'plugins.importexport.crossref.settings.form.depositorEmail' => 'Opplasters epost',
+      'plugins.importexport.crossref.settings.form.depositorName' => 'Opplasters navn',
+      'plugins.importexport.crossref.settings.depositorIntro' => 'Det følgende elementet er nødvendig for en vellykket Crossref-opplasting.',
+      'plugins.importexport.crossref.error.publisherNotConfigured' => 'Et utgiver for tidsskriftet er ikke konfigurert! Du må legge til en utgiverinstitusjon på <a href="{$journalSettingsUrl}" target="_blank">Journal Settings Page</a>.',
+      'plugins.importexport.crossref.requirements.satisfied' => 'Alle krav i programutvidelsen er oppfylt.',
+      'plugins.importexport.crossref.requirements' => 'Krav',
+      'plugins.importexport.crossref.settings.form.onlyValidateExport' => 'Bare validér eksporten. Ikke last ned filen.',
+    ),
+  ),
+);

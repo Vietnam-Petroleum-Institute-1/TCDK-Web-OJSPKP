@@ -1,0 +1,12 @@
+<?php $exp = 1751345595; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.googleScholar.name' => 'Módulo de indexación en Google Scholar',
+      'plugins.generic.googleScholar.description' => 'Este módulo activa la indexación del contenido publicado en Google Scholar.',
+    ),
+  ),
+);

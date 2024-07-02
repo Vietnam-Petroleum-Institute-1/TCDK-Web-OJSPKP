@@ -1,0 +1,33 @@
+<?php $exp = 1751345599; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=1; plural=0;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.importexport.datacite.displayName' => 'DataCite 导出/注册插件',
+      'plugins.importexport.datacite.description' => '导出或者注册DataCite格式的期次，文章，初次排版和附加文件元数据。',
+      'plugins.importexport.datacite.settings.description' => '首次使用之前，请配置DataCite导出插件。',
+      'plugins.importexport.datacite.intro' => '
+		如果您希望在Datacite注册DOI，请联系代管人
+		<a href="https://datacite.org/contact.html" target="_blank">DataCite
+		主页</a>，他会建议你去加入当地 DataCite 会员。一旦您成为其中的会员，
+		您将获得永久的 DOI 和注册相关元数据的服务。如果您没有自己的用户名
+		和密码，您仍可以导出 DataCiteXML 格式。但是在 OJS 中 DataCite 无法注
+		册 DOI。请注意：注册 DataCite 服务时密码将保存为不加密的纯文本。
+	',
+      'plugins.importexport.datacite.settings.form.username' => '用户名（符号）',
+      'plugins.importexport.datacite.settings.form.usernameRequired' => '请输入 DataCite 分配的用户名（符号）。用户名不能包含冒号。',
+      'plugins.importexport.datacite.settings.form.automaticRegistration.description' => 'OJS 将自动将 DOI 存入 DataCite。 请注意，这可能需要在发布后用一小段时间来处理（这可能取决于您的 cronjob 配置）。 您可以检查所有未注册的DOI。',
+      'plugins.importexport.datacite.settings.form.testMode.description' => '使用 DataCite 测试前缀进行DOI注册。 请不要忘记在生产环境中删除此选项。',
+      'plugins.importexport.datacite.settings.form.testUsername' => '测试用户名',
+      'plugins.importexport.datacite.settings.form.testPassword' => '测试密码',
+      'plugins.importexport.datacite.settings.form.testDOIPrefix' => '测试 DOI 前缀',
+      'plugins.importexport.datacite.senderTask.name' => 'DataCite 自动注册任务',
+      'plugins.importexport.datacite.cliUsage' => '用法：
+{$scriptName} {$pluginName} 导出 [outputFileName] [journal_path] {issues|articles|galleys} objectId1 [objectId2] ...
+{$scriptName} {$pluginName} 注册 [journal_path] {issues|articles|galleys} objectId1 [objectId2] ...
+',
+    ),
+  ),
+);

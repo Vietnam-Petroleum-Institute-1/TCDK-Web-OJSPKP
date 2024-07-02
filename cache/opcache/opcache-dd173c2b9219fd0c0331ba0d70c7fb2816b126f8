@@ -1,0 +1,24 @@
+<?php $exp = 1751345595; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.customBlockManager.displayName' => 'Mukautettujen lohkojen hallinnoija',
+      'plugins.generic.customBlockManager.manage' => 'Hallinnoi mukautettuja lohkoja',
+      'plugins.generic.customBlockManager.description' => 'Tämän lisäosan avulla voit hallinnoida (lisätä, muokata ja poistaa) mukautettuja sivupalkkilohkoja.',
+      'plugins.generic.customBlockManager.customBlocks' => 'Mukautetut lohkot',
+      'plugins.generic.customBlockManager.blockName' => 'Lohkon nimi',
+      'plugins.generic.customBlockManager.addBlock' => 'Lisää lohko',
+      'plugins.generic.customBlockManager.noneCreated' => 'Mukautettuja lohkoja ei ole luotu.',
+      'plugins.generic.customBlock.content' => 'Sisältö',
+      'plugins.generic.customBlock.nameSuffix' => '(Mukautettu lohko)',
+      'plugins.generic.customBlock.description' => 'Tämä on käyttäjän luoma lohko.',
+      'plugins.generic.customBlock.nameRequired' => 'Mukautetun lohkon nimi vaaditaan.',
+      'plugins.generic.customBlock.nameRegEx' => 'Mukautetun lohkon nimi voi sisältää vain kirjaimia, numeroita ja yhdysmerkkejä/alaviivoja.',
+      'plugins.generic.customBlock.showName.description' => 'Näytä tämän lohkon nimi sen sisällön yläpuolella.',
+      'plugins.generic.customBlock.showName' => 'Näytä nimi',
+    ),
+  ),
+);

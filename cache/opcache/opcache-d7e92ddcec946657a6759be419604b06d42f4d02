@@ -1,0 +1,23 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n > 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'api.submissions.403.cantChangeContext' => 'आप सबमिशन की जर्नल नहीं बदल सकते.',
+      'api.submissions.403.unpublishedIssues' => 'आपके पास अप्रकाशित अंको को देखने की अनुमति नहीं है.',
+      'api.contexts.403.requestedDisabledContexts' => 'आप केवल उन जर्नल को देख सकते हैं जिन्हें सक्षम किया गया है.',
+      'api.contexts.403.notAllowed' => 'आपको इस जर्नल को देखने की अनुमति नहीं है.',
+      'api.contexts.403.contextsDidNotMatch' => 'जब तक आप जर्नल के एपीआई या साइट-वाइड एपीआई के लिए अनुरोध नहीं करते, आप इस जर्नल को देख या संपादित नहीं कर सकते.',
+      'api.contexts.403.requiresContext' => 'आप इस जर्नल को साइट-वाइड एपीआई से संपादित नहीं कर सकते.',
+      'api.contexts.403.notAllowedEdit' => 'आपको इस जर्नल को संपादित करने की अनुमति नहीं है.',
+      'api.contexts.403.notAllowedDelete' => 'आपके पास इस जर्नल को हटाने की अनुमति नहीं है.',
+      'api.contexts.404.contextNotFound' => 'आपके द्वारा अनुरोधित जर्नल नहीं मिली.',
+      'api.emailTemplates.403.notAllowedChangeContext' => 'आपके पास इस ईमेल टेम्प्लेट को किसी अन्य जर्नल में ले जाने की अनुमति नहीं है.',
+      'api._payments.400.invalidPaymentMethod' => 'आपके द्वारा चयनित भुगतान विधि समर्थित नहीं है.',
+      'api.publications.403.contextsDidNotMatch' => 'आपके द्वारा अनुरोधित प्रकाशन इस जर्नल का हिस्सा नहीं है.',
+      'api.publications.403.submissionsDidNotMatch' => 'आपके द्वारा अनुरोधित प्रकाशन इस सबमिशन का हिस्सा नहीं है.',
+    ),
+  ),
+);

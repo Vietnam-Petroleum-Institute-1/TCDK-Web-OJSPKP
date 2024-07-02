@@ -1,0 +1,15 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n % 10 != 1 || n % 100 == 11;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.recommendBySimilarity.displayName' => 'Mæla með svipuðum greinum',
+      'plugins.generic.recommendBySimilarity.description' => 'Þessi viðbót bætir við lista af svipuðum greinum, á ágripssíðu greinar.',
+      'plugins.generic.recommendBySimilarity.heading' => 'Svipaðar greinar',
+      'plugins.generic.recommendBySimilarity.advancedSearchIntro' => 'Þú gætir nýtt þér {$advancedSearchLink} fyrir þessa grein.',
+      'plugins.generic.recommendBySimilarity.advancedSearch' => 'Hefja ítarlega líkindaleit',
+    ),
+  ),
+);

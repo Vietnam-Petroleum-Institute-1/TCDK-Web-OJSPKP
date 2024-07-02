@@ -1,0 +1,34 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=1; plural=0;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.themes.default.name' => 'Tema Lalai',
+      'plugins.themes.default.description' => 'Tema ini menerapkan tema lalai.',
+      'plugins.themes.default.option.typography.label' => 'Tipografi',
+      'plugins.themes.default.option.typography.description' => 'Pilih kombinasi fon yang sesuai dengan jurnal ini.',
+      'plugins.themes.default.option.typography.notoSans' => 'Noto Sans: Fon digital asli yang direka oleh Google untuk sokongan bahasa yang luas.',
+      'plugins.themes.default.option.typography.notoSerif' => 'Noto Serif: Varian serif dari fon digital asli Google.',
+      'plugins.themes.default.option.typography.notoSerif_notoSans' => 'Noto Serif/Noto Sans: Gandingan pelengkap dengan tajuk serif dan teks badan sans-serif.',
+      'plugins.themes.default.option.typography.notoSans_notoSerif' => 'Noto Sans/Noto Serif: Gandingan pelengkap dengan tajuk sans-serif dan teks badan serif.',
+      'plugins.themes.default.option.typography.lato' => 'Lato: Fon sans-serif moden yang popular.',
+      'plugins.themes.default.option.typography.lora' => 'Lora: Fon serif yang luas untuk membaca dalam talian.',
+      'plugins.themes.default.option.typography.lora_openSans' => 'Lora/Open Sans: Gandingan pelengkap dengan tajuk serif dan teks badan sans-serif.',
+      'plugins.themes.default.option.colour.label' => 'Warna',
+      'plugins.themes.default.option.colour.description' => 'Pilih warna untuk tajuk.',
+      'plugins.themes.default.option.showDescriptionInJournalIndex.option' => 'Tunjukkan ringkasan jurnal di laman utama.',
+      'plugins.themes.default.option.useHomepageImageAsHeader.label' => 'Gambar Latar Tajuk',
+      'plugins.themes.default.option.useHomepageImageAsHeader.description' => 'Apabila gambar halaman utama telah dimuat naik, tampilkan di latar tajuk dan bukannya kedudukan biasa di laman utama.',
+      'plugins.themes.default.option.useHomepageImageAsHeader.option' => 'Tunjukkan gambar halaman utama sebagai latar belakang tajuk.',
+      'plugins.themes.default.option.displayStats.label' => 'Pilihan paparan statistik penggunaan',
+      'plugins.themes.default.option.displayStats.none' => 'Jangan paparkan carta statistik penggunaan penyerahan untuk pembaca.',
+      'plugins.themes.default.option.displayStats.bar' => 'Gunakan jenis bar carta untuk paparan statistik penggunaan.',
+      'plugins.themes.default.option.displayStats.line' => 'Gunakan jenis baris carta untuk paparan statistik penggunaan.',
+      'plugins.themes.default.displayStats.monthInitials' => 'Jan Feb Mac Apr Mei Jun Jul Ogos Sep Okt Nov Dis',
+      'plugins.themes.default.displayStats.downloads' => 'Muat turun',
+      'plugins.themes.default.displayStats.noStats' => 'Muat turun data belum tersedia.',
+    ),
+  ),
+);

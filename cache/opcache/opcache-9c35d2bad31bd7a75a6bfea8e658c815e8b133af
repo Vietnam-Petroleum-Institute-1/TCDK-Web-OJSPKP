@@ -1,0 +1,21 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=1; plural=0;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.tinymce.variables.supportContactPhone' => 'Sokongan Telefon Hubungan ("{$value}")',
+      'plugins.generic.tinymce.variables.supportContactEmail' => 'E-mel Kenalan Sokongan ("{$ value}")',
+      'plugins.generic.tinymce.variables.supportContactName' => 'Nama Kenalan Sokongan ("{$value}")',
+      'plugins.generic.tinymce.variables.principalContactEmail' => 'E-mel Hubungan Utama ("{$value}")',
+      'plugins.generic.tinymce.variables.principalContactName' => 'Nama Hubungan Utama ("{$value}")',
+      'plugins.generic.tinymce.pkpTags.description' => 'Anda boleh memasukkan mana-mana tag berikut:',
+      'plugins.generic.tinymce.pkpTags.noneAvailable' => 'Tiada tag yang tersedia untuk bidang ini.',
+      'plugins.generic.tinymce.pkpTags.listTags' => 'Pilih Tag',
+      'plugins.generic.tinymce.settings' => 'Tetapan',
+      'plugins.generic.tinymce.description' => 'Pluign ini membolehkan WYSIWYG mengedit textarea menggunakan <a href="https://www.tiny.cloud/" target="_blank">TinyMCE</a> editor kandungan.',
+      'plugins.generic.tinymce.name' => 'Plugin TinyMCE',
+    ),
+  ),
+);

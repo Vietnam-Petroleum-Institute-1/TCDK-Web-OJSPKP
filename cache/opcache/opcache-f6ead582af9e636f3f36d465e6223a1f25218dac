@@ -1,0 +1,15 @@
+<?php $exp = 1751345595; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.recommendBySimilarity.displayName' => 'Suosittele samankaltaisia artikkeleita',
+      'plugins.generic.recommendBySimilarity.description' => 'Tämä lisäosa listaa samankaltaiset artikkelit artikkelin abstraktisivulla.',
+      'plugins.generic.recommendBySimilarity.heading' => 'Samankaltaiset artikkelit',
+      'plugins.generic.recommendBySimilarity.advancedSearchIntro' => 'Voit myös {$advancedSearchLink} tähän artikkeliin liittyen.',
+      'plugins.generic.recommendBySimilarity.advancedSearch' => 'aloittaa samankaltaisten artikkeleiden haun',
+    ),
+  ),
+);

@@ -1,0 +1,14 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.recommendByAuthor.displayName' => '"Автор ұсынған мақалалар" модулі',
+      'plugins.generic.recommendByAuthor.description' => 'Автор мақалаларының тізімін мақаланың аңдатпа орналасқан бетіне орналастырады.',
+      'plugins.generic.recommendByAuthor.heading' => 'Осы автордың (немесе авторлардың) ең көп оқылатын мақалалары',
+      'plugins.generic.recommendByAuthor.noMetric' => 'Ерекшелігі: бұл модуль кем дегенде бір статистика/есеп модулін қосуды талап етеді. Егер сіздің статистика модульдеріңіз бірнеше метрикамен байланысты болса, онда андминистратор параметрлері бетінде және/немесе журнал менеджерінің параметрлер беттерінде негізгі метриканы таңдаңыз.',
+    ),
+  ),
+);

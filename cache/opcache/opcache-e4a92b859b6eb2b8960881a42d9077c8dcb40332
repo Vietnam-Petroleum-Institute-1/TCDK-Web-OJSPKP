@@ -1,0 +1,32 @@
+<?php $exp = 1751345599; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'comments.anonymous' => '匿名用户',
+      'comments.anonymousNamed' => '"{$userName}"',
+      'comments.body' => '正文',
+      'comments.titleRequired' => '评论的标题是必须的.',
+      'comments.confirmDeleteChildren' => '删除此评论将同时删除任何回复。您确定要做到这一点?',
+      'comments.delete' => '删除这个评论',
+      'comments.email' => '提交人电子邮箱',
+      'comments.emailReply' => '回复电子邮件',
+      'comments.enterComment' => '输入评论',
+      'comments.inResponseTo' => '在回应 <a href="{$url}">{$title}</a>',
+      'comments.name' => '提交人姓名',
+      'comments.noComments' => '没有已经发布的读者评论.',
+      'comments.nReplies' => '({$num} 回复)',
+      'comments.oneReply' => '(1 回复)',
+      'comments.postAnonymously' => '匿名发布这个评论',
+      'comments.postReply' => '发表回复',
+      'comments.readerComments' => '读者评论',
+      'comments.readMore' => '更多',
+      'comments.replies' => '回复',
+      'comments.title' => '标题',
+      'comments.viewAllComments' => '查看所有评论',
+      'reader.fullText' => '全文:',
+    ),
+  ),
+);

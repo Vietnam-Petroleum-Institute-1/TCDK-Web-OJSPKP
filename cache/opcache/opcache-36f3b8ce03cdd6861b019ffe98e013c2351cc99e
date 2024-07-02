@@ -1,0 +1,21 @@
+<?php $exp = 1751345594; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.tinymce.name' => 'TinyMCE Plug-in',
+      'plugins.generic.tinymce.description' => 'Denne plugin aktiverer WYSIWYG redigering af tekstfelter ved hjælp af <a href="https://www.tinymce.com" target="_blank">TinyMCE</a> tekstbehandleren.',
+      'plugins.generic.tinymce.settings' => 'Indstillinger',
+      'plugins.generic.tinymce.pkpTags.listTags' => 'Vælg tag',
+      'plugins.generic.tinymce.pkpTags.noneAvailable' => 'Intet tag er til rådighed for dette felt.',
+      'plugins.generic.tinymce.pkpTags.description' => 'Du kan indsætte en af følgende tags:',
+      'plugins.generic.tinymce.variables.principalContactName' => 'Primær kontaktnavn ("{$value}")',
+      'plugins.generic.tinymce.variables.principalContactEmail' => 'Primær kontakt-e-mail ("{$value}")',
+      'plugins.generic.tinymce.variables.supportContactName' => 'Support-kontaktnavn ("{$value}")',
+      'plugins.generic.tinymce.variables.supportContactEmail' => 'Support-kontakt-e-mail ("{$value}")',
+      'plugins.generic.tinymce.variables.supportContactPhone' => 'Support-kontakttelefon ("{$value}")',
+    ),
+  ),
+);

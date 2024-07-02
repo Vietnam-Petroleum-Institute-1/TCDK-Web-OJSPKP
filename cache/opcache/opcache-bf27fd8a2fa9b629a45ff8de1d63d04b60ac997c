@@ -1,0 +1,12 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.usageEvent.displayName' => 'Kullanım Etkinliği',
+      'plugins.generic.usageEvent.description' => 'Tanımlanmış bir biçimde kullanım etkinliği sağlayan bir bağlantı oluşturur.',
+    ),
+  ),
+);

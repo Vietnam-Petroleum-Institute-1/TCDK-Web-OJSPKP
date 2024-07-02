@@ -1,0 +1,23 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.webfeed.displayName' => 'Complemento de canles de información',
+      'plugins.generic.webfeed.description' => 'Este complemento xera canles de información RSS/Atom para o número actual.',
+      'plugins.generic.webfeed.settings' => 'Configuracións',
+      'plugins.generic.webfeed.settings.issue' => 'Mostrar os enlaces ás canles de información só nas páxinas do número.',
+      'plugins.generic.webfeed.settings.homepage' => 'Mostrar os enlaces ás canles de información só na páxina inicial e nas páxinas do número.',
+      'plugins.generic.webfeed.settings.all' => 'Mostrar os enlaces ás canles de información en todas as páxinas da revista.',
+      'plugins.generic.webfeed.settings.currentIssue' => 'Mostrar os elementos do número actual.',
+      'plugins.generic.webfeed.settings.recent' => 'Mostrar un número fixo dos elementos máis recentes.',
+      'plugins.generic.webfeed.settings.recentArticles' => 'Número de elementos a mostrar',
+      'plugins.generic.webfeed.settings.recentItemsRequired' => 'Introduza un número enteiro positivo para os elementos publicados recentemente.',
+      'plugins.generic.webfeed.atom.altText' => 'Logotipo Atom',
+      'plugins.generic.webfeed.rss1.altText' => 'Logotipo RSS1',
+      'plugins.generic.webfeed.rss2.altText' => 'Logotipo RSS2',
+    ),
+  ),
+);

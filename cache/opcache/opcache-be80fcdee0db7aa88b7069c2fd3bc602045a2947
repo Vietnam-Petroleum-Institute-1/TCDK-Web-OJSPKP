@@ -1,0 +1,21 @@
+<?php $exp = 1751345594; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.tinymce.name' => 'Mòdul d\'integració amb TinyMCE',
+      'plugins.generic.tinymce.description' => 'Aquest mòdul activa l\'edició WYSIWYG ("el que veus, és el que tens") a les àrees de text de l\'OMP utilitzant l\'editor de contingut <a href="https://www.tiny.cloud" target="_blank">TinyMCE</a>.',
+      'plugins.generic.tinymce.settings' => 'Configuració',
+      'plugins.generic.tinymce.variables.supportContactPhone' => 'Telèfon del contacte de suport ("{$value}")',
+      'plugins.generic.tinymce.variables.supportContactEmail' => 'Correu electrònic del contacte de suport ("{$value}")',
+      'plugins.generic.tinymce.variables.supportContactName' => 'Nom del contacte de suport ("{$value}")',
+      'plugins.generic.tinymce.variables.principalContactEmail' => 'Correu electrònic del contacte principal ("{$value}")',
+      'plugins.generic.tinymce.variables.principalContactName' => 'Nom del contacte principal ("{$value}")',
+      'plugins.generic.tinymce.pkpTags.description' => 'Podeu inserir qualsevol de les següents etiquetes:',
+      'plugins.generic.tinymce.pkpTags.noneAvailable' => 'No hi ha cap etiqueta disponible per a aquest camp.',
+      'plugins.generic.tinymce.pkpTags.listTags' => 'Seleccionar etiqueta',
+    ),
+  ),
+);

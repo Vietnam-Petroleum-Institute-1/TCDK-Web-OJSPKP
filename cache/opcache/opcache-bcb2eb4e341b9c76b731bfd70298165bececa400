@@ -1,0 +1,12 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=1; plural=0;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.dublinCoreMeta.name' => 'Plugin Pengindeks Dublin Core',
+      'plugins.generic.dublinCoreMeta.description' => 'Plugin ini mengaktifkan tag metadata Dublin Core ada tampilan artikel untuk tujuan pengindeksan.',
+    ),
+  ),
+);

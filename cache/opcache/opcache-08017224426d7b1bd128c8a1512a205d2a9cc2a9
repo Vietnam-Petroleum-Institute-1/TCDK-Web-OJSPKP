@@ -1,0 +1,30 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'api.announcements.400.contextsNotMatched' => 'მოთხოვნილი განცხადება არ არის ამ ჟურნალის ნაწილი.',
+      'api.emails.403.disabled' => 'ელფოსტით შეტყობინების ფუნქცია არ არის ჩართული ამ ჟურნალისათვის.',
+      'api.submissions.400.wrongContext' => 'თქვენ მიერ მოთხოვნილი წარდგენა არ არის ამ ჟურნალში.',
+      'api.submissions.403.cantChangeContext' => 'არ შეგიძლიათ ჟურნალის შეცვლა ამ შენატანისათვის.',
+      'api.submissions.403.unpublishedIssues' => 'არ გაქვთ ნახვის უფლება გამოუქვეყნებელი გამოცემისათვის.',
+      'api.contexts.403.requestedDisabledContexts' => 'თქვენ შეგიძლიათ ნახოთ მხოლოდ ჟურნალები, რომლებზეც გაქვთ წვდომა.',
+      'api.contexts.403.notAllowed' => 'არ გაქვთ ამ ჟურნალის ნახვის უფლება.',
+      'api.contexts.403.contextsDidNotMatch' => 'არ შეგიძლიათ ნახოთ, ან ჩაასწოროთ ეს ჟურნალი, API მოთხოვნის, ან საიტის სრული API მოთხოვნის გარეშე.',
+      'api.contexts.403.requiresContext' => 'არ შეგიძლიათ ამ ჟურნალის ჩასწორება საიტის API-ს გამოყენებით.',
+      'api.contexts.403.notAllowedEdit' => 'არ გაქვთ ამ ჟურნალის ჩასწორების უფლება.',
+      'api.contexts.403.notAllowedDelete' => 'არ გაქვთ ამ ჟურნალის წაშლის უფლება.',
+      'api.contexts.404.contextNotFound' => 'მოთხოვნილი ჟურნალი ვერ მოიძებნა.',
+      'api.dois.403.contextsNotMatched' => 'თქვენ მიერ მოთხოვნილი DOI არ არის ამ ჟურნალის ნაწილი.',
+      'api.dois.400.noRegistrationAgencyConfigured' => 'DOI რეგისტრაციის სააგენტო არ არის კონფიგურირებული ამ ჟურნალისთვის.',
+      'api.dois.400.depositFailed' => 'ზოგიერთი ელემენტი წარმატებით არ განთავსდა. გთხოვთ, შეამოწმოთ ცალკეული ელემენტები მათი კონკრეტული შეცდომის შეტყობინებებისთვის.',
+      'api.emailTemplates.403.notAllowedChangeContext' => 'არ გაქვთ წერილის ამ შაბლონის სხვა ჟურნალში გადატანის უფლება.',
+      'api._payments.400.invalidPaymentMethod' => 'თქვენს მიერ არჩეული გადახდის მეთოდი მხარდაჭერილი არ არის.',
+      'api.publications.403.contextsDidNotMatch' => 'თქვენს მიერ მოთხოვნილი პუბლიკაცია არ არის ამ ჟურნალის ნაწილი.',
+      'api.publications.403.submissionsDidNotMatch' => 'თქვენს მიერ მოთხოვნილი პუბლიკაცია არ არის ამ შენატანის ნაწილი.',
+      'api.submissionFiles.400.badRepresentationAssocType' => 'არ შეგიძლიათ ფაილის ამ ეტაპიდან დაკავშირება გალერეასთან.',
+    ),
+  ),
+);

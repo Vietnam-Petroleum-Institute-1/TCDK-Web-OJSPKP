@@ -1,0 +1,12 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.lensGalley.displayName' => 'eLife Lens Cikk megtekintő',
+      'plugins.generic.lensGalley.description' => 'Ez a plugin az eLife Lens használatával biztosítja a JATS XML kefelenyomatok renderelését.',
+    ),
+  ),
+);

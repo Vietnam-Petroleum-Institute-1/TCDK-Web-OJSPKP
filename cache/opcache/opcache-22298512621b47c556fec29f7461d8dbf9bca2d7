@@ -1,0 +1,27 @@
+<?php $exp = 1751345595; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.themes.default.name' => 'Tema por defecto',
+      'plugins.themes.default.description' => 'Este tema implementa o tema por defecto.',
+      'plugins.themes.default.option.typography.label' => 'Tipografía',
+      'plugins.themes.default.option.typography.description' => 'Escolle a combinación de fontes que se encaixan con esta revista.',
+      'plugins.themes.default.option.typography.notoSans' => 'Noto Sans: Unha fonte nativa dixital deseñada por Google cun amplo soporte de idiomas.',
+      'plugins.themes.default.option.typography.notoSerif' => 'Noto Serif: Unha variante serif da fonte nativa dixital de Google.',
+      'plugins.themes.default.option.typography.notoSerif_notoSans' => 'Noto Serif/Noto Sans: Unha combinación complementaria con serif para os títulos e sen serif para o corpo de texto.',
+      'plugins.themes.default.option.typography.notoSans_notoSerif' => 'Noto Sans/Noto Serif: Unha combinación complementaria sen serif para os títulos e con serif para o corpo de texto.',
+      'plugins.themes.default.option.typography.lato' => 'Lato: Fonte sen serif, popular e moderna.',
+      'plugins.themes.default.option.typography.lora' => 'Lora: Fonte serif ampla, indicada para ler en liña.',
+      'plugins.themes.default.option.typography.lora_openSans' => 'Lora/Open Sans: unha combinación complementaria con serif para os títulos e sen serif para o corpo de texto.',
+      'plugins.themes.default.option.colour.label' => 'Cor',
+      'plugins.themes.default.option.colour.description' => 'Escolla unha cor para a cabeceira.',
+      'plugins.themes.default.option.showDescriptionInJournalIndex.option' => 'Mostrar o resume da revista na páxina de inicio .',
+      'plugins.themes.default.option.useHomepageImageAsHeader.label' => 'Imaxe de fondo da cabeceira',
+      'plugins.themes.default.option.useHomepageImageAsHeader.description' => 'Cado se cargue unha imaxe para a páxina de inicio, mostrala como imaxe de fondo e non na súa posición habitual na páxina de inicio.',
+      'plugins.themes.default.option.useHomepageImageAsHeader.option' => 'Mostrar as imaxes da páxina de inicio como fondo da cabeceira.',
+    ),
+  ),
+);

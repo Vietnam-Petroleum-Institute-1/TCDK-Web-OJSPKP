@@ -1,0 +1,21 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.tinymce.name' => 'TinyMCE Plugin',
+      'plugins.generic.tinymce.description' => 'Ez a plugin lehetővé teszi a WYSIWYG szövegszerkesztést a <a href="https://www.tinymce.com" target="_blank"> TinyMCE </a> tartalomszerkesztő használatával.',
+      'plugins.generic.tinymce.settings' => 'Beállítások',
+      'plugins.generic.tinymce.pkpTags.listTags' => 'Címke kiválasztása',
+      'plugins.generic.tinymce.pkpTags.noneAvailable' => 'Nincsenek elérhető címkék ehhez a mezőhöz.',
+      'plugins.generic.tinymce.pkpTags.description' => 'Beillesztheti bármelyiket a következő címkék közül:',
+      'plugins.generic.tinymce.variables.principalContactName' => 'A fő kapcsolattartó neve ("{$value}")',
+      'plugins.generic.tinymce.variables.principalContactEmail' => 'A fő kapcsolattartó e-mail címe ("{$value}")',
+      'plugins.generic.tinymce.variables.supportContactName' => 'A segítő kapcsolattartó neve("{$value}")',
+      'plugins.generic.tinymce.variables.supportContactEmail' => 'A segítő kapcsolattartó e-mail címe ("{$value}")',
+      'plugins.generic.tinymce.variables.supportContactPhone' => 'A segítő kapcsolattartó telefonszáma ("{$value}")',
+    ),
+  ),
+);

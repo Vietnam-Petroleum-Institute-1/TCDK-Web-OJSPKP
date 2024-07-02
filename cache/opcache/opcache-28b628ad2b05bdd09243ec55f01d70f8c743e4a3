@@ -1,0 +1,22 @@
+<?php $exp = 1751345599; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=1; plural=0;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.announcementfeed.displayName' => 'Plugin thông báo',
+      'plugins.generic.announcementfeed.description' => 'Plugin này tạo nguồn cấp dữ liệu cung cấp web RSS/Atom cho các thông báo tạp chí.',
+      'plugins.generic.announcementfeed.settings' => 'Cài đặt',
+      'plugins.generic.announcementfeed.settings.all' => 'Hiển thị liên kết nguồn cấp dữ liệu trên tất cả các trang tạp chí.',
+      'plugins.generic.announcementfeed.settings.homepage' => 'Chỉ hiển thị các liên kết nguồn cấp dữ liệu trên trang chủ và trang thông báo.',
+      'plugins.generic.announcementfeed.settings.announcement' => 'Chỉ hiển thị các liên kết nguồn cấp dữ liệu trên trang thông báo.',
+      'plugins.generic.announcementfeed.settings.recentAnnouncements1' => 'Giới hạn',
+      'plugins.generic.announcementfeed.settings.recentAnnouncements2' => 'thông báo gần đây nhất.',
+      'plugins.generic.announcementfeed.settings.recentItemsRequired' => 'Vui lòng nhập một số nguyên dương cho các thông báo gần đây.',
+      'plugins.generic.announcementfeed.atom.altText' => 'Logo Atom',
+      'plugins.generic.announcementfeed.rss1.altText' => 'Logo RSS1',
+      'plugins.generic.announcementfeed.rss2.altText' => 'Logo RSS2',
+    ),
+  ),
+);

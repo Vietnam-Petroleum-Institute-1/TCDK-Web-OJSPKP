@@ -1,0 +1,32 @@
+<?php $exp = 1751345595; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.citationStyleLanguage.settings.publisherLocation.description' => 'Algúns formatos de citas solicitan a localización xeográfica da editorial, como "Londres, Reino Unido".',
+      'plugins.generic.citationStyleLanguage.settings.publisherLocation' => 'Ubicación da Editorial',
+      'plugins.generic.citationStyleLanguage.settings.citationFormatsPrimaryDescription' => 'Seleccione o formato de cita que desexa mostrar de xeito predeterminado na páxina de inicio do artigo.',
+      'plugins.generic.citationStyleLanguage.settings.citationFormatsPrimary' => 'Formato de cita principal',
+      'plugins.generic.citationStyleLanguage.settings.citationFormatsDescription' => 'Selecciona os formatos adicionais que queres ofrecer aos teus lectores.',
+      'plugins.generic.citationStyleLanguage.settings.citationFormats' => 'Formatos de citas adicionais',
+      'plugins.generic.citationStyleLanguage.settings.citationDownloadsDescription' => 'Selecciona os formatos descargables que queres ofrecer aos teus lectores. Os formatos descargables úsanse normalmente para importar a un programa de xestión de bibliografía de terceiros, como EndNote ou Zotero.',
+      'plugins.generic.citationStyleLanguage.settings.citationDownloads' => 'Formatos descargables',
+      'plugins.generic.citationStyleLanguage.download.ris' => 'Endnote/Zotero/Mendeley (RIS)',
+      'plugins.generic.citationStyleLanguage.download.bibtex' => 'BibTeX',
+      'plugins.generic.citationStyleLanguage.style.vancouver' => 'Vancouver',
+      'plugins.generic.citationStyleLanguage.style.turabian-fullnote-bibliography' => 'Turabian',
+      'plugins.generic.citationStyleLanguage.style.modern-language-association' => 'MLA',
+      'plugins.generic.citationStyleLanguage.style.ieee' => 'IEEE',
+      'plugins.generic.citationStyleLanguage.style.harvard-cite-them-right' => 'Harvard',
+      'plugins.generic.citationStyleLanguage.style.chicago-author-date' => 'Chicago',
+      'plugins.generic.citationStyleLanguage.style.associacao-brasileira-de-normas-tecnicas' => 'ABNT',
+      'plugins.generic.citationStyleLanguage.style.apa' => 'APA',
+      'plugins.generic.citationStyleLanguage.style.acs-nano' => 'ACS',
+      'plugins.generic.citationStyleLanguage.style.acm-sig-proceedings' => 'ACM',
+      'plugins.generic.citationStyleLanguage.description' => 'Permitir aos lectores obter a cita dun artigo publicado nun dos varios formatos compatibles co CSL (Linguaxe de Estilos de Cita).',
+      'plugins.generic.citationStyleLanguage.displayName' => 'Linguaxe de estilo de cita',
+    ),
+  ),
+);

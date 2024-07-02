@@ -1,0 +1,12 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n % 10 != 1 || n % 100 == 11;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.htmlArticleGalley.displayName' => 'Galley fyrir HTML greinar',
+      'plugins.generic.htmlArticleGalley.description' => 'Þessi viðbót styður við myndsetingu á galley fyrir HTML greinar.',
+    ),
+  ),
+);

@@ -1,0 +1,17 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.acron.name' => 'Acron plugin',
+      'plugins.generic.acron.description' => 'Deze plugin probeert de afhankelijkheid te verminderen van tools voor geplande taken, zoals \'cron\'.',
+      'plugins.generic.acron.enabled' => 'De Acron plugin is ingeschakeld.',
+      'plugins.generic.acron.disabled' => 'De Acron plugin is uitgeschakeld.',
+      'plugins.generic.acron.reloadedCronTab' => 'Het crontab bestand is met succes opnieuw geladen.',
+      'plugins.generic.acron.reload' => 'Vernieuw geplande taken',
+      'plugins.generic.acron.tasksReloaded' => 'Geplande taken werden vernieuwd.',
+    ),
+  ),
+);

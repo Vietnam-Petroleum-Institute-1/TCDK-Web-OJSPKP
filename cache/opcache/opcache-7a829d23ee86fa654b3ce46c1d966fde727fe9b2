@@ -1,0 +1,21 @@
+<?php $exp = 1751345594; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.tinymce.name' => 'إضافة TinyMCE',
+      'plugins.generic.tinymce.description' => 'هذه الإضافة تمكن التحرير بأسلوب WYSIWYG لمواضع النصوص باستعمال محرر المحتوى <a href="https://www.tiny.cloud/" target="_blank">TinyMCE</a>.',
+      'plugins.generic.tinymce.settings' => 'الإعدادات',
+      'plugins.generic.tinymce.pkpTags.listTags' => 'إختر علامة',
+      'plugins.generic.tinymce.pkpTags.noneAvailable' => 'لا تتوفر علامات لهذا الحقل.',
+      'plugins.generic.tinymce.pkpTags.description' => 'بإمكانك إدراج أي من العلامات الآتية:',
+      'plugins.generic.tinymce.variables.principalContactName' => 'اسم الاتصال الأساسي ("{$value}")',
+      'plugins.generic.tinymce.variables.principalContactEmail' => 'العنوان البريدي للاتصال الأساسي ("{$value}")',
+      'plugins.generic.tinymce.variables.supportContactName' => 'اسم الاتصال الداعم ("{$value}")',
+      'plugins.generic.tinymce.variables.supportContactEmail' => 'العنوان البريدي للاتصال الداعم ("{$value}")',
+      'plugins.generic.tinymce.variables.supportContactPhone' => 'هاتف الاتصال الداعم ("{$value}")',
+    ),
+  ),
+);

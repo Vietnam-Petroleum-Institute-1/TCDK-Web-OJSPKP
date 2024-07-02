@@ -1,0 +1,22 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n > 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.announcementfeed.displayName' => 'Հայտարարությունների ժապավենի պլագին',
+      'plugins.generic.announcementfeed.description' => 'Այս փլագինը արտադրում է RSS/Atom վեբ սինդիկացիոն հոսքեր ամսագրի հայտարարությունների համար:',
+      'plugins.generic.announcementfeed.settings' => 'Կարգավորումներ',
+      'plugins.generic.announcementfeed.settings.all' => 'Ցուցադրել թարմացվող ժապավենի հղումները ամսագրի բոլոր էջերում:',
+      'plugins.generic.announcementfeed.settings.homepage' => 'Ցուցադրել ժապավենի հղումները միայն գլխավոր էջում և հայտարարությունների էջում:',
+      'plugins.generic.announcementfeed.settings.announcement' => 'Ցուցադրել ժապավենի հղումները միայն հայտարարությունների էջում:',
+      'plugins.generic.announcementfeed.settings.recentAnnouncements1' => 'Սահմանափակել ժապավենը',
+      'plugins.generic.announcementfeed.settings.recentAnnouncements2' => 'ամենավերջին հայտարարությունները.',
+      'plugins.generic.announcementfeed.settings.recentItemsRequired' => 'Խնդրում ենք մուտքագրել դրական ամբողջ թիվ վերջին հայտարարությունների համար:',
+      'plugins.generic.announcementfeed.atom.altText' => 'Atom լոգո',
+      'plugins.generic.announcementfeed.rss1.altText' => 'RSS1 լոգո',
+      'plugins.generic.announcementfeed.rss2.altText' => 'RSS2 լոգո',
+    ),
+  ),
+);

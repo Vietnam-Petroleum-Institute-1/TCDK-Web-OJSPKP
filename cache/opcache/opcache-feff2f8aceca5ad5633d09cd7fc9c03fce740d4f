@@ -1,0 +1,44 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'emails.orcidCollectAuthorId.subject' => 'ORCID van uw inzending',
+      'emails.orcidCollectAuthorId.body' => 'Beste {$recipientName},<br/>
+<br/>
+U bent auteur van een inzending voor {$contextName}.<br/> 
+Wilt u bevestigen dat u co-auteur bent door uw ORCID id toe te voegen via volgende link?<br/>
+<br/>
+<a href="{$authorOrcidUrl}"><img id="orcid-id-logo" src="https://orcid.org/sites/default/files/images/orcid_16x16.png" width=\'16\' height=\'16\' alt="ORCID iD icon" style="display: block; margin: 0 .5em 0 0; padding: 0; float: left;"/>Registreer of koppel uw ORCID ID</a><br/>
+<br/>
+<br/>
+<a href="{$orcidAboutUrl}">Meer informatie over ORCID op {$contextName}</a><br/>
+<br/>
+Neemt u alstublieft contact op als u vragen heeft.<br/>
+<br/>
+{$principalContactSignature}<br/>
+',
+      'emails.orcidCollectAuthorId.description' => 'Deze e-mail wordt verstuurd om de ORCID ID\'s van auteurs te verzamelen.',
+      'emails.orcidRequestAuthorAuthorization.subject' => 'Toegangsverzoek tot uw ORCID profiel',
+      'emails.orcidRequestAuthorAuthorization.body' => 'Beste {$recipientName},<br/>
+<br/>
+U bent auteur van het manuscript "{$submissionTitle}" dat werd ingediend voor {$contextName}.
+<br/>
+<br/>
+Wilt u uw toestemming geven om uw ORCID ID toe te voegen aan deze inzending en de inzending toe te voegen aan uw ORCID profiel bij publicatie?<br/>
+Klik op de link naar de officiële ORCID website, meld u aan met uw gebruikersprofiel en authoriseer de toegang door de instructies te volgen.<br/>
+<a href="{$authorOrcidUrl}"><img id="orcid-id-logo" src="https://orcid.org/sites/default/files/images/orcid_16x16.png" width=\'16\' height=\'16\' alt="ORCID iD icon" style="display: block; margin: 0 .5em 0 0; padding: 0; float: left;"/>Registreer of koppel uw ORCID ID</a><br/>
+<br/>
+<br/>
+<a href="{$orcidAboutUrl}">Meer informatie over ORCID op {$contextName}</a><br/>
+<br>
+Neemt u alstublieft contact op als u vragen heeft.<br/>
+<br/>
+{$principalContactSignature}<br/>
+',
+      'emails.orcidRequestAuthorAuthorization.description' => 'Deze e-mail wordt verstuurd om toegang te vragen aan auteurs tot hun ORCID profiel.',
+    ),
+  ),
+);

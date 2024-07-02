@@ -1,0 +1,15 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.recommendBySimilarity.displayName' => 'Hasonló cikkek ajánlása',
+      'plugins.generic.recommendBySimilarity.description' => 'Ez a plugin hasonló cikkek listáját adja a cikk absztrakt oldalához.',
+      'plugins.generic.recommendBySimilarity.heading' => 'Hasonló cikkek',
+      'plugins.generic.recommendBySimilarity.advancedSearchIntro' => 'You may also {$advancedSearchLink} for this article.',
+      'plugins.generic.recommendBySimilarity.advancedSearch' => 'Haladó hasonlósági keresés indítása',
+    ),
+  ),
+);

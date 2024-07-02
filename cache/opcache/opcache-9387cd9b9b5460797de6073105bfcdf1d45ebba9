@@ -1,0 +1,386 @@
+<?php $exp = 1751345599; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=1; plural=0;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'emails.passwordResetConfirm.subject' => '密码重置确认',
+      'emails.passwordResetConfirm.body' => '我们收到您的请求，将重新设定您在{$siteTitle}网站的密码。<br />
+<br />
+如果您没有提出这个请求，请忽略这封电子邮件，同时您的密码将会保持不变。如果您希望要重置您的密码，请按下面的链接。<br />
+<br />
+重置我的密码： {$passwordResetUrl}<br />
+<br />
+{$siteContactName}',
+      'emails.userRegister.subject' => '新用户注册',
+      'emails.userRegister.body' => '{$recipientName}<br />
+<br />
+谢谢您注册成为《{$contextName}》的一个用户。请保管好这份用户名称和密码，它对于使用本站的所有功能来说是非常必要的。<br />
+<br />
+用户名称：{$recipientUsername}<br />
+密码：{$password}<br />
+<br />
+谢谢您<br />
+{$signature}',
+      'emails.userValidateContext.subject' => '验证您的账户',
+      'emails.userValidateContext.body' => '{$recipientName}<br />
+<br />
+您已经在《{$contextName}》创建了账户, 在开始使用前，您需要验证您的电子邮件账号。要做到这一点，只需按照下面的链接：<br />
+<br />
+{$activateUrl}<br />
+<br />
+谢谢您,<br />
+{$contextSignature}',
+      'emails.reviewerRegister.subject' => '在《{$contextName}》注册为审稿人',
+      'emails.reviewerRegister.body' => '基于您的经验, 我们已经注册您的名字到期刊《{$contextName}》的审稿人数据库. 这并不意味着您那方面的任何形式的承诺，只代表我们可以通知您相关投稿的审阅. 在被邀请审稿时，您可以看到稿件的标题和摘要，您可以作出是否对稿件进行审阅的决定。您也可以在任何时候请求从审稿人列表中移除您的名字.<br />
+<br />
+我们将提供给您用户名和密码，用于您所有在本期刊网站的活动。例如，您可以更新您的账户信息，或者更改您的审稿方向.<br />
+<br />
+用户名： {$recipientUsername}<br />
+密码： {$password}<br />
+<br />
+谢谢您，<br />
+{$signature}',
+      'emails.issuePublishNotify.subject' => '新一期期刊已出版',
+      'emails.issuePublishNotify.body' => '亲爱的读者您好：<br />
+<br />
+《{$contextName}》已经出版了最新一期的期刊，请见{$contextUrl}。我们诚挚地邀请您阅览这里的目录，并接着访问我们的网站以阅读各种文章以及有趣的项目。<br />
+<br />
+感谢您持续地关注我们的作品，<br />
+{$signature}',
+      'emails.editorAssign.subject' => '指派编辑任务',
+      'emails.editorAssign.body' => '{$recipientName}:<br />
+<br />
+我们已经将投稿到《{$contextName}》的稿件〈{$submissionTitle}〉指派给您进行编辑工作，请在您的「区段编辑」介面中进行编辑工作。<br />
+<br />
+稿件网址：{$submissionUrl}<br />
+用户名称：{$recipientUsername}<br />
+<br />
+谢谢您。',
+      'emails.reviewRequest.subject' => '邀请您审查稿件',
+      'emails.reviewRequest.body' => '{$recipientName}您好：<br />
+<br />
+《{$contextName}》的编辑团队相信您是投稿到本期刊之稿件&quot;{$submissionTitle}&quot;的最佳审查人选。该份稿件的摘要如下，而我们希望您会考虑进行这份对我们来说相当重要的一个工作。<br />
+<br />
+无论您是否接受审查工作与否，都请在{$responseDueDate}之前登入这个期刊网站，同时检阅这份稿件并且记录您的审查意见和编辑建议。网站为：{$contextUrl}<br />
+<br />
+请注意审查工作的期限为：{$reviewDueDate}。<br />
+<br />
+如果您没有您在这个期刊网站的用户帐号和密码。您可以使用这个链接去重新设定您的密码（该密码会和您的用户帐号名称一起电邮给您）：{$passwordLostUrl}<br />
+<br />
+稿件网址：{$reviewAssignmentUrl}<br />
+<br />
+非常感谢您考虑我们的邀请。<br />
+<br />
+{$signature}<br />
+<br />
+<br />
+<br />
+&quot;{$submissionTitle}&quot;<br />
+<br />
+<br />
+{$submissionAbstract}',
+      'emails.reviewResponseOverdueAuto.subject' => '邀请您审查稿件',
+      'emails.reviewResponseOverdueAuto.body' => '{$recipientName}您好：<br />
+<br />
+《{$contextName}》的编辑团队相信您是投稿到本期刊之稿件〈{$submissionTitle}〉的最佳审查人选。该份稿件的摘要如下，而我们希望您会考虑进行这份对我们来说相当重要的一个工作。<br />
+<br />
+无论您是否接受审查工作与否，都请在{$responseDueDate}之前登入这个期刊网站，同时检阅这份稿件并且记录您的审查意见和编辑建议。网站为：{$contextUrl}<br />
+<br />
+请注意审查工作的期限为：{$reviewDueDate}。<br />
+<br />
+如果您没有您在这个期刊网站的用户帐号和密码。您可以使用这个链接去重新设定您的密码（该密码会和您的用户帐号名称一起电邮给您）：{$passwordLostUrl}<br />
+<br />
+稿件网址：{$reviewAssignmentUrl}<br />
+<br />
+非常感谢您考虑我们的邀请。<br />
+<br />
+{$contextSignature}<br />
+<br />
+<br />
+<br />
+〈{$submissionTitle}〉<br />
+<br />
+<br />
+{$submissionAbstract}',
+      'emails.reviewRequestSubsequent.subject' => '文章审稿请求',
+      'emails.reviewRequestSubsequent.body' => '{$recipientName}:<br />
+<br />
+This regards the manuscript &quot;{$submissionTitle},&quot; which is under consideration by {$contextName}.<br />
+<br />
+Following the review of the previous version of the manuscript, the authors have now submitted a revised version of their paper. We would appreciate it if you could help evaluate it.<br />
+<br />
+Please log into the journal web site by {$responseDueDate} to indicate whether you will undertake the review or not, as well as to access the submission and to record your review and recommendation. The web site is {$contextUrl}<br />
+<br />
+The review itself is due {$reviewDueDate}.<br />
+<br />
+If you do not have your username and password for the journal\'s web site, you can use this link to reset your password (which will then be emailed to you along with your username). {$passwordLostUrl}<br />
+<br />
+Submission URL: {$reviewAssignmentUrl}<br />
+<br />
+Thank you for considering this request.<br />
+<br />
+{$signature}<br />
+<br />
+<br />
+<br />
+&quot;{$submissionTitle}&quot;<br />
+<br />
+{$submissionAbstract}',
+      'emails.reviewCancel.subject' => '请取消审查工作',
+      'emails.reviewCancel.body' => '{$recipientName}:<br />
+<br />
+出于种种考量，我们目前已经取消了邀请您进行投稿《{$contextName}》之稿件〈{$submissionTitle}〉的审查工作。造成您的不便，我们感到十分抱歉，同时我们希望在未来仍能够请您协助审查这份期刊的稿件。<br />
+<br />
+如果您有任何问题，请与我们联络。',
+      'emails.reviewReinstate.subject' => '恢复审核的请求',
+      'emails.reviewReinstate.body' => '{$recipientName}:<br/>
+<br/>
+我们真心希望您能够替我们评阅 &quot;{$submissionTitle},&quot; ， {$contextName}，帮助我们审查期刊的论文稿件。<br/>
+<br/>
+如果您有任何问题，请同我们联系。',
+      'emails.reviewDecline.subject' => '无法进行审查工作',
+      'emails.reviewDecline.body' => '{$recipientName}:<br />
+<br />
+我恐怕在这个时候无法为《{$contextName}》进行稿件〈{$submissionTitle}〉的审查工作。谢谢您考虑我担任审查人，有机会我仍乐意接受审查工作。<br />
+<br />
+{$senderName}',
+      'emails.reviewRemind.subject' => '稿件审查提醒函',
+      'emails.reviewRemind.body' => '{$recipientName}:<br />
+<br />
+这封信只是礼貌地提醒您，我们已邀请您为《{$contextName}》审查稿件〈{$submissionTitle}〉。我们希望您<br />
+能在 {$reviewDueDate}前完成这份审查工作，并请您在备妥审查意见书之后尽快寄给我们。<br />
+<br />
+如果您没有您在这个期刊网站的用户帐号和密码。您可以使用这个链接去重新设定您的密码（该密码会和您的用户帐号名称一起电邮给您）：{$passwordLostUrl}<br />
+<br />
+稿件网址：{$reviewAssignmentUrl}<br />
+<br />
+请确认您能够完成这个对本期刊作品而言非常重要的审稿任务。我们期盼得到您的回复。<br />
+<br />
+{$signature}',
+      'emails.reviewRemindAuto.subject' => '自动发出的稿件审查提醒函',
+      'emails.reviewRemindAuto.body' => '{$recipientName}:<br />
+<br />
+这封信只是礼貌地提醒您，我们已邀请您为《{$contextName}》审查稿件〈{$submissionTitle}〉。我们希望您<br />
+能在 {$reviewDueDate}前完成这份审查工作，并请您在备妥审查意见书之后尽快寄给我们。<br />
+<br />
+如果您没有您在这个期刊网站的用户帐号和密码。您可以使用这个链接去重新设定您的密码（该密码会和您的用户帐号名称一起电邮给您）：{$passwordLostUrl}<br />
+<br />
+稿件网址：{$reviewAssignmentUrl}<br />
+<br />
+请确认您能够完成这个对本期刊作品而言非常重要的贡献。我们期盼听到您的回复。<br />
+<br />
+{$contextSignature}',
+      'emails.editorDecisionAccept.subject' => '编辑决定',
+      'emails.editorDecisionAccept.body' => '{$authors}:<br />
+我们对于您在《{$contextName}》提交的〈{$submissionTitle}〉达成一项决定。<br />
+<br />
+我们的决定是：接收该稿件',
+      'emails.layoutRequest.subject' => '请进行排版工作',
+      'emails.layoutRequest.body' => '{$recipientName}:<br />
+<br />
+投递到 {$contextName}的稿件 &quot;{$submissionTitle}&quot; 现在按照如下步骤进行排版：<br />
+1. 点击下面的投稿URL.<br />
+2. 登录到期刊，并且使用排版版本文件根据期刊标准来创建样稿.<br />
+3. 发送完成稿件给编辑.<br />
+<br />
+{$contextName} URL: {$contextUrl}<br />
+稿件URL: {$submissionUrl}<br />
+用户名: {$recipientUsername}<br />
+<br />
+如果您这次不能完成这项工作或者有任何质询，请联系我们，感谢您对本刊的贡献.',
+      'emails.layoutComplete.subject' => '已完成制版',
+      'emails.layoutComplete.body' => '{$recipientName}:<br />
+<br />
+目前已经为投稿《{$contextName}》的稿件〈{$submissionTitle}〉完成制版工作，可以进行校对工作了。<br />
+<br />
+如果您有任何问题，请与我们联络。<br />
+<br />
+{$senderName}',
+      'emails.emailLink.subject' => '您可能会感兴趣的期刊文章',
+      'emails.emailLink.body' => '我想您会有兴趣想看看{$authors}所写的〈{$submissionTitle}〉，刊行在《{$contextName}》 ，第{$volume}册，第{$number}期 ({$year}) 。网址为： &quot;{$submissionUrl}&quot;.',
+      'emails.emailLink.description' => '这份电子邮件样版让一个注册的读者有机会将有关一篇文章的相关信息寄给可能会感兴趣的人。这可以透过「阅读工具」进行，并且一定要由期刊管理员在「阅读工具管理」页面中启用这项功能。',
+      'emails.subscriptionNotify.subject' => '期刊订阅通知信',
+      'emails.subscriptionNotify.body' => '{$recipientName}:<br />
+<br />
+您目前以下列的订阅信息，注册登记成为我们线上期刊网站《{$contextName}》的一个订户：<br />
+<br />
+{$subscriptionType}<br />
+<br />
+要访问只有订户才能阅读的文章内容，只要简单地以您的用户帐号名称登入系统即可：「{$recipientUsername}」。<br />
+<br />
+一旦您登入本系统，您就能够在任何时候变更您的帐号相关设定以及密码。<br />
+<br />
+请注意，如果您是以机关单位进行订阅，贵单位的用户就不需要进行登入，因为文章内容的订阅动作将会自动地由系统进行授权。<br />
+<br />
+如果您有任何的疑问，请直接联络我们。<br />
+<br />
+谢谢您<br />
+<br />
+{$subscriptionSignature}',
+      'emails.openAccessNotify.subject' => '本期内容已经开放访问',
+      'emails.openAccessNotify.body' => '亲爱的读者您好：<br />
+<br />
+《{$contextName}》已经以开放访问的格式公开本期期刊内容。我们邀请您浏览这里所附的目录，并且接着访问我们的网站 ({$contextUrl}) ，阅读文章以及您感兴趣的项目。<br />
+<br />
+感谢您持续地关注本期刊<br />
+<br />
+{$contextSignature}',
+      'emails.subscriptionBeforeExpiry.subject' => '订阅到期通知',
+      'emails.subscriptionBeforeExpiry.body' => '{$recipientName}:<br />
+<br />
+您订阅《{$contextName}》的期限将要到期。<br />
+<br />
+{$subscriptionType}<br />
+到期日：{$expiryDate}<br />
+<br />
+为确保您能够持续阅读本期刊，请至期刊网站并且续订本期刊。您可以使用您的帐号名称「{$recipientUsername}」登入系统。<br />
+<br />
+如果您有任何的疑问，请直接联络我们。<br />
+<br />
+{$subscriptionSignature}',
+      'emails.subscriptionAfterExpiry.subject' => '订阅时间已经过期',
+      'emails.subscriptionAfterExpiry.body' => '{$recipientName}:<br />
+<br />
+您订阅《{$contextName}》的期限已经过期。<br />
+<br />
+{$subscriptionType}<br />
+到期日：{$expiryDate}<br />
+<br />
+要续订本期刊，请前往本期刊网站。您可以使用您的帐号名称「{$recipientUsername}」登入系统。<br />
+<br />
+如果您有任何的疑问，请直接联络我们。<br />
+<br />
+{$subscriptionSignature}',
+      'emails.subscriptionAfterExpiryLast.subject' => '订阅时间已经过期—最后提醒',
+      'emails.subscriptionAfterExpiryLast.body' => '{$recipientName}:<br />
+<br />
+您订阅《{$contextName}》的期限已经过期。<br />
+请注意，这是最后一封寄发给您的提醒信函。<br />
+<br />
+{$subscriptionType}<br />
+到期日：{$expiryDate}<br />
+<br />
+要续订本期刊，请前往本期刊网站。您可以使用您的帐号「{$recipientUsername}」登入系统。<br />
+<br />
+如果您有任何疑问，请直接联系我们。<br />
+<br />
+{$subscriptionSignature}',
+      'emails.subscriptionPurchaseIndl.subject' => '订阅购买:个人',
+      'emails.subscriptionPurchaseIndl.body' => '一个《{$contextName} 》的个人订阅已经被在线购买，详细如下：<br />
+<br />
+订阅类型:<br />
+{$subscriptionType}<br />
+<br />
+用户:<br />
+{$subscriberDetails}<br />
+<br />
+会员信息 (可选):<br />
+{$membership}<br />
+<br />
+审阅或者编辑这个订阅，请使用如下链接.<br />
+<br />
+订阅URL: {$subscriptionUrl}<br />
+',
+      'emails.subscriptionPurchaseInstl.subject' => '订阅购买: 团体',
+      'emails.subscriptionPurchaseInstl.body' => '一个《{$contextName} 》的团体订阅已经被在线购买，详细如下：<br />
+		激活这个订阅, 请使用提供的订阅URL，并且设置订阅状态为\'激活（Active）\'.<br />
+<br />
+订阅类型:<br />
+{$subscriptionType}<br />
+<br />
+团体信息:<br />
+{$institutionName}<br />
+{$institutionMailingAddress}<br />
+<br />
+域名(可选):<br />
+{$domain}<br />
+<br />
+IP范围(可选):<br />
+{$ipRanges}<br />
+<br />
+联系人:<br />
+{$subscriberDetails}<br />
+<br />
+会员信息 (if provided):<br />
+{$membership}<br />
+<br />
+请使用下面的链接查看和编辑这个订阅：<br />
+<br />
+订阅URL: {$subscriptionUrl}<br />
+',
+      'emails.subscriptionRenewIndl.subject' => '订阅续订: 个人',
+      'emails.subscriptionRenewIndl.body' => '《{$contextName}》的一个个人订阅已经被续订了，详细信息如下：<br />
+<br />
+订阅类型:<br />
+{$subscriptionType}<br />
+<br />
+用户:<br />
+{$subscriberDetails}<br />
+<br />
+会员信息 (if provided):<br />
+{$membership}<br />
+<br />
+请使用如下链接查看和编辑这个订阅.<br />
+<br />
+订阅链接URL: {$subscriptionUrl}<br />
+',
+      'emails.subscriptionRenewInstl.subject' => '订阅续订: 团体',
+      'emails.subscriptionRenewInstl.body' => '《{$contextName}》的一个团体订阅已经在线续订了，详细信息如下：<br />
+<br />
+订阅类型:<br />
+{$subscriptionType}<br />
+<br />
+团体信息:<br />
+{$institutionName}<br />
+{$institutionMailingAddress}<br />
+<br />
+域名 (可选):<br />
+{$domain}<br />
+<br />
+IP范围(可选):<br />
+{$ipRanges}<br />
+<br />
+联系人:<br />
+{$subscriberDetails}<br />
+<br />
+会员信息(可选):<br />
+{$membership}<br />
+<br />
+使用如下链接审查和编辑这个订阅.<br />
+<br />
+订阅URL: {$subscriptionUrl}<br />
+',
+      'emails.revisedVersionNotify.subject' => '修订版上传',
+      'emails.revisedVersionNotify.body' => '{$recipientName}:<br />
+<br />
+A revised version of &quot;{$submissionTitle}&quot; has been uploaded by the author {$submitterName}.<br />
+<br />
+Submission URL: {$submissionUrl}<br />
+<br />
+{$signature}',
+      'emails.statisticsReportNotification.subject' => '编辑持续达 {$year} 年 {$month} 个月',
+      'emails.statisticsReportNotification.body' => '
+{$recipientName}, <br />
+<br />
+您的期刊长达 {$month}, {$year} 的运行报告已经生成。当月统计数据如下。<br />
+<ul>
+	<li>本月投稿： {$newSubmissions}</li>
+	<li>本月拒绝稿件： {$declinedSubmissions}</li>
+	<li>本月采纳稿件： {$acceptedSubmissions}</li>
+	<li>系统共接收稿件： {$totalSubmissions}</li>
+</ul>
+登录查看期刊更多信息： <a href="{$editorialStatsLink}">编辑趋势</a> 和 <a href="{$publicationStatsLink}">发表文章统计</a>。本月编辑趋势见附件。<br />
+<br />
+谨启<br />
+{$contextSignature}',
+      'emails.announcement.subject' => '{$announcementTitle}',
+      'emails.announcement.body' => '<b>{$announcementTitle}</b><br />
+<br />
+{$announcementSummary}<br />
+<br />
+访问我们的网站查看<a href="{$announcementUrl}">公告全文</a>。.',
+    ),
+  ),
+);

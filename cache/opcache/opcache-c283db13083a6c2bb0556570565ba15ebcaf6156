@@ -1,0 +1,23 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.webfeed.displayName' => 'Web Feed Plugin',
+      'plugins.generic.webfeed.description' => 'Deze plugin produceert RSS/Atom feeds voor het huidige nummer.',
+      'plugins.generic.webfeed.settings' => 'Instellingen',
+      'plugins.generic.webfeed.settings.issue' => 'Toon web feed links alleen bij de pagina\'s van een nummer.',
+      'plugins.generic.webfeed.settings.homepage' => 'Toon web feeds alleen op de startpagina en de pagina\'s van het nummer.',
+      'plugins.generic.webfeed.settings.all' => 'Toon web feed links op alle tijdschriftpagina\'s.',
+      'plugins.generic.webfeed.settings.currentIssue' => 'Toon de items in het huidige nummer.',
+      'plugins.generic.webfeed.settings.recent' => 'Toon een vast aantal meest recente items.',
+      'plugins.generic.webfeed.settings.recentArticles' => 'Meest recent gepubliceerde items',
+      'plugins.generic.webfeed.settings.recentItemsRequired' => 'Het aantal recente items moet een positief geheel getal zijn.',
+      'plugins.generic.webfeed.atom.altText' => 'Atom logo',
+      'plugins.generic.webfeed.rss1.altText' => 'RSS1 logo',
+      'plugins.generic.webfeed.rss2.altText' => 'RSS2 logo',
+    ),
+  ),
+);

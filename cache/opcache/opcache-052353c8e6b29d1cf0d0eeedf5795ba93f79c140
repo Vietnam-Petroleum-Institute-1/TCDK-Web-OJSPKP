@@ -1,0 +1,14 @@
+<?php $exp = 1751345595; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=4; plural=(n==1 || n==11) ? 0 : (n==2 || n==12) ? 1 : (n > 2 && n < 20) ? 2 : 3;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.recommendByAuthor.displayName' => 'Artaigealan a mholar leis an aon ùghdar',
+      'plugins.generic.recommendByAuthor.description' => 'Tha am plugan seo a’ cur a-steach liosta artaigealan leis an aon ùghdar air duilleag geàrr-chunntas an artaigil.',
+      'plugins.generic.recommendByAuthor.heading' => 'Na h-artaigealan leis na h-aon ùghdaran a leughar as trice',
+      'plugins.generic.recommendByAuthor.noMetric' => 'Thoir an aire: Feumaidh am plugan seo co-dhiù aon phlugan stadastaireachd/aithrisidh an comas. Ma tha na plugain stadastaireachd agad a’ toirt seachad barrachd air aon mheatrachd, tagh prìomh-mheatrachd air duilleag rianairean roghainnean na làraich agus/no air duilleag manaidsearan an iris-leabhair.',
+    ),
+  ),
+);

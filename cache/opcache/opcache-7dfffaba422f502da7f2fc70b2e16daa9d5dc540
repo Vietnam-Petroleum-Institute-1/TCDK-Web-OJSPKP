@@ -1,0 +1,26 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.importexport.datacite.displayName' => 'DataCite Export/Regisztrációs Plugin',
+      'plugins.importexport.datacite.description' => 'Adatok, cikkek, preprintek és kiegészítõ fájl metaadatok exportálása vagy regisztrálása DataCite formátumban.',
+      'plugins.importexport.datacite.settings.description' => 'Kérjük, először konfigurálja a DataCite export-bővítményt.',
+      'plugins.importexport.datacite.intro' => '
+		Ha a DOI-t a DataCite programmal szeretné regisztrálni, kérjük, lépjen kapcsolatba az ügynökség munkatársával itt: <a href="http://datacite.org/contact" target="_blank">DataCite honlap</a>, ahol a helyi DataCite tagjához irányítják. Ha már van
+létrehozott kapcsolata a tagszervezettel, akkor biztosítani fogják hozzáférését a DataCite szolgáltatáshoz az állandó azonosítók (DOI-k) és a kapcsolódó metaadatok regisztrálására. Ha nem rendelkezik saját felhasználónévvel és jelszóval, ettől még képes exportálni a DataCite XML formátumba, de Ön nem tudja regisztrálni a DOI-kat a DataCite-tal a OJS-en belül. Kérjük, vegye figyelembe, hogy a jelszó egyszerű szövegként lesz mentve, azaz nem titkosítva a DataCite regisztrációs szolgáltatás követelményeinek megrelelően.
+	',
+      'plugins.importexport.datacite.settings.form.username' => 'Felhasználónév (szimbólum)',
+      'plugins.importexport.datacite.settings.form.usernameRequired' => 'Adja meg a DataCite-től kapott felhasználónevet (szimbólumot). A felhasználónév nem tartalmazhat kettőspontokat.',
+      'plugins.importexport.datacite.settings.form.automaticRegistration.description' => 'A OJS automatikusan feltölti a DOI-kat a DataCite-hez. Felhívjuk figyelmét, hogy ez egy kis időt vesz igénybe a megjelenés utáni feldolgozás. Ellenőrizheti az összes regisztrálatlan DOI-t.',
+      'plugins.importexport.datacite.settings.form.testMode.description' => 'Használja a DataCite teszt előtagot a DOI regisztrációhoz. Kérjük, ne felejtse el kikapcsolni ezt a beállítást a megjelentetéskor.',
+      'plugins.importexport.datacite.senderTask.name' => 'DataCite automatikus regisztrálási feladat',
+      'plugins.importexport.datacite.cliUsage' => 'Használat: 
+{$scriptName} {$pluginName} export [outputFileName] [journal_path] {issues|cikkek|preprintek} objectId1 [objectId2] ...
+{$scriptName} {$pluginName} register [journal_path] {issues|articles|galleys} objectId1 [objectId2] ...
+',
+    ),
+  ),
+);

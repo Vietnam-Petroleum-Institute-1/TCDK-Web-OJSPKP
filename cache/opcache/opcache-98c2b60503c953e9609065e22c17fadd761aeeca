@@ -1,0 +1,32 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'comments.anonymous' => 'Anonim Kullanıcı',
+      'comments.anonymousNamed' => '"{$userName}"',
+      'comments.body' => 'Yorum',
+      'comments.titleRequired' => 'Yorum başlığı gereklidir.',
+      'comments.confirmDeleteChildren' => 'Bu yorum silindiğinde, varsa yoruma verilen cevaplar da silinecek. Bunu yapmak istediğinizden emin misiniz?',
+      'comments.delete' => 'Bu yorumu sil',
+      'comments.email' => 'Gönderen e-Posta',
+      'comments.emailReply' => 'Cevap e-Posta',
+      'comments.enterComment' => 'Yorum Ekle',
+      'comments.inResponseTo' => 'Şuna cevap olarak: <a href="{$url}">{$title}</a>',
+      'comments.name' => 'Gönderen Adı',
+      'comments.noComments' => 'Henüz hiç okuyucu yorumu bulunmuyor.',
+      'comments.nReplies' => '({$num} cevap)',
+      'comments.oneReply' => '(1 cevap)',
+      'comments.postAnonymously' => 'Bu yorumu isimsiz olarak gönder',
+      'comments.postReply' => 'Cevabı Gönder',
+      'comments.readerComments' => 'Okuyucu Yorumları',
+      'comments.readMore' => 'Devamını oku',
+      'comments.replies' => 'Cevaplar',
+      'comments.title' => 'Başlık',
+      'comments.viewAllComments' => 'Tüm yorumları göster',
+      'reader.fullText' => 'Tam Metin:',
+    ),
+  ),
+);

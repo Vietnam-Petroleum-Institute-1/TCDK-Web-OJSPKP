@@ -1,0 +1,28 @@
+<?php $exp = 1751345599; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'editor.home' => 'Bosh sahifa muharriri',
+      'editor.submissionsAndPublishing' => 'Taqdim etish va nashr qilish',
+      'editor.submissionQueue' => 'Taqdim etish(submission) navbati',
+      'editor.submissionArchive' => 'Taqdim etish(submission) arxivi',
+      'editor.publishing' => 'Nashriyot',
+      'editor.publishedIssues' => 'Nashr etilgan muammolar(issues)',
+      'editor.allSections' => 'Barcha bo\'limlar',
+      'editor.allEditors' => 'Barcha muharrirlar',
+      'editor.me' => 'Men',
+      'editor.publicIdentificationExists' => '“{$publicIdentifier}” umumiy identifikatori boshqa obyekt (muammo, maqola, galley yoki fayl) uchun allaqachon mavjud. Iltimos, jurnalingizda noyob identifikatorlarni tanlang.',
+      'editor.submissionArchive.noSubmissions' => 'Arxivda taqdimotlar(submissions) yoʻq.',
+      'editor.submissionArchive.saveChanges' => 'Arxivlangan taqdimotlar(submissions)ga oʻzgartirishlar saqlansinmi? Oʻchirish uchun belgilangan taqdimot(submissions)lar tizimdan butunlay oʻchirib tashlanadi.',
+      'editor.submissionReview.confirmDecision' => 'Haqiqatan ham bu qarorni yozib olishni xohlaysizmi?',
+      'editor.submissionReview.emailWillArchive' => 'Muallifni xabardor qilish elektron pochtasi yuborilgandan yoki uning “E-pochtani o‘tkazib yuborish” tugmasi bosilgandan so‘ng, ushbu yuborish(submission) arxivlanadi.',
+      'editor.submissionReview.cannotSendToCopyediting' => 'Nusxa ko‘chirishga jo‘natishdan oldin, muallifga qaror haqida xabar berish va yuboriladigan versiyani tanlash uchun Muallifni xabardor qilish havolasidan foydalaning.',
+      'editor.notifyUsers' => 'Fodalanuvchilarni xabardor qilish',
+      'editor.notifyUsers.allReaders' => 'Barcha o\'quvchilar ({$count} foydalanuvchi)',
+      'editor.notifyUsers.allAuthors' => 'Barcha chop etilgan mualliflar ({$count} foydalanuvchi)',
+    ),
+  ),
+);

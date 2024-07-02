@@ -1,0 +1,31 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=1; plural=0;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'api.announcements.400.contextsNotMatched' => 'Pengumuman yang Anda cari bukan bagian dari jurnal ini.',
+      'api.emails.403.disabled' => 'Fitur pemberitahuan melalui email tidak diaktifkan untuk jurnal ini.',
+      'api.submissions.400.wrongContext' => 'Baskah yang Anda minta tidak ditemukan di jurnal ini.',
+      'api.submissions.403.cantChangeContext' => 'Anda tidak dapat mengubah naskah jurnal yang masuk.',
+      'api.submissions.403.unpublishedIssues' => 'Anda tidak memiliki hak untuk melihat nomor terbitan yang tidak dipublikasikan.',
+      'api.contexts.403.requestedDisabledContexts' => 'Anda hanya dapat melihat jurnal yang telah diaktifkan.',
+      'api.contexts.403.notAllowed' => 'Anda tidak memiliki izin untuk melihat jurnal ini.',
+      'api.contexts.403.contextsDidNotMatch' => 'Anda tidak dapat melihat atau mengedit jurnal ini kecuali jika Anda meminta API jurnal atau API seluruh situs.',
+      'api.contexts.403.requiresContext' => 'Anda tidak dapat mengedit jurnal ini dari sisi API situs.',
+      'api.contexts.403.notAllowedEdit' => 'Anda tidak memiliki hak untuk mengedit jurnal ini.',
+      'api.contexts.403.notAllowedDelete' => 'Anda tidak memiliki hak untuk menghapus jurnal ini.',
+      'api.contexts.404.contextNotFound' => 'Jurnal yang Anda cari tidak ditemukan.',
+      'api.dois.403.contextsNotMatched' => 'DOI yang Anda cari bukan bagian dari jurnal ini.',
+      'api.dois.400.noRegistrationAgencyConfigured' => 'Belum ada agen registrasi DOI yang diatur pada jurnal ini.',
+      'api.dois.400.depositFailed' => 'Beberapa bagian belum berhasil didepositkan. Periksa kembali setiap item untuk melihat pesan error spesifiknya.',
+      'api.emailTemplates.403.notAllowedChangeContext' => 'Anda tidak memiliki hak untuk memindahkan template email ini ke jurnal lain.',
+      'api._payments.400.invalidPaymentMethod' => 'Metode pembayaran yang Anda pilih tidak didukung.',
+      'api.publications.403.contextsDidNotMatch' => 'Publikasi yang Anda minta bukan bagian dari jurnal ini.',
+      'api.publications.403.submissionsDidNotMatch' => 'Publikasi yang Anda cari bukan bagian dari naskah ini.',
+      'api.submissionFiles.400.badRepresentationAssocType' => 'Anda tidak bisa mengasosiasikan file dari tahapan file denga sebuah galley.',
+      'api.submission.400.inactiveSection' => 'Seksi ini tidak lagi menerima naskah.',
+    ),
+  ),
+);

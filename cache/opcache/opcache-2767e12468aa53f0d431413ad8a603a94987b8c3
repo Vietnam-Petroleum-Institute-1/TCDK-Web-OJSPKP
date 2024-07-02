@@ -1,0 +1,79 @@
+<?php $exp = 1751345594; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'installer.additionalLocales' => 'Допълнителни езици',
+      'installer.administratorAccount' => 'Административен акаунт',
+      'installer.administratorAccountInstructions' => 'Този потребителски акаунт ще стане администратор на сайта и ще има пълен достъп до системата. Допълнителни потребителски акаунти могат да бъдат създадени след инсталиране.',
+      'installer.checkNo' => '<span class="pkp_form_error formError">НЕ</span>',
+      'installer.checkYes' => 'Да',
+      'installer.configFileError' => 'Конфигурационният файл <tt>config.inc.php</tt> не съществува или не се чете.',
+      'installer.connectionCharset' => 'Кодова таблиза за връзка с базата данни',
+      'installer.contentsOfConfigFile' => 'Съдържание на конфигурационен файл',
+      'installer.databaseDriver' => 'Драйвър на базата данни',
+      'installer.databaseDriverInstructions' => '<strong>Системата в момента поддържа MySQL и PostgreSQL, в случай че не можете да изберете една от тези опции по-долу, свържете се със системния си администратор, за да се уверите, че сървърът ви има необходимите PHP разширения.</strong>',
+      'installer.databaseHost' => 'Хост',
+      'installer.databaseHostInstructions' => 'Оставете името на хоста празно, за да се свържете чрез сокети на домейн вместо през TCP/IP. Това не е необходимо с MySQL, който автоматично ще използва сокети, ако се въведе "localhost", но се изисква с някои други сървъри на бази данни, като PostgreSQL.',
+      'installer.databaseName' => 'Име на базата данни',
+      'installer.databasePassword' => 'Парола',
+      'installer.databaseSettings' => 'Настройки на базата данни',
+      'installer.databaseUsername' => 'Потребителско име',
+      'installer.filesDir' => 'Директория за качване на файлове',
+      'installer.fileSettings' => 'Настройки на файла',
+      'installer.form.clientCharsetRequired' => 'Трябва да бъде избрана кодова таблица за клиента.',
+      'installer.form.databaseDriverRequired' => 'Трябва да бъде избран драйвер за база данни.',
+      'installer.form.databaseNameRequired' => 'Името на базата данни е задължително.',
+      'installer.form.emailRequired' => 'Изисква се валиден имейл адрес за администраторския акаунт.',
+      'installer.form.filesDirRequired' => 'Изисква се име на директорията, която ще се използва за съхраняване на качените файлове.',
+      'installer.form.localeRequired' => 'Трябва да бъде избран език.',
+      'installer.form.passwordRequired' => 'Изисква се парола за администраторския акаунт.',
+      'installer.form.passwordsDoNotMatch' => 'Администраторските пароли не съвпадат.',
+      'installer.form.separateMultiple' => 'Разделете няколко стойности със запетаи',
+      'installer.form.usernameAlphaNumeric' => 'Потребителското име на администратор може да съдържа само буквено-цифрови знаци, долни черти и тирета и трябва да започва и да завършва с буквено-цифров знак.',
+      'installer.form.usernameRequired' => 'Изисква се потребителско име за администраторския акаунт.',
+      'installer.form.timeZoneRequired' => 'Трябва да бъде избрана часова зона.',
+      'installer.installationWrongPhp' => '<br/><strong>ПРЕДУПРЕЖДЕНИЕ: Вашата текуща версия на PHP не отговаря на минималните изисквания за инсталиране. Препоръчително е да надстроите до по-нова версия на PHP.</strong>',
+      'installer.installErrorsOccurred' => 'Възникнаха грешки по време на инсталацията',
+      'installer.installerSQLStatements' => 'SQL изрази за инсталиране',
+      'installer.installFileError' => 'Инсталационният файл <tt>dbscripts/xml/install.xml</tt> не съществува или не се чете.',
+      'installer.installFilesDirError' => 'Посочената директория за качени файлове не съществува или не може да се записва.',
+      'installer.installParseDBFileError' => 'Грешка при синтактичния анализ на инсталационния файл на базата данни <tt>{$file}</tt>.',
+      'installer.installMigrationError' => 'При изпълнение на класа за мигриране <tt>{$class}</tt> беше допуснато изключение. Изключението беше {$message}.',
+      'installer.installParseEmailTemplatesFileError' => 'Грешка при синтактичния анализ на файла с шаблон за имейл <tt>{$file}</tt>.',
+      'installer.installParseFilterConfigFileError' => 'Грешка при синтактичния анализ на конфигурационния файл с филтър <tt>{$file}</tt>.',
+      'installer.unsupportedUpgradeError' => 'Надстройката не се поддържа. За подробности вижте документи/НАДСТРОЙКА-НЕПОДДЪРЖАНА.',
+      'installer.timezoneInstructions' => 'Часова зона за използване в тази система.',
+      'installer.additionalLocalesInstructions' => 'Изберете всякакви допълнителни езици, които да се поддържат в тази система. Допълнителни езици също могат да бъдат инсталирани по всяко време от интерфейса за администрация на сайта.<br>* = Означава езици, които не са напълно преведени (> 90% от преведените термини)',
+      'installer.locale' => 'Език',
+      'installer.locale.maybeIncomplete' => 'Маркираните езици може да са непълни.',
+      'installer.localeSettings' => 'Настройки на езика',
+      'installer.oaiSettings' => 'Настройки за OAI',
+      'installer.oaiRepositoryIdInstructions' => 'Уникален идентификатор, използван за идентифициране на записи с метаданни, индексирани от този сайт с помощта на протокола <a href="https://www.openarchives.org/" target="_blank">Open Archives Initiative</a> за събиране на метаданни.',
+      'installer.oaiRepositoryId' => 'Идентификатор на хранилищата (репозиториите)',
+      'installer.publicFilesDirError' => 'Директорията с публични файлове не съществува или не може да се записва в нея.',
+      'installer.releaseNotes' => 'Бележки към изданието',
+      'installer.preInstallationInstructionsTitle' => 'Стъпки преди инсталиране',
+      'installer.preInstallationInstructions' => '
+		<p>1. Следните файлове и директории (и тяхното съдържание) трябва да бъдат направени за запис:</p>
+		<ul>
+			<li><tt>config.inc.php</tt> може да се записва (по избор): {$writable_config}</li>
+			<li><tt>public/</tt> може да се записва: {$writable_public}</li>
+			<li><tt>cache/</tt> може да се записва: {$writable_cache}</li>
+			<li><tt>cache/t_cache/</tt> може да се записва: {$writable_templates_cache}</li>
+			<li><tt>cache/t_compile/</tt> може да се записва: {$writable_templates_compile}</li>
+			<li><tt>cache/_db</tt> може да се записва: {$writable_db_cache}</li>
+		</ul>
+
+		<p>2. Трябва да се създаде директория за съхранение на качени файлове и да може да се записва (вижте "Настройки на файлове" по-долу).</p>
+	',
+      'installer.configureXSLMessage' => '<p>Вашата PHP инсталация няма активиран XSL модул. Или го активирайте, или конфигурирайте параметъра xslt_command във вашия config.inc.php файл.</p>',
+      'installer.beacon' => 'Маяк (фар)',
+      'installer.beacon.enable' => 'Предоставете уникален идентификатор на сайта и основен URL адрес на OAI на PKP само за целите на статистиката и сигналите за сигурност.',
+      'installer.unsupportedPhpError' => 'PHP версията на вашия сървър не се поддържа от този софтуер. Проверете отново изискванията за инсталиране в docs/README.',
+      'installer.miscSettings' => 'Други настройки',
+    ),
+  ),
+);

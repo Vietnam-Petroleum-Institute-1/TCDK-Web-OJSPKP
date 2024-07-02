@@ -1,0 +1,12 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.usageEvent.displayName' => 'Dogodki uporabe',
+      'plugins.generic.usageEvent.description' => 'Vtičnik omogoča beleženje dogodkov o uporabi v določeni obliki.',
+    ),
+  ),
+);

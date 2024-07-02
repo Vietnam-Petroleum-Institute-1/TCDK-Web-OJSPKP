@@ -1,0 +1,73 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.orcidProfile.displayName' => 'Plugin per il profilo ORCID',
+      'plugins.generic.orcidProfile.description' => 'Consente di importare informazioni del profilo dell\'utente da ORCID.',
+      'plugins.generic.orcidProfile.instructions' => 'È possibile pre-compilare questo form con le informazioni del proprio profilo ORCID. Inserici l\'indirizzo email o l\'ORCID iD associato al profilo ORCID e clicca su "Invia".',
+      'plugins.generic.orcidProfile.noData' => 'Non sono stati trovati dati su ORCID.',
+      'plugins.generic.orcidProfile.emailOrOrcid' => 'Indirizzo email o ORCID iD:',
+      'plugins.generic.orcidProfile.manager.orcidProfileSettings' => 'Impostazioni del profilo ORCID',
+      'plugins.generic.orcidProfile.manager.settings.description' => 'Configura la API ORCID per utilizzarla per l\'inserimento di informazioni del profilo ORCID nel profilo utente.',
+      'plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath' => 'ORCID API',
+      'plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath.public' => 'Public',
+      'plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath.publicSandbox' => 'Sandbox pubblica',
+      'plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath.member' => 'Membro',
+      'plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath.memberSandbox' => 'Membro Sandbox',
+      'plugins.generic.orcidProfile.manager.settings.orcidClientId' => 'Client ID',
+      'plugins.generic.orcidProfile.manager.settings.orcidClientSecret' => 'Client segreto',
+      'plugins.generic.orcidProfile.author.submission' => 'Submission ORCID',
+      'plugins.generic.orcidProfile.author.submission.success' => 'La tua proposta è stata associata al tuo ORCID iD.',
+      'plugins.generic.orcidProfile.author.submission.failure' => 'Non è stato possibile associare la tua proposta al tuo ORCID iD. Contatta il Direttore della rivista e segnala il tuo nome, ORCID iD e i dettagli della tua proposta.',
+      'plugins.generic.orcidProfile.authFailure' => 'OJS non è riuscita a comunicare con il servizio ORCID. Contatta il Direttore della rivista e segnala il tuo nome, ORCID iD e i dettagli della tua proposta.',
+      'plugins.generic.orcidProfile.fieldset' => 'ORCID',
+      'plugins.generic.orcidProfile.connect' => 'Crea o connettti il tuo ID ORCID',
+      'plugins.generic.orcidProfile.about.display' => 'Per confermare che il tuo ORCID ID è stato confermato ed è stato utilizzato noi visualizziamo l\'icona ORCID <img src="https://info.orcid.org/wp-content/uploads/2020/12/ORCIDiD_icon16x16.png" alt="iD icon" width="16" height="16" border="0"> vicino al tuo nome nella pagina di dettaglio del manoscritto e sul tuo profilo pubblico. <br>
+Per maggiori informazioni visita <a href="https://info.orcid.org/how-should-an-orcid-id-be-displayed/">Come deve essere visualizzato un iD ORCID.</a>',
+      'plugins.generic.orcidProfile.about.display.title' => 'Dove vengono visualizzati gli ORCID ID?',
+      'plugins.generic.orcidProfile.about.howAndWhyPublicAPI' => 'Questa rivista raccoglie il tuo iD ORCID in modo che noi e la comunità in generale possiamo essere sicuri che sia correttamente identificato e collegato alle tue pubblicazioni. Ciò garantirà che il collegamento con tutto il tuo lavoro rimanga per tutta la tua carriera. <br>
+Quando clicchi sul pulsante "Autorizza" nel popup ORCID, ti chiederemo di condividere il tuo iD utilizzando un processo di autenticazione: registrandoti per un iD ORCID o, se ne hai già uno, accedendo al tuo account ORCID e concedendoci il permesso di ottenere il tuo iD ORCID. Facciamo ciò per assicurare che tu sia identificato correttamente e connesso in maniera sicura al tuo iD ORCID.
+Per saperne di più visita <a href="https://info.orcid.org/whats-so-special-about-signing-in/">Cosa c\'è di così speciale nell\'accedere.</a><br>
+Questa rivista raccoglierà e visualizzerà gli iD degli autori e dei coautori autenticati sul profilo OJS e sulla pagina dell\'articolo.',
+      'plugins.generic.orcidProfile.about.howAndWhy.title' => 'Come e perché registriamo iD ORCID?',
+      'plugins.generic.orcidProfile.about.orcidExplanation' => 'ORCID è un ente indipendente senza scopo di lucro che attribuisce un identificativo univoco - ORCID ID - ad ogni utente. Offre inoltre la possibilità di collegare il lavoro di ricerca al proprio ORCID ID. ORCID è integrato in numerosi sistemi utilizzati da publishers, enti di finanziamento sto, istituzioni ed altri servizi collegati al mondo della ricerca scientifica. Per saperne di più visitare il sito <a href="https://orcid.org">orcid.org</a>.',
+      'plugins.generic.orcidProfile.about.title' => 'Che cos\'è ORCID?',
+      'plugins.generic.orcidProfile.authorise' => 'Autorizza e collega il tuo ID ORCID',
+      'plugins.generic.orcidProfile.failure.contact' => 'Contattare il journal manager con il tuo nome, ID ORCID e dettagli del manoscritto.',
+      'plugins.generic.orcidProfile.verify.denied' => 'Non hai consentito accesso al tuo ID ORCID.',
+      'plugins.generic.orcidProfile.verify.duplicateOrcid' => 'Un ID ORCID è già stato salvato per questo manoscritto.',
+      'plugins.generic.orcidProfile.verify.failure' => 'Non è stato possibile verificare il tuo ORCID ID. Il link non è più valido.',
+      'plugins.generic.orcidProfile.verify.success' => 'It tuo record ORCID è stato autenticato e associato al manoscritto.',
+      'plugins.generic.orcidProfile.verify.sendSubmissionToOrcid.notpublished' => 'Questo manoscritto sarà aggiunto al tuo record ORICD in fase di pubblicazione.',
+      'plugins.generic.orcidProfile.verify.sendSubmissionToOrcid.failure' => 'Non è stato possibile aggiungere questo manoscritto al tuo record ORCID.',
+      'plugins.generic.orcidProfile.verify.sendSubmissionToOrcid.success' => 'Questo manoscritto è stato aggiunto al tuo record ORCID.',
+      'plugins.generic.orcidProfile.verify.title' => 'Autorizzazione ORCID',
+      'plugins.generic.orcidProfile.author.unauthenticated' => 'ORCID ID non è stato autenticato! Richiedere autenticazione all\'autore.',
+      'plugins.generic.orcidProfile.author.orcidEmptyNotice' => 'Vedi sotto per richiedere ORCID iD autenticato',
+      'plugins.generic.orcidProfile.author.deleteORCID' => 'Cancella ID ORCID e token d\'accesso!',
+      'plugins.generic.orcidProfile.author.requestAuthorization' => 'Invia email per richiedere autorizzazione ORCID all\'autore',
+      'plugins.generic.orcidProfile.author.accessTokenStored' => 'Accesso al record ORCID consentito con finalità {$orcidAccessScope}, fino al',
+      'plugins.generic.orcidProfile.author.accessDenied' => 'Accesso ad ORCID è stato negato da',
+      'plugins.generic.orcidProfile.manager.settings.logLevel.all' => 'Tutti',
+      'plugins.generic.orcidProfile.manager.settings.logLevel.error' => 'Errori',
+      'plugins.generic.orcidProfile.manager.settings.logLevel.help' => 'Definire la quantità di dati di registrazione scritti dal plugin',
+      'plugins.generic.orcidProfile.manager.settings.logSectionTitle' => 'Registro richiesta ORCID',
+      'plugins.generic.orcidProfile.manager.settings.sendMailToAuthorsOnPublication' => 'Invia una mail agli autori all\'accettazione del lavoro per richiedere l\'accesso a ORCID',
+      'plugins.generic.orcidProfile.manager.settings.mailSectionTitle' => 'Configurazioni e-mail',
+      'plugins.generic.orcidProfile.manager.settings.orcidScope' => 'Finalità del profilo di accesso',
+      'plugins.generic.orcidProfile.manager.settings.description.globallyconfigured' => 'l\'API ORCID è stata configurata dall\'host. Le seguenti credenziali sono state salvate.',
+      'plugins.generic.orcidProfile.manager.settings.hidden' => 'Non visibile',
+      'plugins.generic.orcidProfile.manager.settings.title' => 'Configurazione ORCID API',
+      'plugins.generic.orcidProfile.about.howAndWhyMemberAPI' => 'Questa rivista raccoglie il tuo iD ORCID in modo che noi e la comunità in generale possiamo essere sicuri che sia correttamente identificato e collegato alle tue pubblicazioni. Ciò garantirà che il collegamento con tutto il tuo lavoro rimanga per tutta la tua carriera. <br>
+Quando clicchi sul pulsante "Autorizza" nel popup ORCID, ti chiederemo di condividere il tuo iD utilizzando un processo di autenticazione: registrandoti per un iD ORCID o, se ne hai già uno, accedendo al tuo account ORCID e concedendoci il permesso di ottenere il tuo iD ORCID. Facciamo ciò per assicurare che tu sia identificato correttamente e connesso in maniera sicura al tuo iD ORCID.
+Per saperne di più visita <a href="https://info.orcid.org/whats-so-special-about-signing-in/">Cosa c\'è di così speciale nell\'accedere.</a><br>
+Questa rivista raccoglierà e visualizzerà gli iD degli autori e dei coautori autenticati sul profilo OJS e sulla pagina dell\'articolo. In aggiunta, i metadati degli articoli saranno automaticamente inviati al vostro record ORCID, consentendoci di aiutarvi a mantenere il vostro record aggiornato con informazioni attendibili. Per saperne di più, consultate il sito <a href="https://info.orcid.org/six-ways-to-make-your-orcid-id-work-for-you/">Sei modi per far lavorare il vostro iD ORCID per voi!</a>
+',
+      'plugins.generic.orcidProfile.manager.settings.orcidClientSecret.error' => 'Client segreto non valido',
+      'plugins.generic.orcidProfile.manager.settings.orcidClientId.error' => 'Client ID non valido',
+    ),
+  ),
+);

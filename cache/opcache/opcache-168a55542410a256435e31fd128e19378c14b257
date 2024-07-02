@@ -1,0 +1,24 @@
+<?php $exp = 1751345595; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n > 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.customBlockManager.displayName' => 'ویرایش کننده بلوک سفارشی',
+      'plugins.generic.customBlockManager.blockName' => 'نام بلوک',
+      'plugins.generic.customBlockManager.addBlock' => 'افزودن بلوک',
+      'plugins.generic.customBlock.content' => 'محتوی',
+      'plugins.generic.customBlock.nameSuffix' => 'بلوک سفارشی',
+      'plugins.generic.customBlock.description' => 'این یک بلوک تولید شده توسط کاربر است.',
+      'plugins.generic.customBlockManager.manage' => 'مدیریت بلوک اختصاصی',
+      'plugins.generic.customBlockManager.customBlocks' => 'بلوک های اختصاصی',
+      'plugins.generic.customBlockManager.noneCreated' => 'هیچ بلوک سفارشی ایجاد نشده است.',
+      'plugins.generic.customBlock.nameRegEx' => 'نام بلوک سفارشی باید فقط شامل حروف، اعداد و خط تیره/خط زیر باشد.',
+      'plugins.generic.customBlock.showName.description' => 'نام این بلوک در بالای محتوای بلوک نشان داده شود.',
+      'plugins.generic.customBlock.nameRequired' => 'نام بلوک سفارشی الزامی می باشد.',
+      'plugins.generic.customBlock.showName' => 'نام نمایشی',
+      'plugins.generic.customBlockManager.description' => 'این افزونه به شما اجازه می دهد که بلوک های سفارشی ستون کناری را مدیریت (اضافه کردن، ویرایش، حذف) کنید.',
+    ),
+  ),
+);

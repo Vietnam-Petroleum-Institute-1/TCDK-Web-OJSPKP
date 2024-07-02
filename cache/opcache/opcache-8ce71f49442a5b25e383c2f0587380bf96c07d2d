@@ -1,0 +1,12 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.googleScholar.name' => 'Модуль «Индексирование в Академии Google»',
+      'plugins.generic.googleScholar.description' => 'Включает индексирование опубликованного контента в Академии Google.',
+    ),
+  ),
+);

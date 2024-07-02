@@ -1,0 +1,33 @@
+<?php $exp = 1751345599; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.citationStyleLanguage.settings.publisherLocation.description' => 'Ba\'zi iqtibos formatlari nashriyotning geografik joylashuvini talab qiladi, masalan, "London, Buyuk Britaniya".',
+      'plugins.generic.citationStyleLanguage.settings.publisherLocation' => 'Nashriyotning joylashuvi',
+      'plugins.generic.citationStyleLanguage.settings.citationFormatsPrimaryDescription' => 'Maqolaning ochilish sahifasida odatdagi bo\'yicha qaysi iqtibos formatini ko\'rsatishni tanlang.',
+      'plugins.generic.citationStyleLanguage.settings.citationFormatsPrimary' => 'Birlamchi iqtibos formati',
+      'plugins.generic.citationStyleLanguage.settings.citationFormatsDescription' => 'O\'quvchilaringizga qaysi qo\'shimcha formatlarni taklif qilishni tanlang.',
+      'plugins.generic.citationStyleLanguage.settings.citationFormats' => 'Qo\'shimcha iqtibos formatlari',
+      'plugins.generic.citationStyleLanguage.settings.citationDownloadsDescription' => 'O\'quvchilaringizga qaysi yuklab olinadigan formatlarni taklif qilishni tanlang. Yuklab olinadigan formatlar odatda EndNote yoki Zotero kabi uchinchi tomon bibliografiyasini boshqarish dasturlariga import qilish uchun ishlatiladi.',
+      'plugins.generic.citationStyleLanguage.settings.citationDownloads' => 'Yuklab olish formatlari',
+      'plugins.generic.citationStyleLanguage.download.ris' => 'Endnote/Zotero/Mendeley (RIS)',
+      'plugins.generic.citationStyleLanguage.download.bibtex' => 'BibTeX',
+      'plugins.generic.citationStyleLanguage.style.ama' => 'AMA',
+      'plugins.generic.citationStyleLanguage.style.vancouver' => 'Vankuver',
+      'plugins.generic.citationStyleLanguage.style.turabian-fullnote-bibliography' => 'Turobiya uslubi',
+      'plugins.generic.citationStyleLanguage.style.modern-language-association' => 'MLA',
+      'plugins.generic.citationStyleLanguage.style.ieee' => 'IEEE',
+      'plugins.generic.citationStyleLanguage.style.harvard-cite-them-right' => 'Garvard',
+      'plugins.generic.citationStyleLanguage.style.chicago-author-date' => 'Chikago',
+      'plugins.generic.citationStyleLanguage.style.associacao-brasileira-de-normas-tecnicas' => 'BTSU',
+      'plugins.generic.citationStyleLanguage.style.apa' => 'APA',
+      'plugins.generic.citationStyleLanguage.style.acs-nano' => 'ACS',
+      'plugins.generic.citationStyleLanguage.style.acm-sig-proceedings' => 'ACM',
+      'plugins.generic.citationStyleLanguage.description' => 'O\'quvchilarga Iqtiboslar uslubi tili tomonidan qo\'llab-quvvatlanadigan bir nechta formatlardan birida nashr etilgan maqoladan iqtibos olishiga ruxsat bering.',
+      'plugins.generic.citationStyleLanguage.displayName' => 'Iqtibos uslubi tili',
+    ),
+  ),
+);

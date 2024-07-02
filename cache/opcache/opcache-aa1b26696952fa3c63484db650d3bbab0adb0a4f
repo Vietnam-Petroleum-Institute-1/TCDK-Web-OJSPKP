@@ -1,0 +1,15 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=1; plural=0;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.recommendBySimilarity.displayName' => 'Syor Artikel Sejenis',
+      'plugins.generic.recommendBySimilarity.description' => 'Plugin ini menambah senarai artikel yang sejenis dengan halaman abstrak artikel.',
+      'plugins.generic.recommendBySimilarity.heading' => 'Artikel Sejenis',
+      'plugins.generic.recommendBySimilarity.advancedSearchIntro' => 'Anda juga boleh {$advancedSearchLink} untuk artikel ini.',
+      'plugins.generic.recommendBySimilarity.advancedSearch' => 'mulakan carian persamaan lanjutan',
+    ),
+  ),
+);

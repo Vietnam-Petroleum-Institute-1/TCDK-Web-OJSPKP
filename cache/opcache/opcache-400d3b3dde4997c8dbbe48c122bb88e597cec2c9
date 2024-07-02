@@ -1,0 +1,78 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'installer.additionalLocales' => 'Dodatni prijevodi',
+      'installer.administratorAccount' => 'Administratorski račun',
+      'installer.administratorAccountInstructions' => 'Ovaj korisnički račun će postati administrator stranice i imati potpuni pristup sustavu. Dodatni korisnički računi mogu biti kreirani nakon instalacije.',
+      'installer.checkNo' => '<span class="pkp_form_error formError">NE</span>',
+      'installer.checkYes' => 'Da',
+      'installer.configFileError' => 'Konfiguracijska datoteka <tt>config.inc.php</tt> ne postoji ili je nečitljiva.',
+      'installer.connectionCharset' => 'Skupina znakova konekcije',
+      'installer.contentsOfConfigFile' => 'Sadržaj konfiguracijske datoteke',
+      'installer.databaseDriver' => 'Upravljač baze podataka',
+      'installer.databaseDriverInstructions' => '<strong>Upravljači baze podataka izlistani u uglatim zagradama nemaju učitanu potrebnu PHP ekstenziju i instalacija će vjerovatno podbaciti ukoliko su odabrani.</strong><br />Bilo koji nepodržani dolje izlistani upravljači baza podataka su izlistani isključivo za akademske svrhe i vjerovatno neće raditi.',
+      'installer.databaseHost' => 'Domaćin',
+      'installer.databaseHostInstructions' => 'Ostavite ime glavnog računala prazno da bi se spojili koristeći spojnice domene umjesto preko TCP/IP-a. Ovo nije neophodno s MySQL-om, koji će automatski koristiti spojnice ako je upisano "localhost", ali je obavezno s nekim drugim poslužiteljima baza podataka kao što je PostgreSQL.',
+      'installer.databaseName' => 'Ime baze podataka',
+      'installer.databasePassword' => 'Lozinka',
+      'installer.databaseSettings' => 'Postavke baze podataka',
+      'installer.databaseUsername' => 'Korisničko ime',
+      'installer.filesDir' => 'Direktorij za slanje datoteka',
+      'installer.fileSettings' => 'Postavke datoteka',
+      'installer.form.clientCharsetRequired' => 'Klijentski skup znakova mora biti odabran.',
+      'installer.form.databaseDriverRequired' => 'Upravljač baze podataka mora biti odabran.',
+      'installer.form.databaseNameRequired' => 'Ime baze podataka je obavezno.',
+      'installer.form.emailRequired' => 'Ispravna adresa e-pošte za administratorski račun je obavezna.',
+      'installer.form.filesDirRequired' => 'Direktorij koji će se koristiti za pohranu poslanih datoteka je obavezan.',
+      'installer.form.localeRequired' => 'Barem jedan jezik mora biti odabran.',
+      'installer.form.passwordRequired' => 'Lozinka za administratorski račun je obavezna.',
+      'installer.form.passwordsDoNotMatch' => 'Administratorove lozinke se ne podudaraju.',
+      'installer.form.separateMultiple' => 'Razdvojite višestruke vrijednosti zarezima',
+      'installer.form.usernameAlphaNumeric' => 'Administratorsko korisničko ime može sadržavati samo slovnobrojčane znakove, podvlačenja i crtice, a mora početi i završiti sa slovnobrojčanim znakom.',
+      'installer.form.usernameRequired' => 'Korisničko ime za administratorski račun je obavezno.',
+      'installer.form.timeZoneRequired' => 'Mora biti odabrana vremenska zona.',
+      'installer.installationWrongPhp' => '<br/><strong>UPOZORENJE: Vaša trenutna verzija PHP-a ne odgovara minimalnim zahtjevima instalacije. Preporučujemo da instalirate noviju verziju PHP-a.</strong>',
+      'installer.installErrorsOccurred' => 'Pojavile su se pogreške tijekom instalacije',
+      'installer.installerSQLStatements' => 'SQL izjave za instalaciju',
+      'installer.installFileError' => 'Instalacijska datoteka <tt>dbscripts/xml/install.xml</tt> ne postoji ili je nečitljiva.',
+      'installer.installFilesDirError' => 'Direktorij određen za poslane datoteke ne postoji ili se ne može pisati po njemu.',
+      'installer.installParseDBFileError' => 'Pogreška kod sintaktičke analize instalacijske datoteke baze podataka: <tt>{$file}</tt>.',
+      'installer.installMigrationError' => 'Bačena je iznimka prilikom izvođenja klase migracije <tt>{$class}</tt>. Iznimka je bila {$message}.',
+      'installer.installParseEmailTemplatesFileError' => 'Pogreška pri analizi datoteke predloška e-pošte <tt>{$file}</tt>.',
+      'installer.installParseFilterConfigFileError' => 'Pogreška pri analizi konfiguracijske datoteke filtra <tt>{$file}</tt>.',
+      'installer.unsupportedUpgradeError' => 'Nadogradnja nije podržana. Pogledajte docs/UPGRADE-UNSUPPORTED za detalje.',
+      'installer.timezoneInstructions' => 'Vremenska zona koja se koristi za ovaj sustav.',
+      'installer.additionalLocalesInstructions' => 'Odaberite dodatne jezike za podršku u ovom sustavu. Dodatni jezici također se mogu instalirati u bilo kojem trenutku iz administrativnog sučelja stranice.<br>* = Označava jezike koji nisu u potpunosti prevedeni (> 90% prevedenih pojmova)',
+      'installer.locale' => 'Prijevod',
+      'installer.locale.maybeIncomplete' => 'Označene lokacije mogu biti nepotpune.',
+      'installer.localeSettings' => 'Postavke prijevoda sustava',
+      'installer.oaiSettings' => 'OAI postavke',
+      'installer.oaiRepositoryIdInstructions' => 'Jedinstveni identifikator koji se koristi za identifikaciju zapisa metapodataka indeksiranih s ove stranice koristeći <a href="https://www.openarchives.org/" target="_blank">Open Archives Initiative</a>, Protokol za sakupljanje metapodataka.',
+      'installer.oaiRepositoryId' => 'Identifikator OAI repozitorija',
+      'installer.publicFilesDirError' => 'Direktorij javnih datoteka ne postoji ili se ne može pisati po njemu.',
+      'installer.releaseNotes' => 'Bilješke o izdanju',
+      'installer.preInstallationInstructionsTitle' => 'Koraci prije instalacije',
+      'installer.preInstallationInstructions' => '
+		<p>1. Sljedeće datoteke i direktoriji (i njihov sadržaj) moraju biti omogućeni za pisanje:</p>
+<ul>
+<li><tt>config.inc.php</tt> može se pisati (izborno): {$writable_config}</li>
+<li><tt>public/</tt> može se pisati: {$writable_public}</li>
+U <li><tt>cache/</tt> može se pisati: {$writable_cache}</li>
+<li><tt>cache/t_cache/</tt> može se pisati: {$writable_templates_cache}</li>
+<li><tt>cache/t_compile/</tt> može se pisati: {$writable_templates_compile}</li>
+<li><tt>cache/_db</tt> može se pisati: {$writable_db_cache}</li>
+</ul>
+
+<p>2. Direktorij za pohranjivanje učitanih datoteka mora biti kreiran i u njega moguće pisati (pogledajte "Postavke datoteke" u nastavku).</p>
+	',
+      'installer.configureXSLMessage' => '<p>Vaša PHP instalacija nema omogućen XSL modul. Omogućite ga ili konfigurirajte parametar xslt_command u svojoj datoteci config.inc.php.</p>',
+      'installer.beacon' => 'Oznaka',
+      'installer.beacon.enable' => 'Omogućite jedinstveni ID web-mjesta i OAI osnovni URL PKP-u samo u svrhu statistike i sigurnosnih upozorenja.',
+      'installer.unsupportedPhpError' => 'Ovaj softver ne podržava PHP verziju vašeg poslužitelja. Još jednom provjerite instalacijske zahtjeve u dokumentima/README.',
+    ),
+  ),
+);

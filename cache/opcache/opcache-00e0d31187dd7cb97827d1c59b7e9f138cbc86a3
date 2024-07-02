@@ -1,0 +1,22 @@
+<?php $exp = 1751345595; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.announcementfeed.displayName' => 'Anuntzioak elikatzeko plugina',
+      'plugins.generic.announcementfeed.description' => 'Plugin honek RSS/Atom web sindikazioko iturria sortzen du aldizkari-anuntzioetarako',
+      'plugins.generic.announcementfeed.settings' => 'Ezarpenak',
+      'plugins.generic.announcementfeed.settings.all' => 'Aldizkariko orri guztietan bistaratu estekak.',
+      'plugins.generic.announcementfeed.settings.homepage' => 'Hasierako orrian eta anuntzioen orrian bakarrik bistaratu estekak.',
+      'plugins.generic.announcementfeed.settings.announcement' => 'Anuntzioen orrian bakarrik bistaratu estekak.',
+      'plugins.generic.announcementfeed.settings.recentAnnouncements1' => 'Mugatu azkeneko',
+      'plugins.generic.announcementfeed.settings.recentAnnouncements2' => 'anuntzioetara.',
+      'plugins.generic.announcementfeed.settings.recentItemsRequired' => 'Idatzi osoko zenbaki positibo bat anuntzio kopurua zehazteko.',
+      'plugins.generic.announcementfeed.atom.altText' => 'Atom logoa',
+      'plugins.generic.announcementfeed.rss1.altText' => 'RSS1 logoa',
+      'plugins.generic.announcementfeed.rss2.altText' => 'RSS2 logoa',
+    ),
+  ),
+);

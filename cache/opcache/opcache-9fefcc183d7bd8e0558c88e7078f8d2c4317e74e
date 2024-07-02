@@ -1,0 +1,90 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'emails.submissionAck.subject' => 'Vi har mottatt innleveringen din',
+      'emails.submissionAck.body' => '{$recipientName}:<br />
+<br />
+Takk for at du har sendt inn «{$submissionTitle}» til {$contextName}. Du kan følge innleveringen gjennom den redaksjonelle prosessen ved å logge deg inn på tidsskriftets nettsted:<br />
+<br />
+Innleveringens URL: {$submissionUrl}<br />
+Brukernavn: {$recipientUsername}<br />
+<br />
+Ta kontakt med meg om du har spørsmål. Takk for at du velger tidsskriftet vårt som kanal for å publisere arbeidet ditt.<br />
+<br />
+{$contextSignature}',
+      'emails.reviewAck.subject' => 'Bekreftelse på fullført fagfellevurdering',
+      'emails.reviewAck.body' => '{$recipientName}:<br />
+<br />
+Takk for at du har fullført vurderingen av manuskriptet «{$submissionTitle}» for {$contextName}. Vi setter stor pris på at du bidrar til å sikre den faglige kvaliteten på artiklene vi publiserer.',
+      'emails.editorDecisionSendToExternal.subject' => 'Redaktørens beslutning',
+      'emails.editorDecisionSendToExternal.body' => '{$authors}:<br />
+<br />
+Vi har tatt en beslutning angående innleveringen din, «{$submissionTitle}», som du sendte inn til {$contextName}. <br />
+<br />
+Vår beslutning er: Sendes til fagfellevurdering<br />
+<br />
+Innleveringens URL: {$submissionUrl}',
+      'emails.editorDecisionSendToProduction.subject' => 'Redaktørens beslutning',
+      'emails.editorDecisionSendToProduction.body' => '{$authors}:<br />
+<br />
+Redigeringen av «{$submissionTitle}» er ferdigstilt. Vi sender den videre til produksjon.<br />
+<br />
+Innleveringens URL: {$submissionUrl}',
+      'emails.editorDecisionRevisions.subject' => 'Redaktørens beslutning',
+      'emails.editorDecisionRevisions.body' => '{$authors}:<br />
+<br />
+Vi har tatt en beslutning angående innleveringen din, «{$submissionTitle}», som du sendte inn til {$contextName}.<br />
+<br />
+Vår beslutning er: Omarbeiding kreves',
+      'emails.editorDecisionResubmit.subject' => 'Redaktørens beslutning',
+      'emails.editorDecisionResubmit.body' => '{$authors}:<br />
+<br />
+Vi har tatt en beslutning angående innleveringen din «{$submissionTitle}», som du sendte inn til {$contextName}. <br />
+<br />
+Vår beslutning er: Lever inn til ny fagfellevurdering',
+      'emails.editorDecisionDecline.subject' => 'Redaktørens beslutning',
+      'emails.editorDecisionDecline.body' => '{$authors}:<br />
+<br />
+Vi har tatt en beslutning angående innleveringen din, «{$submissionTitle}», som du sendte inn til {$contextName}. <br />
+<br />
+Vår beslutning er: Manuskriptet avvises',
+      'emails.editorRecommendation.subject' => 'Redaktørens anbefaling',
+      'emails.editorRecommendation.body' => '{$editors}:<br />
+<br />
+Min anbefaling for innleveringen &quot;{$submissionTitle}&quot; til {$contextName}, er: {$recommendation}',
+      'emails.copyeditRequest.subject' => 'Forespørsel om manuskriptredigering',
+      'emails.copyeditRequest.body' => '{$recipientName}:<br />
+<br />
+Takk for at du har sagt deg villig til å bidra til arbeidet vårt. Innleveringen «{$submissionTitle}»; for {$contextName} er klar for redigering. Du finner innleveringen på tidsskriftets nettsted, sammen med vår «Instruks for språkvask.<br />
+<br />
+1. Klikk på innleveringens URL under<br />
+2. Åpne filer som er tilgjengelige under «Filer til språkvask». Legg til eventuelle kommentarer i diskusjonsfeltet.<br />
+3. Lagre de språkvaskede filene og last dem opp.<br />
+4. Informer redaktøren at alle filene har blitt bearbeidet og at produksjonen kan starte.<br/>
+<br />
+{$contextName} URL: {$submissionUrl}<br />
+Brukernavn: {$recipientUsername}<br />',
+      'emails.editorDecisionInitialDecline.subject' => 'Redaktørens beslutning',
+      'emails.editorDecisionInitialDecline.body' => '
+			{$authors}:<br />
+<br />
+Vi har tatt en beslutning angående innleveringen din, «{$submissionTitle}», som du sendte inn til {$contextName}.<br />
+<br />
+Vår beslutning er: Manuskriptet avvises',
+      'emails.discussion.subject' => 'En beskjed angående {$contextName}',
+      'emails.discussion.body' => 'Skriv inn beskjeden din her.',
+      'emails.reviewConfirm.subject' => 'Aksepter forespørsel om fagfellevurdering',
+      'emails.reviewConfirm.body' => 'Redaktorer:<br />
+<br />
+Takk for forespørselen om å vurdere innleveringen &quot;{$submissionTitle},&quot; for {$contextName}. Jeg har tid og anledning til å vurdere manuskriptet, og tar sikte på å ferdigstille vurderingen innen {$reviewDueDate}, om ikke før.<br />
+<br />
+{$senderName}',
+      'emails.submissionAckNotAuthor.subject' => 'Bekreftelse på innlevering',
+      'emails.submissionAckNotAuthor.body' => '<p>Kjære {$recipientName}</p><p>Du er angitt som medforfatter på et manuskript innsendt til {$contextName}. Innsenderen, {$submitterName}, har oppgitt følgende information:</p><p>{$submissionTitle}<br>{$authorsWithAffiliation}</p><p>Hvis noen av disse opplysningene er feil, eller du ikke ønsker å være angitt som medforfatter på dette manuskript, vær vennlig å kontakte mig.</p><p>Takk for at du vurderer dette tidsskrift til for arbeidet ditt.</p><p>Med vennlig hilsen</p>{$contextSignature}',
+    ),
+  ),
+);

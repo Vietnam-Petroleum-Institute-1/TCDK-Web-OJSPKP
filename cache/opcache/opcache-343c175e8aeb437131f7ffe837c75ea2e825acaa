@@ -1,0 +1,32 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'comments.anonymous' => 'Anonimni korisnik',
+      'comments.anonymousNamed' => '"{$userName}"',
+      'comments.body' => 'Telo poruke',
+      'comments.titleRequired' => 'Komentar je neophodan.',
+      'comments.confirmDeleteChildren' => 'Brisanjem ovog komentara takođe ćete izbrisati i sve odgovore na njega. Da li ste sigurni da to želite?',
+      'comments.delete' => 'Brisanje komentara',
+      'comments.email' => 'Imejl pošiljaoca',
+      'comments.emailReply' => 'Odgovor putem imejla',
+      'comments.enterComment' => 'Upišite komentar',
+      'comments.inResponseTo' => 'Kao odgovor na: <a href="{$url}">{$title}</a>',
+      'comments.name' => 'Ime pošiljaoca',
+      'comments.noComments' => 'Čitaoci nisu slali komentare.',
+      'comments.nReplies' => '(Odgovora: {$num})',
+      'comments.oneReply' => '(1 odgovor)',
+      'comments.postAnonymously' => 'Pošaljite komentar anonimno',
+      'comments.postReply' => 'Slanje odgovora',
+      'comments.readerComments' => 'Komentari čitataoca',
+      'comments.readMore' => 'Pročitajte više',
+      'comments.replies' => 'Odgovori',
+      'comments.title' => 'Naslov',
+      'comments.viewAllComments' => 'Pregled svih komentara',
+      'reader.fullText' => 'Ceo tekst:',
+    ),
+  ),
+);

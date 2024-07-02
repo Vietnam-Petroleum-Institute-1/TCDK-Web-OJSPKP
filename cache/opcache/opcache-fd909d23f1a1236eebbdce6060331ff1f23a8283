@@ -1,0 +1,24 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=1; plural=0;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.customBlockManager.displayName' => 'カスタムブロック管理',
+      'plugins.generic.customBlockManager.blockName' => 'ブロック名',
+      'plugins.generic.customBlockManager.addBlock' => 'ブロックの追加',
+      'plugins.generic.customBlock.content' => 'コンテンツ',
+      'plugins.generic.customBlock.nameSuffix' => '(カスタムブロックプラグイン)',
+      'plugins.generic.customBlock.description' => 'これはユーザーが生成したブロックです。',
+      'plugins.generic.customBlock.showName.description' => 'ブロックの内容の上に、このブロックの名前を表示します。',
+      'plugins.generic.customBlock.showName' => '名前の表示',
+      'plugins.generic.customBlock.nameRegEx' => 'カスタムブロック名には、アルファベット、数字、ハイフン/アンダースコアしか含められません。',
+      'plugins.generic.customBlock.nameRequired' => 'カスタムブロック名は必須です。',
+      'plugins.generic.customBlockManager.noneCreated' => 'カスタムブロックは作成されていません。',
+      'plugins.generic.customBlockManager.customBlocks' => 'カスタムブロック',
+      'plugins.generic.customBlockManager.description' => 'このプラグインは、カスタムサイドバーブロックを管理（追加、編集、削除）できます。',
+      'plugins.generic.customBlockManager.manage' => 'カスタムブロックの管理',
+    ),
+  ),
+);

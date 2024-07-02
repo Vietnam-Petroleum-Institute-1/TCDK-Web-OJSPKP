@@ -1,0 +1,2153 @@
+<?php $exp = 1751345596; $val = \PKP\i18n\translation\Translator::__set_state(array(
+   'domain' => '',
+   'dictionary' => 
+  array (
+    '' => 
+    array (
+      '' => 
+      array (
+        'editor.submissionArchive.confirmDelete' => 'क्या आप वाकई इस सबमिशन को स्थायी रूप से हटाना चाहते हैं?',
+        'manager.setup.publishing' => 'प्रकाशन विवरण',
+        'manager.setup.publishingDescription' => 'ये विवरण तृतीय-पक्ष अभिलेखीय निकायों को प्रदान किए गए मेटाडेटा में शामिल किए जा सकते हैं।',
+        'manager.setup.submissionPreparationChecklist' => 'सबमिशन तैयारी चेकलिस्ट',
+        'manager.setup.submissionPreparationChecklistDescription' => 'जर्नल को प्रस्तुत करने पर, लेखकों को सबसे पहले सबमिशन तैयारी चेकलिस्ट पर प्रत्येक आइटम को पूरा करने से पहले जांचने के लिए कहा जाता है। चेकलिस्ट लेखक दिशानिर्देशों में, जर्नल के बारे में भी दिखाई देती है। सूची को नीचे संपादित किया जा सकता है, लेकिन सूची में सभी वस्तुओं को एक चेकमार्क की आवश्यकता होगी, इससे पहले कि लेखक उनके प्रस्तुतिकरण के साथ आगे बढ़ सकें।',
+        'plugins.importexport.common.cliError' => 'त्रुटि:',
+        'plugins.importexport.common.error.unknownContext' => 'निर्दिष्ट जर्नल पथ, "{$contextPath}", मौजूद नहीं है।',
+        'mailable.reviewConfirm.description' => 'यह ईमेल अनुभाग संपादक को समीक्षक द्वारा समीक्षा संपादक के अनुरोध के जवाब में भेजा जाता है कि समीक्षा अनुरोध स्वीकार कर लिया गया है और निर्दिष्ट तिथि तक पूरा हो जाएगा।.',
+        'mailable.reviewDecline.description' => 'यह ईमेल समीक्षक द्वारा संपादक को खंड संपादक को सूचित करने के लिए समीक्षा अनुरोध के जवाब में भेजा जाता है कि समीक्षा अनुरोध अस्वीकार कर दिया गया है.',
+        'mailable.reviewRemindAuto.description' => 'यह ईमेल स्वचालित रूप से तब भेजा जाता है जब एक समीक्षक की नियत तिथि समाप्त हो जाती है (सेटिंग्स> वर्कफ़्लो> समीक्षा के तहत समीक्षा विकल्प देखें) और एक-क्लिक समीक्षक पहुंच अक्षम है। अनुसूचित कार्यों को सक्षम और कॉन्फ़िगर किया जाना चाहिए (साइट कॉन्फ़िगरेशन फ़ाइल देखें).',
+        'mailable.reviewResponseOverdueAuto.description' => 'यह ईमेल स्वचालित रूप से तब भेजा जाता है जब किसी समीक्षक की पुष्टि की नियत तिथि समाप्त हो जाती है (सेटिंग्स> वर्कफ़्लो> समीक्षा के तहत समीक्षा विकल्प देखें) और एक-क्लिक समीक्षक पहुंच अक्षम है। अनुसूचित कार्यों को सक्षम और कॉन्फ़िगर किया जाना चाहिए (साइट कॉन्फ़िगरेशन फ़ाइल देखें).',
+        'mailable.reviewRequest.description' => 'अनुभाग संपादक से लेकर समीक्षक तक का यह ईमेल अनुरोध करता है कि समीक्षक किसी सबमिशन की समीक्षा करने के कार्य को स्वीकार या अस्वीकार करता है। यह प्रस्तुत करने के बारे में जानकारी प्रदान करता है जैसे शीर्षक और सार, समीक्षा की नियत तारीख, और प्रस्तुत करने के लिए कैसे उपयोग करें। इस संदेश का उपयोग तब किया जाता है जब प्रबंधन> सेटिंग्स> वर्कफ़्लो> समीक्षा में मानक समीक्षा प्रक्रिया का चयन किया जाता है.',
+        'mailable.reviewRequestSubsequent.description' => 'सेक्शन एडिटर से समीक्षक के लिए यह ईमेल अनुरोध करता है कि समीक्षक समीक्षा प्रस्तुत करने या समीक्षा के दूसरे या अधिक दौर के लिए कार्य को स्वीकार या अस्वीकार कर देता है। यह प्रस्तुत करने के बारे में जानकारी प्रदान करता है जैसे शीर्षक और सार, समीक्षा की नियत तारीख, और प्रस्तुत करने के लिए कैसे उपयोग करें। इस संदेश का उपयोग तब किया जाता है जब प्रबंधन> सेटिंग्स> वर्कफ़्लो> समीक्षा में मानक समीक्षा प्रक्रिया का चयन किया जाता है।',
+        'mailable.passwordResetRequested.description' => 'यह ईमेल एक पंजीकृत उपयोगकर्ता को भेजा जाता है जब वे इंगित करते हैं कि वे अपना पासवर्ड भूल गए हैं या लॉगिन करने में असमर्थ हैं। यह एक URL प्रदान करता है जिसका वे अपना पासवर्ड रीसेट करने के लिए अनुसरण कर सकते हैं.',
+        'mailable.userRegister.description' => 'यह ईमेल एक नए पंजीकृत उपयोगकर्ता को सिस्टम में उनका स्वागत करने और उन्हें उनके उपयोगकर्ता नाम और पासवर्ड के रिकॉर्ड के साथ प्रदान करने के लिए भेजा जाता है.',
+        'mailable.reviewerRegister.description' => 'यह ईमेल एक नए पंजीकृत समीक्षक को सिस्टम में उनका स्वागत करने और उनके उपयोगकर्ता नाम और पासवर्ड के रिकॉर्ड के साथ प्रदान करने के लिए भेजा जाता है.',
+        'mailable.submissionAck.description' => 'सक्षम होने पर, यह ईमेल स्वचालित रूप से एक लेखक को भेजा जाता है, जब वह जर्नल को पांडुलिपि प्रस्तुत करने की प्रक्रिया को पूरा करता है। यह प्रक्रिया के माध्यम से सबमिशन पर नज़र रखने के बारे में जानकारी प्रदान करता है और प्रस्तुत करने के लिए लेखक को धन्यवाद देता है.',
+        'mailable.submissionAckNotAuthor.description' => 'यह ईमेल, जब सक्षम किया जाता है, तो स्वचालित रूप से अन्य लेखकों को भेजा जाता है जो प्रस्तुत प्रक्रिया के दौरान निर्दिष्ट OJS के भीतर उपयोगकर्ता नहीं हैं.',
+        'mailable.revisedVersionNotify.description' => 'यह ईमेल स्वचालित रूप से असाइन किए गए संपादक को भेजा जाता है जब लेखक किसी लेख का संशोधित संस्करण अपलोड करता है.',
+        'manager.setup.competingInterests.requireAuthors' => 'अपने जमा करने के साथ एक प्रतियोगी ब्याज (CI) बयान दर्ज करने के लिए लेखकों को प्रस्तुत करने की आवश्यकता है।',
+        'submission.submissionFile' => 'सबमिशन फ़ाइल',
+        'emails.submissionAck.subject' => 'सबमिशन स्वीकृति',
+        'emails.submissionAck.body' => '{$recipientName}:<br />
+<br />
+पांडुलिपि प्रस्तुत करने के लिए धन्यवाद, &quot;{$submissionTitle}&quot; to {$contextName}. जिस ऑनलाइन जर्नल प्रबंधन प्रणाली का हम उपयोग कर रहे हैं, आप जर्नल साइट पर लॉग इन करके संपादकीय प्रक्रिया के माध्यम से इसकी प्रगति को ट्रैक कर पाएंगे।:<br />
+<br />
+Submission URL: {$submissionUrl}<br />
+Username: {$recipientUsername}<br />
+<br />
+यदि आपके पास किसी तरह का प्रश्न है, तो कृपया मुझ से सम्पर्क करें। अपने काम के लिए इस जर्नल को एक स्थान के रूप में विचार करने के लिए धन्यवाद.<br />
+<br />
+{$contextSignature}',
+        'emails.reviewAck.subject' => 'लेख समीक्षा आभार',
+        'emails.reviewAck.body' => '{$recipientName}:<br />
+<br />
+सबमिशन की समीक्षा को पूरा करने के लिए धन्यवाद, &quot;{$submissionTitle},&quot; for {$contextName}. हम आपके द्वारा प्रकाशित किए जाने वाले कार्य की गुणवत्ता में आपके योगदान की सराहना करते हैं.',
+        'emails.editorDecisionSendToExternal.subject' => 'संपादक का निर्णय',
+        'emails.editorDecisionSendToExternal.body' => '{$authors}:<br />
+<br />
+हम आपके सबमिशन के बारे में निर्णय ले चुके हैं to {$contextName}, &quot;{$submissionTitle}&quot;.<br />
+<br />
+Our decision is to: Send to Review<br />
+<br />
+Submission URL: {$submissionUrl}',
+        'emails.editorDecisionSendToProduction.subject' => 'संपादक का निर्णय',
+        'emails.editorDecisionSendToProduction.body' => '{$authors}:<br />
+<br />
+आपके सबमिशन का संपादन, &quot;{$submissionTitle},&quot; पूरा है। अब हम इसे उत्पादन के लिए भेज रहे हैं.<br />
+<br />
+Submission URL: {$submissionUrl}',
+        'emails.editorDecisionRevisions.subject' => 'संपादक का निर्णय',
+        'emails.editorDecisionRevisions.body' => '{$authors}:<br />
+<br />
+आपके द्वारा सबमिट किए जाने के संबंध में हम एक निर्णय पर पहुंच गए हैं {$contextName}, &quot;{$submissionTitle}&quot;.<br />
+<br />
+Our decision is: Revisions Required',
+        'emails.editorDecisionResubmit.subject' => 'संपादक का निर्णय',
+        'emails.editorDecisionDecline.subject' => 'संपादक का निर्णय',
+        'emails.editorDecisionDecline.body' => '{$authors}:<br />
+<br />
+आपके द्वारा सबमिट किए जाने के संबंध में हम एक निर्णय पर पहुंच गए हैं {$contextName}, &quot;{$submissionTitle}&quot;.<br />
+<br />
+हमारा निर्णय है: सबमिशन को अस्वीकार करना',
+        'emails.editorRecommendation.subject' => 'संपादक की सिफारिश',
+        'emails.editorRecommendation.body' => '{$editors}:<br />
+<br />
+को प्रस्तुत करने के संबंध में सिफारिश {$contextName}, &quot;{$submissionTitle}&quot; is: {$recommendation}',
+        'emails.copyeditRequest.subject' => 'प्रतिलिपि अनुरोध',
+        'emails.copyeditRequest.body' => '{$recipientName}:<br />
+<br />
+I would ask that you undertake the copyediting of &quot;{$submissionTitle}&quot; for {$contextName} by following these steps.<br />
+1. नीचे दिए गए सबमिशन यूआरएल पर क्लिक करें.<br />
+2. ड्राफ्ट फ़ाइलों के तहत उपलब्ध किसी भी फाइल को खोलें और आवश्यकतानुसार अपनी कॉपी की गई चर्चाओं को जोड़ते हुए, अपनी प्रतिलिपि बनाएँ.<br />
+3. Save copyedited file(s), and upload to Copyedited panel.<br />
+4. संपादक को सूचित करें कि सभी फाइलें तैयार हो गई हैं, और यह कि उत्पादन प्रक्रिया शुरू हो सकती है.<br />
+<br />
+{$contextName} URL: {$contextUrl}<br />
+Submission URL: {$submissionUrl}<br />
+Username: {$recipientUsername}',
+        'emails.editorDecisionInitialDecline.subject' => 'संपादक का निर्णय',
+        'emails.editorDecisionInitialDecline.body' => '
+			{$authors}:<br />
+<br />
+',
+        'emails.discussion.subject' => '{$contextName} के बारे में एक संदेश',
+        'emails.discussion.body' => 'कृपया अपना संदेश लिखें.',
+        'emails.reviewConfirm.subject' => 'समीक्षा करने में सक्षम',
+        'emails.reviewConfirm.body' => 'Editors:<br />
+<br />
+मैं सबमिशन की समीक्षा करने में सक्षम और तैयार हूं, &quot;{$submissionTitle},&quot; for {$contextName}. मेरे बारे में सोचने के लिए धन्यवाद, और मेरी योजना इसकी नियत तारीख, {$ reviewDueDate} से पूरी होने की है, अगर पहले नहीं.<br />
+<br />
+{$senderName}',
+        'emails.submissionAckNotAuthor.subject' => 'सबमिशन स्वीकृति',
+        'emails.submissionAckNotAuthor.body' => 'Hello,<br />
+<br />
+{$submitterName} ने पांडुलिपि जमा की है, &quot;{$submissionTitle}&quot; to {$contextName}. <br />
+<br />
+यदि आपके पास किसी तरह का प्रश्न है, तो कृपया मुझ से सम्पर्क करें। अपने काम के लिए इस जर्नल को एक स्थान के रूप में विचार करने के लिए धन्यवाद.<br />
+<br />
+{$contextSignature}',
+        'section.default.title' => 'लेख',
+        'section.default.abbrev' => 'कला',
+        'section.default.policy' => 'खंड डिफ़ॉल्ट नीति',
+        'default.genres.article' => 'लेख पाठ',
+        'default.contextSettings.privacyStatement' => '<p>इस जर्नल साइट में दर्ज किए गए नाम और ईमेल पते इस जर्नल के घोषित उद्देश्यों के लिए विशेष रूप से उपयोग किए जाएंगे और किसी अन्य उद्देश्य या किसी अन्य पार्टी के लिए उपलब्ध नहीं किए जाएंगे।.</p>',
+        'default.contextSettings.openAccessPolicy' => 'यह जर्नल सिद्धांत पर अपनी सामग्री के लिए तत्काल खुली पहुंच प्रदान करती है जो अनुसंधान को स्वतंत्र रूप से जनता के लिए उपलब्ध कराती है, ज्ञान के अधिक वैश्विक आदान-प्रदान का समर्थन करती है.',
+        'default.contextSettings.forReaders' => 'हम पाठकों को इस जर्नल के लिए प्रकाशन अधिसूचना सेवा के लिए साइन अप करने के लिए प्रोत्साहित करते हैं। उपयोग <a href="{$indexUrl}/{$contextPath}/user/register">Register</a> जर्नल के लिए मुख पृष्ठ के शीर्ष पर लिंक हैं। यह पंजीकरण पाठक को जर्नल के प्रत्येक नए अंक के लिए ईमेल द्वारा सामग्री तालिका प्राप्त करने का परिणाम देगा। यह सूची जर्नल को एक निश्चित स्तर के समर्थन या पाठक का दावा करने की भी अनुमति देती है। जर्नल को देखें <a href="{$indexUrl}/{$contextPath}/about/submissions#privacyStatement">Privacy Statement</a>, जो पाठकों को आश्वस्त करता है कि उनके नाम और ईमेल पते का उपयोग अन्य उद्देश्यों के लिए नहीं किया जाएगा.',
+        'default.contextSettings.forAuthors' => 'इस जर्नल को प्रस्तुत करने के इच्छुक हैं? हम अनुशंसा करते हैं कि आप समीक्षा करें <a href="{$indexUrl}/{$contextPath}/about">About the Journal</a> जर्नल की अनुभाग नीतियों के लिए पेज, साथ ही <a href="{$indexUrl}/{$contextPath}/about/submissions#authorGuidelines">Author Guidelines</a>. लेखकों की जरूरत है <a href="{$indexUrl}/{$contextPath}/user/register">register</a> with the journal prior to submitting or, if already registered, can simply <a href="{$indexUrl}/index/login">log in</a> और पांच-चरण की प्रक्रिया शुरू करें.',
+        'default.contextSettings.forLibrarians' => 'हम अपने पुस्तकालय की इलेक्ट्रॉनिक जर्नल होल्डिंग्स के बीच इस जर्नल को सूचीबद्ध करने के लिए अनुसंधान पुस्तकालयों को प्रोत्साहित करते हैं। साथ ही, यह ध्यान देने योग्य हो सकता है कि इस जर्नल का ओपन सोर्स पब्लिशिंग सिस्टम पुस्तकालयों के लिए उपयुक्त है कि वे अपने संकाय सदस्यों के लिए उन जर्नलस के साथ होस्ट करें जो वे संपादन में शामिल हैं। (see <a href="http://pkp.sfu.ca/ojs">Open Journal Systems</a>).',
+        'default.contextSettings.lockssLicense' => 'यह जर्नल प्रतिभागी पुस्तकालयों के बीच वितरित संग्रह प्रणाली बनाने के लिए LOCKSS प्रणाली का उपयोग करती है और उन पुस्तकालयों को संरक्षण और बहाली के प्रयोजनों के लिए जर्नल के स्थायी अभिलेखागार बनाने की अनुमति देती है।. <a href="http://www.lockss.org/">More...</a>',
+        'default.contextSettings.clockssLicense' => 'यह जर्नल प्रतिभागी पुस्तकालयों के बीच वितरित संग्रह प्रणाली बनाने के लिए CLOCKSS प्रणाली का उपयोग करती है और उन पुस्तकालयों को संरक्षण और बहाली के प्रयोजनों के लिए जर्नल के स्थायी अभिलेखागार बनाने की अनुमति देती है।. <a href="http://clockss.org/">More...</a>',
+        'default.groups.name.manager' => 'जर्नल प्रबंधक',
+        'default.groups.plural.manager' => 'जर्नल प्रबंधकों',
+        'default.groups.abbrev.manager' => 'JM',
+        'default.groups.name.editor' => 'जर्नल के संपादक',
+        'default.groups.plural.editor' => 'जर्नल के संपादकों',
+        'default.groups.abbrev.editor' => 'JE',
+        'default.groups.name.guestEditor' => 'अतिथि संपादक',
+        'default.groups.plural.guestEditor' => 'अतिथि संपादक',
+        'default.groups.abbrev.guestEditor' => 'GE',
+        'default.groups.name.sectionEditor' => 'अनुभाग संपादक',
+        'default.groups.plural.sectionEditor' => 'अनुभाग संपादक',
+        'default.groups.abbrev.sectionEditor' => 'SecE',
+        'default.groups.name.subscriptionManager' => 'सदस्यता प्रबंधक',
+        'default.groups.plural.subscriptionManager' => 'सदस्यता प्रबंधकों',
+        'default.groups.abbrev.subscriptionManager' => 'SubM',
+        'default.genres.researchInstrument' => 'शोध उपकरण',
+        'default.genres.researchMaterials' => 'शोध सामग्री',
+        'default.genres.researchResults' => 'शोध परिणाम',
+        'default.genres.transcripts' => 'प्रतिलिपि',
+        'default.genres.dataAnalysis' => 'डेटा विश्लेषण',
+        'default.genres.dataSet' => 'डाटा सेट',
+        'default.genres.sourceTexts' => 'स्रोत पाठ',
+        'default.groups.name.externalReviewer' => 'समीक्षक',
+        'default.groups.plural.externalReviewer' => 'समीक्षको',
+        'default.groups.abbrev.externalReviewer' => 'R',
+        'api.submissions.403.cantChangeContext' => 'आप सबमिशन की जर्नल नहीं बदल सकते.',
+        'api.submissions.403.unpublishedIssues' => 'आपके पास अप्रकाशित अंको को देखने की अनुमति नहीं है.',
+        'api.contexts.403.requestedDisabledContexts' => 'आप केवल उन जर्नल को देख सकते हैं जिन्हें सक्षम किया गया है.',
+        'api.contexts.403.notAllowed' => 'आपको इस जर्नल को देखने की अनुमति नहीं है.',
+        'api.contexts.403.contextsDidNotMatch' => 'जब तक आप जर्नल के एपीआई या साइट-वाइड एपीआई के लिए अनुरोध नहीं करते, आप इस जर्नल को देख या संपादित नहीं कर सकते.',
+        'api.contexts.403.requiresContext' => 'आप इस जर्नल को साइट-वाइड एपीआई से संपादित नहीं कर सकते.',
+        'api.contexts.403.notAllowedEdit' => 'आपको इस जर्नल को संपादित करने की अनुमति नहीं है.',
+        'api.contexts.403.notAllowedDelete' => 'आपके पास इस जर्नल को हटाने की अनुमति नहीं है.',
+        'api.contexts.404.contextNotFound' => 'आपके द्वारा अनुरोधित जर्नल नहीं मिली.',
+        'api.emailTemplates.403.notAllowedChangeContext' => 'आपके पास इस ईमेल टेम्प्लेट को किसी अन्य जर्नल में ले जाने की अनुमति नहीं है.',
+        'api._payments.400.invalidPaymentMethod' => 'आपके द्वारा चयनित भुगतान विधि समर्थित नहीं है.',
+        'api.publications.403.contextsDidNotMatch' => 'आपके द्वारा अनुरोधित प्रकाशन इस जर्नल का हिस्सा नहीं है.',
+        'api.publications.403.submissionsDidNotMatch' => 'आपके द्वारा अनुरोधित प्रकाशन इस सबमिशन का हिस्सा नहीं है.',
+        'admin.hostedContexts' => 'होस्ट किए गए जर्नल्स',
+        'admin.settings.redirect' => 'जर्नल रीडायरेक्ट',
+        'admin.settings.redirectInstructions' => 'मुख्य साइट के अनुरोधों को इस जर्नल में पुनर्निर्देशित किया जाएगा। यह उपयोगी हो सकता है यदि साइट केवल एक ही जर्नल की होस्टिंग कर रही है, उदाहरण के लिए।',
+        'admin.languages.confirmDisable' => 'क्या आप वाकई इस लोकेल को अक्षम करना चाहते हैं? यह वर्तमान में लोकेल का उपयोग करके किसी भी होस्ट की गई जर्नल्स को प्रभावित कर सकता है।',
+        'admin.languages.primaryLocaleInstructions' => 'यह साइट और किसी भी होस्ट की गई जर्नल्स के लिए डिफ़ॉल्ट भाषा होगी।',
+        'admin.languages.supportedLocalesInstructions' => 'साइट पर समर्थन के लिए सभी लोकेल का चयन करें। चयनित लोकेल  साइट पर होस्ट की गई सभी जर्नल्स द्वारा उपयोग के लिए उपलब्ध होंगे, और प्रत्येक साइट पृष्ठ पर प्रकट होने के लिए भाषा चयन मेनू में भी दिखाई देंगे (जो कि जर्नल-विशिष्ट पृष्ठों पर ओवरराइड किया जा सकता है)। यदि कई स्थानों का चयन नहीं किया जाता है, तो भाषा टॉगल मेनू दिखाई नहीं देगा और विस्तारित भाषा सेटिंग्स जर्नल्स को उपलब्ध नहीं होंगी।',
+        'admin.locale.maybeIncomplete' => 'चिह्नित लोकेल अपूर्ण हो सकते हैं।',
+        'admin.languages.confirmUninstall' => 'क्या आप वाकई इस लोकेल को अनइंस्टॉल करना चाहते हैं? यह वर्तमान में लोकेल का उपयोग करके किसी भी होस्ट की गई जर्नल्स को प्रभावित कर सकता है।',
+        'admin.languages.installNewLocalesInstructions' => 'इस प्रणाली में समर्थन स्थापित करने के लिए किसी भी अतिरिक्त लोकेल का चयन करें। होस्टेड जर्नल द्वारा उपयोग किए जाने से पहले लोकेल स्थापित किए जाने चाहिए। नई भाषाओं के लिए समर्थन जोड़ने की जानकारी के लिए OJS प्रलेखन देखें।',
+        'admin.systemVersion' => 'OJS संस्करण',
+        'admin.systemConfiguration' => 'OJS कॉन्फ़िगरेशन',
+        'admin.systemConfigurationDescription' => 'OJS कॉन्फ़िगरेशन सेटिंग्स से<tt>config.inc.php</tt>.',
+        'admin.journals.createInstructions' => 'आप स्वचालित रूप से इस जर्नल के प्रबंधक के रूप में नामांकित हो जाएंगे। एक नई जर्नल बनाने के बाद, आपको प्रारंभिक जर्नल सेटअप को पूरा करने के लिए, इसकी सेटिंग विज़ार्ड पर पुनर्निर्देशित किया जाएगा।',
+        'admin.journals.journalSettings' => 'जर्नल सेटिंग्स',
+        'admin.journals.noneCreated' => 'कोई जर्नल नहीं बनाई गई है।',
+        'admin.contexts.create' => 'जर्नल बनाएँ',
+        'admin.journals.urlWillBe' => 'यह एक एकल छोटा शब्द या संक्षिप्त नाम होना चाहिए जो जर्नल की पहचान करता है। जर्नल का URL होगा{$sampleUrl}.',
+        'admin.contexts.form.titleRequired' => 'शीर्षक आवश्यक है।',
+        'admin.contexts.form.pathRequired' => 'एक पथ की आवश्यकता है।',
+        'admin.contexts.form.pathAlphaNumeric' => 'पथ में केवल अक्षर, संख्या और अक्षर _ और - शामिल हो सकते हैं। यह एक पत्र या संख्या के साथ शुरू और समाप्त होना चाहिए।',
+        'admin.contexts.form.pathExists' => 'आपके द्वारा प्रदान किया गया पथ पहले से ही किसी अन्य जर्नल द्वारा उपयोग में है।',
+        'admin.journals.enableJournalInstructions' => 'इस पत्रिका को साइट पर सार्वजनिक रूप से प्रदर्शित करने के लिए सक्षम करें',
+        'admin.contexts.contextDescription' => 'जर्नल विवरण',
+        'admin.journal.pathImportInstructions' => 'मौजूदा जर्नल पथ या पथ बनाने के लिए (जैसे, "ojs")।',
+        'admin.journals.importSubscriptions' => 'आयात सदस्यता',
+        'admin.journals.transcode' => 'ISO8859-1 से ट्रांसकोड लेख मेटाडेटा',
+        'admin.journals.redirect' => 'OJS 1 URL को OJS 2 URL में मैप करने के लिए कोड जनरेट करें',
+        'admin.journals.form.importPathRequired' => 'आयात पथ आवश्यक हैl',
+        'admin.journals.importErrors' => 'आयात सफलतापूर्वक पूरा करने में विफल रहा',
+        'admin.mergeUsers' => 'उपयोगकर्ताओं को मर्ज करें',
+        'admin.mergeUsers.mergeUser' => 'उपयोगकर्ता को मर्ज करें',
+        'admin.mergeUsers.into.description' => 'एक उपयोगकर्ता का चयन करें, जिसे पिछले उपयोगकर्ता के प्राधिकरण, संपादन कार्य आदि का श्रेय दिया जाए।',
+        'admin.mergeUsers.from.description' => 'किसी अन्य उपयोगकर्ता खाते में विलय करने के लिए एक उपयोगकर्ता (या कई) का चयन करें (जैसे, जब किसी के पास दो उपयोगकर्ता खाते हों)। पहले चुने गए खाते (खातों) को हटा दिया जाएगा और किसी भी प्रस्तुतियाँ, असाइनमेंट आदि को दूसरे खाते के लिए जिम्मेदार ठहराया जाएगा।',
+        'admin.mergeUsers.allUsers' => 'सभी नामांकित उपयोगकर्ता',
+        'admin.mergeUsers.confirm' => 'क्या आप सुनिश्चित हैं कि आप चयनित {$oldAccountCount} खाते (एस) को उपयोगकर्ता नाम \'{$newUsername} \' के साथ खाते में विलय करना चाहते हैं? चयनित {$oldAccountCount} खाते बाद में मौजूद नहीं होंगे। यह क्रिया प्रतिवर्ती नहीं है ।',
+        'admin.mergeUsers.noneEnrolled' => 'कोई नामांकित उपयोगकर्ता नहीं।',
+        'admin.scheduledTask.subscriptionExpiryReminder' => 'सदस्यता समाप्ति की रिमाइंडर',
+        'admin.scheduledTask.openAccessNotification' => 'ओपन एक्सेस अधिसूचना',
+        'admin.scheduledTask.reviewReminder' => 'रिमाइंडर की समीक्षा करें',
+        'context.current' => 'वर्तमान जर्नल:',
+        'context.select' => 'किसी अन्य जर्नल पर जाएं:',
+        'navigation.categories' => 'श्रेणियाँ',
+        'navigation.categories.browse' => 'ब्राउज़',
+        'reviewer.article.enterReviewForm' => 'समीक्षा फ़ॉर्म भरने के लिए आइकन पर क्लिक करें।',
+        'reviewer.submission.reviewFormResponse.form.responseRequired' => 'कृपया आवश्यक क्षेत्र भरें।',
+        'common.software' => 'ओपन जर्नल सिस्टम',
+        'common.confirmComplete' => 'क्या आप वाकई इस कार्य को पूरा करना चाहते हैं? आप बाद में बदलाव करने में सक्षम नहीं हो सकते हैं।',
+        'common.payment' => 'भुगतान',
+        'common.payments' => 'भुगतान',
+        'common.homePageHeader.altText' => 'मुख पृष्ठ का शीर्ष लेख',
+        'common.journalHomepageImage.altText' => 'जर्नल मुखपृष्ठ छवि',
+        'navigation.journalHelp' => 'जर्नल मदद',
+        'navigation.current' => 'वर्तमान',
+        'navigation.otherJournals' => 'अन्य जर्नल्स',
+        'navigation.browseByIssue' => 'अंक द्वारा',
+        'navigation.browseByAuthor' => 'लेखक द्वारा',
+        'navigation.infoForAuthors' => 'लेखकों के लिए',
+        'navigation.infoForLibrarians' => 'लाइब्रेरियन के लिए',
+        'navigation.competingInterestGuidelines' => 'प्रतिस्पर्धा संबंधी दिशानिर्देश',
+        'navigation.infoForAuthors.long' => 'लेखकों के लिए सूचना',
+        'navigation.infoForLibrarians.long' => 'लाइब्रेरियन के लिए सूचना',
+        'navigation.skip.about' => 'जर्नल के बारे में छोड़ें',
+        'navigation.skip.issue' => 'वर्तमान अंक पर छोड़ें',
+        'common.queue.long.submissionsUnassigned' => 'सौंपे नहीं गए',
+        'common.queue.short.submissionsUnassigned' => 'सौंपे नहीं गए',
+        'common.queue.long.submissionsInEditing' => 'सबमिशन में संपादन',
+        'common.queue.short.submissionsInEditing' => 'संपादन में',
+        'common.queue.long.submissionsInReview' => 'सबमिशन में समीक्षा',
+        'common.queue.short.submissionsInReview' => 'समीक्षा में',
+        'common.queue.long.submissionsArchives' => 'पुरालेख',
+        'common.queue.short.submissionsArchives' => 'पुरालेख',
+        'common.queue.long.active' => 'सक्रिय',
+        'common.queue.short.active' => 'सक्रिय',
+        'common.queue.long.completed' => 'पुरालेख',
+        'common.queue.short.completed' => 'पुरालेख',
+        'submissionGroup.assignedSubEditors' => 'नियुक्त संपादक',
+        'section.section' => 'खंड',
+        'section.sections' => 'खंड',
+        'section.title' => 'खंड शीर्षक',
+        'section.abbreviation' => 'संक्षिप्तीकरण',
+        'section.abbreviation.example' => '(उदाहरण के लिए, लेख = एआरटी)',
+        'section.policy' => 'खंड नीति',
+        'article.article' => 'लेख',
+        'article.articles' => 'लेखों',
+        'common.publication' => 'लेख',
+        'common.publications' => 'लेखों',
+        'article.submissionId' => 'सबमिशन आईडी',
+        'article.title' => 'शीर्षक',
+        'article.authors' => 'लेखक',
+        'article.indexingInformation' => 'अनुक्रमण जानकारी',
+        'article.metadata' => 'मेटाडाटा',
+        'article.journalSection' => 'जर्नल अनुभाग',
+        'article.file' => 'फ़ाइल',
+        'article.suppFile' => 'अनुपूरक फ़ाइल',
+        'article.suppFiles' => 'अनुपूरक फ़ाइल (s)',
+        'article.suppFilesAbbrev' => 'Supp. फाइलें',
+        'article.discipline' => 'शैक्षणिक अनुशासन और उप-विषयों',
+        'article.subject' => 'संकेत शब्द',
+        'article.coverage' => 'कवरेज',
+        'article.type' => 'प्रकार, विधि या दृष्टिकोण',
+        'article.language' => 'भाषा',
+        'article.sectionEditor' => 'SE',
+        'article.commentsToEditor' => 'लेखक की टिप्पणी',
+        'article.submission' => 'सबमिशन',
+        'article.submissions' => 'सबमिशन्स',
+        'article.details' => 'विवरण',
+        'article.abstract' => 'सार',
+        'article.coverPage.altText' => 'आवरण छवि',
+        'article.accessLogoOpen.altText' => 'ओपन एक्सेस',
+        'article.accessLogoRestricted.altText' => 'उपयोग प्रतिबंधित',
+        'article.comments.sectionDefault' => 'डिफॉल्ट',
+        'article.comments.disable' => 'अक्षम',
+        'article.comments.enable' => 'सक्षम',
+        'article.fontSize' => 'फ़ॉन्ट आकार',
+        'article.fontSize.small.altText' => 'छोटा',
+        'article.fontSize.medium.altText' => 'मध्यम',
+        'article.fontSize.large.altText' => 'बड़ा',
+        'article.return' => 'लेख विवरण पर लौटें',
+        'submission.submissionEditing' => 'सबमिशन एडिटिंग',
+        'submission.changeSection' => 'में बदलो',
+        'submission.sent' => 'भेज दिया',
+        'submission.editorDecision' => 'संपादक का निर्णय',
+        'submission.round' => 'दौर&nbsp;{$round}',
+        'submission.editorReview' => 'संपादक की समीक्षा',
+        'submission.notifyAuthor' => 'लेखक को सूचित करें',
+        'submission.notifyEditor' => 'संपादक को सूचित करें',
+        'submission.editorAuthorRecord' => 'संपादक / लेखक ईमेल रिकॉर्ड',
+        'submission.reviewersVersion' => 'समीक्षक की फ़ाइल का एनोटेटेड संस्करण',
+        'submission.postReviewVersion' => 'फ़ाइल की समीक्षा के बाद का संस्करण',
+        'submission.editorVersion' => 'संपादक संस्करण',
+        'submission.authorsRevisedVersion' => 'लेखक का फ़ाइल का संशोधित संस्करण',
+        'submission.authorVersion' => 'लेखक संस्करण',
+        'submission.copyediting' => 'प्रतिलिपि संपादन',
+        'submission.copyedit' => 'प्रतिलिपि संपादन करना',
+        'submission.proofreading' => 'प्रूफ़रीडिंग',
+        'submission.scheduling' => 'निर्धारण',
+        'submission.scheduledIn' => '{$issueName} में प्रकाशन के लिए निर्धारित ।',
+        'submission.scheduledIn.tba' => '(TBA)',
+        'submissions.step1' => 'चरण 1',
+        'submissions.step3' => 'चरण 3',
+        'submissions.queuedReview' => 'समीक्षा में',
+        'submissions.published' => 'प्रकाशित',
+        'submissions.initial' => 'प्रारंभिक',
+        'submissions.proofread' => 'प्रूफ़ संशोधित करना',
+        'submissions.initialProof' => 'प्रारंभिक प्रमाण',
+        'submissions.postAuthor' => 'पोस्ट-लेखक',
+        'submissions.reviewRound' => 'समीक्षा दौर',
+        'submissions.proof' => 'प्रमाण',
+        'submissions.editorDecision' => 'संपादक का निर्णय',
+        'submissions.editorRuling' => 'संपादक शासन',
+        'submission.eventLog' => 'इवेंट लोग',
+        'submissions.copyeditComplete' => 'कॉपी संपादित',
+        'submissions.layoutComplete' => 'लेआउट संपादित किया गया',
+        'submissions.proofreadingComplete' => 'प्रूफ़रीड',
+        'submission.search' => 'लेख खोज',
+        'journal.currentIssue' => 'वर्तमान अंक',
+        'context.contexts' => 'जर्नल्स',
+        'journal.path' => 'पथ',
+        'context.context' => 'जर्नल',
+        'journal.issn' => 'ISSN',
+        'journal.viewAllIssues' => 'सभी अंक देखें',
+        'user.authorization.representationNotFound' => 'अनुरोधित गैली प्रूफ़ नहीं मिली।',
+        'user.noRoles.selectUsersWithoutRoles' => 'इस जर्नल में बिना किसी भूमिका वाले उपयोगकर्ताओं को शामिल करें।',
+        'user.profile.profileImage' => 'प्रोफ़ाइल छवि',
+        'user.showAllJournals' => 'मेरी जर्नल्स दिखाएँ',
+        'user.registerForOtherJournals' => 'अन्य जर्नल्स के लिए पंजीकरण करें',
+        'user.reviewerPrompt' => 'क्या आप इस जर्नल को सबमिशन्स देने के लिए तैयार हैं?',
+        'user.reviewerPrompt.userGroup' => 'हां, {$ userGroup} भूमिका का अनुरोध करें।',
+        'user.reviewerPrompt.optin' => 'हां, मैं इस जर्नल को सबमिशन्स की समीक्षा करने के अनुरोधों के साथ संपर्क करना चाहूंगा।',
+        'user.register.contextsPrompt' => 'इस साइट पर कौन सी जर्नल्स आप के साथ पंजीकृत करना चाहेंगे?',
+        'user.register.otherContextRoles' => 'निम्नलिखित भूमिकाओं का अनुरोध करें।',
+        'user.register.noContextReviewerInterests' => 'यदि आपने किसी भी जर्नल में एक समीक्षक बनने का अनुरोध किया है, तो कृपया अपने विषय के हितों को दर्ज करें।',
+        'user.myJournals' => 'मेरी जर्नल्स',
+        'user.manageMySubscriptions' => 'मेरी सदस्यता प्रबंधित करें',
+        'user.noRoles.chooseJournal' => 'आपका खाता वर्तमान में किसी भी जर्नल से संबद्ध नहीं है। कृपया एक जर्नल चुनें:',
+        'user.noRoles.noRolesForJournal' => 'आपके खाते में वर्तमान में इस जर्नल के लिए कोई भूमिका नहीं है। कृपया नीचे दिए गए कार्यों में से चुनें:',
+        'user.noRoles.submitArticle' => 'प्रस्ताव प्रस्तुत करें',
+        'user.noRoles.submitArticleRegClosed' => 'एक लेख सबमिट करें: लेखक पंजीकरण वर्तमान में अक्षम है।',
+        'user.noRoles.regReviewer' => 'एक समीक्षक के रूप में पंजीकृत करें',
+        'user.noRoles.regReviewerClosed' => 'एक समीक्षक के रूप में पंजीकरण करें: वर्तमान में समीक्षक पंजीकरण अक्षम है।',
+        'user.role.manager' => 'जर्नल प्रबंधक',
+        'user.role.subEditor' => 'अनुभाग संपादक',
+        'user.role.subscriptionManager' => 'सदस्यता प्रबंधक',
+        'user.role.managers' => 'जर्नल प्रबंधकों',
+        'user.role.subEditors' => 'अनुभाग संपादक',
+        'user.role.subscriptionManagers' => 'सदस्यता प्रबंधक',
+        'user.role.journalAssistant' => 'जर्नल सहायक',
+        'user.role.journalAssistants' => 'जर्नल सहायकों',
+        'issue.issue' => 'अंक',
+        'issue.issues' => 'अंक',
+        'issue.title' => 'शीर्षक',
+        'issue.viewIssueIdentification' => 'View {$identification}',
+        'issue.volume' => 'वाल्यूम',
+        'issue.number' => 'संख्या',
+        'issue.vol' => 'खंड',
+        'issue.no' => 'No.',
+        'issue.year' => 'वर्ष',
+        'issue.noIssues' => 'कोई अंक नहीं',
+        'issue.toc' => 'सामग्री की तालिका',
+        'issue.abstract' => 'सार',
+        'issue.coverPage.altText' => 'आवरण पृष्ठ',
+        'issue.fullIssue' => 'पूर्ण अंक',
+        'issue.nonpdf.title' => 'अंक डाउनलोड',
+        'issue.viewIssue' => 'अंक देखें',
+        'issue.return' => 'अंक विवरण पर लौटें',
+        'subscriptionTypes.currency' => 'मुद्रा',
+        'subscriptionTypes.year' => 'साल',
+        'subscriptionTypes.years' => 'साल',
+        'subscriptionTypes.month' => 'महीना',
+        'subscriptionTypes.months' => 'महीना',
+        'subscriptionTypes.nonExpiring' => 'गैर समाप्त',
+        'subscriptionTypes.format' => 'स्वरूप',
+        'subscriptionTypes.format.online' => 'ऑनलाइन',
+        'subscriptionTypes.format.print' => 'प्रिंट',
+        'subscriptionTypes.format.printOnline' => 'प्रिंट और ऑनलाइन',
+        'subscriptions.inactive' => 'निष्क्रिय',
+        'subscriptions.status' => 'स्थिति',
+        'subscriptions.status.active' => 'सक्रिय',
+        'subscriptions.status.needsInformation' => 'जानकारी चाहिए',
+        'subscriptions.status.needsApproval' => 'मंजूरी की जरूरत है',
+        'subscriptions.status.awaitingManualPayment' => 'मैनुअल भुगतान की प्रतीक्षा है',
+        'subscriptions.status.awaitingOnlinePayment' => 'ऑनलाइन भुगतान की प्रतीक्षा है',
+        'subscriptions.status.noSubscription' => 'आपके पास सक्रिय सदस्यता नहीं है।',
+        'subscriptions.status.other' => 'अन्य, नोट्स देखें',
+        'subscriptions.individualDescription' => 'व्यक्तिगत सदस्यता के लिए सदस्यता सामग्री तक पहुंचने के लिए लॉगिन की आवश्यकता होती है।',
+        'subscriptions.institutionalDescription' => 'संस्थागत सदस्यता के लिए लॉगिन की आवश्यकता नहीं है। उपयोगकर्ता के डोमेन और / या आईपी पते का उपयोग सदस्यता सामग्री तक पहुंच प्रदान करने के लिए किया जाता है।',
+        'subscriptions.institutionalOnlinePaymentDescription' => '<strong>नोट:</strong> ऑनलाइन खरीदे गए संस्थागत सदस्यता को सदस्यता सक्रिय होने से पहले डोमेन और आईपी श्रेणियों के अनुमोदन की आवश्यकता होती है।',
+        'submission.event.general.defaultEvent' => 'सबमिशन इवेंट',
+        'submission.event.submissionSubmitted' => 'लेख प्रस्तुत किया',
+        'submission.event.general.issueScheduled' => 'शेड्यूलिंग कतार जारी करने के लिए सबमिशन भेजा गया',
+        'submission.event.general.issueAssigned' => 'सबमिशन जारी करने के लिए अंक सौंपा गया',
+        'submission.event.general.articlePublished' => 'लेख प्रकाशित हुआ',
+        'submission.event.author.authorRevision' => 'लेखक संशोधन प्रस्तुत किया',
+        'submission.event.general.authorRevision' => 'लेखक संशोधन फ़ाइल अपडेट की गई',
+        'submission.event.editor.editorAssigned' => 'संपादक को सबमिशन सौंपा',
+        'submission.event.editor.editorUnassigned' => 'संपादक सबमिशन करने से निर्दिष्ट नहीं किए गए',
+        'submission.event.editor.editorDecision' => 'संपादक का सबमिशन निर्णय',
+        'submission.event.editor.editorFile' => 'संपादक फ़ाइल अपडेट की गई',
+        'submission.event.editor.submissionArchived' => 'सबमिशन पुरालेख के लिए भेजा',
+        'submission.event.editor.submissionRestored' => 'सबमिशन पुरालेख से पुनर्स्थापित किया गया',
+        'submission.event.copyedit.copyeditorAssigned' => 'प्रतिलिपि सबमिशन करने वाले को सौंपी गई',
+        'submission.event.copyedit.copyeditorUnassigned' => 'प्रतिलिपि सबमिशन करने से अनसुना कर दिया',
+        'submission.event.copyedit.copyeditInitiated' => 'प्रतिलिपि कार्य आरंभ किया गया',
+        'submission.event.copyedit.copyeditRevision' => 'प्रतिलिपि संशोधन फ़ाइल अपडेट की गई',
+        'submission.event.copyedit.copyeditInitialCompleted' => 'प्रारंभिक प्रतिलिपि पूरी हुई',
+        'submission.event.copyedit.copyeditFinalCompleted' => 'अंतिम  प्रतिलिपि पूर्ण हुई',
+        'submission.event.copyedit.copyeditSetFile' => 'प्रतिलिपि फ़ाइल अपडेट की गई',
+        'submission.event.proofread.proofreaderAssigned' => 'प्रूफ़रीडर सबमिशन करने के लिए सौंपा',
+        'submission.event.proofread.proofreaderUnassigned' => 'प्रूफ़रीडर सबमिशन करने से अप्रभावित है',
+        'submission.event.proofread.proofreadInitiated' => 'प्रूफ़रीडर असाइनमेंट शुरू किया गया',
+        'submission.event.proofread.proofreadRevision' => 'प्रूफ़रीडर संशोधन फ़ाइल अपडेट की गई',
+        'submission.event.proofread.proofreadCompleted' => 'प्रूफ़रीडर असाइनमेंट पूरा हुआ',
+        'submission.event.layout.layoutEditorAssigned' => 'लेआउट संपादक सबमिशन करने के लिए सौंपा',
+        'submission.event.layout.layoutEditorUnassigned' => 'लेआउट संपादक सबमिशन करने से अप्रकाशित है',
+        'submission.event.layout.layoutInitiated' => 'लेआउट असाइनमेंट शुरू किया',
+        'submission.event.layout.layoutGalleyCreated' => 'लेआउट गैली अपडेट किया गया',
+        'submission.event.layout.layoutComplete' => 'लेआउट असाइनमेंट पूरा हुआ',
+        'reader.subscribersOnly' => 'केवल सदस्य',
+        'reader.subscriptionRequiredLoginText' => 'आइटम का उपयोग करने के लिए आवश्यक सदस्यता। सदस्यता सत्यापित करने के लिए, जर्नल में लॉग इन करें।',
+        'reader.openAccess' => 'ओपन एक्सेस',
+        'reader.subscriptionAccess' => 'सदस्यता की आवश्यकता है',
+        'reader.subscriptionOrFeeAccess' => 'सदस्यता या शुल्क की आवश्यकता है',
+        'reader.purchasePrice' => '({$currency} {$price})',
+        'comments.commentsOnArticle' => 'इस लेख पर टिप्पणियाँ',
+        'comments.authenticated' => 'द्वारा <a href="{$publicProfileUrl}" target="_parent">{$userName}</a>',
+        'search.results.orderBy' => 'द्वारा आदेश परिणाम',
+        'search.results.orderBy.article' => 'लेख का शीर्षक',
+        'search.results.orderBy.author' => 'लेखक',
+        'search.results.orderBy.date' => 'प्रकाशन तिथि',
+        'search.results.orderBy.issue' => 'अंक',
+        'search.results.orderBy.journal' => 'जर्नल शीर्षक',
+        'search.results.orderBy.popularityAll' => 'लोकप्रियता (सभी समय)',
+        'search.results.orderBy.popularityMonth' => 'लोकप्रियता (अंतिम माह)',
+        'search.results.orderBy.relevance' => 'प्रासंगिकता',
+        'search.results.orderDir.asc' => 'आरोही',
+        'search.results.orderDir.desc' => 'अवरोही',
+        'search.results.similarDocuments' => 'इसी तरह के दस्तावेज',
+        'admin.overwriteConfigFileInstructions' => '<h4>नोट!</h4>
+<p>सिस्टम कॉन्फ़िगरेशन फ़ाइल को स्वचालित रूप से अधिलेखित नहीं कर सकता है। अपने कॉन्फ़िगरेशन परिवर्तनों को लागू करने के लिए आपको उपयुक्त टेक्स्ट एडिटर में  <tt>config.inc.php</tt> खोलना होगा और इसकी सामग्री को नीचे दिए गए टेक्स्ट फ़ील्ड की सामग्री से बदलना होगा।</p>',
+        'subscriptionManager.subscriptionManagement' => 'सदस्यता प्रबंधन',
+        'subscriptionManager.individualSubscriptions' => 'व्यक्तिगत सदस्यताएँ',
+        'subscriptionManager.institutionalSubscriptions' => 'संस्थागत सदस्यता',
+        'subscriptionManager.subscriptionTypes' => 'सदस्यता प्रकार',
+        'plugins.categories.viewableFiles' => 'लेख गैली प्लगइन्स',
+        'plugins.categories.viewableFiles.description' => 'लेख गैली प्लगइन्स अलग-अलग दस्तावेज़ प्रकार को लेख गैलिस के रूप में प्रदर्शित करने के लिए समर्थन जोड़ते हैं।',
+        'plugins.categories.auth.description' => 'प्राधिकरण प्लगइन्स ओपन जर्नल सिस्टम को उपयोगकर्ता प्रमाणीकरण कार्यों को अन्य प्रणालियों, जैसे LDAP सर्वरों को सौंपने की अनुमति देता है।',
+        'plugins.categories.generic.description' => 'जेनेरिक प्लगइन्स का उपयोग ओपन जर्नल सिस्टम को विभिन्न तरीकों से विस्तारित करने के लिए किया जाता है जो अन्य प्लगइन श्रेणियों द्वारा समर्थित नहीं हैं।',
+        'manager.setup.copyrightNotice.sample' => '<h3>Proposed Creative Commons Copyright Notices</h3>
+<h4>1. Proposed Policy for Journals That Offer Open Access</h4>
+Authors who publish with this journal agree to the following terms:
+<ol type="a">
+	<li>Authors retain copyright and grant the journal right of first publication with the work simultaneously licensed under a <a target="_new" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution License</a> that allows others to share the work with an acknowledgement of the work\'s authorship and initial publication in this journal.</li>
+	<li>Authors are able to enter into separate, additional contractual arrangements for the non-exclusive distribution of the journal\'s published version of the work (e.g., post it to an institutional repository or publish it in a book), with an acknowledgement of its initial publication in this journal.</li>
+	<li>Authors are permitted and encouraged to post their work online (e.g., in institutional repositories or on their website) prior to and during the submission process, as it can lead to productive exchanges, as well as earlier and greater citation of published work (See <a target="_new" href="http://opcit.eprints.org/oacitation-biblio.html">The Effect of Open Access</a>).</li>
+</ol>
+
+<h4>2. Proposed Policy for Journals That Offer Delayed Open Access</h4>
+Authors who publish with this journal agree to the following terms:
+<ol type="a">
+	<li>Authors retain copyright and grant the journal right of first publication, with the work [SPECIFY PERIOD OF TIME] after publication simultaneously licensed under a <a target="_new" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution License</a> that allows others to share the work with an acknowledgement of the work\'s authorship and initial publication in this journal.</li>
+	 <li>Authors are able to enter into separate, additional contractual arrangements for the non-exclusive distribution of the journal\'s published version of the work (e.g., post it to an institutional repository or publish it in a book), with an acknowledgement of its initial publication in this journal.</li>
+	 <li>Authors are permitted and encouraged to post their work online (e.g., in institutional repositories or on their website) prior to and during the submission process, as it can lead to productive exchanges, as well as earlier and greater citation of published work (See <a target="_new" href="http://opcit.eprints.org/oacitation-biblio.html"> The Effect of Open Access</a>).</li>
+</ol>',
+        'manager.setup.basicEditorialStepsDescription' => 'स्टेप्स: सबमिशन क्यू &gt; सबमिशन रिव्यू &gt; सबमिशन एडिटिंग &gt; विषय-तालिका । <br/><br/> संपादकीय प्रक्रिया के इन पहलुओं को संभालने के लिए एक मॉडल का चयन करें । (एक प्रबंध संपादक और अनुभाग संपादकों को नामित करने के लिए, जर्नल प्रबंधन में संपादकों के पास जाएं।)',
+        'manager.setup.referenceLinkingDescription' => '<p>To enable readers to locate online versions of the work cited by an author, the following options are available.</p>
+
+<ol>
+	<li><strong>Add a Reading Tool</strong><p>The Journal Manager can add "Find References" to the Reading Tools that accompany published items, which enables readers to paste a reference\'s title and then search pre-selected scholarly databases for the cited work.</p></li>
+	<li><strong>Embed Links in the References</strong><p>The Layout Editor can add a link to references that can be found online by using the following instructions (which can be edited).</p></li>
+</ol>',
+        'manager.people.confirmDisable' => 'इस उपयोगकर्ता को अक्षम करें? यह उपयोगकर्ता को सिस्टम में लॉग इन करने से रोकेगा।
+
+आप वैकल्पिक रूप से उपयोगकर्ता को उनके खाते को अक्षम करने का कारण प्रदान कर सकते हैं।',
+        'manager.people.noAdministrativeRights' => 'Sorry, you do not have administrative rights over this user. This may be because:
+		<ul>
+			<li>The user is a site administrator</li>
+			<li>The user is active in journals you do not manage</li>
+		</ul>
+	This task must be performed by a site administrator.
+	',
+        'editor.submissionReview.notes' => '
+	<ol>
+	<li>Highlighted items indicate action is required by an editor, labelled as follows:
+		<ul>
+			<li class="highlightReviewerNotNotified">A Reviewer has been assigned but not notified by email</li>
+			<li class="highlightNoDecision">All Reviewers have returned with their comments, but no decision is recorded</li>
+			<li class="highlightRevisedCopyUploaded">Author has uploaded a revised manuscript</li>
+			<li class="highlightReviewerConfirmationOverdue">Reviewer is overdue to confirm peer review invitation</li>
+			<li class="highlightReviewerCompletionOverdue">Reviewer is overdue to complete review</li>
+		</ul>
+	</li>
+	<li>"Due" is filled in when reviewer accepts request to review; it displays number of weeks to review\'s due date or (-) weeks that it is overdue.</li>
+</ol>',
+        'editor.submissionEditing.notes' => '
+	<ol>
+	<li>Highlighted items indicate action is required by an editor, labelled as follows:
+		<ul>
+			<li class="highlightCopyediting">An action is required in the copyediting stage</li>
+			<li class="highlightLayoutEditing">An action is required in the layout editing stage</li>
+			<li class="higlightProofreading">An action is required in the proofreading stage</li>
+		</ul>
+	</li>
+</ol>',
+        'sectionEditor.activeEditorialAssignments' => 'सक्रिय संपादकीय असाइनमेंट',
+        'sectionEditor.completedEditorialAssignments' => 'सम्पूर्ण संपादकीय असाइनमेंट',
+        'sectionEditor.noneAssigned' => 'कोई सबमिशन नहीं सौंपा गया।',
+        'sectionEditor.copyedit.confirmRenotify' => 'इस कॉपी एडिटर को फिर से सूचित करने से उनका असाइनमेंट फिर से शुरू हो जाएगा। क्या आप वाकई ऐसा करने की इच्छा रखते हैं?',
+        'sectionEditor.author.confirmRenotify' => 'इस लेखक को फिर से सूचित करना की उनके असाइनमेंट को फिर से शुरू करे। क्या आप वाकई ऐसा करने की इच्छा रखते हैं?',
+        'sectionEditor.layout.confirmRenotify' => 'इस लेआउट एडिटर को फिर से सूचित करने से उनका असाइनमेंट फिर से शुरू हो जाएगा। क्या आप वाकई ऐसा करने की इच्छा रखते हैं?',
+        'sectionEditor.proofreader.confirmRenotify' => 'इस प्रूफ़रीडर को फिर से सूचित करने से उनका असाइनमेंट फिर से शुरू हो जाएगा। क्या आप वाकई ऐसा करने की इच्छा रखते हैं?',
+        'sectionEditor.regrets.breadcrumb' => 'पछतावा',
+        'sectionEditor.regrets.title' => '{{$ सबमिशन}} समीक्षक पछतावा, रद्द करना और पहले की सीमा',
+        'sectionEditor.regrets' => 'पछतावा',
+        'sectionEditor.regrets.link' => 'पछतावा, रद्द, पिछले सीमा देखें',
+        'sectionEditor.regrets.reviewRound' => 'सहकर्मी की समीक्षा, दौर {$ round}',
+        'sectionEditor.regrets.decisionRound' => 'संपादक का निर्णय, दौर {$ round}',
+        'sectionEditor.regrets.regretsAndCancels' => 'समीक्षक पछतावा और रद्द करना',
+        'sectionEditor.regrets.regret' => 'पछतावा',
+        'sectionEditor.regrets.result' => 'परिणाम',
+        'sectionEditor.review.enrollReviewer' => 'समीक्षक के रूप में एक मौजूदा उपयोगकर्ता का नामांकन करें',
+        'sectionEditor.review.createReviewer' => 'नया समीक्षक बनाएँ',
+        'layoutEditor.activeEditorialAssignments' => 'सक्रिय संपादकीय असाइनमेंट',
+        'layoutEditor.completedEditorialAssignments' => 'सम्पूर्ण संपादकीय असाइनमेंट',
+        'layoutEditor.noActiveAssignments' => 'कोई सक्रिय संपादकीय असाइनमेंट नहीं।',
+        'layoutEditor.layoutEditingAssignments' => 'लेआउट संपादन असाइनमेंट',
+        'layoutEditor.galley.uploadGalleyFormat' => 'गैली प्रारूप अपलोड करें',
+        'layoutEditor.galley.replaceGalley' => 'फ़ाइल बदलें',
+        'layoutEditor.galley.uploadSuppFile' => 'अनुपूरक फ़ाइल अपलोड करें',
+        'submission.layout.imageInvalid' => 'अमान्य छवि प्रारूप। स्वीकृत प्रारूप हैं .gif, .jpg और .png।',
+        'submission.layout.galley.remotelyHostedContent' => 'यह गैली एक अलग वेबसाइट पर उपलब्ध होगी।',
+        'submission.layout.galley.remoteURL' => 'दूरस्थ रूप से होस्ट की गई सामग्री का URL',
+        'reviewer.pendingReviews' => 'लेख लंबित समीक्षा',
+        'reviewer.completedReviews' => 'किया हुआ',
+        'reviewer.averageQuality' => 'रेटिंग',
+        'reviewer.article.fileToBeReviewed' => 'फाइल की समीक्षा की जाएगी',
+        'reviewer.article.notifyTheEditor' => 'संपादक को सूचित करें',
+        'reviewer.article.canDoReview' => 'समीक्षा करेंगे',
+        'reviewer.article.cannotDoReview' => 'समीक्षा करने में असमर्थ',
+        'reviewer.article.restrictedFileAccess' => 'सबमिशन उपलब्ध कराया जाएगा, यदि और जब समीक्षक समीक्षा करने के लिए सहमत हो',
+        'reviewer.article.submissionEditor' => 'सबमिशन संपादक',
+        'reviewer.article.reviewerCommentsDescription' => 'यहां समीक्षा टिप्पणियों में टाइप या पेस्ट करें',
+        'reviewer.article.editorToEnter' => 'प्रवेश करने के लिए संपादक',
+        'reviewer.article.sendReminder' => 'याद दिलाना',
+        'reviewer.article.automatic' => '(स्वत:)',
+        'reviewer.article.recommendation' => 'सिफ़ारिश करना',
+        'reviewer.article.submitReview' => 'संपादक को समीक्षा भेजें',
+        'reviewer.article.reviewerComments' => 'टिप्पणियाँ',
+        'reviewer.article.uploadedFile' => 'अपलोड की गई फाइलें',
+        'reviewer.article.reviewersAnnotatedVersion' => 'संस्करण समीक्षक द्वारा अपलोड किया गया',
+        'reviewer.article.reviewersAnnotatedVersionDescription' => '(यदि आप संपादक के लिए फ़ाइल को एनोटेट करना चाहते हैं, तो अपनी हार्ड ड्राइव पर सेव करें और ब्राउज़ / अपलोड का उपयोग करें।)',
+        'reviewer.article.schedule.request' => 'संपादक का अनुरोध',
+        'reviewer.article.schedule.response' => 'तुम्हारा जवाब',
+        'reviewer.article.schedule.submitted' => 'सबमिशन की समीक्षा करें',
+        'reviewer.article.schedule.due' => 'देय की समीक्षा करें',
+        'reviewer.article.decision.accept' => 'सबमिशन स्वीकार करें',
+        'reviewer.article.decision.pendingRevisions' => 'संशोधन आवश्यक है',
+        'reviewer.article.decision.resubmitHere' => 'समीक्षा के लिए पुनः सबमिट करें',
+        'reviewer.article.decision.resubmitElsewhere' => 'कहीं और फिर से जमा करें',
+        'reviewer.article.decision.decline' => 'सबमिशन घटाना',
+        'reviewer.article.decision.seeComments' => 'टिप्पणी देखो',
+        'reviewer.article.schedule' => 'अनुसूची',
+        'reviewer.article.submissionToBeReviewed' => 'सबमिशन किया जाना है',
+        'reviewer.article.reviewSchedule' => 'अनुसूची की समीक्षा करें',
+        'reviewer.article.reviewSteps' => 'स्टेप्स की समीक्षा करें',
+        'reviewer.article.reviewerGuidelines' => 'समीक्षक दिशानिर्देश',
+        'reviewer.article.reviewGuidelinesDescription' => 'समीक्षा दिशानिर्देश समीक्षाकर्ताओं को जर्नल में प्रकाशन के लिए प्रस्तुत करने की उपयुक्तता को निर्धारित करने के लिए मानदंड प्रदान करेंगे, और एक प्रभावी और उपयोगी समीक्षा तैयार करने के लिए कोई विशेष निर्देश शामिल कर सकते हैं। समीक्षा का संचालन करने में, समीक्षकों को दो खुले पाठ बक्से के साथ प्रस्तुत किया जाता है, पहला "लेखक और संपादक के लिए," और दूसरा "संपादक के लिए।" वैकल्पिक रूप से, जर्नल प्रबंधक समीक्षा प्रपत्र के तहत एक सहकर्मी समीक्षा प्रपत्र बना सकता है। सभी मामलों में, संपादकों के पास लेखक के अनुरूप समीक्षाओं को शामिल करने का विकल्प होगा।',
+        'reviewer.article.notifyEditorA' => 'सबमिशन संपादक को सूचित करें',
+        'reviewer.article.notifyEditorB' => 'के रूप में है कि क्या आप समीक्षा शुरू करेंगे ।',
+        'reviewer.article.consultGuidelines' => 'यदि आप समीक्षा करने जा रहे हैं, तो नीचे समीक्षक दिशानिर्देशों से परामर्श करें।',
+        'reviewer.article.downloadSubmission' => 'डाउनलोड करने और समीक्षा करने के लिए फ़ाइल नामों पर क्लिक करें (स्क्रीन पर या प्रिंटिंग करके) इस सबमिशन से जुड़ी फाइलें।',
+        'reviewer.article.enterCompetingInterests' => 'घोषणा करें कि आपके पास इस शोध के संबंध में प्रतिस्पर्धी रुचियां हैं या नहीं (देखें <a target=\'_new\' class=\'action\' href=\'{$competingInterestGuidelinesUrl}\'>CI Policy</a>).',
+        'reviewer.competingInterests' => 'प्रतिस्पर्धी रुचियां',
+        'reviewer.article.enterReviewA' => 'इस सबमिशन की अपनी समीक्षा दर्ज करने (या पेस्ट) करने के लिए आइकन पर क्लिक करें।',
+        'reviewer.article.uploadFile' => 'इसके अलावा, आप संपादक और / या लेखक के परामर्श के लिए फाइलें अपलोड कर सकते हैं।',
+        'reviewer.article.selectRecommendation' => 'एक सिफारिश का चयन करें और प्रक्रिया को पूरा करने के लिए समीक्षा सबमिट करें। सिफारिश का चयन करने से पहले आपको एक समीक्षा दर्ज करनी चाहिए या एक फ़ाइल अपलोड करनी चाहिए।',
+        'reviewer.article.selectRecommendation.byEditor' => 'समीक्षक की अनुशंसा को सेट या समायोजित करें।',
+        'reviewer.article.mustSelectDecision' => 'कोई सिफारिश नहीं चुना गया था। सबमिट करने के लिए आपको एक सिफारिश का चयन करना होगा।',
+        'reviewer.article.confirmDecision' => 'एक बार निर्णय लेने के बाद आप इस समीक्षा में बदलाव नहीं कर पाएंगे। पुष्टि करें कि आप आगे जारी रखना चाहते हैं?',
+        'copyeditor.article.fileToCopyedit' => 'फ़ाइल को C / E के लिए',
+        'copyeditor.article.copyeditorFile' => 'कॉपी संपादक फ़ाइल',
+        'copyeditor.article.copyeditorFinalFile' => 'कॉपी संपादक फ़ाइल',
+        'proofreader.noProofreadingAssignments' => 'कोई प्रूफरीडिंग असाइनमेंट नहीं',
+        'author.submit.uploadInstructions' => '
+<p>To upload a manuscript to this journal, complete the following steps.</p>
+<ol>
+<li>On this page, click Browse (or Choose File) which opens a Choose File window for locating the file on the hard drive of your computer.</li>
+<li>Locate the file you wish to submit and highlight it.</li>
+<li>Click Open on the Choose File window, which places the name of the file on this page.</li>
+<li>Click Upload on this page, which uploads the file from the computer to the journal\'s web site and renames it following the journal\'s conventions.</li>
+<li>Once the submission is uploaded, click Save and Continue at the bottom of this page.</li>
+</ol>',
+        'submission.review.mustUploadFileForReview' => 'अनुरोध ईमेल तब तक नहीं भेजा जा सकता है जब तक कि समीक्षा संस्करण नहीं है।',
+        'submission.copyedit.mustUploadFileForInitialCopyedit' => 'संपादक निर्णय, समीक्षा पृष्ठ में कॉपीएडिटिंग करने के लिए फ़ाइल का चयन होने तक अनुरोध ईमेल नहीं भेजा जा सकता है।',
+        'submission.copyedit.mustUploadFileForCopyedit' => 'जब तक फ़ाइल को कॉपीएडिटिंग करने के लिए अपलोड नहीं किया जाता है तब तक अनुरोध ईमेल नहीं भेजा जा सकता है।',
+        'submission.copyedit.initialCopyedit' => 'प्रारंभिक प्रतिलिपि',
+        'submission.copyedit.editorsCopyedit' => 'संपादक की प्रतिलिपि',
+        'submission.copyedit.editorAuthorReview' => 'लेखक प्रतिलिपि',
+        'submission.copyedit.finalCopyedit' => 'अंतिम प्रतिलिपि',
+        'submission.copyedit.copyeditVersion' => 'सी / ई संस्करण',
+        'submission.copyedit.selectCopyeditor' => 'कॉपी संपादक असाइन करें',
+        'submission.copyedit.useFile' => 'फ़ाइल का उपयोग करें',
+        'submission.copyedit.copyeditComments' => 'प्रतिलिपि टिप्पणियां',
+        'submission.copyedit.instructions' => 'प्रतिलिपि के निर्देश',
+        'submission.layout.noLayoutFile' => 'कोई भी (अनुरोध भेजने से पहले लेआउट संस्करण के रूप में अंतिम प्रतिलिपि किए गए संस्करण को अपलोड करें)',
+        'submission.layout.galleyPublicIdentificationExists' => 'सार्वजनिक गैली पहचान पहले से मौजूद है।',
+        'submission.layout.assignLayoutEditor' => 'लेआउट संपादक असाइन करें',
+        'submission.layout.replaceLayoutEditor' => 'लेआउट संपादक को बदलें',
+        'submission.layout.layoutComments' => 'लेआउट टिप्पणियाँ',
+        'submission.layout.instructions' => 'लेआउट निर्देश',
+        'submission.layout.referenceLinking' => 'संदर्भ लिंकिंग',
+        'submission.proofreadingComments' => 'प्रूफरीडिंग टिप्पणियाँ',
+        'submission.proofread.corrections' => 'प्रूफरीडिंग सुधार',
+        'submission.proofread.instructions' => 'प्रूफिंग निर्देश',
+        'submission.logType.article' => 'लेख',
+        'submission.logType.author' => 'लेखक',
+        'submission.logType.editor' => 'संपादक',
+        'submission.logType.review' => 'समीक्षा',
+        'submission.logType.copyedit' => 'प्रतिलिपि',
+        'submission.logType.layout' => 'लेआउट',
+        'submission.logType.proofread' => 'प्रूफ्रीड',
+        'submission.comments.editorAuthorCorrespondence' => 'संपादक / लेखक पत्राचार',
+        'submission.comments.copyeditComments' => 'प्रतिलिपि टिप्पणियां',
+        'submission.comments.viewableDescription' => 'इन टिप्पणियों को लेखक के साथ साझा किया जा सकता है। <br />
+(सहेजने के बाद, और टिप्पणियां जोड़ी जा सकती हैं।)',
+        'submission.comments.canShareWithAuthor' => 'लेखक और संपादक के लिए',
+        'submission.comments.cannotShareWithAuthor' => 'संपादक के लिए',
+        'submission.comments.blindCcReviewers' => 'भेजने के बाद, समीक्षकों को भेजने के लिए एक संपादन योग्य बीसीसी प्रति प्रस्तुत करें।',
+        'submission.comments.forAuthorEditor' => 'लेखक और संपादक के लिए',
+        'submission.comments.forEditor' => 'संपादक के लिए',
+        'submission.comments.saveAndEmailAuthor' => 'सहेजें और ईमेल लेखक',
+        'submission.comments.saveAndEmailEditor' => 'सहेजें और ईमेल संपादक',
+        'user.register.selectContext' => 'इसके साथ पंजीकरण करने के लिए एक जर्नल चुनें:',
+        'user.register.noJournals' => 'इस साइट पर आपके द्वारा पंजीकृत कोई जर्नल्स नहीं है।',
+        'user.register.privacyStatement' => 'गोपनीयता वाले कथन',
+        'user.register.registrationDisabled' => 'यह जर्नल वर्तमान में उपयोगकर्ता पंजीकरण स्वीकार नहीं कर रही है।',
+        'user.register.form.passwordLengthTooShort' => 'आपके द्वारा दर्ज किया गया पासवर्ड लंबा नहीं है।',
+        'user.register.readerDescription' => 'जर्नल के एक अंक के प्रकाशन पर ईमेल द्वारा सूचित किया गया।',
+        'user.register.openAccessNotificationDescription' => 'जब जर्नल के किसी अंक को ओपन एक्सेस किया जाता है तो ईमेल द्वारा सूचित किया जाता है।',
+        'user.register.authorDescription' => 'जर्नल को आइटम प्रस्तुत करने में सक्षम।',
+        'user.register.reviewerDescriptionNoInterests' => 'जर्नल को सबमिशन की सहकर्मी समीक्षा करने के लिए तैयार।',
+        'user.register.reviewerDescription' => 'साइट के लिए सबमिशन की सहकर्मी समीक्षा करने की इच्छा करना।',
+        'user.register.reviewerInterests' => 'समीक्षा संबंधी रुचियों (मूल क्षेत्रों और शोध विधियों) की पहचान करें:',
+        'user.register.form.emailConsentAllContexts' => 'हां, मैं उन सभी जर्नल्स के लिए नए प्रकाशनों और घोषणाओं को अधिसूचित करना चाहूंगा जिनके साथ मैंने पंजीकरण किया था।',
+        'user.register.form.privacyConsentThisContext' => 'हां, मैं अपने डेटा को इस जर्नल के <a href="{$privacyUrl}" target="_blank"> गोपनीयता कथन </a> के अनुसार संग्रहीत करने के लिए सहमत हूं।',
+        'user.register.form.missingContextConsent' => 'आप जिस भी जर्नल के लिए पंजीकरण कर रहे हैं, उसके लिए आपको गोपनीयता कथन पर सहमति देनी चाहिए।',
+        'user.register.form.missingSiteConsent' => 'आपको इस साइट के गोपनीयता कथन के लिए सहमति देनी होगी।',
+        'user.subscriptions.mySubscriptions' => 'मेरी सदस्यता',
+        'user.subscriptions.subscriptionStatus' => 'सदस्यता स्थिति',
+        'user.subscriptions.statusInformation' => 'सक्रिय और समय सीमा समाप्त सदस्यता उनकी समाप्ति तिथि के साथ प्रदर्शित की जाती है। इसके अलावा, प्रत्येक सदस्यता के साथ निम्न स्थिति की जानकारी शामिल की जा सकती है।',
+        'user.subscriptions.status' => 'स्थिति',
+        'user.subscriptions.statusDescription' => 'विवरण',
+        'user.subscriptions.status.needsInformationDescription' => 'सदस्यता को सक्रिय करने से पहले अतिरिक्त जानकारी की आवश्यकता है',
+        'user.subscriptions.status.needsApprovalDescription' => 'सक्रिय होने से पहले सदस्यता की समीक्षा की जानी चाहिए',
+        'user.subscriptions.status.awaitingManualPaymentDescription' => 'मैनुअल भुगतान शुरू किया गया है लेकिन अभी तक नहीं मिला है',
+        'user.subscriptions.status.awaitingOnlinePaymentDescription' => 'एक ऑनलाइन भुगतान शुरू किया गया है लेकिन रद्द या पूरा नहीं हुआ है',
+        'user.subscriptions.individualSubscriptions' => 'व्यक्तिगत सदस्यता',
+        'user.subscriptions.institutionalSubscriptions' => 'संस्थागत सदस्यता',
+        'user.subscriptions.renew' => 'नवीकरण',
+        'user.subscriptions.purchase' => 'खरीद',
+        'user.subscriptions.purchaseNewSubscription' => 'नई सदस्यता खरीदें',
+        'user.subscriptions.purchaseIndividualSubscription' => 'व्यक्तिगत सदस्यता खरीदें',
+        'user.subscriptions.purchaseInstitutionalSubscription' => 'क्रय संस्थागत सदस्यता',
+        'user.subscriptions.expires' => 'समय समाप्ति: {$date}',
+        'user.subscriptions.expired' => 'समय सीमा समाप्त: {$date}',
+        'user.subscriptions.viewSubscriptionTypes' => 'उपलब्ध सदस्यता प्रकार देखें',
+        'user.subscriptions.form.typeId' => 'सदस्यता प्रकार',
+        'user.subscriptions.form.membership' => 'सदस्यता',
+        'user.subscriptions.form.membershipRequired' => 'चयनित सदस्यता प्रकार को मेम्बरशिप जानकारी की आवश्यकता होती है।',
+        'user.subscriptions.form.typeIdValid' => 'कृपया एक वैध सदस्यता प्रकार चुनें।',
+        'user.subscriptions.form.subscriptionExists' => 'इस उपयोगकर्ता खाते में पहले से ही एक व्यक्तिगत सदस्यता है।',
+        'user.subscriptions.form.membershipInstructions' => 'मेम्बरशिप जानकारी यदि चयनित सदस्यता प्रकार के लिए आवश्यक है।',
+        'user.subscriptions.form.institutionName' => 'संस्था का नाम',
+        'user.subscriptions.form.institutionNameRequired' => 'एक संस्था का नाम आवश्यक है।',
+        'user.subscriptions.form.institutionMailingAddress' => 'डाक पता',
+        'user.subscriptions.form.domain' => 'डोमेन',
+        'user.subscriptions.form.domainInstructions' => 'यदि एक डोमेन यहां दर्ज किया गया है, तो आईपी रेंज वैकल्पिक हैं। <br /> वैध मान डोमेन नाम हैं (उदा। Lib.sfu.ca)।',
+        'user.subscriptions.form.domainIPRangeRequired' => 'चयनित सदस्यता प्रकार को सदस्यता प्रमाणीकरण के लिए एक डोमेन और / या एक आईपी रेंज की आवश्यकता होती है।',
+        'user.subscriptions.form.domainValid' => 'कृपया एक मान्य डोमेन दर्ज करें।',
+        'user.subscriptions.form.ipRange' => 'आईपी रेंज',
+        'user.subscriptions.form.ipRangeItem' => '&#8226;',
+        'user.subscriptions.form.ipRangeInstructions' => 'यदि आईपी रेंज यहां दर्ज की जाती है, तो डोमेन वैकल्पिक है। <br /> मान्य मानों में एक आईपी पता (जैसे 142.58.103.1), आईपी रेंज (जैसे 142.58.103.1 - 142.58.103.4), वाइल्डकार्ड के साथ आईपी रेंज शामिल है * \'( उदा। 142.58। *। *), और सीआईडीआर के साथ एक आईपी रेंज (जैसे 142.58.100.0/24)।',
+        'user.subscriptions.form.ipRangeValid' => 'कृपया एक मान्य IP श्रेणी दर्ज करें।',
+        'user.subscriptions.form.deleteIpRange' => 'हटाएं',
+        'user.subscriptions.form.addIpRange' => 'जोड़ना',
+        'search.browseAuthorIndex' => 'लेखक सूचकांक ब्राउज़ करें',
+        'search.searchFor' => 'के लिए लेख खोजें',
+        'search.withinJournal' => 'अंदर',
+        'search.allJournals' => 'सभी जर्नल',
+        'search.authorIndex' => 'लेखक सूचकांक ब्राउज़ करें',
+        'search.authorDetails' => 'लेखक का विवरण',
+        'search.syntaxInstructions' => 'Search tips: <ul>
+<li>Search terms are case-insensitive</li>
+<li>Common words are ignored</li>
+<li>By default only articles containing <em>all</em> terms in the query are returned (i.e., <em>AND</em> is implied)</li>
+<li>Combine multiple words with <em>OR</em> to find articles containing either term; e.g., <em>education OR research</em></li>
+<li>Use parentheses to create more complex queries; e.g., <em>archive ((journal OR conference) NOT theses)</em></li>
+<li>Search for an exact phrase by putting it in quotes; e.g., <em>"open access publishing"</em></li>
+<li>Exclude a word by prefixing it with <strong>-</strong> or <em>NOT</em>; e.g. <em>online -politics</em> or <em>online NOT politics</em></li>
+<li>Use <strong>*</strong> in a term as a wildcard to match any sequence of characters; e.g., <em>soci* morality</em> would match documents containing "sociological" or "societal"</li>
+</ul>',
+        'article.pageTitle' => '{$ title} देखें',
+        'article.pdf.title' => 'पोर्टेबल दस्तावेज़ प्रारूप (पीडीएफ)',
+        'article.download' => 'इस पीडीएफ फाइल को डाउनलोड करें',
+        'article.pluginMissing' => '<p>The PDF file you selected should load here if your Web browser has a PDF reader plugin installed (for example, a recent version of <a href="https://get.adobe.com/reader/">Adobe Acrobat Reader</a>).</p>',
+        'article.nonpdf.title' => 'लेख डाउनलोड करें',
+        'article.nonpdf.note' => 'आपके द्वारा चुनी गई फ़ाइल को स्वचालित रूप से डाउनलोड करना शुरू करना चाहिए। यदि ऐसा नहीं होता है, तो नीचे दिए गए लिंक पर क्लिक करें। ध्यान दें कि इस फ़ाइल को देखने के लिए एक विशेष दर्शक या प्लग इन की आवश्यकता हो सकती है। <br /> <br /> यदि फ़ाइल स्वचालित रूप से डाउनलोड नहीं होती है, तो <a href="elling>urlenders"> यहां क्लिक करें </a>।',
+        'site.journalsHosted' => 'इस साइट पर आयोजित जर्नल्स',
+        'site.journalView' => 'जर्नल देखें',
+        'site.journalRegister' => 'रजिस्टर करें',
+        'site.journalCurrent' => 'नया अंक',
+        'site.noJournals' => 'कोई जर्नल्स उपलब्ध नहीं है।',
+        'current.current' => 'वर्तमान',
+        'current.noCurrentIssue' => 'कोई वर्तमान अंक नहीं',
+        'current.noCurrentIssueDesc' => 'इस जर्नल्स ने किसी भी अंक को प्रकाशित नहीं किया है।',
+        'archive.archives' => 'पुरालेखागार',
+        'archive.archivesPageNumber' => 'पुरालेखागार - पृष्ठ {$ pageNumber}',
+        'archive.browse' => 'पुराने अंको के माध्यम से ब्राउज़ करें',
+        'archive.issueUnavailable' => 'अंक अनुपलब्ध',
+        'about.statistics' => 'सांख्यिकी',
+        'about.contact' => 'संपर्क करें',
+        'about.aboutContext' => 'जर्नल के बारे में',
+        'about.history' => 'जर्नल इतिहास',
+        'about.editorialTeam' => 'संपादकीय टीम',
+        'about.editorialTeam.biography' => 'जीवनी',
+        'about.editorialPolicies' => 'संपादकीय नीतियां',
+        'about.focusAndScope' => 'फोकस और स्कोप',
+        'about.sectionPolicies' => 'अनुभाग नीतियाँ',
+        'about.submissions' => 'सबमिशन्स',
+        'about.onlineSubmissions.login' => 'लॉग इन करें',
+        'about.onlineSubmissions.register' => 'रजिस्टर करें',
+        'about.onlineSubmissions.registrationRequired' => 'सबमिशन करने के लिए {$ login} या {$ register}।',
+        'about.onlineSubmissions.submissionActions' => '{$ newSubmission} या {$ viewSubmissions}।',
+        'about.onlineSubmissions.submitToSection' => '<a href="{$url}">{$name}</a> अनुभाग में एक नया सबमिशन करें।',
+        'about.onlineSubmissions.newSubmission' => 'एक नया सबमिशन करें',
+        'about.onlineSubmissions.viewSubmissions' => 'अपना अपूर्ण सबमिशन्स देखें',
+        'about.authorGuidelines' => 'लेखक दिशानिर्देश',
+        'about.submissionPreparationChecklist' => 'सबमिशन तैयारी चेकलिस्ट',
+        'about.submissionPreparationChecklist.description' => 'प्रस्तुत करने की प्रक्रिया के हिस्से के रूप में, लेखकों को निम्नलिखित सभी वस्तुओं के साथ अपने सबमिशन के अनुपालन की जांच करना आवश्यक है, और सबमिशन्स उन लेखकों को वापस की जा सकती हैं जो इन दिशानिर्देशों का पालन नहीं करते हैं।',
+        'about.copyrightNotice' => 'सर्वाधिकार सूचना',
+        'about.privacyStatement' => 'गोपनीयता वाले कथन',
+        'about.authorFees' => 'लेखक शुल्क',
+        'about.authorFeesMessage' => 'यह जर्नल निम्नलिखित लेखक की फीस लेती है।',
+        'about.peerReviewProcess' => 'पीर रिव्यु प्रक्रिया',
+        'about.publicationFrequency' => 'प्रकाशन की आवृत्ति',
+        'about.openAccessPolicy' => 'ओपन एक्सेस नीति',
+        'about.delayedOpenAccess' => 'विलंबित ओपन एक्सेस',
+        'about.delayedOpenAccessDescription1' => 'इस जर्नल की सामग्री एक ओपन एक्सेस प्रारूप में उपलब्ध होगी',
+        'about.delayedOpenAccessDescription2' => 'एक अंक प्रकाशित होने के बाद महीना।',
+        'about.archiving' => 'संग्रह',
+        'about.subscriptions' => 'सदस्यता',
+        'about.subscriptions.individual' => 'व्यक्तिगत सदस्यताएँ',
+        'about.subscriptions.institutional' => 'संस्थागत सदस्यता',
+        'about.subscriptionsContact' => 'सदस्यता संपर्क करें',
+        'about.subscriptionTypes.name' => 'नाम',
+        'about.subscriptionTypes.format' => 'प्रारूप',
+        'about.subscriptionTypes.duration' => 'अवधि',
+        'about.subscriptionTypes.cost' => 'लागत',
+        'about.availableSubscriptionTypes' => 'सदस्यता प्रकार',
+        'about.memberships' => 'सदस्यता',
+        'about.aboutThisPublishingSystem' => 'OJS / PKP द्वारा प्रकाशन प्रणाली, प्लेटफ़ॉर्म और वर्कफ़्लो के बारे में अधिक जानकारी।',
+        'about.aboutThisPublishingSystem.altText' => 'OJS संपादकीय और प्रकाशन प्रक्रिया',
+        'about.aboutSoftware' => 'ओपन जर्नल सिस्टम के बारे में',
+        'about.aboutOJSJournal' => 'यह जर्नल ओपन जर्नल सिस्टम  {$ojsVersion} का उपयोग करती है, जो ओपन सोर्स जर्नल प्रबंधन और प्रकाशन सॉफ्टवेयर विकसित, समर्थित और स्वतंत्र रूप से  <a href="http://pkp.sfu.ca/"> सार्वजनिक ज्ञान परियोजना द्वारा वितरित किया जाता है जीएनयू जनरल पब्लिक लाइसेंस के तहत  </a>',
+        'about.aboutOJSSite' => 'यह साइट ओपन जर्नल सिस्टम {$ ojsVersion} का उपयोग करती है, जो ओपन सोर्स जर्नल प्रबंधन और प्रकाशन सॉफ्टवेयर विकसित, समर्थित और स्वतंत्र रूप से <a href="http://pkp.sfu.ca/"> सार्वजनिक ज्ञान परियोजना <द्वारा वितरित किया जाता है जीएनयू जनरल पब्लिक लाइसेंस के तहत ।</a>',
+        'help.ojsHelp' => 'ओपन जर्नल प्रणाली मदद',
+        'help.ojsHelpAbbrev' => 'OJS मदद',
+        'help.searchReturnResults' => 'खोज परिणामों पर वापस लौटें',
+        'help.goToEditPage' => '{$ SectionTitle} संपादित करें',
+        'donations.thankYou' => 'धन्यवाद',
+        'donations.thankYouMessage' => 'योगदान देने के लिए धन्यवाद।आपके योगदान को बहुत सराहा गया है।',
+        'payment.loginRequired' => 'भुगतान करने के लिए आपको लॉग इन होना चाहिए।',
+        'payment.loginRequired.forArticle' => 'आइटम का उपयोग करने के लिए सदस्यता या लेख खरीद आवश्यक है। सदस्यता को सत्यापित करने के लिए, पिछली खरीद या लेख खरीदने के लिए, जर्नल में लॉग इन करें।',
+        'payment.loginRequired.forIssue' => 'आइटम तक पहुंचने के लिए सदस्यता या जारी खरीद की आवश्यकता है। सदस्यता की पुष्टि करने के लिए, पिछली खरीद या खरीद के अंक पर पहुंचें, जर्नल में लॉग इन करें।',
+        'payment.loginRequired.forDonation' => 'डोनेशन करने के लिए आपको लॉग इन होना चाहिए।',
+        'payment.paid' => 'भुगतान किया है',
+        'payment.payNow' => 'अब भुगतान करें',
+        'payment.waive' => 'माफ',
+        'payment.alreadyPaid' => 'पहले से भुगतान किया हुआ',
+        'payment.alreadyPaidMessage' => 'यदि आपने सबमिशन प्रक्रिया पूरी करने के लिए अपना भुगतान जर्नल को भेज दिया है, तो इस बॉक्स का चयन करें। भुगतान आने तक सबमिशन की समीक्षा नहीं की जाएगी। भुगतान निर्देशों को देखने के लिए ऊपर दिए गए भुगतान पर क्लिक करें।',
+        'payment.paymentReceived' => 'भुगतान प्राप्त',
+        'payment.paymentSent' => 'भुगतान पहले ही भेज दिया गया है',
+        'payment.authorFees' => 'लेखक शुल्क',
+        'payment.type.submission' => 'सबमिशन फीस',
+        'payment.type.publication' => 'प्रकाशन शुल्क',
+        'payment.type.publication.required' => 'प्रकाशन शुल्क भुगतान के लिए देय है।',
+        'payment.type.fastTrack' => 'फास्ट ट्रैक समीक्षा शुल्क',
+        'payment.type.membership' => 'व्यक्तिगत सदस्यता शुल्क',
+        'payment.type.purchaseArticle' => 'लेख शुल्क खरीदें',
+        'payment.type.purchaseIssue' => 'अंक शुल्क खरीदें',
+        'payment.type.subscription' => 'सदस्यता शुल्क',
+        'payment.type.donation' => 'दान',
+        'payment.requestPublicationFee' => 'अनुरोध प्रकाशन शुल्क ({$ feeAmount})',
+        'payment.notFound' => 'भुगतान का अनुरोध किया गया है, लेकिन अनुरोध समाप्त हो गया है। विवरण के लिए जर्नल मैनेजर से संपर्क करें।',
+        'payment.donation.makeDonation' => 'एक दान करें',
+        'payment.submission.paySubmission' => 'सबमिशन फीस का भुगतान करें',
+        'payment.publication.payPublication' => 'प्रकाशित करने के लिए भुगतान करें',
+        'payment.publication.publicationPaid' => 'प्रकाशन शुल्क अदा किया',
+        'payment.membership.buyMembership' => 'व्यक्तिगत सदस्यता खरीदें',
+        'payment.membership.renewMembership' => 'व्यक्तिगत सदस्यता को नवीनीकृत करें',
+        'payment.membership.ends' => 'समाप्त होता है',
+        'payment.subscription.purchase' => 'सदस्यता ख़रीदे',
+        'payment.subscription.renew' => 'सदस्यता का नवीनीकरण',
+        'payment.subscription.expires' => 'समय-सीमा समाप्त',
+        'installer.appInstallation' => 'OJS स्थापना',
+        'installer.ojsUpgrade' => 'OJS अपग्रेड',
+        'installer.installationInstructions' => '<h4>OJS Version {$version}</h4>
+
+<p>Thank you for downloading the Public Knowledge Project\'s <strong>Open Journal Systems</strong>. Before proceeding, please read the <a href="{$baseUrl}/docs/README.md">README</a> file included with this software. For more information about the Public Knowledge Project and its software projects, please visit the <a href="http://pkp.sfu.ca/" target="_blank">PKP web site</a>. If you have bug reports or technical support inquiries about Open Journal Systems, see the <a href="http://forum.pkp.sfu.ca" target="_blank">support forum</a> or visit PKP\'s online <a href="https://github.com/pkp/pkp-lib#issues" target="_blank">bug reporting system</a>. Although the support forum is the preferred method of contact, you can also email the team at <a href="mailto:pkp.contact@gmail.com">pkp.contact@gmail.com</a>.</p>
+
+<h4>Upgrade</h4>
+
+<p>If you are upgrading an existing installation of OJS, <a href="{$upgradeUrl}">click here</a> to proceed.</p>
+
+<h4>Recommended system requirements</h4>
+
+<ul>
+	<li><a href="http://www.php.net/" target="_blank">PHP</a> >= {$phpRequiredVersion}; you are currently using PHP {$phpVersion}{$wrongPhpText}</li>
+	<li><a href="http://www.mysql.com/" target="_blank">MySQL</a> >= 4.1 or <a href="http://www.postgresql.org/" target="_blank">PostgreSQL</a> >= 9.1.5</li>
+	<li><a href="http://httpd.apache.org/" target="_blank">Apache</a> >= 1.3.2x or >= 2.0.4x or Microsoft IIS 6</li>
+	<li>Operating system: Any OS that supports the above software, including <a href="http://www.linux.org/" target="_blank">Linux</a>, <a href="http://www.bsd.org/" target="_blank">BSD</a>, <a href="http://www.oracle.com/sun/" target="_blank">Solaris</a>, <a href="http://www.apple.com/" target="_blank">Mac OS X</a>, <a href="http://www.microsoft.com/">Windows</a></li>
+</ul>
+
+<p>As PKP does not have the resources to test every possible combination of software versions and platforms, no guarantee of correct operation or support is implied.</p>
+
+<p>Changes to these settings can be made after installation by editing the file <tt>config.inc.php</tt> in the base OJS directory, or using the site administration web interface.</p>
+
+<h4>Supported database systems</h4>
+
+<p>OJS has currently only been tested on MySQL and PostgreSQL, although other database management systems supported by <a href="http://adodb.sourceforge.net/" target="_blank">ADOdb</a> may work (in full or partially). Compatibility reports and/or code patches for alternative DBMSs can be sent to the OJS team.</p>
+',
+        'installer.preInstallationInstructions' => '
+<h4>Pre-Installation Steps</h4>
+
+
+<p>1. The following files and directories (and their contents) must be made writable:</p>
+<ul>
+	<li><tt>config.inc.php</tt> is writable (optional): {$writable_config}</li>
+	<li><tt>public/</tt> is writable: {$writable_public}</li>
+	<li><tt>cache/</tt> is writable: {$writable_cache}</li>
+	<li><tt>cache/t_cache/</tt> is writable: {$writable_templates_cache}</li>
+	<li><tt>cache/t_compile/</tt> is writable: {$writable_templates_compile}</li>
+	<li><tt>cache/_db</tt> is writable: {$writable_db_cache}</li>
+</ul>
+
+<p>2. A directory to store uploaded files must be created and made writable (see "File Settings" below).</p>',
+        'installer.upgradeInstructions' => '<h4> OJS संस्करण {$ संस्करण} </ h4>
+
+<p> सार्वजनिक ज्ञान परियोजना के <strong> ओपन जर्नल सिस्टम </ strong> डाउनलोड करने के लिए धन्यवाद। आगे बढ़ने से पहले, कृपया <a href=" जटिलताओं$baseUrlarios/docs/README.md"> README </a> को पढ़ें और <a href="elines$baseUrlarios/docs/UPGRADE.md"> UPGPADE </ a > इस सॉफ्टवेयर के साथ शामिल फाइलें। लोक ज्ञान परियोजना और इसकी सॉफ्टवेयर परियोजनाओं के बारे में अधिक जानकारी के लिए, कृपया <a href="http://pkp.sfu.ca/" target="_blank"> PKP वेब साइट </a> पर जाएं। यदि आपके पास ओपन जर्नल सिस्टम के बारे में बग रिपोर्ट या तकनीकी सहायता संबंधी पूछताछ है, तो <a href="http://forum.pkp.sfu.ca" target="_blank"> सहायता फ़ोरम </a> देखें या PKP के ऑनलाइन पर जाएं < a href = "https://github.com/pkp/pkp-lib#issues" target = "_ blank"> बग रिपोर्टिंग सिस्टम </a>। यद्यपि समर्थन मंच संपर्क का पसंदीदा तरीका है, आप टीम को <a href="mailto:pkp.contact@gmail.com"> pkp.contact@gmail.com </a> </ p> पर भी ईमेल कर सकते हैं।
+<p> यह <strong> दृढ़ता से अनुशंसित </ strong> है कि आप आगे बढ़ने से पहले अपने डेटाबेस, फ़ाइलें निर्देशिका और OJS स्थापना निर्देशिका का बैकअप लें। </ p>
+<p> यदि आप <a href="http://www.php.net/features.safe-mode" target="_blank"> PHP सुरक्षित मोड </a> में चल रहे हैं, तो कृपया सुनिश्चित करें कि max_execution_time निर्देश में आपकी php.ini कॉन्फ़िगरेशन फ़ाइल एक उच्च सीमा पर सेट है। यदि यह या कोई अन्य समय सीमा (उदा। अपाचे का "टाइमआउट" निर्देश) पहुंच गया है और अपग्रेड प्रक्रिया बाधित है, तो मैनुअल हस्तक्षेप की आवश्यकता होगी। </ p>',
+        'installer.localeSettingsInstructions' => 'पूर्ण यूनिकोड (UTF-8) समर्थन के लिए, सभी वर्ण सेट सेटिंग्स के लिए UTF-8 का चयन करें। कृपया ध्यान दें कि पूर्ण यूनिकोड समर्थन के लिए PHP को <a href="http://www.php.net/mbstring" target="_blank"> mbstring </a> लाइब्रेरी के समर्थन के साथ संकलित करने की आवश्यकता है (अधिकांश में डिफ़ॉल्ट रूप से सक्षम) हाल ही में PHP स्थापना)। यदि आपका सर्वर इन आवश्यकताओं को पूरा नहीं करता है, तो आप विस्तारित वर्ण सेट का उपयोग कर समस्याओं का अनुभव कर सकते हैं।
+<br /> <br />
+आपका सर्वर वर्तमान में mbstring का समर्थन करता है: <strong> {$ supportMBString} </ strong>',
+        'installer.allowFileUploads' => 'आपका सर्वर वर्तमान में फ़ाइल अपलोड की अनुमति देता है: <strong> {$ allowFileUploads} </ strong>',
+        'installer.maxFileUploadSize' => 'आपका सर्वर वर्तमान में अधिकतम फ़ाइल अपलोड आकार की अनुमति देता है: <strong> {$ maxFileUploadSize} </ strong>',
+        'installer.localeInstructions' => 'इस प्रणाली के लिए उपयोग करने वाली प्राथमिक भाषा। यदि आप यहाँ सूचीबद्ध नहीं की गई भाषाओं के समर्थन में रुचि रखते हैं, तो कृपया OJS प्रलेखन से परामर्श करें।',
+        'installer.filesDirInstructions' => 'एक मौजूदा निर्देशिका में पूर्ण पथनाम दर्ज करें जहाँ अपलोड की गई फ़ाइलों को रखा जाना है। यह निर्देशिका सीधे वेब-सुलभ नहीं होनी चाहिए। <strong> कृपया सुनिश्चित करें कि यह निर्देशिका मौजूद है और स्थापना से पहले लिखने योग्य है। </ strong> विंडोज पथ के नामों को आगे के स्लैश का उपयोग करना चाहिए, उदा। "C:/myjournal/files".',
+        'installer.databaseSettingsInstructions' => 'OJS को अपने डेटा को संग्रहीत करने के लिए SQL डेटाबेस तक पहुँच की आवश्यकता होती है। समर्थित डेटाबेस की सूची के लिए ऊपर दी गई सिस्टम आवश्यकताएँ देखें। नीचे दिए गए फ़ील्ड में, डेटाबेस से कनेक्ट करने के लिए उपयोग की जाने वाली सेटिंग्स प्रदान करें।',
+        'installer.installApplication' => 'ओपन जर्नल सिस्टम स्थापित करें',
+        'installer.upgradeApplication' => 'ओपन जर्नल सिस्टम को अपग्रेड करें',
+        'installer.reinstallAfterDatabaseError' => '<strong> चेतावनी: </ strong> यदि डेटाबेस इंस्टॉलेशन के माध्यम से इंस्टॉलेशन विफल हो गया है, तो आपको डेटाबेस को फिर से स्थापित करने का प्रयास करने से पहले अपने ओजेएस डेटाबेस या डेटाबेस टेबल को छोड़ने की आवश्यकता हो सकती है।',
+        'installer.overwriteConfigFileInstructions' => '<H4> महत्वपूर्ण! </ H4>
+<p> इंस्टॉलर स्वतः कॉन्फ़िगरेशन फ़ाइल को अधिलेखित नहीं कर सकता है। सिस्टम का उपयोग करने का प्रयास करने से पहले, कृपया उपयुक्त टेक्स्ट एडिटर में <tt> config.inc.php </ tt> खोलें और इसकी सामग्री को नीचे दिए गए टेक्स्ट फ़ील्ड की सामग्री से बदलें। </ p>',
+        'installer.installationComplete' => '<p> OJS की स्थापना सफलतापूर्वक पूर्ण हो गई है। </ p>
+<p> सिस्टम का उपयोग शुरू करने के लिए, पिछले पृष्ठ पर दर्ज किए गए उपयोगकर्ता नाम और पासवर्ड के साथ <a href="lights$loginUrlarios"> लॉगिन </a> करें। </ p>
+<p> यदि आप PKP समुदाय का हिस्सा बनना चाहते हैं, तो आप: </ p> कर सकते हैं
+<Ol>
+	<li>Read the <a href=\'http://pkp.sfu.ca/blog\' target=\'_new\'>PKP blog</a> and follow the <a href=\'http://pkp.sfu.ca/blog/feed\' target=\'_new\'>RSS feed</a> समाचार और अपडेट के लिए </li>
+यदि आपके कोई प्रश्न या टिप्पणी हैं तो <a href="http://forum.pkp.sfu.ca" target="_new"> समर्थन मंच </a> पर जाएं। </ li>
+</ Ol>',
+        'installer.upgradeComplete' => '<p> OJS के संस्करण {$ संस्करण} का उन्नयन सफलतापूर्वक पूरा हो गया है। </ p>
+<p> अपने config.inc.php कॉन्फ़िगरेशन फ़ाइल में "स्थापित" सेटिंग को वापस <em> चालू / एम> </ p> पर सेट करना न भूलें।
+<p> यदि आपने पहले से पंजीकरण नहीं किया है और समाचार और अपडेट प्राप्त करना चाहते हैं, तो <strong> कृपया <a href="http://pkp.sfu.ca/ojs/register" target="_new"> http पर पंजीकरण करें : //pkp.sfu.ca/ojs/register </a> </ strong> यदि आपका कोई प्रश्न या टिप्पणी है, तो कृपया <a href = "http://forum.pkp.sfu.ca" लक्ष्य = पर जाएं। "_new"> समर्थन मंच </a>। </ p>',
+        'site.upgradeAvailable.admin' => 'OJS का एक नया संस्करण उपलब्ध है! आप वर्तमान में OJS {$ currentVersion} का उपयोग कर रहे हैं। सबसे हालिया संस्करण OJS {$ latestVersion} है। हाल के संस्करण को डाउनलोड करने और अपग्रेड निर्देश खोजने के लिए कृपया <a href="http://pkp.sfu.ca/ojs_download" target="_new"> इस पृष्ठ </a> पर जाएं।',
+        'site.upgradeAvailable.manager' => 'OJS का एक नया संस्करण उपलब्ध है! आप वर्तमान में OJS {$ currentVersion} का उपयोग कर रहे हैं। सबसे हालिया संस्करण OJS {$ latestVersion} है। इस नई रिलीज़ की सूचना देने के लिए कृपया अपने साइट एडमिनिस्ट्रेटर ({$ siteAdminName}, <a href="mailto:elling>siteAdminEmail?hl=hi </a>} {$ siteAdminEmail} </a> से संपर्क करें। अधिक जानकारी <a href="http://pkp.sfu.ca/ojs_download" target="_new"> यहां </a> देखी जा सकती है।',
+        'log.author.documentRevised' => '{$ authorName} ने लेख {$ submissionId} संशोधित किया है। नई फ़ाइल आईडी {$ fileId} है।',
+        'log.review.reviewerUnassigned' => '{$ reviewerName} समीक्षा दौर {$ round} के लिए समीक्षा प्रस्तुत करने {{submissionId}} से अप्रकाशित किया गया है।',
+        'log.review.reviewInitiated' => '{{$ submissionId} सबमिशन करने के लिए {$ reviewerName} द्वारा राउंड {$ round} की समीक्षा शुरू की गई है।',
+        'log.review.reviewerRated' => '{$reviewerName} को राउंड {$round} सबमिशन {$submissionId} की समीक्षा के लिए रेट किया गया है।',
+        'log.review.reviewDueDateSet' => '{$round} सबमिशन {$submissionId} की समीक्षा {$reviewerName} द्वारा {$dueDate} के लिए नियत तिथि निर्धारित की गई है।',
+        'log.review.reviewRecommendationSet' => '{$round} सबमिशन {$submissionId} की समीक्षा {$reviewerName} द्वारा की गई बैठक के लिए सिफारिश तय कर दी गई है।',
+        'log.review.reviewRecommendationSetByProxy' => 'राउंड {$round} समीक्षा प्रस्तुत करने की सिफारिश {$submissionId} को एडिटर, {$editorName}, समीक्षक की ओर से, {$reviewerName} सेट किया गया है।',
+        'log.review.resubmit' => 'सबमिशन {$submissionId} को समीक्षा के लिए पुन प्रस्तुत किया गया है।',
+        'log.review.reviewDeclined' => '{$ reviewerName} ने सबमिशन {$ submissionId} के लिए राउंड {$ round} रिव्यू को अस्वीकार कर दिया है।',
+        'log.review.reviewAccepted' => '{$reviewerName} ने {$submissionId} के लिए दौर {$round} समीक्षा को स्वीकार कर लिया है।',
+        'log.review.reviewDeclinedByProxy' => '{$userName} ने {$reviewerName} की ओर से {$submissionId} के लिए दौर {$round} समीक्षा को अस्वीकार कर दिया है।',
+        'log.review.reviewAcceptedByProxy' => '{$userName} ने {$reviewerName} की ओर से {$submissionId} की समीक्षा के लिए {$round} समीक्षा के दौर को स्वीकार कर लिया है।',
+        'log.review.reviewFileByProxy' => 'संपादक, {$userName}, ने समीक्षक {$reviewerName} की ओर से {$submissionId} के राउंड {$round} के लिए एक समीक्षा फ़ाइल अपलोड की है।',
+        'log.review.reviewerFile' => 'एक समीक्षक फ़ाइल अपलोड की गई है।',
+        'log.editor.decision' => 'लेख {$submissionId} के लिए एक संपादक निर्णय ({$decision}) {$editorName} द्वारा दर्ज किया गया था।',
+        'log.editor.recommendation' => 'लेख {$ submissionId} के लिए एक संपादक की सिफारिश ({$ decision}) {$ EditorName} द्वारा दर्ज की गई थी।',
+        'log.copyedit.initiate' => '{$ submissionId} पर सबमिशन करने की प्रतिलिपि {$ copyeditorName} द्वारा शुरू की गई है।',
+        'log.copyedit.copyeditFileSet' => 'डिफ़ॉल्ट प्रतिलिपि फ़ाइल को चुना गया है।',
+        'log.copyedit.initialEditComplete' => '{$ copyeditorName} ने सबमिशन की प्रारंभिक प्रतिलिपि तैयार कर ली है {$ submissionId}।',
+        'log.copyedit.finalEditComplete' => '{$copyeditorName} ने सबमिशन {$submissionId} की फाइनल प्रतिलिपि संपादित कर ली है।',
+        'log.copyedit.copyeditorAssigned' => 'अनुकृति संपादक {$copyeditorName} को संपादन के लिए {$submissionId} सौंपा गया है।',
+        'log.copyedit.copyeditorFile' => 'सबमिशन फ़ाइल का एक प्रतिलिपि संस्करण अपलोड किया गया है।',
+        'log.copyedit.authorFile' => 'लेखक द्वारा प्रतिलिपि संपादित की गई सबमिशन फ़ाइल का एक संस्करण अपलोड किया गया है।',
+        'log.layout.layoutEditorAssigned' => '{$ editorName} को सबमिशन {$ submissionId} लेआउट संपादक के रूप में सौंपा गया है।',
+        'log.layout.layoutEditorUnassigned' => '{$ editorName} को सबमिशन {$ submissionId} लेआउट संपादक के रूप में निर्दिष्ट नहीं किया गया है।',
+        'log.layout.layoutEditComplete' => '{$editorName} सबमिशन {$submissionId} करने के लिए लेआउट संपादन पूरा कर लिया है।',
+        'log.editor.metadataModified' => 'इस लेख के मेटाडेटा को {$ editorName} द्वारा संशोधित किया गया था।',
+        'log.editor.editorFile' => 'सबमिशन फ़ाइल का एक संपादक संस्करण अपलोड किया गया है।',
+        'log.editor.archived' => 'सबमिशन {$ submissionId} को संग्रहीत किया गया है।',
+        'log.editor.restored' => 'प्रस्तुत लेख को  {$submissionId} कतार में बहाल किया गया है।',
+        'log.editor.editorAssigned' => '{$ EditorName} को सबमिशन करने के लिए {$ submissionId} संपादक के रूप में सौंपा गया है।',
+        'log.proofread.assign' => '{$ assignerName} ने {$ proofreaderName} को प्रूफ़रीड सबमिशन {$ submissionId} करने के लिए असाइन किया है।',
+        'log.proofread.complete' => '{$proofreaderName} शेड्यूलिंग के लिए {$submissionId} जमा किया है।',
+        'log.imported' => '{$userName} ने लेख {$submissionId} आयात किया है।',
+        'metadata.pkp.peerReviewed' => 'सहकर्मी-समीक्षा लेख',
+        'notification.type.editing' => 'संपादन कार्यक्रम',
+        'notification.type.submissionSubmitted' => 'एक नया लेख, "{$ title}" प्रस्तुत किया गया है।',
+        'notification.type.editorDecisionComment' => '"{$ title}" के लिए संपादक के निर्णय पर एक टिप्पणी छोड़ दी गई है।',
+        'notification.type.galleyModified' => '"{$ title}" के लिए एक गैली को संशोधित किया गया है।',
+        'notification.type.issuePublished' => 'एक अंक प्रकाशित किया गया है।',
+        'notification.type.newAnnouncement' => 'एक नई घोषणा की गई है।',
+        'notification.type.reviewerFormComment' => '"{$ title}" के लिए एक समीक्षा फ़ॉर्म समीक्षा प्रस्तुत की गई है।',
+        'notification.type.reviewing' => 'आयोजन की समीक्षा करना',
+        'notification.type.site' => 'साइट आयोजन',
+        'notification.type.submissionComment' => 'एक संपादक ने "{$ title}" पर एक टिप्पणी की है।',
+        'notification.type.submissions' => 'सबमिशन आयोजन',
+        'notification.type.userComment' => 'एक पाठक ने "{$ title}" पर एक टिप्पणी की है',
+        'notification.type.public' => 'सार्वजनिक घोषणाएँ',
+        'notification.savedIssueMetadata' => 'अंक प्रकाशन मेटाडेटा सहेजा गया।',
+        'notification.type.editorAssignmentTask' => 'एक नया लेख प्रस्तुत किया गया है जिसमें एक संपादक को सौंपा जाना चाहिए।',
+        'notification.type.assignProductionUser' => 'प्रतिभागियों की सूची में असाइन लिंक का उपयोग करके एक उपयोगकर्ता को गैलिस बनाने के लिए असाइन करें।',
+        'notification.type.awaitingRepresentations' => 'गैलिस का इंतजार।',
+        'user.authorization.copyeditorAssignmentMissing' => 'पहुंच अस्वीकृत! आपको इस लेख में प्रतिलिपि संपादक के रूप में असाइन नहीं किया गया है।',
+        'user.authorization.noContext' => 'संदर्भ में कोई जर्नल नहीं!',
+        'user.authorization.sectionAssignment' => 'आप एक लेख का उपयोग करने की कोशिश कर रहे हैं जो आपके अनुभाग का हिस्सा नहीं है।',
+        'user.authorization.invalidIssue' => 'अनुरोधित अवैध अंक!',
+        'user.authorization.invalidCopyditorSubmission' => 'अमान्य प्रतिलिपि संपादक सबमिशन या कोई प्रतिलिपि संपादक सबमिशन करने का अनुरोध नहीं किया गया है!',
+        'grid.action.createContext' => 'एक नया जर्नल बनाएँ',
+        'editor.navigation.issues' => 'अंक',
+        'notification.type.approveSubmission' => 'यह सबमिशन जारी होने से पहले इस अंक में मंजूरी का इंतजार कर रहा है।',
+        'notification.type.approveSubmissionTitle' => 'अनुमोदन का इंतजार।',
+        'user.profile.form.showOtherContexts' => 'अन्य जर्नल्स के साथ रजिस्टर करें',
+        'user.profile.form.hideOtherContexts' => 'अन्य जर्नल्स को छिपाएं',
+        'article.view.interstitial' => 'कृपया डाउनलोड करने के लिए एक लेख फ़ाइल चुनें।',
+        'grid.catalogEntry.availableRepresentation.approved' => 'स्वीकृत',
+        'grid.catalogEntry.availableRepresentation.notApproved' => 'अनुमोदन का इंतजार।',
+        'grid.catalogEntry.approvedRepresentation.title' => 'गैली अनुमोदन',
+        'grid.catalogEntry.approvedRepresentation.message' => '<p> प्रकाशन के लिए इस गैली को स्वीकृत करें। </ p>',
+        'grid.catalogEntry.approvedRepresentation.removeMessage' => '<p> इस गैली का अनुमोदन हटाएँ। </ p>',
+        'search.cli.rebuildIndex.indexing' => 'अनुक्रमण "{$ journalName}"',
+        'search.cli.rebuildIndex.indexingByJournalNotSupported' => 'यह खोज कार्यान्वयन प्रति-पत्रिका पुन: अनुक्रमण की अनुमति नहीं देता है।',
+        'search.cli.rebuildIndex.unknownJournal' => 'दिए गए जर्नल पथ "{$ journalPath}" को किसी जर्नल से हल नहीं किया जा सकता है।',
+        'editor.issues.backIssues' => 'पिछले अंक',
+        'editor.issues.futureIssues' => 'भविष्य के अंक',
+        'navigation.subscriptions' => 'सदस्यता',
+        'log.editor.submissionExpedited' => '{$ editorName} ने लेख के लिए संपादन प्रक्रिया ली है {$ submissionId}।',
+        'catalog.sortBy' => 'लेखों का क्रम',
+        'catalog.sortBy.categoryDescription' => 'इस श्रेणी में लेख क्रम करने का तरीका चुनें।',
+        'editor.home' => 'संपादक का घर',
+        'editor.submissionsAndPublishing' => 'सबमिशन्स और प्रकाशन',
+        'editor.submissionQueue' => 'सबमिशन पंक्ति',
+        'editor.submissionArchive' => 'सबमिशन पुरालेख',
+        'editor.publishing' => 'प्रकाशन',
+        'editor.publishedIssues' => 'प्रकाशित अंक',
+        'editor.allSections' => 'सभी वर्गों',
+        'editor.allEditors' => 'सभी संपादकों',
+        'editor.me' => 'मुझे',
+        'editor.publicIdentificationExists' => 'सार्वजनिक पहचानकर्ता \'{$ publicIdentifier}\' किसी अन्य ऑब्जेक्ट (अंक, आलेख, गैली या फ़ाइल) के लिए पहले से मौजूद है। कृपया अपनी जर्नल के भीतर विशिष्ट पहचानकर्ता चुनें।',
+        'editor.submissionArchive.noSubmissions' => 'पुरालेख में कोई सबमिशन नहीं।',
+        'editor.submissionArchive.saveChanges' => 'संग्रहीत प्रस्तुतियाँ में परिवर्तन सहेजें? विलोपन के लिए चिह्नित सबमिशन को सिस्टम से स्थायी रूप से हटा दिया जाएगा।',
+        'editor.submissionReview.confirmDecision' => 'क्या आप वाकई इस निर्णय को रिकॉर्ड करना चाहते हैं?',
+        'editor.submissionReview.emailWillArchive' => 'नोटिफ़ाइ लेखक के ईमेल भेजने के बाद या उसके स्किप ईमेल बटन को दबाए जाने के बाद यह सबमिशन संग्रहीत किया जाएगा।',
+        'editor.submissionReview.cannotSendToCopyediting' => 'प्रतिलिपि संपादित करने के लिए सबमिशन भेजने से पहले, निर्णय के लेखक को सूचित करने के लिए सूचित करें लिंक का उपयोग करें और भेजे जाने वाले संस्करण का चयन करें।',
+        'editor.notifyUsers' => 'उपयोगकर्ताओं को सूचित करें',
+        'editor.notifyUsers.allReaders' => 'सभी पाठक ({$count} उपयोगकर्ता)',
+        'editor.notifyUsers.allAuthors' => 'सभी प्रकाशित लेखक ({$ count} उपयोगकर्ता)',
+        'editor.notifyUsers.allIndividualSubscribers' => 'सभी व्यक्तिगत ग्राहक ({$count} उपयोगकर्ता)',
+        'editor.notifyUsers.allInstitutionalSubscribers' => 'सभी संस्थागत ग्राहक ({$count} उपयोगकर्ता)',
+        'editor.notifyUsers.inProgress' => 'उपयोगकर्ताओं को सूचित किया जा रहा है ...',
+        'editor.usersNotified' => 'उपयोगकर्ताओं को सूचित किया',
+        'editor.notifyUsers.allUsers' => 'इस जर्नल से जुड़े सभी उपयोगकर्ताओं को यह संदेश भेजें ({$ count} उपयोगकर्ता)',
+        'editor.notifyUsers.interestedUsers' => 'इस जर्नल से जुड़े उपयोगकर्ताओं को यह संदेश भेजें जिन्होंने संकेत दिया है कि वे अपडेट प्राप्त करना चाहते हैं ({$ count} उपयोगकर्ता)',
+        'editor.notifyUsers.includeToc' => 'अंक से सामग्री की तालिका को शामिल करें:',
+        'editor.editorAdministration' => 'संपादक प्रशासन',
+        'editor.issues.createIssue' => 'अंक बनाएँ',
+        'editor.issues.editIssue' => 'अंक प्रबंधन: {$issueIdentification}',
+        'editor.issues.currentIssue' => 'वर्तमान अंक',
+        'editor.issues.numArticles' => 'आइटम',
+        'editor.issues.noArticles' => 'कोई आइटम वर्तमान में इस अंक के लिए निर्धारित नहीं हैं।',
+        'editor.issues.confirmDelete' => 'क्या आप वाकई इस अंक को स्थायी रूप से हटाना चाहते हैं?',
+        'editor.issues.published' => 'प्रकाशित',
+        'editor.issues.unpublished' => 'अप्रकाशित',
+        'editor.issues.datePublished' => 'प्रकाशित तिथि',
+        'editor.issues.volumeRequired' => 'वॉल्यूम आवश्यक है और एक सकारात्मक, संख्यात्मक मान होना चाहिए।',
+        'editor.issues.numberRequired' => 'संख्या की आवश्यकता है और एक सकारात्मक, संख्यात्मक मान होना चाहिए।',
+        'editor.issues.yearRequired' => 'वर्ष की आवश्यकता है और एक सकारात्मक, संख्यात्मक मान होना चाहिए।',
+        'editor.issues.titleRequired' => 'अंक के लिए शीर्षक आवश्यक है।',
+        'editor.issues.issueIdentificationRequired' => 'अंक पहचान आवश्यक है। कृपया कम से कम अंक पहचान विकल्पों में से एक का चयन करें।',
+        'editor.issues.issueIdentification' => 'अंक जारी करें',
+        'editor.issues.publicIssueIdentifier' => 'सार्वजनिक अंक पहचानकर्ता',
+        'editor.issues.description' => 'विवरण',
+        'editor.issues.accessStatus' => 'पहुंच की स्थिति',
+        'editor.issues.accessDate' => 'ओपन एक्सेस तिथि',
+        'editor.issues.enableOpenAccessDate' => 'विलंबित ओपन एक्सेस सक्षम करें',
+        'editor.issues.coverPage' => 'आवरण छवि',
+        'editor.issues.coverPageInstructions' => '(अनुमत प्रारूप: .gif, .jpg, या .png)',
+        'editor.issues.uploaded' => 'अपलोड किए गए',
+        'editor.issues.remove' => 'हटाना',
+        'editor.issues.proofed' => 'प्रूफ',
+        'editor.issues.removeCoverPage' => 'आवरण पृष्ठ छवि निकालें?',
+        'editor.issues.removeCoverImageFileNameMismatch' => 'आपने जिस आवरण छवि को हटाने का अनुरोध किया था, वह इस अंक के लिए आवरण छवि से मेल नहीं खाती थी। कृपया पेज लोड करें और पुन: प्रयास करें।',
+        'editor.issues.removeCoverImageFileNotFound' => 'आपके द्वारा हटाने का अनुरोध किया गया आवरण छवि नहीं मिल सका है, हो सकता है कि इसे पहले ही हटा दिया जा चुका हो। पृष्ठ को फिर से लोड करने का प्रयास करें।',
+        'editor.issues.invalidCoverImageFormat' => 'अमान्य आवरण पृष्ठ प्रारूप। स्वीकृत प्रारूप हैं .gif, .jpg, या .png।',
+        'editor.issues.styleFile' => 'स्टाइलशीट',
+        'editor.issues.invalidStyleFormat' => 'अमान्य स्टाइलशीट प्रारूप। सुनिश्चित करें कि प्रस्तुत फ़ाइल एक वैध सीएसएस है। (ध्यान दें कि शुरुआत में टिप्पणियों के साथ स्टाइलशीट को अस्वीकार कर दिया जा सकता है।)',
+        'editor.issues.removeStyleFile' => 'स्टाइलशीट निकालें?',
+        'editor.issues.coverPageCaption' => 'शीर्षक आवरण',
+        'editor.issues.showCoverPage' => 'निम्नलिखित तत्वों के साथ इस अंक के लिए एक आवरण बनाएँ।',
+        'editor.issues.coverPageDisplay' => 'प्रदर्शन',
+        'editor.issues.openAccess' => 'ओपन एक्सेस',
+        'editor.issues.subscription' => 'अंशदान',
+        'editor.issues.identification' => 'पहचान',
+        'editor.issues.access' => 'पहुंच',
+        'editor.issues.cover' => 'आवरण',
+        'editor.issues.confirmIssueDelete' => 'सभी लेख संपादन कतार में वापस आ जाएंगे और सभी संबद्ध फाइलें स्थायी रूप से हटा दी जाएंगी। क्या आप वाकई इस अंक को दूर करना चाहते हैं?',
+        'editor.issues.resetIssueOrder' => 'यह जर्नल कस्टम अंक ऑर्डरिंग का उपयोग करती है।<a href="{$url}" class="action">डिफ़ॉल्ट पर पुनः सेट करें</a>',
+        'editor.issues.resetSectionOrder' => 'यह अंक कस्टम अनुभाग ऑर्डरिंग का उपयोग करती है।<a href="{$url}" class="action">डिफ़ॉल्ट पर पुनः सेट करें</a>',
+        'editor.issues.issueData' => 'अंक डेटा',
+        'editor.issues.saveChanges' => 'सामग्री की तालिका में परिवर्तन सहेजें?',
+        'editor.issues.default' => 'डिफ़ॉल्ट',
+        'editor.issues.order' => 'क्रम',
+        'editor.issues.publicId' => 'सार्वजनिक आईडी',
+        'editor.issues.publishIssue' => 'प्रकाशित अंक',
+        'editor.issues.unpublishIssue' => 'अप्रकाशित अंक',
+        'editor.issues.previewIssue' => 'पूर्वावलोकन अंक',
+        'editor.issues.preview' => 'पूर्वावलोकन',
+        'editor.issues.confirmPublish' => 'क्या आप वाकई नया अंक प्रकाशित करना चाहते हैं?',
+        'editor.issues.confirmUnpublish' => 'क्या आप वाकई इस प्रकाशित अंक को अप्रकाशित करना चाहते हैं?',
+        'editor.issues.confirmSetCurrentIssue' => 'क्या आप वाकई इस अंक को वर्तमान के रूप में सेट करना चाहते हैं?',
+        'editor.issues.publicArticleIdExists' => 'लेख के लिए सार्वजनिक आईडी सहेजने में असमर्थ:',
+        'editor.issues.noLiveIssues' => 'कोई लाइव अंक नहीं',
+        'editor.issues.open' => 'खुला हुआ',
+        'editor.issues.pages' => 'पृष्ठ',
+        'editor.issues.galleys' => 'अंक गैलिस',
+        'editor.issues.galley' => 'अंक गैली',
+        'editor.issues.viewingGalley' => 'अंक गैली देखना',
+        'editor.issues.issueGalleysDescription' => 'संपूर्ण अंक सामग्री के साथ गैली प्रकाशित करें।',
+        'editor.issues.noneIssueGalleys' => 'कोई भी अंक गैली प्रकाशित नहीं की गई है।',
+        'editor.issues.galleyLabelRequired' => 'एक अंक गैली लेबल की आवश्यकता है।',
+        'editor.issues.galleyLocaleRequired' => 'एक अंक गैली लोकेल की आवश्यकता है।',
+        'editor.issues.galleyPublicIdentificationExists' => 'सार्वजनिक अंक गैली पहचान पहले से मौजूद है।',
+        'editor.issues.backToIssueGalleys' => 'अंक गैलिस के लिए वापस',
+        'editor.issues.confirmDeleteGalley' => 'क्या आप वाकई इस अंक गैली को हटाना चाहते हैं?',
+        'editor.issues.identifiers' => 'पहचानकर्ता',
+        'editor.navigation.futureIssues' => 'भविष्य के अंक',
+        'grid.action.addGalley' => 'गैली जोड़ें',
+        'grid.action.publish' => 'प्रकाशित अंक',
+        'grid.action.addIssue' => 'अंक बनाएँ',
+        'grid.action.viewIssue' => 'अवलोकन करना',
+        'grid.action.previewIssue' => 'पूर्वावलोकन',
+        'grid.action.addIssueGalley' => 'अंक गैली बनाएँ',
+        'grid.action.setCurrentIssue' => 'वर्तमान अंक सेट करें',
+        'editor.navigation.issueArchive' => 'पिछले अंक',
+        'editor.article.designateReviewVersion' => 'मूल फ़ाइल को समीक्षा संस्करण के रूप में नामित करें',
+        'editor.article.decision' => 'निर्णय',
+        'editor.submissions.showBy' => 'करके दिखाओ',
+        'editor.submissions.submitMMDD' => 'MM-DD सबमिट करें',
+        'editor.submissions.activeAssignments' => 'सक्रिय असाइनमेंट',
+        'editor.submissions.invite' => 'आमंत्रण',
+        'editor.submissions.accept' => 'स्वीकार करना',
+        'editor.submissions.noSubmissions' => 'कोई सबमिशन नहीं',
+        'editor.submissions.lastAssigned' => 'नवीनतम',
+        'editor.submissions.averageTime' => 'सप्ताह',
+        'editor.submissions.lastCompleted' => 'अंतिम पूर्ण',
+        'editor.submissions.assignedTo' => 'को सौंपना',
+        'issues.submissions.issueIds' => 'अंक को सौंपे',
+        'editor.submissions.inSection' => 'अनुभाग में',
+        'editor.article.showPublicationVersion' => 'अनुसूचित प्रकाशन दिखाएं',
+        'editor.article.publishVersion' => 'संस्करण प्रकाशित करें',
+        'editor.article.viewMetadata' => 'संस्करण मेटाडेटा देखें',
+        'editor.article.editMetadata' => 'संस्करण मेटाडेटा संपादित करें',
+        'editor.article.scheduleForPublication' => 'में प्रकाशन के लिए अनुसूची',
+        'editor.article.scheduleForPublication.toBeAssigned' => 'एसाइन्ड किए जाने को',
+        'editor.article.payment.publicationFeeNotPaid' => 'प्रकाशन शुल्क का भुगतान नहीं किया गया। प्रकाशन के लिए आइटम अनुसूची करने के लिए शुल्क या छूट शुल्क का भुगतान करने के लिए लेखक को सूचित करें।',
+        'editor.article.removeCoverImageFileNotFound' => 'आपके द्वारा हटाने का अनुरोध किया गया आवरण छवि नहीं मिल सका है, हो सकता है कि इसे पहले ही हटा दिया जा चुका हो। पृष्ठ को फिर से लोड करने का प्रयास करें।',
+        'grid.action.removeArticle' => 'अंक से अनुच्छेद निकालें',
+        'editor.article.remove' => 'हटाना',
+        'editor.article.remove.confirm' => 'क्या आप वाकई इस लेख को अंक से निकालना चाहते हैं? आलेख किसी अन्य अंक में शेड्यूल करने के लिए उपलब्ध होगा।',
+        'editor.issues.invalidAccessDate' => 'अभिगमन तिथि मान्य नहीं है।',
+        'editor.issues.editIssueGalley' => 'अंक गैली संपादित करें',
+        'editor.submission.production.productionReadyFilesDescription' => 'लेआउट संपादक प्रत्येक गैली के लिए इन फाइलों को तैयार करता है और फिर प्रूफरीडिंग के लिए उपयुक्त <span class="pkp_help_title">Proofs</span> पर अपलोड करता है।',
+        'editor.submission.selectGalleyFiles' => 'गैली फाइलें चुनें',
+        'editor.submission.editorial.finalDraftDescription' => 'इस सूची की अंतिम ड्राफ्ट फाइलें अनुकृति संपादक द्वारा कॉपी किए गए संस्करणों में तब्दील हो जाती हैं, जिसे नीचे <span class="pkp_help_title">Copyediting</span> के तहत अपलोड किया जाता है।',
+        'editor.submission.proof.manageProofFilesDescription' => 'जो भी फाइलें पहले से ही किसी भी सबमिशन स्टेज पर अपलोड की गई हैं, उन्हें नीचे दिए गए चेकबॉक्स को चेक करके और खोज पर क्लिक करके प्रूफ़रीडिंग लिस्टिंग में जोड़ा जा सकता है: सभी उपलब्ध फ़ाइलों को सूचीबद्ध किया जाएगा और उन्हें शामिल किए जाने के लिए चुना जा सकता है।',
+        'editor.publicIdentificationExistsForTheSameType' => 'सार्वजनिक पहचानकर्ता \'{$ publicIdentifier}\' पहले से ही उसी प्रकार की किसी अन्य वस्तु के लिए मौजूद है। कृपया अपनी जर्नल में उसी प्रकार की वस्तुओं के लिए विशिष्ट पहचानकर्ता चुनें।',
+        'editor.article.coverImage' => 'आवरण छवि',
+        'manager.distribution.access' => 'एक्सेस',
+        'manager.distribution.copyrightYearBasis.description' => 'चुनें कि किसी लेख के लिए डिफ़ॉल्ट कॉपीराइट तिथि का चयन कैसे किया जाता है। यह डिफ़ॉल्ट केस-दर-मामला आधार पर अभिभूत किया जा सकता है। यदि आप \'जैसे-जैसे आप जाते हैं\' प्रकाशित करते हैं, तो अंक की प्रकाशन तिथि का उपयोग न करें।',
+        'manager.distribution.copyrightYearBasis.issue' => 'अंक की प्रकाशन तिथि का उपयोग करें',
+        'manager.distribution.copyrightYearBasis.submission' => 'लेख की प्रकाशन तिथि का उपयोग करें',
+        'manager.distribution.publication' => 'प्रकाशन',
+        'manager.distribution.publishingMode' => 'प्रकाशन मोड',
+        'manager.distribution.publishingMode.none' => 'ओजेएस का उपयोग जर्नल की सामग्री को ऑनलाइन प्रकाशित करने के लिए नहीं किया जाएगा.',
+        'manager.distribution.publishingMode.openAccess' => 'जर्नल अपनी सामग्री के लिए ओपन एक्सेस प्रदान करेगी।',
+        'manager.distribution.publishingMode.subscription' => 'जर्नल को इसके कुछ या सभी सामग्रियों तक पहुंचने के लिए सदस्यता की आवश्यकता होगी ।',
+        'manager.website.archiving' => 'संग्रह',
+        'manager.files.note' => 'सूचना:  फाइल ब्राउज़र एक उन्नत सुविधा है जो किसी जर्नल से जुड़ी फाइलों और निर्देशिकाओं को सीधे देखने और हेरफेर करने की अनुमति देता है।',
+        'manager.journalManagement' => 'जर्नल प्रबंधन',
+        'manager.language.ui' => 'UI',
+        'manager.language.submissions' => 'सबमिशन्स',
+        'manager.language.forms' => 'फार्म',
+        'manager.language.confirmDefaultSettingsOverwrite' => 'यह इस लोकेल के लिए आपके द्वारा ली गई किसी भी स्थानीय-विशिष्ट जर्नल सेटिंग को बदल देगा',
+        'manager.languages.languageInstructions' => 'OJS को कई समर्थित भाषाओं में उपयोगकर्ताओं के लिए उपलब्ध कराया जा सकता है। साथ ही, OJS एक बहुभाषी प्रणाली के रूप में काम कर सकता है, जो उपयोगकर्ताओं को प्रत्येक पृष्ठ पर भाषाओं के बीच टॉगल करने की क्षमता प्रदान करता है, और कुछ डेटा को कई अतिरिक्त भाषाओं में दर्ज करने की अनुमति देता है। <br /> <br/> यदि कोई भाषा OJS द्वारा समर्थित है। नीचे सूचीबद्ध नहीं है, साइट व्यवस्थापक इंटरफ़ेस से भाषा स्थापित करने के लिए अपने साइट व्यवस्थापक से पूछें। नई भाषाओं के लिए समर्थन जोड़ने के निर्देशों के लिए, कृपया OJS प्रलेखन से परामर्श करें।',
+        'manager.languages.noneAvailable' => 'क्षमा करें, कोई अतिरिक्त भाषा उपलब्ध नहीं है। यदि आप इस जर्नल के साथ अतिरिक्त भाषाओं का उपयोग करना चाहते हैं, तो अपने साइट व्यवस्थापक से संपर्क करें।',
+        'manager.languages.primaryLocaleInstructions' => 'यह जर्नल साइट के लिए डिफ़ॉल्ट भाषा होगी।',
+        'manager.managementPages' => 'प्रबंधन पृष्ठ',
+        'manager.payment.action' => 'कार्य',
+        'manager.payment.addPayment' => 'भुगतान जोड़ें',
+        'manager.payment.amount' => 'राशि',
+        'manager.payment.authorFees' => 'लेखक शुल्क',
+        'manager.payment.authorFeesDescription' => 'लेखक प्रोसेसिंग शुल्क सक्षम करने के लिए नीचे शुल्क राशि दर्ज करें।',
+        'manager.payment.currencymessage' => 'OJS कोई मुद्रा रूपांतरण नहीं करता है। यदि सदस्यता के लिए भुगतान स्वीकार करते हैं, तो आपको यह सुनिश्चित करना चाहिए कि सदस्यता मुद्रा यहां निर्दिष्ट एक से मेल खाती है।',
+        'manager.payment.description' => 'विवरण',
+        'manager.payment.details' => 'वर्णन',
+        'manager.payment.editSubscription' => 'सदस्यता संपादित करें',
+        'manager.payment.enable' => 'सक्षम करें',
+        'manager.payment.feePaymentOptions' => 'शुल्क भुगतान के विकल्प',
+        'manager.payment.form.numeric' => 'सभी लागतों को सकारात्मक संख्यात्मक मान होना चाहिए (दशमलव अंक की अनुमति है)',
+        'manager.payment.generalFees' => 'सामान्य शुल्क',
+        'manager.payment.generalFeesDescription' => 'एसोसिएशन सदस्यता नीतियों के तहत जर्नल के बारे में दिखाई देगा, और दान लिंक दाहिने हाथ के फ्रेम में खोज कार्य के ऊपर दिखाई देगा।',
+        'manager.payment.generalOptions' => 'सामान्य विकल्प',
+        'manager.payment.noPayments' => 'कोई भुगतान नहीं',
+        'manager.payment.notFound' => 'नहीं मिला',
+        'manager.payment.options' => 'विकल्प',
+        'manager.payment.options.acceptSubscriptionPayments' => 'यह सदस्यता के लिए भुगतानों को सक्रिय करेगा, जहाँ प्रकार, लागत, अवधि और सदस्यता जर्नल (सदस्यता) प्रबंधक द्वारा प्रबंधित किए जाते हैं।',
+        'subscriptionManager.subscription.confirmRemove' => 'क्या आप वाकई इस सदस्यता को हटाना चाहते हैं?',
+        'manager.payment.options.enablePayments' => 'इस जर्नल के लिए भुगतान सक्षम हो जाएंगे। ध्यान दें कि भुगतान करने के लिए उपयोगकर्ताओं को लॉग इन करना आवश्यक होगा।',
+        'manager.payment.options.fee' => 'शुल्क',
+        'manager.payment.options.feeDescription' => 'शुल्क विवरण',
+        'manager.payment.options.feeName' => 'शुल्क का नाम',
+        'manager.payment.options.membershipFee' => 'संस्था की सदस्यता',
+        'manager.payment.options.onlypdf' => 'केवल अंक और आलेखों के पीडीएफ संस्करण तक पहुंच को प्रतिबंधित करें',
+        'manager.payment.options.publicationFee' => 'आलेख प्रसंस्करण शुल्क',
+        'manager.payment.options.purchaseArticleFee' => 'खरीद लेख',
+        'manager.payment.options.purchaseIssueFee' => 'खरीद अंक ',
+        'manager.payment.options.text' => 'भुगतान विधि का विवरण',
+        'manager.payment.paymentId' => 'भुगतान आईडी',
+        'manager.payment.paymentMethod' => 'भुगतान का तरीका',
+        'manager.payment.paymentMethod.description' => 'आप इस स्क्रीन से निम्न भुगतान विधि प्लगइन्स में से कोई भी कॉन्फ़िगर कर सकते हैं।',
+        'manager.payment.paymentMethods' => 'शुल्क भुगतान के तरीके',
+        'manager.payment.paymentType' => 'भुगतान के प्रकार',
+        'manager.payment.readerFees' => 'पाठक शुल्क',
+        'manager.payment.readerFeesDescription' => 'चयनित विकल्प, उनके विवरण और शुल्क (जो नीचे संपादित किए जा सकते हैं) के साथ,  जर्नल के बारे में नीतियों के तहत दिखाई देंगे, साथ ही उन बिंदुओं पर भी जहां भुगतान आवश्यक है।',
+        'manager.payment.records' => 'रेकार्ड',
+        'manager.paymentTypes' => 'भुगतान प्रकार',
+        'manager.payment.userName' => 'भुगतान आईडी',
+        'manager.people.allEnrolledUsers' => 'उपयोगकर्ताओं को इस जर्नल में नामांकित किया',
+        'manager.people.allJournals' => 'सभी जर्नल्स',
+        'manager.people.allSiteUsers' => 'इस जर्नल में इस साइट से एक उपयोगकर्ता नामांकित करें',
+        'manager.people.showNoRole' => 'उपयोगकर्ताओं को बिना किसी भूमिका के दिखाएं',
+        'manager.people.allUsers' => 'सभी नामांकित उपयोगकर्ता',
+        'manager.people.confirmRemove' => 'इस उपयोगकर्ता को इस जर्नल से निकालें? यह क्रिया उपयोगकर्ता को इस जर्नल के भीतर सभी भूमिकाओं से हटा देगी।',
+        'manager.people.emailUsers.selectTemplate' => 'एक टेम्पलेट का चयन करें',
+        'manager.people.enrollExistingUser' => 'मौजूदा उपयोगकर्ता का नामांकन करें',
+        'manager.people.enrollSyncJournal' => 'जर्नल के साथ',
+        'manager.people.mergeUsers.from.description' => 'किसी अन्य उपयोगकर्ता खाते में विलय करने के लिए एक उपयोगकर्ता (या कई) का चयन करें (जैसे, जब किसी के पास दो उपयोगकर्ता खाते हों)। पहले चुने गए खाते (खातों) को हटा दिया जाएगा और किसी भी प्रस्तुतियाँ, असाइनमेंट आदि को दूसरे खाते के लिए जिम्मेदार ठहराया जाएगा।',
+        'manager.people.mergeUsers.into.description' => 'एक उपयोगकर्ता का चयन करें, जिसे पिछले उपयोगकर्ताओं के प्राधिकरण, संपादन असाइनमेंट आदि का श्रेय दिया जाता है।',
+        'manager.people.roleEnrollment' => '{$role} नामांकन',
+        'manager.people.syncUserDescription' => 'नामांकन सिंक्रनाइज़ेशन निर्दिष्ट जर्नल में निर्दिष्ट सभी उपयोगकर्ताओं को इस जर्नल में एक ही भूमिका में नामांकित करेगा। यह फ़ंक्शन उपयोगकर्ताओं (जैसे, समीक्षक) के एक सामान्य समूह को जर्नल्स के बीच सिंक्रनाइज़ करने की अनुमति देता है।',
+        'manager.sections.abstractsNotRequired' => 'सार की आवश्यकता नहीं है',
+        'manager.sections.assigned' => 'इस अनुभाग के संपादक',
+        'manager.sections.confirmDelete' => 'क्या आप वाकई इस अनुभाग को स्थायी रूप से हटाना चाहते हैं??',
+        'manager.sections.alertDelete' => 'इस खंड को हटाए जाने से पहले, आपको इसके भीतर प्रकाशित लेखों को अन्य अनुभागों में स्थानांतरित करना होगा।',
+        'manager.sections.create' => 'अनुभाग बनाएँ',
+        'manager.section.sectionEditorInstructions' => 'इस अनुभाग में एक अनुभाग संपादक जोड़ें, सबमिशन्स स्वचालित रूप से अनुभाग संपादक को सौंपी गई हैं। (अन्यथा, प्रस्तुत करने के बाद अनुभाग संपादकों को मैन्युअल रूप से सौंपा जा सकता है।) यदि जोड़ा जाता है, तो एक खंड संपादक स्वचालित रूप से सबमिशन्स की समीक्षा (सहकर्मी समीक्षा) और / या संपादन (नकल, लेआउट और प्रूफरीडिंग) की देखरेख करने के लिए सौंपा जा सकता है। यह अनुभाग जर्नल प्रबंधन में भूमिकाओं के तहत सेक्शन एडिटर पर क्लिक करके सेक्शन एडिटर बनाए जाते हैं।',
+        'manager.sections.editorRestriction' => 'आइटम केवल संपादकों और अनुभाग संपादकों द्वारा प्रस्तुत किए जा सकते हैं।',
+        'manager.sections.editors' => 'खंड संपादक',
+        'manager.sections.form.abbrevRequired' => 'अनुभाग के लिए संक्षिप्त शीर्षक आवश्यक है',
+        'manager.sections.form.mustAllowPermission' => 'कृपया सुनिश्चित करें कि प्रत्येक अनुभाग संपादक असाइनमेंट के लिए कम से कम एक चेकबॉक्स चेक किया गया है।',
+        'manager.sections.form.reviewFormId' => 'कृपया सुनिश्चित करें कि आपने एक वैध समीक्षा फ़ॉर्म चुना है।',
+        'manager.sections.form.titleRequired' => 'अनुभाग के लिए एक शीर्षक आवश्यक है।',
+        'manager.sections.hideTocAuthor' => 'विषय वस्तुओं की तालिका से अंको के अनुभाग आइटम के लिए लेखक का नाम छोड़ दें।',
+        'manager.sections.hideTocTitle' => 'सामग्री की तालिका अंको से इस अनुभाग का शीर्षक लें।',
+        'manager.sections.identifyType' => 'इस खंड में प्रकाशित वस्तुओं को पहचानें (n)',
+        'manager.sections.identifyTypeExamples' => '(उदाहरण के लिए, "पीयर-रिव्यू आर्टिकल", "नॉन-रेफरीड बुक रिव्यू", "इनवाइटेड कमेंट्री", आदि)',
+        'manager.sections.indexed' => 'इंडेक्स किए गए',
+        'manager.sections.noneCreated' => 'कोई खंड नहीं बनाया गया है.',
+        'manager.sections.open' => 'सबमिशन खोलें',
+        'manager.sections.policy' => 'अनुभाग नीति',
+        'manager.sections.readingTools' => 'उपकरण पढ़ना',
+        'manager.sections.reviewed' => 'पीयर रिव्यू किया',
+        'manager.sections.submissionIndexing' => 'जर्नल के अनुक्रमण में शामिल नहीं किया जाएगा',
+        'manager.sections.submissionReview' => 'पीयर रिव्यू नहीं होगा',
+        'manager.section.submissionsToThisSection' => 'जर्नल के इस अनुभाग के लिए सबमिशन्स',
+        'manager.sections.unassigned' => 'उपलब्ध अनुभाग संपादक',
+        'manager.sections.wordCount' => 'शब्द गणना',
+        'manager.sections.wordCountInstructions' => 'इस सेक्शन के लिए सीमित सार शब्द मायने रखता है (बिना सीमा के 0)',
+        'manager.setup' => 'जर्नल सेटिंग्स',
+        'manager.setup.masthead' => 'मास्टहेड',
+        'manager.setup.editorialTeam' => 'संपादकीय टीम',
+        'manager.setup.homepageContent' => 'जर्नल मुखपृष्ठ सामग्री',
+        'manager.setup.homepageContentDescription' => 'जर्नल मुख पृष्ट में डिफ़ॉल्ट रूप से नेविगेशन लिंक होते हैं। अतिरिक्त मुख पृष्ट सामग्री को निम्नलिखित विकल्पों में से एक या सभी विकल्पों का उपयोग करके जोड़ा जा सकता है, जो दिखाए गए क्रम में दिखाई देगा.',
+        'manager.setup.useStyleSheet' => 'जर्नल स्टाइल शीट',
+        'manager.setup.contextName' => 'जर्नल का नाम',
+        'manager.setup.pageHeader' => 'जर्नल पेज हैडर',
+        'manager.setup.aboutItemContent' => 'सामग्री',
+        'manager.setup.addAboutItem' => 'आइटम के बारे में जोड़ें',
+        'manager.setup.addChecklistItem' => 'चेकलिस्ट आइटम जोड़ें',
+        'manager.setup.addItem' => 'आइटम जोड़ें',
+        'manager.setup.addItemtoAboutJournal' => ' प्रदर्शित होने के लिए आइटम जोड़ें "जर्नल के बारे में"',
+        'manager.setup.addNavItem' => 'आइटम जोडें',
+        'manager.setup.addReviewerDatabaseLink' => 'नया डेटाबेस लिंक जोड़ें',
+        'manager.setup.addSponsor' => 'प्रायोजन संगठन जोड़ें',
+        'manager.setup.alternateHeader' => 'वैकल्पिक हैडर',
+        'manager.setup.alternateHeaderDescription' => 'वैकल्पिक रूप से, शीर्षक और लोगो के बजाय, शीर्ष लेख का एक HTML संस्करण नीचे पाठ बॉक्स में डाला जा सकता है। यदि आवश्यक न हो तो टेक्स्टबॉक्स खाली छोड़ दें।',
+        'manager.setup.announcements' => 'घोषणाएँ',
+        'manager.setup.announcementsIntroduction' => 'प्रस्तावना',
+        'manager.setup.announcementsIntroduction.description' => 'कोई भी जानकारी दर्ज करें जिसे आप अपने घोषणा पृष्ठ पर दिखाना चाहते हैं।',
+        'manager.setup.appearInAboutJournal' => '(जर्नल के बारे में प्रकट करने के लिए) ',
+        'manager.setup.competingInterests.requireReviewers' => 'समीक्षकों को अपने द्वारा प्रस्तुत प्रत्येक सहकर्मी समीक्षा के साथ एक सीआई बयान दर्ज करने की आवश्यकता होती है।',
+        'manager.setup.history' => 'जर्नल इतिहास',
+        'manager.setup.historyDescription' => 'यह पाठ जर्नल वेबसाइट के "About" अनुभाग में दिखाई देगा और इसका उपयोग शीर्षक, संपादकीय बोर्ड और जर्नल के प्रकाशन इतिहास की प्रासंगिकता के अन्य मदों में परिवर्तन का वर्णन करने के लिए किया जा सकता है।.',
+        'manager.setup.currentIssue' => 'वर्तमान अंक ',
+        'manager.setup.customizingTheLook' => 'चरण 5. लुक को कस्टमाइज करना',
+        'manager.setup.details' => 'विवरण',
+        'manager.setup.details.description' => 'जर्नल का नाम, ISSN, संपर्क, प्रायोजक, और खोज इंजन।',
+        'manager.setup.disableUserRegistration' => 'जर्नल प्रबंधक सभी उपयोगकर्ता खातों को पंजीकृत करेगा। संपादक या अनुभाग संपादक समीक्षकों के लिए उपयोगकर्ता खाते पंजीकृत कर सकते हैं।',
+        'manager.setup.discipline' => 'अकादमिक अनुशासन और उप-अनुशासन',
+        'manager.setup.disciplineDescription' => 'उपयोगी जब जर्नल अनुशासनात्मक सीमाओं को पार करती है और / या लेखक बहुआयामी आइटम प्रस्तुत करते हैं।',
+        'manager.setup.disciplineExamples' => '(जैसे, इतिहास; शिक्षा; समाजशास्त्र; मनोविज्ञान; सांस्कृतिक अध्ययन; कानून)',
+        'manager.setup.disciplineProvideExamples' => 'इस जर्नल के लिए प्रासंगिक शैक्षिक विषयों के उदाहरण प्रदान करें',
+        'manager.setup.displayCurrentIssue' => 'वर्तमान अंक के लिए सामग्री की तालिका जोड़ें (यदि उपलब्ध हो)।',
+        'manager.setup.editorDecision' => 'संपादक का निर्णय',
+        'manager.setup.emailBounceAddress' => 'बाउंस पता',
+        'manager.setup.emailBounceAddress.description' => 'कोई भी अपरिवर्तनीय ईमेल इस पते पर एक त्रुटि संदेश देगा।',
+        'manager.setup.emailBounceAddress.disabled' => 'किसी ईमेल पते पर अपरिवर्तनीय ईमेल भेजने के लिए, साइट व्यवस्थापक को साइट कॉन्फ़िगरेशन फ़ाइल में <code> allow_envelope_sender </ code> विकल्प को सक्षम करना होगा। सर्वर कॉन्फ़िगरेशन की आवश्यकता हो सकती है, जैसा कि ओजेएस प्रलेखन में संकेत दिया गया है।',
+        'manager.setup.emails' => 'ईमेल पहचान',
+        'manager.setup.emailSignature' => 'हस्ताक्षर',
+        'manager.setup.emailSignature.description' => 'जर्नल की ओर से सिस्टम द्वारा भेजे गए तैयार ईमेल में अंत में जोड़े गए निम्नलिखित हस्ताक्षर होंगे।',
+        'manager.setup.enableAnnouncements.enable' => 'घोषणाएँ सक्षम करें',
+        'manager.setup.enableAnnouncements.description' => 'जर्नल समाचार और घटनाओं के पाठकों को सूचित करने के लिए घोषणाएँ प्रकाशित की जा सकती हैं। प्रकाशित घोषणाएं घोषणा पृष्ठ पर दिखाई देंगी।',
+        'manager.setup.numAnnouncementsHomepage' => 'मुखपृष्ठ पर प्रदर्शित करें',
+        'manager.setup.numAnnouncementsHomepage.description' => 'मुखपृष्ठ पर प्रदर्शित करने के लिए कितनी घोषणाएँ हैं। कोई भी प्रदर्शित करने के लिए इसे खाली छोड़ दें।',
+        'manager.setup.enableUserRegistration' => 'आगंतुक जर्नल के साथ एक उपयोगकर्ता खाता पंजीकृत कर सकते हैं।',
+        'manager.setup.focusAndScope' => 'फोकस और स्कोप',
+        'manager.setup.focusAndScope.description' => 'लेखकों, पाठकों, और लाइब्रेरियन को लेख और अन्य वस्तुओं की रेंज का वर्णन करेंगे जो जर्नल प्रकाशित करेगी।',
+        'manager.setup.forAuthorsToIndexTheirWork' => 'लेखकों के लिए उनके कार्य को अनुक्रमित करना',
+        'manager.setup.forAuthorsToIndexTheirWorkDescription' => 'OJS का पालन करता है <a href="http://www.openarchives.org/" target="_blank">Open अभिलेखीय पहल </a> मेटाडेटा कटाई के लिए प्रोटोकॉल, जो वैश्विक स्तर पर इलेक्ट्रॉनिक अनुसंधान संसाधनों तक अच्छी तरह से अनुक्रमित पहुंच प्रदान करने के लिए उभरता हुआ मानक है। लेखक अपनी प्रस्तुति के लिए मेटाडेटा प्रदान करने के लिए एक समान टेम्पलेट का उपयोग करेंगे। जर्नल प्रबंधक को अनुक्रमणिका के लिए श्रेणियों का चयन करना चाहिए और लेखकों को प्रासंगिक उदाहरणों के साथ प्रस्तुत करना चाहिए ताकि वे अपने काम को अनुक्रमित करने में सहायता कर सकें।',
+        'manager.setup.form.issnInvalid' => 'निर्दिष्ट ISSN मान्य नहीं है।',
+        'manager.setup.form.contactEmailRequired' => 'प्राथमिक संपर्क ईमेल की आवश्यकता है।',
+        'manager.setup.form.contactNameRequired' => 'प्राथमिक संपर्क नाम की आवश्यकता है।',
+        'manager.setup.form.journalInitialsRequired' => 'जर्नल प्रथमाक्षर की आवश्यकता है।',
+        'manager.setup.form.journalTitleRequired' => 'जर्नल शीर्षक आवश्यक है।',
+        'manager.setup.form.numReviewersPerSubmission' => 'प्रति प्रस्तुत समीक्षकों की संख्या की आवश्यकता है।',
+        'manager.setup.form.supportEmailRequired' => 'समर्थन ईमेल की आवश्यकता है।',
+        'manager.setup.form.supportNameRequired' => 'समर्थन नाम की आवश्यकता है।',
+        'manager.setup.generalInformation' => 'सामान्य जानकारी',
+        'manager.setup.gettingDownTheDetails' => 'चरण 1. विवरण नीचे हो रही है',
+        'manager.setup.guidelines' => 'दिशा-निर्देश',
+        'manager.setup.guidingSubmissions' => 'चरण 3. मार्गदर्शक सबमिशन्स',
+        'manager.setup.identity' => 'जर्नल पहचान',
+        'manager.setup.includeCreativeCommons' => 'तत्काल या विलंबित ओपन एक्सेस प्रदान करने वाली जर्नल्स के लिए, उचित समय पर सभी प्रकाशित कार्यों के साथ एक क्रिएटिव कॉमन्स लाइसेंस शामिल करें।',
+        'manager.setup.information' => 'जानकारी',
+        'manager.setup.information.description' => 'लाइब्रेरियन और भावी लेखकों और पाठकों के लिए जर्नल का संक्षिप्त विवरण। जब सूचना ब्लॉक जोड़ा गया है तो ये साइट के साइडबार में उपलब्ध कराए गए हैं।',
+        'manager.setup.information.forAuthors' => 'लेखकों के लिए',
+        'manager.setup.information.forLibrarians' => 'लाइब्रेरियन के लिए',
+        'manager.setup.information.forReaders' => 'पाठकों के लिए',
+        'manager.setup.initialIssue' => 'प्रारम्भिक अंक',
+        'manager.setup.initialIssueDescription' => 'चयनित प्रारूप के आधार पर, ओजस के साथ प्रकाशित होने वाले पहले अंक की समस्या, मात्रा और / या वर्ष की पहचान करें:',
+        'manager.setup.institution' => 'संस्थान',
+        'manager.setup.itemsDescription' => 'नेविगेशन बार आइटम को वर्तमान सेट (होम, अबाउट, यूजर होम, आदि) में जोड़ा जा सकता है जो पृष्ठ के शीर्ष पर दिखाई देते हैं।',
+        'manager.setup.itemsPerPage' => 'आइटम प्रति पेज',
+        'manager.setup.itemsPerPage.description' => 'किसी पृष्ठ में बाद के आइटम दिखाने से पहले सूची में दिखाने के लिए मदों की संख्या (उदाहरण के लिए, सबमिशन्स, उपयोगकर्ता या संपादन कार्य) को सीमित करें।',
+        'manager.setup.journalAbbreviation' => 'जर्नल संक्षेप',
+        'manager.setup.journalArchiving' => 'जर्नल संग्रह',
+        'manager.setup.contextSummary' => 'जर्नल सारांश',
+        'manager.setup.contextAbout' => 'जर्नल के बारे में',
+        'manager.setup.contextAbout.description' => 'अपनी जर्नल के बारे में कोई भी जानकारी शामिल करें जो पाठकों, लेखकों या समीक्षकों के लिए रूचिकर हो सकती है। इसमें आपकी खुली पहुंच नीति, जर्नल का फोकस और दायरा, कॉपीराइट नोटिस, प्रायोजन प्रकटीकरण, जर्नल का इतिहास, एक गोपनीयता कथन, और किसी भी LOCKSS या CLOCKSS अभिलेखीय प्रणाली में शामिल करना शामिल हो सकता है।',
+        'manager.setup.journalHomepageContent' => 'जर्नल मुखपृष्ठ सामग्री',
+        'manager.setup.journalHomepageContentDescription' => 'डिफ़ॉल्ट रूप से, मुखपृष्ठ में नेविगेशन लिंक होते हैं। अतिरिक्त मुखपृष्ठ सामग्री को निम्नलिखित विकल्पों में से एक या सभी विकल्पों का उपयोग करके जोड़ा जा सकता है, जो दिखाए गए क्रम में दिखाई देगा। ध्यान दें कि नेविगेशन बार में वर्तमान अंक के माध्यम से करंट इश्यू हमेशा उपलब्ध रहता है।',
+        'manager.setup.journalHomepageHeader' => 'जर्नल मुख पृष्ठ का शीर्ष लेख',
+        'manager.setup.journalHomepageHeader.altText' => 'जर्नल मुख पृष्ठ का शीर्ष लेख',
+        'manager.setup.journalHomepageHeaderDescription' => 'जर्नल के शीर्षक और लोगो का एक ग्राफिक संस्करण (.gif, .jpg, या .png फ़ाइल के रूप में) को मुखपृष्ठ के लिए अपलोड किया जा सकता है, जो अन्यथा दिखाई देने वाले पाठ संस्करण को बदल देगा।',
+        'manager.setup.contextInitials' => 'जर्नल इनिशियल्स',
+        'manager.setup.journalLayout' => 'जर्नल लेआउट',
+        'manager.setup.journalLayoutDescription' => 'यहां जर्नल थीम चुनें और लेआउट घटकों का चयन करें। एक जर्नल स्टाइलशीट भी अपलोड की जा सकती है, जिसका उपयोग सिस्टम-वाइड स्टाइलशीट और थीम स्टाइलशीट (यदि कोई विषय चुना जाता है) में स्टाइल डेटा को ओवरराइड करने के लिए किया जा सकता है।',
+        'manager.setup.journalLogo' => 'जर्नल लोगो',
+        'manager.setup.journalLogo.altText' => 'जर्नल लोगो',
+        'manager.setup.journalPageFooter' => 'जर्नल पेज पाद लेख',
+        'manager.setup.journalPageFooterDescription' => 'यह आपकी जर्नल का पाद लेख है। पाद लेख को बदलने या अद्यतन करने के लिए, नीचे दिए गए पाठ बॉक्स में HTML कोड पेस्ट करें। उदाहरण एक अन्य नेविगेशन बार, एक काउंटर आदि हो सकते हैं। यह पाद लेख प्रत्येक पृष्ठ पर दिखाई देगा।',
+        'manager.setup.journalPolicies' => 'चरण 2. जर्नल नीतियां',
+        'manager.setup.journalSetup' => 'जर्नल सेटअप',
+        'manager.setup.journalSetupUpdated' => 'आपका जर्नल सेटअप अपडेट कर दिया गया है।',
+        'manager.setup.journalStyleSheetInvalid' => 'अमान्य जर्नल स्टाइलशीट प्रारूप। स्वीकृत प्रारूप .css है।',
+        'manager.setup.journalTheme' => 'जर्नल थीम',
+        'manager.setup.journalThumbnail' => 'जर्नल थंबनेल',
+        'manager.setup.journalThumbnail.description' => 'जर्नल का एक छोटा लोगो या प्रतिनिधित्व जो जर्नल्स की सूचियों में इस्तेमाल किया जा सकता है।',
+        'manager.setup.contextTitle' => 'जर्नल का शीर्षक',
+        'manager.setup.keyInfo' => 'महत्वपूर्ण जानकारी',
+        'manager.setup.keyInfo.description' => 'अपनी जर्नल का संक्षिप्त विवरण प्रदान करें और संपादकों, प्रबंध निदेशकों और अपनी संपादकीय टीम के अन्य सदस्यों की पहचान करें।',
+        'manager.setup.labelName' => 'लेबल का नाम',
+        'manager.setup.lists' => 'सूचियाँ',
+        'manager.setup.plnPluginEnable' => 'PKP PN प्लग इन को सक्षम करें',
+        'manager.setup.plnDescription' => 'PKP परिरक्षण नेटवर्क (PN) किसी भी ओजस  जर्नल के लिए मुफ्त संरक्षण सेवाएं प्रदान करता है जो कुछ बुनियादी मानदंडों को पूरा करता है।',
+        'manager.setup.plnSettingsDescription' => 'PKP PN के लिए उपयोग की शर्तों को स्वीकार करने के लिए <बटन> प्लगइन सेटिंग्स </ बटन> देखें।',
+        'manager.setup.plnPluginArchiving' => 'PKP संरक्षण नेटवर्क (PN)',
+        'manager.setup.plnPluginNotInstalled' => 'PKP परिरक्षण नेटवर्क (PN) किसी भी ओजस  जर्नल के लिए मुफ्त संरक्षण सेवाएं प्रदान करता है जो कुछ बुनियादी मानदंडों को पूरा करता है। ओजेएस 3 के लिए पीकेपी पीएन प्लगइन वर्तमान में विकास में है और जल्द ही प्लगइन गैलरी में उपलब्ध होगा।',
+        'manager.setup.otherLockss' => 'LOCKSS और CLOCKSS',
+        'manager.setup.lockssEnable' => 'LOCKSS <a href="<$lockssUrlarios" target="_blank"> प्रकाशक मैनिफेस्ट </a> पृष्ठ के माध्यम से प्रतिभागी पुस्तकालयों में जर्नल सामग्री को संग्रहीत करने और वितरित करने के लिए LOCKSS को सक्षम करें।',
+        'manager.setup.lockssLicenseDescription' => 'एक LOCKSS लाइसेंस जर्नल के बारे में अभिलेखागार में दिखाई देगा:<a href="http://www.lockss.org/community/publishers-titles-gln/" target="_blank">LOCKSS License</a>',
+        'manager.setup.lockssLicenseLabel' => 'LOCKSS लाइसेंस का विवरण',
+        'manager.setup.lockssRegister' => '6-10 पुस्तकालयों की पहचान करें जो जर्नल को पंजीकृत और कैश करेंगे। उदाहरण के लिए, उन संस्थानों की ओर रुख करें जहां संपादक या बोर्ड के सदस्य काम करते हैं और / या संस्थान पहले से ही LOCKSS में भाग ले रहे हैं। देखे <a href="http://www.lockss.org/community/" target="_blank">LOCKSS समुदाय</a>.',
+        'manager.setup.lockssTitle' => 'LOCKSS',
+        'manager.setup.clockssEnable' => 'CLOCKSS के माध्यम से प्रतिभागी पुस्तकालयों में जर्नल सामग्री को संग्रहीत और वितरित करने के लिए CLOCKSS सक्षम करें <a href="{$clockssUrl}" target="_blank">Publisher Manifest</a> page.',
+        'manager.setup.clockssLicenseDescription' => 'एक CLOCKSS जर्नल लाइसेंस के तहत जर्नल के बारे में दिखाई देगा: <a href="http://clockss.org/" target="_blank">CLOCKSS License</a>',
+        'manager.setup.clockssLicenseLabel' => 'CLOCKSS लाइसेंस का विवरण',
+        'manager.setup.clockssRegister' => 'पर जाकर CLOCKSS सेवा के लिए साइन अप करें<a href="http://clockss.org/" target="_blank">the CLOCKSS website</a>.',
+        'manager.setup.clockssTitle' => 'CLOCKSS',
+        'manager.setup.look' => 'देखो',
+        'manager.setup.look.description' => 'होमपेज हेडर, कंटेंट, जर्नल हेडर, फुटर, नेविगेशन बार और स्टाइल शीट।',
+        'manager.setup.management' => 'प्रबंध',
+        'manager.setup.management.description' => 'पहुंच और सुरक्षा, शेड्यूलिंग, घोषणाएं, कॉपी संपादन, लेआउट और प्रूफरीडिंग।',
+        'manager.setup.managementOfBasicEditorialSteps' => 'बुनियादी संपादकीय चरणों का प्रबंधन',
+        'manager.setup.managingPublishingSetup' => 'प्रबंधन और प्रकाशन सेटअप',
+        'manager.setup.managingTheJournal' => 'चरण 4. जर्नल का प्रबंधन',
+        'manager.setup.navigationBar' => 'नेविगेशन बार',
+        'manager.setup.navigationBarDescription' => 'अतिरिक्त नेविगेशन बार आइटम जोड़ें या निकालें।',
+        'manager.setup.navItemIsAbsolute' => 'URL साइट के सापेक्ष पथ के बजाय एक पूर्ण URL (उदा।, "http://www.example.com") है (जैसे,"/manager/setup")',
+        'manager.setup.navItemIsLiteral' => 'लेबल मान एक स्थानीयकरण संदेश कुंजी के बजाय एक शाब्दिक स्ट्रिंग (उदा।, "जर्नल सेटअप") है (जैसे, "manager.setup")',
+        'manager.setup.noImageFileUploaded' => 'कोई छवि फ़ाइल अपलोड नहीं की गई।',
+        'manager.setup.noStyleSheetUploaded' => 'कोई शैली पत्रक अपलोड नहीं किया गया।',
+        'manager.setup.note' => 'सुचना',
+        'manager.setup.notifications.submissionAckDisabled' => '<strong> नोट: </ strong> प्रस्तुत स्वीकृति ईमेल वर्तमान में अक्षम है। इस सुविधा का उपयोग करने के लिए, ईमेल में "सबमिशन एक" ईमेल सक्षम करें।',
+        'manager.setup.numPageLinks' => 'पृष्ठ लिंक',
+        'manager.setup.numPageLinks.description' => 'किसी सूची में बाद के पृष्ठों को प्रदर्शित करने के लिए लिंक की संख्या को सीमित करें।',
+        'manager.setup.onlineIssn' => 'ऑनलाइन ISSN',
+        'manager.setup.pageNumberIdentifier' => 'पृष्ठ नंबर विकल्प',
+        'manager.setup.policies' => 'नीतियाँ',
+        'manager.setup.policies.description' => 'फोकस, पीयर रिव्यू, अनुभाग, गोपनीयता, सुरक्षा, और वस्तुओं के बारे में अतिरिक्त।',
+        'manager.setup.printIssn' => 'ISSN प्रिंट करें',
+        'manager.setup.proofingInstructions' => 'प्रूफिंग निर्देश',
+        'manager.setup.proofingInstructionsDescription' => 'प्रूफरीडिंग निर्देश प्रूफ़रीडर्स, ऑथर्स, लेआउट एडिटर्स और सब-एडिटर्स को सबमिशन एडिशन स्टेज में उपलब्ध कराया जाएगा। नीचे HTML में निर्देशों का एक डिफ़ॉल्ट सेट है, जिसे किसी भी बिंदु पर (HTML या सादे पाठ में) जर्नल मैनेजर द्वारा संपादित या प्रतिस्थापित किया जा सकता है।',
+        'manager.setup.publicationSchedule' => 'प्रकाशन अनुसूची',
+        'manager.setup.publicationScheduleDescription' => 'जर्नल की वस्तुओं को सामूहिक रूप से प्रकाशित किया जा सकता है, अपने स्वयं के टेबल के अंक के साथ। वैकल्पिक रूप से, व्यक्तिगत आइटम को तैयार होते ही प्रकाशित किया जा सकता है, उन्हें सामग्री के \\ "वर्तमान " वॉल्यूम तालिका में जोड़कर। पाठकों के बारे में, जर्नल में, सिस्टम के बारे में एक बयान के साथ यह जर्नल उपयोग करेगी और प्रकाशन की इसकी अपेक्षित आवृत्ति।',
+        'manager.setup.publicationScheduling' => 'प्रकाशन शेड्यूलिंग',
+        'manager.setup.publicIdentifier' => 'जर्नल कंटेंट की पहचान',
+        'manager.setup.publisher' => 'प्रकाशक',
+        'manager.setup.referenceLinking' => 'संदर्भ लिंकिंग',
+        'manager.setup.restrictArticleAccess' => 'ओपन एक्सेस सामग्री देखने के लिए उपयोगकर्ताओं को पंजीकृत होना चाहिए और लॉग इन करना चाहिए।',
+        'manager.setup.restrictSiteAccess' => 'उपयोगकर्ता को पंजीकृत होना चाहिए और जर्नल साइट देखने के लिए लॉग इन करना होगा।',
+        'manager.setup.reviewGuidelines' => 'दिशानिर्देशों की समीक्षा करें',
+        'manager.setup.reviewOptions' => 'विकल्प की समीक्षा करें',
+        'manager.setup.reviewOptions.automatedReminders' => 'स्वचालित ईमेल स्मरणपत्र',
+        'manager.setup.reviewOptions.automatedRemindersDisabled' => 'स्वचालित ईमेल स्मरणपत्र भेजने के लिए, साइट व्यवस्थापक को ओजस  कॉन्फ़िगरेशन फ़ाइल में <tt> शेड्यूल_टास्क </ tt> विकल्प को सक्षम करना होगा। अतिरिक्त सर्वर कॉन्फ़िगरेशन की आवश्यकता हो सकती है जैसा कि ओजेएस प्रलेखन में संकेत दिया गया है।',
+        'manager.setup.reviewOptions.numWeeksPerReview' => 'सप्ताह की समीक्षा पूरी करने की अनुमति दी',
+        'manager.setup.reviewOptions.onQuality' => 'संपादक प्रत्येक समीक्षा के बाद समीक्षकों को पांच-बिंदु गुणवत्ता पैमाने पर रेट करेंगे।',
+        'manager.setup.reviewOptions.restrictReviewerFileAccess' => 'फ़ाइल एक्सेस को प्रतिबंधित करें',
+        'manager.setup.reviewOptions.restrictReviewerFileAccess.description' => 'समीक्षकों को सबमिशन फ़ाइल तक पहुंच नहीं दी जाएगी, जब तक कि वे इसकी समीक्षा करने के लिए सहमत न हों।',
+        'manager.setup.reviewOptions.reviewerAccess' => 'समीक्षक पहुँच',
+        'manager.setup.reviewOptions.reviewerAccessKeysEnabled' => 'एक-क्लिक समीक्षक पहुंच',
+        'manager.setup.reviewOptions.reviewerAccessKeysEnabled.description' => 'ईमेल आमंत्रण में समीक्षकों को एक सुरक्षित लिंक भेजा जा सकता है, जो उन्हें लॉगिन किए बिना समीक्षा का उपयोग करने की अनुमति देगा। अन्य पृष्ठों तक पहुंच के लिए उन्हें लॉग इन करने की आवश्यकता होती है।',
+        'manager.setup.reviewOptions.reviewerAccessKeysEnabled.label' => 'समीक्षकों को ईमेल आमंत्रण में एक सुरक्षित लिंक शामिल करें।',
+        'manager.setup.reviewOptions.reviewerRatings' => 'समीक्षक रेटिंग',
+        'manager.setup.reviewOptions.reviewerReminders' => 'समीक्षक स्मरणपत्र',
+        'manager.setup.reviewPolicy' => 'समीक्षा नीति',
+        'manager.setup.searchEngineIndexing' => 'इंडेक्स खोज',
+        'manager.setup.searchEngineIndexing.description' => 'गूगल जैसे खोज इंजनों को अपनी साइट खोजने और प्रदर्शित करने में मदद करें। आपको अपने <a href=\'{$sitemapUrl}\' target=\'_blank\'>sitemap</a> प्रस्तुत करने के लिए प्रोत्साहित किया जाता है।',
+        'manager.setup.searchDescription.description' => 'जर्नल का संक्षिप्त विवरण (50-300 अक्षर) प्रदान करें जो खोज परिणामों में जर्नल  को सूचीबद्ध करते समय खोज इंजन प्रदर्शित कर सकते हैं।',
+        'manager.setup.sectionsAndSectionEditors' => 'अनुभाग और अनुभाग संपादक',
+        'manager.setup.sectionsDefaultSectionDescription' => '(यदि अनुभाग नहीं जोड़े जाते हैं, तो आइटम डिफ़ॉल्ट रूप से आलेख  अनुभाग में सबमिट किए जाते हैं.)',
+        'manager.setup.sectionsDescription' => 'जर्नल के लिए अनुभाग बनाने या संशोधित करने के लिए (जैसे, लेख, पुस्तक समीक्षा आदि), अनुभाग प्रबंधन पर जाएं। <br /> <br /> जर्नल को आइटम प्रस्तुत करने वाले लेखक नामित करेंगे।...',
+        'manager.setup.selectEditorDescription' => 'जर्नल संपादक जो संपादकीय प्रक्रिया के माध्यम से इसे देखेगा।',
+        'manager.setup.selectSectionDescription' => 'जर्नल अनुभाग जिसके लिए आइटम पर विचार किया जाएगा।',
+        'manager.setup.showGalleyLinksDescription' => 'हमेशा गैली लिंक दिखाएं और प्रतिबंधित पहुंच का संकेत दें।',
+        'manager.setup.siteAccess.view' => 'साइट का उपयोग',
+        'manager.setup.siteAccess.viewContent' => 'आलेख सामग्री देखें',
+        'manager.setup.stepsToJournalSite' => 'एक जर्नल वेब साइट के लिए पांच कदम',
+        'manager.setup.subjectExamples' => '(जैसे, प्रकाश संश्लेषण; ब्लैक होल; फोर-कलर मैप प्रॉब्लम; बेज़ियन थ्योरी)',
+        'manager.setup.subjectKeywordTopic' => 'संकेत शब्द',
+        'manager.setup.subjectProvideExamples' => 'लेखकों के लिए एक गाइड के रूप में संकेत शब्द या विषयों के उदाहरण प्रदान करें',
+        'manager.setup.submissionGuidelines' => 'जमा करने के निर्देश',
+        'manager.setup.submissions' => 'सबमिशन्स',
+        'manager.setup.submissions.description' => 'लेखक के दिशानिर्देश, कॉपीराइट और अनुक्रमण (पंजीकरण सहित)।',
+        'manager.setup.enableOai' => 'OAI सक्षम करें',
+        'manager.setup.enableOai.description' => '<a href="https://www.openarchives.org/"> Open Archives Initiative </a> के माध्यम से तृतीय-पक्ष अनुक्रमण सेवाओं को मेटाडेटा प्रदान करें।',
+        'manager.setup.typeExamples' => '(जैसे, ऐतिहासिक पूछताछ; अर्ध-प्रायोगिक; साहित्यिक विश्लेषण; सर्वेक्षण / साक्षात्कार)',
+        'manager.setup.typeMethodApproach' => 'प्रकार (विधि / दृष्टिकोण)',
+        'manager.setup.typeProvideExamples' => 'इस क्षेत्र के लिए प्रासंगिक अनुसंधान प्रकारों, विधियों और दृष्टिकोणों के उदाहरण प्रदान करें',
+        'manager.setup.uniqueIdentifier' => 'अद्वितीय पहचानकर्ता',
+        'manager.setup.uniqueIdentifierDescription' => 'आलेख और अंक को एक पहचान संख्या या स्ट्रिंग के साथ टैग किया जा सकता है, एक पंजीकरण प्रणाली को नियोजित करता है जैसे कि डिजिटल वस्तु पहचानकर्ता प्रणाली (DOI).',
+        'manager.setup.useEditorialReviewBoard' => 'जर्नल द्वारा एक संपादकीय / समीक्षा बोर्ड का उपयोग किया जाएगा।',
+        'manager.setup.useThumbnail' => 'थंबनेल',
+        'manager.setup.useImageTitle' => 'शीर्षक छवि',
+        'manager.setup.userRegistration' => 'उपयोगकर्ता का पंजीकरण',
+        'manager.setup.useTextTitle' => 'शीर्षक पाठ',
+        'manager.statistics.statistics' => 'जर्नल सांख्यिकी',
+        'manager.statistics.statistics.articleViews' => 'आलेख देखें मायने रखता है (केवल लेखकों के लिए)',
+        'manager.statistics.statistics.count.accept' => 'स्वीकार करना',
+        'manager.statistics.statistics.count.decline' => 'पतन',
+        'manager.statistics.statistics.count.revise' => 'पुनः सबमिट करें',
+        'manager.statistics.statistics.daysPerReview' => 'समीक्षा के लिए दिन',
+        'manager.statistics.statistics.daysToPublication' => 'प्रकाशन के लिए दिन',
+        'manager.statistics.statistics.description' => 'OJS प्रत्येक जर्नल के लिए निम्नलिखित आँकड़ों की गणना करता है। प्रारंभिक संपादक निर्णय के लिए "समीक्षा के दिनों (या समीक्षा संस्करण के पदनाम) से गणना की जाती है, जबकि प्रारंभिक प्रकाशन के लिए" "प्रकाशित करने के लिए दिन" को उसके मूल अपलोडिंग से उसके प्रकाशन के लिए मापा जाता है।',
+        'manager.statistics.statistics.itemsPublished' => 'प्रकाशित आइटम',
+        'manager.statistics.statistics.makePublic' => 'पाठकों के बारे में जर्नल में उपलब्ध कराई जाने वाली वस्तुओं की जाँच करें।',
+        'manager.statistics.statistics.note' => 'नोट: सहकर्मी द्वारा प्रस्तुत सबमिशन के लिए प्रतिशत में 100% तक की वृद्धि नहीं हो सकती है, क्योंकि पुनः जारी किए गए आइटम या तो स्वीकार किए जाते हैं, अस्वीकार किए जाते हैं, या अभी भी प्रक्रिया में हैं।',
+        'manager.statistics.statistics.numIssues' => 'अंक प्रकाशित हुए',
+        'manager.statistics.statistics.numSubmissions' => 'कुल सबमिशन्स',
+        'manager.statistics.statistics.peerReviewed' => 'पीयर रिव्यू',
+        'manager.statistics.statistics.registeredReaders' => 'पंजीकृत पाठक',
+        'manager.statistics.statistics.reviewerCount' => 'संख्या सौंपा गया',
+        'manager.statistics.statistics.reviewers' => 'समीक्षक',
+        'manager.statistics.statistics.reviewerScore' => 'संपादक स्कोर',
+        'manager.statistics.statistics.reviewsPerReviewer' => 'समीक्षाओं की संख्या',
+        'manager.statistics.statistics.selectSections' => 'इस जर्नल के सहकर्मी-समीक्षित आँकड़ों की गणना के लिए वर्गों का चयन करें।',
+        'manager.statistics.statistics.subscriptions' => 'सदस्यता',
+        'manager.statistics.reports.defaultReport.articleDownloads' => 'लेख फ़ाइल डाउनलोड',
+        'manager.statistics.reports.defaultReport.articleAbstract' => 'लेख सार पृष्ठ दृश्य',
+        'manager.statistics.reports.defaultReport.articleAbstractAndDownloads' => 'लेख सार पृष्ठ दृश्य और डाउनलोड',
+        'manager.statistics.reports.defaultReport.journalIndexPageViews' => 'जर्नल मुख्य पृष्ठ दृश्य',
+        'manager.statistics.reports.defaultReport.issuePageViews' => 'सामग्री पृष्ठ दृश्य की अंक तालिका',
+        'manager.subscriptionPolicies' => 'सदस्यता नीतियाँ',
+        'manager.subscriptionPolicies.delayedOpenAccess' => 'विलंबित ओपन एक्सेस',
+        'manager.subscriptionPolicies.enableSubscriptionExpiryReminderBeforeMonthsValid' => 'कृपया दिए गए चेकबॉक्स का उपयोग करें।',
+        'manager.subscriptionPolicies.expiry' => 'सदस्यता समाप्ति',
+        'manager.subscriptionPolicies.expiryDescription' => 'सदस्यता समाप्त होने पर, पाठकों को सभी सदस्यता सामग्री तक पहुंच से वंचित किया जा सकता है या सदस्यता समाप्ति तिथि से पहले प्रकाशित सदस्यता सामग्री तक पहुंच बनाए रखना जारी रख सकता है।',
+        'manager.subscriptionPolicies.expiryFull' => 'पूर्ण समाप्ति',
+        'manager.subscriptionPolicies.expiryFullDescription' => 'पाठकों को सदस्यता समाप्ति पर सभी सदस्यता सामग्री तक पहुंच से वंचित कर दिया जाता है।',
+        'manager.subscriptionPolicies.expiryPartial' => 'आंशिक समाप्ति',
+        'manager.subscriptionPolicies.expiryPartialDescription' => 'पाठकों को हाल ही में प्रकाशित सदस्यता सामग्री तक पहुंच से वंचित रखा गया है, लेकिन सदस्यता समाप्ति की तारीख से पहले प्रकाशित सदस्यता सामग्री तक पहुंच बनाए रखें।',
+        'manager.subscriptionPolicies.xMonths' => '{$x} महीने',
+        'manager.subscriptionPolicies.xWeeks' => '{$x} सप्ताह',
+        'manager.subscriptionPolicies.expiryReminderAfterMonths' => 'सदस्यता समाप्ति के बाद ईमेल द्वारा ग्राहकों को सूचित करें',
+        'manager.subscriptionPolicies.expiryReminderAfterWeeks' => 'सदस्यता समाप्ति के बाद ईमेल द्वारा ग्राहकों को सूचित करें।',
+        'manager.subscriptionPolicies.expiryReminderBeforeMonths' => 'सदस्यता समाप्ति से पहले ईमेल द्वारा ग्राहकों को सूचित करें।',
+        'manager.subscriptionPolicies.expiryReminderBeforeWeeks' => 'सदस्यता समाप्ति से पहले ईमेल द्वारा ग्राहकों को सूचित करें।',
+        'manager.subscriptionPolicies.expiryReminders' => 'सदस्यता समाप्ति स्मरणपत्र',
+        'manager.subscriptionPolicies.expiryRemindersDescription' => 'स्वचालित ईमेल स्मरणपत्र (OJS\'s के ईमेल में जर्नल मैनेजर्स द्वारा संपादन के लिए उपलब्ध) एक सदस्यता समाप्त होने से पहले और बाद दोनों में ग्राहकों को भेजा जा सकता है।',
+        'manager.subscriptionPolicies.expiryRemindersDisabled' => '<strong>Note:</strong> इन विकल्पों को सक्रिय करने के लिए, साइट व्यवस्थापक को OJS कॉन्फ़िगरेशन फ़ाइल में <tt> Sched_tasks </ tt> विकल्प को सक्षम करना होगा। इस कार्यक्षमता का समर्थन करने के लिए अतिरिक्त सर्वर कॉन्फ़िगरेशन की आवश्यकता हो सकती है (जो सभी सर्वरों पर संभव नहीं हो सकता है), जैसा कि OJS प्रलेखन में संकेत दिया गया है।',
+        'manager.subscriptionPolicies.expirySelectOne' => 'निम्न में से कोई एक चुनें:',
+        'manager.subscriptionPolicies.htmlInstructions' => 'एचटीएमएल का उपयोग टेक्स्टएरिया (फ़ॉन्ट आकार, रंग आदि के लिए) में किया जा सकता है, जिसमें \'रिटर्न\' को <tt><br></tt> के रूप में माना जाता है; एचटीएमएल एडिटर फ़ायरफ़ॉक्स ब्राउज़र के साथ काम करता है।',
+        'manager.subscriptionPolicies.numMonthsAfterSubscriptionExpiryReminderValid' => 'कृपया सदस्यता समाप्त होने के बाद महीनों की संख्या के लिए एक वैध मूल्य चुनें।',
+        'manager.subscriptionPolicies.numMonthsBeforeSubscriptionExpiryReminderValid' => 'कृपया सदस्यता समाप्ति से पहले महीनों की संख्या के लिए एक वैध मूल्य चुनें।',
+        'manager.subscriptionPolicies.numWeeksAfterSubscriptionExpiryReminderValid' => 'सदस्यता समाप्ति के बाद हफ्तों की संख्या के लिए कृपया एक वैध मूल्य चुनें।',
+        'manager.subscriptionPolicies.numWeeksBeforeSubscriptionExpiryReminderValid' => 'कृपया सदस्यता समाप्ति से पहले हफ्तों की संख्या के लिए एक वैध मूल्य चुनें।',
+        'manager.subscriptionPolicies.openAccessNotificationDescription' => 'पंजीकृत पाठकों के पास ईमेल द्वारा सामग्री की तालिका प्राप्त करने का विकल्प होगा जब कोई अंक ओपन एक्सेस बन जाएगा।',
+        'manager.subscriptionPolicies.openAccessNotificationDisabled' => '<strong>Note:</strong> इस विकल्प को सक्रिय करने के लिए, साइट व्यवस्थापक को OJS कॉन्फ़िगरेशन फ़ाइल में <tt> Sched_tasks </ tt> विकल्प को सक्षम करना होगा। इस कार्यक्षमता का समर्थन करने के लिए अतिरिक्त सर्वर कॉन्फ़िगरेशन की आवश्यकता हो सकती है (जो सभी सर्वरों पर संभव नहीं हो सकता है), जैसा कि OJS प्रलेखन में संकेत दिया गया है।',
+        'manager.subscriptionPolicies.onlinePaymentNotifications' => 'ऑनलाइन भुगतान सूचनाएं',
+        'manager.subscriptionPolicies.onlinePaymentNotificationsDescription' => 'स्वचालित ईमेल सूचनाएं (OJS\'s के ईमेल में जर्नल मैनेजर्स द्वारा संपादन के लिए उपलब्ध) सदस्यता ऑनलाइन भुगतान के पूरा होने पर सदस्यता प्रबंधक को भेजी जा सकती हैं।',
+        'manager.subscriptionPolicies.enableSubscriptionOnlinePaymentNotificationPurchaseIndividual' => 'एक व्यक्तिगत सदस्यता की ऑनलाइन खरीद पर ईमेल द्वारा सदस्यता प्रबंधक को सूचित करें।',
+        'manager.subscriptionPolicies.enableSubscriptionOnlinePaymentNotificationPurchaseInstitutional' => 'संस्थागत सदस्यता की ऑनलाइन खरीद पर ईमेल द्वारा सदस्यता प्रबंधक को सूचित करें (अनुशंसित)।',
+        'manager.subscriptionPolicies.enableSubscriptionOnlinePaymentNotificationRenewIndividual' => 'व्यक्तिगत सदस्यता के ऑनलाइन नवीनीकरण पर ईमेल द्वारा सदस्यता प्रबंधक को सूचित करें।',
+        'manager.subscriptionPolicies.enableSubscriptionOnlinePaymentNotificationRenewInstitutional' => 'एक संस्थागत सदस्यता के ऑनलाइन नवीनीकरण पर ईमेल द्वारा सदस्यता प्रबंधक को सूचित करें।',
+        'manager.subscriptionPolicies.onlinePaymentPurchaseInstitutionalDescription' => '<strong>Note:</strong> ऑनलाइन खरीदे गए संस्थागत सदस्यता को प्रदान किए गए डोमेन और आईपी रेंज की स्वीकृति और सदस्यता प्रबंधक द्वारा सदस्यता की सक्रियता की आवश्यकता होती है।',
+        'manager.subscriptionPolicies.onlinePaymentDisabled' => '<strong>Note:</strong> इन विकल्पों को सक्षम करने के लिए, जर्नल प्रबंधक को ऑनलाइन भुगतान मॉड्यूल को सक्षम करना होगा, जिसमें रीडर शुल्क के तहत सदस्यता के लिए ऑनलाइन भुगतान भी शामिल है।',
+        'manager.subscriptionPolicies.openAccessOptions' => 'सदस्यता जर्नल्स के लिए ओपन एक्सेस विकल्प',
+        'manager.subscriptionPolicies.openAccessOptionsDescription' => 'सदस्यता जर्नल उनकी प्रकाशित सामग्री को \\ "विलंबित ओपन एक्सेस " प्रदान कर सकते हैं, साथ ही साथ परमिट "" लेखक आत्म-संग्रह \\ "(दोनों जो पाठक और सामग्री के उद्धरण को बढ़ाते हैं)।',
+        'manager.subscriptionPolicies.subscriptionAdditionalInformation' => 'सदस्यता जानकारी',
+        'manager.subscriptionPolicies.subscriptionAdditionalInformationDescription' => 'सदस्यता प्रकार और शुल्क संरचना सदस्यता पृष्ठ पर प्रदर्शित होगी, सदस्यता प्रबंधक के नाम और संपर्क जानकारी के साथ। सदस्यता के बारे में अतिरिक्त जानकारी, जैसे कि विकासशील देशों में ग्राहकों के लिए भुगतान या समर्थन के तरीके, को यहां जोड़ा जा सकता है।',
+        'manager.subscriptionPolicies.subscriptionContact' => 'सदस्यता प्रबंधक',
+        'manager.subscriptionPolicies.subscriptionContactDescription' => 'ये संपर्क विवरण ग्राहकी से संबंधित पूछताछ वाले ग्राहकों के लिए सदस्यता पृष्ठ पर सूचीबद्ध होंगे।',
+        'manager.subscriptionPolicies.subscriptionContactEmailValid' => 'कृपया अपना मान्य ईमेल लिखें।',
+        'manager.subscriptions' => 'सदस्यताएँ',
+        'manager.individualSubscriptions' => 'व्यक्तिगत सदस्यताएँ',
+        'manager.institutionalSubscriptions' => 'संस्थागत सदस्यता',
+        'manager.subscriptions.confirmRenew' => 'क्या आप वाकई इस सदस्यता को नवीनीकृत करना चाहते हैं?',
+        'manager.subscriptions.confirmDelete' => 'क्या आप वाकई इस सदस्यता को हटाना चाहते हैं?',
+        'manager.subscriptions.summary' => 'सदस्यता सारांश',
+        'manager.subscriptions.create' => 'नई सदस्यता बनाएँ',
+        'manager.subscriptions.createTitle' => 'बनाना',
+        'manager.subscriptions.renew' => 'नवीकरण',
+        'manager.subscriptions.dateEnd' => 'समाप्त',
+        'manager.subscriptions.dateEndSearch' => 'अंतिम तिथि',
+        'manager.subscriptions.dateStart' => 'शुरू',
+        'manager.subscriptions.dateStartSearch' => 'आरंभ करने की तिथि',
+        'manager.subscriptions.domain' => 'डोमेन',
+        'manager.subscriptions.edit' => 'सदस्यता संपादित करें',
+        'manager.subscriptions.editTitle' => 'संपादित करें',
+        'manager.subscriptions.withStatus' => 'स्थिति के साथ में',
+        'manager.subscriptions.allStatus' => 'सब',
+        'manager.subscriptions.form.status' => 'स्थिति',
+        'manager.subscriptions.form.statusRequired' => 'सदस्यता की स्थिति की आवश्यकता है।',
+        'manager.subscriptions.form.statusValid' => 'कृपया एक मान्य सदस्यता स्थिति चुनें।',
+        'manager.subscriptions.form.typeId' => 'सदस्यता प्रकार',
+        'manager.subscriptions.form.typeIdRequired' => 'एक सदस्यता प्रकार की आवश्यकता है।',
+        'manager.subscriptions.form.typeIdValid' => 'कृपया एक वैध सदस्यता प्रकार चुनें।',
+        'manager.subscriptions.form.dateStart' => 'शुरू तिथि',
+        'manager.subscriptions.form.dateStartRequired' => 'सदस्यता प्रारंभ तिथि आवश्यक है।',
+        'manager.subscriptions.form.dateStartValid' => 'कृपया एक वैध सदस्यता आरंभ तिथि चुनें।',
+        'manager.subscriptions.form.dateEnd' => 'अंतिम तिथि',
+        'manager.subscriptions.form.dateEndRequired' => 'एक सदस्यता समाप्ति तिथि आवश्यक है।',
+        'manager.subscriptions.form.dateStartEmpty' => 'यह एक नॉन-एक्सपायरिंग सब्सक्रिप्शन प्रकार है; कृपया प्रारंभ तिथि निर्दिष्ट न करें।',
+        'manager.subscriptions.form.dateEndEmpty' => 'यह एक नॉन-एक्सपायरिंग सब्सक्रिप्शन प्रकार है; कृपया अंतिम तिथि निर्दिष्ट न करें।',
+        'manager.subscriptions.form.dateEndValid' => 'कृपया एक वैध सदस्यता समाप्ति तिथि चुनें।',
+        'manager.subscriptions.form.userProfileInstructions' => 'नोट: नीचे दिए गए सभी परिवर्तन उपयोगकर्ता के सिस्टम-वाइड प्रोफाइल के हैं।',
+        'manager.subscriptions.form.userId' => 'उपयोगकर्ता',
+        'manager.subscriptions.form.userContact' => 'संपर्क करें',
+        'manager.subscriptions.form.userIdRequired' => 'एक उपयोगकर्ता की आवश्यकता है.',
+        'manager.subscriptions.form.userIdValid' => 'कृपया एक वैध उपयोगकर्ता चुनें।',
+        'manager.subscriptions.form.userCountryValid' => 'कृपया एक वैध देश चुनें।',
+        'manager.subscriptions.form.notifyEmail' => 'उपयोगकर्ता को उनके उपयोगकर्ता नाम और सदस्यता विवरण के साथ एक ईमेल भेजें।',
+        'manager.subscriptions.form.notifyEmailValid' => 'कृपया दिए गए चेकबॉक्स का उपयोग करें।',
+        'manager.subscriptions.form.membership' => 'सदस्यता',
+        'manager.subscriptions.form.referenceNumber' => 'संदर्भ संख्या',
+        'manager.subscriptions.form.membershipInstructions' => 'सदस्यता प्रकार दर्ज करें यदि सदस्यता प्रकार की आवश्यकता है कि ग्राहक संघ या संगठन के हैं।',
+        'manager.subscriptions.form.membershipRequired' => 'चयनित सदस्यता प्रकार को सदस्यता जानकारी की आवश्यकता होती है।',
+        'manager.subscriptions.form.notes' => 'टिप्पणियाँ',
+        'manager.subscriptions.form.domain' => 'डोमेन',
+        'manager.subscriptions.form.institutionName' => 'संस्था का नाम',
+        'manager.subscriptions.form.institutionNameRequired' => 'एक संस्था का नाम आवश्यक है।',
+        'manager.subscriptions.form.institutionMailingAddress' => 'डाक पता',
+        'manager.subscriptions.form.domainInstructions' => 'यदि एक डोमेन यहां दर्ज किया गया है, तो आईपी रेंज वैकल्पिक हैं.<br />मान्य मान डोमेन नाम हैं (उदा। Lib.sfu.ca)।',
+        'manager.subscriptions.form.domainIPRangeRequired' => 'चयनित सदस्यता प्रकार को सदस्यता प्रमाणीकरण के लिए एक डोमेन और / या एक आईपी रेंज की आवश्यकता होती है।',
+        'manager.subscriptions.form.domainValid' => 'कृपया एक मान्य डोमेन दर्ज करें।',
+        'manager.subscriptions.form.ipRange' => 'आईपी रेंज',
+        'manager.subscriptions.form.ipRangeItem' => '&#8226;',
+        'manager.subscriptions.form.ipRangeInstructions' => 'यदि आईपी रेंज यहां दर्ज की जाती है, तो डोमेन वैकल्पिक है। <br /> मान्य मानों में एक आईपी पता (जैसे 142.58.103.1), आईपी रेंज (जैसे 142.58.103.1 - 142.58.103.4), वाइल्डकार्ड के साथ आईपी रेंज शामिल है * \'( उदा। 142.58। *। *), और सीआईडीआर के साथ एक आईपी रेंज (जैसे 142.58.100.0/24)।',
+        'manager.subscriptions.form.ipRangeValid' => 'कृपया एक मान्य IP श्रेणी दर्ज करें।',
+        'manager.subscriptions.form.deleteIpRange' => 'हटाएं',
+        'manager.subscriptions.form.addIpRange' => 'जोड़ना',
+        'manager.subscriptions.form.saveAndCreateAnother' => 'सहेजें और दूसरा बनाएँ',
+        'manager.subscriptions.form.subscriptionContactRequired' => 'उपयोगकर्ता को एक अधिसूचना ईमेल भेजने के लिए, जर्नल सेटअप में सदस्यता संपर्क नाम और ईमेल पता निर्दिष्ट किया जाना चाहिए।',
+        'manager.subscriptions.form.subscriptionExists' => 'इस उपयोगकर्ता के पास इस जर्नल के लिए पहले से ही एक सदस्यता है।',
+        'manager.subscriptions.form.typeRequired' => 'नई सदस्यता बनाने से पहले एक सदस्यता प्रकार बनाया जाना चाहिए।',
+        'manager.subscriptions.ipRange' => 'आईपी रेंज',
+        'manager.subscriptions.membership' => 'सदस्यता',
+        'manager.subscriptions.referenceNumber' => 'संदर्भ संख्या',
+        'manager.subscriptions.notes' => 'टिप्पणियाँ',
+        'manager.subscriptions.noneCreated' => 'कोई सदस्यता नहीं',
+        'manager.subscriptions.selectContact' => 'सदस्यता संपर्क का चयन करें',
+        'manager.subscriptions.selectUser' => 'उपयोगकर्ता का चयन करें',
+        'manager.subscriptions.selectSubscriber.desc' => 'सदस्यता का उपयोग विशेषाधिकार स्वचालित रूप से जर्नल के जर्नल मैनेजर्स, एडिटर्स, सेक्शन एडिटर्स, लेआउट एडिटर्स, कॉपीडिटर और प्रूफरीडर्स को दिया जाता है।',
+        'manager.subscriptions.select' => 'चयन करे',
+        'manager.subscriptions.subscriptionCreatedSuccessfully' => 'सदस्यता सफलतापूर्वक बनाई गई।',
+        'manager.subscriptions.subscriptionType' => 'सदस्यता प्रकार',
+        'manager.subscriptions.user' => 'उपयोगकर्ता',
+        'manager.subscriptions.contact' => 'संपर्क नाम',
+        'manager.subscriptions.institutionName' => 'संस्था का नाम',
+        'manager.subscriptionTypes' => 'सदस्यता प्रकार',
+        'manager.subscriptionTypes.confirmDelete' => 'चेतावनी! इस सदस्यता प्रकार के साथ सभी सदस्यताएं भी हटा दी जाएंगी। क्या आप वाकई इस सदस्यता प्रकार को जारी रखना और हटाना चाहते हैं?',
+        'manager.subscriptionTypes.cost' => 'लागत',
+        'manager.subscriptionTypes.subscriptions' => 'सदस्यता',
+        'manager.subscriptionTypes.individual' => 'व्यक्ति',
+        'manager.subscriptionTypes.institutional' => 'संस्थागत',
+        'manager.subscriptionTypes.create' => 'नई सदस्यता प्रकार बनाएँ',
+        'manager.subscriptionTypes.createTitle' => 'बनाना',
+        'manager.subscriptionTypes.duration' => 'अवधि',
+        'manager.subscriptionTypes.edit' => 'सदस्यता प्रकार संपादित करें',
+        'manager.subscriptionTypes.editTitle' => 'संपादित करें',
+        'manager.subscriptionTypes.form.cost' => 'लागत',
+        'manager.subscriptionTypes.form.costInstructions' => 'सांख्यिक मान (जैसे 40 या 40.00) बिना प्रतीक के दर्ज करें (e.g., $).',
+        'manager.subscriptionTypes.form.costNumeric' => 'लागत एक सकारात्मक, संख्यात्मक मान होना चाहिए।',
+        'manager.subscriptionTypes.form.costRequired' => 'एक लागत की आवश्यकता है।',
+        'manager.subscriptionTypes.form.currency' => 'मुद्रा',
+        'manager.subscriptionTypes.form.currencyRequired' => 'एक मुद्रा की आवश्यकता है।',
+        'manager.subscriptionTypes.form.currencyValid' => 'कृपया एक वैध मुद्रा चुनें।',
+        'manager.subscriptionTypes.form.description' => 'विवरण',
+        'manager.subscriptionTypes.form.nonExpiring.expiresAfter' => 'के बाद समाप्त हो रहा है',
+        'manager.subscriptionTypes.form.nonExpiring.months' => 'महीने (e.g. 12)',
+        'manager.subscriptionTypes.form.nonExpiring.neverExpires' => 'कभी समाप्त नहीं होता हैं',
+        'manager.subscriptionTypes.form.nonExpiringValid' => 'कृपया दिए गए विकल्पों का उपयोग करें।',
+        'manager.subscriptionTypes.form.duration' => 'अवधि',
+        'manager.subscriptionTypes.form.durationInstructions' => 'सदस्यता की संख्या महीनों तक रहती है (e.g. 12).',
+        'manager.subscriptionTypes.form.durationNumeric' => 'अवधि एक सकारात्मक, संख्यात्मक मान होना चाहिए।',
+        'manager.subscriptionTypes.form.durationRequired' => 'एक अवधि की आवश्यकता है।',
+        'manager.subscriptionTypes.form.format' => 'स्वरूप',
+        'manager.subscriptionTypes.form.formatRequired' => 'एक सदस्यता प्रकार प्रारूप की आवश्यकता है।',
+        'manager.subscriptionTypes.form.formatValid' => 'कृपया एक मान्य सदस्यता प्रकार प्रारूप का चयन करें।',
+        'manager.subscriptionTypes.form.subscriptions' => 'सदस्यता',
+        'manager.subscriptionTypes.form.individual' => 'व्यक्तिगत (उपयोगकर्ता लॉगिन के माध्यम से मान्य हैं)',
+        'manager.subscriptionTypes.form.institutional' => 'संस्थागत (उपयोगकर्ता डोमेन या आईपी पते के माध्यम से मान्य हैं)',
+        'manager.subscriptionTypes.form.institutionalValid' => 'कृपया दिए गए विकल्पों का उपयोग करें।',
+        'manager.subscriptionTypes.form.membership' => 'सदस्यता के लिए सदस्यता की जानकारी की आवश्यकता होती है (जैसे कि किसी संघ, संगठन, सह-व्यवस्था, आदि का)',
+        'manager.subscriptionTypes.form.membershipValid' => 'कृपया दिए गए चेकबॉक्स का उपयोग करें।',
+        'manager.subscriptionTypes.form.options' => 'विकल्प',
+        'manager.subscriptionTypes.form.public' => 'इस सदस्यता प्रकार को सार्वजनिक रूप से वेबसाइट पर उपलब्ध या दृश्यमान न बनाएं।',
+        'manager.subscriptionTypes.form.publicValid' => 'कृपया दिए गए चेकबॉक्स का उपयोग करें।',
+        'manager.subscriptionTypes.form.saveAndCreateAnotherType' => 'सहेजें और दूसरा बनाएँ',
+        'manager.subscriptionTypes.form.typeName' => 'प्रकार का नाम',
+        'manager.subscriptionTypes.form.typeNameExists' => 'इस नाम के साथ एक सदस्यता प्रकार पहले से मौजूद है।',
+        'manager.subscriptionTypes.form.typeNameRequired' => 'सदस्यता प्रकार नाम आवश्यक है।',
+        'manager.subscriptionTypes.name' => 'सदस्यता प्रकार',
+        'manager.subscriptionTypes.noneCreated' => 'कोई सदस्यता प्रकार नहीं बनाए गए हैं।',
+        'manager.subscriptionTypes.subscriptionTypeCreatedSuccessfully' => 'सदस्यता प्रकार सफलतापूर्वक बनाया गया।',
+        'manager.navigationMenus.subscriptions.description' => 'आपके द्वारा प्रस्तावित सदस्यता का वर्णन करने वाले पृष्ठ से लिंक करें।',
+        'manager.navigationMenus.mySubscriptions.description' => 'आगंतुक की वर्तमान और पिछली सदस्यता का वर्णन करने वाले पृष्ठ से लिंक करें।',
+        'manager.navigationMenus.mySubscriptions.conditionalWarning' => 'यह लिंक केवल तब प्रदर्शित किया जाएगा जब कोई आगंतुक लॉग इन हो।',
+        'manager.setup.categories' => 'श्रेणियाँ',
+        'manager.setup.categories.description' => 'ऊपर सूचीबद्ध सेट से सबसे उपयुक्त श्रेणियां चुनें। पाठक पूर्ण जर्नल सेट से श्रेणी के अनुसार ब्राउज़ कर पाएंगे।',
+        'grid.category.path' => 'पथ',
+        'grid.action.addSection' => 'अनुभाग जोड़ें',
+        'manager.setup.section.description' => 'एक जर्नल के प्रकाशित मुद्दों के भीतर लेख अनुभागों में आयोजित किए जाते हैं, आमतौर पर विषय या सामग्री प्रकार (जैसे समीक्षा लेख, शोध, आदि) द्वारा।',
+        'settings.roles.gridDescription' => 'रोल्स जर्नल में उपयोगकर्ताओं के समूह हैं, जिन्हें विभिन्न अनुमति स्तरों और जर्नल के भीतर संबद्ध वर्कफ़्लोज़ तक पहुंच दी जाती है। पांच अलग-अलग अनुमति स्तर हैं: जर्नल प्रबंधकों के पास जर्नल में सब कुछ (सभी सामग्री और सेटिंग्स) तक पहुंच है; अनुभाग संपादकों को सभी असाइन की गई सामग्री तक पूरी पहुंच है; जर्नल असिस्टेंट के पास उन सभी सबमिशन तक सीमित पहुंच होती है जो उन्हें संपादक द्वारा स्पष्ट रूप से सौंपे गए हैं; समीक्षक उन सबमिशनों को देख और प्रदर्शन कर सकते हैं जिन्हें उन्हें समीक्षा के लिए सौंपा गया है; और लेखक अपने स्वयं के सबमिशन पर सीमित जानकारी के साथ देख और बातचीत कर सकते हैं। इसके अतिरिक्त, पांच अलग-अलग चरण असाइनमेंट हैं जिनकी भूमिकाओं तक पहुंच दी जा सकती है: प्रस्तुत करना, आंतरिक समीक्षा, समीक्षा, संपादकीय, और उत्पादन।',
+        'manager.publication.library' => 'प्रकाशक पुस्तकालय',
+        'manager.setup.copyrightYearBasis' => 'नए लेख के कॉपीराइट वर्ष को आधार बनाएं',
+        'manager.setup.copyrightYearBasis.article' => 'आलेख : डिफ़ॉल्ट वर्ष को लेख की प्रकाशन तिथि से तैयार किया जाएगा "publish-as-you-go".',
+        'manager.setup.copyrightYearBasis.issue' => 'अंक: डिफॉल्ट वर्ष अंक की प्रकाशन तिथि से तैयार किया जाएगा।',
+        'manager.setup.resetPermissions' => 'आलेख अनुमतियाँ रीसेट करें',
+        'manager.setup.resetPermissions.confirm' => 'क्या आप वाकई सभी लेखों के लिए अनुमतियाँ डेटा रीसेट करना चाहते हैं? यह कार्य दोबारा से नहीं हो सकता।',
+        'manager.setup.resetPermissions.description' => 'प्रत्येक प्रकाशित लेख के लिए कॉपीराइट स्टेटमेंट और लाइसेंस की जानकारी निकालें, उन्हें जर्नल की वर्तमान डिफ़ॉल्ट सेटिंग्स पर वापस लाएं। यह लेखों से जुड़ी सभी पूर्व कॉपीराइट और लाइसेंसिंग जानकारी को स्थायी रूप से हटा देगा। कुछ मामलों में, आपको कानूनी रूप से एक अलग लाइसेंस के तहत प्रकाशित किए गए काम को फिर से लाइसेंस देने की अनुमति नहीं दी जा सकती है। कृपया इस टूल का उपयोग करते समय सावधानी बरतें और कानूनी विशेषज्ञता से परामर्श करें यदि आप अनिश्चित हैं कि आप अपनी जर्नल में प्रकाशित लेखों पर क्या अधिकार रखते हैं।',
+        'manager.setup.resetPermissions.success' => 'आलेख अनुमतियाँ सफलतापूर्वक रीसेट कर दी गईं।',
+        'grid.genres.title.short' => 'अवयव',
+        'grid.genres.title' => 'लेख अवयव',
+        'grid.genres.description' => 'इन घटकों का उपयोग फ़ाइल-नामकरण उद्देश्यों के लिए किया जाता है और फ़ाइलों को अपलोड करने पर एक पुल-डाउन मेनू में प्रस्तुत किया जाता है। ## निर्दिष्ट शैलियों में उपयोगकर्ता को पूरे सबमिशन 99Z या संख्या के अनुसार किसी विशेष घटक के साथ फाइल को जोड़ने की अनुमति मिलती है (e.g., 02).',
+        'plugins.importexport.common.settings' => 'सेटिंग्स',
+        'plugins.importexport.common.settings.DOIPluginSettings' => 'DOI प्लगइन सेटिंग्स',
+        'plugins.importexport.common.export.articles' => 'आलेख',
+        'plugins.importexport.common.export.issues' => 'अंक',
+        'plugins.importexport.common.export.representations' => 'गैली',
+        'plugins.importexport.common.missingRequirements' => 'प्लगइन आवश्यकताओं को पूरा नहीं किया',
+        'plugins.importexport.common.error.DOIsNotAvailable' => 'इस प्लगइन का उपयोग करने के लिए कृपया "सार्वजनिक पहचानकर्ता" प्लगइन श्रेणी पर जाएं, DOI प्लगइन को सक्षम और कॉन्फ़िगर करें और वहां एक मान्य DOI उपसर्ग निर्दिष्ट करें।',
+        'plugins.importexport.common.error.pluginNotConfigured' => 'प्लगइन पूरी तरह से सेट नहीं है।',
+        'plugins.importexport.common.error.noDOIContentObjects' => 'कोई प्रकाशन ऑब्जेक्ट्स को DOI सार्वजनिक पहचानकर्ता प्लगइन में DOI असाइनमेंट के लिए नहीं चुना जाता है, इसलिए इस प्लगइन में कोई जमा या निर्यात संभावना नहीं है।',
+        'plugins.importexport.common.settings.form.password' => 'पासवर्ड',
+        'plugins.importexport.common.settings.form.password.description' => 'कृपया ध्यान दें कि पासवर्ड सादे पाठ के रूप में सहेजा जाएगा, अर्थात् एन्क्रिप्टेड नहीं।',
+        'plugins.importexport.common.filter.issue' => 'कोई अंक',
+        'plugins.importexport.common.status.any' => 'कोई भी स्थिति',
+        'plugins.importexport.common.status.notDeposited' => 'जमा नहीं',
+        'plugins.importexport.common.status.markedRegistered' => 'दर्ज की गई',
+        'plugins.importexport.common.status.registered' => 'पंजीकृत',
+        'plugins.importexport.common.action' => 'कार्य',
+        'plugins.importexport.common.action.export' => 'निर्यात',
+        'plugins.importexport.common.action.markRegistered' => 'मार्क पंजीकृत है',
+        'plugins.importexport.common.action.register' => 'रजिस्टर करें',
+        'plugins.importexport.common.validation' => 'निर्यात और पंजीकरण से पहले XML सत्यापित करें।',
+        'plugins.importexport.common.error.noObjectsSelected' => 'कोई ऑब्जेक्ट नहीं चुना गया।',
+        'plugins.importexport.common.error.validation' => 'चयनित वस्तुओं को परिवर्तित नहीं किया जा सका।',
+        'plugins.importexport.common.invalidXML' => 'अमान्य XML:',
+        'plugins.importexport.common.export.error.outputFileNotWritable' => 'आउटपुट फ़ाइल {$ param} लेखन योग्य नहीं है।',
+        'plugins.importexport.common.export.error.inputFileNotReadable' => 'इनपुट फ़ाइल {$ param} पठनीय नहीं है।',
+        'plugins.importexport.common.register.error.mdsError' => 'पंजीकरण सफल नहीं था! DOI पंजीकरण सर्वर ने एक त्रुटि लौटा दी: \'{$param}\'.',
+        'plugins.importexport.common.register.success' => 'पंजीकरण सफल!',
+        'plugins.importexport.common.senderTask.warning.noDOIprefix' => 'DOI उपसर्ग पथ के साथ जर्नल के लिए गायब है {$path}.',
+        'plugins.importexport.common.error.unknownObjects' => 'निर्दिष्ट ऑब्जेक्ट नहीं मिले।',
+        'manager.setup.notifications.copyPrimaryContact' => 'जर्नल सेटिंग्स में पहचाने गए प्राथमिक संपर्क के लिए एक प्रति भेजें।',
+        'stats.publicationStats' => 'आलेख आँकड़े',
+        'stats.publications.details' => 'आलेख विवरण',
+        'stats.publications.none' => 'इन मापदंडों से मेल खाने वाले उपयोग के आंकड़ों के साथ कोई लेख नहीं मिला।',
+        'stats.publications.totalAbstractViews.timelineInterval' => 'तारीख तक कुल सार दृश्य',
+        'stats.publications.totalGalleyViews.timelineInterval' => 'तारीख तक कुल फ़ाइल दृश्य',
+        'stats.publications.countOfTotal' => '{$count} {$total} लेखों की',
+        'stats.publications.abstracts' => 'सार',
+        'stats.publications.galleys' => 'फ़ाइलें',
+        'mailable.subscriptionNotify.description' => 'यह ईमेल एक पंजीकृत पाठक को सूचित करता है कि प्रबंधक ने उनके लिए एक सदस्यता बनाई है। यह एक्सेस के लिए निर्देशों के साथ जर्नल का URL प्रदान करता है.',
+        'mailable.subscriptionExpiresSoon.description' => 'यह ईमेल एक ग्राहक को सूचित करता है कि उनकी सदस्यता जल्द ही समाप्त हो जाएगी। यह एक्सेस के लिए निर्देशों के साथ जर्नल का URL प्रदान करता है.',
+        'mailable.subscriptionExpired.description' => 'यह ईमेल एक ग्राहक को सूचित करता है कि उनकी सदस्यता समाप्त हो गई है। यह एक्सेस के लिए निर्देशों के साथ जर्नल का URL प्रदान करता है.',
+        'mailable.subscriptionExpiredLast.description' => 'यह ईमेल एक ग्राहक को सूचित करता है कि उनकी सदस्यता समाप्त हो गई है। यह एक्सेस के लिए निर्देशों के साथ जर्नल का URL प्रदान करता है.',
+        'mailable.subscriptionPurchaseIndividual.description' => 'यह ईमेल सदस्यता प्रबंधक को सूचित करता है कि एक व्यक्तिगत सदस्यता ऑनलाइन खरीदी गई है। यह सदस्यता के बारे में सारांश जानकारी और खरीदी गई सदस्यता के लिए त्वरित पहुंच लिंक प्रदान करता है.',
+        'mailable.subscriptionPurchaseInstitutional.description' => 'यह ईमेल सदस्यता प्रबंधक को सूचित करता है कि एक संस्थागत सदस्यता ऑनलाइन खरीदी गई है। यह सदस्यता के बारे में सारांश जानकारी और खरीदी गई सदस्यता के लिए त्वरित पहुंच लिंक प्रदान करता है.',
+        'mailable.subscriptionRenewIndividual.description' => 'यह ईमेल सदस्यता प्रबंधक को सूचित करता है कि एक व्यक्तिगत सदस्यता ऑनलाइन नवीनीकृत हो गई है। यह सदस्यता के बारे में सारांश जानकारी और नवीनीकृत सदस्यता के लिए एक त्वरित पहुँच लिंक प्रदान करता है.',
+        'mailable.subscriptionRenewInstitutional.description' => 'यह ईमेल सदस्यता प्रबंधक को सूचित करता है कि एक संस्थागत सदस्यता ऑनलाइन नवीनीकृत की गई है। यह सदस्यता के बारे में सारांश जानकारी और नवीनीकृत सदस्यता के लिए एक त्वरित पहुँच लिंक प्रदान करता है.',
+        'mailable.openAccessNotify.description' => 'यह ईमेल उन पंजीकृत पाठकों को भेजा जाता है, जिन्होंने किसी अंक पर खुली पहुंच बनने पर अधिसूचना ईमेल प्राप्त करने का अनुरोध किया है.',
+        'submission.submit.userGroup' => 'मेरी भूमिका में प्रस्तुत करें...',
+        'submission.upload.selectComponent' => 'लेख घटक चुनें',
+        'submission.title' => 'लेख का शीर्षक',
+        'submission.title.tip' => 'सबमिशन प्रकार आमतौर पर \'इमेज\', \'टेक्स्ट\', या \'सॉफ्टवेयर\' या \'इंटरएक्टिव\' सहित अन्य मल्टीमीडिया प्रकारों में से एक है। कृपया अपने सबमिशन के लिए सबसे अधिक प्रासंगिक चुनें.  उदाहरण मिल सकते हैं  <a target="_blank" href="http://dublincore.org/documents/2001/04/12/usageguide/generic.shtml#type">http://dublincore.org/documents/2001/04/12/usageguide/generic.shtml#type</a>',
+        'submission.submit.newSubmissionMultiple' => 'में एक नया सबमिशन शुरू करें',
+        'submission.submit.newSubmissionSingle' => 'नई सबमिशन',
+        'grid.action.workflow' => 'सबमिशन वर्कफ़्लो',
+        'submission.abstract.wordCount.description' => 'सार {$ wordCount} शब्द या उससे कम का होना चाहिए ।',
+        'submission.submit.noContext' => 'इस सबमिशन की जर्नल नहीं मिल सकी ।',
+        'submission.issueEntry' => 'मेटाडाटा',
+        'submission.submit.whatNext.description' => 'जर्नल  को आपके प्रस्तुत करने के बारे में सूचित किया गया है, और आपको अपने रिकॉर्ड के लिए एक पुष्टिकरण ईमेल किया गया है। एक बार संपादक ने सबमिशन की समीक्षा की, तो वे आपसे संपर्क करेंगे ।',
+        'grid.action.galleyInIssueEntry' => 'गैली अंक प्रविष्टि में दिखाई देता है',
+        'grid.action.issueEntry' => 'इस सबमिशन का मेटाडेटा देखें',
+        'submission.event.articleGalleyMadeAvailable' => 'लेख गैली"{$galleyFormatName}" उपलब्ध कराया गया है ।',
+        'submission.event.articleGalleyMadeUnavailable' => 'लेख गैली"{$galleyFormatName}" उपलब्ध कराया गया है ।',
+        'submission.event.publicIdentifiers' => 'सबमिशन के सार्वजनिक पहचानकर्ताओं को अपडेट किया गया ।',
+        'grid.issueEntry.availableGalley.title' => 'प्रारूप स्वीकृति',
+        'grid.issueEntry.availableGalley.removeMessage' => '<p> यह गैली <em> अब पाठकों को उपलब्ध </ em> नहीं कराई जाएगी </ p>',
+        'grid.issueEntry.availableGalley.message' => '<p> यह गैली <em> अब पाठकों को उपलब्ध </ em> कराई जाएगी </ p>',
+        'grid.action.availableArticleGalley' => 'इस गैली को उपलब्ध कराएं',
+        'submission.galleyFiles' => 'गैली फाइलें',
+        'submission.proofReadingDescription' => 'लेआउट संपादक उत्पादन-तैयार फ़ाइलों को अपलोड करता है जो यहां प्रकाशन के लिए तैयार किए गए हैं। प्रकाशन से पहले अनुमोदन के लिए अपलोड की गई सही फ़ाइलों के साथ, गैलीस को प्रमाणित करने के लिए लेखकों और अन्य को नामित करने के लिए <em> असाइन ऑडिटर </ em> का उपयोग करें।',
+        'grid.action.approveProof' => 'गैली में शामिल करने के लिए इस प्रमाण को स्वीकार करें ।',
+        'grid.action.pageProofApproved' => 'इस प्रमाण को गैली में शामिल करने के लिए मंजूरी दे दी गई है ।',
+        'submission.submit.titleAndSummary' => 'शीर्षक और सार',
+        'submission.submit.upload.description' => 'इस सबमिशन से जुड़ी फाइलें अपलोड करें, जिसमें आर्टिकल, मल्टीमीडिया, डेटा सेट, आर्टवर्क आदि शामिल हैं ।',
+        'submission.pageProofs' => 'प्रूफ़रीडिंग',
+        'workflow.review.externalReview' => 'समीक्षा',
+        'submission.event.issueMetadataUpdated' => 'सबमिशन्स अंक मेटाडेटा अद्यतन किया गया था ।',
+        'submission.upload.fileContents' => 'लेख घटक',
+        'submission.complete' => 'स्वीकृत',
+        'submission.incomplete' => 'स्वीकृति का इंतजार',
+        'submission.submit.submissionChecklist' => 'सबमिशन चेकलिस्ट',
+        'submission.submit.privacyStatement' => 'गोपनीयता वाले कथन',
+        'submission.submit.contributorRole' => 'योगदानकर्ता की भूमिका',
+        'submission.citationFormat.notFound' => 'अनुरोधित उद्धरण प्रारूप पुनर्प्राप्त नहीं किया जा सका।',
+        'submission.metadataDescription' => 'ये विनिर्देश डबलिन कोर मेटाडेटा सेट पर आधारित हैं, जो एक अंतरराष्ट्रीय मानक है जिसका उपयोग जर्नल सामग्री का वर्णन करने के लिए किया जाता है ।',
+        'section.any' => 'कोई खंड',
+        'submission.sectionOptions' => 'अनुभाग विकल्प',
+        'catalog.browseTitles' => '{$numTitles} आइटम',
+        'catalog.category.heading' => 'सभी आइटम',
+        'galley.editPublishedDisabled' => 'इस प्रकाशन की गैलियों को संपादित नहीं किया जा सकता क्योंकि यह पहले ही प्रकाशित हो चुकी है।',
+        'galley.publicationNotFound' => 'इस गैली के लिए प्रकाशन नहीं मिल सका।',
+        'publication.datePublished.description' => 'अंक प्रकाशित होने पर प्रकाशन की तिथि अपने आप निर्धारित हो जाएगी। जब तक लेख पहले कहीं और प्रकाशित नहीं किया गया था, तब तक आप प्रकाशन तिथि दर्ज न करें और आपको इसे वापस करने की आवश्यकता है।',
+        'publication.invalidSection' => 'इस प्रकाशन के लिए अनुभाग नहीं मिला।',
+        'publication.invalidIssue' => 'इस प्रकाशन के लिए अंक नहीं मिल सका।',
+        'publication.publish.confirmation' => 'सभी प्रकाशन आवश्यकताओं को पूरा किया गया है। क्या आप वाकई इसे प्रकाशित करना चाहते हैं?',
+        'publication.publish.confirmation.futureIssue' => 'सभी प्रकाशन आवश्यकताओं को पूरा किया गया है। {$issue}प्रकाशित होने पर इसे प्रकाशित किया जाएगा। क्या आप वाकई प्रकाशन के लिए इसे शेड्यूल करना चाहते हैं?',
+        'publication.publish.confirmation.backIssue' => 'सभी प्रकाशन आवश्यकताओं को पूरा किया गया है। इसे तुरंत {$issue} में प्रकाशित किया जाएगा। क्या आप वाकई इसे प्रकाशित करना चाहते हैं?',
+        'publication.required.issue' => 'प्रकाशन को प्रकाशित करने से पहले उसे किसी अंक को सौंपा जाना चाहिए।',
+        'publication.publishedIn' => 'में प्रकाशित <a href="{$issueUrl}">{$issueName}</a>.',
+        'publication.scheduledIn' => 'में प्रकाशन के लिए निर्धारित <a href="{$issueUrl}">{$issueName}</a>.',
+        'submission.submit.form.authorRequired' => 'कम से कम एक लेखक की आवश्यकता है ।',
+        'submission.submit.form.titleRequired' => 'कृपया अपने लेख का शीर्षक दर्ज करें ।',
+        'submission.submit.form.abstractRequired' => 'कृपया अपने लेख का सार दर्ज करें।',
+        'submission.submit.form.wordCountAlert' => 'आपका सार बहुत लंबा है। कृपया इस अनुभाग के लिए इंगित शब्द सीमा के नीचे इसे छोटा करें।',
+        'submission.submit.form.contributorRoleRequired' => 'कृपया योगदानकर्ता की भूमिका का चयन करें।',
+        'emails.passwordResetConfirm.subject' => 'पासवर्ड रीसेट पुष्टि',
+        'emails.passwordResetConfirm.body' => 'हमें {$siteTitle} वेब साइट के लिए आपका पासवर्ड रीसेट करने का अनुरोध मिला है.<br />
+<br />
+यदि आपने यह अनुरोध नहीं किया है, तो कृपया इस ईमेल को अनदेखा करें और आपका पासवर्ड परिवर्तित नहीं किया जाएगा। यदि आप अपना पासवर्ड रीसेट करना चाहते हैं, तो नीचे दिए गए URL पर क्लिक करें.<br />
+<br />
+Reset my password: {$passwordResetUrl}<br />
+<br />
+{$siteContactName}',
+        'emails.userRegister.subject' => 'जर्नल पंजीकरण',
+        'emails.userRegister.body' => '{$recipientName}<br />
+<br />
+अब आपको {$contextName} वाले उपयोगकर्ता के रूप में पंजीकृत किया गया है। हमने इस ईमेल में आपके उपयोगकर्ता नाम और पासवर्ड को शामिल किया है, जो इस वेबसाइट के माध्यम से इस जर्नल के साथ काम करने के लिए आवश्यक हैं। किसी भी बिंदु पर, आप मुझसे संपर्क करके जर्नल की उपयोगकर्ताओं की सूची से निकाले जाने के लिए कह सकते हैं.<br />
+<br />
+Username: {$recipientUsername}<br />
+Password: {$password}<br />
+<br />
+Thank you,<br />
+{$signature}',
+        'emails.userValidateContext.subject' => 'अपना खाता मान्य करें',
+        'emails.userValidateContext.body' => '{$recipientName}<br />
+<br />
+आपने {$contextName} के साथ एक खाता बनाया है, लेकिन इससे पहले कि आप इसका उपयोग शुरू कर सकें, आपको अपने ईमेल खाते को मान्य करना होगा। ऐसा करने के लिए, बस नीचे दिए गए लिंक का पालन करें:<br />
+<br />
+{$activateUrl}<br />
+<br />
+Thank you,<br />
+{$contextSignature}',
+        'emails.reviewerRegister.subject' => '{$contextName}के साथ समीक्षक के रूप में पंजीकरण',
+        'emails.reviewerRegister.body' => 'आपकी विशेषज्ञता के प्रकाश में, हमने {$contextName} के लिए समीक्षक डेटाबेस में आपका नाम दर्ज करने की स्वतंत्रता ले ली है। यह आपकी ओर से किसी भी प्रकार की प्रतिबद्धता को पूरा नहीं करता है, लेकिन संभवतया समीक्षा के लिए प्रस्तुत करने के लिए बस हमें आपसे संपर्क करने में सक्षम बनाता है। समीक्षा के लिए आमंत्रित किए जाने पर, आपके पास प्रश्न में कागज का शीर्षक और सार देखने का अवसर होगा, और आप हमेशा आमंत्रण को स्वीकार या अस्वीकार करने की स्थिति में होंगे। आप किसी भी बिंदु पर इस समीक्षक सूची से अपना नाम हटाने के लिए कह सकते हैं.<br />
+<br />
+हम आपको एक उपयोगकर्ता नाम और पासवर्ड प्रदान कर रहे हैं, जो अपनी वेबसाइट के माध्यम से जर्नल के साथ सभी बातचीत में उपयोग किया जाता है। उदाहरण के लिए, आप अपनी समीक्षा हितों सहित अपनी प्रोफ़ाइल को अपडेट कर सकते हैं.<br />
+<br />
+Username: {$recipientUsername}<br />
+Password: {$password}<br />
+<br />
+Thank you,<br />
+{$signature}',
+        'emails.issuePublishNotify.subject' => 'नया अंक प्रकाशित',
+        'emails.issuePublishNotify.body' => 'Readers:<br />
+<br />
+{$contextName} ने अभी हाल ही में  {$contextUrl} पर अपना नवीनतम अंक प्रकाशित किया है। हम आपको यहां सामग्री की समीक्षा करने के लिए आमंत्रित करते हैं और फिर लेख और रुचि की वस्तुओं की समीक्षा करने के लिए हमारी वेब साइट पर जाते हैं.<br />
+<br />
+हमारे काम में निरंतर रुचि के लिए धन्यवाद,<br />
+{$signature}',
+        'emails.editorAssign.subject' => 'संपादकीय असाइनमेंट',
+        'emails.editorAssign.body' => '{$recipientName}:<br />
+<br />
+प्रस्तुत, &quot;{$submissionTitle},&quot; to {$contextName} आपको सेक्शन एडिटर के रूप में अपनी भूमिका में संपादकीय प्रक्रिया के माध्यम से देखने का काम सौंपा गया है.<br />
+<br />
+Submission URL: {$submissionUrl}<br />
+Username: {$recipientUsername}<br />
+<br />
+Thank you.',
+        'emails.reviewRequest.subject' => 'लेख समीक्षा का अनुरोध',
+        'emails.reviewRequest.body' => '{$recipientName}:<br />
+<br />
+मुझे विश्वास है कि आप पांडुलिपि के एक उत्कृष्ट समीक्षक के रूप में काम करेंगे, &quot;{$submissionTitle},&quot; जिसे {$contextName}को सबमिट किया गया है। सबमिशन का सार नीचे दिया गया है, और मुझे आशा है कि आप हमारे लिए इस महत्वपूर्ण कार्य को करने पर विचार करेंगे.<br />
+<br />
+कृपया जर्नल वेब साइट पर लॉग इन करें {$responseDueDate} यह इंगित करने के लिए कि क्या आप समीक्षा करेंगे या नहीं, साथ ही सबमिशन तक पहुँचने के लिए और अपनी समीक्षा और अनुशंसा दर्ज करने के लिए। वेब साइट है {$contextUrl}<br />
+<br />
+The review itself is due {$reviewDueDate}.<br />
+<br />
+यदि आपके पास जर्नल की वेब साइट के लिए आपका उपयोगकर्ता नाम और पासवर्ड नहीं है, तो आप अपना पासवर्ड रीसेट करने के लिए इस लिंक का उपयोग कर सकते हैं (जो तब आपके उपयोगकर्ता नाम के साथ आपको ईमेल किया जाएगा). {$passwordLostUrl}<br />
+<br />
+Submission URL: {$reviewAssignmentUrl}<br />
+<br />
+इस अनुरोध पर विचार करने के लिए धन्यवाद.<br />
+<br />
+{$signature}<br />
+<br />
+&quot;{$submissionTitle}&quot;<br />
+<br />
+{$submissionAbstract}',
+        'emails.reviewResponseOverdueAuto.subject' => 'लेख समीक्षा का अनुरोध',
+        'emails.reviewResponseOverdueAuto.body' => '{$recipientName}:<br />
+प्रस्तुत करने की आपकी समीक्षा के लिए हमारे अनुरोध का एक सौम्य अनुस्मारक, &quot;{$submissionTitle},&quot; for {$contextName}. हम {$ responseDueDate} द्वारा आपकी प्रतिक्रिया की उम्मीद कर रहे थे, और यह ईमेल स्वचालित रूप से जनरेट किया गया है और उस तारीख को पारित करने के साथ भेजा गया है.
+<br />
+मुझे विश्वास है कि आप पांडुलिपि के एक उत्कृष्ट समीक्षक के रूप में काम करेंगे। सबमिशन का सार नीचे दिया गया है, और मुझे आशा है कि आप हमारे लिए इस महत्वपूर्ण कार्य को करने पर विचार करेंगे.<br />
+<br />
+कृपया यह दर्शाने के लिए जर्नल वेब साइट पर लॉग इन करें कि क्या आप समीक्षा करेंगे या नहीं, साथ ही सबमिशन तक पहुँचने के लिए और अपनी समीक्षा और सिफारिश रिकॉर्ड करने के लिए। वेब साइट है {$contextUrl}<br />
+<br />
+समीक्षा स्वयं होने वाली है {$reviewDueDate}.<br />
+<br />
+यदि आपके पास जर्नल की वेब साइट के लिए आपका उपयोगकर्ता नाम और पासवर्ड नहीं है, तो आप अपना पासवर्ड रीसेट करने के लिए इस लिंक का उपयोग कर सकते हैं (जो तब आपके उपयोगकर्ता नाम के साथ आपको ईमेल किया जाएगा). {$passwordLostUrl}<br />
+<br />
+Submission URL: {$reviewAssignmentUrl}<br />
+<br />
+इस अनुरोध पर विचार करने के लिए धन्यवाद.<br />
+<br />
+{$contextSignature}<br />
+<br />
+&quot;{$submissionTitle}&quot;<br />
+<br />
+{$submissionAbstract}',
+        'emails.reviewRequestSubsequent.subject' => 'लेख समीक्षा का अनुरोध',
+        'emails.reviewRequestSubsequent.body' => '{$recipientName}:<br />
+<br />
+यह पांडुलिपि का संबंध है &quot;{$submissionTitle},&quot; जो विचाराधीन है {$contextName}.<br />
+<br />
+पांडुलिपि के पिछले संस्करण की समीक्षा के बाद, लेखकों ने अब अपने पेपर का एक संशोधित संस्करण प्रस्तुत किया है। यदि आप इसका मूल्यांकन करने में मदद कर सकते हैं तो हम इसकी सराहना करेंगे.<br />
+<br />
+कृपया यह दिखाने के लिए कि क्या आप समीक्षा करेंगे या नहीं, साथ ही सबमिशन एक्सेस करने और अपनी समीक्षा और अनुशंसा दर्ज करने के लिए कृपया {$responseDueDate} द्वारा जर्नल वेब साइट पर लॉग इन करें। वेब साइट है {$contextUrl}<br />
+<br />
+समीक्षा स्वयं होने वाली है{$reviewDueDate}.<br />
+<br />
+यदि आपके पास जर्नल की वेब साइट के लिए आपका उपयोगकर्ता नाम और पासवर्ड नहीं है, तो आप अपना पासवर्ड रीसेट करने के लिए इस लिंक का उपयोग कर सकते हैं (जो तब आपके उपयोगकर्ता नाम के साथ आपको ईमेल किया जाएगा). {$passwordLostUrl}<br />
+<br />
+सबमिशन URL: {$reviewAssignmentUrl}<br />
+<br />
+इस अनुरोध पर विचार करने के लिए धन्यवाद।<br />
+<br />
+{$signature}<br />
+<br />
+&quot;{$submissionTitle}&quot;<br />
+<br />
+{$submissionAbstract}',
+        'emails.reviewCancel.subject' => 'समीक्षा रद्द करने का अनुरोध',
+        'emails.reviewCancel.body' => '{$recipientName}:<br />
+<br />
+हमने इस बिंदु पर निर्णय लिया है कि आप सबमिशन की समीक्षा करने के लिए हमारा अनुरोध रद्द कर दें, &quot;{$submissionTitle},&quot; for {$contextName}. हम आपसे किसी भी असुविधा के लिए क्षमा चाहते हैं और यह आशा करते हैं कि हम भविष्य में इस पत्रिका की समीक्षा प्रक्रिया में सहायता करने के लिए आपको कॉल कर सकेंगे।.<br />
+<br />
+यदि आपके पास किसी तरह का प्रश्न है, तो कृपया मुझ से सम्पर्क करें.',
+        'emails.reviewReinstate.subject' => 'पुनर्स्थापना के लिए अनुरोध',
+        'emails.reviewReinstate.body' => '{$recipientName}:<br />
+<br />
+हम आपके द्वारा प्रस्तुत समीक्षा की समीक्षा करने के लिए आपके अनुरोध को पुनः स्थापित करना चाहेंगे, &quot;{$submissionTitle},&quot; for {$contextName}. हमें उम्मीद है कि आप इस पत्रिका की समीक्षा प्रक्रिया में सहायता कर पाएंगे.<br />
+<br />
+यदि आपके पास किसी तरह का प्रश्न है, तो कृपया मुझ से सम्पर्क करें।',
+        'emails.reviewDecline.subject' => 'समीक्षा करने में असमर्थ',
+        'emails.reviewDecline.body' => 'Editors:<br />
+<br />
+मुझे डर है कि इस समय मैं सबमिशन की समीक्षा करने में असमर्थ हूं, &quot;{$submissionTitle},&quot; for {$contextName}. मुझे सोचने के लिए धन्यवाद, और एक और समय मुझे कॉल करने के लिए स्वतंत्र महसूस हो रहा है.<br />
+<br />
+{$senderName}',
+        'emails.reviewRemind.subject' => 'सबमिशन रिव्यू रिमाइंडर',
+        'emails.reviewRemind.body' => '{$recipientName}:<br />
+<br />
+प्रस्तुत करने की आपकी समीक्षा के लिए हमारे अनुरोध का एक सौम्य अनुस्मारक, &quot;{$submissionTitle},&quot; for {$contextName}. हम {$ reviewDueDate} द्वारा इस समीक्षा की उम्मीद कर रहे थे, और जैसे ही आप इसे तैयार करने वाले हैं, इसे प्राप्त करके प्रसन्न होंगे.<br />
+<br />
+यदि आपके पास जर्नल की वेब साइट के लिए आपका उपयोगकर्ता नाम और पासवर्ड नहीं है, तो आप अपना पासवर्ड रीसेट करने के लिए इस लिंक का उपयोग कर सकते हैं (जो तब आपके उपयोगकर्ता नाम के साथ आपको ईमेल किया जाएगा)। {$ PasswordResetUrl}<br />
+<br />
+Submission URL: {$reviewAssignmentUrl}<br />
+<br />
+कृपया जर्नल के काम में इस महत्वपूर्ण योगदान को पूरा करने की अपनी क्षमता की पुष्टि करें। तुम्हारे उत्तर की प्रतीक्षा है मुझे.<br />
+<br />
+{$signature}',
+        'emails.reviewRemindAuto.subject' => 'ऑटोमेटेड सबमिशन रिव्यू रिमाइंडर',
+        'emails.reviewRemindAuto.body' => '{$recipientName}:<br />
+<br />
+प्रस्तुत करने की आपकी समीक्षा के लिए हमारे अनुरोध का एक सौम्य अनुस्मारक, &quot;{$submissionTitle},&quot; for {$contextName}. हम {$ reviewDueDate} द्वारा इस समीक्षा की उम्मीद कर रहे थे, और यह ईमेल स्वचालित रूप से जनरेट किया गया है और उस तारीख को पारित करने के साथ भेजा गया है। जैसे ही आप इसे तैयार करने में सक्षम होंगे, हम इसे प्राप्त करके प्रसन्न होंगे.<br />
+<br />
+यदि आपके पास जर्नल की वेब साइट के लिए आपका उपयोगकर्ता नाम और पासवर्ड नहीं है, तो आप अपना पासवर्ड रीसेट करने के लिए इस लिंक का उपयोग कर सकते हैं (जो तब आपके उपयोगकर्ता नाम के साथ आपको ईमेल किया जाएगा)। {$ PasswordResetUrl}<br />
+<br />
+Submission URL: {$reviewAssignmentUrl}<br />
+<br />
+कृपया जर्नल के काम में इस महत्वपूर्ण योगदान को पूरा करने की अपनी क्षमता की पुष्टि करें। तुम्हारे उत्तर की प्रतीक्षा है मुझे.<br />
+<br />
+{$contextSignature}',
+        'emails.editorDecisionAccept.subject' => 'संपादक का निर्णय',
+        'emails.editorDecisionAccept.body' => '{$authors}:<br />
+<br />
+हम आपके सबमिशन के बारे में निर्णय ले चुके हैं to {$contextName}, &quot;{$submissionTitle}&quot;.<br />
+<br />
+हमारा निर्णय है: सबमिशन को स्वीकार करना',
+        'emails.layoutRequest.subject' => 'अनुरोध गैलीज़',
+        'emails.layoutRequest.body' => '{$recipientName}:<br />
+<br />
+The submission &quot;{$submissionTitle}&quot; to {$contextName} अब इन चरणों का पालन करके गैलियों की जरूरत है.<br />
+1. नीचे दिए गए सबमिशन यूआरएल पर क्लिक करें.<br />
+2. जर्नल में लॉग इन करें और जर्नल के मानकों के अनुसार गैलिलियों को बनाने के लिए प्रोडक्शन रेडी फाइलों का उपयोग करें.<br />
+3. गैलीज़ को गैली फ़ाइल्स अनुभाग में अपलोड करें.<br />
+4. प्रोडक्शन डिस्कशन का उपयोग करके संपादक को सूचित करें कि गैलिसियां अपलोड और तैयार हैं.<br />
+<br />
+{$contextName} URL: {$contextUrl}<br />
+Submission URL: {$submissionUrl}<br />
+Username: {$recipientUsername}<br />
+<br />
+यदि आप इस समय यह कार्य करने में असमर्थ हैं या कोई प्रश्न हैं, तो कृपया मुझसे संपर्क करें। इस जर्नल में आपके योगदान के लिए धन्यवाद.',
+        'emails.layoutComplete.subject' => 'गैलीज़ पूर्ण',
+        'emails.layoutComplete.body' => '{$recipientName}:<br />
+<br />
+पांडुलिपि के लिए अब गैलीज़  तैयार की गई हैं, &quot;{$submissionTitle},&quot; for {$contextName} and are ready for proofreading.<br />
+<br />
+यदि आपके पास किसी तरह का प्रश्न है, तो कृपया मुझ से सम्पर्क करें.<br />
+<br />
+{$senderName}',
+        'emails.emailLink.subject' => 'संभावित ब्याज का आलेख',
+        'emails.emailLink.body' => 'सोचा कि आपको देखने में दिलचस्पी हो सकती है &quot;{$submissionTitle}&quot; by {$authors} published in Vol {$volume}, No {$number} ({$year}) of {$contextName} at &quot;{$submissionUrl}&quot;.',
+        'emails.emailLink.description' => 'यह ईमेल टेम्प्लेट एक पंजीकृत पाठक को एक लेख के बारे में जानकारी भेजने का अवसर प्रदान करता है, जिसे कोई दिलचस्पी हो। यह रीडिंग टूल्स के माध्यम से उपलब्ध है और जर्नल मैनेजर द्वारा रीडिंग टूल्स एडमिनिस्ट्रेशन पेज में सक्षम होना चाहिए.',
+        'emails.subscriptionNotify.subject' => 'सदस्यता अधिसूचना',
+        'emails.subscriptionNotify.body' => '{$recipientName}:<br />
+<br />
+अब आप हमारी ऑनलाइन जर्नल मैनेजमेंट सिस्टम में {$contextName} के लिए एक सब्सक्राइबर के रूप में पंजीकृत हो गए हैं, निम्नलिखित सदस्यता के साथ:<br />
+<br />
+{$subscriptionType}<br />
+<br />
+केवल ग्राहकों के लिए उपलब्ध सामग्री तक पहुँचने के लिए, सिस्टम में अपने यूज़रनेम के साथ लॉग इन करें, &quot;{$recipientUsername}&quot;.<br />
+<br />
+एक बार जब आप सिस्टम में लॉग इन कर लेते हैं तो आप किसी भी बिंदु पर अपना प्रोफ़ाइल विवरण और पासवर्ड बदल सकते हैं.<br />
+<br />
+कृपया ध्यान दें कि यदि आपके पास एक संस्थागत सदस्यता है, तो आपके संस्थान में उपयोगकर्ताओं को लॉग इन करने की कोई आवश्यकता नहीं है, क्योंकि सदस्यता सामग्री के लिए अनुरोध स्वचालित रूप से सिस्टम द्वारा प्रमाणित किया जाएगा।.<br />
+<br />
+यदि आपके कोई प्रश्न हैं, तो कृपया मुझसे बेझिझक संपर्क करें.<br />
+<br />
+{$subscriptionSignature}',
+        'emails.openAccessNotify.subject' => 'अंक अब ओपन एक्सेस',
+        'emails.openAccessNotify.body' => 'Readers:<br />
+<br />
+{$contextName} निम्नलिखित मुद्दे पर सिर्फ एक ओपन एक्सेस फॉर्मेट में उपलब्ध कराया गया है। हम आपको यहां सामग्री की तालिका की समीक्षा करने के लिए आमंत्रित करते हैं और फिर लेख और रुचि की वस्तुओं की समीक्षा करने के लिए हमारी वेब साइट ({$contextUrl}) पर जाएं।.<br />
+<br />
+हमारे काम में निरंतर रुचि के लिए धन्यवाद,<br />
+{$contextSignature}',
+        'emails.subscriptionBeforeExpiry.subject' => 'सदस्यता समाप्ति की सूचना',
+        'emails.subscriptionBeforeExpiry.body' => '{$recipientName}:<br />
+<br />
+आपकी {$contextName} सदस्यता समाप्त होने वाली है.<br />
+<br />
+{$subscriptionType}<br />
+Expiry date: {$expiryDate}<br />
+<br />
+इस पत्रिका तक अपनी पहुंच की निरंतरता सुनिश्चित करने के लिए, कृपया वेबसाइट पर जाएं और अपनी सदस्यता को नवीनीकृत करें। आप अपने उपयोगकर्ता नाम के साथ सिस्टम में लॉग इन करने में सक्षम हैं, &quot;{$recipientUsername}&quot;.<br />
+<br />
+यदि आपके कोई प्रश्न हैं, तो कृपया मुझसे बेझिझक संपर्क करें.<br />
+<br />
+{$subscriptionSignature}',
+        'emails.subscriptionAfterExpiry.subject' => 'सदस्यता समाप्त हो गई',
+        'emails.subscriptionAfterExpiry.body' => '{$recipientName}:<br />
+<br />
+आपकी {$contextName} सदस्यता समाप्त हो गई है.<br />
+<br />
+{$subscriptionType}<br />
+Expiry date: {$expiryDate}<br />
+<br />
+अपनी सदस्यता को नवीनीकृत करने के लिए, कृपया जर्नल वेबसाइट पर जाएं। आप अपने उपयोगकर्ता नाम के साथ सिस्टम में लॉग इन करने में सक्षम हैं, &quot;{$recipientUsername}&quot;.<br />
+<br />
+यदि आपके कोई प्रश्न हैं, तो कृपया मुझसे बेझिझक संपर्क करें.<br />
+<br />
+{$subscriptionSignature}',
+        'emails.subscriptionAfterExpiryLast.subject' => 'सदस्यता समाप्त - अंतिम अनुस्मारक',
+        'emails.subscriptionAfterExpiryLast.body' => '{$recipientName}:<br />
+<br />
+आपकी {$contextName} सदस्यता समाप्त हो गई है.<br />
+कृपया ध्यान दें कि यह अंतिम अनुस्मारक है जिसे आपको ईमेल किया जाएगा.<br />
+<br />
+{$subscriptionType}<br />
+Expiry date: {$expiryDate}<br />
+<br />
+अपनी सदस्यता को नवीनीकृत करने के लिए, कृपया जर्नल वेबसाइट पर जाएं। आप अपने उपयोगकर्ता नाम के साथ सिस्टम में लॉग इन करने में सक्षम हैं, &quot;{$recipientUsername}&quot;.<br />
+<br />
+यदि आपके कोई प्रश्न हैं, तो कृपया मुझसे बेझिझक संपर्क करें.<br />
+<br />
+{$subscriptionSignature}',
+        'emails.subscriptionPurchaseIndl.subject' => 'सदस्यता खरीद: व्यक्तिगत',
+        'emails.subscriptionPurchaseIndl.body' => 'निम्नलिखित विवरण के साथ {$ contextName} के लिए एक व्यक्तिगत सदस्यता ऑनलाइन खरीदी गई है।<br />
+<br />
+Subscription Type:<br />
+{$subscriptionType}<br />
+<br />
+User:<br />
+{$subscriberDetails}<br />
+<br />
+सदस्यता जानकारी (यदि प्रदान की गई है):<br />
+{$membership}<br />
+<br />
+इस सदस्यता को देखने या संपादित करने के लिए, कृपया निम्न URL का उपयोग करें.<br />
+<br />
+Subscription URL: {$subscriptionUrl}<br />
+',
+        'emails.subscriptionPurchaseInstl.subject' => 'सदस्यता खरीद: व्यक्तिगत',
+        'emails.subscriptionPurchaseInstl.body' => 'निम्नलिखित विवरण के साथ {$contextName} के लिए एक संस्थागत सदस्यता ऑनलाइन खरीदी गई है। इस सदस्यता को सक्रिय करने के लिए, कृपया दिए गए सदस्यता URL का उपयोग करें और सदस्यता की स्थिति को \'सक्रिय\' पर सेट करें.<br />
+<br />
+Subscription Type:<br />
+{$subscriptionType}<br />
+<br />
+Institution:<br />
+{$institutionName}<br />
+{$institutionMailingAddress}<br />
+<br />
+Domain (if provided):<br />
+{$domain}<br />
+<br />
+IP Ranges (if provided):<br />
+{$ipRanges}<br />
+<br />
+Contact Person:<br />
+{$subscriberDetails}<br />
+<br />
+सदस्यता जानकारी (यदि प्रदान की गई है):<br />
+{$membership}<br />
+<br />
+इस सदस्यता को देखने या संपादित करने के लिए, कृपया निम्न URL का उपयोग करें.<br />
+<br />
+सदस्यता URL: {$subscriptionUrl}<br />
+',
+        'emails.subscriptionRenewIndl.subject' => 'सदस्यता नवीनीकरण: व्यक्तिगत',
+        'emails.subscriptionRenewIndl.body' => 'निम्नलिखित विवरण के साथ {$contextName} के लिए एक व्यक्तिगत सदस्यता ऑनलाइन नवीनीकृत की गई है.<br />
+<br />
+Subscription Type:<br />
+{$subscriptionType}<br />
+<br />
+User:<br />
+{$subscriberDetails}<br />
+<br />
+सदस्यता जानकारी (यदि प्रदान की गई है):<br />
+{$membership}<br />
+<br />
+इस सदस्यता को देखने या संपादित करने के लिए, कृपया निम्न URL का उपयोग करें.<br />
+<br />
+सदस्यता URL: {$subscriptionUrl}<br />
+',
+        'emails.subscriptionRenewInstl.subject' => 'सदस्यता नवीनीकरण: व्यक्तिगत',
+        'emails.subscriptionRenewInstl.body' => 'निम्नलिखित विवरण के साथ {$contextName} के लिए एक संस्थागत सदस्यता ऑनलाइन नवीनीकृत की गई है.<br />
+<br />
+Subscription Type:<br />
+{$subscriptionType}<br />
+<br />
+Institution:<br />
+{$institutionName}<br />
+{$institutionMailingAddress}<br />
+<br />
+डोमेन (यदि प्रदान किया गया है):<br />
+{$domain}<br />
+<br />
+आईपी रेंज (यदि प्रदान की गई है):<br />
+{$ipRanges}<br />
+<br />
+संपर्क व्यक्ति:<br />
+{$subscriberDetails}<br />
+<br />
+सदस्यता जानकारी (यदि प्रदान की गई है):<br />
+{$membership}<br />
+<br />
+इस सदस्यता को देखने या संपादित करने के लिए, कृपया निम्न URL का उपयोग करें.<br />
+<br />
+सदस्यता URL: {$subscriptionUrl}<br />
+',
+        'emails.revisedVersionNotify.subject' => 'संशोधित संस्करण अपलोड किया गया',
+        'emails.revisedVersionNotify.body' => 'संपादकों:<br />
+<br />
+का संशोधित संस्करण &quot;{$submissionTitle}&quot; लेखक द्वारा अपलोड किया गया है {$submitterName}.<br />
+<br />
+सबमिशन URL: {$submissionUrl}<br />
+<br />
+{$signature}',
+        'emails.statisticsReportNotification.subject' => '{$ माह}, {$ वर्ष} के लिए संपादकीय गतिविधि',
+        'author.submit' => 'नई सबमिशन',
+        'author.track' => 'सक्रिय सबमिशन',
+        'author.submit.submitArticle' => 'लेख प्रस्तुत करें',
+        'author.submit.stepsToSubmit' => 'सबमिट करने के लिए पाँच चरण',
+        'author.submit.startHereTitle' => 'एक नया सबमिशन शुरू करें',
+        'author.submit.startHereLink' => '<a href="{$submitUrl}" class="action">Click here</a> to go to step one of the five-step submission process.',
+        'author.submit.step1' => 'चरण 1. सबमिशन शुरू करना',
+        'author.submit.step2' => 'चरण 2. सबमिशन अपलोड करना',
+        'author.submit.step3' => 'चरण 3. सबमिशन के मेटाडेटा में प्रवेश करना',
+        'author.submit.step4' => 'चरण 4. अनुपूरक फाइलें अपलोड करना',
+        'author.submit.step4a' => 'चरण 4 ए। एक अनुपूरक फ़ाइल जोड़ें',
+        'author.submit.step5' => 'चरण 5. प्रस्तुत करने की पुष्टि करना',
+        'author.submit.start' => 'शुरू',
+        'author.submit.upload' => 'सबमिशन अपलोड करें',
+        'author.submit.metadata' => 'मेटाडेटा दर्ज करें',
+        'author.submit.supplementaryFiles' => 'अनुपूरक फाइलें अपलोड करें',
+        'author.submit.nextSteps' => 'अगला कदम',
+        'author.submit.notAccepting' => 'यह जर्नल इस समय प्रस्तुतियाँ स्वीकार नहीं कर रही है।',
+        'author.submit.requestWaiver' => 'माफी का अनुरोध करें',
+        'author.submit.qualifyForWaiver' => 'कृपया इस लेख के लिए लेख सबमिशन की फीस माफ करने पर विचार करें',
+        'author.submit.addReasonsForWaiver' => 'कृपया नीचे दिए गए टिप्पणी बॉक्स का उपयोग करें कि फीस क्यों माफ की जानी चाहिए।',
+        'author.submit.mustEnterWaiverReason' => 'यदि आप छूट के लिए आवेदन कर रहे हैं, तो आपको प्रदान की गई जगह में एक कारण दर्ज करना होगा।',
+        'author.submissions.queuedReviewSubsequent' => 'समीक्षा दौर में {$round}',
+        'author.submissions.queuedReviewRevisions' => 'समीक्षा में: संशोधन आवश्यक है',
+        'author.submissions.queuedEditingCopyedit' => 'संपादन में: कॉपीएडिट अनुरोधित',
+        'author.submissions.queuedEditingProofread' => 'संपादन में: अपेक्षित अनुरोध',
+        'author.submissions.uploadCopyeditedVersion' => 'कॉपीएडिट संस्करण अपलोड करें',
+        'author.submissions.proofreadingCorrections' => 'प्रूफरीडिंग सुधार',
+        'author.submissions.confirmDelete' => 'क्या आप वाकई इस अधूरे सबमिशन को हटाना चाहते हैं?',
+        'author.submissions.viewStatus' => 'स्थिति देखें',
+        'author.submissions.noSubmissions' => 'कोई सबमिशन नहीं।',
+        'author.submit.journalSection' => 'जर्नल अनुभाग',
+        'author.submit.journalSectionDescription' => 'लेख को जर्नल के किसी एक भाग में प्रस्तुत किया जाना चाहिए।',
+        'author.submit.verifyChecklist' => 'आपको यह सुनिश्चित करना होगा कि प्रस्तुत सूची में सभी आइटम जारी रखने से पहले संतुष्ट हैं।',
+        'author.submit.copyrightNoticeAgreeRequired' => 'जारी रखने से पहले आपको कॉपीराइट नोटिस की शर्तों से सहमत होना चाहिए।',
+        'submission.submit.coverNote' => 'संपादक के लिए टिप्पणियाँ',
+        'author.submit.comments' => 'पाठ दर्ज करें (वैकल्पिक)',
+        'author.submit.form.localeRequired' => 'कृपया एक सबमिशन भाषा चुनें।',
+        'author.submit.reorderInstructions' => 'लेखक को उस क्रम में प्रकट होने के लिए, जिसे वे प्रकाशन में सूचीबद्ध करेंगे।',
+        'author.submit.reorder' => 'लेखक का नाम पुन: व्यवस्थित करें',
+        'author.submit.selectPrincipalContact' => 'संपादकीय पत्राचार के लिए प्रमुख संपर्क ।',
+        'author.submit.addAuthor' => 'लेखक को जोड़ें',
+        'author.submit.deleteAuthor' => 'लेखक को हटा दें',
+        'author.submit.submissionIndexingDescription' => 'सबमिशन को अनुक्रमित करने के लिए शर्तें प्रदान करें; एक सेमि-कोलन (term1; term2; term3) के साथ अलग शर्तें ।',
+        'author.submit.coverageInstructions' => 'भू-स्थानिक, कालानुक्रमिक या ऐतिहासिक कवरेज, और / या अनुसंधान नमूने की विशेषताओं को संदर्भित करता है।',
+        'author.submit.languageInstructions' => 'English=en; French=fr; Spanish=es. <a href="http://www.loc.gov/standards/iso639-2/php/code_list.php" target="_blank">Additional codes</a>.',
+        'author.submit.form.authorRequired' => 'कम से कम एक लेखक की आवश्यकता है।',
+        'author.submit.form.authorRequiredFields' => 'प्रत्येक लेखक का पहला नाम, अंतिम नाम और ईमेल पता आवश्यक है।',
+        'author.submit.form.titleRequired' => 'कृपया अपने लेख का शीर्षक दर्ज करें।',
+        'author.submit.form.abstractRequired' => 'कृपया अपने लेख का सार दर्ज करें।',
+        'author.submit.form.wordCountAlert' => 'आपने इस अनुभाग के ट्रैक में सार के लिए अधिकतम शब्द सीमा को पार कर लिया है।',
+        'author.submit.submissionFile' => 'सबमिशन फ़ाइल',
+        'author.submit.uploadSubmissionFile' => 'सबमिशन फ़ाइल अपलोड करें',
+        'author.submit.replaceSubmissionFile' => 'सबमिट फ़ाइल बदलें',
+        'author.submit.noSubmissionFile' => 'कोई सबमिशन फ़ाइल अपलोड नहीं की गई।',
+        'author.submit.noSubmissionConfirm' => 'क्या आप वाकई सबमिशन फ़ाइल अपलोड किए बिना जारी रखना चाहते हैं?',
+        'author.submit.supplementaryFilesInstructions' => 'यह वैकल्पिक चरण अनुपूरक फ़ाइलों को एक सबमिशन में जोड़ने की अनुमति देता है। फाइलें, जो किसी भी प्रारूप में हो सकती हैं, उनमें (ए) अनुसंधान उपकरण, (बी) डेटा सेट शामिल हो सकते हैं, जो अध्ययन के अनुसंधान नैतिकता समीक्षा की शर्तों का अनुपालन करते हैं, (सी) स्रोत जो अन्यथा पाठकों के लिए अनुपलब्ध होंगे, (डी) ) आंकड़े और तालिकाओं को पाठ में ही एकीकृत नहीं किया जा सकता है, या अन्य सामग्री जो काम के योगदान को जोड़ते हैं।',
+        'author.submit.supplementaryFiles.saveToUpload' => 'फ़ाइल अपलोड करने के लिए सेव पर क्लिक करें (जिसके बाद अतिरिक्त फाइलें अपलोड की जा सकती हैं)।',
+        'author.submit.forgottenSubmitSuppFile' => 'क्या आप वाकई आपके द्वारा चुनी गई पूरक फ़ाइल को अपलोड किए बिना जारी रखना चाहते हैं?',
+        'author.submit.noSupplementaryFiles' => 'इस सबमिशन में कोई पूरक फाइल नहीं जोड़ी गई है।',
+        'author.submit.backToSupplementaryFiles' => 'अनुपूरक फ़ाइलों पर वापस',
+        'author.submit.confirmDeleteSuppFile' => 'क्या आप वाकई इस पूरक फ़ाइल को हटाना चाहते हैं?',
+        'author.submit.uploadSuppFile' => 'अनुपूरक फ़ाइल अपलोड करें',
+        'author.submit.addSupplementaryFile' => 'एक अनुपूरक फ़ाइल जोड़ें',
+        'author.submit.editSupplementaryFile' => 'एक अनुपूरक फ़ाइल संपादित करें',
+        'author.submit.supplementaryFileData' => 'अनुपूरक फ़ाइल मेटाडेटा',
+        'author.submit.supplementaryFileDataDescription' => 'इस पूरक सामग्री को अनुक्रमित करने के लिए, अपलोड की गई अनुपूरक फ़ाइल के लिए निम्नलिखित मेटाडेटा प्रदान करें।',
+        'author.submit.supplementaryFileUpload' => 'अनुपूरक फ़ाइल',
+        'author.submit.suppFile.createrOrOwner' => 'फ़ाइल का निर्माता (या स्वामी)',
+        'author.submit.suppFile.researchInstrument' => 'शोध उपकरण',
+        'author.submit.suppFile.researchMaterials' => 'शोध सामग्री',
+        'author.submit.suppFile.researchResults' => 'शोध का परिणाम',
+        'author.submit.suppFile.transcripts' => 'प्रतिलिपि',
+        'author.submit.suppFile.dataAnalysis' => 'डेटा विश्लेषण',
+        'author.submit.suppFile.dataSet' => 'डेटा सेट',
+        'author.submit.suppFile.sourceText' => 'पाठ स्रोत',
+        'author.submit.suppFile.briefDescription' => 'संक्षिप्त विवरण',
+        'author.submit.suppFile.availableToPeers' => 'समीक्षकों के लिए फ़ाइल (मेटाडेटा के बिना) प्रस्तुत करें, क्योंकि यह नेत्रहीन समीक्षा से समझौता नहीं करेगा।',
+        'author.submit.suppFile.publisherDescription' => 'केवल औपचारिक रूप से प्रकाशित सामग्रियों के साथ उपयोग करें।',
+        'author.submit.suppFile.dateDescription' => 'दिनांक जब डेटा एकत्र किया गया था या उपकरण बनाया गया था।',
+        'author.submit.suppFile.sourceDescription' => 'अध्ययन का नाम या मूल के अन्य बिंदु।',
+        'author.submit.suppFile.specifyOtherType' => 'अन्य विशिष्ट निर्देश करना',
+        'author.submit.suppFile.noFile' => 'कोई फ़ाइल अपलोड नहीं की गई।',
+        'author.submit.suppFile.form.titleRequired' => 'कृपया इस पूरक फ़ाइल का शीर्षक दर्ज करें।',
+        'author.submit.suppFile.form.subjectRequired' => 'कृपया एक विषय दर्ज करें।',
+        'author.submit.suppFile.form.descriptionRequired' => 'कृपया विवरण दर्ज करें।',
+        'author.suppFile.suppFilePublicIdentificationExists' => 'सार्वजनिक पूरक फ़ाइल पहचान पहले से ही मौजूद है।',
+        'author.suppFile.publicSuppFileIdentifier' => 'सार्वजनिक पूरक फ़ाइल पहचानकर्ता',
+        'author.submit.filesSummary' => 'फ़ाइल सारांश',
+        'author.submit.finishSubmission' => 'सबमिशन खत्म करो',
+        'author.submit.submissionComplete' => 'सबमिशन पूर्ण। {$ JournalTitle} के साथ प्रकाशन में आपकी रुचि के लिए धन्यवाद।',
+        'author.article.uploadAuthorVersion' => 'लेखक संस्करण अपलोड करें',
+        'author.article.copyeditedFile' => 'कॉपीएडिट की गई फ़ाइल',
+        'author.article.authorRevisedFile' => 'लेखक फ़ाइल',
+        'author.submit.authorSubmitLoginMessage' => 'इस जर्नल को सबमिट करने के लिए एक उपयोगकर्ता खाते की आवश्यकता होती है। यह हमारे संपादकों को आपकी प्रस्तुतियाँ ट्रैक करने की अनुमति देता है और आपके सबमिट करने की स्थिति बदलने पर, या यदि आपसे अतिरिक्त जानकारी की आवश्यकता होती है, तो आपसे संपर्क कर सकता है।',
+      ),
+    ),
+  ),
+   'plurals' => 
+  array (
+    '' => 
+    array (
+      'count' => 2,
+      'code' => 'return $n > 1;',
+    ),
+  ),
+));

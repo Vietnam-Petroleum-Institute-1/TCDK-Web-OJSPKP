@@ -1,0 +1,383 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'emails.passwordResetConfirm.subject' => 'Şifre Değiştirme Onayı',
+      'emails.passwordResetConfirm.body' => '{$siteTitle} sitesindeki şifrenizi değiştirme talebinizi aldık.<br />
+<br />
+Bu istek sizin dışınızda oluştu ise, lütfen bu mesajı dikkate almayınız; eski şifrenizi kullanabilirsiniz. Eğer şifrenizi değiştirmek istiyorsanız aşağıdaki bağlantıyı tıklayınız.
+<br />
+<br />
+Şifre değiştirmek için: {$passwordResetUrl}<br />
+<br />
+{$siteContactName}',
+      'emails.userRegister.subject' => 'Dergi Yeni Kullanıcı Kaydı',
+      'emails.userRegister.body' => 'Sayın {$recipientName},<br />
+<br />
+{$contextName} adlı dergiye kullanıcı olarak kaydolduğunuz için teşekkür ederiz. Bu e-postaya, web sitesi aracılığıyla bu dergide yapılan tüm işlemler için gerekli olan kullanıcı adınızı ve şifrenizi ekledik. Bizimle iletişim kurarak derginin kullanıcı listesinden çıkarılmayı isteyebilirsiniz.<br />
+<br />
+Kullanıcı adı: {$recipientUsername}<br />
+Şifre: {$password}<br />
+<br />
+{$signature}',
+      'emails.userValidateContext.subject' => 'Hesabınızı Doğrulayın',
+      'emails.userValidateContext.body' => 'Sayın {$recipientName},<br />
+<br />
+{$contextName} adlı dergide bir hesap oluşturdunuz, ancak dergi sistemini kullanmaya başlamadan önce e-posta hesabınızı doğrulamanız gerekiyor. Bunu yapmak için aşağıdaki bağlantıyı takip etmeniz yeterlidir:<br />
+<br />
+{$activateUrl}<br />
+<br />
+Teşekkürler,<br />
+{$contextSignature}',
+      'emails.userValidateSite.subject' => 'Hesabınızı Doğrulayın',
+      'emails.userValidateSite.body' => '{$recipientName}<br />
+<br />
+{$siteTitle} için yeni bir hesap oluşturdunuz, ancak bunu kullanmaya başlamadan önce e-posta hesabınızı doğrulamanız gerekiyor. E-posta hesabınızı doğrulamak için aşağıdaki bağlantıyı takip etmeniz yeterlidir:<br />
+<br />
+{$activateUrl}<br />
+<br />
+Teşekkürler,<br />
+{$siteSignature}',
+      'emails.reviewerRegister.subject' => '{$ContextName} ile Hakem Olarak Kayıt',
+      'emails.reviewerRegister.body' => 'Uzmanlık alanınız ışığında, adınızı  {$contextName} için hakem veri tabanına kaydettik. Bu sizi herhangi bir katkı yapma zorunluluğu altına sokmaz; ancak değerlendirilmek üzere size bir başvuru göndermemizi sağlar. Değerlendirmesi istenecek makalenin başlığını ve özetini görme olanağı sağlar. Daveti kabul etmek veya reddetmek sizin tasarrufunuzdadır. Ayrıca, dilediğiniz zaman adınızın değerlendirme listesinden kaldırılmasını isteyebilirsiniz.<br />
+<br />
+Web sitesi üzerinden, dergi ile ilgili tüm işlemler için kullanılan bir kullanıcı adı ve şifre sunuyoruz. Örneğin, bu şifre ile ilgi alanlarınızı ve profilinizi güncelleyebilirsiniz.<br />
+<br />
+Kullanıcı adı: {$recipientUsername}<br />
+Şifre: {$password}<br />
+<br />
+Saygılarımızla,<br />
+{$signature}',
+      'emails.issuePublishNotify.subject' => '{$contextName}\'nin {$issueIdentification} sayısı yayımlandı',
+      'emails.issuePublishNotify.body' => 'Sayın Okuyucumuz,<br />
+<br />
+{$contextName} dergisinin yeni sayısını yayımladı. Yeni sayıya {$contextUrl} adresinden ulaşabilirsiniz.<br />
+Sizi dergimizin içindekiler sayfasını incelemeye, beğendiğiniz makaleleri okumaya ve değerli görüşlerinizi paylaşmaya davet ediyoruz.<br />
+<br />
+Dergimize gösterdiğiniz ilgi için teşekkür ederiz.<br />
+{$signature}',
+      'emails.editorAssign.subject' => '{$contextName} için gönderilen bir aday makaleye editör olarak atandınız',
+      'emails.editorAssign.body' => '<p>Sayın {$recipientName},</p><p>Aşağıdaki aday makale, editoryal süreci gözden geçirmeniz için size atanmıştır.</p><p><a href="{$submissionUrl}">{$submissionTitle}</a><br />{$authors}</p><p>Aday makalenin {$contextName} için uygun olduğunu düşünüyorsanız, lütfen "Değerlendirmeye Gönder" seçeneği ile aday makaleyi değerlendirme aşamasına alınız ve "Hakem Ata" kısmından hakem atayınız.</p><p>Aday makale dergimiz için uygun değilse, lütfen aday makaleyi reddediniz.</p><p>Şimdiden teşekkür ederiz.</p><p>Saygılarımızla,</p>{$contextSignature}',
+      'emails.reviewRequest.subject' => 'Hakemlik daveti',
+      'emails.reviewRequest.body' => 'Sayın {$recipientName},<br />
+<br />
+{$contextName} adlı dergi için gönderilen &quot;{$submissionTitle}&quot; başlıklı çalışma, sizin uzmanlık alanlarınız ile uyuştuğundan  bu makaleyi hakem olarak değerlendirmenizi talep ediyoruz. Makalenin Öz\'ü aşağıda verilmiştir. Dergimiz için oldukça önemli olan bu hakem değerlendirmesi talebimizi kabul edeceğinizi ümit ediyoruz.<br />
+<br />
+Lütfen, {$responseDueDate} tarihine kadar bu çalışmanın hakemliğini kabul edip etmediğinizi bildirmek için dergimizin internet sitesine giriş yapınız. Dergimiz internet sitesinden ilgili çalışmanın tam metnine ulaşabilir, hakem değerlendirme formunu ve önerilerinizi gönderebilirsiniz. Dergi adresi: {$contextUrl} <br />
+<br />
+Değerlendirmeyi tamamlamak için son tarih: {$reviewDueDate}.<br />
+<br />
+Eğer derginin web sitesine giriş için kullanıcı adı ve şifreniz yoksa veya unuttuysanız, şifrenizi yenilemek için bu bağlantıyı kullanabilirsiniz (Kullanıcı adınızla birlikte şifreniz size e-posta olarak gönderilecektir). {$passwordLostUrl}<br />
+<br />
+Makale Erişim Adresi: {$reviewAssignmentUrl}<br />
+<br />
+Talebimize olumlu yaklaşımınız için şimdiden teşekkür ederiz.<br />
+<br />
+{$signature}<br />
+<br />
+<br />
+&quot;{$submissionTitle}&quot;<br />
+<br />
+Öz: {$submissionAbstract}',
+      'emails.reviewResponseOverdueAuto.subject' => 'Hakemlik Talebi Hatırlatma',
+      'emails.reviewResponseOverdueAuto.body' => 'Sayın {$recipientName},<br />
+{$contextName} adlı dergi için gönderilen &quot;{$submissionTitle}&quot; başlıklı çalışma, sizin uzmanlık alanlarınız ile uyuştuğundan  bu makaleyi hakem olarak değerlendirmenizi talep etmiştik. İlgili makalenin hakem değerlendirmesini yapıp yapmayacağınızı {$responseDueDate} tarihine kadar dergimizin internet sitesine giriş yaparak bize bildirmenizi bekliyorduk. Bu e-posta bildirim tarihi geçtiği için tarafınıza hatırlatma amaçlı otomatik olarak gönderilmiştir. 
+<br />
+Makalenin Öz\'ü aşağıda verilmiştir. Dergimiz için oldukça önemli olan bu hakem değerlendirmesi talebimizi kabul edeceğinizi ümit ediyoruz.
+<br />
+Lütfen, {$responseDueDate} tarihine kadar bu çalışmanın hakemliğini kabul edip etmediğinizi bildirmek için dergimizin internet sitesine giriş yapınız. Dergimiz internet sitesinden ilgili çalışmanın tam metnine ulaşabilir, hakem değerlendirme formunu ve önerilerinizi gönderebilirsiniz. Dergi adresi: {$contextUrl} <br />
+<br />
+Değerlendirmeyi tamamlamak için son tarih: {$reviewDueDate}.<br />
+<br />
+Eğer derginin web sitesine giriş için kullanıcı adı ve şifreniz yoksa veya unuttuysanız, şifrenizi yenilemek için bu bağlantıyı kullanabilirsiniz (Kullanıcı adınızla birlikte şifreniz size e-posta olarak gönderilecektir). {$passwordLostUrl}<br />
+<br />
+Makale Erişim Adresi: {$reviewAssignmentUrl}<br />
+<br />
+Talebimize olumlu yaklaşımınız için şimdiden teşekkür ederiz.<br />
+<br />
+{$contextSignature}<br />
+<br />
+&quot;{$submissionTitle}&quot;<br />
+<br />
+Öz: {$submissionAbstract}',
+      'emails.reviewRequestSubsequent.subject' => 'Düzeltilmiş aday makaleye hakemlik daveti',
+      'emails.reviewRequestSubsequent.body' => '{$recipientName}:<br />
+<br />
+This regards the manuscript &quot;{$submissionTitle},&quot; which is under consideration by {$contextName}.<br />
+<br />
+Following the review of the previous version of the manuscript, the authors have now submitted a revised version of their paper. We would appreciate it if you could help evaluate it.<br />
+<br />
+Please log into the journal web site by {$responseDueDate} to indicate whether you will undertake the review or not, as well as to access the submission and to record your review and recommendation. The web site is {$contextUrl}<br />
+<br />
+The review itself is due {$reviewDueDate}.<br />
+<br />
+If you do not have your username and password for the journal\'s web site, you can use this link to reset your password (which will then be emailed to you along with your username). {$passwordLostUrl}<br />
+<br />
+Submission URL: {$reviewAssignmentUrl}<br />
+<br />
+Thank you for considering this request.<br />
+<br />
+{$signature}<br />
+<br />
+<br />
+<br />
+&quot;{$submissionTitle}&quot;<br />
+<br />
+{$submissionAbstract}',
+      'emails.reviewCancel.subject' => 'Değerlendirmenin iptalini rica ederiz',
+      'emails.reviewCancel.body' => 'Sayın {$recipientName},<br />
+<br />
+{$contextName} için yayınlanmak üzere gönderilen &quot;{$submissionTitle}&quot; başlıklı makalenin değerlendirmesini sizden talep etmiştik. Ancak gelinen noktada değerlendirmeye gerek kalmamıştır. Şu ana dek size verdiğimiz zahmetlerden dolayı teşekkür ederiz.',
+      'emails.reviewReinstate.subject' => '{$contextName} için hakemlik yapabilir misiniz?',
+      'emails.reviewReinstate.body' => 'Sayın {$recipientName},<br />
+<br />
+{$contextName}. için gönderilen &quot;{$submissionTitle},&quot başlıklı aday makaleyi değerlendirmeniz için hatırlatma yapmak istedik. Değerlendirme sürecine yardımcı olabileceğinizi umuyoruz.<br />
+<br />
+Herhangi bir sorunuz olursa, lütfen benimle iletişime geçin.',
+      'emails.reviewDecline.subject' => 'Değerlendirmeyeceğim',
+      'emails.reviewDecline.body' => 'Sayın {$recipientName},<br />
+<br />
+{$contextName} adlı dergide yayımlanması için değerlendirilmek üzere gönderilen &quot;{$submissionTitle}&quot; başlıklı makaleyi şu anda değerlendiremeyeceğim. Beni düşündüğünüz için teşekkür ederim. Başka bir çalışmanın değerlendirmesinde katkı sunmaya çalışacağım.<br />
+<br />
+{$senderName}',
+      'emails.reviewRemind.subject' => 'Hatırlatma: Lütfen değerlendirme sürecini tamamlayınız',
+      'emails.reviewRemind.body' => 'Sayın {$recipientName},<br />
+<br />
+{$contextName} adlı dergide yayınlanması için değerlendirilmek üzere gönderilen &quot;{$submissionTitle}&quot; başlıklı çalışmanın değerlendirmesini {$reviewDueDate} tarihinden önce tamamlayacağınızı ümit ediyoruz. Yoğun işleriniz arasında değerlendirme raporunuzu tamamlayıp, bize bir an önce ileteceğiniz inancı ile dergimiz sitesindeki ulaşım bilgilerini size iletmeyi istedik.<br />
+<br />
+Eğer derginin web sitesine giriş için kullanıcı adı ve şifreniz yoksa veya unuttunuz ise, şifrenizi yenilemek için bu bağlantıyı kullanabilirsiniz (Kullanıcı adınızla birlikte şifreniz size postalanacaktır). {$passwordLostUrl}<br />
+<br />
+Makale Erişim Adresi: {$reviewAssignmentUrl}<br />
+<br />
+Derginin kalitesini arttıracak bu önemli katkıyı yapabileceğinizi lütfen onaylayınız. <br />
+<br />
+{$signature}',
+      'emails.reviewRemindAuto.subject' => 'Otomatik hatırlatma: Lütfen değerlendirme sürecini tamamlayınız',
+      'emails.reviewRemindAuto.body' => 'Sayın {$recipientName},<br />
+<br />
+{$contextName} adlı dergide yayınlanması için değerlendirilmek üzere gönderilen &quot;{$submissionTitle}&quot; başlıklı çalışmanın değerlendirmesini {$reviewDueDate} tarihinden önce tamamlayacağınızı ümit ediyorduk. Yoğun işleriniz nedeni ile oluşan gecikme nedeni ile sistemimiz tarafından bu mesaj tarafınıza otomatik olarak gönderilmişitir. <br />
+<br />
+Değerlendirme raporunuzu bize bir an önce ileteceğiniz inancı ile dergimiz sitesindeki ulaşım bilgilerini size iletmeyi istedik.<br />
+<br />
+Eğer derginin web sitesine giriş için kullanıcı adı ve şifreniz yoksa veya unuttunuz ise, şifrenizi yenilemek için bu bağlantıyı kullanabilirsiniz (Kullanıcı adınızla birlikte şifreniz size postalanacaktır). {$passwordLostUrl}<br />
+<br />
+Makale Erişim Adresi: {$reviewAssignmentUrl}<br />
+<br />
+Derginin kalitesini arttıracak bu önemli katkıyı yapabileceğinizi lütfen onaylayınız.<br />
+<br />
+{$contextSignature}',
+      'emails.editorDecisionAccept.subject' => 'Aday makaleniz {$contextName} için kabul edildi',
+      'emails.editorDecisionAccept.body' => 'Sayın {$authors},<br />
+<br />
+{$contextName} için gönderdiğiniz gönderdiğiniz &quot;{$submissionTitle}&quot; başlıklı çalışmanıza ilişkin değerlendirme süreci tamamlanmış ve bir karara varılmıştır.<br />
+<br />
+Kararımız: Yayın Kabul',
+      'emails.editorDecisionSkipReview.subject' => 'Aday makaleniz son kopya düzenleme için gönderildi',
+      'emails.layoutRequest.subject' => '{$submissionId} numaralı makale {$contextAcronym} için yayına hazır',
+      'emails.layoutRequest.body' => '{$recipientName}:<br />
+<br />
+{$contextName} için &quot;{$submissionTitle}&quot; başlıklı çalışmanın mizanpajının tamamlanarak, prova dizginin tarafımıza gönderilmesi için rica ederiz.<br />
+<br />
+Prova dizgi kopya bağlantısı: {$submissionUrl}<br />
+Kullanıcı adı: {$recipientUsername}<br />
+<br />
+İşin gerçekleştirilmesi ile ilgili bir soru / sorularınızı yazabilirsiniz.<br />
+Katkılarınız için teşekkür ederiz.',
+      'emails.layoutComplete.subject' => 'Prova dizgi tamamlandı',
+      'emails.layoutComplete.body' => 'Sayın {$recipientName},<br />
+<br />
+{$contextName} için &quot;{$submissionTitle}&quot; başlıklı çalışmanın prova dizgisi gözden geçirme için hazırdır.<br />
+<br />
+Sorunuz olur ise bana yazabilirsiniz.<br />
+<br />
+{$senderName}',
+      'emails.emailLink.subject' => 'İlginizi çekebilecek bir makale',
+      'emails.emailLink.body' => '<br />
+			{$contextName} {$volume}. cilt {$number}. sayısında ({$year}) {$authors} tarafından yazılan <br />
+			&quot;{$submissionTitle}&quot; başlıklı bir makale yayınlamış.<br />
+			Bu çalışmanın ilgini çekeceğini umuyorum.',
+      'emails.emailLink.description' => 'Okuyucuların, meslekdaşlarına ilgi çekici makaleleri haber vermeleri için hazır şablon mesaj. Dergi yöneticisi tarafında "Okuma Araçları" sayfasında bu özellik etkinleştirilince hizmete sunulur.',
+      'emails.subscriptionNotify.subject' => 'Abonelik Bilgilendirme',
+      'emails.subscriptionNotify.body' => '{$recipientName}:<br />
+<br />
+Internet dergilerimizden {$contextName} dergisi için abonelik kaydınız yapılmıştır. Abonelik türünüz aşağıdadır:<br />
+<br />
+{$subscriptionType}<br />
+<br />
+Sadece kayıtlı kullanıcılara sunulan içeriği izlemek üzere &quot;{$recipientUsername}&quot; kullanıcı adınız ile sisteme giriş yapınız.<br />
+<br />
+Sisteme giriş yaptıktan sonra kişisel bilgilerinizi ve şifrenizi dilediğiniz anda değiştirebilirsiniz.<br />
+<br />
+Eğer kurumsal abone iseniz, kurum çalışanlarının giriş yapmasına gerek olmayacağını, abonelere açık içerik taleplerinde sistemin otomatik olarak onay vereceğini gözönünde bulundurunuz.<br />
+<br />
+Herhangi bir sorunuz olursa lütfen çekinmeden benimle irtibat kurun.<br />
+<br />
+{$subscriptionSignature}',
+      'emails.openAccessNotify.subject' => '{$contextName}\'nin {$issueIdentification} sayısı açık erişime açıldı',
+      'emails.openAccessNotify.body' => 'Sayın Okuyucu,<br />
+<br />
+{$contextName} aşağıdaki sayıyı açık erişime açmıştır. Sizi sayının içindekiler bölümünü incelemeye ve dilediğiniz yazıları okumak üzere web sitemize davet ediyoruz ({$contextUrl}).<br />
+<br />
+Çalışmalarımıza süren ilginiz için teşekkür ederiz,<br />
+{$contextSignature}',
+      'emails.subscriptionBeforeExpiry.subject' => 'Abonelik sona erme uyarısı',
+      'emails.subscriptionBeforeExpiry.body' => '{$recipientName}:<br />
+<br />
+{$contextName} dergisi abonelik süreniz bitmek üzeredir.<br />
+<br />
+{$subscriptionType}<br />
+Bitiş tarihi: {$expiryDate}<br />
+<br />
+Dergiye erişiminizin aksamaması için dergi web sitesine girerek aboneliğinizi yenileyiniz. Dergiye  &quot;{$recipientUsername}&quot; olan kullanıcı adınızı kullanarak girebilirsiniz.<br />
+<br />
+Eğer bir sorununuz olur ise, bana bildirebilirsiniz.<br />
+<br />
+{$subscriptionSignature}',
+      'emails.subscriptionAfterExpiry.subject' => 'Aboneliğiniz sona erdi',
+      'emails.subscriptionAfterExpiry.body' => '{$recipientName},<br />
+<br />
+{$contextName} dergisi abonelik süreniz doldu.<br />
+<br />
+{$subscriptionType}<br />
+Bitiş tarihi: {$expiryDate}<br />
+<br />
+Aboneliğinizi yenilemek için dergi sitesine giriniz. Sisteme &quot;{$recipientUsername}&quot; olan kullanıcı adınızı kullanarak girebilirsiniz.<br />
+<br />
+Eğer bir sorununuz olur ise, bana bildirebilirsiniz.<br />
+<br />
+{$subscriptionSignature}',
+      'emails.subscriptionAfterExpiryLast.subject' => 'Aboneliğiniz sona erdi - Son anımsatma',
+      'emails.subscriptionAfterExpiryLast.body' => '{$recipientName}:<br />
+<br />
+{$contextName} dergisi abonelik süreniz doldu.<br />
+Bu size gönderdiğimiz son anımsatma olacaktır.<br />
+<br />
+{$subscriptionType}<br />
+Bitiş tarihi: {$expiryDate}<br />
+<br />
+Aboneliğinizi yenilemek için dergi sitesine giriniz. Sisteme &quot;{$recipientUsername}&quot; olan kullanıcı adınızı kullanarak girebilirsiniz.<br />
+<br />
+Eğer bir sorununuz olur ise, bana bildirebilirsiniz.<br />
+<br />
+{$subscriptionSignature}',
+      'emails.subscriptionPurchaseIndl.subject' => 'Abonelik Satın Alma: Bireysel',
+      'emails.subscriptionPurchaseIndl.body' => '{$contextName} için aşağıdaki ayrıntıları yer alan bir abonelik satın alındı.<br />
+<br />
+Abonelik Türü:<br />
+{$subscriptionType}<br />
+<br />
+Kullanıcı Bilgileri:<br />
+{$subscriberDetails}<br />
+<br />
+Üyelik Bilgileri (varsa):<br />
+{$membership}<br />
+<br />
+Bu aboneliği görüntülemek veya düzenlemek için lütfen aşağıdaki URL\'yi kullanın.<br />
+<br />
+Abonelik URL: {$subscriptionUrl}
+',
+      'emails.subscriptionPurchaseInstl.subject' => 'Abonelik Satın Alma: Kurumsal',
+      'emails.subscriptionPurchaseInstl.body' => '{$contextName} için aşağıdaki ayrıntılarda kurumsal bir abonelik satın alındı. Bu aboneliği etkinleştirmek için lütfen sağlanan Abonelik URL\'sinden abonelik durumunu \'Etkin\' olarak ayarlayın.<br />
+<br />
+Abonelik Türü:<br />
+{$subscriptionType}<br />
+<br />
+Kurum:<br />
+{$institutionName}<br />
+{$institutionMailingAddress}<br />
+<br />
+Alan adı (varsa):<br />
+{$domain}<br />
+<br />
+IP Aralığı (varsa):<br />
+{$ipRanges}<br />
+<br />
+İletişim Kişisi:<br />
+{$subscriberDetails}<br />
+<br />
+Üyelik Bilgileri (varsa):<br />
+{$membership}<br />
+<br />
+Abonelik bilgilerini görüntülemek veya düzenlemek için lütfen aşağıdaki URL\'ye tıklayın.<br />
+<br />
+Abonelik URL: {$subscriptionUrl}
+',
+      'emails.subscriptionRenewIndl.subject' => 'Abonelik Yenileme: Bireysel',
+      'emails.subscriptionRenewIndl.body' => '{$contextName} için aşağıdaki ayrıntıları yer alan bireysel abonelik yenilendi.<br />
+<br />
+Abonelik Türü:<br />
+{$subscriptionType}<br />
+<br />
+Kişi:<br />
+{$subscriberDetails}<br />
+<br />
+Üyelik Bilgileri (varsa):<br />
+{$membership}<br />
+<br />
+Abonelik hakkında bilgileri görüntülemek veya düzenlemek için lütfen aşağıdaki URL\'ye tıklayın.<br />
+<br />
+Abonelik URL: {$subscriptionUrl}
+',
+      'emails.subscriptionRenewInstl.subject' => 'Abonelik Yenileme: Kurumsal',
+      'emails.subscriptionRenewInstl.body' => '{$contextName} için aşağıda detayları yer alan kurumsal abonelik yenilendi.<br />
+<br />
+Abonelik Türü:<br />
+{$subscriptionType}<br />
+<br />
+Kurum:<br />
+{$institutionName}<br />
+{$institutionMailingAddress}<br />
+<br />
+Alan adı (varsa):<br />
+{$domain}<br />
+<br />
+IP Aralığı (varsa):<br />
+{$ipRanges}<br />
+<br />
+İletişim Kişisi:<br />
+{$subscriberDetails}<br />
+<br />
+Üyelik Bilgileri (varsa):<br />
+{$membership}<br />
+<br />
+Abonelik hakkında bilgileri görüntülemek veya düzenlemek için aşağıdaki URL\'yi tıklayın.<br />
+<br />
+Abonelik URL: {$subscriptionUrl}
+',
+      'emails.revisedVersionNotify.subject' => 'Düzeltilmiş Sürüm Yüklendi',
+      'emails.revisedVersionNotify.body' => 'Sayın Editörler,<br />
+<br />
+&quot;{$submissionTitle}&quot\'un düzeltilmiş sürümü,  yazar {$submitterName} tarafından yüklendi<br />
+<br />
+Gönderi URL: {$submissionUrl}<br />
+<br />
+{$signature}',
+      'emails.statisticsReportNotification.subject' => '{$month} {$year} süreç işlemleri',
+      'emails.statisticsReportNotification.body' => '
+Sayın {$recipientName}, <br />
+<br />
+Dergimizin {$month} {$year} durum raporu hazırdır. Bu ayın öne çıkan istatistikleri aşağıda verilmiştir.<br />
+<ul>
+	<li>Bu ayki yeni gönderi: {$newSubmissions}</li>
+	<li>Bu ay reddedilen gönderi: {$declinedSubmissions}</li>
+	<li>Bu ay kabul edilen gönderi: {$acceptedSubmissions}</li>
+	<li>Sistemdeki toplam gönderi sayısı: {$totalSubmissions}</li>
+</ul>
+Daha detaylı <a href="{$editorialStatsLink}">süreç istatistikleri</a> ve <a href="{$publicationStatsLink}">yayınlanmış makale istatistikleri</a>ni görüntülemek için dergi sistemine giriş yapın. Bu ayın süreç istatistiklerinin tam bir kopyası ekte gönderilmiştir.<br />
+<br />
+Saygılarımızla,<br />
+{$contextSignature}',
+      'emails.announcement.subject' => '{$announcementTitle}',
+      'emails.announcement.body' => '<b>{$announcementTitle}</b><br />
+<br />
+{$announcementSummary}<br />
+<br />
+Web sitesini ziyaret et ve <a href="{$announcementUrl}">tüm duyuruyu</a> oku.',
+      'emails.paymentRequestNotification.subject' => 'Ödeme Talebi Bildirimi',
+      'emails.paymentRequestNotification.footer' => '<br><br>—<br>Bu mesaj <a href="{$contextUrl}">{$contextName}</a> için otomatik olarak gönderilmiştir.',
+    ),
+  ),
+);

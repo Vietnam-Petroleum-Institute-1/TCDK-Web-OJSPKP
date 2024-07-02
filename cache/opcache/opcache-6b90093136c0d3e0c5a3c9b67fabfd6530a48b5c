@@ -1,0 +1,23 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.webfeed.displayName' => 'Programutvidelse for webstrømmer',
+      'plugins.generic.webfeed.description' => 'Denne programutvidelsen skaper en RSS/Atom-strøm for siste utgave av tidsskriftet.',
+      'plugins.generic.webfeed.settings' => 'Innstillinger',
+      'plugins.generic.webfeed.settings.issue' => 'Vis webstrømlenker bare på utgavesidene.',
+      'plugins.generic.webfeed.settings.homepage' => 'Vis webstrømlenker både på hjemmesiden og på utgavesidene.',
+      'plugins.generic.webfeed.settings.all' => 'Vis webstrømlenker på alle sider.',
+      'plugins.generic.webfeed.settings.currentIssue' => 'Vis elementer i inneværende nummer.',
+      'plugins.generic.webfeed.settings.recent' => 'Vis et fast antall av de nyeste elementene.',
+      'plugins.generic.webfeed.settings.recentArticles' => 'Antall elementer til visning',
+      'plugins.generic.webfeed.settings.recentItemsRequired' => 'Sett inn et positivt heltall for antall nylig publiserte elementer.',
+      'plugins.generic.webfeed.atom.altText' => 'Atom-logo',
+      'plugins.generic.webfeed.rss1.altText' => 'RSS1-logo',
+      'plugins.generic.webfeed.rss2.altText' => 'RSS2-logo',
+    ),
+  ),
+);

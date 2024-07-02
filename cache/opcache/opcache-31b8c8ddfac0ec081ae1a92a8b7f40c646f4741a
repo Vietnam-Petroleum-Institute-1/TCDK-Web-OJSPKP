@@ -1,0 +1,34 @@
+<?php $exp = 1751345594; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.themes.default.name' => 'Оформление на темата по подразбиране',
+      'plugins.themes.default.description' => 'Това е оформлението на темата по подразбиране.',
+      'plugins.themes.default.option.typography.label' => 'Типография',
+      'plugins.themes.default.option.typography.description' => 'Изберете комбинация от шрифтове, която подхожда за това списание.',
+      'plugins.themes.default.option.typography.notoSans' => 'Noto Sans: Дигитален безсерифен шрифт, създаден от Google за обширна езикова поддръжка.',
+      'plugins.themes.default.option.typography.notoSerif' => 'Noto Serif: Серифен вариант на дигиталния шрифт на Google.',
+      'plugins.themes.default.option.typography.notoSerif_notoSans' => 'Noto Serif/Noto Sans: Допълващо се сдвояване на серифни заглавия и безсерифен основен текст.',
+      'plugins.themes.default.option.typography.notoSans_notoSerif' => 'Noto Sans/Noto Serif: Допълващо се сдвояване на безсерифни заглавия и серифен основен текст.',
+      'plugins.themes.default.option.typography.lato' => 'Lato: Популярен модерен безсерифен шрифт.',
+      'plugins.themes.default.option.typography.lora' => 'Lora: Широко разположен серифен шрифт, подходящ за четене онлайн.',
+      'plugins.themes.default.option.typography.lora_openSans' => 'Lora/Open Sans: Допълващо се сдвояване на серифни заглавия и безсерифен основен текст.',
+      'plugins.themes.default.option.colour.label' => 'Цвят',
+      'plugins.themes.default.option.colour.description' => 'Изберете цвят за заглавката (header).',
+      'plugins.themes.default.option.showDescriptionInJournalIndex.option' => 'Покажете кратка информация за списанието на началната страница.',
+      'plugins.themes.default.option.useHomepageImageAsHeader.label' => 'Изберете фоново изображение за заглавката (header)',
+      'plugins.themes.default.option.useHomepageImageAsHeader.description' => 'Когато е качено изображение на начална страница, покажете го във фонов режим на заглавката вместо обичайната му позиция на началната страница.',
+      'plugins.themes.default.option.useHomepageImageAsHeader.option' => 'Показване на изображението на началната страница като фон на заглавката (header).',
+      'plugins.themes.default.option.displayStats.label' => 'Опции за показване на статистиката за употреба',
+      'plugins.themes.default.option.displayStats.none' => 'Да не се показва диаграма със статистически данни за използването за читатели.',
+      'plugins.themes.default.option.displayStats.bar' => 'Използване на лентов тип на диаграмата за показване на статистически данни за употребата.',
+      'plugins.themes.default.option.displayStats.line' => 'Използване на тип линия на диаграмата за показване на статистически данни за употребата.',
+      'plugins.themes.default.displayStats.monthInitials' => 'Яну Фев Мар Апр Май Юни Юли Авг Сеп Окт Ное Дек',
+      'plugins.themes.default.displayStats.downloads' => 'Сваляния',
+      'plugins.themes.default.displayStats.noStats' => 'Данните за свалянията все още не са налични.',
+    ),
+  ),
+);

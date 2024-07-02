@@ -1,0 +1,82 @@
+<?php $exp = 1751345599; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'emails.submissionAck.subject' => 'Taqdim etishni tasdiqlash',
+      'emails.submissionAck.body' => '<p>Hurmatli {$recipientName},</p><p>{$contextName} ga yuborganingiz uchun tashakkur. {$submissionTitle} degan maʼlumotingizni oldik va tahririyatimiz aʼzosi uni tez orada koʻradi. Dastlabki qaror qabul qilinganda sizga e-pochta orqali xat yuboriladi va biz qoʻshimcha maʼlumot olish uchun siz bilan bogʻlanishimiz mumkin.</p><p>Quyidagi manzilda taqdimotingizni koʻrishingiz va tahrir jarayoni orqali uning borishini kuzatishingiz mumkin:</p><p>Yuborish URL manzili: {$submissionUrl}</p><p>Agar tizimdan chiqqan bo\'lsangiz, {$recipientUsername} foydalanuvchi nomi bilan qayta kirishingiz mumkin</p><p>Agar sizda biron bir savol bo\'lsa, <a href="{$submissionUrl}">yuborish paneli< /a>.</p><p> orqali men bilan bog\'laning. Ushbu jurnalni ish joyingiz deb hisoblaganingiz uchun tashakkur.</p>{$contextSignature}',
+      'emails.submissionAck.description' => 'Bu elektron pochta, qo\'lyozmani jurnalga topshirish jarayonini tugatgandan so\'ng, avtomatik ravishda muallifga yuboriladi. U yuborish jarayonini kuzatib borish haqida ma\'lumot beradi va muallifga rahmat.',
+      'emails.reviewAck.subject' => 'Maqolani ko\'rib chiqish',
+      'emails.reviewAck.body' => '{$recipientName}: <br />
+<br/>
+Taqdimotni ko\'rib chiqishni tugatganingiz uchun tashakkur, & quot; {$submissionTitle}, & quot; {$contextName} uchun. Biz nashr etayotgan asarlar sifatiga qo\'shgan hissangizni qadrlaymiz.',
+      'emails.editorDecisionSendToExternal.subject' => 'Tahririyat qarori',
+      'emails.editorDecisionSendToExternal.body' => '{$authors}: <br />
+<br/>
+Biz sizning {$contextName}, & quot; {$submissionTitle} & quot; ga yuborishingiz bo\'yicha qarorga keldik. <br />
+<br/>
+Bizning qarorimiz: Ko\'rib chiqish uchun yuborish <br />
+<br/>
+Yuborish URL manzili: {$submissionUrl}',
+      'emails.editorDecisionSendToProduction.subject' => 'Tahririyat qarori',
+      'emails.editorDecisionSendToProduction.body' => '{$authors}: <br />
+<br/>
+Sizning topshirig\'ingizni tahrirlash, & quot; {$submissionTitle}, & quot; tugallangan. Hozir uni ishlab chiqarishga jo\'natmoqdamiz. <br />
+<br/>
+Yuborish URL manzili: {$submissionUrl}',
+      'emails.editorDecisionRevisions.subject' => 'Tahririyat qarori',
+      'emails.editorDecisionRevisions.body' => '{$authors}: <br />
+<br/>
+Biz sizning {$contextName}, & quot; {$submissionTitle} & quot; ga yuborishingiz bo\'yicha qarorga keldik. <br />
+<br/>
+Bizning qarorimiz: tuzatishlar talab qilinadi',
+      'emails.editorDecisionResubmit.subject' => 'Tahririyat qarori',
+      'emails.editorDecisionResubmit.body' => '{$authors}: <br />
+<br/>
+Biz sizning {$contextName}, & quot; {$submissionTitle} & quot; ga yuborishingiz bo\'yicha qarorga keldik. <br />
+<br/>
+Bizning qarorimiz: qayta ko\'rib chiqish uchun yuborish',
+      'emails.editorDecisionDecline.subject' => 'Tahririyat qarori',
+      'emails.editorDecisionDecline.body' => '{$authors}: <br />
+<br/>
+Biz sizning {$contextName}, & quot; {$submissionTitle} & quot; ga yuborishingiz bo\'yicha qarorga keldik. <br />
+<br/>
+Bizning qarorimiz: Arizani rad etish',
+      'emails.editorRecommendation.subject' => 'Tahririyat tavsiyanomasi',
+      'emails.editorRecommendation.body' => '{$editors}: <br />
+<br/>
+{$contextName}, & quot; {$submissionTitle} & quot; bu: {$recommendation}',
+      'emails.copyeditRequest.subject' => 'So\'rovni nusxalash',
+      'emails.copyeditRequest.body' => '{$recipientName}: <br />
+<br/>
+Men sizdan & quot; {$submissionTitle} & quot; {$contextName} uchun quyidagi amallarni bajaring. <br />
+1. Quyidagi Yuborish URL manzilini bosing. <br />
+2. "Draft Files" bo\'limida mavjud bo\'lgan fayllarni oching va nusxa ko\'chiring, kerak bo\'lganda nusxa ko\'chirish bo\'yicha munozaralarni qo\'shing. <br />
+3. Nusxalangan fayllarni saqlang va Nusxalangan panelga yuklang. <br />
+4. Tahririyatga barcha fayllar tayyorlangani va ishlab chiqarish jarayoni boshlanishi haqida xabar bering. <br />
+<br/>
+{$ contextName} URL manzili: {$contextUrl} <br />
+Yuborish URL manzili: {$submissionUrl} <br />
+Foydalanuvchi nomi: {$recipientUsername}',
+      'emails.editorDecisionInitialDecline.subject' => 'Tahririyat qarori',
+      'emails.editorDecisionInitialDecline.body' => '
+			{$authors}: <br />
+<br/>
+Biz sizning {$contextName}, & quot; {$submissionTitle} & quot; ga yuborishingiz bo\'yicha qarorga keldik. <br />
+<br/>
+Bizning qarorimiz: Arizani rad etish',
+      'emails.discussion.subject' => '{$ ContextName} haqida xabar',
+      'emails.discussion.body' => 'Xabaringizni kiriting.',
+      'emails.reviewConfirm.subject' => 'Ko\'rib chiqish imkoniyati',
+      'emails.reviewConfirm.body' => 'Tahrirlovchilar: <br />
+<br/>
+Men &quot; {$submissionTitle}, &quot; {$contextName} uchun. Men haqimda o\'ylaganingiz uchun tashakkur va men ko\'rib chiqishni o\'z vaqtida tugatishni rejalashtiryapman, {$reviewDueDate}, agar oldin bo\'lmasa. <br />
+<br/>
+{$senderName}',
+      'emails.submissionAckNotAuthor.subject' => 'Taqdim etishni tasdiqlash',
+      'emails.submissionAckNotAuthor.body' => '<p>Hurmatli {$recipientName},</p><p>Siz {$contextName} ga yuborilgan xabarda hammuallif sifatida nom oldingiz. Yuboruvchi {$submitterName} quyidagi ma’lumotlarni taqdim etdi:</p><p>{$submissionTitle}<br>{$authorsWithAffiliation}</p><p>Agar bu ma’lumotlardan birortasi noto‘g‘ri bo‘lsa yoki siz noto‘g‘ri bo‘lsangiz ushbu arizada o‘z nomini qo‘shishni istasangiz, men bilan bog‘laning.</p><p>Ushbu jurnalni ish joyingiz sifatida ko‘rganingiz uchun tashakkur.</p><p>Hurmat bilan,</p>{$contextSignature}',
+    ),
+  ),
+);

@@ -1,0 +1,64 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n==1 || n%10==1 ? 0 : 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.importexport.crossref.settings.form.testMode.description' => 'Користете го Crossref API за тестирање (околина за тестирање) за DOI депозитот. Ве молиме не заборавајте да ја извадите оваа опција за продукција.',
+      'plugins.importexport.crossref.settings.form.automaticRegistration.description' => 'OJS автоматски ќе ги депонира назначените DOIs во Crossref. Ве молиме имајте во предвид дека ќе биде потребно малку време после објавување ова да се процесира (пр. зависно од вашата cronjob конфигурација). Можете да ги проверите сите нерегистрирани DOIs.',
+      'plugins.importexport.crossref.settings.form.usernameRequired' => 'Ве молиме да го внесете корисничкото име кое го добивте од Crossref.',
+      'plugins.importexport.crossref.settings.form.username' => 'Корисничко име',
+      'plugins.importexport.crossref.registrationIntro' => '<p>Доколку сакате да го користите овој приклучок за да регистрирате Digital Object Identifiers (DOI) директно преку <a href="http://www.crossref.org/">Crossref</a>, ќе треба да ги додадете вашите <a href="https://www.crossref.org/documentation/member-setup/account-credentials/">акредитации на профилот на Crossref</a> во полињата за корисничко име и лозинка подолу.</p><p>Во зависност од вашето членство во Crossref, постојат два начини да ги внесете вашето корисничко име и лозинка:</p><ul><li>доколку користите профил на организација, додајте ги вашите <a href="https://www.crossref.org/documentation/member-setup/account-credentials/#00376">споделени корисничко име и лозинка</a></li><li>доколку користите <a href="https://www.crossref.org/documentation/member-setup/account-credentials/#00368">личен профил</a>, внесете ги вашата емаил адреса и улога во полето за корисничко име. Корисничкото име ќе изгледа вака: email@example.com/role</li><li>доколку не ги знаете или немате пристап до вашите акредитиви на Crossref, можете да ја контактирате <a href="https://support.crossref.org/">поддршката на Crossref</a> за помош. Без акредитиви, сè уште може да извезувате метаподатоци во Crossref XML форматот, но не можете да ги регистрирате вашите DOI во Crossref преку OJS.</li></ul>',
+      'plugins.importexport.crossref.settings.form.depositorEmailRequired' => 'Ве молиме да го внесете и-меилот на депонентот.',
+      'plugins.importexport.crossref.settings.form.depositorNameRequired' => 'Ве молиме да го внесете името на депонентот.',
+      'plugins.importexport.crossref.settings.form.depositorEmail' => 'И-меил на депонент',
+      'plugins.importexport.crossref.settings.form.depositorName' => 'Име на депонент',
+      'plugins.importexport.crossref.settings.depositorIntro' => 'Следните елементи се задолжителни за успешен Crossref депозит.',
+      'plugins.importexport.crossref.error.issnNotConfigured' => 'Не конфигуриран ISSN на списанието! Мора да го додадете ISSN на <a href="{$journalSettingsUrl}" target="_blank">Страницата за поставки на списанието</a>.',
+      'plugins.importexport.crossref.error.publisherNotConfigured' => 'Не е конфигуриран издавач на списанието! Мора да додадете институција за издавање на <a href="{$journalSettingsUrl}" target="_blank">Страницата за поставки на списанието</a>.',
+      'plugins.importexport.crossref.requirements.satisfied' => 'Сите побарувања за плагинот се извршени.',
+      'plugins.importexport.crossref.requirements' => 'Побарувања',
+      'plugins.importexport.crossref.description' => 'Експортирај ги метаподатоците од трудот во Crossref XML формат.',
+      'plugins.importexport.crossref.displayName' => 'Приклучок за експортирање на Crossref XML',
+      'plugins.importexport.crossref.error.noDOIContentObjects' => 'Трудовите не се избрани за доделување DOI во приклучокот за јавен идентификатор DOI, така што нема можност за депонирање или извоз во овој приклучок.',
+      'plugins.importexport.crossref.export.error.articleNotFound' => 'Нема спарен труд со специфицираниот ИД "{$articleId}".',
+      'plugins.importexport.crossref.export.error.issueNotFound' => 'Нема спарен број со специфицираниот ИД "{$issueId}".',
+      'plugins.importexport.crossref.register.success.warning' => 'Регистрацијата беше успешна, но се појави следното предупредување: \'{$param}\'.',
+      'plugins.importexport.crossref.register.error.mdsError' => 'Регистрацијата не е целосно успешна! Серверот за регистрација на ДОИ покажа грешка.',
+      'plugins.importexport.crossref.cliUsage' => 'Употреба:
+{$scriptName} {$pluginName} export [xmlFileName] [journal_path] articles objectId1 [objectId2] ...
+{$scriptName} {$pluginName} register [journal_path] articles objectId1 [objectId2] ...
+',
+      'plugins.importexport.crossref.senderTask.name' => 'Автоматска постапка за регистрација во Crossref',
+      'plugins.importexport.crossref.action.markRegistered' => 'Означи како активно',
+      'plugins.importexport.crossref.action.export' => 'Експортирање',
+      'plugins.importexport.crossref.statusLegend' => '
+		<p>Депонирана состојба:</p>
+		<p>
+		- Не депонирано: не е направен обид за депонирање на овој ДОИ.<br />
+		- Активно: ДОИ е депониран и успешно разрешен.<br />
+		- Неуспешно: Складирањето ДОИ е неуспешно.<br />
+		- Означено активно: ДОИ е рачно назначен како активен.
+		</p>
+		<p>Прикажана е само состојбата на последниот обид за депозит.</p>
+		<p>Ако депозитот не е успешен, молам раши го проблемот со повторна регистрација на ДОИ.</p>',
+      'plugins.importexport.crossref.action.register' => 'Депонирано',
+      'plugins.importexport.crossref.status.markedRegistered' => 'Означено активно',
+      'plugins.importexport.crossref.status.registered' => 'Активно',
+      'plugins.importexport.crossref.status.failed' => 'Неуспешно',
+      'plugins.importexport.crossref.issues.description' => 'Забелешка: За експорт/регистрација овде ќе се земат предвид само изданија (а не нивните препринти).',
+      'plugins.importexport.crossref.settings.form.onlyValidateExport' => 'Валидира само експортирање. Не го симнувај фајлот.',
+      'plugins.importexport.crossref.settings.form.validation' => 'Валидирај XML. Употреби ја оваа опција за симнување XML од рачна регистрација на ДОИ.',
+      'plugins.generic.crossref.displayName' => 'Приклучок за управување со Crossref',
+      'plugins.generic.crossref.description' => 'Автоматско депонирање и експортирање на метаподатоци Crossref',
+      'plugins.importexport.crossref.settings' => 'Поставки на Crossref',
+      'plugins.importexport.crossref.settings.form.depositorName.description' => 'Име на организацијата што ги регистрира DOI. Тој е вклучен со депонираните метаподатоци и се користи за евидентирање кој го поднел депозитот.',
+      'plugins.importexport.crossref.settings.form.depositorEmail.description' => 'Емаил адресата на поединецот одговорен за регистрација на содржина со Crossref. Тоа е вклучено со депонираните метаподатоци и се користи при испраќање на емаил за потврда на депозитот.',
+      'plugins.importexport.crossref.settings.form.username.description' => 'Корисничкото име на Crossref кое ќе се користи за автентичност на вашите депозити. Доколку користите лична сметка, видете го советот погоре.',
+      'plugins.importexport.crossref.status.notDeposited' => 'Не е депонирано',
+      'plugins.generic.crossref.registrationAgency.name' => 'Crossref',
+      'plugins.generic.crossref.successMessage' => 'Метаподатоците за оваа ставка се депонирани во Crossref. За подетален преглед, видете го поднесокот во <a href="https://doi.crossref.org/servlet/submissionAdmin?sf=detail&submissionID={$submissionId}">административната табла на Crossref</a>.',
+    ),
+  ),
+);

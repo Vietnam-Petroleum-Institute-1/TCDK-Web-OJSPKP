@@ -1,0 +1,24 @@
+<?php $exp = 1751345598; $val = \PKP\i18n\translation\Translator::__set_state(array(
+   'domain' => '',
+   'dictionary' => 
+  array (
+    '' => 
+    array (
+      '' => 
+      array (
+        'admin.hostedContexts' => 'วารสารเจ้าภาพ',
+        'admin.settings.redirect' => 'การเปลี่ยนเส้นทางวารสาร',
+        'admin.settings.redirectInstructions' => 'คำขอไปยังเว็บไซต์หลักจะถูกเปลี่ยนเส้นทางไปยังวารสารนี้ ซึ่งอาจเป็นประโยชน์หากไซต์โฮสต์วารสารเพียงฉบับเดียว เป็นต้น',
+        'admin.languages.confirmDisable' => 'คุณแน่ใจหรือไม่ว่าต้องการปิดใช้งานภาษานี้ ซึ่งอาจส่งผลต่อวารสารที่โฮสต์ซึ่งใช้สถานที่ในปัจจุบัน',
+      ),
+    ),
+  ),
+   'plurals' => 
+  array (
+    '' => 
+    array (
+      'count' => 1,
+      'code' => 'return 0;',
+    ),
+  ),
+));

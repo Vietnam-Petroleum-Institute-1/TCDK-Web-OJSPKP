@@ -1,0 +1,406 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=1; plural=0;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'emails.passwordResetConfirm.subject' => 'パスワードリセットの確認',
+      'emails.passwordResetConfirm.body' => '{$siteTitle}のWebサイトにログインするパスワードのリセット依頼を受け取りました。<br />
+<br />
+リセット依頼をした覚えがない場合は、申し訳ありませんが、このメールを無理し、パスワードは変更しないでください。パスワードのリセットを希望される場合は、下のURLをクリックしてください。<br />
+<br />
+パスワードのリセット: {$passwordResetUrl}<br />
+<br />
+よろしくお願いいたします。<br />
+<br />
+{$siteContactName}',
+      'emails.userRegister.subject' => '新規ユーザーの登録',
+      'emails.userRegister.body' => '{$recipientName}様<br />
+<br />
+雑誌『{$contextName}』への登録ありがとうございました。ユーザー名とパスワードは、この雑誌のすべての処理で必要となりますので、大切に保管してください。どの時点でも、私に連絡することで、雑誌のユーザーリストからの削除を依頼することができます。<br />
+<br />
+ユーザー名: {$recipientUsername}<br />
+パスワード:  {$password}<br />
+<br />
+よろしくお願いいたします。<br />
+{$signature}',
+      'emails.userValidateContext.subject' => 'アカウントの確認',
+      'emails.userValidateContext.body' => '{$recipientName}様<br />
+<br />
+雑誌『{$contextName}』用のアカウントを作成しました。このアカウントを有効にするには、メールアドレスの確認が必要です。以下のリンクをクリックして確認してください。<br />
+<br />
+{$activateUrl}<br />
+<br />
+ありがとうございました。<br />
+{$contextSignature}',
+      'emails.reviewerRegister.subject' => 'ユーザー名『{$contextName}』で査読者として登録されました',
+      'emails.reviewerRegister.body' => '突然のメールをお許しください。<br />
+<br />
+貴殿の専門性に鑑み、失礼ですが私どもの雑誌『{$contextName}』の査読者データベースにあなたの名前を登録させていただきました。これによりあなたに何らかの義務が発生することはありません。ただ、できたら査読をお願いできるようにしておきたかっただけです。査読をお願いする場合は、対象となる論文のタイトルと要旨を見る機会を持っていただきます。もちろん、査読の依頼に応じるか否かの判断は常に貴殿に委ねられます。また、任意の時点で、この査読者リストから貴殿の名前を削除することもできます。<br />
+<br />
+以下に、貴殿のユーザー名とパスワードをご報告いたします。これを使用することにより、雑誌のWebサイトであらゆる処理（例えば、査読対象分野の変更など、貴殿のプロフィールの更新）を行うことができます。<br />
+<br />
+ユーザー名: {$recipientUsername}<br />
+パスワード: {$password}<br />
+<br />
+ご協力よろしくお願いいたします。<br />
+{$signature}',
+      'emails.issuePublishNotify.subject' => '最新号の発行案内',
+      'emails.issuePublishNotify.body' => '読者各位:<br />
+<br />
+いつもご利用ありがとうございます。<br />
+<br />
+雑誌『{$contextName} 』は、今日、最新号を発行しました。目次を送付いたしますので、興味のある論文や記事について、実際に雑誌のWebサイトにアクセスしてチェックしていただくようご案内いたします。雑誌WebサイトのURLは、{$contextUrl}です。<br />
+<br />
+引き続きよろしくお願いいたします。<br />
+{$signature}',
+      'emails.editorAssign.subject' => 'セクション編集者任命のお知らせ',
+      'emails.editorAssign.body' => '{$recipientName}様<br />
+<br />
+この度、雑誌『{$contextName}』への投稿論文「{$submissionTitle}」のセクション編集者として、編集プロセス全般の管理をお願いすることになりました。<br />
+<br />
+投稿物のURL: {$submissionUrl}<br />
+ユーザー名: {$recipientUsername}<br />
+<br />
+よろしくお願いいたします。',
+      'emails.reviewRequest.subject' => '論文査読のお願い',
+      'emails.reviewRequest.body' => '{$recipientName}様<br />
+<br />
+雑誌『{$contextName}』への投稿原稿「{$submissionTitle}」の査読をお願いいたしたくメールを差し上げました。投稿物の要旨を以下に添付しました。貴殿がこの重要な仕事を引き受けてくださることを希望いたしております。<br />
+<br />
+{$responseDueDate}までに、雑誌のWebサイトにログインして、査読を引き受けていただけるかどうかを示していただけるようお願いいたします。引き受けていただける場合は、このサイトで投稿物にアクセスし、査読結果と答申を記録することができます。雑誌のWebサイトのURLは、{$contextUrl} です。<br />
+<br />
+査読作業自体の期限日は、{$reviewDueDate}です。<br />
+<br />
+雑誌のWebサイトにアクセスするユーザー名とパスワードをお持ちでない場合は、次のリンクを使ってパスワードをリセットしてください（パスワードはユーザー名と共にメールで送信されます）: {$passwordLostUrl}<br />
+<br />
+投稿物のURL: {$reviewAssignmentUrl}<br />
+<br />
+よろしくご検討くださるよう、お願いいたします。<br />
+<br />
+{$signature}<br />
+<br />
+「{$submissionTitle}」<br />
+<br />
+{$submissionAbstract}',
+      'emails.reviewResponseOverdueAuto.subject' => 'リマインダー：論文査読のお願い',
+      'emails.reviewResponseOverdueAuto.body' => '{$recipientName}様<br />
+<br />
+雑誌『{$contextName}』への投稿原稿「{$submissionTitle}」の査読をお願いいたしたくメールを差し上げました。このメールは、{$responseDueDate}までにご返信をいただければと思っていたのですが、その日を過ぎた時点で自動リマインダーを送信させていただきます。<br />
+<br />
+投稿物の要旨を以下に添付しました。貴殿がこの重要な仕事を引き受けてくださることを希望いたしております。<br />
+<br />
+雑誌のWebサイトにログインして、査読を引き受けていただけるかどうかを示していただけるようお願いいたします。引き受けていただける場合は、このサイトで投稿物にアクセスし、査読結果と答申を記録することができます。雑誌のWebサイトのURLは、{$contextUrl} です。<br />
+<br />
+査読作業自体の期限日は、{$reviewDueDate}です。<br />
+<br />
+雑誌のWebサイトにアクセスするユーザー名とパスワードをお持ちでない場合は、次のリンクを使ってパスワードをリセットしてください（パスワードはユーザー名と共にメールで送信されます）: {$passwordLostUrl}<br />
+<br />
+投稿物のURL: {$reviewAssignmentUrl}<br />
+<br />
+よろしくご検討くださるよう、お願いいたします。<br />
+<br />
+{$contextSignature}<br />
+<br />
+「{$submissionTitle}」<br />
+<br />
+{$submissionAbstract}',
+      'emails.reviewRequestSubsequent.subject' => '論文査読のお願い',
+      'emails.reviewRequestSubsequent.body' => '{$recipientName}様<br />
+<br />
+雑誌『{$contextName}』への投稿原稿「{$submissionTitle}」に関して連絡いたします。<br />
+<br />
+この度、前回の原稿の査読を経て、改訂版が提出されました。評価にご協力いただければ幸いです。<br />
+<br />
+{$responseDueDate}までに、雑誌のWebサイトにログインして、査読を引き受けていただけるかどうかを示していただけるようお願いいたします。引き受けていただける場合は、このサイトで投稿物にアクセスし、査読結果と答申を記録することができます。雑誌のWebサイトのURLは、{$contextUrl} です。<br />
+<br />
+査読作業自体の期限日は、{$reviewDueDate}です。<br />
+<br />
+雑誌のWebサイトにアクセスするユーザー名とパスワードをお持ちでない場合は、次のリンクを使ってパスワードをリセットしてください（パスワードはユーザー名と共にメールで送信されます）: {$passwordLostUrl}<br />
+<br />
+投稿物のURL: {$reviewAssignmentUrl}<br />
+<br />
+よろしくご検討くださるよう、お願いいたします。<br />
+<br />
+{$signature}<br />
+<br />
+「{$submissionTitle}」<br />
+<br />
+{$submissionAbstract}',
+      'emails.reviewCancel.subject' => '査読依頼取消のお願い',
+      'emails.reviewCancel.body' => '{$recipientName} 様:<br />
+<br />
+以前お願いしておりました、雑誌『{$contextName}』への投稿物「{$submissionTitle}」の査読の件ですが、誠に勝手ながら事情により取り消させていただくことになりました。ご迷惑をおかけして、誠に申し訳ありませんでした。今後また査読をお願いすることがあろうかと思いますが、その節はよろしくお願いいたします。<br />
+<br />
+何かご不明な点がございましたら、ご連絡ください。<br />
+<br />
+よろしくお願いいたします。',
+      'emails.reviewReinstate.subject' => '論文査読のお願いの復活',
+      'emails.reviewReinstate.body' => '{$recipientName}様:<br />
+<br />
+雑誌『{$contextName}』への投稿原稿「{$submissionTitle}」の査読のお願いを復活させたいと思います。本誌の査読作業のお手伝いをしていただければ幸いです。<br />
+<br />
+何かご不明な点がございましたら、ご連絡ください。',
+      'emails.reviewDecline.subject' => '査読依頼の謝絶',
+      'emails.reviewDecline.body' => '編集部 御中:<br />
+<br />
+申し訳ありませんが、今回は、雑誌『{$contextName}』への投稿原稿「{$submissionTitle}」の査読をお受けすることはできません。査読者に選んでいただきありがとうございました。また、機会がございましたら、ご連絡ください。<br />
+<br />
+よろしくお願いいたします。<br />
+{$senderName}',
+      'emails.reviewRemind.subject' => '論文査読の督促',
+      'emails.reviewRemind.body' => '{$recipientName} 様:<br />
+<br />
+雑誌『{$contextName}』への投稿原稿「{$submissionTitle}」の査読は進んでいるでしょうか。査読期限日は、{$reviewDueDate}となっております。準備ができ次第できるだけ早く査読結果をいただきたいと考えております。<br />
+<br />
+雑誌のWebサイトにログインするユーザー名とパスワードをお持ちでない場合は、次のリンクを使ってパスワードをリセットしてください（パスワードはユーザー名と共にメールで送信されます）： {$passwordLostUrl}<br />
+<br />
+投稿物のURL: {$reviewAssignmentUrl}<br />
+<br />
+本誌の投稿物にとって極めて重要なこの貢献を貴殿が遂行できることを確認してください。お返事をお待ちしております。<br />
+<br />
+よろしくお願いいたします。<br />
+<br />
+{$signature}',
+      'emails.reviewRemindAuto.subject' => '論文査読の督促（自動送信）',
+      'emails.reviewRemindAuto.body' => '{$recipientName} 様:<br />
+<br />
+雑誌『{$contextName}』への投稿原稿「{$submissionTitle}」の査読は進んでいるでしょうか。査読期限日は、{$reviewDueDate}となっております。このメールは、期限日が過ぎた査読者に対し、システムにより自動的に作成され送信されるものです。準備ができ次第できるだけ早く査読結果をいただきたいと考えております。<br />
+<br />
+雑誌のWebサイトにログインするユーザー名とパスワードをお持ちでない場合は、次のリンクを使ってパスワードをリセットしてください（パスワードはユーザー名と共にメールで送信されます）： {$passwordLostUrl}<br />
+<br />
+投稿物のURL: {$reviewAssignmentUrl}<br />
+<br />
+本誌の投稿物にとって極めて重要なこの貢献を貴殿が遂行できることを確認してください。お返事をお待ちしております。<br />
+<br />
+よろしくお願いいたします。<br />
+<br />
+{$contextSignature}',
+      'emails.editorDecisionAccept.subject' => '編集者の判断',
+      'emails.editorDecisionAccept.body' => '{$authors}様:<br />
+<br />
+下記の投稿について結論に達しましたので、連絡いたします。
+『{$contextName}』「{$submissionTitle}」<br />
+<br />
+結果は: 投稿の受理',
+      'emails.layoutRequest.subject' => 'ゲラ作成のお願い',
+      'emails.layoutRequest.body' => '{$recipientName}:<br />
+<br />
+雑誌『{$contextName}』への投稿原稿「{$submissionTitle}」のゲラの作成をお願いいたしたくメールを差し上げました。下記の手順に従って作成してください。<br />
+1. 下記の投稿URLをクリックしてください。<br />
+2. 雑誌サイトにログインし、「制作準備完了ファイル」を使用して、雑誌の基準に従ってゲラを作成します。<br />
+3. 「ゲラファイル」セクションにゲラをアップロードしてください。<br />
+4. 「制作ディスカッション」を使用して、編集者にゲラがアップロードされ、準備ができたことを通知します。<br />
+<br />
+{$contextName} URL: {$contextUrl}<br />
+投稿URL: {$submissionUrl}<br />
+ユーザー名: {$recipientUsername}<br />
+<br />
+今回、この作業を引き受けていただけない場合、あるいは、何かご不明な点がございましたら、ご連絡ください。この作業を引き受けていただくよう、よろしくお願いいたします。',
+      'emails.layoutComplete.subject' => 'ゲラ作成の完了',
+      'emails.layoutComplete.body' => '{$recipientName}様:<br />
+<br />
+雑誌『{$contextName}』への投稿原稿「{$submissionTitle}」のゲラを作成し、校正作業の準備ができたことをご報告いたします。<br />
+<br />
+何かご不明な点がございましたら、ご連絡ください。よろしくお願いいたします。<br />
+<br />
+{$senderName}',
+      'emails.emailLink.subject' => '論文の紹介',
+      'emails.emailLink.body' => '{$contextName}の第{$volume}巻{$number}号（{$year}）で公開された{$authors}による「{$submissionTitle}」を見て興味を持つかもしれないと思いました。この論文のURL: {$submissionUrl}。',
+      'emails.emailLink.description' => 'このメールテンプレートは、登録ユーザーに、興味を持ちそうな研究者に論文を紹介する機会を提供するものです。このメールは、読書ツールから利用することができますが、あらかじめ雑誌管理者が読書ツール管理ページで有効にしておく必要があります。',
+      'emails.subscriptionNotify.subject' => '購読に関する通知',
+      'emails.subscriptionNotify.body' => '{$recipientName}様:<br />
+<br />
+貴殿は雑誌『{$contextName}』のオンラインジャーナル管理システムに、以下の条件の購読者として登録されました。<br />
+<br />
+{$subscriptionType}<br />
+<br />
+購読者のみが利用できるコンテンツにアクセスするには、ユーザー名「{$recipientUsername}」でシステムにログインしていただくだけです。<br />
+<br />
+ユーザー情報とパスワードをいつでも変更することができます<br />
+<br />
+機関購読者の場合は、機関構成員の方はログインする必要はありませんので、ご注意ください。購読コンテンツへのアクセスの際に、システムにより自動的に認証が行われます。<br />
+<br />
+何かご不明な点がございましたら、ご連絡ください。<br />
+<br />
+ありがとうございました。<br />
+<br />
+{$subscriptionSignature}',
+      'emails.openAccessNotify.subject' => 'オープンアクセスのお知らせ',
+      'emails.openAccessNotify.body' => '読者各位:<br />
+<br />
+いつもご利用ありがとうございます。<br />
+<br />
+雑誌『{$contextName}』の以下の巻号がオープンアクセスにより利用できるようになりましたのでご案内いたします。雑誌のWebサイト({$contextUrl})にアクセスし、目次をチェックし興味のある論文や記事をご利用ください。<br />
+<br />
+よろしくお願いいたします。<br />
+{$contextSignature}',
+      'emails.subscriptionBeforeExpiry.subject' => '購読期間終了のお知らせ',
+      'emails.subscriptionBeforeExpiry.body' => '{$recipientName}様:<br />
+<br />
+いつもご利用ありがとうございます。<br />
+<br />
+まもなく、雑誌『{$contextName}』の購読期間が終了します<br />
+<br />
+{$subscriptionType}<br />
+購読期限日: {$expiryDate}<br />
+<br />
+本誌へのアクセスを継続するために、雑誌のWebサイトで再購読の手続きをするようお願いいたします。システムにはユーザー名「{$recipientUsername}」でログインすることができます。<br />
+<br />
+何かご不明な点がございましたら、ご連絡ください。<br />
+<br />
+よろしくお願いいたします。<br />
+<br />
+{$subscriptionSignature}',
+      'emails.subscriptionAfterExpiry.subject' => '購読期間終了',
+      'emails.subscriptionAfterExpiry.body' => '{$recipientName}様:<br />
+<br />
+いつもご利用ありがとうございます。<br />
+<br />
+雑誌『{$contextName}』の購読期間が終了しました。<br />
+<br />
+{$subscriptionType}<br />
+購読期限日: {$expiryDate}<br />
+<br />
+雑誌のWebサイトで更新の手続きをするようお願いいたします。システムにはユーザー名「{$recipientUsername}」でログインすることができます。<br />
+<br />
+何かご不明な点がございましたら、ご連絡ください。<br />
+<br />
+よろしくお願いいたします。<br />
+<br />
+{$subscriptionSignature}',
+      'emails.subscriptionAfterExpiryLast.subject' => '購読期間終了（最終案内）',
+      'emails.subscriptionAfterExpiryLast.body' => '{$recipientName}様:<br />
+<br />
+いつもご利用ありがとうございます。<br />
+<br />
+雑誌『{$contextName}』の購読期間が終了しました。<br />
+本メールは、最終のご案内であることにご注意ください。<br />
+<br />
+{$subscriptionType}<br />
+購読期限日: {$expiryDate}<br />
+<br />
+雑誌のWebサイトで更新の手続きをするようお願いいたします。システムにはユーザー名「{$recipientUsername}」でログインすることができます。<br />
+<br />
+何かご不明な点がございましたら、ご連絡ください。<br />
+<br />
+よろしくお願いいたします。<br />
+<br />
+{$subscriptionSignature}',
+      'emails.subscriptionPurchaseIndl.subject' => '購読申込: 個人',
+      'emails.subscriptionPurchaseIndl.body' => 'オンラインで {$contextName}  に対する個人購読が申し込まれました。詳細は下記の通りです。<br />
+<br />
+購読種別:<br />
+{$subscriptionType}<br />
+<br />
+ユーザー:<br />
+{$subscriberDetails}<br />
+<br />
+会員情報 (ある場合):<br />
+{$membership}<br />
+<br />
+この購読を閲覧あるいは編集するには，下記のURLにアクセスしてください。<br />
+<br />
+購読URL: {$subscriptionUrl}<br />
+',
+      'emails.subscriptionPurchaseInstl.subject' => '購読申込: 機関',
+      'emails.subscriptionPurchaseInstl.body' => 'オンラインで {$contextName} に対する機関購読申し込みがされました。詳細は下記の通りです。この購読を有効にするためには，下記の購読リンクから購読状態を「有効」に設定してください。<br />
+<br />
+購読種別:<br />
+{$subscriptionType}<br />
+<br />
+機関名:<br />
+{$institutionName}<br />
+{$institutionMailingAddress}<br />
+<br />
+ドメイン名 (ある場合):<br />
+{$domain}<br />
+<br />
+IPアドレス範囲 (ある場合):<br />
+{$ipRanges}<br />
+<br />
+連絡担当者:<br />
+{$subscriberDetails}<br />
+<br />
+会員情報 (ある場合):<br />
+{$membership}<br />
+<br />
+この購読を閲覧および編集するためには，下記のURLにアクセスしてください。<br />
+<br />
+購読URL: {$subscriptionUrl}<br />
+',
+      'emails.subscriptionRenewIndl.subject' => '購読更新: 個人',
+      'emails.subscriptionRenewIndl.body' => 'オンラインで {$contextName} に対する個人購読の更新申込がされました。詳細は下記の通りです。<br />
+<br />
+購読種別::<br />
+{$subscriptionType}<br />
+<br />
+ユーザー:<br />
+{$subscriberDetails}<br />
+<br />
+会員情報 (ある場合):<br />
+{$membership}<br />
+<br />
+この購読を閲覧および編集するためには，下記のURLにアクセスしてください。<br />
+<br />
+購読URL: {$subscriptionUrl}<br />
+',
+      'emails.subscriptionRenewInstl.subject' => '購読更新: 機関',
+      'emails.subscriptionRenewInstl.body' => 'オンラインで {$contextName} に対する機関購読の更新申込がおこなわれました。詳細は下記の通りです。<br />
+<br />
+購読種別:<br />
+{$subscriptionType}<br />
+<br />
+機関名:<br />
+{$institutionName}<br />
+{$institutionMailingAddress}<br />
+<br />
+ドメイン名 (ある場合):<br />
+{$domain}<br />
+<br />
+IPアドレス範囲 (ある場合):<br />
+{$ipRanges}<br />
+<br />
+連絡担当者:<br />
+{$subscriberDetails}<br />
+<br />
+会員情報 (ある場合):<br />
+{$membership}<br />
+<br />
+この購読を閲覧および編集するためには，下記のURLにアクセスしてください。<br />
+<br />
+購読URL: {$subscriptionUrl}<br />
+',
+      'emails.revisedVersionNotify.subject' => '改訂版アップロード',
+      'emails.revisedVersionNotify.body' => '編集部 御中:<br />
+<br />
+筆者{$submitterName}が「{$submissionTitle}」の改訂版をアップロードしました。<br />
+<br />
+投稿URL: {$submissionUrl}<br />
+<br />
+{$signature}',
+      'emails.statisticsReportNotification.subject' => '{$month}月{$year}年の編集活動',
+      'emails.statisticsReportNotification.body' => '
+{$recipientName}様 <br />
+<br />
+あなたの雑誌の{$month}月{$year}年のヘルスレポートが公開されました。今月の主な統計情報は以下の通りです。<br />
+<ul>
+	<li>今月の新規投稿: {$newSubmissions}</li>
+	<li>今月の拒否投稿: {$declinedSubmissions}</li>
+	<li>今月の受理投稿: {$acceptedSubmissions}</li>
+	<li>システム内の総投稿数: {$totalSubmissions}</li>
+</ul>
+雑誌ににログインすると、<a href="{$editorialStatsLink}">編集トレンド</a>と<a href="{$publicationStatsLink}">掲載論文の統計</a>の詳細を見ることができます。今月の編集トレンドの全文が添付されています。<br />
+<br />
+よろしくお願いします。<br />
+{$contextSignature}',
+      'emails.announcement.subject' => '{$announcementTitle}',
+      'emails.announcement.body' => '<b>{$announcementTitle}</b><br />
+<br />
+{$announcementSummary}<br />
+<br />
+詳しいお知らせを読むためにウェブサイト<a href="{$announcementUrl}">をご覧ください。</a>.',
+    ),
+  ),
+);

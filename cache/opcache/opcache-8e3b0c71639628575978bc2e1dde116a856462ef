@@ -1,0 +1,72 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n % 10 != 1 || n % 100 == 11;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'installer.additionalLocales' => 'Viðbótartungumál',
+      'installer.administratorAccount' => 'Reikningur kerfisstjóra',
+      'installer.administratorAccountInstructions' => 'Notandinn verður kerfisstjóri og hefur fullan aðgang að kerfinu. Hægt er að stofna viðbótarnotendur eftir uppsetningu.',
+      'installer.checkNo' => '<span class="pkp_form_error formError">NO</span>',
+      'installer.checkYes' => 'Já',
+      'installer.configFileError' => 'Uppsetningarskráin  <tt>config.inc.php</tt> finnst ekki eða er ekki læsileg.',
+      'installer.connectionCharset' => 'Tengistafasett',
+      'installer.contentsOfConfigFile' => 'Uppsetningarskrá',
+      'installer.databaseDriver' => 'Gagnagrunnsrekill (driver)',
+      'installer.databaseDriverInstructions' => '<strong>Kerfið styður við MySQL og PostgreSQL,  ef þú getur ekki valið annanhvorn möguleikann, hafðu þá samband við þinn kerfisstjóra til að ganga úr skugga um að þjónninn sé með nauðsynlega PHP viðbætur.</strong>',
+      'installer.databaseHost' => 'Hýsingartölva',
+      'installer.databaseName' => 'Nafn gagnagrunns',
+      'installer.databasePassword' => 'Lykilorð',
+      'installer.databaseSettings' => 'Stillingar gagnagrunns',
+      'installer.databaseUsername' => 'Notendanafn',
+      'installer.filesDir' => 'Skráasafn fyrir upphlað',
+      'installer.fileSettings' => 'Skráastillingar',
+      'installer.form.clientCharsetRequired' => 'Velja þarf stafasett biðlara.',
+      'installer.form.databaseDriverRequired' => 'Velja þarf gagnagrunnsrekil(driver).',
+      'installer.form.databaseNameRequired' => 'Nafn gagnagrunns er áskilið.',
+      'installer.form.emailRequired' => 'Gilt netfang fyrir kerfisstjóra er áskilið.',
+      'installer.form.filesDirRequired' => 'Skráasvæði sem geymir upphlaðnar skrár er áskilið.',
+      'installer.form.localeRequired' => 'Velja þarf tungumál.',
+      'installer.form.passwordRequired' => 'Lykilorð fyrir kerfistjóra er áskilið.',
+      'installer.form.passwordsDoNotMatch' => 'Kerfisstjóralykilorðin passa ekki saman.',
+      'installer.form.separateMultiple' => 'Aðgreindu gildin með kommu',
+      'installer.form.usernameAlphaNumeric' => 'Notendanafn kerfisstjóra má bara innihalda bókstafi, tölustafi, undirstrik og bandstrik, og verður að byrja og enda á bókstaf eða tölustaf.',
+      'installer.form.usernameRequired' => 'Notendanafn fyrir kerfisstjóra er áskilið.',
+      'installer.installationWrongPhp' => '<br/><strong>VIÐVÖRUN: Núverandi útgáfa af PHP uppfyllir ekki lágmarks kröfur fyrir uppsetningu. Mælt er með uppfærslu í nýrri útgáfu af PHP. </strong>',
+      'installer.installErrorsOccurred' => 'Villur komu upp við uppsetningu',
+      'installer.installerSQLStatements' => 'SQL setningar fyrir uppsetningu',
+      'installer.installFileError' => 'Uppsetningarskrá  <tt>dbscripts/xml/install.xml</tt> fannst ekki eða er ekki læsileg.',
+      'installer.installFilesDirError' => 'Uppgefið skráasvæði fyrir upphlaðnar skrár finnst ekki eða er ekki skrifanlegt.',
+      'installer.installParseDBFileError' => 'Villa við þáttun uppsetningarskrár gagnagrunnsins <tt>{$file}</tt>.',
+      'installer.installMigrationError' => 'Frábrigði kom upp þegar verið var að keyra yfirfærslu klasa  <tt>{$class}</tt>.  Frábrigðið var þetta: {$message}.',
+      'installer.installParseEmailTemplatesFileError' => 'Villa við þáttun skráar fyrir tölvupóstssniðmát <tt>{$file}</tt>.',
+      'installer.installParseFilterConfigFileError' => 'Villa við þáttun skráar fyrir uppsetningu á síum <tt>{$file}</tt>.',
+      'installer.unsupportedUpgradeError' => 'Ekki stutt við uppfærslu. Sjá  nánar docs/UPGRADE-UNSUPPORTED.',
+      'installer.locale' => 'Tungumál',
+      'installer.locale.maybeIncomplete' => 'Merkt tungumál geta verið ófullgerð.',
+      'installer.localeSettings' => 'Stillingar á tungumáli',
+      'installer.oaiSettings' => 'OAI stillingar',
+      'installer.oaiRepositoryId' => 'Auðkenni gagnahirslu',
+      'installer.publicFilesDirError' => 'Almennt skráasafn finnst ekki eða er ekki skrifanlegt.',
+      'installer.releaseNotes' => 'Upplýsingar um útgáfu',
+      'installer.preInstallationInstructionsTitle' => 'Skref foruppsetningar',
+      'installer.preInstallationInstructions' => '
+		<p>1. Eftirfarandi skrár og skráarsvæði (og innihald þeirra) þarf að gera skrifanleg:</p>
+		<ul>
+			<li><tt>config.inc.php</tt> er skrifanlegt (valkvætt): {$writable_config}</li>
+			<li><tt>public/</tt>  er skrifanlegt: {$writable_public}</li>
+			<li><tt>cache/</tt>  er skrifanlegt: {$writable_cache}</li>
+			<li><tt>cache/t_cache/</tt>  er skrifanlegt: {$writable_templates_cache}</li>
+			<li><tt>cache/t_compile/</tt>  er skrifanlegt: {$writable_templates_compile}</li>
+			<li><tt>cache/_db</tt>  er skrifanlegt: {$writable_db_cache}</li>
+		</ul>
+
+		<p>2. Útbúa þarf skrifanlegt skráarsvæði fyrir geymslu upphlaðinna skráa (Sjá "Skráa stillingar" hér fyrir neðan).</p>
+	',
+      'installer.configureXSLMessage' => '<p>PHP uppsetningin þín er ekki með  XSL eininguna virkjaða.  Þú þarft annað hvort að virkja eininguna, eða stilla "xslt_command" færibreytu í skránni config.inc.php .</p>',
+      'installer.beacon' => 'Leiðarljós',
+      'installer.unsupportedPhpError' => 'PHP útgáfan á þjóninum er ekki stutt af þessum hugbúnaði.  Athugaðu uppsetningarkröfurnar í docs/README.',
+    ),
+  ),
+);

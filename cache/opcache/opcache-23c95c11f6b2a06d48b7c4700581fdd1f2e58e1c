@@ -1,0 +1,15 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n==1 || n%10==1 ? 0 : 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.recommendBySimilarity.displayName' => 'Препорачани слични трудови',
+      'plugins.generic.recommendBySimilarity.description' => 'Овој додаток додава листа од слични трудови на страната со апстрактот на трудот.',
+      'plugins.generic.recommendBySimilarity.heading' => 'Слични трудови',
+      'plugins.generic.recommendBySimilarity.advancedSearchIntro' => 'Можете исто така {$advancedSearchLink} за овој труд.',
+      'plugins.generic.recommendBySimilarity.advancedSearch' => 'да започнате напредно барање на сличности',
+    ),
+  ),
+);

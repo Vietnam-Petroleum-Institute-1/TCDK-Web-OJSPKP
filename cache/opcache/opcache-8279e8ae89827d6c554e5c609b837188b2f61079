@@ -1,0 +1,370 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'emails.passwordResetConfirm.subject' => 'Bevestiging wachtwoord herstellen',
+      'emails.passwordResetConfirm.body' => 'We hebben een verzoek van u ontvangen om uw wachtwoord voor de website {$siteTitle} te herstellen.<br />
+<br />
+Als u dat verzoek niet gedaan hebt, negeer dan deze e-mail en uw wachtwoord wordt niet veranderd. Als u uw wachtwoord wilt herstellen , klik dan op de url hieronder.<br />
+<br />
+Herstel mijn wachtwoord: {$passwordResetUrl}<br />
+<br />
+{$siteContactName}',
+      'emails.userRegister.subject' => 'Tijdschriftregistratie',
+      'emails.userRegister.body' => '{$recipientName}<br />
+<br />
+U bent nu geregistreerd als gebruiker bij {$contextName}. We hebben uw gebruikersnaam en wachtwoord in deze e-mail opgenomen. U heeft die nodig om met het tijdschrift te werken. U kunt op ieder gewenst moment verwijderd worden van de lijst gebruikers van dit tijdschrift door contact met mij op te nemen<br />
+<br />
+Gebruikersnaam: {$recipientUsername}<br />
+Wachtwoord: {$password}<br />
+<br />
+Dank u,<br />
+{$signature}',
+      'emails.userValidateContext.subject' => 'Valideer uw account',
+      'emails.userValidateContext.body' => '{$recipientName}<br />
+<br />
+U hebt een account aangemaakt bij {$contextName}. Voordat u dat kunt gebruiken moet u uw account valideren. U doet dat door de link hieronder te volgen:<br />
+<br />
+{$activateUrl}<br />
+<br />
+Dank u,<br />
+{$contextSignature}',
+      'emails.userValidateSite.subject' => 'Valideer uw account',
+      'emails.userValidateSite.body' => '<p>Beste {$recipientName},</p>U heeft een account aangemaakt bij {$siteTitle}, maar voordat u het kunt gaan gebruiken, moet u uw e-mailadres valideren. Volg hiervoor de onderstaande link:<p>{$activateUrl},</p><p>Bedankt,</p>{$siteSignature}',
+      'emails.reviewerRegister.subject' => 'Registratie als Reviewer bij {$contextName}',
+      'emails.reviewerRegister.body' => 'Met het oog op uw expertise hebben wij de vrijheid genomen om uw naam op te nemen in de lijst met reviewers van {$contextName}. Dit verplicht u tot niets maar geeft ons de mogelijkheid u te benaderen met het verzoek eventueel een inzending te reviewen. Bij de uitnodiging krijgt u de gelegenheid de titel en samenvatting van het stuk in kwestie te bekijken. U kunt de uitnodiging te allen tijde accepteren of weigeren. U kunt ook altijd vragen om uw naam van deze lijst te laten verwijderen.<br />
+<br />
+We geven u een gebruikersnaam en wachtwoord, die gebruikt worden voor alle interacties met de website van het tijdschrift. Zo kunt u bijvoorbeeld uw profiel bijwerken, waaronder uw review-interesses.<br />
+<br />
+Gebruikersnaam: {$recipientUsername}<br />
+Wachtwoord: {$password}<br />
+<br />
+Dank u,<br />
+{$signature}',
+      'emails.issuePublishNotify.subject' => 'Nieuw nummer gepubliceerd',
+      'emails.issuePublishNotify.body' => 'Lezers:<br />
+<br />
+{$contextName} heeft zijn nieuwste nummer gepubliceerd op {$contextUrl}. We nodigen u uit om de inhoudsopgave te bekijken en de website te bezoeken voor het bekijken van de artikelen en andere interessante items.<br />
+<br />
+Dank voor uw interesse in ons werk,<br />
+{$signature}',
+      'emails.editorAssign.subject' => 'Redactietaak',
+      'emails.editorAssign.body' => '{$recipientName}:<br />
+<br />
+De inzending &quot;{$submissionTitle}&quot; voor {$contextName} is aan u toegewezen om in uw rol als sectieredacteur door het redactieproces te leiden.<br />
+<br />
+URL inzending: {$submissionUrl}<br />
+Gebruikersnaam: {$recipientUsername}<br />
+<br />
+Dank u.',
+      'emails.reviewRequest.subject' => 'Artikel review verzoek',
+      'emails.reviewRequest.body' => '{$recipientName}:<br />
+<br />
+Ik geloof dat u een excellente reviewer zou zijn voor het manuscript &quot;{$submissionTitle}&quot; dat is ingestuurd bij {$contextName}. De samenvatting van de inzending staat hieronder. Ik hoop dat u wilt overwegen deze belangrijke taak voor ons uit te voeren.<br />
+<br />
+Wilt u voor {$responseDueDate} inloggen op de website van het tijdschrift om aan te geven of u de review al of niet doet. Daar kunt u ook de inzending vinden en uw review en aanbeveling vastleggen. De website is {$contextUrl}<br />
+<br />
+Het review wordt verwacht op {$reviewDueDate}.<br />
+<br />
+Als u uw gebruikersnaam en het wachtwoord van de website van het tijdschrift niet heeft, kunt u deze link gebruiken voor het herstellen van uw wachtwoord (dat samen met uw gebruikersnaam in een e-mail naar u verstuurd wordt). {$passwordLostUrl}<br />
+<br />
+URL inzending: {$reviewAssignmentUrl}<br />
+<br />
+Dank u voor het overwegen van dit verzoek.<br />
+<br />
+{$signature}<br />
+<br />
+<br />
+<br />
+&quot;{$submissionTitle}&quot;<br />
+<br />
+{$submissionAbstract}',
+      'emails.reviewResponseOverdueAuto.subject' => 'Verzoek om artikelbeoordeling',
+      'emails.reviewResponseOverdueAuto.body' => '{$recipientName}:<br />
+We willen u vriendelijk herinneren aan ons verzoek voor een review van het manuscript &quot;{$submissionTitle},&quot; voor {$contextName}. We verwachtten uw antwoord voor {$responseDueDate}; dit bericht werd automatisch verstuurd na het verstrijken van die datum. 
+<br />
+Ik geloof dat u een excellente reviewer zou zijn voor het manuscript. De samenvatting van de inzending staat hieronder. Ik hoop dat u wilt overwegen deze belangrijke taak voor ons uit te voeren.<br />
+<br />
+Wilt u inloggen op de website van het tijdschrift om aan te geven of u de review al of niet doet. Daar kunt u ook de inzending vinden en uw review en aanbeveling vastleggen. De website is {$contextUrl}<br />
+<br />
+Het review wordt verwacht op {$reviewDueDate}.<br />
+<br />
+Als u uw gebruikersnaam en het wachtwoord van de website van het tijdschrift niet heeft, kunt u deze link gebruiken voor het herstellen van uw wachtwoord (dat samen met uw gebruikersnaam in een e-mail naar u verstuurd wordt). {$passwordLostUrl}<br />
+<br />
+URL inzending: {$reviewAssignmentUrl}<br />
+<br />
+Dank u voor het overwegen van dit verzoek.<br />
+<br />
+{$contextSignature}<br />
+<br />
+&quot;{$submissionTitle}&quot;<br />
+<br />
+{$submissionAbstract}',
+      'emails.reviewRequestSubsequent.subject' => 'Verzoek tot reviewen van een artikel',
+      'emails.reviewRequestSubsequent.body' => '{$recipientName}:<br />
+<br />
+Dit betreft het manuscript &quot;{$submissionTitle},&quot; dat wordt overwogen door {$contextName}.<br />
+<br />
+Na de review van een vorige versie van hun manuscript hebben de auteurs een gereviseerde versie ingestuurd. We zouden het waarderen als u wilt helpen die te evalueren.<br />
+<br />
+Gelieve in te loggen op de website van het tijdschrift vóór {$responseDueDate} om aan te geven of u deze review wilt doen of niet, alsmede om toegang te krijgen tot de inzending en uw bevindingen en aanbeveling vast te leggen. De website is {$contextUrl}<br />
+<br />
+De revieuw moet gereed zijn op {$reviewDueDate}.<br />
+<br />
+Als u uw gebruikersnaam en wachtwoord niet meer heeft, kunt u deze link gebruiken om uw wachtwoord terug te zetten (dat u met uw gebruikersnaam in een e-mail zult ontvangen). {$passwordLostUrl}<br />
+<br />
+URL van de inzending: {$reviewAssignmentUrl}<br />
+<br />
+Hartelijk dank voor het overwegen van dit verzoek.<br />
+<br />
+{$signature}<br />
+<br />
+<br />
+<br />
+&quot;{$submissionTitle}&quot;<br />
+<br />
+{$submissionAbstract}',
+      'emails.reviewCancel.subject' => 'Reviewverzoek ingetrokken',
+      'emails.reviewCancel.body' => '{$recipientName}:<br />
+<br />
+We hebben besloten om ons verzoek aan u om de inzending &quot;{$submissionTitle}&quot; voor {$contextName}in te trekken. We verontschuldigen ons voor enig ongemak dat we daarmee veroorzaken en hopen dat we u in de toekomst mogen vragen om een bijdrage aan het reviewproces van dit tijdschrift.<br />
+<br />
+Als u nog vragen heeft, kunt u contact met mij opnemen.',
+      'emails.reviewReinstate.subject' => 'Herindienen beoordelingsverzoek',
+      'emails.reviewReinstate.body' => '{$recipientName}:<br />
+<br />
+We willen graag ons beoordelingsverzoek over de inzending, &quot;{$submissionTitle},&quot; for {$contextName}, herindienen.<br />
+<br />
+Voor vragen kunt u contact met mij opnemen.',
+      'emails.reviewDecline.subject' => 'Review niet mogelijk',
+      'emails.reviewDecline.body' => '{$recipientName}:<br />
+<br />
+Ik ben bang dat ik op dit moment niet in staat ben om een review te doen van inzending &quot;{$submissionTitle}&quot; voor {$contextName}. Dank u dat u aan mij gedacht heeft en voel u vrij om op een ander moment een beroep op mij te doen.<br />
+<br />
+{$senderName}',
+      'emails.reviewRemind.subject' => 'Review herinnering',
+      'emails.reviewRemind.body' => '{$recipientName}:<br /><br />We willen u vriendelijk herinneren aan ons verzoek om de inzending &quot;{$submissionTitle}&quot; voor {$contextName} te reviewen. We verwachtten uw review op {$reviewDueDate}. We stellen het zeer op prijs om de review te ontvangen zodra u in de gelegenheid bent om die uit te voeren.<br /><br />Als u de gebruikersnaam en het wachtwoord van de website van het tijdschrift niet heeft, kunt u deze link gebruiken voor het herstellen van uw wachtwoord (dat samen met uw gebruikersnaam in een e-mail naar u verstuurd wordt). {$passwordLostUrl}<br /><br />URL inzending: {$reviewAssignmentUrl}<br /><br />Wilt u uw beschikbaarheid voor het voltooien van deze voor het werk van het tijdschrift vitale taak bevestigen. Ik kijk uit naar uw reactie.<br /><br />{$signature}',
+      'emails.reviewRemindAuto.subject' => 'Geautomatiseerde review herinnering',
+      'emails.reviewRemindAuto.body' => '{$recipientName}:<br />
+<br />
+We willen u vriendelijk herinneren aan ons verzoek om de inzending &quot;{$submissionTitle}&quot; voor {$contextName} te reviewen. We verwachtten uw review op {$reviewDueDate}. We stellen het zeer op prijs om de review te ontvangen zodra u in de gelegenheid bent om die uit te voeren.<br />
+<br />
+Als u de gebruikersnaam en het wachtwoord van de website van het tijdschrift niet heeft, kunt u deze link gebruiken voor het herstellen van uw wachtwoord (dat samen met uw gebruikersnaam in een e-mail naar u verstuurd wordt). {$passwordLostUrl}<br />
+<br />
+URL inzending: {$reviewAssignmentUrl}<br />
+<br />
+Wilt u uw beschikbaarheid voor het voltooien van deze voor het werk van het tijdschrift vitale taak bevestigen. Ik kijk uit naar uw reactie.<br />
+<br />
+{$contextSignature}',
+      'emails.editorDecisionAccept.subject' => 'Redacteursbeslissing',
+      'emails.editorDecisionAccept.body' => '{$authors}:<br />
+<br />
+We hebben een beslissing genomen over uw inzending voor {$contextName}, &quot;{$submissionTitle}&quot;.<br />
+<br />
+Onze beslissing is: Accepteer inzending',
+      'emails.layoutRequest.subject' => 'Verzoek aanmaken proeven',
+      'emails.layoutRequest.body' => '{$recipientName}:<br />
+<br />
+De proeven van inzending &quot;{$submissionTitle}&quot; bij {$contextName} kunnen aangemaakt worden door de volgende stappen te doorlopen.<br />
+1. Klik op de inzendings-URL hieronder.<br />
+2. Log in bij het tijdschrift en gebruik het Layout versie bestand om de proeven aan te maken conform de regels van het tijdschrift.<br />
+3. Stuur de GEREED e-mail naar de redacteur.<br />
+<br />
+{$contextName} URL: {$contextUrl}<br />
+URL inzending: {$submissionUrl}<br />
+Gebruikersnaam: {$recipientUsername}<br />
+<br />
+Als u op dit moment niet in staat bent om dit werk te doen of als u vragen heeft, neem dan contact met me op.',
+      'emails.layoutComplete.subject' => 'Proeven gereed',
+      'emails.layoutComplete.body' => '{$recipientName}:<br />
+<br />
+De proeven voor manuscript &quot;{$submissionTitle}&quot; voor {$contextName} zijn gereed voor proeflezen.<br />
+<br />
+Neemt u alstublieft contact met me op als u vragen heeft.<br />
+<br />
+{$senderName}',
+      'emails.emailLink.subject' => 'Mogelijk interessant artikel',
+      'emails.emailLink.body' => 'Ik denk dat u mogelijk geïnteresseerd bent in &quot;{$submissionTitle}&quot; door {$authors} gepubliceerd in Vol {$volume}, No {$number} ({$year}) van {$contextName} op &quot;{$submissionUrl}&quot;.',
+      'emails.emailLink.description' => 'Deze e-mail sjabloon geeft een lezer de mogelijkheid om informatie over een artikel naar iemand te sturen die daar mogelijk in geïnteresseerd is. Het is beschikbaar via de leesgereedschappen en moet ingeschakeld worden door de tijdschriftbeheerder (leesgereedschappen beheer pagina).',
+      'emails.subscriptionNotify.subject' => 'Bevestiging abonnement',
+      'emails.subscriptionNotify.body' => '{$recipientName}:<br />
+<br />
+U bent in ons online tijdschriftsysteem geregistreerd als abonnee van {$contextName} met het volgende abonnement:<br />
+<br />
+{$subscriptionType}<br />
+<br />
+Om toegang te krijgen tot de inhoud die is voorbehouden aan abonnees kunt u inloggen in het systeem met uw gebruikersnaam, &quot;{$recipientUsername}&quot;.<br />
+<br />
+Eenmaal ingelogd op het systeem kunt u uw profielgegevens en wachtwoord op ieder gewenst moment veranderen.<br />
+<br />
+Merk op dat in het geval van een institutioneel abonnement gebruikers niet in hoeven te loggen, het systeem zal verzoeken automatisch authenticeren.<br />
+<br />
+Als vragen heeft, neemt u dan alstublieft contact met me op.<br />
+<br />
+{$subscriptionSignature}',
+      'emails.openAccessNotify.subject' => 'Nummer nu Open Access',
+      'emails.openAccessNotify.body' => 'Lezers:<br />
+<br />
+{$contextName} heeft het volgende nummer in open access beschikbaar gesteld. We nodigen u uit om de inhoudsopgave te bekijken en onze website te bezoeken ({$contextUrl}) voor de items en artikels die u interesseren.<br />
+<br />
+Bedankt voor de interesse in ons werk,<br />
+{$contextSignature}',
+      'emails.subscriptionBeforeExpiry.subject' => 'Bericht van aflopen abonnement',
+      'emails.subscriptionBeforeExpiry.body' => '{$recipientName}:<br />
+<br />
+Uw abonnement op {$contextName} verloopt binnenkort.<br />
+<br />
+{$subscriptionType}<br />
+Afloopdatum: {$expiryDate}<br />
+<br />
+Om de continuïteit van uw toegang tot het tijdschrift te verzekeren kunt u uw abonnement verlengen op de website van het tijdschrift. U kunt inloggen op de website van het tijdschrift met uw gebruikersnaam &quot;{$recipientUsername}&quot;.<br />
+<br />
+Aarzel niet om contact met me op te nemen als u vragen heeft.<br />
+<br />
+{$subscriptionSignature}',
+      'emails.subscriptionAfterExpiry.subject' => 'Abonnement verlopen - laatste herinnering',
+      'emails.subscriptionAfterExpiry.body' => '{$recipientName}:<br />
+<br />
+Uw abonnement op {$contextName} is verlopen.<br />
+<br />
+{$subscriptionType}<br />
+Afloopdatum: {$expiryDate}<br />
+<br />
+Om uw abonnement te verlengen kunt u inloggen op de website van het tijdschrift met uw gebruikersnaam &quot;{$recipientUsername}&quot;.<br />
+<br />
+Aarzel niet om contact met me op te nemen als u vragen heeft.<br />
+<br />
+{$subscriptionSignature}',
+      'emails.subscriptionAfterExpiryLast.subject' => 'Abonnement verlopen - laatste herinnering',
+      'emails.subscriptionAfterExpiryLast.body' => '{$recipientName}:<br />
+<br />
+Uw abonnement op {$contextName} is verlopen.<br />
+Dit is de laatste herinnering die naar u wordt verstuurd.<br />
+<br />
+{$subscriptionType}<br />
+Afloopdatum: {$expiryDate}<br />
+<br />
+Om uw abonnement te verlengen, kunt u naar de website van het tijdschrift gaan en inloggen met uw gebruikersnaam: &quot;{$recipientUsername}&quot;.<br />
+<br />
+Aarzel niet om contact met mij op te nemen als u vragen heeft.<br />
+<br />
+{$subscriptionSignature}',
+      'emails.subscriptionPurchaseIndl.subject' => 'Aankoop abonnement: individueel',
+      'emails.subscriptionPurchaseIndl.body' => 'Een individueel abonnement met de volgende details is online aangeschaft voor {$contextName}.<br />
+<br />
+Abonnementsoort:<br />
+{$subscriptionType}<br />
+<br />
+Gebruiker:<br />
+{$subscriberDetails}<br />
+<br />
+Lidmaatschapsinformatie (indien opgegeven):<br />
+{$membership}<br />
+<br />
+Gebruik de volgende URL om dit abonnement te bekijken of te wijzigen.<br />
+<br />
+Abonnement URL: {$subscriptionUrl}<br />
+',
+      'emails.subscriptionPurchaseInstl.subject' => 'Aankoop abonnement: institutioneel',
+      'emails.subscriptionPurchaseInstl.body' => 'Er is online een institutioneel abonnement gekocht voor {$contextName} met de volgende details. Gebruik de abonnement-url om dit abonnement te activeren. Zet de status van het abonnement op \'Actief\'.<br />
+<br />
+Abonnementsoort:<br />
+{$subscriptionType}<br />
+<br />
+Instituut:<br />
+{$institutionName}<br />
+{$institutionMailingAddress}<br />
+<br />
+Domein (indien opgegeven):<br />
+{$domain}<br />
+<br />
+IP reeksen (indien opgegeven):<br />
+{$ipRanges}<br />
+<br />
+Contactpersoon:<br />
+{$subscriberDetails}<br />
+<br />
+Lidmaatschapsinformatie (indien opgegeven):<br />
+{$membership}<br />
+<br />
+Gebruik de volgende URL om het abonnement te bekijken of te bewerken.<br />
+<br />
+Abonnement URL: {$subscriptionUrl}<br />
+',
+      'emails.subscriptionRenewIndl.subject' => 'Verlenging abonnement: individueel',
+      'emails.subscriptionRenewIndl.body' => 'Een individueel abonnement is met de volgende details online verlengd voor {$contextName}.<br />
+<br />
+Abonnementsoort:<br />
+{$subscriptionType}<br />
+<br />
+Gebruiker:<br />
+{$subscriberDetails}<br />
+<br />
+Lidmaatschapsinformatie (indien opgegeven):<br />
+{$membership}<br />
+<br />
+Gebruik de volgende URL om het abonnement te bekijken of bewerken.<br />
+<br />
+Abonnement URL: {$subscriptionUrl}<br />
+',
+      'emails.subscriptionRenewInstl.subject' => 'Verlenging abonnement: institutioneel',
+      'emails.subscriptionRenewInstl.body' => 'Een institutioneell abonnement voor {$contextName} is met de volgende gegevens online verlengd.<br />
+<br />
+Abonnementsoort:<br />
+{$subscriptionType}<br />
+<br />
+Instituut:<br />
+{$institutionName}<br />
+{$institutionMailingAddress}<br />
+<br />
+Domein (indien opgegeven):<br />
+{$domain}<br />
+<br />
+IP reeksen (indien opgegeven):<br />
+{$ipRanges}<br />
+<br />
+Contactpersoon:<br />
+{$subscriberDetails}<br />
+<br />
+Lidmaatschapsinformatie (indien opgegeven):<br />
+{$membership}<br />
+<br />
+Gebruik de volgende URL om dit abonnement te bekijken of bewerken.<br />
+<br />
+Abonnement URL: {$subscriptionUrl}<br />
+',
+      'emails.revisedVersionNotify.subject' => 'Herziene versie geladen',
+      'emails.revisedVersionNotify.body' => '{$recipientName}:<br />
+<br />
+Een herziene versie van &quot;{$submissionTitle}&quot; is geladen door de auteur {$submitterName}.<br />
+<br />
+URL van de inzending: {$submissionUrl}<br />
+<br />
+{$signature}',
+      'emails.statisticsReportNotification.subject' => 'Redactionele activiteit voor {$month}, {$year}',
+      'emails.statisticsReportNotification.body' => '
+{$recipientName}, <br />
+<br />
+Uw dagboekgezondheidsrapport voor {$month}, {$year} is nu beschikbaar. Hieronder vindt u uw belangrijkste statistieken voor deze maand.<br />
+<ul>
+	<li>Nieuwe inzendingen deze maand: {$newSubmissions}</li>
+	<li>Afgewezen inzendingen deze maand: {$declinedSubmissions}</li>
+	<li>Geaccepteerde inzendingen deze maand: {$acceptedSubmissions}</li>
+	<li>Totaal aantal inzendingen in het systeem: {$totalSubmissions}</li>
+</ul>
+Log in op het tijdschrift om meer gedetailleerde <a href="{$editorialStatsLink}">redactionele trends </a> and <a href="{$publicationStatsLink}">gepubliceerde artikelstatistieken</a> te bekijken . Een volledig exemplaar van de redactionele trends van deze maand is bijgevoegd.<br />
+<br />
+Vriendelijke groet,<br />
+{$contextSignature}',
+      'emails.announcement.subject' => '{$announcementTitle}',
+      'emails.announcement.body' => '<b>{$announcementTitle}</b><br />
+<br />
+{$announcementSummary}<br />
+<br />
+Bezoek onze website om de <a href="{$announcementUrl}">volledige aankondiging</a> te lezen.',
+    ),
+  ),
+);

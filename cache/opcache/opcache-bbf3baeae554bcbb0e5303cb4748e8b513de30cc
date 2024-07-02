@@ -1,0 +1,32 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'comments.anonymous' => 'Pengguna Anonim',
+      'comments.anonymousNamed' => '"{$userName}"',
+      'comments.body' => 'Badan',
+      'comments.titleRequired' => 'Judul komentar diperlukan.',
+      'comments.confirmDeleteChildren' => 'Menghapus komentar ini juga akan menghapus balasan untuk komentar ini. Apakah Anda yakin ingin melakukan ini?',
+      'comments.delete' => 'Hapus komentar ini',
+      'comments.email' => 'Email Poster',
+      'comments.emailReply' => 'Balas Email',
+      'comments.enterComment' => 'Masukkan komentar',
+      'comments.inResponseTo' => 'Merespon<a href="{$url}">{$title}</a>',
+      'comments.name' => 'Nama Poster',
+      'comments.noComments' => 'Tidak ada komentar pembaca yang telah diposting.',
+      'comments.nReplies' => '({$num} Balasan)',
+      'comments.oneReply' => '(1 Balasan)',
+      'comments.postAnonymously' => 'Post komentar ini secara anonim',
+      'comments.postReply' => 'Post Balasan',
+      'comments.readerComments' => 'Komentar Pembaca',
+      'comments.readMore' => 'Baca Lebih Lanjut',
+      'comments.replies' => 'Balasan',
+      'comments.title' => 'Judul',
+      'comments.viewAllComments' => 'Lihat semua komentar',
+      'reader.fullText' => 'Teks Lengkap:',
+    ),
+  ),
+);

@@ -1,0 +1,25 @@
+<?php $exp = 1751345598; $val = \PKP\i18n\translation\Translator::__set_state(array(
+   'domain' => '',
+   'dictionary' => 
+  array (
+    '' => 
+    array (
+      '' => 
+      array (
+        'section.default.title' => 'Artihkkalat',
+        'doi.manager.settings.publications' => 'Artihkkalat',
+        'article.article' => 'Artihkal',
+        'article.articles' => 'Artihkkalat',
+        'common.publication' => 'Artihkal',
+        'common.publications' => 'Artihkkalat',
+        'article.subject' => 'Čoavddasánit',
+        'article.submissions' => 'Boahtán čállosat',
+        'navigation.current' => 'Ođđasemos',
+        'navigation.infoForAuthors' => 'Čálliide',
+      ),
+    ),
+  ),
+   'plurals' => 
+  array (
+  ),
+));

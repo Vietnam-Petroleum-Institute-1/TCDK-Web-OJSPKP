@@ -1,0 +1,17 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.acron.tasksReloaded' => 'Жоспарланған тапсырмалар қайта жүктелді.',
+      'plugins.generic.acron.reload' => 'Жоспарланған тапсырмаларды қайта жүктеңіз',
+      'plugins.generic.acron.reloadedCronTab' => 'Cron кестесі қайта жүктелді.',
+      'plugins.generic.acron.disabled' => 'Acron модулі өшірілген.',
+      'plugins.generic.acron.enabled' => 'Acron модулі қосылды.',
+      'plugins.generic.acron.description' => 'Бұл плагин қолданбаның cron сияқты мерзімді жоспарлау құралдарына тәуелділігін азайтуға тырысады',
+      'plugins.generic.acron.name' => '«Acron» модулі',
+    ),
+  ),
+);

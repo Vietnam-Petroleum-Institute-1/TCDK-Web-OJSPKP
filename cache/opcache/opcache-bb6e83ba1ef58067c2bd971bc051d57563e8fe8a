@@ -1,0 +1,32 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'comments.anonymous' => 'Utilizator anonim',
+      'comments.anonymousNamed' => '"{$userName}"',
+      'comments.body' => 'Corp',
+      'comments.titleRequired' => 'Este necesar un titlu pentru comentariu.',
+      'comments.confirmDeleteChildren' => 'Ștergerea acestui comentariu va șterge, de asemenea, orice răspuns la acesta. Sunteți sigur că vreți să faceți asta?',
+      'comments.delete' => 'Ștergeți acest comentariu',
+      'comments.email' => 'Afișare e-mail',
+      'comments.emailReply' => 'Email de răspuns',
+      'comments.enterComment' => 'Introducere comentarii',
+      'comments.inResponseTo' => 'Ca raspuns la <a href="{$url}">{$title}</a>',
+      'comments.name' => 'Afișare nume',
+      'comments.noComments' => 'Nu au fost postate comentarii pentru cititori.',
+      'comments.nReplies' => '({$num} Răspunsuri)',
+      'comments.oneReply' => '(Răspunde)',
+      'comments.postAnonymously' => 'Postați acest comentariu în mod anonim',
+      'comments.postReply' => 'Postare răspuns',
+      'comments.readerComments' => 'Comentariile cititorilor',
+      'comments.readMore' => 'Citește mai mult',
+      'comments.replies' => 'Răspunsuri',
+      'comments.title' => 'Titlu',
+      'comments.viewAllComments' => 'Vizualizați toate comentariile',
+      'reader.fullText' => 'Text integral:',
+    ),
+  ),
+);

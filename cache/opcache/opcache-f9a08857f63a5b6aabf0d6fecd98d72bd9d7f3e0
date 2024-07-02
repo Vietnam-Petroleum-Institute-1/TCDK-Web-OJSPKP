@@ -1,0 +1,32 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'comments.anonymous' => 'Anonieme gebruiker',
+      'comments.anonymousNamed' => '"{$userName}"',
+      'comments.body' => 'Inhoud',
+      'comments.titleRequired' => 'Een titel is verplicht',
+      'comments.confirmDeleteChildren' => 'Bij het verwijderen van deze reactie gaan ook de antwoorden daarop verloren. Weet u zeker dat u dit wilt doen?',
+      'comments.delete' => 'Verwijder dit commentaar',
+      'comments.email' => 'E-mailadres schrijver',
+      'comments.emailReply' => 'Antwoord via e-mail',
+      'comments.enterComment' => 'Geef reactie',
+      'comments.inResponseTo' => 'In reactie op <a href="{$url}">{$title}</a>',
+      'comments.name' => 'Naam schrijver',
+      'comments.noComments' => 'Er zijn geen reacties van lezers.',
+      'comments.nReplies' => '({$num} antwoorden)',
+      'comments.oneReply' => '(1 antwoord)',
+      'comments.postAnonymously' => 'Plaats deze reactie anoniem',
+      'comments.postReply' => 'Plaats antwoord',
+      'comments.readerComments' => 'Reacties van lezers',
+      'comments.readMore' => 'Lees verder',
+      'comments.replies' => 'Antwoorden',
+      'comments.title' => 'Titel',
+      'comments.viewAllComments' => 'Bekijk alle reacties',
+      'reader.fullText' => 'Volledige tekst:',
+    ),
+  ),
+);

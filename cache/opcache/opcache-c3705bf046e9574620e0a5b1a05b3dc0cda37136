@@ -1,0 +1,26 @@
+<?php $exp = 1751345594; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.webfeed.displayName' => 'Web Feed-plugin',
+      'plugins.generic.webfeed.description' => 'Dette plugin genererer RSS/Atom web syndication feeds.<br>Plugin\'et inkluderer også en blok til sidebaren, som gør det muligt at vise links til feed\'et i din applikations sidebar',
+      'plugins.generic.webfeed.settings' => 'Indstillinger',
+      'plugins.generic.webfeed.settings.issue' => 'Vis kun web feed-links på sider for tidsskriftsnumre.',
+      'plugins.generic.webfeed.settings.homepage' => 'Vis kun web feed-links på startsiden.',
+      'plugins.generic.webfeed.settings.all' => 'Vis web feed-links på alle sider i applikationen.',
+      'plugins.generic.webfeed.settings.currentIssue' => 'Vis artikler i det aktuelle nummer af tidsskriftet.',
+      'plugins.generic.webfeed.settings.recent' => 'Vis et fastsat antal af de seneste artikler.',
+      'plugins.generic.webfeed.settings.recentArticles' => 'Antal publikationer, der skal vises',
+      'plugins.generic.webfeed.settings.recentItemsRequired' => 'Indtast et positivt helt tal for de senest publicerede artikler.',
+      'plugins.generic.webfeed.atom.altText' => 'Atom-logo',
+      'plugins.generic.webfeed.rss1.altText' => 'RSS1-logo',
+      'plugins.generic.webfeed.rss2.altText' => 'RSS2-logo',
+      'plugins.generic.webfeed.settings.homepageAndIssues' => 'Vis kun web feed-links på startside og sider for tidsskriftsnumre.',
+      'plugins.generic.webfeed.blockTitle' => 'Seneste publikationer',
+      'plugins.generic.webfeed.settings.includeIdentifiers' => 'Inkluder identifikatorer (ISBN, nøgleord, kategoerier osv.) i feed oversigten?',
+    ),
+  ),
+);

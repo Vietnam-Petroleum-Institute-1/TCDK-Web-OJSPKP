@@ -1,0 +1,78 @@
+<?php $exp = 1751345594; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'installer.localeSettings' => 'Yerli tənzimlər',
+      'installer.releaseNotes' => 'Versiya qeydləri',
+      'installer.configureXSLMessage' => '<p>PHP quraşdırmanızda XSL modulu affektiv deyil. Bunu aktivləşdirin və ya config.inc.php dosyanızda xslt_command tənzimini konfiqurasiya edin. </p>',
+      'installer.beacon' => 'Göstərici',
+      'installer.additionalLocales' => 'Əlavə dillər',
+      'installer.administratorAccount' => 'İdarəçi hesabı',
+      'installer.checkNo' => '<span class="pkp_form_error formError">HAYIR</span>',
+      'installer.checkYes' => 'Bəli',
+      'installer.connectionCharset' => 'Bağlantı xarakteri dəst',
+      'installer.contentsOfConfigFile' => 'Konfiqurasiya faylının məzmunu',
+      'installer.databaseDriver' => 'Data baza sürücüsü',
+      'installer.databaseDriverInstructions' => '<strong>Sistem hazırda MySQL və PostgreSQL-i dəstəkləyir, aşağıdakı seçimlərdən birini seçmədiyiniz halda, serverinizin lazımi PHP uzantılarına sahib olduğuna əmin olduğundan əmin olmaq üçün sistem idarəçinizlə əlaqə saxlayın.</strong>',
+      'installer.databaseHost' => 'Ana kompüter',
+      'installer.databaseName' => 'Data baza adı',
+      'installer.databasePassword' => 'Şifrə',
+      'installer.databaseSettings' => 'Data baza tənzimləri',
+      'installer.databaseUsername' => 'İstifadəçi adı',
+      'installer.filesDir' => 'Yükləmələr üçün indeks',
+      'installer.fileSettings' => 'Fayl tənzimləri',
+      'installer.form.separateMultiple' => 'Çoxlu dəyərləri vergüllə ayırın',
+      'installer.installationWrongPhp' => '<br/><strong>XƏBƏRDARLIQ: istifadə etdiyiniz PHP versiyası qurulumu üçün minimum tələbləri qarşılamır. Daha güncəl bir PHP versiyası yükləməyiniz tövsiyə olunur.</strong>',
+      'installer.installErrorsOccurred' => 'Yükləmə zamanı xəta baş verdi',
+      'installer.installerSQLStatements' => 'Quraşdırma üçün SQL açıqlamaları',
+      'installer.additionalLocalesInstructions' => 'Bu sistemdə dəstəklənəcək digər dilləri seçin. İdarə ara üzündən hər hansı bir zamanda əlavə dillər də yüklənə bilər. <br>* = Bütöv olaraq tərcümə edilməmiş dillər göstərir (terminlərin > %90\'ı tərcümə edilmişdir)',
+      'installer.locale' => 'Quraşdırma dili yeri',
+      'installer.oaiSettings' => 'OAI tənzimləri',
+      'installer.oaiRepositoryId' => 'Korporativ Arxiv müəyyənləşdirici',
+      'installer.preInstallationInstructionsTitle' => 'Ön yükləmə addımları',
+      'installer.administratorAccountInstructions' => 'Bu istifadəçi hesabı sayt idarəçisi olacaq və sistemə tam giriş səlahiyyəti olacaqdır. Əlavə istifadəçi hesabları qurulumdan sonra formalaşdırıla bilər.',
+      'installer.configFileError' => '<tt config.inc.php</tt> adlı konfiqurasiya faylı yoxdur və ya oxuna bilən deyil',
+      'installer.databaseHostInstructions' => 'Sahə (domain) soketleri yerinə TCP/IP üzərindən qoşulmaq üçün "hostname"i boş buraxın. "localhost" məlumatı daxil edildisə soketler avtomatik olaraq istifadə ediləcəkdir. Bu MySQL üçün lazımi deyil, ancaq PstgreSQL kimi bəzi data baza serverləri üçün lazımdır.',
+      'installer.form.clientCharsetRequired' => 'Bir istifadəçi xarakter dəsti seçilməlidir.',
+      'installer.form.databaseDriverRequired' => 'Bir data baza sürücüsü seçilməlidir.',
+      'installer.form.databaseNameRequired' => 'Data baza adı tələb olunur',
+      'installer.form.emailRequired' => 'İdarəçi hesabı üçün etibarlı bir email adresi tələb olunur',
+      'installer.form.usernameRequired' => 'İdarəçi hesabı üçün bir istifadəçi adı tələb olunur.',
+      'installer.form.timeZoneRequired' => 'Bir saat bölgəsi seçilməlidir.',
+      'installer.installMigrationError' => '<tt>{$class}</tt>\'ı danışma sinif xətası',
+      'installer.installParseFilterConfigFileError' => 'Filtir konfiqurasiya faylı <tt>{$file}</tt> fərqləndirmə xətası',
+      'installer.locale.maybeIncomplete' => 'İşarələnmiş diller tamamlanmamış ola bilər',
+      'installer.publicFilesDirError' => 'Ümumi fayl indeksi mövcud deyil və ya yazıla bilən deyil.',
+      'installer.beacon.enable' => 'Sadəcə statistik və təhlükəsizlik xəbərdarlığı üçün PKP-yə tək say kimliyi və OAI əsas URL-si yaradın.',
+      'installer.form.filesDirRequired' => 'Yüklənən faylları saxlamaq üçün istifadə ediləcək indeks tələb olunur',
+      'installer.form.localeRequired' => 'Bir yer seçilməlidir.',
+      'installer.form.passwordRequired' => 'İdarəçi hesabı üçün bir şifrə tələb olunur',
+      'installer.form.passwordsDoNotMatch' => 'İdarəçi şifrəsi uyğun gəlmədi.',
+      'installer.form.usernameAlphaNumeric' => 'İdarəçinin istifadəçi adı sadəcə alfanumerik xarakterləri, altdanxətləri və tire simvollarını ehtiva edə bilər və mütləq bir alfanumerik xarakter ilə başlayıb bitməlidir.',
+      'installer.installFileError' => '<tt>dbscripts/xml/install.xml</tt> adlı qurulma faylı mövcud deyil ya da oxuna bilən deyil.',
+      'installer.installFilesDirError' => 'Yüklənmiş sənədrlərə xas indeks mövcud və ya yazıla bilən deyil.',
+      'installer.installParseDBFileError' => '<tt>{$file}</tt> adlı data baza qurulma faylında fərqləndirmə xətası baş verdi.',
+      'installer.installParseEmailTemplatesFileError' => '<tt>{$file}</tt> adlı email şablon faylında fərqləndirmə xətası baş verdi',
+      'installer.unsupportedUpgradeError' => 'Təkmilləşdirmə dəstəklənmir. Ətraflı məlumat üçün docs/UPGRADE-UNSUPPORTED sənədinə baxın',
+      'installer.timezoneInstructions' => 'Bu sistem üçün istifadə ediləcək saat bölgəsi',
+      'installer.oaiRepositoryIdInstructions' => 'Bu saytda <a href="https://www.openarchives.org/" target="_blank">Open Archives Initiative</a> üst data uyğunlaşdırma protokoluna uyğun olaraq meta datalarını tərif etmək üçün tək bir tərifetmə istifadə edilir.',
+      'installer.unsupportedPhpError' => 'Serverinizin PHP versiyası bu proqramı dəstəkləmir. docs/README faylından quraşdırma tələblərini yenidən yoxlayın.',
+      'installer.preInstallationInstructions' => '
+		<p>1. Aşağıdakı faylları və qovluqları (və onların məzmunu) yazmaq üçün mövcud olmalıdır:</p>
+		<st>
+			<li><tt>config.inc.php </tt> yazmaq üçün mövcuddur (isteğe bağlı): {$writable_config}</li>
+			<li><tt>public/ </tt> yazmaq üçün mövcuddur: {$writable_public}</li>
+			<li> <tt>cache/</ tt> yazmaq üçün mövcuddur: {$writable_cache}</li>
+			<li> <tt>cache/t_cache/</tt> yazmaq üçün mövcuddur: {$writable_templates_cache}</li>
+			<li> <tt>cache/t_compile/</tt> yazmaq üçün mövcuddur: {$writable_templates_compile}</li>
+			<li> <tt>cache/_db</tt> yazmaq üçün mövcuddur: {$writable_db_cache}</li>
+		</ul>
+
+		<p>2. Yüklənmiş faylları saxlamaq və yazmaq üçün bir qovluq yaratmaq lazımdır (aşağıda "fayl parametrləri" nə baxın).</p>
+	',
+    ),
+  ),
+);

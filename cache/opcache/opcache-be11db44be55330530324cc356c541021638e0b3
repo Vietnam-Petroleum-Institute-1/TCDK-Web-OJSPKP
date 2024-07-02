@@ -1,0 +1,22 @@
+<?php $exp = 1751345595; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.announcementfeed.displayName' => 'Ilmoitusten syöte -lisäosa',
+      'plugins.generic.announcementfeed.description' => 'Tämä lisäosa tuottaa RSS/ATOM syötteen julkaisun ilmoituksista.',
+      'plugins.generic.announcementfeed.settings' => 'Asetukset',
+      'plugins.generic.announcementfeed.settings.all' => 'Näytä syötteen linkki kaikilla julkaisun sivuilla.',
+      'plugins.generic.announcementfeed.settings.homepage' => 'Näytä syötteen linkki vain kotisivulla ja ilmoitusten sivuilla.',
+      'plugins.generic.announcementfeed.settings.announcement' => 'Näytä syötteen linkki vain ilmoitusten sivuilla.',
+      'plugins.generic.announcementfeed.settings.recentAnnouncements1' => 'Rajoita syötteen kokoa',
+      'plugins.generic.announcementfeed.settings.recentAnnouncements2' => 'uusimpaan ilmoitukseen.',
+      'plugins.generic.announcementfeed.settings.recentItemsRequired' => 'Anna positiivinen luku.',
+      'plugins.generic.announcementfeed.atom.altText' => 'Atom logo',
+      'plugins.generic.announcementfeed.rss1.altText' => 'RSS1 logo',
+      'plugins.generic.announcementfeed.rss2.altText' => 'RSS2 logo',
+    ),
+  ),
+);

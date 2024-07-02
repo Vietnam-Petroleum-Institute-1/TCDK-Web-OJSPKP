@@ -1,0 +1,32 @@
+<?php $exp = 1751345599; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=1; plural=0;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'comments.anonymous' => 'Người dùng ẩn danh',
+      'comments.anonymousNamed' => 'bí danh "{$userName}"',
+      'comments.body' => 'Nội dung bình luận',
+      'comments.titleRequired' => 'Tiêu đề bình luận là bắt buộc.',
+      'comments.confirmDeleteChildren' => 'Xóa nhận xét này cũng sẽ xóa mọi câu trả lời cho nó. Bạn có chắc bạn muốn làm điều này?',
+      'comments.delete' => 'Nhận xét của người đọc',
+      'comments.email' => 'Email áp phích',
+      'comments.emailReply' => 'Đăng trả lời',
+      'comments.enterComment' => 'Nhận xét của người đọc',
+      'comments.inResponseTo' => 'Phản hồi lại <a href="{$url}">{$title}</a>',
+      'comments.name' => 'Áp phích email',
+      'comments.noComments' => 'Không có bình luận của độc giả đã được đăng.',
+      'comments.nReplies' => '({$num}  trả lời)',
+      'comments.oneReply' => '(1 trả lời)',
+      'comments.postAnonymously' => 'Đăng nhận xét này ẩn danh',
+      'comments.postReply' => 'Đăng trả lời',
+      'comments.readerComments' => 'Nhận xét của người đọc',
+      'comments.readMore' => 'Đọc thêm',
+      'comments.replies' => 'Các trả lời',
+      'comments.title' => 'Tiêu đề',
+      'comments.viewAllComments' => 'Xem tất cả bình luận',
+      'reader.fullText' => 'Toàn văn:',
+    ),
+  ),
+);

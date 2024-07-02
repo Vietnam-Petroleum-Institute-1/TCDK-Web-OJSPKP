@@ -1,0 +1,14 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.recommendByAuthor.displayName' => 'Polecaj artykuły wg autora',
+      'plugins.generic.recommendByAuthor.description' => 'Wtyczka pokazuje listę artykułów tego samego autora na stronie abstraktu.',
+      'plugins.generic.recommendByAuthor.heading' => 'Inne teksty tego samego autora',
+      'plugins.generic.recommendByAuthor.noMetric' => 'Wtyczka wymaga co najmniej jednej wtyczki statystycznej/raportowania. Jeżeli twoja wtyczka obsługująca statystyki udostępnia więcej niż jedną metrykę, wybierz również główną metrykę w ustawieniach administracyjnych strony.',
+    ),
+  ),
+);

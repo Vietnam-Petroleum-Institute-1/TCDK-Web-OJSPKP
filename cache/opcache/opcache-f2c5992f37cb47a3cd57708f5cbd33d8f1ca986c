@@ -1,0 +1,24 @@
+<?php $exp = 1751345594; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.customBlockManager.displayName' => 'Потребителски блокове',
+      'plugins.generic.customBlockManager.manage' => 'Управляване на потребителски блокове',
+      'plugins.generic.customBlockManager.description' => 'Тази добавка Ви позволява да управлявате (добавяте, редактирате и изтриване) на потребителски блокове за страничната лента.',
+      'plugins.generic.customBlockManager.customBlocks' => 'Потребителски блокове',
+      'plugins.generic.customBlockManager.blockName' => 'Име на блок',
+      'plugins.generic.customBlockManager.addBlock' => 'Добавяне на блок',
+      'plugins.generic.customBlockManager.noneCreated' => 'Не са създадени потребителски блокове.',
+      'plugins.generic.customBlock.content' => 'Съдържание',
+      'plugins.generic.customBlock.nameSuffix' => '(Потребителски блок)',
+      'plugins.generic.customBlock.description' => 'Това е егенериран от потребителя блок.',
+      'plugins.generic.customBlock.nameRequired' => 'Изисква се име за потребителския блок.',
+      'plugins.generic.customBlock.nameRegEx' => 'Името на потребителския блок трябва да съдърожа само букви, цифри и долно тире.',
+      'plugins.generic.customBlock.showName.description' => 'Покажи името на този блок над съдържанието на самия блок.',
+      'plugins.generic.customBlock.showName' => 'Показжи име на блока',
+    ),
+  ),
+);

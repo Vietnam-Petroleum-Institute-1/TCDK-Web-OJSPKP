@@ -1,0 +1,111 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n==1 || n%10==1 ? 0 : 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'emails.submissionAck.subject' => 'Благодариме за вашиот поднесок во {$contextName}',
+      'emails.submissionAck.body' => '<p>Драг {$recipientName},</p><p>Благодариме за вашиот поднесок во {$contextName}. Ние го примивме вашиот поднесок, {$submissionTitle}, и член од нашиот уреднички тим набрзо ќе го разгледа. Ќе испратиме и-мејл кога ќе биде аправена почетната одлука, и можеме да ве контактираме за дополнителни информации.</p><p>Можете да го гледате вашиот поднесок и да го следите неговото напредување низ уредничкиот процес на следната локација:</p><p>Поденесок URL: {$authorSubmissionUrl}</p><p>Ако сте одлогиран, повторно можете да се логирате со корисничко име {$recipientUsername}.</p><p>Ако имате било какво прашање, молам контактирајте ме од вашата <a href="{$authorSubmissionUrl}">табла за поднесување</a>.</p><p>Благодариме што сте одлучиле {$contextName} да биде место за вашата работа.</p>{$contextSignature}',
+      'emails.submissionAck.description' => 'Овој и-мејл автоматски се испраќа до авторот кога поднесува поднесок.',
+      'emails.reviewAck.subject' => 'Ви благодарам за вашата рецензија',
+      'emails.reviewAck.body' => '<p>Драг {$recipientName},</p>
+<p>Благодариме за комплетирање на вашата рецензија за поднесокот, {$submissionTitle}, за {$contextName}. Го цениме вашето време и експертиза во подобрување квалитетот на трудот што го публикуваме.</p>
+<p>Ни беше задоволство да соработуваме со вас како рецензент {$contextName}, и ние се надеваме дека ќе имаме можност во иднина да соработуваме со вас.</p>
+<p>Срдечни поздрави,</p>
+<p>{$signature}</p>',
+      'emails.decision.notifyReviewers.subject' => 'Ви благодарам за вашата рецензија',
+      'emails.decision.notifyReviewers.body' => '<p>Драг {$recipientName},</p>
+<p>Thank you for completing your review of the submission, {$submissionTitle}, for {$contextName}. We appreciate your time and expertise in contributing to the quality of the work that we publish. We have shared your comments with the authors, along with our other reviewers\' comments and the editor\'s decision.</p>
+<p>Based on the feedback we received, we have notified the authors of the following:</p>
+<p>{$decisionDescription}</p>
+<p>Your recommendation was considered alongside the recommendations of other reviewers before coming to a decision. Occasionally the editor\'s decision may differ from the recommendation made by one or more reviewers. The editor considers many factors, and does not take these decisions lightly. We are grateful for our reviewers\' expertise and suggestions.</p>
+<p>It has been a pleasure to work with you as a reviewer for {$contextName}, and we hope to have the opportunity to work with you again in the future.</p>
+<p>Kind regards,</p>
+<p>{$signature}</p>',
+      'emails.decision.notifyOtherAuthors.subject' => 'Обновување на вашиот поднесок',
+      'emails.editorDecisionSendToExternal.subject' => 'Вашиот поднесок е испратен за рецензија',
+      'emails.editorDecisionSendToExternal.body' => '{$authors}:<br />
+<br />
+Донесовме одлука во однос на вашиот поднесок до {$contextName}, &quot;{$submissionTitle}&quot;.<br />
+<br />
+Нашата одлука е: Испрати за корекција<br />
+<br />
+URL-адреса на поднесокот: {$submissionUrl}',
+      'emails.editorDecisionSendToProduction.subject' => 'Следни стапки за објавување на вашиот поднесок',
+      'emails.editorDecisionSendToProduction.body' => '{$authors}:<br />
+<br />
+Уредувањето на вашиот поднесок, &quot;{$submissionTitle},&quot; е завршено. Сега го испраќаме на обработка.<br />
+<br />
+URL-адреса на поднесокот: {$submissionUrl}',
+      'emails.editorDecisionRevisions.subject' => 'Вашиот поднесок беше рецензиран и ве охрабруваме да поднесете ревизија',
+      'emails.editorDecisionRevisions.body' => '{$authors}:<br />
+<br />
+Донесовме одлука во врска со вашето поднесување до {$textName}, &quot;{$missionTitle}&quot;.<br />
+<br />
+Нашата одлука е: Потребни се ревизии',
+      'emails.editorDecisionResubmit.subject' => 'Вашиот поднесок е рецензиран - молам ревидирајте го и преподнесете го',
+      'emails.editorDecisionResubmit.body' => '{$authors}:<br />
+<br />
+Донесовме одлука во врска со вашиот поднесок до {$contextName}, &quot;{$submissionTitle}&quot;.<br />
+<br />
+Нашата одлука е: Поднеси повторно за рецензија',
+      'emails.editorDecisionDecline.subject' => 'Вашиот поднесок е одбиен',
+      'emails.editorDecisionDecline.body' => '{$authors}:<br />
+<br />
+Донесовме одлука во врска со вашиот поднесок до {$contextName}, &quot;{$submissionTitle}&quot;.<br />
+<br />
+Нашата одлука е: Одбиен поднесок',
+      'emails.editorRecommendation.subject' => 'Препорака на уредникот',
+      'emails.editorRecommendation.body' => '{$уредници}: <br/>
+<br/>
+Препораката во врска со поднесувањето до {$textName}, &quot;{$missionTitle}&quot; е: {$recommendation}',
+      'emails.copyeditRequest.subject' => 'Поденесокот {$submissionId} е спремен за техничко уредување за {$contextAcronym}',
+      'emails.copyeditRequest.body' => '{$recipientName}:<br />
+<br />
+Би сакал да ве замолам да го превземете уредувањето на &quot;{$submissionTitle}&quot; за{$contextName} со тоа што ќе ги следите овие чекори.<br />
+1. Кликнете на URL-адресата на поднесокот подолу.<br />
+2. Отворете ги достапните датотеки под Датотеки за нацрт и извршете го вашето уредување, додека додавате Дискусии за уредување доколку се потребни.<br />
+3. Зачувајте ја уредената датотека(и), и прикачете ја на панелот Уредено.<br />
+4. Известете го уредникот дека сите датотеки се подготвени и дека процесот на обработка може да започне.<br />
+<br />
+{$contextName} URL-адреса: {$contextUrl}<br />
+URL-адреса на поднесокот: {$submissionUrl}<br />
+Корисничко име: {$recipientUsername}',
+      'emails.editorDecisionInitialDecline.subject' => 'Одлука на уредникот',
+      'emails.editorDecisionInitialDecline.body' => '
+			{$authors}:<br />
+<br />
+Донесовме одлука во однос на вашиот поднесок до {$contextName}, &quot;{$submissionTitle}&quot;.<br />
+<br />
+Нашата одлука е: Одбиј го поднесок',
+      'discussion.notification.description' => 'Овој и-мејл се праќа кога корисникот создава нова дискусија или одговара на постоечка дискусија',
+      'emails.editorDecisionBackFromProduction.subject' => 'Вашиот поднесок е испратен до копиедиторот',
+      'emails.editorDecisionBackFromCopyediting.subject' => 'Вашиот поднесок е испратен до рецензентот',
+      'emails.editorDecisionCancelReviewRound.subject' => 'Реецензентската постапка за вашиот поднесок е откажана',
+      'emails.reviewResendRequest.subject' => 'Барање за повторна рецензија за {$contextName}',
+      'emailTemplate.variable.unsubscribe' => 'Линк за одрегистрација од овој и-мејл.',
+      'emails.discussion.subject' => 'Порака во врска со {$contextName}',
+      'emails.discussion.body' => 'Ве молиме внесете ја вашата порака.',
+      'emails.versionCreated.subject' => 'Креирана е нова верзија за {$submissionTitle}',
+      'emails.reviewEdit.subject' => 'Вашето назначување за рецензент е променето за {$contextName}',
+      'emails.reviewConfirm.subject' => 'Може да рецензира',
+      'emails.reviewConfirm.body' => 'Уредници:<br />
+<br />
+Јас сум во состојба и подготвен да го рецензирам поднесокот, &quot;{$submissionTitle},&quot; за {$contextName}. Ви благодарам што помисливте на мене, и планирам да ја завршам рецензијата до крајниот датум, {$reviewDueDate}, ако не и порано.<br />
+<br />
+{$senderName}',
+      'emails.submissionSavedForLater.subject' => 'Продолжи со поднесување на {$contextName}',
+      'emails.submissionNeedsEditor.subject' => 'Треба да се назначи уредник за новиот поднесок: {$submissionTitle}',
+      'emails.submissionAckNotUser.description' => 'Овој и-мејл автоматски се испраќа до авторите споменати во новиот поднесок кои не се поднесувачки автори.',
+      'emails.submissionAckNotAuthor.subject' => 'Потврда за поднесување',
+      'emails.submissionAckNotAuthor.body' => 'Почитувани,<br />
+<br />
+{$submitterName} го поднесе ракописот, &quot;{$submissionTitle}&quot; до {$contextName}. <br />
+<br />
+Доколку имате било какви прашања, ве молам да ме контактирате. Ви благодариме што го земавте во предвид ова списание како место за вашата работа.<br />
+<br />
+{$contextSignature}',
+    ),
+  ),
+);

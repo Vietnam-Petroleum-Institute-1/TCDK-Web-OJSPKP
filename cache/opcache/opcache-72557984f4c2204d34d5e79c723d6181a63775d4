@@ -1,0 +1,23 @@
+<?php $exp = 1751345595; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=4; plural=(n==1 || n==11) ? 0 : (n==2 || n==12) ? 1 : (n > 2 && n < 20) ? 2 : 3;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'mailable.reviewConfirm.description' => 'Thèid am post-d seo a chur gu deasaiche earrainn le lèirmheasaiche mar fhreagairt air iarrtas airson fios a leigeil gu deasaiche na h-earrainn gun deach gabhail ris an iarrtas agus gun tèid a choileanadh ron cheann-là a chaidh a shònrachadh.',
+      'mailable.reviewDecline.description' => 'Thèid am post-d seo a chur gu deasaiche earrainn le lèirmheasaiche mar fhreagairt air iarrtas airson fios a leigeil gu deasaiche na h-earrainn gun deach an t-iarrtas a dhiùltadh.',
+      'mailable.reviewRemindAuto.description' => 'Thèid am post-d seo a chur gu fèin-obrachail nuair a dh’fhalbhas an ùine air a’ cheann-là lìbhrigidh aig lèirmheasaiche (faic na roghainnean lèirmheis fo na “Roghainnean” > “Sruth-obrach” > “Lèirmheas) agus nuair a bhios inntrigeadh lèirmheasaichean le aon bhriogadh à comas. Feumaidh sgeidealachadh shaothraichean a bhith an comas agus air a rèiteachadh (faic faidhle rèiteachadh na làraich).',
+      'mailable.reviewResponseOverdueAuto.description' => 'Thèid am post-d seo a chur gu fèin-obrachail nuair a dh’fhalbhas an ùine air ceann-là freagairt dearbhadh an lèirmheasaiche (faic na roghainnean lèirmheis fo na “Roghainnean” > “Sruth-obrach” > “Lèirmheas) agus nuair a bhios inntrigeadh lèirmheasaichean le aon bhriogadh à comas. Feumaidh sgeidealachadh shaothraichean a bhith an comas agus air a rèiteachadh (faic faidhle rèiteachadh na làraich).',
+      'mailable.reviewRequest.description' => 'Tha am post-d seo dheasaiche earrainn gu lèirmheasaiche a’ faighneachd an gabh iad ri lèirmheas air tagradh no an diùlt iad e. Tha e a’ toirt seachad fiosrachadh mun tagradh, mar an tiotal is geàrr-chunntas, ceann-là lìbhrigeadh an lèirmheis agus mar a gheibhear greim air an tagradh e fhèin. Seo an teachdaireachd a thèid a chleachdadh nuair a thaghar am pròiseas lèirmheis stannardach fo “Stiùireadh” > “Roghainnean” > “Sruth-obrach” > “Lèirmheas”.',
+      'mailable.reviewRequestSubsequent.description' => 'Tha am post-d seo dheasaiche earrainn gu lèirmheasaiche a’ faighneachd an gabh iad ri lèirmheas air tagradh san dàrna cuairt (no cuairt nas motha) no an diùlt iad e. Tha e a’ toirt seachad fiosrachadh mun tagradh, mar an tiotal is geàrr-chunntas, ceann-là lìbhrigeadh an lèirmheis agus mar a gheibhear greim air an tagradh e fhèin. Seo an teachdaireachd a thèid a chleachdadh nuair a thaghar am pròiseas lèirmheis stannardach fo “Stiùireadh” > “Roghainnean” > “Sruth-obrach” > “Lèirmheas”.',
+      'mailable.passwordResetRequested.description' => 'Thèid am post-d seo a chur gu cleachdaiche clàraichte nuair a bhios iad air innse gun do dhìochuimhnich iad am facal-faire aca no nach urrainn dhaibh clàradh a-steach. Tha e a’ toirt URL dhaibh far an urrainn dhaibh am facal-faire aca ath-shuidheachadh.',
+      'mailable.userRegister.description' => 'Thèid am post-d seo a chur gu cleachdaiche a tha air ùr-chlàradh agus a’ cur fàilte dhan t-siostam orra agus a’ thoirt dhaibh clàr dhen ainm-chleachdaiche is facal-faire aca.',
+      'mailable.reviewerRegister.description' => 'Thèid am post-d seo a chur gu lèirmheasaiche a tha air ùr-chlàradh agus a’ cur fàilte dhan t-siostam orra agus a’ thoirt dhaibh clàr dhen ainm-chleachdaiche is facal-faire aca.',
+      'mailable.submissionAck.description' => 'Thèid am post-d seo, ma bhios e an comas, a chur gu fèin-obrachail gu ùghdar nuair a choileanas iad tagradh le bhith a’ chur sgrìobhainn chun an iris-leabhair. Tha e ag innse mar as urrainnear an tagradh a thracadh tron phròiseas agus tha e a’ toirt taing dhan ùghdar airson an tagraidh.',
+      'mailable.submissionAckNotAuthor.description' => 'Thèid am post-d seo, ma bhios e an comas, a chur gu fèin-obrachail gu na h-ùghdaran eile a chaidh ainmeachadh rè an tagraidh ach nach eil nan cleachdaichean am broinn OJS.',
+      'mailable.revisedVersionNotify.description' => 'Thèid am post-d seo a chur chun an deasaiche iomruinte gu fèin-obrachail nuair a luchdaicheas ùghdar suas tionndadh lèirmheaste de dh’artaigeal.',
+      'mailable.announcementNotify.description' => 'Thèid am post-d seo a chur nuair a chaidh fios-naidheachd ùr a chruthachadh.',
+    ),
+  ),
+);

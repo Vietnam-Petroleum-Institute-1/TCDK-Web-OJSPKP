@@ -1,0 +1,17 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.acron.description' => 'ეს პლაგინი ცდილობს შეამციროს აპლიკაციის დამოკიდებულება პერიოდული დაგეგმვის ხელსაწყოებზე, როგორიცაა \'cron.\'',
+      'plugins.generic.acron.name' => 'Acron პლაგინი',
+      'plugins.generic.acron.enabled' => 'Acron პლაგინი ჩართულია.',
+      'plugins.generic.acron.disabled' => 'Acron პლაგინი გამორთულია.',
+      'plugins.generic.acron.reloadedCronTab' => 'Cron ჩანართი წარმატებით ჩაიტვირთა ხელახლა.',
+      'plugins.generic.acron.reload' => 'დაგეგმული ამოცანების ხელახალი ჩატვირთვა',
+      'plugins.generic.acron.tasksReloaded' => 'დაგეგმილი დავალებები ხელახლა ჩაიტვირთა.',
+    ),
+  ),
+);

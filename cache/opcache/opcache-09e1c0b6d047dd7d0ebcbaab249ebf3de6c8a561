@@ -1,0 +1,30 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.staticPages.displayName' => 'Dodatak Statičke strane',
+      'plugins.generic.staticPages.description' => 'Ovaj dodatak omogućuje uređivanje statičkog sadržaja.',
+      'plugins.generic.staticPages.staticPages' => 'Statične strane',
+      'plugins.generic.staticPages.pageTitle' => 'Naslov',
+      'plugins.generic.staticPages.content' => 'Sadržaj',
+      'plugins.generic.staticPages.path' => 'Putanja',
+      'plugins.generic.staticPages.requirement.tinymce' => '<strong>TinyMCE dodatak mora biti instaliran i omogućen da biste uređivali sadržaj.</strong>',
+      'plugins.generic.staticPages.editAddContent' => 'Izmeni/dodaj sadržaj',
+      'plugins.generic.staticPages.addStaticPage' => 'Dodaj statičku stranicu',
+      'plugins.generic.staticPages.addNewPage' => 'Dodaj novu stranicu',
+      'plugins.generic.staticPages.editStaticPage' => 'Izmeni statičku stranicu',
+      'plugins.generic.staticPages.noneCreated' => 'Nema statičnih strana.',
+      'plugins.generic.staticPages.settingInstructions' => 'Dole su prikazane sve statičke stranice koje ste napravili. Možete ih menjati i brisati koristeći linkove sa desne strane.',
+      'plugins.generic.staticPages.editInstructions' => 'Koristite formu ispod da biste dodali ili izmenili sadržaj.',
+      'plugins.generic.staticPages.pathRegEx' => 'Putanja može sadržati samo alfanumeričke karaktere i  \'.\', \'/\', \'-\', i \'_\' znake.',
+      'plugins.generic.staticPages.viewInstructions' => '<p>Stranica će biti dostupna na: <blockquote>{$pagesPath}</blockquote>...gde je  %PATH% putanja definiasna iznad. <strong>Napomena:</strong> Dve strane ne mogu imati istu putanju. Korišćenje sistemskih putanja može dovesti do gubitka pristupa bitnim funkcijama i podešavanjima sistema.</p>',
+      'plugins.generic.staticPages.duplicatePath' => 'Ova putanja već postoji za drugu stranicu.',
+      'plugins.generic.staticPages.pageSaved' => 'Stranica je uspešno sačuvana.',
+      'plugins.generic.staticPages.pageDeleted' => 'Stranica je uspešno obrisana.',
+      'plugins.generic.staticPages.noneExist' => 'Stranica nije napravljena.',
+    ),
+  ),
+);

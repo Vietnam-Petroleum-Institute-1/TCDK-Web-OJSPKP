@@ -1,0 +1,12 @@
+<?php $exp = 1751345595; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.googleScholar.name' => 'افرونه نمایه سازی گوگل اسکولار',
+      'plugins.generic.googleScholar.description' => 'این افزونه امکان نمایه سازی مقالات چاپ شده در این مجله، در سامانه گوگل اسکولار را فراهم میسازد',
+    ),
+  ),
+);

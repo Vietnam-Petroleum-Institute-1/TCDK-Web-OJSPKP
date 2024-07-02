@@ -1,0 +1,26 @@
+<?php $exp = 1751345595; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.webfeed.displayName' => 'Web-Feed-Plugin',
+      'plugins.generic.webfeed.description' => 'Dieses Plugin erzeugt RSS/Atom-Feeds für die aktuelle Ausgabe.<br>Das Plugin beinhaltet auch ein Sidebar-Block, der die Anzeige der Feed-Links in der Sidebar ermöglicht',
+      'plugins.generic.webfeed.settings' => 'Einstellungen',
+      'plugins.generic.webfeed.settings.issue' => 'Links zu Web-Feeds nur auf den Seiten der Ausgabe anzeigen.',
+      'plugins.generic.webfeed.settings.homepage' => 'Web-Feed-Links nur auf der Hauptseite anzeigen.',
+      'plugins.generic.webfeed.settings.all' => 'Web-Feed-Links auf allen Zeitschriftenseiten anzeigen.',
+      'plugins.generic.webfeed.settings.currentIssue' => 'Items in der aktuellen Ausgabe anzeigen.',
+      'plugins.generic.webfeed.settings.recent' => 'Eine feste Anzahl der aktuellsten Veröffentlichungen anzeigen.',
+      'plugins.generic.webfeed.settings.recentArticles' => 'Anzahl der zu zeigenden Veröffentlichungen',
+      'plugins.generic.webfeed.settings.recentItemsRequired' => 'Bitte geben sie eine positive, ganze Zahl für aktuelle Veröffentlichungen an.',
+      'plugins.generic.webfeed.atom.altText' => 'Atom-Logo',
+      'plugins.generic.webfeed.rss1.altText' => 'RSS1-Logo',
+      'plugins.generic.webfeed.rss2.altText' => 'RSS2-Logo',
+      'plugins.generic.webfeed.settings.homepageAndIssues' => 'Web-Feed-Links nur auf der Hauptseite und den Ausgaben-Seiten anzeigen.',
+      'plugins.generic.webfeed.blockTitle' => 'Neueste Veröffentlichungen',
+      'plugins.generic.webfeed.settings.includeIdentifiers' => 'Identifier (ISBN, Schlagwörter, Kategorien, etc.) in die Feed Summary aufnehmen?',
+    ),
+  ),
+);

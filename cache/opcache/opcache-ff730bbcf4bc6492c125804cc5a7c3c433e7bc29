@@ -1,0 +1,24 @@
+<?php $exp = 1751345598; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.customBlockManager.displayName' => 'Menadžer prilagođenih blokova',
+      'plugins.generic.customBlockManager.blockName' => 'Ime bloka',
+      'plugins.generic.customBlockManager.addBlock' => 'Dodaj blok',
+      'plugins.generic.customBlock.content' => 'Sadržaj',
+      'plugins.generic.customBlock.nameSuffix' => '(Dodatak prilagođenih blokova)',
+      'plugins.generic.customBlock.description' => 'Ovo je blok koji je napravio korisnik.',
+      'plugins.generic.customBlockManager.manage' => 'Uredi prilagođene blokove',
+      'plugins.generic.customBlockManager.description' => 'Ovaj dodatak vam omogućuje da uređujete (dodajete, menjate i brišete) prilagođene blokove.',
+      'plugins.generic.customBlockManager.customBlocks' => 'Prilagođeni blokovi',
+      'plugins.generic.customBlockManager.noneCreated' => 'Nema prilagođenih blokova.',
+      'plugins.generic.customBlock.nameRequired' => 'Ime bloka je obavezno.',
+      'plugins.generic.customBlock.nameRegEx' => 'Ime bloka može sadržati samo slova, brojeve, crte i podvlake.',
+      'plugins.generic.customBlock.showName.description' => 'Prikaži ime bloka iznad sadržaja bloka.',
+      'plugins.generic.customBlock.showName' => 'Prikaži ime',
+    ),
+  ),
+);

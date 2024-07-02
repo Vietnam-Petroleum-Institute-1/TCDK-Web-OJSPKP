@@ -1,0 +1,30 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.staticPages.displayName' => 'Statische pagina\'s plugin',
+      'plugins.generic.staticPages.description' => 'Met deze plugin kunt u statische inhoud toevoegen.',
+      'plugins.generic.staticPages.staticPages' => 'Statische pagina\'s',
+      'plugins.generic.staticPages.pageTitle' => 'Titel',
+      'plugins.generic.staticPages.content' => 'Inhoud',
+      'plugins.generic.staticPages.path' => 'Pad',
+      'plugins.generic.staticPages.requirement.tinymce' => '<p><strong>De TinyMCE plugin moet geïnstalleerd en geactiveerd zijn om inhoud toe te voegen of te bewerken.</strong></p>',
+      'plugins.generic.staticPages.editAddContent' => 'Inhoud bewerken/toevoegen',
+      'plugins.generic.staticPages.addStaticPage' => 'Statische pagina toevoegen',
+      'plugins.generic.staticPages.addNewPage' => 'Nieuwe pagina toevoegen',
+      'plugins.generic.staticPages.editStaticPage' => 'Statische pagina bewerken',
+      'plugins.generic.staticPages.noneCreated' => 'Er zijn geen statische pagina\'s gemaakt.',
+      'plugins.generic.staticPages.settingInstructions' => 'Het formulier hieronder toont alle statische pagina\'s die u aangemaakt heeft. Gebruik de links aan de rechterkant om de pagina\'s te bewerken of te verwijderen.',
+      'plugins.generic.staticPages.editInstructions' => 'Gebruik het formulier hieronder om pagina-inhoud toe te voegen of te bewerken.',
+      'plugins.generic.staticPages.pathRegEx' => 'Het pad mag uitsluitend alfanumerieke tekens bevatten en \'.\', \'/\', \'-\', en \'_\'.',
+      'plugins.generic.staticPages.viewInstructions' => '<p>Dit pad zal toegankelijk zijn op: <blockquote>{$pagesPath}</blockquote>... waar %PATH% het hierboven opgegeven pad is. <strong>Opmerking:</strong> paden moeten uniek zijn. Als paden worden gebruikt die door het systeem worden gebruikt, kan toegang tot belangrijke functies verloren gaan.</p>',
+      'plugins.generic.staticPages.duplicatePath' => 'Dit pad is al in gebruik bij een andere pagina.',
+      'plugins.generic.staticPages.pageSaved' => 'Pagina met succes opgeslagen.',
+      'plugins.generic.staticPages.pageDeleted' => 'Pagina met succes verwijderd.',
+      'plugins.generic.staticPages.noneExist' => 'Geen pagina\'s aangemaakt',
+    ),
+  ),
+);

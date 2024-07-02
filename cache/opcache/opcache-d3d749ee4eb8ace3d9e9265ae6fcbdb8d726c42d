@@ -1,0 +1,273 @@
+<?php $exp = 1751345595; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'emails.passwordResetConfirm.subject' => 'Vahvista salasanan vaihtaminen',
+      'emails.passwordResetConfirm.body' => 'Olemme vastaanottaneet pyynnön vaihtaa salasananne sivustolle {$siteTitle}.<br />
+<br />
+Jos ette tehnyt tätä pyyntöä, voitte jättää tämän sähköpostin huomiotta. Jos haluatte vaihtaa salasanan, klikatkaa alla olevaa linkkiä.<br />
+<br />
+Vaihda salasana: {$passwordResetUrl}<br />
+<br />
+{$siteContactName}',
+      'emails.userRegister.subject' => 'Julkaisuun rekisteröityminen',
+      'emails.userRegister.body' => 'Hyvä {$recipientName},<br />
+<br />
+Olette nyt rekisteröitynyt julkaisun {$contextName} käyttäjäksi. Tarvitsette alla olevaa käyttäjätunnustanne ja salasanaanne kaikkeen työskentelyyn julkaisun parissa sen sivustolla. Voitte missä vaiheessa tahansa pyytää meitä poistamaan teidät julkaisun käyttäjistä ottamalla yhteyttä minuun.<br />
+<br />
+Käyttäjätunnus: {$recipientUsername}<br />
+Salasana: {$password}<br />
+<br />
+Ystävällisin terveisin,<br />
+{$signature}',
+      'emails.userValidateContext.subject' => 'Käyttäjätilin vahvistaminen',
+      'emails.userValidateContext.body' => 'Hyvä {$recipientName},<br />
+<br />
+Olette luonut käyttäjätunnuksen julkaisuun {$contextName}. Ennen kuin voitte alkaa käyttää tunnustanne, teidän pitää vahvistaa sähköpostiosoitteenne. Voitte tehdä sen alla olevan linkin kautta:<br />
+<br />
+{$activateUrl}<br />
+<br />
+Ystävällisin terveisin,<br />
+{$contextSignature}',
+      'emails.userValidateSite.subject' => 'Vahvista käyttäjätilisi',
+      'emails.userValidateSite.body' => 'Hyvä {$recipientName}<br />
+<br />
+Olette luonut tilin sivustolle {$siteTitle}. Ennen kuin voitte alkaa käyttää tiliänne, teidän pitää vahvistaa sähköpostitilinne. Voitte tehdä sen alla olevan linkin kautta:<br />
+<br />
+{$activateUrl}<br />
+<br />
+Ystävällisin terveisin,<br />
+{$siteSignature}',
+      'emails.reviewerRegister.subject' => 'Rekisteröinti arvioijaksi julkaisuun {$contextName}',
+      'emails.reviewerRegister.body' => '<p>Hyvä {$recipientName},</p><p>Asiantuntemuksenne perusteella olemme ottaneet vapauden rekisteröidä teidät julkaisun {$contextName} arvioijatietokantaan. Tämä ei velvoita teitä mihinkään, mutta antaa meille mahdollisuuden ottaa teihin yhteyttä mahdollisen käsikirjoituksen arvioinnin tiimoilta. Arviointikutsun yhteydessä näette arvioitavan työn otsikon ja tiivistelmän, ja voitte aina joko hyväksyä kutsun tai kieltäytyä siitä. Voitte myös missä tahansa vaiheessa pyytää, että nimenne poistetaan tältä arvioijalistalta</p><p>Annamme teille käyttäjätunnuksen ja salasanan, joita käytetään kaikkeen vuorovaikutukseen julkaisun kanssa sen verkkosivuston kautta. Haluatte ehkä esimerkiksi päivittää profiilinne ja teitä kiinnostavat arviointiaiheet.</p><p>Käyttäjätunnus: {$recipientUsername}<br />Salasana: {$password}</p><p>Ystävällisin terveisin,</p>{$signature}',
+      'emails.issuePublishNotify.subject' => 'Uusi numero julkaistu: {$issueIdentification} - {$contextName}',
+      'emails.issuePublishNotify.body' => '<p>Hyvä {$recipientName},</p><p>Meillä on ilo ilmoittaa, että {$contextName} on julkaissut uusimman numeronsa <a href="{$issueUrl}">{$issueIdentification}</a>. Kutsumme teidät lukemaan uutta sisältöä ja jakamaan sitä yhteisönne kanssa.</p><p>Monet kiitokset kirjoittajillemme, arvioijillemme ja toimittajillemme heidän arvokkaasta panoksestaan sekä lukijoillemme jatkuvasta kiinnostuksestanne.</p><p>Ystävällisin terveisin,</p>{$signature}',
+      'emails.editorAssign.subject' => 'Sinut on osoitettu toimittajaksi käsikirjoitukseen julkaisussa {$contextName}',
+      'emails.editorAssign.body' => '<p>Hyvä {$recipientName},</p><p>Seuraava käsikirjoitus on osoitettu sinulle toimitustyötä varten.</p><p><a href="{$submissionUrl}">{$submissionTitle}</a><br />{$authors}</p><p><b>Abstract</b></p>{$submissionAbstract}<p>Jos olet sitä mieltä, että käsikirjoitus on sopiva julkaisuun {$contextName}, lähetä käsikirjoitus eteenpäin arviointivaiheeseen valitsemalla "Lähetä arvioitavaksi" ja osoita sitten arvioijat valitsemalla "Lisää arvioija".</p><p>Jos käsikirjoitus ei mielestäsi sovi tähän julkaisuun, ole hyvä ja hylkää se.</p><p>Kiitos jo etukäteen.</p><p>Ystävällisin terveisin,</p>{$contextSignature}',
+      'emails.editorAssignReview.body' => '<p>Hyvä {$recipientName},</p><p>Seuraava käsikirjoitus on osoitettu sinulle toimitustyötä varten.</p><p><a href="{$submissionUrl}">{$submissionTitle}</a><br />{$authors}</p><p><b>Abstract</b></p>{$submissionAbstract}<p>Ole hyvä ja <a href="{$submissionUrl}">kirjaudu sisään nähdäksesi käsikirjoituksen</a> ja osoita sille sopivat arvioijat. Voit osoittaa arvioijat valitsemalla "Lisää arvioija".</p><p>Kiitos jo etukäteen.</p><p>Ystävällisin terveisin,</p>{$signature}',
+      'emails.editorAssignProduction.body' => '<p>Hyvä {$recipientName},</p><p>Seuraava käsikirjoitus on osoitettu sinulle tuotantovaiheen läpivientiä varten.</p><p><a href="{$submissionUrl}">{$submissionTitle}</a><br />{$authors}</p><p><b>Abstract</b></p>{$submissionAbstract}<p>Ole hyvä ja <a href="{$submissionUrl}">kirjaudu sisään nähdäksesi käsikirjoituksen</a>. Kun tuotantovalmiit tiedostot ovat käytettävissä, lataa ne kohtaan <strong>Julkaiseminen > Julkaistavat tiedostot</strong>. Ajoita käsikirjoitus julkaistavaksi valitasemalla <strong>Ajoita julkaistavaksi</strong> -painiketta.</p><p>Kiitos jo etukäteen.</p><p>Ystävällisin terveisin,</p>{$signature}',
+      'emails.reviewRequest.subject' => 'Arviointipyyntö',
+      'emails.reviewRequest.body' => '<p>Hyvä {$recipientName},</p><p>Uskon, että olisitte sopiva arvioija käsikirjoitukselle, joka on lähetetty {$contextName} -julkaisuun. Käsikirjoituksen otsikko ja tiivistelmä löytyy tämän viestin lopusta. Toivon, että harkitsette tähän meille tärkeään työhön ryhtymistä.</p><p>Jos pystytte arvioimaan tämän käsikirjoituksen, arvio on palautettava {$reviewDueDate} mennessä. Voitte tarkastella käsikirjoitusta, lisätä arviointitiedostoja ja lähettää arvion kirjautumalla julkaisun sivustolle ja seuraamalla alla olevan linkin takaa löytyviä ohjeita.</p><p><a href="{$reviewAssignmentUrl}">{$submissionTitle}</a></p><p><b>Abstrakti</b></p>{$submissionAbstract}<p>Olkaa hyvä ja <a href="{$reviewAssignmentUrl}">hyväksykää tai hylätkää</a> arviointipyyntö <b>{$responseDueDate}</b> mennessä.</p><p>Voitte ottaa minuun yhteyttä, jos teillä on kysyttävää käsikirjoituksesta tai arviointiprosessista.</p><p>Kiitos, että harkitsette tätä arviointipyyntöä.</p><p>Ystävällisin terveisin,</p>{$signature}',
+      'emails.reviewResponseOverdueAuto.subject' => 'Pystyttekö arvioimaan tämän käsikirjoituksen meille?',
+      'emails.reviewResponseOverdueAuto.body' => '<p>Hyvä {$recipientName},</p><p>Tämä on automaattinen muistutus julkaisusta {$contextName}, joka koskee käsikirjoituksen "{$submissionTitle}" arviointipyyntöä.</p><p>Saatte tämän sähköpostiviestin, koska emme ole vielä saaneet teiltä vahvistusta siitä, pystyttekö arvioimaan tämän käsikirjoituksen.</p><p>Olkaa hyvä ja ilmoittakaa meille, pystyttekö arvioimaan käsikirjoituksen hyväksymällä tai hylkäämällä tämän arviointipyynnön kirjautumalla meidän julkaisujärjestelmään.</p><p>Jos pystytte arvioimaan tämän käsikirjoituksen, arvio on palautettava {$reviewDueDate} mennessä. Pyynnön hyväksymisen jälkeen voitte tarkastella käsikirjoitusta, lisätä arviointitiedostoja ja lähettää arvion.</p><p><a href="{$reviewAssignmentUrl}">{$submissionTitle}</a></p><p><b>Abstrakti</b></p>{$submissionAbstract}<p>Voitte ottaa minuun yhteyttä, jos teillä on kysyttävää käsikirjoituksesta tai arviointiprosessista.</p><p>Kiitos, että harkitsette tätä arviointipyyntöä.</p><p>Ystävällisin terveisin,</p>{$contextSignature}',
+      'emails.reviewRequestSubsequent.subject' => 'Korjatun käsikirjoituksen arviointipyyntö',
+      'emails.reviewRequestSubsequent.body' => '<p>Hyvä {$recipientName},</p><p>Paljon kiitoksia aiemmasta käsikirjoitusta <a href="{$reviewAssignmentUrl}">{$submissionTitle}</a> koskevasta arvioinnistanne. Käsikirjoituksen aiemman version arvioinnin jälkeen kirjoittaja on nyt lähettänyt korjatun version työstään. Arvostaisimme suuresti, jos voisitte auttaa sen arvioinnissa.</p><p>Jos pystytte arvioimaan tämän käsikirjoituksen, arvio on palautettava {$reviewDueDate} mennessä. Voitte tarkastella käsikirjoitusta, lisätä arviointitiedostoja ja lähettää arvion <a href="{$reviewAssignmentUrl}">kirjautumalla julkaisun sivustolle</a> ja seuraamalla järjestelmän antamia ohjeita.</p><p><a href="{$reviewAssignmentUrl}">{$submissionTitle}</a></p><p><b>Abstrakti</b></p>{$submissionAbstract}<p>Olkaa hyvä ja <a href="{$reviewAssignmentUrl}">hyväksykää tai hylätkää</a> arviointipyyntö <b>{$responseDueDate}</b> mennessä.</p><p>Voitte ottaa minuun yhteyttä, jos teillä on kysyttävää käsikirjoituksesta tai arviointiprosessista.</p>Kiitos, että harkitsette tätä arviointipyyntöä.</p><p>Ystävällisin terveisin,</p>{$signature}',
+      'emails.reviewCancel.subject' => 'Arviointipyynnön peruminen',
+      'emails.reviewCancel.body' => '<p>Hyvä {$recipientName},</p><p>Pyysimme teitä hiljattain arvioimaan julkaisulle {$contextName} lähetetyn käsikirjoituksen. Olemme tässä vaiheessa päättäneet perua pyyntömme käsikirjoituksen {$submissionTitle} arvioinnista.</p><p> Pahoittelemme tästä teille mahdollisesti aiheutuvia haittoja, ja toivomme, että voimme tulevaisuudessa pyytää teitä avustamaan julkaisumme arviointiprosessissa.</p><p>Mikäli teillä on kysyttävää, otattehan yhteyttä minuun.</p>{$signature}',
+      'emails.reviewReinstate.subject' => 'Voitteko vielä arvioida julkaisulle {$contextName}?',
+      'emails.reviewReinstate.body' => '<p>Hyvä {$recipientName},</p><p>Peruimme hiljattain pyyntömme arvioida julkaisulle {$contextName} lähetetyn käsikirjoituksen {$submissionTitle}. Olemme peruneet tämän päätöksen, ja toivomme, että voitte edelleen tehdä arvioinnin.</p><p>Jos voitte avustaa tämän käsikirjoituksen arvioinnissa, voitte tarkastella käsikirjoitusta, lisätä arviointitiedostoja ja lähettää arvion <a href="{$reviewAssignmentUrl}">kirjautumalla julkaisun sivustolle</a> ja seuraamalla järjestelmän antamia ohjeita</p><p>Mikäli teillä on kysyttävää, otattehan yhteyttä minuun.</p><p>Ystävällisin terveisin,</p>{$signature}',
+      'emails.reviewDecline.subject' => 'Arviointipyynnön hylkääminen',
+      'emails.reviewDecline.body' => 'Hyvät toimittajat,<br />
+<br />
+En valitettavasti voi tällä kertaa suorittaa käsikirjoituksen &quot;{$submissionTitle}&quot; arviointia julkaisulle {$contextName}. Kiitos, että pyysitte minua tähän tehtävään. Toivon, että otatte vastaisuudessakin minuun yhteyttä arviointeja koskien.<br />
+<br />
+{$senderName}',
+      'emails.reviewRemind.subject' => 'Muistutus käsikirjoituksen arvioinnista',
+      'emails.reviewRemind.body' => '<p>Hyvä {$recipientName},</p><p>Muistuttaisin ystävällisesti pyynnöstämme arvioida käsikirjoitus "{$submissionTitle}" julkaisulle {$contextName}. Toivoimme saavamme arviointinne {$reviewDueDate} mennessä, ja olisimme iloisia, mikäli voisitte lähettää arvioinnin meille heti sen tehtyänne.</p><p>Voitte tarkastella käsikirjoitusta, lisätä arviointitiedostoja ja lähettää arvion <a href="{$reviewAssignmentUrl}">kirjautumalla julkaisun sivustolle</a> ja seuraamalla järjestelmän antamia ohjeita.</p><p>Jos tarvitsette pidennystä määräaikaan, ottakaa yhteyttä minuun. Toivottavasti kuulemme teistä pian.</p><p>Ystävällisin terveisin,</p>{$signature}',
+      'emails.reviewRemindAuto.subject' => 'Muistutus käsikirjoituksen arvioinnista',
+      'emails.reviewRemindAuto.body' => '<p>Hyvä {$recipientName},</p><p>Tämä on automaattinen muistutus julkaisusta {$contextName}, joka koskee käsikirjoituksen "{$submissionTitle}" arviointipyyntöä.</p><p>Odotimme saavamme tämän arvioinnin {$reviewDueDate} mennessä, ja ottaisimme sen mielellämme vastaan heti, kun pystytte sen tekemään.</p><p> Voitte tarkastella käsikirjoitusta, lisätä arviointitiedostoja ja lähettää arvion <a href="{$reviewAssignmentUrl}">kirjautumalla julkaisun sivustolle</a> ja seuraamalla järjestelmän antamia ohjeita.</p><p>Jos tarvitsette pidennystä määräaikaan, ottakaa yhteyttä minuun. Toivottavasti kuulemme teistä pian.</p><p>Ystävällisin terveisin,</p>{$contextSignature}',
+      'emails.editorDecisionAccept.subject' => '{$contextName} on hyväksynyt käsikirjoituksesi',
+      'emails.editorDecisionAccept.body' => '<p>Hyvä {$recipientName},</p><p>Minulla on kunnia ilmoittaa, että olemme päättäneet hyväksyä käsikirjoituksesi. Huolellisen arvioinnin jälkeen katsoimme, että käsikirjoitus {$submissionTitle} täyttää vaatimuksemme. Olemme iloisia voidessamme julkaista käsikirjoituksesi {$contextName}-julkaisussa ja kiitämme sinua siitä, että valitsit julkaisumme.</p><p>Käsikirjoitus tullaan julkaisemaan jossain tulevista numeroistamme, ja voit lisätä sen julkaisuluetteloosi. Käsikirjoituksen hyväksytyksi saaminen on aina kovan työn takana ja haluammekin onnitella sinua tämän vaiheen saavuttamisen johdosta.</p><p> Seuraavaksi käsikirjoituksesi siirtyy tekniseen toimitukseen, jossa se valmistellaan julkaistavaksi.</p><p>Saat pian lisäohjeita.</p><p>Jos sinulla on kysyttävää, ota yhteyttä minuun <a href="{$authorSubmissionUrl}">aloittamalla uusi keskustelu julkaisumme sivustolla</a>.</p><p>Ystävällisin terveisin,</p>{$signature}',
+      'emails.editorDecisionSkipReview.subject' => 'Käsikirjoituksesi on lähetetty tekniseen toimitukseen',
+      'emails.editorDecisionSkipReview.body' => '<p>Hyvä {$recipientName},</p>
+<p>Minulla on kunnia ilmoittaa, että olemme päättäneet hyväksyä käsikirjoituksesi ilman vertaisarviointia. Katsoimme, että käsikirjoitus {$submissionTitle} täyttää vaatimuksemme, emmekä lähetä tämän tyyppisiä tekstejä tavallisesti arvioitavaksi. Olemme iloisia voidessamme julkaista käsikirjoituksesi {$contextName}-julkaisussa ja kiitämme sinua siitä, että valitsit julkaisumme.</p>
+<p>Käsikirjoitus tullaan julkaisemaan jossain tulevista numeroistamme, ja voit lisätä sen julkaisuluetteloosi. Haluamme onnitella sinua tulevasta julkaisusta ja tehdystä työstä.</p>
+<p> Seuraavaksi käsikirjoituksesi siirtyy tekniseen toimitukseen, jossa se valmistellaan julkaistavaksi.</p>
+<p>Saat pian lisäohjeita.</p>
+<p>Jos sinulla on kysyttävää, ota yhteyttä minuun <a href="{$authorSubmissionUrl}">aloittamalla uusi keskustelu julkaisumme sivustolla</a>.</p>
+<p>Ystävällisin terveisin,</p>
+<p>{$signature}</p>
+',
+      'emails.layoutRequest.subject' => 'Käsikirjoitus {$submissionId}/{$contextAcronym} on valmiina tuotantoon',
+      'emails.layoutRequest.body' => '<p>Hyvä {$recipientName},</p><p>Uusi käsikirjoitus on valmiina taitettavaksi:</p><p><a href="{$submissionUrl}">{$submissionId} — {$submissionTitle}</a><br />{$contextName}</p><ol><li>Klikatkaa yllä olevaa käsikirjoituksen URL-osoitetta.</li><li>Ladatkaa omalle tietokoneelle tuotantovalmiit tiedostot ja käyttäkää niitä julkaistavien tiedostojen taittamiseen julkaisun käytäntöjen mukaisesti.</li><li>Ladatkaa valmiit tiedostot kohtaan Julkaiseminen > Julkaistavat tiedostot.</li><li>Ilmoittakaa toimittajalle keskustelutoiminnon kautta, että julkaistavat tiedostot ovat valmiit ja ne on lisätty käsikirjoituksen yhteyteen.</li></ol><p>Mikäli ette voi ryhtyä tähän tehtävään juuri nyt, tai jos teillä on kysyttävää, otattehan minuun yhteyttä. Kiitos panoksestanne tämän julkaisun hyväksi.</p><p>Ystävällisin terveisin,</p>{$signature}',
+      'emails.layoutComplete.subject' => 'Julkaistavat tiedostot valmiita',
+      'emails.layoutComplete.body' => '<p>Hyvä {$recipientName},</p><p>Käsikirjoituksen julkaistavat tiedostot on lisätty ja ne ovat valmiina viimeistä tarkistusta varten.</p><p><a href="{$submissionUrl}">{$submissionTitle}</a><br />{$contextName}</p><p>Mikäli teillä on kysyttävää, otattehan yhteyttä minuun.</p><p>Ystävällisin terveisin,</p><p>{$signature}</p>',
+      'emails.emailLink.subject' => 'Mahdollisesti kiinnostava artikkeli',
+      'emails.emailLink.body' => 'Ajattelin, että sinua saattaisi kiinnostaa artikkeli "{$submissionTitle}", jonka on kirjoittanut {$authors}. Artikkeli on ilmestynyt julkaisussa {$contextName} Vol {$volume} Nro. {$number} ({$year}) ja löytyy osoitteesta "<a href="{$submissionUrl}">{$submissionUrl}</a>".',
+      'emails.emailLink.description' => 'Tämä sähköpostipohja antaa rekisteröidylle lukijalle mahdollisuuden lähettää tietoa artikkelista jollekin, joka saattaa olla kiinnostunut siitä. Se on käytettävissä Lukutyökalujen kautta, ja julkaisun hallinnoijan on otettava se käyttöön Lukutyökalujen hallintasivulla.',
+      'emails.subscriptionNotify.subject' => 'Ilmoitus tilauksesta',
+      'emails.subscriptionNotify.body' => 'Hyvä {$recipientName},<br />
+<br />
+Teidät on nyt rekisteröity julkaisun {$contextName} tilaajaksi online-julkaisunhallintajärjestelmäämme seuraavin tilaustiedoin<br />
+<br />
+{$subscriptionType}<br />
+<br />
+Voidaksenne käyttää sisältöä, joka on vain tilaajien saatavilla, kirjautukaa järjestelmään käyttäjätunnuksellanne,&quot;{$recipientUsername}&quot;.<br />
+<br />
+Kirjauduttuanne sisään järjestelmään voitte muuttaa profiilitietojanne ja salasananne milloin tahansa.<br />
+<br />
+Huomioittehan, että mikäli tilauksenne on instituutiotilaus, käyttäjien ei instituutiossanne tarvitse kirjautua sisään, sillä järjestelmä todentaa tilaussisältöä koskevat pyynnöt automaattisesti.<br />
+<br />
+Jos teillä on kysyttävää, otattehan yhteyttä minuun.<br />
+<br />
+{$subscriptionSignature}',
+      'emails.openAccessNotify.subject' => 'Vapaasti luettavissa: {$issueIdentification} julkaisussa {$contextName} on nyt avoimesti saatavilla',
+      'emails.openAccessNotify.body' => '<p>Hyvö {$recipientName},</p><p>Meillä on ilo ilmoittaa teille, että numero <a href="{$issueUrl}">{$issueIdentification}</a> julkaisussa {$contextName} on nyt avoimesti saatavilla.</p><p>Kiitos mielenkiinnostanne työtämme kohtaan.</p>{$contextSignature}',
+      'emails.subscriptionBeforeExpiry.subject' => 'Ilmoitus tilauksen päättymisestä',
+      'emails.subscriptionBeforeExpiry.body' => 'Hyvä {$recipientName},<br />
+<br />
+{$contextName} -tilauksenne on päättymässä.<br />
+<br />
+{$subscriptionType}<br />
+Tilauksen päättymispäivämäärä: {$expiryDate}<br />
+<br />
+Varmistaaksenne pääsyn tämän julkaisun sisältöön jatkossakin uusikaa tilauksenne julkaisun verkkosivustolla. Voitte kirjautua järjestelmään käyttäjätunnuksellanne &quot;{$recipientUsername}&quot;.<br />
+<br />
+Jos teillä on kysyttävää, otattehan yhteyttä minuun.<br />
+<br />
+{$subscriptionSignature}',
+      'emails.subscriptionAfterExpiry.subject' => 'Tilauksenne on päättynyt',
+      'emails.subscriptionAfterExpiry.body' => 'Hyvä {$recipientName},<br />
+<br />
+{$contextName} -tilauksenne on päättynyt.<br />
+<br />
+{$subscriptionType}<br />
+Tilauksen päättymispäivämäärä: {$expiryDate}<br />
+<br />
+Voitte uusi tilauksenne julkaisun verkkosivustolla, jossa voitte kirjautua järjestelmään käyttäjätunnuksellanne &quot;{$recipientUsername}&quot;.<br />
+<br />
+Jos teillä on kysyttävää, otattehan yhteyttä minuun.<br />
+<br />
+{$subscriptionSignature}',
+      'emails.subscriptionAfterExpiryLast.subject' => 'Tilauksenne on päättynyt - Viimeinen muistutus',
+      'emails.subscriptionAfterExpiryLast.body' => 'Hyvä {$recipientName},<br />
+<br />
+{$contextName} -tilauksenne on päättynyt.<br />
+Huomaattehan, että tämä on viimeinen teille lähetettävä muistutus.<br />
+<br />
+{$subscriptionType}<br />
+Tilauksen päättymispäivämäärä: {$expiryDate}<br />
+<br />
+Voitte uusi tilauksenne julkaisun verkkosivustolla, jossa voitte kirjautua järjestelmään käyttäjätunnuksellanne &quot;{$recipientUsername}&quot;.<br />
+<br />
+Jos teillä on kysyttävää, otattehan yhteyttä minuun.<br />
+<br />
+{$subscriptionSignature}',
+      'emails.subscriptionPurchaseIndl.subject' => 'Yksittäistilauksen osto',
+      'emails.subscriptionPurchaseIndl.body' => 'Julkaisun {$contextName} yksittäistilaus on ostettu verkossa. Tilauksen tiedot:<br />
+<br />
+Tilausvaihtoehto:<br />
+{$subscriptionType}<br />
+<br />
+Käyttäjä:<br />
+{$subscriberDetails}<br />
+<br />
+Jäsenyystiedot (jos annettu):<br />
+{$membership}<br />
+<br />
+Käytäthän seuraavaa URL-osoitetta katsoaksesi tai muokataksesi tätä tilausta:<br />
+<br />
+Tilauksen URL: {$subscriptionUrl}<br />
+',
+      'emails.subscriptionPurchaseInstl.subject' => 'Instituutiotilauksen osto',
+      'emails.subscriptionPurchaseInstl.body' => 'Julkaisun {$contextName} instituutiotilaus on ostettu verkossa alla olevin tiedoin. Aktivoidaksesi tämän tilauksen käytäthän annettua tilauksen URL-osoitetta ja aseta tilauksen tila aktiiviseksi.<br />
+<br />
+Tilausvaihtoehto:<br />
+{$subscriptionType}<br />
+<br />
+Instituutio:<br />
+{$institutionName}<br />
+{$institutionMailingAddress}<br />
+<br />
+Verkkotunnus (domain) (jos annettu):<br />
+{$domain}<br />
+<br />
+IP-osoitealueet (jos annettu):<br />
+{$ipRanges}<br />
+<br />
+Yhteyshenkilö:<br />
+{$subscriberDetails}<br />
+<br />
+Jäsenyystiedot (jos annettu):<br />
+{$membership}<br />
+<br />
+Käytäthän seuraavaa URL-osoitetta katsoaksesi ja muokataksesi tätä tilausta:<br />
+<br />
+Tilauksen URL: {$subscriptionUrl}<br />
+',
+      'emails.subscriptionRenewIndl.subject' => 'Yksittäistilaus uusittu',
+      'emails.subscriptionRenewIndl.body' => 'Julkaisun {$contextName} yksittäistilaus on uusittu verkossa. Tilauksen tiedot:<br />
+<br />
+Tilausvaihtoehto:<br />
+{$subscriptionType}<br />
+<br />
+Käyttäjä:<br />
+{$subscriberDetails}<br />
+<br />
+Jäsenyystiedot (jos saatavilla):<br />
+{$membership}<br />
+<br />
+Käytäthän seuraavaa URL-osoitetta katsoaksesi tai muokataksesi tätä tilausta:<br />
+<br />
+Tilauksen URL: {$subscriptionUrl}<br />
+',
+      'emails.subscriptionRenewInstl.subject' => 'Instituutiotilaus uusittu',
+      'emails.subscriptionRenewInstl.body' => 'Julkaisun {$contextName} instituutiotilaus on uusittu verkossa. Tilauksen tiedot:<br />
+<br />
+Tilausvaihtoehto:<br />
+{$subscriptionType}<br />
+<br />
+Instituutio:<br />
+{$institutionName}<br />
+{$institutionMailingAddress}<br />
+<br />
+Verkkotunnus (domain) (jos annettu):<br />
+{$domain}<br />
+<br />
+IP-osoitealueet (jos annettu):<br />
+{$ipRanges}<br />
+<br />
+Yhteyshenkilö:<br />
+{$subscriberDetails}<br />
+<br />
+Jäsenyystiedot (jos annettu):<br />
+{$membership}<br />
+<br />
+Käytäthän seuraavaa URL-osoitetta katsoaksesi ja muokataksesi tätä tilausta:<br />
+<br />
+Tilauksen URL: {$subscriptionUrl}<br />
+',
+      'emails.revisedVersionNotify.subject' => 'Korjattu versio on ladattu',
+      'emails.revisedVersionNotify.body' => '<p>Hyvä {$recipientName},</p><p>Kirjoittaja on lähettänyt korjauksia käsikirjoitukseen <b>{$authorsShort} — {$submissionTitle}</b>. <p>Pyydämme sinua osoitettuna toimittajana kirjautumaan sisään, <a href="{$submissionUrl}">tarkistamaan tehdyt korjaukset</a> ja tekemään päätöksen siitä, hyväksytkö, hylkäätkö vai lähetätkö käsikirjoituksen uudelleen arvioitavaksi.</p><br><br>—<br>Tämä on automaattinen viesti, jonka lähettäjä on <a href="{$contextUrl}">{$contextName}</a>.',
+      'emails.statisticsReportNotification.subject' => 'Toimitustyötä koskeva raportti {$month}/{$year}',
+      'emails.statisticsReportNotification.body' => '
+{$recipientName}, <br />
+<br />
+Toimitustyön raportti {$month}/{$year} on nyt valmis. Kuukautta koskevat keskeiset luvut ovat alla.<br />
+<ul>
+	<li>Uudet käsikirjoitukset: {$newSubmissions}</li>
+	<li>Hylätyt käsikirjoitukset: {$declinedSubmissions}</li>
+	<li>Hyväksytyt käsikirjoitukset: {$acceptedSubmissions}</li>
+	<li>Käsikirjoitusten kokonaismäärä: {$totalSubmissions}</li>
+</ul>
+Kirjaudu julkaisuun nähdäksesi yksityiskohtaisemmat <a href="{$editorialStatsLink}">toimitustyön tilastot</a> ja <a href="{$publicationStatsLink}">julkaistujen artikkeleiden tilastot</a>. Kopio tämän kuun toimitustyön tilastoista on liitteenä.<br />
+<br />
+Terveisin,<br />
+{$contextSignature}',
+      'emails.announcement.subject' => '{$announcementTitle}',
+      'emails.announcement.body' => '<b>{$announcementTitle}</b><br />
+<br />
+{$announcementSummary}<br />
+<br />
+Verkkosivuillamme voit lukea <a href="{$announcementUrl}">koko ilmoituksen</a>.',
+      'emails.paymentRequestNotification.subject' => 'Ilmoitus maksupyynnöstä',
+      'emails.paymentRequestNotification.body' => '<p>Hyvä {$recipientName},</p><p>Onnittelut käsikirjoituksesi {$submissionTitle} hyväksymisen johdosta julkaisussa {$contextName}. Nyt kun käsikirjoituksesi on hyväksytty julkaistavaksi, pyydämme sinua maksamaan julkaisumme kirjoittajamaksun.</p><p>Tällä maksulla katetaan käsikirjoituksesi toimittamiseen ja julkaisemiseen liittyvät kustannukset. Voit suorittaa maksun osoitteessa <a href="{$queuedPaymentUrl}">{$queuedPaymentUrl}</a>.</p><p>Jos sinulla on kysyttävää, tutustu meidän <a href="{$submissionGuidelinesUrl}">kirjoittajaohjeisiin</a>.</p>',
+      'emails.paymentRequestNotification.footer' => '<br><br>—<br>Tämä on automaattinen viesti, jonka lähettäjä on <a href="{$contextUrl}">{$contextName}</a>.',
+      'emails.citationEditorAuthorQuery.subject' => 'Viittausten muokkaus',
+      'emails.citationEditorAuthorQuery.body' => 'Hyvä {$recipientName},<br />
+<br />
+Voisitteko ystävällisesti vahvistaa seuraavan artikkelissanne {$submissionTitle} olevan lähdeviitteen tai antaa oikean viittauksen:<br />
+<br />
+{$rawCitation}<br />
+<br />
+Kiitos!<br />
+<br />
+{$senderName}<br />
+Tekninen toimittaja, {$contextName}<br />
+',
+    ),
+  ),
+);

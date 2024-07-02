@@ -1,0 +1,15 @@
+<?php $exp = 1751345597; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.recommendBySimilarity.displayName' => '"Ұсынылған мақалалар" модулі',
+      'plugins.generic.recommendBySimilarity.description' => 'Плагин ұқсас мақалаларды мақала аңдатпасы орналасқан бетке орналастырады.',
+      'plugins.generic.recommendBySimilarity.heading' => 'Ұқсас мақалалар',
+      'plugins.generic.recommendBySimilarity.advancedSearchIntro' => 'Бұл мақала үшін {$advancedSearchLink}.',
+      'plugins.generic.recommendBySimilarity.advancedSearch' => 'Кеңейтілген нұсқалар бойынша ұқсас мақалаларды іздеу',
+    ),
+  ),
+);

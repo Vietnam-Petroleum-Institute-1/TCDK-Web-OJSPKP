@@ -1,0 +1,37 @@
+<?php $exp = 1751345594; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.importexport.datacite.displayName' => 'إضافة التصدير/التسجيل DataCite',
+      'plugins.importexport.datacite.description' => 'تصدير أو استيراد البيانات الوصفية للأعداد، المقالات، الألواح الطباعية، والملفات التكميلية بصيغة DataCite.',
+      'plugins.importexport.datacite.settings.description' => 'لطفاً، <a href="{$settingsUrl}">عرف</a> إضافة التصدير DataCite قبل استعمالها للمرة الأولى.',
+      'plugins.importexport.datacite.intro' => '
+		إذا أردت تسجيل DOI مع DataCite، لطفاً، تواصل مع الوكيل الإداري
+		عبر <a href="https://datacite.org/contact.html" target="_blank">الصفحة الرئيسية DataCite
+		</a>، الذي سيقوم بتوجيهك إلى العضو المحلي لـ DataCite. بمجرد تأسيسك
+		لعلاقة مع منظمة هذا العضو، سيتم منحك حق الوصول إلى خدمة DataCite
+		لمنح معرفات دائمية (DOIs) وتسجيل البيانات الوصفية ذات الصلة. إن لم تمتلك
+		اسم المستخدم وكلمة المرور الخاصين لك، سيكون بإمكانك أيضاً التصدير
+		إلى DataCite بصيغة XML لكن لن تستطيع تسجيل DOI الخاصة بك مع DataCite
+		من داخل نظام المجلات المفتوحة.
+		لطفاً، لاحظ أن كلمة المرور سيتم حفظها بشكل نص صريح غير مشفر نظراً لمتطلبات
+		خدمة التسجيل في DataCite.
+	',
+      'plugins.importexport.datacite.settings.form.username' => 'اسم المستخدم (الرمز)',
+      'plugins.importexport.datacite.settings.form.usernameRequired' => 'لطفاً، أدخل اسم المستخدم (الرمز) الذي حصلت عليه من DataCite. لا ينبغي أن يتضمن اسم المستخدم على علامات تنقيط.',
+      'plugins.importexport.datacite.settings.form.automaticRegistration.description' => 'نظام المجلات المفتوحة سيقوم تلقائياً بإيداع DOIs في DataCite بمجرد نشر المقالات. لطفاً، لاحظ أن ذلك قد يستغرق وقتاً قصيراً بعد النشر بسبب متطلبات المعالجة (أي اعتماداً على إعداداتك للإضافة cronjob). بإمكانك التحقق من وجود DOIs غير مسجلة عبر <a href="{$unregisteredURL}">قائمة المؤلفات غير المسجلة</a>.',
+      'plugins.importexport.datacite.settings.form.testMode.description' => 'استعمل بادئة إختبار DataCite لتسجيل المكون الرقمي DOI. لطفاً، لا تنس إزالة هذا الخيار عند التشغيل الفعلي.',
+      'plugins.importexport.datacite.settings.form.testUsername' => 'اسم المستخدم التجريبي',
+      'plugins.importexport.datacite.settings.form.testPassword' => 'كلمة المرور التجريبية',
+      'plugins.importexport.datacite.settings.form.testDOIPrefix' => 'بادئة DOI التجريبية',
+      'plugins.importexport.datacite.senderTask.name' => 'مهمة التسجيل التلقائي لـ DataCite',
+      'plugins.importexport.datacite.cliUsage' => 'الاستعمال: 
+{$scriptName} {$pluginName} export xmlFileName journal_path {issues|articles|galleys|suppfiles} objectId1 [objectId2] ...
+{$scriptName} {$pluginName} register journal_path {issues|articles|galleys|suppfiles} objectId1 [objectId2] ...
+',
+    ),
+  ),
+);

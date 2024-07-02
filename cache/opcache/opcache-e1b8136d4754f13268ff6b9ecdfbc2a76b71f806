@@ -1,0 +1,78 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n != 1;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'installer.additionalLocales' => 'További nyelvek',
+      'installer.administratorAccount' => 'Adminisztrátori Fiók',
+      'installer.administratorAccountInstructions' => 'Ez a felhasználói fiók lesz az oldal adminisztrátoráé, teljes hozzáféréssel a rendszerhez. További felhasználói fiókok a telepítés után hozhatók létre .',
+      'installer.checkNo' => '<span class="pkp_form_error formError">NEM</span>',
+      'installer.checkYes' => 'Igen',
+      'installer.configFileError' => 'A konfigurációs fájl <tt>config.inc.php</tt> nem létezik vagy nem olvasható.',
+      'installer.connectionCharset' => 'Kapcsolati karakterbeállítás',
+      'installer.contentsOfConfigFile' => 'A konfigurációs fájl tartalma',
+      'installer.databaseDriver' => 'Adatbázis illesztőprogram',
+      'installer.databaseDriverInstructions' => '<strong>A rendszer jelenleg támogatja a MySQL-t és a PostgreSQL-t is, abban az esetben, ha nem tudja kiválasztani az alábbi lehetőségek egyikét sem, lépjen kapcsolatba a rendszergazdával, hogy megbizonyosodjon arról, hogy a szerver rendelkezik-e a szükséges PHP kiterjesztésekkel.</strong>',
+      'installer.databaseHost' => 'Kiszolgáló',
+      'installer.databaseHostInstructions' => 'Hagyja üresen  a hostnevet ha domain socket-et használatával szeretne csatlakozni a TCP/IP protokoll helyett. Ez nem szükséges a MySQL-lel, amely automatikusan "socket" -et használ, ha a "localhost" be van írva, de más adatbázis-kiszolgálókkal, például a PostgreSQL-lel szükséges.',
+      'installer.databaseName' => 'Adatbázisnév',
+      'installer.databasePassword' => 'Jelszó',
+      'installer.databaseSettings' => 'Adatbázis beállítások',
+      'installer.databaseUsername' => 'Felhasználónév',
+      'installer.filesDir' => 'Feltöltési alkönyvtár',
+      'installer.fileSettings' => 'Fájlbeállítások',
+      'installer.form.clientCharsetRequired' => 'Egy kliens karakterkódolás kiválasztása szükséges.',
+      'installer.form.databaseDriverRequired' => 'Egy adatbázis karakterkódolás kiválasztása szükséges.',
+      'installer.form.databaseNameRequired' => 'Adatbázisnév megadása kötelező.',
+      'installer.form.emailRequired' => 'Egy érvényes e-mail cím megadása az adminisztrátori fiók számára kötelező.',
+      'installer.form.filesDirRequired' => 'Egy feltöltött fájlok tárolására szolgáló könyvtár megadása kötelező.',
+      'installer.form.localeRequired' => 'Nyelvi beállítás kiválasztása kötelező.',
+      'installer.form.passwordRequired' => 'Az adminisztrátori fiókhoz tartozó jelszó megadása kötelező.',
+      'installer.form.passwordsDoNotMatch' => 'Az adminisztrátori jelszavak nem egyeznek.',
+      'installer.form.separateMultiple' => 'A különböző értékeket vesszővel válassza el',
+      'installer.form.usernameAlphaNumeric' => 'Az adminisztrátor felhasználóneve csak alfanumerikus karaktereket, alulhúzásokat, kötöjeleket tartalmazhat, de csak alfanumerikus karakterekekkel kezdődhet és végződhet.',
+      'installer.form.usernameRequired' => 'Egy felhasználónév megadása az adminisztrátori fiók számára kötelező.',
+      'installer.form.timeZoneRequired' => 'Az időzónát ki kell választani.',
+      'installer.installationWrongPhp' => '<br/><strong>FIGYELMEZTETÉS: A PHP jelenlegi verziója nem felel meg a telepítés minimális követelményeinek. Javasoljuk, hogy frissítsen egy újabb PHP kiadásra.</strong>',
+      'installer.installErrorsOccurred' => 'Hiba történt a telepítés során',
+      'installer.installerSQLStatements' => 'SQL utasítások a telepítéshez',
+      'installer.installFileError' => 'A telepítési fájl <tt>dbscripts/xml/install.xml</tt> nem létezik vagy nem olvasható.',
+      'installer.installFilesDirError' => 'Az alkönyvtár, amelyet a fájlfeltöltéshez megadott vagy nem létezik vagy nem írható.',
+      'installer.installParseDBFileError' => 'Hiba történt az adatbázis telepítési fájljában <tt>{$file}</tt>.',
+      'installer.installMigrationError' => 'Váratlan hiba lépett fel ennek a migrációs osztálynak <tt>{$class}</tt> végrehajtása során. A  hiba ez volt: {$message}.',
+      'installer.installParseEmailTemplatesFileError' => 'Hiba történt az e-mail sablonfájl elemzése során <tt>{$file}</tt>.',
+      'installer.installParseFilterConfigFileError' => 'Hiba történt a szűrők konfigurációs fájljában <tt>{$file}</tt>.',
+      'installer.unsupportedUpgradeError' => 'Frissítés nem támogatott. Lásd a docs/UPGRADE-UNSUPPORTED fájlt a részletekért.',
+      'installer.timezoneInstructions' => 'A rendszerhez használandó időzóna.',
+      'installer.additionalLocalesInstructions' => 'Válasszon ki további nyelveket a rendszer használatához. További nyelvek bármikor installálhatók a webhely adminisztrátori felületéről.<br>* jelöli azokat a nyelveket, amelyek nincsenek teljesen lefordítva (a kifejezéseknek > 90%-a  van lefordítva)',
+      'installer.locale' => 'Nyelvi fájlok',
+      'installer.locale.maybeIncomplete' => 'A jelölt nyelvi fájlok befejezetlenek lehetnek.',
+      'installer.localeSettings' => 'Nyelvi beállítások',
+      'installer.oaiSettings' => 'OAI beállítások',
+      'installer.oaiRepositoryIdInstructions' => 'Egyedi azonosítót használunk az erről az oldalról származó metaadat rekordok azonosításához <a href="http://www.openarchives.org/" target="_blank"> Open Archives Initiative</a> protokoll által történő metaadat aratáshoz.',
+      'installer.oaiRepositoryId' => 'Repozitórium azonosító',
+      'installer.publicFilesDirError' => 'A nyilvános fájlok könyvtára nem létezik, vagy nem írható.',
+      'installer.releaseNotes' => 'Kiadási megjegyzések',
+      'installer.preInstallationInstructionsTitle' => 'Telepítés előtti lépések',
+      'installer.preInstallationInstructions' => '
+		<p>1. A következő fájlokat és könyvtárakat (és azok tartalmát) írhatóvá kell tenni:</p>
+<ul>
+<li><tt> config.inc.php</tt> írható (opcionális): {$writable_config}</li>
+<li><tt>public/</tt> írható: {$writable_public}</li>
+<li><tt>cache/</tt> írható: {$writable_cache}</li>
+<li><tt>cache/t_cache/</tt> írható: {$writable_templates_cache} </li>
+<li><tt>cache/t_compile/</tt> írható: {$writable_templates_compile}</li>
+<li><tt> cache/_db</tt> írható: {$writable_db_cache} </li>
+</ul>
+
+<p> 2. A feltöltött fájlok tárolására szolgáló könyvtárat létre kell hozni és írhatóvá kell tenni (lásd alább: "Fájlbeállítások"). </ p>
+	',
+      'installer.configureXSLMessage' => '<p>A PHP telepítésének nincs engedélyezve az XSL modul. Vagy engedélyezze, vagy konfigurálja az xslt_command paramétert a config.inc.php fájlban.</p>',
+      'installer.beacon' => 'Jeladó',
+      'installer.beacon.enable' => 'Egyedi oldal azonosítót és OAI base URL-t biztosít a PKP részére, kizárólag statisztikai és biztonsági figyelmeztetés céljából.',
+      'installer.unsupportedPhpError' => 'Nem támogatott szerver oldali PHP verzió. Ellenőrizze a telepítési követelményeket  a docs/README könyvtárban.',
+    ),
+  ),
+);

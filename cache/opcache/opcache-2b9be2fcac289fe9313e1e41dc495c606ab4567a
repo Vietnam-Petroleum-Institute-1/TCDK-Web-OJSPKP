@@ -1,0 +1,66 @@
+<?php $exp = 1751345596; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=2; plural=n % 10 != 1 || n % 100 == 11;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'emails.passwordResetConfirm.subject' => 'Staðfesting á endurstillingu lykilorðs',
+      'emails.passwordResetConfirm.body' => 'Við höfum móttekið beiðni um breytingu  á lykilorðinu þínu á vefsíðu tímaritsins {$siteTitle} .<br />
+<br />
+Ef beiðnin er ekki frá þér, getur þú horft framhjá þessum pósti og lykilorðinu verður ekki breytt.  Ef þú óskar eftir að breyta lykilorði þínu smelltu þá á vefslóðina hér fyrir neðan.<br />
+<br />
+Breyta lykilorði: {$passwordResetUrl}<br />
+<br />
+{$siteContactName}',
+      'emails.userRegister.subject' => 'Tímarit - skráning',
+      'emails.userRegister.body' => '{$recipientName}<br />
+<br />
+Þú ert nú skráður notandi hjá {$contextName}. Notendanafn þitt og lykilorð er neðar í þessum tölupósti, þú þarft að nota það í allri vinnu með þessu tímariti. Þú getur hvenær sem er beðið um að vera fjarlægð(ur/t) af lista yfir notendur hjá tímaritinu  með því að hafa samband við okkur.<br />
+<br />
+Notendanafn: {$recipientUsername}<br />
+Lykilorð: {$password}<br />
+<br />
+Með kærri þökk,<br />
+{$signature}',
+      'emails.userValidateContext.subject' => 'Staðfesting reiknings',
+      'emails.userValidateContext.body' => '{$recipientName}<br />
+<br />
+Þú hefur stofnað notandareikning hjá {$contextName}, en áður en þú getur byrjað að nota reikninginn þarftu að staðfesta netfang þitt. Til að gera það smelltu á tengilinn hér fyrir neðan: <br />
+<br />
+{$activateUrl}<br />
+<br />
+Með kærri þökk,<br />
+{$contextSignature}',
+      'emails.userValidateSite.subject' => 'Staðfesting reiknings',
+      'emails.userValidateSite.body' => '{$recipientName}<br />
+<br />
+Þú hefur stofnað notandareikning hjá {$siteTitle}, en áður en þú getur byrjað að nota reikninginn þarftu að staðfesta netfang þitt. Til að gera það smelltu á tengilinn hér fyrir neðan: <br />
+<br />
+{$activateUrl}<br />
+<br />
+Með kærri þökk,<br />
+{$siteSignature}',
+      'emails.reviewerRegister.subject' => 'Skráning sem ritrýnir hjá {$contextName}',
+      'emails.reviewerRegister.body' => 'Í ljós sérfræðiþekkingar þinnar höfum við leyft okkur að skrá nafn þitt á lista yfir ritrýna hjá {$contextName}. Í þessu felst engin skuldbinding fyrir þig, en gerir okkur hins vegar kleift að nálgast þig með handrit fyrir mögulega ritrýni. Verði óskað eftir ritrýni frá þér getur þú skoðað titil og úrdrátt handritsins og samþykkt eða hafnað hverri beiðni um ritrýni. Þú getur einnig hvenær sem er beðið um að nafn þitt verði farlægt af lista yfir ritrýna.<br />
+<br />
+Við sendum þér notendanafn og lykilorð, sem þarf að nota í allri vinnu með tímaritinu. Þú gætir t.d. viljiað uppfæra gögn þín og skrá áhugasvið fyrir ritrýni. <br />
+<br />
+Notendanafn: {$recipientUsername}<br />
+Lykilorð: {$password}<br />
+<br />
+Með kærri þökk,<br />
+{$signature}',
+      'emails.issuePublishNotify.subject' => 'Nýtt tölublað er komið út: {$issueIdentification}',
+      'emails.issuePublishNotify.body' => '<p>Kæri lesandi,</p><p>{$contextName} getur nú með ánægju tilkynnt um útgáfu á nýju tölublaði: {$issueIdentification}.  Þér býðst nú að skoða efnisyfirlitið og þær greinar og efni sem þú hefur áhuga á. Höfundum, ritrýnum, ritstjórum og öðrum þeim sem komu að útgáfu tölublaðsins eru færðar bestu þakkir fyrir þeirra framlag. Við þökkum þér líka lesandi góður fyrir þinn áhuga á að fylgjast með tímaritinu. </p><p>Með kærri kveðju,</p>{$signature}',
+      'emails.editorAssign.subject' => 'Þér hefur verið úthlutað sem ritstjóra á innsendingu í  {$contextName}',
+      'emails.editorAssign.body' => '<p>Kæri móttakandi  {$recipientName},</p><p>Eftirfarndi innsendingu hefur verið úthlutað þér til utanumhalds í gengum ritstjórnarferlið. </p><p><a href="{$submissionUrl}">{$submissionTitle}</a><br />{$authors}</p><p>If Innsendingin er fyrir {$contextName}. Vinsamlega sendu innsendinguna áfram á ritrýniþrep með því að velja  "Senda í ritrýni" og úthluta ritrýni með því að smella á "Bæta við ritirýni".</p><p>Ef þessi innsending hentar ekki fyrir tímaritið þá vinsamlega hafnaðu henni.</p><p>Með fyrirfram þökk.</p><p>Bestu kveðjur,</p>{$contextSignature}',
+      'emails.reviewRequest.subject' => 'Boð um ritrýni',
+      'emails.reviewRequest.body' => '<p>Kæri/Kæra {$recipientName},</p><p>Við höldum að þú gætir verið frábær ritrýnir fyrir handrit í {$contextName}. Titill handritsins og útdráttur er hér fyrir neðan og við vonum að þú íhugir að taka að þér þetta verkefni fyrir okkur. </p><p>Ef þú sérð þér fært að ritrýna þetta handrit, er skiladagur ritrýninnar {$reviewDueDate}. Þú getur skoðað innsent efni, hlaðið upp ritrýniskrá og skilað ritrýninni með því að skrá þig inn á vefsíðu tímaritsins um tengilinn hér fyrir neðan og fylgja skráningarskrefunum.</p><p><a href="{$reviewAssignmentUrl}">{$submissionTitle}</a></p><p>Úrdráttur</p>{$submissionAbstract}<p>Vinsamlega samþykktu eða hafnaðu þessari beiðni um ritrýni fyrir {$responseDueDate}</p><p>Ekki hika við að hafa samband við okkur ef þú ert með spurningar varðandi handritið eða ritrýniferlið. </p><p>Með kærri þökk fyrir að skoða þessa beiðni.  Við kunnum vel að meta alla aðstoð frá þér. </p><p>Bestu kveðjur,</p>{$signature}',
+      'emails.reviewResponseOverdueAuto.subject' => 'Hefur þú tök á að ritrýna þetta fyrir okkur?',
+      'emails.reviewResponseOverdueAuto.body' => '<p>Kæri/Kæra {$recipientName},</p><p>Þetta er sjálfvirk áminning frá  {$contextName}  í tengslum við beiðni um ritrýni á handriti, "{$submissionTitle}."</p><p>Þú færð þennan póst vegna þess að við höfum ekki fengið staðfestingu frá þér af eða á um hvort þú hafir tök á að taka að þér ritýni á þessu handriti.</p><p>Okkur þætti vænt um að þú létir okkur vita hvort þú getir tekið þetta að þér eða ekki með því að hafna eða samþykkja verkefnið í gengum kerfið okkar á vefsíðu tímartsins.</p><p>Ef þú sérð þér fært að ritrýna þetta handrit, þá er skiladagur ritrýninnar {$reviewDueDate}. Í gengum heimasíðu tímartisins getur þú skoðað innsent efni, hlaðið upp ritrýniskrá og sent inn athugasemdir þínar.</p><p>{$submissionTitle}</p><p>Útdráttur</p>{$submissionAbstract}<p>Ekki hika við að hafa samband við okkur ef þú hefur einhverjar spurningar um handritið eða ritrýniferlið.</p><p>Takk fyrir að íhuga þessa beiðni, við kunnum vel að meta alla aðstoð frá þér. </p><p>Bestu kveðjur,</p>{$contextSignature}',
+      'emails.editorDecisionAccept.subject' => 'Handrit þitt hefur verið samþykkt fyrir {$contextName}',
+      'emails.editorDecisionAccept.body' => '<p>Kæri/Kæra {$recipientName},</p><p>Það er okkur ánægja að tilkynna þér að að við höfum ákveðið að samþykkja handritið þitt án frekari breytinga. Eftir vandlega yfirferð höfum við komist að þeirri niðurstöðu að handritið  {$submissionTitle}, uppfylli eða fari framúr væntingum okkar.  Okkur er það mikil ánægja að birta verkið í {$contextName} og við þökkum þér fyrir að velja tímaritið.</p><p> Handrit þitt mun birtast í komandi tölublaði {$contextName} og þér er velkomið að bæta því á lista yfir útgefin verk. Við gerum okkur grein fyrir þeirri miklu vinnu sem fer í hverja vel heppnaða innseda grein og við óskum þér innilega til hamingju með verkið. </p><p>Greinin fer nú í loka yfirferð og umbrot til að undirbúa birtingu. </p><p>Þú færð fljótlega frekari upplýsingar.</p><p>Ef þú hefur einhverjar spurningar ekki hika við að hafa samband við okkur í gegnum vefsíðu tímaritisins:  <a href="{$submissionUrl}">Yfirlit yfir innsendingu</a>.</p><p>Bestu kveðjur,</p>{$signature}',
+    ),
+  ),
+);
