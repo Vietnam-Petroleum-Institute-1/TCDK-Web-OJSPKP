@@ -23,8 +23,10 @@
 # # Start PHP's built-in server
 # CMD ["php", "-S", "0.0.0.0:8000"]
 
-# Sử dụng image PHP với Apache
-FROM php:8.2-apache
+
+
+# Sử dụng image PHP
+FROM php:8.2-cli
 
 # Cài đặt các gói cần thiết
 RUN apt-get update && apt-get install -y \
@@ -38,9 +40,6 @@ RUN curl -sSLf \
         https://github.com/mlocati/docker-php-extension-installer/releases/latest/download/install-php-extensions && \
     chmod +x /usr/local/bin/install-php-extensions && \
     install-php-extensions mysqli intl pdo_mysql
-
-# Kích hoạt Apache mod_rewrite
-RUN a2enmod rewrite
 
 # Thiết lập thư mục làm việc
 WORKDIR /var/www/html
@@ -65,15 +64,15 @@ mysql -e "CREATE USER IF NOT EXISTS '"'"'$MYSQL_USER'"'"'@'"'"'localhost'"'"' ID
 mysql -e "GRANT ALL PRIVILEGES ON $MYSQL_DATABASE.* TO '"'"'$MYSQL_USER'"'"'@'"'"'localhost'"'"';"\n\
 mysql -e "FLUSH PRIVILEGES;"\n\
 \n\
-# Khởi động Apache\n\
-apache2-foreground' > /usr/local/bin/docker-entrypoint.sh \
+# Khởi động PHP built-in server\n\
+php -S 0.0.0.0:8000' > /usr/local/bin/docker-entrypoint.sh \
     && chmod +x /usr/local/bin/docker-entrypoint.sh
 
-# Expose cổng 80 (Apache mặc định)
-EXPOSE 80
+# Expose cổng 8000
+EXPOSE 8000
 
 # Sử dụng script khởi động làm entrypoint
 ENTRYPOINT ["/usr/local/bin/docker-entrypoint.sh"]
 
-# Thêm CMD để chỉ định lệnh mặc định khi container khởi động
-CMD ["apache2-foreground"]
+# Chỉ định lệnh mặc định khi container khởi động
+CMD ["php", "-S", "0.0.0.0:8000"]
