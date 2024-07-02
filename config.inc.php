@@ -146,7 +146,7 @@ sandbox = Off
 [database]
 
 driver = mysqli
-host = localhost
+host = db
 username = tcdk
 password = 167@Trungkinh
 name = tcdkdb
