@@ -17,7 +17,7 @@ services:
       MYSQL_ROOT_PASSWORD: 167@Trungkinh
       MYSQL_DATABASE: ojs
       MYSQL_USER: ojs
-      MYSQL_PASSWORD: ojs
+      MYSQL_PASSWORD: 167@Trungkinh
     volumes:
       - db_data:/var/lib/mysql
 
