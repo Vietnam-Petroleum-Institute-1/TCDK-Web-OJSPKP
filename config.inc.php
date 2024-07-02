@@ -97,7 +97,7 @@ restful_urls = On
 ; An empty string indicates that all hosts should be trusted (not recommended!)
 ; Example:
 ; allowed_hosts = '["myjournal.tld", "anotherjournal.tld", "mylibrary.tld"]'
-allowed_hosts = '["143.198.85.29", "143.198.85.29:8688", "localhost"]'
+allowed_hosts = '["103.167.198.31", "103.167.198.31:6789", "localhost"]'
 
 ; Allow the X_FORWARDED_FOR header to override the REMOTE_ADDR as the source IP
 ; Set this to "On" if you are behind a reverse proxy and you control the X_FORWARDED_FOR
@@ -147,9 +147,9 @@ sandbox = Off
 
 driver = mysqli
 host = localhost
-username = ojs
-password = ojs
-name = ojs
+username = tcdk
+password = 167@Trungkinh
+name = tcdkdb
 
 ; Set the non-standard port and/or socket, if used
 ; port = 3306
