@@ -22,4 +22,4 @@ services:
       - db_data:/var/lib/mysql
 
 volumes:
-  db_data:
+  tcdk_db_data:
