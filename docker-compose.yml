@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  tcdk-php:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: tcdk-php
+    ports:
+      - '6789:8000'
+    volumes:
+      - .:/var/www/html
+    restart: unless-stopped
