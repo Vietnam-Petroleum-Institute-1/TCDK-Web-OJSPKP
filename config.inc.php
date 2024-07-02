@@ -97,7 +97,7 @@ restful_urls = On
 ; An empty string indicates that all hosts should be trusted (not recommended!)
 ; Example:
 ; allowed_hosts = '["myjournal.tld", "anotherjournal.tld", "mylibrary.tld"]'
-allowed_hosts = '["103.167.198.31", "103.167.198.31:6791", "localhost", "iogsgck.103.167.198.31.sslip.io"]'
+allowed_hosts = '["103.167.198.31", "103.167.198.31:6792", "localhost", "iogsgck.103.167.198.31.sslip.io"]'
 
 ; Allow the X_FORWARDED_FOR header to override the REMOTE_ADDR as the source IP
 ; Set this to "On" if you are behind a reverse proxy and you control the X_FORWARDED_FOR
